@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="13.697">
+    <testcase classname="Att HomePage Functionality check" name="Att SearchBox Functionality check with valid data" time="13.343">
+        <system-out>
+            <![CDATA[Given I am in at&t homepage.................................................passed
+And I enter Samsung Phones in searchBox.....................................passed
+When I click searchButton...................................................passed
+Then I verify Samsung Phones is appear properly.............................passed
+And I verify page title as Samsung Phones...................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

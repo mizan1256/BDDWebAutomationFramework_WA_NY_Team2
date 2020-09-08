@@ -1,0 +1,92 @@
+[
+  {
+    "source": "I am in at\u0026t homepage",
+    "steps": [
+      {
+        "name": "I am in at\u0026t homepage",
+        "aggregatedDurations": {
+          "median": 8.5554906,
+          "average": 8.5554906
+        },
+        "durations": [
+          {
+            "duration": 8.5554906,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter Samsung Phones in searchBox",
+    "steps": [
+      {
+        "name": "I enter Samsung Phones in searchBox",
+        "aggregatedDurations": {
+          "median": 0.6209245,
+          "average": 0.6209245
+        },
+        "durations": [
+          {
+            "duration": 0.6209245,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click searchButton",
+    "steps": [
+      {
+        "name": "I click searchButton",
+        "aggregatedDurations": {
+          "median": 2.4568749,
+          "average": 2.4568749
+        },
+        "durations": [
+          {
+            "duration": 2.4568749,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify Samsung Phones is appear properly",
+    "steps": [
+      {
+        "name": "I verify Samsung Phones is appear properly",
+        "aggregatedDurations": {
+          "median": 0.3408599,
+          "average": 0.3408599
+        },
+        "durations": [
+          {
+            "duration": 0.3408599,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify page title as Samsung Phones",
+    "steps": [
+      {
+        "name": "I verify page title as Samsung Phones",
+        "aggregatedDurations": {
+          "median": 0.283052,
+          "average": 0.283052
+        },
+        "durations": [
+          {
+            "duration": 0.283052,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:11"
+          }
+        ]
+      }
+    ]
+  }
+]

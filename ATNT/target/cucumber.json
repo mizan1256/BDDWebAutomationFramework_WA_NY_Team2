@@ -1,0 +1,158 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-09-08T04:07:58.333Z",
+        "line": 6,
+        "name": "Att SearchBox Functionality check with valid data",
+        "description": "",
+        "id": "att-homepage-functionality-check;att-searchbox-functionality-check-with-valid-data",
+        "after": [
+          {
+            "result": {
+              "duration": 957880300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.HomePageStepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8555490600,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 28903800,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.HomePageStepDefinition.getInIt()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "I am in at\u0026t homepage",
+            "match": {
+              "location": "stepdefinitions.HomePageStepDefinition.i_am_in_at_t_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 620924500,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 996700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.HomePageStepDefinition.getInIt()"
+                }
+              }
+            ],
+            "line": 8,
+            "name": "I enter Samsung Phones in searchBox",
+            "match": {
+              "location": "stepdefinitions.HomePageStepDefinition.i_enter_samsung_phones_in_search_box()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2456874900,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 998600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.HomePageStepDefinition.getInIt()"
+                }
+              }
+            ],
+            "line": 9,
+            "name": "I click searchButton",
+            "match": {
+              "location": "stepdefinitions.HomePageStepDefinition.i_click_search_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 340859900,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1001500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.HomePageStepDefinition.getInIt()"
+                }
+              }
+            ],
+            "line": 10,
+            "name": "I verify Samsung Phones is appear properly",
+            "match": {
+              "location": "stepdefinitions.HomePageStepDefinition.i_verify_samsung_phones_is_appear_properly()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 283052000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 999800,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.HomePageStepDefinition.getInIt()"
+                }
+              }
+            ],
+            "line": 11,
+            "name": "I verify page title as Samsung Phones",
+            "match": {
+              "location": "stepdefinitions.HomePageStepDefinition.i_verify_page_title_as_samsung_phones()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          },
+          {
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "Att HomePage Functionality check",
+    "description": "  Att search functionality\n  Att login functionality",
+    "id": "att-homepage-functionality-check",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/HomePage.feature",
+    "tags": []
+  }
+]

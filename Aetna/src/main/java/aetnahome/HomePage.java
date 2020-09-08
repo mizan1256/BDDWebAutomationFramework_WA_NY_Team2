@@ -1,5 +1,8 @@
 package aetnahome;
 
-public class HomePage {
+import common.WebAPI;
+
+public class HomePage extends WebAPI {
+
 
 }
