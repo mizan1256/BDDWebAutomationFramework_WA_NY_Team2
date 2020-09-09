@@ -1,0 +1,8 @@
+
+@SmokeTest
+Scenario: TripAdvisor SearchBox Functionality check with valid data # src/test/java/features/TripAdvisor.feature:12
+  Given I am in TripAdvisor homepage                                # stepdefinitions.TripAdvisorStepDefinition.i_am_in_trip_advisor_homepage()
+  And I click Hotels Button in homepage                             # stepdefinitions.TripAdvisorStepDefinition.i_click_hotels_button_in_homepage()
+  When I enter on Paris in searchBox                                # stepdefinitions.TripAdvisorStepDefinition.i_enter_on_paris_in_search_box()
+  And I verify Paris hotels is appear properly                      # stepdefinitions.TripAdvisorStepDefinition.i_verify_paris_hotels_is_appear_properly()
+  When I verify page title                                          # stepdefinitions.TripAdvisorStepDefinition.i_verify_page_title()

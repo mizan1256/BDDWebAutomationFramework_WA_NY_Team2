@@ -1,0 +1,92 @@
+[
+  {
+    "source": "I am in TripAdvisor homepage",
+    "steps": [
+      {
+        "name": "I am in TripAdvisor homepage",
+        "aggregatedDurations": {
+          "median": 7.2086241,
+          "average": 7.2086241
+        },
+        "durations": [
+          {
+            "duration": 7.2086241,
+            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TripAdvisor/src/test/java/features/TripAdvisor.feature:3"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click Hotels Button in homepage",
+    "steps": [
+      {
+        "name": "I click Hotels Button in homepage",
+        "aggregatedDurations": {
+          "median": 0.1037199,
+          "average": 0.1037199
+        },
+        "durations": [
+          {
+            "duration": 0.1037199,
+            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TripAdvisor/src/test/java/features/TripAdvisor.feature:13"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter on Paris in searchBox",
+    "steps": [
+      {
+        "name": "I enter on Paris in searchBox",
+        "aggregatedDurations": {
+          "median": 0.8547917,
+          "average": 0.8547917
+        },
+        "durations": [
+          {
+            "duration": 0.8547917,
+            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TripAdvisor/src/test/java/features/TripAdvisor.feature:14"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify Paris hotels is appear properly",
+    "steps": [
+      {
+        "name": "I verify Paris hotels is appear properly",
+        "aggregatedDurations": {
+          "median": 3.1366923,
+          "average": 3.1366923
+        },
+        "durations": [
+          {
+            "duration": 3.1366923,
+            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TripAdvisor/src/test/java/features/TripAdvisor.feature:15"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify page title",
+    "steps": [
+      {
+        "name": "I verify page title",
+        "aggregatedDurations": {
+          "median": 0.0099745,
+          "average": 0.0099745
+        },
+        "durations": [
+          {
+            "duration": 0.0099745,
+            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TripAdvisor/src/test/java/features/TripAdvisor.feature:16"
+          }
+        ]
+      }
+    ]
+  }
+]

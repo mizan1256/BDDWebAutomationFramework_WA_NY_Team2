@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="13.499">
+    <testcase classname="TripAdvisor HomePage Functionality check" name="TripAdvisor SearchBox Functionality check with valid data" time="12.974">
+        <system-out>
+            <![CDATA[Given I am in TripAdvisor homepage..........................................passed
+And I click Hotels Button in homepage.......................................passed
+When I enter on Paris in searchBox..........................................passed
+And I verify Paris hotels is appear properly................................passed
+When I verify page title....................................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

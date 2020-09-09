@@ -1,0 +1,164 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7208624100,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 29431700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.TripAdvisorStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 3,
+            "name": "I am in TripAdvisor homepage",
+            "match": {
+              "location": "stepdefinitions.TripAdvisorStepDefinition.i_am_in_trip_advisor_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-09T20:59:54.074Z",
+        "line": 12,
+        "name": "TripAdvisor SearchBox Functionality check with valid data",
+        "description": "",
+        "id": "tripadvisor-homepage-functionality-check;tripadvisor-searchbox-functionality-check-with-valid-data",
+        "after": [
+          {
+            "result": {
+              "duration": 1475453500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.TripAdvisorStepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 103719900,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 988900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.TripAdvisorStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 13,
+            "name": "I click Hotels Button in homepage",
+            "match": {
+              "location": "stepdefinitions.TripAdvisorStepDefinition.i_click_hotels_button_in_homepage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 854791700,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 993900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.TripAdvisorStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 14,
+            "name": "I enter on Paris in searchBox",
+            "match": {
+              "location": "stepdefinitions.TripAdvisorStepDefinition.i_enter_on_paris_in_search_box()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3136692300,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1993500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.TripAdvisorStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 15,
+            "name": "I verify Paris hotels is appear properly",
+            "match": {
+              "location": "stepdefinitions.TripAdvisorStepDefinition.i_verify_paris_hotels_is_appear_properly()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9974500,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 983700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.TripAdvisorStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 16,
+            "name": "I verify page title",
+            "match": {
+              "location": "stepdefinitions.TripAdvisorStepDefinition.i_verify_page_title()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "TripAdvisor HomePage Functionality check",
+    "description": "",
+    "id": "tripadvisor-homepage-functionality-check",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/TripAdvisor.feature",
+    "tags": []
+  }
+]
