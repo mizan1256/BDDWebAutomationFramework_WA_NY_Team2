@@ -1,0 +1,20 @@
+[
+  {
+    "source": "I am in TripAdvisor homepage",
+    "steps": [
+      {
+        "name": "I am in TripAdvisor homepage",
+        "aggregatedDurations": {
+          "median": 3.234658,
+          "average": 3.234658
+        },
+        "durations": [
+          {
+            "duration": 3.234658,
+            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TripAdvisor/src/test/java/features/TripAdvisor.feature:5"
+          }
+        ]
+      }
+    ]
+  }
+]
