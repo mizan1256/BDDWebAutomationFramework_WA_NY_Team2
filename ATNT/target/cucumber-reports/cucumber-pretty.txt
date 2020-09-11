@@ -1,0 +1,17 @@
+
+@SmokeTest
+Scenario Outline: Att searchBox functionality check with multiple products # src/test/java/features/SearchBox.feature:31
+  Given I am in att homepage                                               # stepdefinitions.HomePageStepDefinitions.i_am_in_att_homepage()
+  And I enter "Apple iPhone 11" in searchBox                               # stepdefinitions.SearchBoxStepDefinitions.i_enter_in_search_box(java.lang.String)
+  When I click searchButton                                                # stepdefinitions.SearchBoxStepDefinitions.i_click_search_button()
+  Then I verify "Apple iPnone 11" is appear properly                       # stepdefinitions.SearchBoxStepDefinitions.i_verify_is_appear_properly(java.lang.String)
+  And I verify page title as "<pageTitle>"                                 # stepdefinitions.SearchBoxStepDefinitions.i_verify_page_title_as(java.lang.String)
+      org.junit.ComparisonFailure: Search Item not match expected:<[Showing results for "Apple iPhone 11".]> but was:<[<pageTitle>]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at SearchBox.SearchBox.validateSearchBoxTxt(SearchBox.java:32)
+	at stepdefinitions.SearchBoxStepDefinitions.i_verify_page_title_as(SearchBoxStepDefinitions.java:62)
+	at ✽.I verify page title as "<pageTitle>"(file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/SearchBox.feature:27)
+
+
+    Embedding Demo [image/png 497169 bytes]
+

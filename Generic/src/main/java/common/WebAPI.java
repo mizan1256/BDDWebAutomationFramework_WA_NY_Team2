@@ -122,13 +122,13 @@ public class WebAPI {
 
     //Browser SetUp
     public static WebDriver driver = null;
-    public String browserstack_username = "mhs5";
-    public String browserstack_accesskey = "dGpR3twU2pLPLgXZxmSa";
+    public String browserstack_username = "mohammadislam5";
+    public String browserstack_accesskey = "95GuaVTH3synT5t5QVnJ";
     public String saucelabs_username = "";
     public String saucelabs_accesskey = "";
 
     public void openBrowser() throws IOException {
-        setUp(false,"browserstack","OS X","catalina","chrome","85","https://www.amazon.com");
+        setUp(false,"browserstack","OS X","catalina","chrome","85","https://www.att.com/");
     }
 
     @Parameters({"useCloudEnv", "cloudEnvName", "os", "os_version", "browserName", "browserVersion", "url"})
@@ -146,11 +146,12 @@ public class WebAPI {
         } else {
             getLocalDriver(os, browserName);
         }
-        driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
-        //driver.manage().timeouts().pageLoadTimeout(25, TimeUnit.SECONDS);
-        driver.manage().deleteAllCookies();
         driver.get(url);
-        //driver.manage().window().maximize();
+        driver.manage().window().maximize();
+        driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+        driver.manage().deleteAllCookies();
+
     }
 
     public WebDriver getLocalDriver(@Optional("mac") String OS, String browserName) {
@@ -473,7 +474,7 @@ public class WebAPI {
     //Taking Screen shots
     public void takeScreenShot() throws IOException {
         File file = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-        //FileUtils.copyFile(file, new File("screenShots.png"));
+      //  FileUtils.copyFile(file, new File("screenShots.png"));
     }
 
     //Synchronization

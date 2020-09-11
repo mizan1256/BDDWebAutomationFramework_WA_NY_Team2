@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="9.646">
+    <testcase classname="Att search functionality" name="Att searchBox functionality check with multiple products" time="9.238">
+        <failure message="Search Item not match expected:&lt;[Showing results for &quot;Apple iPhone 11&quot;.]&gt; but was:&lt;[&lt;pageTitle&gt;]&gt;" type="org.junit.ComparisonFailure">
+            <![CDATA[Given I am in att homepage..................................................passed
+And I enter "Apple iPhone 11" in searchBox..................................passed
+When I click searchButton...................................................passed
+Then I verify "Apple iPnone 11" is appear properly..........................passed
+And I verify page title as "<pageTitle>"....................................failed
+
+StackTrace:
+org.junit.ComparisonFailure: Search Item not match expected:<[Showing results for "Apple iPhone 11".]> but was:<[<pageTitle>]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at SearchBox.SearchBox.validateSearchBoxTxt(SearchBox.java:32)
+	at stepdefinitions.SearchBoxStepDefinitions.i_verify_page_title_as(SearchBoxStepDefinitions.java:62)
+	at ✽.I verify page title as "<pageTitle>"(file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/SearchBox.feature:27)
+]]>
+        </failure>
+    </testcase>
+</testsuite>

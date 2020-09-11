@@ -1,0 +1,74 @@
+[
+  {
+    "source": "I am in att homepage",
+    "steps": [
+      {
+        "name": "I am in att homepage",
+        "aggregatedDurations": {
+          "median": 4.11865,
+          "average": 4.11865
+        },
+        "durations": [
+          {
+            "duration": 4.11865,
+            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/SearchBox.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter {string} in searchBox",
+    "steps": [
+      {
+        "name": "I enter \"Apple iPhone 11\" in searchBox",
+        "aggregatedDurations": {
+          "median": 0.288702,
+          "average": 0.288702
+        },
+        "durations": [
+          {
+            "duration": 0.288702,
+            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/SearchBox.feature:24"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click searchButton",
+    "steps": [
+      {
+        "name": "I click searchButton",
+        "aggregatedDurations": {
+          "median": 3.143869,
+          "average": 3.143869
+        },
+        "durations": [
+          {
+            "duration": 3.143869,
+            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/SearchBox.feature:25"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify {string} is appear properly",
+    "steps": [
+      {
+        "name": "I verify \"Apple iPnone 11\" is appear properly",
+        "aggregatedDurations": {
+          "median": 0.390672,
+          "average": 0.390672
+        },
+        "durations": [
+          {
+            "duration": 0.390672,
+            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/SearchBox.feature:26"
+          }
+        ]
+      }
+    ]
+  }
+]
