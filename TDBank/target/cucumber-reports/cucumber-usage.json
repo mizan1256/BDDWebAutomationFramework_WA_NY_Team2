@@ -1,0 +1,74 @@
+[
+  {
+    "source": "I am on TD Bank home page",
+    "steps": [
+      {
+        "name": "I am on TD Bank home page",
+        "aggregatedDurations": {
+          "median": 4.999815,
+          "average": 4.999815
+        },
+        "durations": [
+          {
+            "duration": 4.999815,
+            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TDBank/src/test/java/features/TDBankHomePage.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on signUp button",
+    "steps": [
+      {
+        "name": "I click on signUp button",
+        "aggregatedDurations": {
+          "median": 4.852213,
+          "average": 4.852213
+        },
+        "durations": [
+          {
+            "duration": 4.852213,
+            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TDBank/src/test/java/features/TDBankHomePage.feature:16"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I select Personal Accounts Radio button from PopUp",
+    "steps": [
+      {
+        "name": "I select Personal Accounts Radio button from PopUp",
+        "aggregatedDurations": {
+          "median": 4.54E-4,
+          "average": 4.54E-4
+        },
+        "durations": [
+          {
+            "duration": 4.54E-4,
+            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TDBank/src/test/java/features/TDBankHomePage.feature:17"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I checked Please Confirm checkBox from PopUp",
+    "steps": [
+      {
+        "name": "I checked Please Confirm checkBox from PopUp",
+        "aggregatedDurations": {
+          "median": 0.315195,
+          "average": 0.315195
+        },
+        "durations": [
+          {
+            "duration": 0.315195,
+            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TDBank/src/test/java/features/TDBankHomePage.feature:18"
+          }
+        ]
+      }
+    ]
+  }
+]

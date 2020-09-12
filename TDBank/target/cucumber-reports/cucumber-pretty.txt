@@ -1,0 +1,50 @@
+
+@SmokeTest
+Scenario: TD Bank signUp                                    # src/test/java/features/TDBankHomePage.feature:15
+  Given I am on TD Bank home page                           # stepdefinitions.TDBankHomePageStepDefinitions.i_am_on_td_bank_home_page()
+  When I click on signUp button                             # stepdefinitions.TDBankHomePageStepDefinitions.i_click_on_sign_up_button()
+  And I select Personal Accounts Radio button from PopUp    # stepdefinitions.TDBankHomePageStepDefinitions.i_select_personal_accounts_radio_button_from_pop_up()
+  And I checked Please Confirm checkBox from PopUp          # stepdefinitions.TDBankHomePageStepDefinitions.i_checked_please_confirm_check_box_from_pop_up()
+  Then I click continue in PopUp                            # stepdefinitions.TDBankHomePageStepDefinitions.i_click_continue_in_pop_up()
+      org.openqa.selenium.NoAlertPresentException: no such alert
+  (Session info: chrome=85.0.4183.102)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:89e8:fd74:6c98:e8e1%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:54679}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 0232d3d432ad936e75ed927ef0abb472
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:932)
+	at tdbankhome.TDBankHome.acceptPopUpUsingAlert(TDBankHome.java:64)
+	at stepdefinitions.TDBankHomePageStepDefinitions.i_click_continue_in_pop_up(TDBankHomePageStepDefinitions.java:77)
+	at ✽.I click continue in PopUp(file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TDBank/src/test/java/features/TDBankHomePage.feature:19)
+
+  And I check Accept button from second PopUp               # stepdefinitions.TDBankHomePageStepDefinitions.i_check_accept_button_from_second_pop_up()
+  And I Accept second PopUp                                 # stepdefinitions.TDBankHomePageStepDefinitions.i_accept_second_pop_up()
+  And I enter FirstName LastName and Email                  # stepdefinitions.TDBankHomePageStepDefinitions.i_enter_first_name_last_name_and_email()
+  And I select Checking From Account Type                   # stepdefinitions.TDBankHomePageStepDefinitions.i_select_checking_from_account_type()
+  And I enter ATM card Number                               # stepdefinitions.TDBankHomePageStepDefinitions.i_enter_atm_card_number()
+  And I enter SSN number                                    # stepdefinitions.TDBankHomePageStepDefinitions.i_enter_ssn_number()
+  And I enter Account Number                                # stepdefinitions.TDBankHomePageStepDefinitions.i_enter_account_number()
+  And I check Yes from Bill Pay Option                      # stepdefinitions.TDBankHomePageStepDefinitions.i_check_yes_from_bill_pay_option()
+  And I select Yes from go paperless option                 # stepdefinitions.TDBankHomePageStepDefinitions.i_select_yes_from_go_paperless_option()
+  And I Accept the third popUp                              # stepdefinitions.TDBankHomePageStepDefinitions.i_accept_the_third_pop_up()
+  Then I enter user name in Create your UserName field      # stepdefinitions.TDBankHomePageStepDefinitions.i_enter_user_name_in_create_your_user_name_field()
+  And I re enter user name In Re enter your user name field # stepdefinitions.TDBankHomePageStepDefinitions.i_re_enter_user_name_in_re_enter_your_user_name_field()
+  And I enter password in Your new password field           # stepdefinitions.TDBankHomePageStepDefinitions.i_enter_password_in_your_new_password_field()
+  And I re enter password in Re enter password field        # stepdefinitions.TDBankHomePageStepDefinitions.i_re_enter_password_in_re_enter_password_field()
+  Then I click on continue                                  # stepdefinitions.TDBankHomePageStepDefinitions.i_click_on_continue()
+  And I validate error message                              # stepdefinitions.TDBankHomePageStepDefinitions.i_validate_error_message()
+
+    Embedding Demo [image/png 685381 bytes]
+

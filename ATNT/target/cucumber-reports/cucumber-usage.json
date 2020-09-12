@@ -5,12 +5,16 @@
       {
         "name": "I am in att homepage",
         "aggregatedDurations": {
-          "median": 4.11865,
-          "average": 4.11865
+          "median": 5.1389095,
+          "average": 5.1389095
         },
         "durations": [
           {
-            "duration": 4.11865,
+            "duration": 5.297449,
+            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/SearchBox.feature:5"
+          },
+          {
+            "duration": 4.98037,
             "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/SearchBox.feature:5"
           }
         ]
@@ -23,12 +27,25 @@
       {
         "name": "I enter \"Apple iPhone 11\" in searchBox",
         "aggregatedDurations": {
-          "median": 0.288702,
-          "average": 0.288702
+          "median": 1.395494,
+          "average": 1.395494
         },
         "durations": [
           {
-            "duration": 0.288702,
+            "duration": 1.395494,
+            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/SearchBox.feature:24"
+          }
+        ]
+      },
+      {
+        "name": "I enter \"Apple iPhone 10\" in searchBox",
+        "aggregatedDurations": {
+          "median": 0.700721,
+          "average": 0.700721
+        },
+        "durations": [
+          {
+            "duration": 0.700721,
             "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/SearchBox.feature:24"
           }
         ]
@@ -41,31 +58,17 @@
       {
         "name": "I click searchButton",
         "aggregatedDurations": {
-          "median": 3.143869,
-          "average": 3.143869
+          "median": 2.321901,
+          "average": 2.321901
         },
         "durations": [
           {
-            "duration": 3.143869,
+            "duration": 1.214104,
             "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/SearchBox.feature:25"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "I verify {string} is appear properly",
-    "steps": [
-      {
-        "name": "I verify \"Apple iPnone 11\" is appear properly",
-        "aggregatedDurations": {
-          "median": 0.390672,
-          "average": 0.390672
-        },
-        "durations": [
+          },
           {
-            "duration": 0.390672,
-            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/SearchBox.feature:26"
+            "duration": 3.429698,
+            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/SearchBox.feature:25"
           }
         ]
       }

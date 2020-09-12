@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="12.644">
+    <testcase classname="TD Bank Home Page functionality test" name="TD Bank signUp" time="12.145">
+        <failure message="no such alert&#10;  (Session info: chrome=85.0.4183.102)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:89e8:fd74:6c98:e8e1%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:54679}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 0232d3d432ad936e75ed927ef0abb472" type="org.openqa.selenium.NoAlertPresentException">
+            <![CDATA[Given I am on TD Bank home page.............................................passed
+When I click on signUp button...............................................passed
+And I select Personal Accounts Radio button from PopUp......................passed
+And I checked Please Confirm checkBox from PopUp............................passed
+Then I click continue in PopUp..............................................failed
+And I check Accept button from second PopUp.................................skipped
+And I Accept second PopUp...................................................skipped
+And I enter FirstName LastName and Email....................................skipped
+And I select Checking From Account Type.....................................skipped
+And I enter ATM card Number.................................................skipped
+And I enter SSN number......................................................skipped
+And I enter Account Number..................................................skipped
+And I check Yes from Bill Pay Option........................................skipped
+And I select Yes from go paperless option...................................skipped
+And I Accept the third popUp................................................skipped
+Then I enter user name in Create your UserName field........................skipped
+And I re enter user name In Re enter your user name field...................skipped
+And I enter password in Your new password field.............................skipped
+And I re enter password in Re enter password field..........................skipped
+Then I click on continue....................................................skipped
+And I validate error message................................................skipped
+
+StackTrace:
+org.openqa.selenium.NoAlertPresentException: no such alert
+  (Session info: chrome=85.0.4183.102)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:89e8:fd74:6c98:e8e1%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:54679}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 0232d3d432ad936e75ed927ef0abb472
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:932)
+	at tdbankhome.TDBankHome.acceptPopUpUsingAlert(TDBankHome.java:64)
+	at stepdefinitions.TDBankHomePageStepDefinitions.i_click_continue_in_pop_up(TDBankHomePageStepDefinitions.java:77)
+	at ✽.I click continue in PopUp(file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TDBank/src/test/java/features/TDBankHomePage.feature:19)
+]]>
+        </failure>
+    </testcase>
+</testsuite>

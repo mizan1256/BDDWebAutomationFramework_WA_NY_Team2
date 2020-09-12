@@ -1,17 +1,70 @@
 
 @SmokeTest
-Scenario Outline: Att searchBox functionality check with multiple products # src/test/java/features/SearchBox.feature:31
-  Given I am in att homepage                                               # stepdefinitions.HomePageStepDefinitions.i_am_in_att_homepage()
-  And I enter "Apple iPhone 11" in searchBox                               # stepdefinitions.SearchBoxStepDefinitions.i_enter_in_search_box(java.lang.String)
-  When I click searchButton                                                # stepdefinitions.SearchBoxStepDefinitions.i_click_search_button()
-  Then I verify "Apple iPnone 11" is appear properly                       # stepdefinitions.SearchBoxStepDefinitions.i_verify_is_appear_properly(java.lang.String)
-  And I verify page title as "<pageTitle>"                                 # stepdefinitions.SearchBoxStepDefinitions.i_verify_page_title_as(java.lang.String)
-      org.junit.ComparisonFailure: Search Item not match expected:<[Showing results for "Apple iPhone 11".]> but was:<[<pageTitle>]>
-	at org.junit.Assert.assertEquals(Assert.java:117)
-	at SearchBox.SearchBox.validateSearchBoxTxt(SearchBox.java:32)
-	at stepdefinitions.SearchBoxStepDefinitions.i_verify_page_title_as(SearchBoxStepDefinitions.java:62)
-	at ✽.I verify page title as "<pageTitle>"(file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/SearchBox.feature:27)
+Scenario Outline:                                                            # src/test/java/features/SearchBox.feature:31
+  Given I am in att homepage                                                 # stepdefinitions.HomePageStepDefinitions.i_am_in_att_homepage()
+  And I enter "Apple iPhone 11" in searchBox                                 # stepdefinitions.SearchBoxStepDefinitions.i_enter_in_search_box(java.lang.String)
+  When I click searchButton                                                  # stepdefinitions.SearchBoxStepDefinitions.i_click_search_button()
+  And I validate "Showing results for "Apple iPhone 11"." is appear properly # stepdefinitions.SearchBoxStepDefinitions.i_validate_showing_results_for_apple_i_phone_is_appear_properly(java.lang.String)
+      io.cucumber.core.exception.CucumberException: Could not invoke step [I validate "Showing results for "Apple iPhone {int}"." is appear properly] defined at 'stepdefinitions.SearchBoxStepDefinitions.i_validate_showing_results_for_apple_i_phone_is_appear_properly(java.lang.String)'.
+It appears there was a problem with the step definition.
+The converted arguments types were (java.lang.Integer)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.couldNotInvokeStep(PickleStepDefinitionMatch.java:130)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:65)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:63)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:49)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:99)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:71)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:199)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:234)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:230)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:58)
+Caused by: io.cucumber.core.backend.CucumberBackendException: Failed to invoke public void stepdefinitions.SearchBoxStepDefinitions.i_validate_showing_results_for_apple_i_phone_is_appear_properly(java.lang.String)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:68)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	... 30 more
+Caused by: java.lang.IllegalArgumentException: argument type mismatch
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	... 35 more
+
+  And I validate page title as "Results for Apple iPhones 11 - AT&T Search"  # stepdefinitions.SearchBoxStepDefinitions.i_validate_page_title_as(java.lang.String)
+
+    Embedding Demo [image/png 514625 bytes]
 
 
-    Embedding Demo [image/png 497169 bytes]
-
+@SmokeTest
+Scenario Outline:                                                            # src/test/java/features/SearchBox.feature:32
+  Given I am in att homepage                                                 # stepdefinitions.HomePageStepDefinitions.i_am_in_att_homepage()
+  And I enter "Apple iPhone 10" in searchBox                                 # stepdefinitions.SearchBoxStepDefinitions.i_enter_in_search_box(java.lang.String)
+  When I click searchButton                                                  # stepdefinitions.SearchBoxStepDefinitions.i_click_search_button()
+  And I validate "Showing results for "Apple iphone 10"." is appear properly # null
+  And I validate page title as "Results for Apple iPhones 10 - AT&T Search"  # stepdefinitions.SearchBoxStepDefinitions.i_validate_page_title_as(java.lang.String)
