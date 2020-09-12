@@ -127,8 +127,8 @@ public class WebAPI {
     public String saucelabs_username = "";
     public String saucelabs_accesskey = "";
 
-    public void openBrowser() throws IOException {
-        setUp(false,"browserstack","Windows","10","chrome","85","https://www.tripadvisor.com/");
+    public void openBrowser(String url) throws IOException {
+        setUp(false,"browserstack","Windows","10","chrome","85",url);
     }
 
     @Parameters({"useCloudEnv", "cloudEnvName", "os", "os_version", "browserName", "browserVersion", "url"})

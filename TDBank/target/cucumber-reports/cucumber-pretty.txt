@@ -1,0 +1,6 @@
+
+@SmokeTest
+Scenario: TD Bank Online Banking Functionality check # src/test/java/features/TDBankHomePage.feature:4
+  Given I am In TD Bank HomePage                     # stepdefinitions.TDStepDefinition.i_am_in_td_bank_home_page()
+  When I mouseHover on logIn Icon                    # stepdefinitions.TDStepDefinition.i_mouse_hover_on_log_in_icon()
+  And I Click Online Banking Button                  # stepdefinitions.TDStepDefinition.i_click_online_banking_button()

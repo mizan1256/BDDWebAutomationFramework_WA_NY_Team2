@@ -8,12 +8,13 @@
     Then I verify Cox's Bazar is appear properly
     And I verify page title as Search results: Cox's Bazar - Tripadvisor
 
-  @SmokeTest
-  Scenario: TripAdvisor SearchBox Functionality check with valid data
+  @Shuvo
+  Scenario: TripAdvisor Hotel SearchBox Functionality check with valid data
     And   I click Hotels Button in homepage
     When  I enter on Paris in searchBox
     And   I verify Paris hotels is appear properly
     When  I verify page title
+
 
 
 

@@ -1,0 +1,110 @@
+[
+  {
+    "source": "I am in home page",
+    "steps": [
+      {
+        "name": "I am in home page",
+        "aggregatedDurations": {
+          "median": 12.3713268,
+          "average": 12.3713268
+        },
+        "durations": [
+          {
+            "duration": 12.3713268,
+            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click Flight status",
+    "steps": [
+      {
+        "name": "I click Flight status",
+        "aggregatedDurations": {
+          "median": 0.3473745,
+          "average": 0.3473745
+        },
+        "durations": [
+          {
+            "duration": 0.3473745,
+            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter City in From field and To field",
+    "steps": [
+      {
+        "name": "I enter City in From field and To field",
+        "aggregatedDurations": {
+          "median": 0.8416346,
+          "average": 0.8416346
+        },
+        "durations": [
+          {
+            "duration": 0.8416346,
+            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter Flight number and Date",
+    "steps": [
+      {
+        "name": "I enter Flight number and Date",
+        "aggregatedDurations": {
+          "median": 5.5339682,
+          "average": 5.5339682
+        },
+        "durations": [
+          {
+            "duration": 5.5339682,
+            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click Search Button",
+    "steps": [
+      {
+        "name": "I click Search Button",
+        "aggregatedDurations": {
+          "median": 0.1511729,
+          "average": 0.1511729
+        },
+        "durations": [
+          {
+            "duration": 0.1511729,
+            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:11"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I validate  flight status is appeared properly",
+    "steps": [
+      {
+        "name": "I validate  flight status is appeared properly",
+        "aggregatedDurations": {
+          "median": 2.6804344,
+          "average": 2.6804344
+        },
+        "durations": [
+          {
+            "duration": 2.6804344,
+            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:12"
+          }
+        ]
+      }
+    ]
+  }
+]

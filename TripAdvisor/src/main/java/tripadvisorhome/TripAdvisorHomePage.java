@@ -19,6 +19,8 @@ public class TripAdvisorHomePage extends WebAPI {
     @FindBy(how = How.XPATH,using = webElementsTASearchButtonText)
     public WebElement searchButtonText;
 
+
+
     By hotelButton=By.xpath("//div[@class='_1ZteHrEy']//div[1]//a[1]");
     By hotel_SearchBox=By.xpath("//div[@class='i3bZ_gBa _2RTs3_Ee _3TPJs5_m _3awdcWrG']//input[@placeholder='Where to?']");
     By getHotel_SearchBox_Click=By.xpath("//div[@class='i3bZ_gBa _2RTs3_Ee _3TPJs5_m _3awdcWrG']//span[@class='_2LyoLJ4U _2HBN-k68 _3LkX-HIr']");
@@ -44,6 +46,7 @@ public class TripAdvisorHomePage extends WebAPI {
         driver.findElement(getHotel_SearchBox_Click).click();
     }
     public void hotelValidateText(){
+
         driver.findElement(hotel_Page_ValidateText);
     }
 

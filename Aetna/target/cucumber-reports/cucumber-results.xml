@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="11.721">
+    <testcase classname="Aetna HomePage Functionality Test" name="Aetna Shop For a Plan Button functionality Test" time="11.365">
+        <system-out>
+            <![CDATA[Given I am in Aetna HomePage................................................passed
+When I Click ShopForAPLan Button............................................passed
+And I Click on HealthCoverage Button........................................passed
+And I click FindADoctor Button..............................................passed
+Then I Verify page Title....................................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="9.666">
+    <testcase classname="TD Bank HomePage Functionality Test" name="TD Bank Online Banking Functionality check" time="9.285">
+        <system-out>
+            <![CDATA[Given I am In TD Bank HomePage..............................................passed
+When I mouseHover on logIn Icon.............................................passed
+And I Click Online Banking Button...........................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

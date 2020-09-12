@@ -1,0 +1,92 @@
+[
+  {
+    "source": "I am in Aetna HomePage",
+    "steps": [
+      {
+        "name": "I am in Aetna HomePage",
+        "aggregatedDurations": {
+          "median": 9.3495904,
+          "average": 9.3495904
+        },
+        "durations": [
+          {
+            "duration": 9.3495904,
+            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/HomePage.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I Click ShopForAPLan Button",
+    "steps": [
+      {
+        "name": "I Click ShopForAPLan Button",
+        "aggregatedDurations": {
+          "median": 0.108715,
+          "average": 0.108715
+        },
+        "durations": [
+          {
+            "duration": 0.108715,
+            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/HomePage.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I Click on HealthCoverage Button",
+    "steps": [
+      {
+        "name": "I Click on HealthCoverage Button",
+        "aggregatedDurations": {
+          "median": 0.1277646,
+          "average": 0.1277646
+        },
+        "durations": [
+          {
+            "duration": 0.1277646,
+            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/HomePage.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click FindADoctor Button",
+    "steps": [
+      {
+        "name": "I click FindADoctor Button",
+        "aggregatedDurations": {
+          "median": 0.9011621,
+          "average": 0.9011621
+        },
+        "durations": [
+          {
+            "duration": 0.9011621,
+            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/HomePage.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I Verify page Title",
+    "steps": [
+      {
+        "name": "I Verify page Title",
+        "aggregatedDurations": {
+          "median": 0.0478727,
+          "average": 0.0478727
+        },
+        "durations": [
+          {
+            "duration": 0.0478727,
+            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/HomePage.feature:9"
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -3,11 +3,14 @@ package stepdefinitions;
 import common.WebAPI;
 import io.cucumber.java.After;
 import io.cucumber.java.BeforeStep;
+import io.cucumber.java.Scenario;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import tripadvisorhome.TripAdvisorHomePage;
@@ -18,9 +21,15 @@ public class TripAdvisorStepDefinition extends WebAPI {
     static TripAdvisorHomePage tripAdvisorHomePage;
     //Cucumber Hook
     @After
-    public void closeBrowser(){
+    public void tearDown(Scenario scenario) {
+        if (scenario.isFailed()) {
+            // Take a screenshot...
+            final byte[] screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
+            scenario.attach(screenshot,"image/png","Demo1"); // ... and embed it in the report.
+        }
         cleanUp();
     }
+
     @BeforeStep
     public static void getInit(){
         tripAdvisorHomePage=
@@ -29,7 +38,7 @@ public class TripAdvisorStepDefinition extends WebAPI {
 
     @Given("I am in TripAdvisor homepage")
     public void i_am_in_trip_advisor_homepage() throws IOException {
-    openBrowser();
+    openBrowser("https://www.tripadvisor.com/");
 
     }
 
@@ -59,7 +68,8 @@ public class TripAdvisorStepDefinition extends WebAPI {
 
     @And("I click Hotels Button in homepage")
     public void i_click_hotels_button_in_homepage() {
-    tripAdvisorHomePage.hotelButtonCheck();
+
+        tripAdvisorHomePage.hotelButtonCheck();
     }
 
     @When("I enter on Paris in searchBox")
@@ -79,5 +89,8 @@ public class TripAdvisorStepDefinition extends WebAPI {
     String actualTitle=driver.getTitle();
     Assert.assertEquals("Don't Exist",expectedTitle,actualTitle);
     }
+
+
+
 
 }

@@ -1,8 +1,16 @@
 
 @SmokeTest
-Scenario: TripAdvisor SearchBox Functionality check with valid data # src/test/java/features/TripAdvisor.feature:12
-  Given I am in TripAdvisor homepage                                # stepdefinitions.TripAdvisorStepDefinition.i_am_in_trip_advisor_homepage()
-  And I click Hotels Button in homepage                             # stepdefinitions.TripAdvisorStepDefinition.i_click_hotels_button_in_homepage()
-  When I enter on Paris in searchBox                                # stepdefinitions.TripAdvisorStepDefinition.i_enter_on_paris_in_search_box()
-  And I verify Paris hotels is appear properly                      # stepdefinitions.TripAdvisorStepDefinition.i_verify_paris_hotels_is_appear_properly()
-  When I verify page title                                          # stepdefinitions.TripAdvisorStepDefinition.i_verify_page_title()
+Scenario Outline: TripAdvisor SearchBox Functionality  check with Valid Data # src/test/java/features/TripAdvisorHome.feature:25
+  Given I am in TripAdvisor homepage                                         # stepdefinitions.TripAdvisorStepDefinition.i_am_in_trip_advisor_homepage()
+  And I enter "Dhaka" in searchBox                                           # stepdefinitions.TripAdvisorStepDefinition.i_enter_in_search_box(java.lang.String)
+  When I click searchButton                                                  # stepdefinitions.TripAdvisorStepDefinition.i_click_search_button()
+  Then I verify "\"Dhaka\"" and "Search results: Dhaka - Tripadvisor"        # stepdefinitions.TripAdvisorStepDefinition.i_verify_and(java.lang.String,java.lang.String)
+      org.junit.ComparisonFailure: Don't Exist expected:<...earch results: Dhaka[1] - Tripadvisor> but was:<...earch results: Dhaka[] - Tripadvisor>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at tripadvisorhome.TripAdvisorHomePage.verifyPageTitle(TripAdvisorHomePage.java:65)
+	at stepdefinitions.TripAdvisorStepDefinition.i_verify_and(TripAdvisorStepDefinition.java:102)
+	at ✽.I verify "\"Dhaka\"" and "Search results: Dhaka - Tripadvisor"(file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TripAdvisor/src/test/java/features/TripAdvisorHome.feature:22)
+
+
+    Embedding Demo1 [image/png 199667 bytes]
+

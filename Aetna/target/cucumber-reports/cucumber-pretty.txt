@@ -1,0 +1,8 @@
+
+@SmokeTest
+Scenario: Aetna Shop For a Plan Button functionality Test # src/test/java/features/HomePage.feature:4
+  Given I am in Aetna HomePage                            # stepdefinitions.HomePageStepDefinition.i_am_in_aetna_home_page()
+  When I Click ShopForAPLan Button                        # stepdefinitions.HomePageStepDefinition.i_click_shop_for_ap_lan_button()
+  And I Click on HealthCoverage Button                    # stepdefinitions.HomePageStepDefinition.i_click_on_health_coverage_button()
+  And I click FindADoctor Button                          # stepdefinitions.HomePageStepDefinition.i_click_find_a_doctor_button()
+  Then I Verify page Title                                # stepdefinitions.HomePageStepDefinition.i_verify_page_title()

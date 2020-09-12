@@ -1,0 +1,154 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-09-11T03:34:18.603Z",
+        "line": 4,
+        "name": "Aetna Shop For a Plan Button functionality Test",
+        "description": "",
+        "id": "aetna-homepage-functionality-test;aetna-shop-for-a-plan-button-functionality-test",
+        "after": [
+          {
+            "result": {
+              "duration": 672903400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.HomePageStepDefinition.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9349590400,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 30918000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.HomePageStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "I am in Aetna HomePage",
+            "match": {
+              "location": "stepdefinitions.HomePageStepDefinition.i_am_in_aetna_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 108715000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 973300,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.HomePageStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "I Click ShopForAPLan Button",
+            "match": {
+              "location": "stepdefinitions.HomePageStepDefinition.i_click_shop_for_ap_lan_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 127764600,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 997700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.HomePageStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "I Click on HealthCoverage Button",
+            "match": {
+              "location": "stepdefinitions.HomePageStepDefinition.i_click_on_health_coverage_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 901162100,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.HomePageStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 8,
+            "name": "I click FindADoctor Button",
+            "match": {
+              "location": "stepdefinitions.HomePageStepDefinition.i_click_find_a_doctor_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 47872700,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 987900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.HomePageStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 9,
+            "name": "I Verify page Title",
+            "match": {
+              "location": "stepdefinitions.HomePageStepDefinition.i_verify_page_title()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "Aetna HomePage Functionality Test",
+    "description": "",
+    "id": "aetna-homepage-functionality-test",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/HomePage.feature",
+    "tags": []
+  }
+]

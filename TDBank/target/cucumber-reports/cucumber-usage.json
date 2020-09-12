@@ -1,0 +1,56 @@
+[
+  {
+    "source": "I am In TD Bank HomePage",
+    "steps": [
+      {
+        "name": "I am In TD Bank HomePage",
+        "aggregatedDurations": {
+          "median": 7.1980492,
+          "average": 7.1980492
+        },
+        "durations": [
+          {
+            "duration": 7.1980492,
+            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TDBank/src/test/java/features/TDBankHomePage.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I mouseHover on logIn Icon",
+    "steps": [
+      {
+        "name": "I mouseHover on logIn Icon",
+        "aggregatedDurations": {
+          "median": 0.2162804,
+          "average": 0.2162804
+        },
+        "durations": [
+          {
+            "duration": 0.2162804,
+            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TDBank/src/test/java/features/TDBankHomePage.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I Click Online Banking Button",
+    "steps": [
+      {
+        "name": "I Click Online Banking Button",
+        "aggregatedDurations": {
+          "median": 0.6033598,
+          "average": 0.6033598
+        },
+        "durations": [
+          {
+            "duration": 0.6033598,
+            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TDBank/src/test/java/features/TDBankHomePage.feature:7"
+          }
+        ]
+      }
+    ]
+  }
+]
