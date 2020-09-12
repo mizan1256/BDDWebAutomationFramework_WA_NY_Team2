@@ -1,0 +1,74 @@
+[
+  {
+    "source": "I am on TD Bank home page",
+    "steps": [
+      {
+        "name": "I am on TD Bank home page",
+        "aggregatedDurations": {
+          "median": 6.7757852,
+          "average": 6.7757852
+        },
+        "durations": [
+          {
+            "duration": 6.7757852,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TDBank/src/test/java/features/TDBankHomePage.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I mouseHover on logIn",
+    "steps": [
+      {
+        "name": "I mouseHover on logIn",
+        "aggregatedDurations": {
+          "median": 0.1651678,
+          "average": 0.1651678
+        },
+        "durations": [
+          {
+            "duration": 0.1651678,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TDBank/src/test/java/features/TDBankHomePage.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click online banking",
+    "steps": [
+      {
+        "name": "I click online banking",
+        "aggregatedDurations": {
+          "median": 8.6789894,
+          "average": 8.6789894
+        },
+        "durations": [
+          {
+            "duration": 8.6789894,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TDBank/src/test/java/features/TDBankHomePage.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "i validate log in page is displayed",
+    "steps": [
+      {
+        "name": "i validate log in page is displayed",
+        "aggregatedDurations": {
+          "median": 0.1493914,
+          "average": 0.1493914
+        },
+        "durations": [
+          {
+            "duration": 0.1493914,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TDBank/src/test/java/features/TDBankHomePage.feature:8"
+          }
+        ]
+      }
+    ]
+  }
+]

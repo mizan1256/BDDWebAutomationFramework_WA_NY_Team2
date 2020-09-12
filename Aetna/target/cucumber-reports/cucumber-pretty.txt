@@ -1,0 +1,8 @@
+
+@SmokeTest
+Scenario: Aetna Shop a plan functionality test                  # src/test/java/features/HomePage.feature:49
+  Given i am in home page                                       # stepdefinitions.HomePageStepDefinition.i_am_in_home_page()
+  When I click shop for a plan                                  # stepdefinitions.HomePageStepDefinition.i_click_shop_for_a_plan()
+  And I go dental, vision and supplemental                      # stepdefinitions.HomePageStepDefinition.i_go_dental_vision_and_supplemental()
+  And I click vision plans                                      # stepdefinitions.HomePageStepDefinition.i_click_vision_plans()
+  Then I validate Aetna Dental Direct plan is appeared properly # stepdefinitions.HomePageStepDefinition.i_validate_aetna_dental_direct_plan_is_appeared_properly()

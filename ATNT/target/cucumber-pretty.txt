@@ -1,8 +1,0 @@
-
-@SmokeTest @Regression
-Scenario: Att SearchBox Functionality check with valid data # src/test/java/features/HomePage.feature:6
-  Given I am in at&t homepage                               # stepdefinitions.HomePageStepDefinition.i_am_in_at_t_homepage()
-  And I enter Samsung Phones in searchBox                   # stepdefinitions.HomePageStepDefinition.i_enter_samsung_phones_in_search_box()
-  When I click searchButton                                 # stepdefinitions.HomePageStepDefinition.i_click_search_button()
-  Then I verify Samsung Phones is appear properly           # stepdefinitions.HomePageStepDefinition.i_verify_samsung_phones_is_appear_properly()
-  And I verify page title as Samsung Phones                 # stepdefinitions.HomePageStepDefinition.i_verify_page_title_as_samsung_phones()

@@ -1,0 +1,92 @@
+[
+  {
+    "source": "I am in at\u0026t homepage",
+    "steps": [
+      {
+        "name": "I am in at\u0026t homepage",
+        "aggregatedDurations": {
+          "median": 8.3418746,
+          "average": 8.3418746
+        },
+        "durations": [
+          {
+            "duration": 8.3418746,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/RegistrationPage.feature:4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click the Account dropdown button",
+    "steps": [
+      {
+        "name": "I click the Account dropdown button",
+        "aggregatedDurations": {
+          "median": 0.1940017,
+          "average": 0.1940017
+        },
+        "durations": [
+          {
+            "duration": 0.1940017,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/RegistrationPage.feature:17"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click Pay without signing in",
+    "steps": [
+      {
+        "name": "I click Pay without signing in",
+        "aggregatedDurations": {
+          "median": 1.4639982,
+          "average": 1.4639982
+        },
+        "durations": [
+          {
+            "duration": 1.4639982,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/RegistrationPage.feature:18"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter {string} Active AT\u0026T phone number box",
+    "steps": [
+      {
+        "name": "I enter \"7180000000\" Active AT\u0026T phone number box",
+        "aggregatedDurations": {
+          "median": 0.9419996,
+          "average": 0.9419996
+        },
+        "durations": [
+          {
+            "duration": 0.9419996,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/RegistrationPage.feature:19"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter {string} Billing ZIP Code",
+    "steps": [
+      {
+        "name": "I enter \"10000\" Billing ZIP Code",
+        "aggregatedDurations": {
+          "median": 0.2570006,
+          "average": 0.2570006
+        },
+        "durations": [
+          {
+            "duration": 0.2570006,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/RegistrationPage.feature:20"
+          }
+        ]
+      }
+    ]
+  }
+]

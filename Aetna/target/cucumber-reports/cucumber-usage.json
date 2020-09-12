@@ -1,0 +1,92 @@
+[
+  {
+    "source": "i am in home page",
+    "steps": [
+      {
+        "name": "i am in home page",
+        "aggregatedDurations": {
+          "median": 6.9406887,
+          "average": 6.9406887
+        },
+        "durations": [
+          {
+            "duration": 6.9406887,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/HomePage.feature:4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click shop for a plan",
+    "steps": [
+      {
+        "name": "I click shop for a plan",
+        "aggregatedDurations": {
+          "median": 0.2145118,
+          "average": 0.2145118
+        },
+        "durations": [
+          {
+            "duration": 0.2145118,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/HomePage.feature:50"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I go dental, vision and supplemental",
+    "steps": [
+      {
+        "name": "I go dental, vision and supplemental",
+        "aggregatedDurations": {
+          "median": 0.1175123,
+          "average": 0.1175123
+        },
+        "durations": [
+          {
+            "duration": 0.1175123,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/HomePage.feature:51"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click vision plans",
+    "steps": [
+      {
+        "name": "I click vision plans",
+        "aggregatedDurations": {
+          "median": 0.8389886,
+          "average": 0.8389886
+        },
+        "durations": [
+          {
+            "duration": 0.8389886,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/HomePage.feature:52"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I validate Aetna Dental Direct plan is appeared properly",
+    "steps": [
+      {
+        "name": "I validate Aetna Dental Direct plan is appeared properly",
+        "aggregatedDurations": {
+          "median": 0.4379762,
+          "average": 0.4379762
+        },
+        "durations": [
+          {
+            "duration": 0.4379762,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/HomePage.feature:53"
+          }
+        ]
+      }
+    ]
+  }
+]

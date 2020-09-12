@@ -1,0 +1,92 @@
+[
+  {
+    "source": "I am in home page",
+    "steps": [
+      {
+        "name": "I am in home page",
+        "aggregatedDurations": {
+          "median": 8.991678,
+          "average": 8.991678
+        },
+        "durations": [
+          {
+            "duration": 8.991678,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on My trips tab",
+    "steps": [
+      {
+        "name": "I click on My trips tab",
+        "aggregatedDurations": {
+          "median": 0.185369,
+          "average": 0.185369
+        },
+        "durations": [
+          {
+            "duration": 0.185369,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:32"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter confirmation number in confirmation field",
+    "steps": [
+      {
+        "name": "I enter confirmation number in confirmation field",
+        "aggregatedDurations": {
+          "median": 0.1671384,
+          "average": 0.1671384
+        },
+        "durations": [
+          {
+            "duration": 0.1671384,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:33"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I type last name in Last name field",
+    "steps": [
+      {
+        "name": "I type last name in Last name field",
+        "aggregatedDurations": {
+          "median": 0.1170771,
+          "average": 0.1170771
+        },
+        "durations": [
+          {
+            "duration": 0.1170771,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:34"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click search box tab",
+    "steps": [
+      {
+        "name": "I click search box tab",
+        "aggregatedDurations": {
+          "median": 0.1039245,
+          "average": 0.1039245
+        },
+        "durations": [
+          {
+            "duration": 0.1039245,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:35"
+          }
+        ]
+      }
+    ]
+  }
+]

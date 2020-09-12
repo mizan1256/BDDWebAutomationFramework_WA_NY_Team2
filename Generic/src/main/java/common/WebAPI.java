@@ -127,8 +127,8 @@ public class WebAPI {
     public String saucelabs_username = "";
     public String saucelabs_accesskey = "";
 
-    public void openBrowser() throws IOException {
-        setUp(false,"browserstack","Windows","10","chrome","85","https://www.att.com/");
+    public void openBrowser(String url) throws IOException {
+        setUp(false,"browserstack","Windows","10","chrome","85",url);
     }
 
     @Parameters({"useCloudEnv", "cloudEnvName", "os", "os_version", "browserName", "browserVersion", "url"})
@@ -147,9 +147,9 @@ public class WebAPI {
             getLocalDriver(os, browserName);
         }
         driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
-        driver.manage().timeouts().pageLoadTimeout(25, TimeUnit.SECONDS);
         driver.manage().deleteAllCookies();
         driver.get(url);
+        driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
         driver.manage().window().maximize();
     }
 
@@ -227,6 +227,23 @@ public class WebAPI {
             }
         }
     }
+
+    public void clickOnElement1(String locator) {
+        try {
+            driver.findElement(By.xpath(locator)).click();
+        } catch (Exception ex) {
+            try {
+                driver.findElement(By.className(locator)).click();
+            } catch (Exception ex2) {
+                try {
+                    driver.findElement(By.id(locator)).click();
+                } catch (Exception ex3) {
+                    driver.findElement(By.cssSelector(locator)).click();
+                }
+            }
+        }
+    }
+
 
     public void typeOnElement(String locator, String value) {
         try {
