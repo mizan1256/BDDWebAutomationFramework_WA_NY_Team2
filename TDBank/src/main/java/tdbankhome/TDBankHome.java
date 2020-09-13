@@ -32,9 +32,9 @@ public class TDBankHome extends WebAPI {
     @FindBy(xpath = "//input[@id='formElement_16']")WebElement newPassword;
     @FindBy(xpath = "//input[@id='formElement_17']")WebElement reEnterPassword;
     @FindBy(xpath = "/html/body/div[4]/div[2]/div/div[1]/form/div[2]/div[7]/button[2]")WebElement continueBtn;
-    @FindBy(xpath = "//div[@class='td-infobar-content']//div[1]") WebElement errorMessage;
     @FindBy(xpath = "/html/body/div[8]/div[2]/div/div[1]/div/div/div[3]/div/button[2]")WebElement firstPopUpContinueBtn;
     @FindBy(xpath = "//*[@id=\"eSignForm\"]/div[3]/div/button[2]")WebElement thirdPopUpAcceptBtn;
+    @FindBy(xpath = "//div[@class='td-infobar-content']//div[1]") WebElement errorMessage;
 
 
     public void logInIcon() {

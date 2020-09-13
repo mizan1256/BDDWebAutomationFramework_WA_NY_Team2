@@ -23,7 +23,7 @@ Feature: Att search functionality
   Scenario Outline:
     And I enter "<productName>" in searchBox
     When  I click searchButton
-#    And I validate "<validateProduct>" is appear properly
+    And I validate "<validateProduct>" is appear properly
     And I validate page title as "<pageTitle>"
 
     Examples:

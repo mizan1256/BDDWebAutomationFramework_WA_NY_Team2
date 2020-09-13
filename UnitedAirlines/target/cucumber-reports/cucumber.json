@@ -11,13 +11,13 @@
         "steps": [
           {
             "result": {
-              "duration": 10286216000,
+              "duration": 10634751000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 24139000,
+                  "duration": 25794000,
                   "status": "passed"
                 },
                 "match": {
@@ -35,7 +35,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-09-12T16:40:42.891Z",
+        "start_timestamp": "2020-09-13T17:52:00.828Z",
         "line": 15,
         "name": "United Airlines Check In functionality test",
         "description": "",
@@ -43,7 +43,7 @@
         "after": [
           {
             "result": {
-              "duration": 179689000,
+              "duration": 293101000,
               "status": "passed"
             },
             "match": {
@@ -56,13 +56,13 @@
         "steps": [
           {
             "result": {
-              "duration": 187273000,
+              "duration": 472080000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 1975000,
+                  "duration": 1684000,
                   "status": "passed"
                 },
                 "match": {
@@ -71,21 +71,21 @@
               }
             ],
             "line": 16,
-            "name": "I click Flight status",
+            "name": "I click Check In",
             "match": {
-              "location": "stepdefinitions.UnitedAirStepDefinitions.i_click_flight_status()"
+              "location": "stepdefinitions.UnitedAirStepDefinitions.i_click_check_in()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 646190000,
+              "duration": 5637007000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 836000,
+                  "duration": 1287000,
                   "status": "passed"
                 },
                 "match": {
@@ -94,21 +94,21 @@
               }
             ],
             "line": 17,
-            "name": "I enter City in From field and To field",
+            "name": "I enter ticket Number and Last Name",
             "match": {
-              "location": "stepdefinitions.UnitedAirStepDefinitions.i_enter_city_in_from_field_and_to_field()"
+              "location": "stepdefinitions.UnitedAirStepDefinitions.i_enter_ticket_number_and_last_name()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 5843540000,
+              "duration": 527645000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 499000,
+                  "duration": 1385000,
                   "status": "passed"
                 },
                 "match": {
@@ -117,21 +117,21 @@
               }
             ],
             "line": 18,
-            "name": "I enter Flight number and  Date",
+            "name": "I click checkIn Search Button",
             "match": {
-              "location": "stepdefinitions.UnitedAirStepDefinitions.i_enter_flight_number_and_date()"
+              "location": "stepdefinitions.UnitedAirStepDefinitions.i_click_checkIn_search_button()"
             },
-            "keyword": "And "
+            "keyword": "Then "
           },
           {
             "result": {
-              "duration": 132076000,
+              "duration": 2949866000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 687000,
+                  "duration": 1083000,
                   "status": "passed"
                 },
                 "match": {
@@ -140,32 +140,9 @@
               }
             ],
             "line": 19,
-            "name": "I click Search Button",
+            "name": "I validate Check In page message",
             "match": {
-              "location": "stepdefinitions.UnitedAirStepDefinitions.i_click_search_button()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1599917000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "duration": 602000,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepdefinitions.UnitedAirStepDefinitions.getInIt()"
-                }
-              }
-            ],
-            "line": 20,
-            "name": "I validate Flight status is appear properly",
-            "match": {
-              "location": "stepdefinitions.UnitedAirStepDefinitions.i_validate_flight_status_is_appear_properly()"
+              "location": "stepdefinitions.UnitedAirStepDefinitions.i_validate_check_in_page_message()"
             },
             "keyword": "And "
           }

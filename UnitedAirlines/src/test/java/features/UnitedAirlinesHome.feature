@@ -3,7 +3,7 @@ Feature: United Airlines home page functionality test
   Background:
     Given I am in home page
 
-@pending
+ @pending
   Scenario: United Airlines Flight Status functionality test
     When I click Flight status
     And I enter City in From field and To field
@@ -13,11 +13,10 @@ Feature: United Airlines home page functionality test
 
   @SmokeTest
   Scenario: United Airlines Check In functionality test
-    When I click Flight status
-    And I enter City in From field and To field
-    And I enter Flight number and  Date
-    Then I click Search Button
-    And I validate Flight status is appear properly
+    When I click Check In
+    And I enter ticket Number and Last Name
+    Then I click checkIn Search Button
+    And I validate Check In page message
 
 
 

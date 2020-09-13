@@ -2,8 +2,7 @@
 @SmokeTest
 Scenario: United Airlines Check In functionality test # src/test/java/features/UnitedAirlinesHome.feature:15
   Given I am in home page                             # stepdefinitions.UnitedAirStepDefinitions.i_am_in_home_page()
-  When I click Flight status                          # stepdefinitions.UnitedAirStepDefinitions.i_click_flight_status()
-  And I enter City in From field and To field         # stepdefinitions.UnitedAirStepDefinitions.i_enter_city_in_from_field_and_to_field()
-  And I enter Flight number and  Date                 # stepdefinitions.UnitedAirStepDefinitions.i_enter_flight_number_and_date()
-  Then I click Search Button                          # stepdefinitions.UnitedAirStepDefinitions.i_click_search_button()
-  And I validate Flight status is appear properly     # stepdefinitions.UnitedAirStepDefinitions.i_validate_flight_status_is_appear_properly()
+  When I click Check In                               # stepdefinitions.UnitedAirStepDefinitions.i_click_check_in()
+  And I enter ticket Number and Last Name             # stepdefinitions.UnitedAirStepDefinitions.i_enter_ticket_number_and_last_name()
+  Then I click checkIn Search Button                  # stepdefinitions.UnitedAirStepDefinitions.i_click_checkIn_search_button()
+  And I validate Check In page message                # stepdefinitions.UnitedAirStepDefinitions.i_validate_check_in_page_message()

@@ -5,12 +5,12 @@
       {
         "name": "I am in home page",
         "aggregatedDurations": {
-          "median": 10.286216,
-          "average": 10.286216
+          "median": 10.634751,
+          "average": 10.634751
         },
         "durations": [
           {
-            "duration": 10.286216,
+            "duration": 10.634751,
             "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:4"
           }
         ]
@@ -18,17 +18,17 @@
     ]
   },
   {
-    "source": "I click Flight status",
+    "source": "I click Check In",
     "steps": [
       {
-        "name": "I click Flight status",
+        "name": "I click Check In",
         "aggregatedDurations": {
-          "median": 0.187273,
-          "average": 0.187273
+          "median": 0.47208,
+          "average": 0.47208
         },
         "durations": [
           {
-            "duration": 0.187273,
+            "duration": 0.47208,
             "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:16"
           }
         ]
@@ -36,17 +36,17 @@
     ]
   },
   {
-    "source": "I enter City in From field and To field",
+    "source": "I enter ticket Number and Last Name",
     "steps": [
       {
-        "name": "I enter City in From field and To field",
+        "name": "I enter ticket Number and Last Name",
         "aggregatedDurations": {
-          "median": 0.64619,
-          "average": 0.64619
+          "median": 5.637007,
+          "average": 5.637007
         },
         "durations": [
           {
-            "duration": 0.64619,
+            "duration": 5.637007,
             "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:17"
           }
         ]
@@ -54,17 +54,17 @@
     ]
   },
   {
-    "source": "I enter Flight number and  Date",
+    "source": "I click checkIn Search Button",
     "steps": [
       {
-        "name": "I enter Flight number and  Date",
+        "name": "I click checkIn Search Button",
         "aggregatedDurations": {
-          "median": 5.84354,
-          "average": 5.84354
+          "median": 0.527645,
+          "average": 0.527645
         },
         "durations": [
           {
-            "duration": 5.84354,
+            "duration": 0.527645,
             "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:18"
           }
         ]
@@ -72,36 +72,18 @@
     ]
   },
   {
-    "source": "I click Search Button",
+    "source": "I validate Check In page message",
     "steps": [
       {
-        "name": "I click Search Button",
+        "name": "I validate Check In page message",
         "aggregatedDurations": {
-          "median": 0.132076,
-          "average": 0.132076
+          "median": 2.949866,
+          "average": 2.949866
         },
         "durations": [
           {
-            "duration": 0.132076,
+            "duration": 2.949866,
             "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:19"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "I validate Flight status is appear properly",
-    "steps": [
-      {
-        "name": "I validate Flight status is appear properly",
-        "aggregatedDurations": {
-          "median": 1.599917,
-          "average": 1.599917
-        },
-        "durations": [
-          {
-            "duration": 1.599917,
-            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:20"
           }
         ]
       }
