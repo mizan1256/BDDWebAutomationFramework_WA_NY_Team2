@@ -2,9 +2,12 @@ package tripAdvisorhome;
 
 import common.WebAPI;
 import org.junit.Assert;
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
+import org.openqa.selenium.support.ui.Select;
 
 
 import static tripAdvisorhome.TripAdvHomeWebElement.*;
@@ -30,6 +33,12 @@ public class TripAdvisorHomePage extends WebAPI {
     @FindBy(how = How.XPATH, using = continueWithEmailButton)
     public WebElement continueWithEmail;
 
+    @FindBy(how = How.XPATH, using = iFrameTripAvdWebElement)
+    public WebElement iFrameTripAvd;
+
+    @FindBy(xpath = "//input[@id='regSignIn.email']")WebElement userEmail;
+    @FindBy(xpath = "//input[@id='regSignIn.password']")WebElement userPassword;
+    @FindBy(xpath = "//div[contains(text(),'Log in')]")WebElement logInBtn;
     //Action Method
     public void searchBoxCheck(String searchItem){
         whereToSearchBox.sendKeys(searchItem);
@@ -44,9 +53,16 @@ public class TripAdvisorHomePage extends WebAPI {
     }
     public void signInButtonCheck(){
      tripAdvisorSignInButton.click();
-     imNotARobotButton.click();
-     continueWithEmail.click();
-
-
+        driver.switchTo().frame(iFrameTripAvd);
+        continueWithEmail.click();
     }
+    public void enterEmailAndPassword(String email, String password){
+        driver.switchTo().frame(iFrameTripAvd);
+        userEmail.sendKeys(email);
+        userPassword.sendKeys(password);
+    }
+    public void clickOnLogInBtn(){
+        logInBtn.click();
+    }
+
 }

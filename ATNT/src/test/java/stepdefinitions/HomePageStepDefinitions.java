@@ -48,7 +48,7 @@ public class HomePageStepDefinitions extends WebAPI {
 
     @Given("I am in att homepage")
     public void i_am_in_att_homepage() throws IOException {
-   openBrowser();
+   openBrowser("https://www.att.com/");
     }
 
     @And("I click accountIcon")

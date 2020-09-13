@@ -9,6 +9,7 @@ public class TripAdvHomeWebElement extends WebAPI {
 
     public static final String tripAdvisorSignInButtonWebElement="//a[@class='_1JOGv2rJ _1_M9wxW9 _1qMtXLO6 _3yBiBka1']";
     public static final String imNotARobotButtonWebElement="//span[@id='googleBtn']";
-    public static final String continueWithEmailButton="//*[@id=\"ssoButtons\"]/span/span[1]";
+    public static final String continueWithEmailButton="//span[contains(text(),'Continue with email')]";
+    public static final String iFrameTripAvdWebElement="//iframe[@class='_30pzQStV']";
 
 }

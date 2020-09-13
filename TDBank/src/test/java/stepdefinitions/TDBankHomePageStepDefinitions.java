@@ -34,7 +34,8 @@ public class TDBankHomePageStepDefinitions extends WebAPI {
 
     @Given("I am on TD Bank home page")
     public void i_am_on_td_bank_home_page() throws IOException {
-        openBrowser();
+        openBrowser("https://www.td.com/us/en/personal-banking/");
+
     }
 
     @When("I mouseHover on LogIn")
@@ -68,7 +69,7 @@ public class TDBankHomePageStepDefinitions extends WebAPI {
     }
 
     @When("I checked Please Confirm checkBox from PopUp")
-    public void i_checked_please_confirm_check_box_from_pop_up() {
+    public void i_checked_please_confirm_check_box_from_pop_up() throws InterruptedException {
         tdBankHome.pleaseConfirmCheckBtn();
     }
 

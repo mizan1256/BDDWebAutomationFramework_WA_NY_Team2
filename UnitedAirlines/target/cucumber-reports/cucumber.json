@@ -1,0 +1,187 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 10286216000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 24139000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.UnitedAirStepDefinitions.getInIt()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "I am in home page",
+            "match": {
+              "location": "stepdefinitions.UnitedAirStepDefinitions.i_am_in_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-12T16:40:42.891Z",
+        "line": 15,
+        "name": "United Airlines Check In functionality test",
+        "description": "",
+        "id": "united-airlines-home-page-functionality-test;united-airlines-check-in-functionality-test",
+        "after": [
+          {
+            "result": {
+              "duration": 179689000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.UnitedAirStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 187273000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1975000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.UnitedAirStepDefinitions.getInIt()"
+                }
+              }
+            ],
+            "line": 16,
+            "name": "I click Flight status",
+            "match": {
+              "location": "stepdefinitions.UnitedAirStepDefinitions.i_click_flight_status()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 646190000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 836000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.UnitedAirStepDefinitions.getInIt()"
+                }
+              }
+            ],
+            "line": 17,
+            "name": "I enter City in From field and To field",
+            "match": {
+              "location": "stepdefinitions.UnitedAirStepDefinitions.i_enter_city_in_from_field_and_to_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5843540000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 499000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.UnitedAirStepDefinitions.getInIt()"
+                }
+              }
+            ],
+            "line": 18,
+            "name": "I enter Flight number and  Date",
+            "match": {
+              "location": "stepdefinitions.UnitedAirStepDefinitions.i_enter_flight_number_and_date()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 132076000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 687000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.UnitedAirStepDefinitions.getInIt()"
+                }
+              }
+            ],
+            "line": 19,
+            "name": "I click Search Button",
+            "match": {
+              "location": "stepdefinitions.UnitedAirStepDefinitions.i_click_search_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1599917000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 602000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.UnitedAirStepDefinitions.getInIt()"
+                }
+              }
+            ],
+            "line": 20,
+            "name": "I validate Flight status is appear properly",
+            "match": {
+              "location": "stepdefinitions.UnitedAirStepDefinitions.i_validate_flight_status_is_appear_properly()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "United Airlines home page functionality test",
+    "description": "",
+    "id": "united-airlines-home-page-functionality-test",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/UnitedAirlinesHome.feature",
+    "tags": []
+  }
+]

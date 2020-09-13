@@ -4,36 +4,37 @@ import common.WebAPI;
 import org.junit.Assert;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.Select;
 
 public class TDBankHome extends WebAPI {
-    @FindBy(xpath = "//a[@id='td-desktop-nav-dropdown-link-4']//span[@class='td-icon expand']")
-    WebElement tdLogInIcon;
-    @FindBy(xpath = "//div[@class='td-col']//a[contains(text(),'Online Banking')]")
-    WebElement onlineBankingBtn;
-    @FindBy(xpath = "//h1[@class='td-ui-login-app-title ng-binding']")
-    WebElement validateText;
+    @FindBy(xpath = "//a[@id='td-desktop-nav-dropdown-link-4']//span[@class='td-icon expand']") WebElement tdLogInIcon;
+    @FindBy(xpath = "//div[@class='td-col']//a[contains(text(),'Online Banking')]") WebElement onlineBankingBtn;
+    @FindBy(xpath = "//h1[@class='td-ui-login-app-title ng-binding']") WebElement validateText;
     @FindBy(xpath = "//a[contains(text(),'Sign')]")WebElement signInBtn;
-    @FindBy(xpath = "//input[@id='formElement_5']")WebElement plsConfirmCheckBtn;
-    @FindBy(xpath = "//*[@id=\"formElement_6\"]")WebElement eSignAcceptCheckBox;
+    @FindBy(xpath = "//label[@class='card'][contains(text(),'I am the account owner for all accounts.')]")WebElement plsConfirmCheckBtn;
+    @FindBy(xpath = "//*[@id=\"labelWrap_3444\"]/div/div/label")WebElement eSignAcceptCheckBox;
+    @FindBy(xpath = "//*[@id=\"eSignForm\"]/div[3]/div/button[2]")WebElement secondPopUpContinueBtn;
     @FindBy(xpath = "//input[@id='formElement_7']")WebElement firstName;
     @FindBy(xpath = "//input[@id='formElement_8']")WebElement lastName;
     @FindBy(xpath = "//input[@id='formElement_9']")WebElement email;
-    @FindBy(xpath = "//div[@class='td-select']")WebElement actTypeDropDown;
-    @FindBy(xpath = "//input[@id='formElement_36']")WebElement ssNumber;
-    @FindBy(xpath = "//input[@id='formElement_37']")WebElement atmNumber;
-    @FindBy(xpath = "//input[@id='formElement_38']")WebElement accountNumber;
-    @FindBy(xpath = "//span[@id='labelWrap_3754']//a[@class='ng-binding'][contains(text(),'Yes')]")WebElement freeBillPayYesBtn;
+    @FindBy(xpath = "//select[@id='formElement_10']")WebElement actTypeDropDown;
+    @FindBy(xpath = "//*[@id=\"formElement_11\"]")WebElement ssNumber;
+    @FindBy(xpath = "//*[@id=\"formElement_12\"]")WebElement atmNumber;
+    @FindBy(xpath = "//*[@id=\"formElement_13\"]")WebElement accountNumber;
+    @FindBy(xpath = "//*[@id=\"labelWrap_3551\"]/div/div/div/ul/li[1]/a")WebElement freeBillPayYesBtn;
     @FindBy(xpath = "//span[@id='labelWrap_3556']//a[@class='ng-binding'][contains(text(),'Yes')]")WebElement goPaperLessYesBtn;
-    @FindBy(xpath = "//input[@id='formElement_39']")WebElement userName;
-    @FindBy(xpath = "//input[@id='formElement_40']")WebElement reEnterUserName;
-    @FindBy(xpath = "//input[@id='formElement_66']")WebElement newPassword;
-    @FindBy(xpath = "//input[@id='formElement_67']")WebElement reEnterPassword;
+    @FindBy(xpath = "//input[@id='formElement_14']")WebElement userName;
+    @FindBy(xpath = "//input[@id='formElement_15']")WebElement reEnterUserName;
+    @FindBy(xpath = "//input[@id='formElement_16']")WebElement newPassword;
+    @FindBy(xpath = "//input[@id='formElement_17']")WebElement reEnterPassword;
     @FindBy(xpath = "/html/body/div[4]/div[2]/div/div[1]/form/div[2]/div[7]/button[2]")WebElement continueBtn;
     @FindBy(xpath = "//div[@class='td-infobar-content']//div[1]") WebElement errorMessage;
+    @FindBy(xpath = "/html/body/div[8]/div[2]/div/div[1]/div/div/div[3]/div/button[2]")WebElement firstPopUpContinueBtn;
+    @FindBy(xpath = "//*[@id=\"eSignForm\"]/div[3]/div/button[2]")WebElement thirdPopUpAcceptBtn;
 
 
     public void logInIcon() {
@@ -55,21 +56,23 @@ public class TDBankHome extends WebAPI {
      * TD Bank SignUp functionality test
      */
     public void clickOnSignInBtn(){
+
         signInBtn.click();
     }
-    public void pleaseConfirmCheckBtn(){
-        plsConfirmCheckBtn.isSelected();
+    public void pleaseConfirmCheckBtn() throws InterruptedException {
+//        JavascriptExecutor js=(JavascriptExecutor)driver;
+//        js.executeScript("arguments[0].scrollIntoView();",plsConfirmCheckBtn);
+//        Thread.sleep(5000);
+        plsConfirmCheckBtn.click();
     }
     public void acceptPopUpUsingAlert(){
-        Alert alert=driver.switchTo().alert();
-        alert.accept();
+        firstPopUpContinueBtn.click();
     }
     public void eSignAcceptCheckBox(){
         eSignAcceptCheckBox.click();
     }
     public void acceptSecondPopUpUsingAlert(){
-        Alert alert=driver.switchTo().alert();
-        alert.accept();
+     secondPopUpContinueBtn.click();
     }
     public void insertCredentials(){
         firstName.sendKeys("Mohammd");
@@ -97,8 +100,9 @@ public class TDBankHome extends WebAPI {
         goPaperLessYesBtn.click();
     }
     public void acceptThirdPopUp(){
-        Alert alert=driver.switchTo().alert();
-        alert.accept();
+        thirdPopUpAcceptBtn.click();
+//        Alert alert=driver.switchTo().alert();
+//        alert.accept();
     }
     public void enterUserName(){
         userName.sendKeys("pnt30242");

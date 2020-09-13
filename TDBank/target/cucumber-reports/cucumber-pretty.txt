@@ -6,13 +6,16 @@ Scenario: TD Bank signUp                                    # src/test/java/feat
   And I select Personal Accounts Radio button from PopUp    # stepdefinitions.TDBankHomePageStepDefinitions.i_select_personal_accounts_radio_button_from_pop_up()
   And I checked Please Confirm checkBox from PopUp          # stepdefinitions.TDBankHomePageStepDefinitions.i_checked_please_confirm_check_box_from_pop_up()
   Then I click continue in PopUp                            # stepdefinitions.TDBankHomePageStepDefinitions.i_click_continue_in_pop_up()
-      org.openqa.selenium.NoAlertPresentException: no such alert
+  And I check Accept button from second PopUp               # stepdefinitions.TDBankHomePageStepDefinitions.i_check_accept_button_from_second_pop_up()
+      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="labelWrap_3444"]/div/div/label"}
   (Session info: chrome=85.0.4183.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:89e8:fd74:6c98:e8e1%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:8cf3:d836:4ce1:eb80%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:54679}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 0232d3d432ad936e75ed927ef0abb472
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:59450}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 2730094164e7c0045f492c1cf458ce18
+*** Element info: {Using=xpath, value=//*[@id="labelWrap_3444"]/div/div/label}
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -23,13 +26,17 @@ Session ID: 0232d3d432ad936e75ed927ef0abb472
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:932)
-	at tdbankhome.TDBankHome.acceptPopUpUsingAlert(TDBankHome.java:64)
-	at stepdefinitions.TDBankHomePageStepDefinitions.i_click_continue_in_pop_up(TDBankHomePageStepDefinitions.java:77)
-	at ✽.I click continue in PopUp(file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TDBank/src/test/java/features/TDBankHomePage.feature:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy24.click(Unknown Source)
+	at tdbankhome.TDBankHome.eSignAcceptCheckBox(TDBankHome.java:72)
+	at stepdefinitions.TDBankHomePageStepDefinitions.i_check_accept_button_from_second_pop_up(TDBankHomePageStepDefinitions.java:83)
+	at ✽.I check Accept button from second PopUp(file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TDBank/src/test/java/features/TDBankHomePage.feature:20)
 
-  And I check Accept button from second PopUp               # stepdefinitions.TDBankHomePageStepDefinitions.i_check_accept_button_from_second_pop_up()
   And I Accept second PopUp                                 # stepdefinitions.TDBankHomePageStepDefinitions.i_accept_second_pop_up()
   And I enter FirstName LastName and Email                  # stepdefinitions.TDBankHomePageStepDefinitions.i_enter_first_name_last_name_and_email()
   And I select Checking From Account Type                   # stepdefinitions.TDBankHomePageStepDefinitions.i_select_checking_from_account_type()
@@ -46,5 +53,5 @@ Session ID: 0232d3d432ad936e75ed927ef0abb472
   Then I click on continue                                  # stepdefinitions.TDBankHomePageStepDefinitions.i_click_on_continue()
   And I validate error message                              # stepdefinitions.TDBankHomePageStepDefinitions.i_validate_error_message()
 
-    Embedding Demo [image/png 685381 bytes]
+    Embedding Demo [image/png 577697 bytes]
 

@@ -15,9 +15,9 @@ Background:
   @Regression
   Scenario: TripAdvisor sign in Functionality check with valid credentials
     And I click on signIn Button adn continue button
-#  And I enter email as "pnt30242@gmail.com" and password as "Pnt@1256"
-#  When I click on LOG IN
-#  Then I landed on home page
+    And I enter email as "pnt30242@gmail.com" and password as "Pnt@1256"
+    When I click on LOG IN
+#    Then I landed on home page
 
 
 

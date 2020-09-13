@@ -127,8 +127,8 @@ public class WebAPI {
     public String saucelabs_username = "";
     public String saucelabs_accesskey = "";
 
-    public void openBrowser() throws IOException {
-        setUp(false,"browserstack","OS X","catalina","chrome","85","https://www.td.com/us/en/personal-banking/");
+    public void openBrowser(String url) throws IOException {
+        setUp(false,"browserstack","OS X","catalina","chrome","85",url);
     }
 
     @Parameters({"useCloudEnv", "cloudEnvName", "os", "os_version", "browserName", "browserVersion", "url"})

@@ -23,16 +23,12 @@ public class HomePageStepDefinitions extends WebAPI {
     @After
     public void tearDown(Scenario scenario) {
         if (scenario.isFailed()) {
-            // Take a screenshot...
             final byte[] screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
             scenario.attach(screenshot,"image/png","Demo1"); // ... and embed it in the report.
         }
-    }
-
-    @After
-    public void closeBrowser(){
         cleanUp();
     }
+
     @BeforeStep
     public static void getInit(){
         tripAdvisorHomePage= PageFactory.initElements(driver,TripAdvisorHomePage.class);
@@ -40,7 +36,7 @@ public class HomePageStepDefinitions extends WebAPI {
 
     @Given("I am in TripAdvisor homepage")
     public void i_am_in_trip_advisor_homepage() throws IOException {
-        openBrowser();
+        openBrowser("https://www.tripadvisor.com/");
     }
 
     @And("I enter Mexico City in searchBox")
@@ -71,8 +67,8 @@ public class HomePageStepDefinitions extends WebAPI {
     tripAdvisorHomePage.signInButtonCheck();
     }
     @And("I enter email as {string} and password as {string}")
-    public void i_enter_email_as_and_password_as() {
-
+    public void i_enter_email_as_and_password_as(String email, String password) {
+    tripAdvisorHomePage.enterEmailAndPassword(email,password);
     }
 
     @And("I click on LOG IN")

@@ -5,13 +5,31 @@
       {
         "name": "I am in TripAdvisor homepage",
         "aggregatedDurations": {
-          "median": 3.234658,
-          "average": 3.234658
+          "median": 3.865031,
+          "average": 3.865031
         },
         "durations": [
           {
-            "duration": 3.234658,
+            "duration": 3.865031,
             "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TripAdvisor/src/test/java/features/TripAdvisor.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on signIn Button adn continue button",
+    "steps": [
+      {
+        "name": "I click on signIn Button adn continue button",
+        "aggregatedDurations": {
+          "median": 0.595958,
+          "average": 0.595958
+        },
+        "durations": [
+          {
+            "duration": 0.595958,
+            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TripAdvisor/src/test/java/features/TripAdvisor.feature:17"
           }
         ]
       }

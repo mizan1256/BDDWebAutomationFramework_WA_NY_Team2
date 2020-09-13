@@ -4,14 +4,14 @@ Feature: Att search functionality
   Background:
     Given I am in att homepage
 
-
+  @SmokeTest
   Scenario: Att searchBox functionality check with valid data
     And I enter Apple iPhone 11 in searchBox
     When I click searchButton
     Then I verify Apple iPhone 11 is appear properly
     And I verify page title as iphone 11
 
-  #@SmokeTest
+  @SmokeTest
   Scenario: Att searchBox functionality check with valid data
     And I enter "Apple iPhone 11" in searchBox
     When I click searchButton
