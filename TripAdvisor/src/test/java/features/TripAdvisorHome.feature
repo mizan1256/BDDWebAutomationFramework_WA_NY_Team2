@@ -1,6 +1,7 @@
   Feature: TripAdvisor HomePage Functionality check
   Background:
     Given I am in TripAdvisor homepage
+    When I click searchButton
   @Shuvo
   Scenario: TripAdvisor SearchBox Functionality check with valid data
     And I enter Cox's Bazar in searchBox
@@ -14,6 +15,12 @@
     When  I enter on Paris in searchBox
     And   I verify Paris hotels is appear properly
     When  I verify page title
+
+    @SmokeTest
+    Scenario: TripAdvisor searchBox Functionality check with valid data
+      And I enter "<searchItem>" in searchBox
+      Then I verify "<verifyTitle>" and "<pageTitle>"
+
 
 
 

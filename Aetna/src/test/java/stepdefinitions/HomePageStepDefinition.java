@@ -34,7 +34,7 @@ public class HomePageStepDefinition extends WebAPI {
     }
     @Given("I am in Aetna HomePage")
     public void i_am_in_aetna_home_page() throws IOException {
-        openBrowser();
+        openBrowser("https://www.aetna.com/individuals-families.html");
     }
 
     @When("I Click ShopForAPLan Button")
