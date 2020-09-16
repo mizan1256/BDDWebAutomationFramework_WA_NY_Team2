@@ -85,17 +85,31 @@ public class TargetEcommerceHomePage extends WebAPI {
         Assert.assertEquals("Title does not match", expectedTitle, actualTitle);
     }
 
-    //Positive test Creating account
-    public void createTargetAccount() {
+    /**
+     *    Positive test Creating account
+     */
+
+    public void signUpNecessaryStep(){
         signInButton.click();
         createAccountDropDownLink.click();
-        emailId.sendKeys("pnt30242@gmail.com");
-        firstName.sendKeys("Mohammd");
-        lastName.sendKeys("Islam");
-        mobileNumber.sendKeys("7186901256");
-        password.sendKeys("Pnt@30242");
+    }
+    public void enterUseEmail(String email){
+        emailId.sendKeys(email);
+    }
+    public void enterUseFirstName(String fName){
+        firstName.sendKeys(fName);
+    }
+    public void enterUseLastName(String lName){
+        lastName.sendKeys(lName);
+    }
+    public void enterUsePhnNum(String pNumber){
+        mobileNumber.sendKeys(pNumber);
+    }
+    public void enterUsePassword(String passWord){
+        password.sendKeys(passWord);
+    }
+    public void enterCreateTargetAccount(){
         createTargetAccount.click();
-
     }
 
 }

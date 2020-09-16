@@ -1,22 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="14.098">
-    <testcase classname="TargetEcommerce Home page Functionality test" name="TargetEcommerce SearchBox functionality test with validate" time="13.633">
-        <failure message="iPhone : Target expected [&quot;iPhone : Target&quot;] but found [Title does not match]" type="java.lang.AssertionError">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="10.671">
+    <testcase classname="TargetEcommerce Home page Functionality test" name="TargetEcommerce signUp functionality test with validate" time="10.19">
+        <system-out>
             <![CDATA[Given I am on targetEcommerce home page.....................................passed
-And I enter iPhone in searchBox.............................................passed
-Then I verify iPhone is appear properly.....................................passed
-And I verify p age title as iPhone..........................................failed
-
-StackTrace:
-java.lang.AssertionError: iPhone : Target expected ["iPhone : Target"] but found [Title does not match]
-	at org.testng.Assert.fail(Assert.java:97)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
-	at org.testng.Assert.assertEquals(Assert.java:118)
-	at org.testng.Assert.assertEquals(Assert.java:575)
-	at targetHome.TargetEcommerceHomePage.validateSearchBoxTitle(TargetEcommerceHomePage.java:85)
-	at stepdefinitions.TargetEcommerceStepDefinitions.i_verify_p_age_title_as_i_phone(TargetEcommerceStepDefinitions.java:61)
-	at ✽.I verify p age title as iPhone(file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetecommerceHomePage.feature:15)
+And I do necessary steps to land on User info page..........................passed
+And I enter user credentials................................................passed
+When I click on create account..............................................passed
+Then I validate signUp message..............................................passed
 ]]>
-        </failure>
+        </system-out>
     </testcase>
 </testsuite>
