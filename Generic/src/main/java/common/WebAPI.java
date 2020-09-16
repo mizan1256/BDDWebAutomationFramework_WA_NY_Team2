@@ -122,13 +122,13 @@ public class WebAPI {
 
     //Browser SetUp
     public static WebDriver driver = null;
-    public String browserstack_username = "mhs5";
-    public String browserstack_accesskey = "dGpR3twU2pLPLgXZxmSa";
-    public String saucelabs_username = "";
-    public String saucelabs_accesskey = "";
+    public String browserstack_username = "jonhossn1";
+    public String browserstack_accesskey = "4wrzQSxzdyLWt7XHRoDQ";
+    public String saucelabs_username = "jonhosn";
+    public String saucelabs_accesskey = "756c64b0-bcee-40bb-8680-22677d6827ea";
 
-    public void openBrowser() throws IOException {
-        setUp(false,"browserstack","OS X","catalina","chrome","85","https://www.amazon.com");
+    public void openBrowser(String url) throws IOException {
+        setUp(false,"browserstack","windows","10","chrome","85",url);
     }
 
     @Parameters({"useCloudEnv", "cloudEnvName", "os", "os_version", "browserName", "browserVersion", "url"})
@@ -147,38 +147,38 @@ public class WebAPI {
             getLocalDriver(os, browserName);
         }
         driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
-        //driver.manage().timeouts().pageLoadTimeout(25, TimeUnit.SECONDS);
         driver.manage().deleteAllCookies();
         driver.get(url);
-        //driver.manage().window().maximize();
+        driver.manage().timeouts().pageLoadTimeout(25, TimeUnit.SECONDS);
+        driver.manage().window().maximize();
     }
 
     public WebDriver getLocalDriver(@Optional("mac") String OS, String browserName) {
         if (browserName.equalsIgnoreCase("chrome")) {
             if (OS.equalsIgnoreCase("OS X")) {
-                System.setProperty("webdriver.chrome.driver", "../Generic/BrowserDriver/mac/chromedriver");
+                System.setProperty("webdriver.chrome.driver", "../Generic/BrowserDriver/Mac/chromedriver");
             } else if (OS.equalsIgnoreCase("Windows")) {
-                System.setProperty("webdriver.chrome.driver", "../Generic/BrowserDriver/windows/chromedriver.exe");
+                System.setProperty("webdriver.chrome.driver", "../Generic/BrowserDriver/Windows/chromedriver.exe");
             }
             driver = new ChromeDriver();
         } else if (browserName.equalsIgnoreCase("chrome-options")) {
             ChromeOptions options = new ChromeOptions();
             options.addArguments("--disable-notifications");
             if (OS.equalsIgnoreCase("OS X")) {
-                System.setProperty("webdriver.chrome.driver", "../Generic/BrowserDriver/mac/chromedriver");
+                System.setProperty("webdriver.chrome.driver", "../Generic/BrowserDriver/Mac/chromedriver");
             } else if (OS.equalsIgnoreCase("Windows")) {
-                System.setProperty("webdriver.chrome.driver", "../Generic/BrowserDriver/windows/chromedriver.exe");
+                System.setProperty("webdriver.chrome.driver", "../Generic/BrowserDriver/Windows/chromedriver.exe");
             }
             driver = new ChromeDriver(options);
         } else if (browserName.equalsIgnoreCase("firefox")) {
             if (OS.equalsIgnoreCase("OS X")) {
-                System.setProperty("webdriver.gecko.driver", "../Generic/BrowserDriver/mac/geckodriver");
+                System.setProperty("webdriver.gecko.driver", "../Generic/BrowserDriver/Mac/geckodriver");
             } else if (OS.equalsIgnoreCase("Windows")) {
-                System.setProperty("webdriver.gecko.driver", "../Generic/BrowserDriver/windows/geckodriver.exe");
+                System.setProperty("webdriver.gecko.driver", "../Generic/BrowserDriver/Windows/geckodriver.exe");
             }
             driver = new FirefoxDriver();
         } else if (browserName.equalsIgnoreCase("ie")) {
-            System.setProperty("webdriver.ie.driver", "../Generic/BrowserDriver/windows/IEDriverServer.exe");
+            System.setProperty("webdriver.ie.driver", "../Generic/BrowserDriver/Windows/IEDriverServer.exe");
             driver = new InternetExplorerDriver();
         }
         return driver;
@@ -204,9 +204,9 @@ public class WebAPI {
         return driver;
     }
 
-//    @AfterMethod(alwaysRun = true)
+    @AfterMethod(alwaysRun = true)
     public void cleanUp() {
-        //driver.close();
+//        driver.close();
        driver.quit();
     }
 
@@ -214,6 +214,7 @@ public class WebAPI {
     //helper methods
     public void clickOnElement(String locator) {
         try {
+            driver.findElement(By.xpath(locator)).click();
             driver.findElement(By.cssSelector(locator)).click();
         } catch (Exception ex) {
             try {
@@ -222,7 +223,7 @@ public class WebAPI {
                 try {
                     driver.findElement(By.id(locator)).click();
                 } catch (Exception ex3) {
-                    driver.findElement(By.xpath(locator)).click();
+                    driver.findElement(By.cssSelector(locator)).click();
                 }
             }
         }
