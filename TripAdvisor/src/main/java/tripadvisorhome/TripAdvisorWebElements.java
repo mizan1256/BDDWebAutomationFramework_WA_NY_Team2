@@ -10,7 +10,7 @@ public class TripAdvisorWebElements {
     public static final String ExpectedWriteAReviewTextXp="//*[@id=\"taplc_war_unattach_dual_search_0\"]/div[1]/div[1]";
 
     //bdd.4
-    //public static final String alertsText="//span[contains(text(),'Post')]";
+    //gipublic static final String alertsText="//span[contains(text(),'Post')]";
     public static final String alertsText="//span[contains(text(),'Post')]";
 
     public static final String continueWithEmailButton="inbox-lander-title";
