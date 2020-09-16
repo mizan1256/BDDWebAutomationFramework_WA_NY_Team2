@@ -1,0 +1,19 @@
+
+@Regression
+Scenario: TargetEcommerce SearchBox functionality test with validate # src/test/java/features/TargetecommerceHomePage.feature:12
+  Given I am on targetEcommerce home page                            # stepdefinitions.TargetEcommerceStepDefinitions.i_am_on_target_ecommerce_home_page()
+  And I enter iPhone in searchBox                                    # stepdefinitions.TargetEcommerceStepDefinitions.i_enter_i_phone_in_search_box()
+  Then I verify iPhone is appear properly                            # stepdefinitions.TargetEcommerceStepDefinitions.i_verify_i_phone_is_appear_properly()
+  And I verify p age title as iPhone                                 # stepdefinitions.TargetEcommerceStepDefinitions.i_verify_p_age_title_as_i_phone()
+      java.lang.AssertionError: iPhone : Target expected ["iPhone : Target"] but found [Title does not match]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at targetHome.TargetEcommerceHomePage.validateSearchBoxTitle(TargetEcommerceHomePage.java:85)
+	at stepdefinitions.TargetEcommerceStepDefinitions.i_verify_p_age_title_as_i_phone(TargetEcommerceStepDefinitions.java:61)
+	at ✽.I verify p age title as iPhone(file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetecommerceHomePage.feature:15)
+
+
+    Embedding Demo [image/png 609705 bytes]
+

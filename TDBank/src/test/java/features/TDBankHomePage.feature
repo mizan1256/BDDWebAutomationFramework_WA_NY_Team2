@@ -14,25 +14,31 @@ Feature: TD Bank Home Page functionality test
   @SmokeTest
   Scenario: TD Bank signUp
     When I click on signUp button
+    And I do necessary steps to land on User info page
     And I select Personal Accounts Radio button from PopUp
     And I checked Please Confirm checkBox from PopUp
     Then I click continue in PopUp
     And I check Accept button from second PopUp
     And I Accept second PopUp
-    And I enter FirstName LastName and Email
-    And I select Checking From Account Type
-    And I enter ATM card Number
-    And I enter SSN number
-    And I enter Account Number
-    And I check Yes from Bill Pay Option
-    And I select Yes from go paperless option
-    And I Accept the third popUp
-    Then I enter user name in Create your UserName field
-    And I re enter user name In Re enter your user name field
-    And I enter password in Your new password field
-    And I re enter password in Re enter password field
+    And I enter user information
+#    And I enter FirstName LastName and Email
+#    And I select Checking From Account Type
+#    And I enter ATM card Number
+#    And I enter SSN number
+#    And I enter Account Number
+#    And I check Yes from Bill Pay Option
+#    And I select Yes from go paperless option
+#    And I Accept the third popUp
+#    Then I enter user name in Create your UserName field
+#    And I re enter user name In Re enter your user name field
+#    And I enter password in Your new password field
+#    And I re enter password in Re enter password field
     Then I click on continue
     And I validate error message
+
+    And I enter user information
+      | firstName | lastName | email           | SSN       | accountType | accountNumber | userName | password | ReEnter UserName |
+      | mizan     | islam    | email@gmail.com | 123456789 | checking    | accountNumber | userName | password | ReEnter UserName |
 
 
 

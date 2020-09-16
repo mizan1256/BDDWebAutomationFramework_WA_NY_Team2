@@ -1,0 +1,56 @@
+[
+  {
+    "source": "I am on targetEcommerce home page",
+    "steps": [
+      {
+        "name": "I am on targetEcommerce home page",
+        "aggregatedDurations": {
+          "median": 6.479075,
+          "average": 6.479075
+        },
+        "durations": [
+          {
+            "duration": 6.479075,
+            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetecommerceHomePage.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter iPhone in searchBox",
+    "steps": [
+      {
+        "name": "I enter iPhone in searchBox",
+        "aggregatedDurations": {
+          "median": 0.787026,
+          "average": 0.787026
+        },
+        "durations": [
+          {
+            "duration": 0.787026,
+            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetecommerceHomePage.feature:13"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify iPhone is appear properly",
+    "steps": [
+      {
+        "name": "I verify iPhone is appear properly",
+        "aggregatedDurations": {
+          "median": 5.092396,
+          "average": 5.092396
+        },
+        "durations": [
+          {
+            "duration": 5.092396,
+            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetecommerceHomePage.feature:14"
+          }
+        ]
+      }
+    ]
+  }
+]
