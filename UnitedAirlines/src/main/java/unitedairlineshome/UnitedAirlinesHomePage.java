@@ -37,6 +37,15 @@ public class UnitedAirlinesHomePage extends WebAPI {
     @FindBy(how = How.XPATH, using = checkInErrTxtWebElement)
     public WebElement checkInErrTxt;
 
+    @FindBy(how = How.XPATH, using = bookButtonWebElement)
+    public WebElement bookButton;
+    @FindBy(how = How.XPATH, using = hotelsButtonWebElement)
+    public WebElement hotelsButton;
+    @FindBy(how = How.XPATH, using = whereToSearchBoxWebElement)
+    public WebElement whereToSearch;
+    @FindBy(how = How.XPATH, using = bookHotelsValidateTxtWebElement)
+    public WebElement bookHotelsValidateTxt;
+
 
     /**
      * United Air Flight Status check functionality test
@@ -85,6 +94,28 @@ public class UnitedAirlinesHomePage extends WebAPI {
         String expectedResult="We couldn't find a reservation with the provided information.";
         String actualResult=checkInErrTxt.getText();
         Assert.assertEquals("Text do not match", expectedResult,actualResult);
+    }
+    /**
+     * United Airlines Book Button functionality test
+     */
+    public void clickOnBookBtn(){
+        bookButton.click();
+    }
+    public void clickOnHotelsBtn(){
+        hotelsButton.click();
+    }
+    public void enterSearchBoxAndSubmit(String searchItem) throws InterruptedException {
+        driver.navigate().to("https://hotels.united.com/");
+        sleepFor(3);
+        whereToSearch.clear();
+        whereToSearch.sendKeys(searchItem);
+        whereToSearch.submit();
+    }
+    public void validateLandedPageTxt() throws InterruptedException {
+        String expectedResult="Las Vegas, Nevada, United States of America";
+        String actualResult=bookHotelsValidateTxt.getText();
+        Assert.assertEquals("Text do not match", expectedResult,actualResult);
+
     }
 
 }

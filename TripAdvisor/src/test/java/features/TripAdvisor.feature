@@ -20,10 +20,3 @@ Background:
 #    Then I landed on home page
 
 
-
-#
-#    Given User launches Chrome browser
-#    When User opens URL "https://admin-demo.nopcommerce.com/login"
-#    And User enters email as "admin@yourstore.com" and password as "admin"
-#    Then Click on LOG IN
-#    Then User landed on Dashboard page

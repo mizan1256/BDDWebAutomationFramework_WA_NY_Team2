@@ -1,8 +1,7 @@
 
 @Regression
-Scenario: TargetEcommerce signUp functionality test with validate # src/test/java/features/TargetecommerceHomePage.feature:19
-  Given I am on targetEcommerce home page                         # stepdefinitions.TargetEcommerceStepDefinitions.i_am_on_target_ecommerce_home_page()
-  And I do necessary steps to land on User info page              # stepdefinitions.TargetEcommerceStepDefinitions.i_do_necessary_steps_to_land_on_user_info_page()
-  And I enter user credentials                                    # stepdefinitions.TargetEcommerceStepDefinitions.i_enter_user_credentials(io.cucumber.datatable.DataTable)
-  When I click on create account                                  # stepdefinitions.TargetEcommerceStepDefinitions.i_click_on_create_account()
-  Then I validate signUp message                                  # stepdefinitions.TargetEcommerceStepDefinitions.i_validate_sign_up_message()
+Scenario: TargetEcommerce SearchBox functionality getting value from Scenario # src/test/java/features/TargetecommerceHomePage.feature:18
+  Given I am on targetEcommerce home page                                     # stepdefinitions.TargetEcommerceStepDefinitions.i_am_on_target_ecommerce_home_page()
+  And I enter "iPhone" in searchBox                                           # stepdefinitions.TargetEcommerceStepDefinitions.i_enter_in_search_box(java.lang.String)
+  Then I verify "iPhone" is appear properly                                   # stepdefinitions.TargetEcommerceStepDefinitions.i_verify_is_appear_properly(java.lang.String)
+  And I verify page title as iPhone                                           # stepdefinitions.TargetEcommerceStepDefinitions.i_verify_page_title_as_i_phone()

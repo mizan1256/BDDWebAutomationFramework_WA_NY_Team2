@@ -11,13 +11,13 @@
         "steps": [
           {
             "result": {
-              "duration": 6608629000,
+              "duration": 6090529000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 43837000,
+                  "duration": 31626000,
                   "status": "passed"
                 },
                 "match": {
@@ -35,15 +35,15 @@
         ]
       },
       {
-        "start_timestamp": "2020-09-16T06:33:32.783Z",
-        "line": 19,
-        "name": "TargetEcommerce signUp functionality test with validate",
+        "start_timestamp": "2020-09-17T05:17:53.075Z",
+        "line": 18,
+        "name": "TargetEcommerce SearchBox functionality getting value from Scenario",
         "description": "",
-        "id": "targetecommerce-home-page-functionality-test;targetecommerce-signup-functionality-test-with-validate",
+        "id": "targetecommerce-home-page-functionality-test;targetecommerce-searchbox-functionality-getting-value-from-scenario",
         "after": [
           {
             "result": {
-              "duration": 138963000,
+              "duration": 121657000,
               "status": "passed"
             },
             "match": {
@@ -56,13 +56,42 @@
         "steps": [
           {
             "result": {
-              "duration": 1756437000,
+              "duration": 362032000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 1170000,
+                  "duration": 777000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.TargetEcommerceStepDefinitions.getInIt()"
+                }
+              }
+            ],
+            "line": 19,
+            "name": "I enter \"iPhone\" in searchBox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"iPhone\"",
+                  "offset": 8
+                }
+              ],
+              "location": "stepdefinitions.TargetEcommerceStepDefinitions.i_enter_in_search_box(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4033314000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2364000,
                   "status": "passed"
                 },
                 "match": {
@@ -71,21 +100,27 @@
               }
             ],
             "line": 20,
-            "name": "I do necessary steps to land on User info page",
+            "name": "I verify \"iPhone\" is appear properly",
             "match": {
-              "location": "stepdefinitions.TargetEcommerceStepDefinitions.i_do_necessary_steps_to_land_on_user_info_page()"
+              "arguments": [
+                {
+                  "val": "\"iPhone\"",
+                  "offset": 9
+                }
+              ],
+              "location": "stepdefinitions.TargetEcommerceStepDefinitions.i_verify_is_appear_properly(java.lang.String)"
             },
-            "keyword": "And "
+            "keyword": "Then "
           },
           {
             "result": {
-              "duration": 909648000,
+              "duration": 10791000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 1453000,
+                  "duration": 1049000,
                   "status": "passed"
                 },
                 "match": {
@@ -94,77 +129,11 @@
               }
             ],
             "line": 21,
-            "name": "I enter user credentials",
+            "name": "I verify page title as iPhone",
             "match": {
-              "location": "stepdefinitions.TargetEcommerceStepDefinitions.i_enter_user_credentials(io.cucumber.datatable.DataTable)"
+              "location": "stepdefinitions.TargetEcommerceStepDefinitions.i_verify_page_title_as_i_phone()"
             },
-            "rows": [
-              {
-                "cells": [
-                  "email",
-                  "firstName",
-                  "lastName",
-                  "phoneNumber",
-                  "password"
-                ]
-              },
-              {
-                "cells": [
-                  "pnt30242@gmail.com",
-                  "Mohammd",
-                  "Islam",
-                  "7186901256",
-                  "Pnt@30242"
-                ]
-              }
-            ],
             "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 601556000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "duration": 1136000,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepdefinitions.TargetEcommerceStepDefinitions.getInIt()"
-                }
-              }
-            ],
-            "line": 24,
-            "name": "I click on create account",
-            "match": {
-              "location": "stepdefinitions.TargetEcommerceStepDefinitions.i_click_on_create_account()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 745000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "duration": 1279000,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepdefinitions.TargetEcommerceStepDefinitions.getInIt()"
-                }
-              }
-            ],
-            "line": 25,
-            "name": "I validate signUp message",
-            "match": {
-              "location": "stepdefinitions.TargetEcommerceStepDefinitions.i_validate_sign_up_message()"
-            },
-            "keyword": "Then "
           }
         ],
         "tags": [

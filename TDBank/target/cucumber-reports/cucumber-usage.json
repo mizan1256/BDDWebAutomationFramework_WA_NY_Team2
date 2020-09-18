@@ -5,12 +5,12 @@
       {
         "name": "I am on TD Bank home page",
         "aggregatedDurations": {
-          "median": 3.193956,
-          "average": 3.193956
+          "median": 2.884395,
+          "average": 2.884395
         },
         "durations": [
           {
-            "duration": 3.193956,
+            "duration": 2.884395,
             "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TDBank/src/test/java/features/TDBankHomePage.feature:5"
           }
         ]
@@ -18,72 +18,54 @@
     ]
   },
   {
-    "source": "I click on signUp button",
+    "source": "I take necessary steps and landed on locations page",
     "steps": [
       {
-        "name": "I click on signUp button",
+        "name": "I take necessary steps and landed on locations page",
         "aggregatedDurations": {
-          "median": 4.014391,
-          "average": 4.014391
+          "median": 8.757279,
+          "average": 8.757279
         },
         "durations": [
           {
-            "duration": 4.014391,
-            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TDBank/src/test/java/features/TDBankHomePage.feature:16"
+            "duration": 8.757279,
+            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TDBank/src/test/java/features/TDBankHomePage.feature:50"
           }
         ]
       }
     ]
   },
   {
-    "source": "I select Personal Accounts Radio button from PopUp",
+    "source": "I click on Get Direction Button",
     "steps": [
       {
-        "name": "I select Personal Accounts Radio button from PopUp",
+        "name": "I click on Get Direction Button",
         "aggregatedDurations": {
-          "median": 3.86E-4,
-          "average": 3.86E-4
+          "median": 4.074968,
+          "average": 4.074968
         },
         "durations": [
           {
-            "duration": 3.86E-4,
-            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TDBank/src/test/java/features/TDBankHomePage.feature:17"
+            "duration": 4.074968,
+            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TDBank/src/test/java/features/TDBankHomePage.feature:51"
           }
         ]
       }
     ]
   },
   {
-    "source": "I checked Please Confirm checkBox from PopUp",
+    "source": "I validate google map page Title",
     "steps": [
       {
-        "name": "I checked Please Confirm checkBox from PopUp",
+        "name": "I validate google map page Title",
         "aggregatedDurations": {
-          "median": 0.465244,
-          "average": 0.465244
+          "median": 0.038369,
+          "average": 0.038369
         },
         "durations": [
           {
-            "duration": 0.465244,
-            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TDBank/src/test/java/features/TDBankHomePage.feature:18"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "I click continue in PopUp",
-    "steps": [
-      {
-        "name": "I click continue in PopUp",
-        "aggregatedDurations": {
-          "median": 0.387337,
-          "average": 0.387337
-        },
-        "durations": [
-          {
-            "duration": 0.387337,
-            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TDBank/src/test/java/features/TDBankHomePage.feature:19"
+            "duration": 0.038369,
+            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TDBank/src/test/java/features/TDBankHomePage.feature:52"
           }
         ]
       }

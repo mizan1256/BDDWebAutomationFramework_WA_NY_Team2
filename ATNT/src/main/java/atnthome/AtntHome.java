@@ -40,9 +40,8 @@ public class AtntHome extends WebAPI {
     public void enterUserId(String userId){
         driver.manage().deleteAllCookies();
         driver.findElement(user_id).sendKeys(userId);
-
     }
-    public void enterUserPassword(String userPassword){
+    public void enterUserPassword(String userPassword) {
         driver.findElement(user_Password).sendKeys(userPassword);
     }
     public void clickSignInButton(){
@@ -71,7 +70,7 @@ public class AtntHome extends WebAPI {
     //validate method
     public void validateExploreWirelessTitle(){
         String expectedTitle="AT&T Official Site - Unlimited Data Plans, Internet Service, & TV";
-        String actualTitle=driver.getTitle().toString();
+        String actualTitle=driver.getTitle();
         Assert.assertEquals("Title does not match", actualTitle,expectedTitle);
     }
 }

@@ -5,12 +5,12 @@
       {
         "name": "I am on targetEcommerce home page",
         "aggregatedDurations": {
-          "median": 6.608629,
-          "average": 6.608629
+          "median": 6.090529,
+          "average": 6.090529
         },
         "durations": [
           {
-            "duration": 6.608629,
+            "duration": 6.090529,
             "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetecommerceHomePage.feature:5"
           }
         ]
@@ -18,17 +18,35 @@
     ]
   },
   {
-    "source": "I do necessary steps to land on User info page",
+    "source": "I enter {string} in searchBox",
     "steps": [
       {
-        "name": "I do necessary steps to land on User info page",
+        "name": "I enter \"iPhone\" in searchBox",
         "aggregatedDurations": {
-          "median": 1.756437,
-          "average": 1.756437
+          "median": 0.362032,
+          "average": 0.362032
         },
         "durations": [
           {
-            "duration": 1.756437,
+            "duration": 0.362032,
+            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetecommerceHomePage.feature:19"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify {string} is appear properly",
+    "steps": [
+      {
+        "name": "I verify \"iPhone\" is appear properly",
+        "aggregatedDurations": {
+          "median": 4.033314,
+          "average": 4.033314
+        },
+        "durations": [
+          {
+            "duration": 4.033314,
             "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetecommerceHomePage.feature:20"
           }
         ]
@@ -36,54 +54,18 @@
     ]
   },
   {
-    "source": "I enter user credentials",
+    "source": "I verify page title as iPhone",
     "steps": [
       {
-        "name": "I enter user credentials",
+        "name": "I verify page title as iPhone",
         "aggregatedDurations": {
-          "median": 0.909648,
-          "average": 0.909648
+          "median": 0.010791,
+          "average": 0.010791
         },
         "durations": [
           {
-            "duration": 0.909648,
+            "duration": 0.010791,
             "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetecommerceHomePage.feature:21"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "I click on create account",
-    "steps": [
-      {
-        "name": "I click on create account",
-        "aggregatedDurations": {
-          "median": 0.601556,
-          "average": 0.601556
-        },
-        "durations": [
-          {
-            "duration": 0.601556,
-            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetecommerceHomePage.feature:24"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "I validate signUp message",
-    "steps": [
-      {
-        "name": "I validate signUp message",
-        "aggregatedDurations": {
-          "median": 7.45E-4,
-          "average": 7.45E-4
-        },
-        "durations": [
-          {
-            "duration": 7.45E-4,
-            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetecommerceHomePage.feature:25"
           }
         ]
       }

@@ -1,8 +1,8 @@
 
 @SmokeTest
-Scenario: United Airlines Check In functionality test # src/test/java/features/UnitedAirlinesHome.feature:15
-  Given I am in home page                             # stepdefinitions.UnitedAirStepDefinitions.i_am_in_home_page()
-  When I click Check In                               # stepdefinitions.UnitedAirStepDefinitions.i_click_check_in()
-  And I enter ticket Number and Last Name             # stepdefinitions.UnitedAirStepDefinitions.i_enter_ticket_number_and_last_name()
-  Then I click checkIn Search Button                  # stepdefinitions.UnitedAirStepDefinitions.i_click_checkIn_search_button()
-  And I validate Check In page message                # stepdefinitions.UnitedAirStepDefinitions.i_validate_check_in_page_message()
+Scenario: United Airlines Book Button functionality test                            # src/test/java/features/UnitedAirlinesHome.feature:31
+  Given I am in home page                                                           # stepdefinitions.UnitedAirStepDefinitions.i_am_in_home_page()
+  When I click on Book Button                                                       # stepdefinitions.UnitedAirStepDefinitions.i_click_on_book_button()
+  And I click on Hotels Button                                                      # stepdefinitions.UnitedAirStepDefinitions.i_click_on_hotels_button()
+  And I enter "Las Vegas, Nevada, United States of America" in searchBox and submit # stepdefinitions.UnitedAirStepDefinitions.i_enter_in_search_box_and_submit(java.lang.String)
+  Then I validate Landed page properly                                              # stepdefinitions.UnitedAirStepDefinitions.i_validate_landed_page_properly()

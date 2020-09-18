@@ -3,7 +3,7 @@ Feature: United Airlines home page functionality test
   Background:
     Given I am in home page
 
- @pending
+ #@pending
   Scenario: United Airlines Flight Status functionality test
     When I click Flight status
     And I enter City in From field and To field
@@ -11,7 +11,7 @@ Feature: United Airlines home page functionality test
     Then I click Search Button
 
 
-  @SmokeTest
+  #@SmokeTest
   Scenario: United Airlines Check In functionality test
     When I click Check In
     And I enter ticket Number and Last Name
@@ -26,3 +26,13 @@ Feature: United Airlines home page functionality test
     And I click on close button in To box
     And I type city name of Destination
     Then I validate from* is appeared properly
+
+    @SmokeTest
+    Scenario: United Airlines Book Button functionality test
+      When I click on Book Button
+      And I click on Hotels Button
+      And I enter "Las Vegas, Nevada, United States of America" in searchBox and submit
+      Then I validate Landed page properly
+
+
+

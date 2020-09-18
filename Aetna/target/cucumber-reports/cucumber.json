@@ -11,43 +11,43 @@
         "steps": [
           {
             "result": {
-              "duration": 6659535000,
+              "duration": 4577780000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 41563000,
+                  "duration": 24146000,
                   "status": "passed"
                 },
                 "match": {
-                  "location": "stepdefinitions.UnitedAirStepDefinitions.getInIt()"
+                  "location": "stepdefinitions.HomePageStepDefinition.getInIt()"
                 }
               }
             ],
             "line": 4,
-            "name": "I am in home page",
+            "name": "i am in home page",
             "match": {
-              "location": "stepdefinitions.UnitedAirStepDefinitions.i_am_in_home_page()"
+              "location": "stepdefinitions.HomePageStepDefinition.i_am_in_home_page()"
             },
             "keyword": "Given "
           }
         ]
       },
       {
-        "start_timestamp": "2020-09-18T06:15:11.373Z",
-        "line": 31,
-        "name": "United Airlines Book Button functionality test",
+        "start_timestamp": "2020-09-17T06:40:19.570Z",
+        "line": 49,
+        "name": "Aetna Shop a plan functionality test",
         "description": "",
-        "id": "united-airlines-home-page-functionality-test;united-airlines-book-button-functionality-test",
+        "id": "aetna-home-page-functionality-test;aetna-shop-a-plan-functionality-test",
         "after": [
           {
             "result": {
-              "duration": 168283000,
+              "duration": 168133000,
               "status": "passed"
             },
             "match": {
-              "location": "stepdefinitions.UnitedAirStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+              "location": "stepdefinitions.HomePageStepDefinition.tearDown(io.cucumber.java.Scenario)"
             }
           }
         ],
@@ -56,99 +56,93 @@
         "steps": [
           {
             "result": {
-              "duration": 76977000,
+              "duration": 4083997000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 940000,
+                  "duration": 904000,
                   "status": "passed"
                 },
                 "match": {
-                  "location": "stepdefinitions.UnitedAirStepDefinitions.getInIt()"
+                  "location": "stepdefinitions.HomePageStepDefinition.getInIt()"
                 }
               }
             ],
-            "line": 32,
-            "name": "I click on Book Button",
+            "line": 50,
+            "name": "I click shop for a plan",
             "match": {
-              "location": "stepdefinitions.UnitedAirStepDefinitions.i_click_on_book_button()"
+              "location": "stepdefinitions.HomePageStepDefinition.i_click_shop_for_a_plan()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 401424000,
+              "duration": 3067869000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 3569000,
+                  "duration": 1592000,
                   "status": "passed"
                 },
                 "match": {
-                  "location": "stepdefinitions.UnitedAirStepDefinitions.getInIt()"
+                  "location": "stepdefinitions.HomePageStepDefinition.getInIt()"
                 }
               }
             ],
-            "line": 33,
-            "name": "I click on Hotels Button",
+            "line": 51,
+            "name": "I click on dental, vision and supplemental",
             "match": {
-              "location": "stepdefinitions.UnitedAirStepDefinitions.i_click_on_hotels_button()"
+              "location": "stepdefinitions.HomePageStepDefinition.i_click_on_dental_vision_and_supplemental()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 4416086000,
+              "duration": 1225040000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 917000,
+                  "duration": 880000,
                   "status": "passed"
                 },
                 "match": {
-                  "location": "stepdefinitions.UnitedAirStepDefinitions.getInIt()"
+                  "location": "stepdefinitions.HomePageStepDefinition.getInIt()"
                 }
               }
             ],
-            "line": 34,
-            "name": "I enter \"Las Vegas, Nevada, United States of America\" in searchBox and submit",
+            "line": 52,
+            "name": "I click vision plans",
             "match": {
-              "arguments": [
-                {
-                  "val": "\"Las Vegas, Nevada, United States of America\"",
-                  "offset": 8
-                }
-              ],
-              "location": "stepdefinitions.UnitedAirStepDefinitions.i_enter_in_search_box_and_submit(java.lang.String)"
+              "location": "stepdefinitions.HomePageStepDefinition.i_click_vision_plans()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 4043944000,
+              "duration": 52945000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 903000,
+                  "duration": 1184000,
                   "status": "passed"
                 },
                 "match": {
-                  "location": "stepdefinitions.UnitedAirStepDefinitions.getInIt()"
+                  "location": "stepdefinitions.HomePageStepDefinition.getInIt()"
                 }
               }
             ],
-            "line": 35,
-            "name": "I validate Landed page properly",
+            "line": 53,
+            "name": "I validate Aetna Dental Direct plan is appeared properly",
             "match": {
-              "location": "stepdefinitions.UnitedAirStepDefinitions.i_validate_landed_page_properly()"
+              "location": "stepdefinitions.HomePageStepDefinition.i_validate_aetna_dental_direct_plan_is_appeared_properly()"
             },
             "keyword": "Then "
           }
@@ -160,11 +154,11 @@
         ]
       }
     ],
-    "name": "United Airlines home page functionality test",
+    "name": "Aetna home page functionality test",
     "description": "",
-    "id": "united-airlines-home-page-functionality-test",
+    "id": "aetna-home-page-functionality-test",
     "keyword": "Feature",
-    "uri": "file:src/test/java/features/UnitedAirlinesHome.feature",
+    "uri": "file:src/test/java/features/HomePage.feature",
     "tags": []
   }
 ]

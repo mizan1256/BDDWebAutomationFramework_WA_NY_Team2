@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="10.671">
-    <testcase classname="TargetEcommerce Home page Functionality test" name="TargetEcommerce signUp functionality test with validate" time="10.19">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="11.197">
+    <testcase classname="TargetEcommerce Home page Functionality test" name="TargetEcommerce SearchBox functionality getting value from Scenario" time="10.756">
         <system-out>
             <![CDATA[Given I am on targetEcommerce home page.....................................passed
-And I do necessary steps to land on User info page..........................passed
-And I enter user credentials................................................passed
-When I click on create account..............................................passed
-Then I validate signUp message..............................................passed
+And I enter "iPhone" in searchBox...........................................passed
+Then I verify "iPhone" is appear properly...................................passed
+And I verify page title as iPhone...........................................passed
 ]]>
         </system-out>
     </testcase>

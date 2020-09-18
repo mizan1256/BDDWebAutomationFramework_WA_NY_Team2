@@ -5,12 +5,12 @@
       {
         "name": "I am in home page",
         "aggregatedDurations": {
-          "median": 10.634751,
-          "average": 10.634751
+          "median": 6.659535,
+          "average": 6.659535
         },
         "durations": [
           {
-            "duration": 10.634751,
+            "duration": 6.659535,
             "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:4"
           }
         ]
@@ -18,72 +18,72 @@
     ]
   },
   {
-    "source": "I click Check In",
+    "source": "I click on Book Button",
     "steps": [
       {
-        "name": "I click Check In",
+        "name": "I click on Book Button",
         "aggregatedDurations": {
-          "median": 0.47208,
-          "average": 0.47208
+          "median": 0.076977,
+          "average": 0.076977
         },
         "durations": [
           {
-            "duration": 0.47208,
-            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:16"
+            "duration": 0.076977,
+            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:32"
           }
         ]
       }
     ]
   },
   {
-    "source": "I enter ticket Number and Last Name",
+    "source": "I click on Hotels Button",
     "steps": [
       {
-        "name": "I enter ticket Number and Last Name",
+        "name": "I click on Hotels Button",
         "aggregatedDurations": {
-          "median": 5.637007,
-          "average": 5.637007
+          "median": 0.401424,
+          "average": 0.401424
         },
         "durations": [
           {
-            "duration": 5.637007,
-            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:17"
+            "duration": 0.401424,
+            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:33"
           }
         ]
       }
     ]
   },
   {
-    "source": "I click checkIn Search Button",
+    "source": "I enter {string} in searchBox and submit",
     "steps": [
       {
-        "name": "I click checkIn Search Button",
+        "name": "I enter \"Las Vegas, Nevada, United States of America\" in searchBox and submit",
         "aggregatedDurations": {
-          "median": 0.527645,
-          "average": 0.527645
+          "median": 4.416086,
+          "average": 4.416086
         },
         "durations": [
           {
-            "duration": 0.527645,
-            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:18"
+            "duration": 4.416086,
+            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:34"
           }
         ]
       }
     ]
   },
   {
-    "source": "I validate Check In page message",
+    "source": "I validate Landed page properly",
     "steps": [
       {
-        "name": "I validate Check In page message",
+        "name": "I validate Landed page properly",
         "aggregatedDurations": {
-          "median": 2.949866,
-          "average": 2.949866
+          "median": 4.043944,
+          "average": 4.043944
         },
         "durations": [
           {
-            "duration": 2.949866,
-            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:19"
+            "duration": 4.043944,
+            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:35"
           }
         ]
       }

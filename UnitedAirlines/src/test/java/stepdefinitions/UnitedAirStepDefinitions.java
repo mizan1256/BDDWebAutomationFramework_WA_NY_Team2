@@ -82,4 +82,27 @@ public class UnitedAirStepDefinitions extends WebAPI {
         unitedAirlinesHomePage.validateCheckInTxt();
     }
 
+    /**
+     * United Airlines Book Button functionality test
+     */
+    @When("I click on Book Button")
+    public void i_click_on_book_button() {
+    unitedAirlinesHomePage.clickOnBookBtn();
+    }
+
+    @When("I click on Hotels Button")
+    public void i_click_on_hotels_button() {
+    unitedAirlinesHomePage.clickOnHotelsBtn();
+    }
+
+    @When("I enter {string} in searchBox and submit")
+    public void i_enter_in_search_box_and_submit(String searchItem) throws InterruptedException {
+    unitedAirlinesHomePage.enterSearchBoxAndSubmit(searchItem);
+    }
+
+    @Then("I validate Landed page properly")
+    public void i_validate_landed_page_properly() throws InterruptedException {
+        unitedAirlinesHomePage.validateLandedPageTxt();
+
+    }
 }

@@ -13,6 +13,7 @@ import org.openqa.selenium.support.PageFactory;
 import tdbankhome.TDBankHome;
 
 import java.io.IOException;
+import java.util.List;
 
 public class TDBankHomePageStepDefinitions extends WebAPI {
     TDBankHome tdBankHome;
@@ -57,107 +58,120 @@ public class TDBankHomePageStepDefinitions extends WebAPI {
      * TD Bank SignUp functionality test
      */
 
-
     @When("I click on signUp button")
     public void i_click_on_sign_up_button() {
         tdBankHome.clickOnSignInBtn();
     }
 
-    @When("I select Personal Accounts Radio button from PopUp")
-    public void i_select_personal_accounts_radio_button_from_pop_up() {
-
-    }
-
-    @When("I checked Please Confirm checkBox from PopUp")
-    public void i_checked_please_confirm_check_box_from_pop_up() throws InterruptedException {
+    @When("I do necessary steps to land on User info page")
+    public void i_do_necessary_steps_to_land_on_user_info_page() throws InterruptedException {
         tdBankHome.pleaseConfirmCheckBtn();
-    }
-
-    @Then("I click continue in PopUp")
-    public void i_click_continue_in_pop_up() {
         tdBankHome.acceptPopUpUsingAlert();
-    }
-
-    @Then("I check Accept button from second PopUp")
-    public void i_check_accept_button_from_second_pop_up() {
         tdBankHome.eSignAcceptCheckBox();
-    }
-
-    @Then("I Accept second PopUp")
-    public void i_accept_second_pop_up() {
         tdBankHome.acceptSecondPopUpUsingAlert();
     }
 
-    @Then("I enter FirstName LastName and Email")
-    public void i_enter_first_name_last_name_and_email() {
-        tdBankHome.insertCredentials();
-    }
-
-    @Then("I select Checking From Account Type")
-    public void i_select_checking_from_account_type() {
+    @When("I select account type")
+    public void i_select_account_type() {
         tdBankHome.selectAccountType();
     }
 
-    @Then("I enter ATM card Number")
-    public void i_enter_atm_card_number() {
-        tdBankHome.enterAtmCardNumber();
+    @When("I enter user information")
+    public void i_enter_user_information(io.cucumber.datatable.DataTable table) {
+        List<List<String>> data = table.asLists(String.class);
+        tdBankHome.enterFirstName(data.get(1).get(0));
+        tdBankHome.enterLastName(data.get(1).get(1));
+        tdBankHome.enterEmail(data.get(1).get(02));
+        tdBankHome.enterAtmCardNumber(data.get(1).get(3));
+        tdBankHome.enterSsnNumber(data.get(1).get(4));
+        tdBankHome.enterAccountNumber(data.get(1).get(5));
+        tdBankHome.enterUserName(data.get(1).get(6));
+        tdBankHome.reEnterUserName(data.get(1).get(7));
+        tdBankHome.enterUserPassword(data.get(1).get(8));
+        tdBankHome.reEnterUserPassword(data.get(1).get(9));
     }
 
-    @Then("I enter SSN number")
-    public void i_enter_ssn_number() {
-        tdBankHome.enterSsnNumber();
-    }
-
-    @Then("I enter Account Number")
-    public void i_enter_account_number() {
-        tdBankHome.enterAccountNumber();
-    }
-
-    @Then("I check Yes from Bill Pay Option")
-    public void i_check_yes_from_bill_pay_option() {
-        tdBankHome.checkYesFromBillPayOption();
-    }
-
-    @Then("I select Yes from go paperless option")
-    public void i_select_yes_from_go_paperless_option() {
-        tdBankHome.goPaperlessOption();
-    }
-
-    @Then("I Accept the third popUp")
-    public void i_accept_the_third_pop_up() {
-        tdBankHome.acceptThirdPopUp();
-    }
-
-    @Then("I enter user name in Create your UserName field")
-    public void i_enter_user_name_in_create_your_user_name_field() {
-        tdBankHome.enterUserName();
-    }
-
-    @Then("I re enter user name In Re enter your user name field")
-    public void i_re_enter_user_name_in_re_enter_your_user_name_field() {
-        tdBankHome.reEnterUserName();
-    }
-
-    @Then("I enter password in Your new password field")
-    public void i_enter_password_in_your_new_password_field() {
-        tdBankHome.enterUserPassword();
-    }
-
-    @Then("I re enter password in Re enter password field")
-    public void i_re_enter_password_in_re_enter_password_field() {
-        tdBankHome.reEnterUserPassword();
-    }
-
-    @Then("I click on continue")
-    public void i_click_on_continue() {
-        tdBankHome.clickOnContinueBtn();
-    }
-
-    @Then("I validate error message")
-    public void i_validate_error_message() {
+    @Then("I validate signUp message")
+    public void i_validate_sign_up_message() {
         tdBankHome.validateSignUpPageText("wrong text");
     }
 
+    /**
+     * Td bank Login functionality test with invalid credentials
+     */
+    @When("I click on logIn button in homePage")
+    public void i_click_on_log_in_button_in_home_page() {
+        tdBankHome.clickOnTdLogInBtn();
+    }
+
+    @When("I enter {string} and {string}")
+    public void i_enter_and(String userName, String password) {
+        tdBankHome.enterUserInfo(userName, password);
+    }
+
+    @When("I click on login")
+    public void i_click_on_login() {
+        tdBankHome.clickOnLogInBtn();
+    }
+
+    @Then("I validate the error message")
+    public void i_validate_the_error_message() throws InterruptedException {
+        tdBankHome.validateLogInText("Economic Impact Payments:  Be sure your bank info is correct and track your payment with the IRS.  Learn more");
+    }
+
+    /**
+     * TD Bank product dropDown list check
+     */
+    @When("I click on product")
+    public void i_click_on_product() throws InterruptedException {
+        tdBankHome.clickOnProductBtn();
+    }
+
+    @When("I click on checking")
+    public void i_click_on_checking() throws InterruptedException {
+        tdBankHome.clickOnCheckingBtn();
+    }
+
+    /**
+     * TD Bank location searchBox check
+     */
+    @Then("I validate checking account page")
+    public void i_validate_checking_account_page() {
+        tdBankHome.validateProductText("TD Bank Checking Accounts");
+    }
+
+    @When("I click FindUs Icon")
+    public void i_click_find_us_icon() {
+        tdBankHome.clickOnFindUsIcon();
+    }
+
+    @When("I enter {string} and click on searchIcon")
+    public void i_enter_and_click_on_search_icon(String zipcode) throws InterruptedException {
+        tdBankHome.enterLocationAndClickOnSearchIcon(zipcode);
+    }
+
+    @Then("I validate TD bank locations appeared")
+    public void i_validate_td_bank_locations_appeared() throws InterruptedException {
+        tdBankHome.validateFindUsValidationText("10 locations near \"Jamaica, NY\"");
+    }
+
+    /**
+     * Get Direction Button check
+     */
+    @When("I take necessary steps and landed on locations page")
+    public void i_take_necessary_steps_and_landed_on_locations_page() throws InterruptedException {
+        tdBankHome.landingOnLocationsPage();
+    }
+
+    @When("I click on Get Direction Button")
+    public void i_click_on_get_direction_button() {
+        tdBankHome.clickOnGetDirection();
+    }
+
+    @Then("I validate google map page Title")
+    public void i_validate_google_map_page_title() {
+        tdBankHome.validateGetDirection();
+    }
 }
 
 

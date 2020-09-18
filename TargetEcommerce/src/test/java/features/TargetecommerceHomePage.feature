@@ -12,9 +12,29 @@ Feature: TargetEcommerce Home page Functionality test
   Scenario: TargetEcommerce SearchBox functionality test with validate
     And I enter iPhone in searchBox
     Then I verify iPhone is appear properly
-#     And I verify p age title as iPhone
+    And I verify page title as iPhone
 
   @Regression
+  Scenario: TargetEcommerce SearchBox functionality getting value from Scenario
+    And I enter "iPhone" in searchBox
+    Then I verify "iPhone" is appear properly
+    And I verify page title as iPhone
+
+ # @Regression
+  Scenario Outline: TargetEcommerce SearchBox functionality test with validate using data table
+    And I enter "<productName>" in searchBox
+    When  I click searchButton
+    And I validate "<validateProduct>" is appear properly
+    And I validate page title as "<validateTitle>"
+
+    Examples:
+      | productName     | validateProduct   | validateTitle                   |
+      | iPhone          | iPhone            | Target : Expect More. Pay Less. |
+      | T-shirt for men | “T-shirt for men” | Target : Expect More. Pay Less. |
+      | mens jeans      | “mens jeans”      | Target : Expect More. Pay Less. |
+      | mens watches    | “mens watches”    | Target : Expect More. Pay Less. |
+
+  #@Regression
   Scenario: TargetEcommerce signUp functionality test with validate
     And I do necessary steps to land on User info page
     And I enter user credentials
@@ -22,3 +42,16 @@ Feature: TargetEcommerce Home page Functionality test
       | pnt30242@gmail.com | Mohammd   | Islam    | 7186901256  | Pnt@30242 |
     When I click on create account
     Then I validate signUp message
+
+ # @SmokeTest
+  Scenario Outline: Login into att using Data Driven
+    And I am on signIn page
+    And I enter email as "<userEmail>" and password as "<Password>"
+    And I click on signIn button
+    Then  I should be getting a message
+
+    Examples:
+      | userEmail           | Password |
+      | admin@yourstore.com | admin    |
+      | mizan@gmail.com     | 15021972 |
+      | mohammd@gmail.com   | 01012010 |
