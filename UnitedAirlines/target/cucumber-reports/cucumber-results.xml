@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="29.19">
+    <testcase classname="United Airlines Homepage Functionality Check" name="United Airlines Book Button Check" time="28.64">
+        <system-out>
+            <![CDATA[Given I am in United Airlines Homepage......................................passed
+When I click on Book Button.................................................passed
+And I click on Hotels Button................................................passed
+And I enter "Miami Beach" in where to search box and submit.................passed
+Then I validate Miami Beach landing properly................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

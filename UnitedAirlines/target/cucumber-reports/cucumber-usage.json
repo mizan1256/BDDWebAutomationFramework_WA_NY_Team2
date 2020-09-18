@@ -1,0 +1,92 @@
+[
+  {
+    "source": "I am in United Airlines Homepage",
+    "steps": [
+      {
+        "name": "I am in United Airlines Homepage",
+        "aggregatedDurations": {
+          "median": 12.9515426,
+          "average": 12.9515426
+        },
+        "durations": [
+          {
+            "duration": 12.9515426,
+            "location": "file:///C:/Users/esaji/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Book Button",
+    "steps": [
+      {
+        "name": "I click on Book Button",
+        "aggregatedDurations": {
+          "median": 0.216512,
+          "average": 0.216512
+        },
+        "durations": [
+          {
+            "duration": 0.216512,
+            "location": "file:///C:/Users/esaji/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Hotels Button",
+    "steps": [
+      {
+        "name": "I click on Hotels Button",
+        "aggregatedDurations": {
+          "median": 1.3813475,
+          "average": 1.3813475
+        },
+        "durations": [
+          {
+            "duration": 1.3813475,
+            "location": "file:///C:/Users/esaji/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter {string} in where to search box and submit",
+    "steps": [
+      {
+        "name": "I enter \"Miami Beach\" in where to search box and submit",
+        "aggregatedDurations": {
+          "median": 6.5085552,
+          "average": 6.5085552
+        },
+        "durations": [
+          {
+            "duration": 6.5085552,
+            "location": "file:///C:/Users/esaji/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I validate Miami Beach landing properly",
+    "steps": [
+      {
+        "name": "I validate Miami Beach landing properly",
+        "aggregatedDurations": {
+          "median": 5.2143095,
+          "average": 5.2143095
+        },
+        "durations": [
+          {
+            "duration": 5.2143095,
+            "location": "file:///C:/Users/esaji/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:9"
+          }
+        ]
+      }
+    ]
+  }
+]

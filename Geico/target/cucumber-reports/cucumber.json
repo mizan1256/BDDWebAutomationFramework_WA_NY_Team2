@@ -1,0 +1,154 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-09-10T22:39:43.617Z",
+        "line": 4,
+        "name": "search box functionality check",
+        "description": "",
+        "id": "geico-search-box;search-box-functionality-check",
+        "after": [
+          {
+            "result": {
+              "duration": 1633304500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.HomePageStepDefinition.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8488017600,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 91508900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.HomePageStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "I am on Geico HopePage",
+            "match": {
+              "location": "stepdefinitions.HomePageStepDefinition.i_am_on_geico_hope_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 213991400,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 992800,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.HomePageStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "I click SearchBox",
+            "match": {
+              "location": "stepdefinitions.HomePageStepDefinition.i_click_search_box()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 761587300,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 983300,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.HomePageStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "I Enter Auto in SearchBox",
+            "match": {
+              "location": "stepdefinitions.HomePageStepDefinition.i_enter_auto_in_search_box()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 835133000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1982500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.HomePageStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 8,
+            "name": "I clik search Button",
+            "match": {
+              "location": "stepdefinitions.HomePageStepDefinition.i_clik_search_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 103721800,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.HomePageStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 9,
+            "name": "I verify the page title",
+            "match": {
+              "location": "stepdefinitions.HomePageStepDefinition.i_verify_the_page_title()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "Geico Search Box",
+    "description": "",
+    "id": "geico-search-box",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/GeicoHome.feature",
+    "tags": []
+  }
+]

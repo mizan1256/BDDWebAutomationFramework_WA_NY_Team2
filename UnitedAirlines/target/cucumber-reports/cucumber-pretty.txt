@@ -1,0 +1,8 @@
+
+@SmokeTest
+Scenario: United Airlines Book Button Check                   # src/test/java/features/UnitedAirlinesHome.feature:4
+  Given I am in United Airlines Homepage                      # stepdefinitions.HomePageStepDefinitions.i_am_in_united_airlines_homepage()
+  When I click on Book Button                                 # stepdefinitions.HomePageStepDefinitions.i_click_on_book_button()
+  And I click on Hotels Button                                # stepdefinitions.HomePageStepDefinitions.i_click_on_hotels_button()
+  And I enter "Miami Beach" in where to search box and submit # stepdefinitions.HomePageStepDefinitions.i_enter_in_where_to_search_box_and_submit(java.lang.String)
+  Then I validate Miami Beach landing properly                # stepdefinitions.HomePageStepDefinitions.i_validate_miami_beach_landing_properly()

@@ -1,0 +1,92 @@
+[
+  {
+    "source": "I am on Geico HopePage",
+    "steps": [
+      {
+        "name": "I am on Geico HopePage",
+        "aggregatedDurations": {
+          "median": 8.4880176,
+          "average": 8.4880176
+        },
+        "durations": [
+          {
+            "duration": 8.4880176,
+            "location": "file:///C:/Users/esaji/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click SearchBox",
+    "steps": [
+      {
+        "name": "I click SearchBox",
+        "aggregatedDurations": {
+          "median": 0.2139914,
+          "average": 0.2139914
+        },
+        "durations": [
+          {
+            "duration": 0.2139914,
+            "location": "file:///C:/Users/esaji/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I Enter Auto in SearchBox",
+    "steps": [
+      {
+        "name": "I Enter Auto in SearchBox",
+        "aggregatedDurations": {
+          "median": 0.7615873,
+          "average": 0.7615873
+        },
+        "durations": [
+          {
+            "duration": 0.7615873,
+            "location": "file:///C:/Users/esaji/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I clik search Button",
+    "steps": [
+      {
+        "name": "I clik search Button",
+        "aggregatedDurations": {
+          "median": 0.835133,
+          "average": 0.835133
+        },
+        "durations": [
+          {
+            "duration": 0.835133,
+            "location": "file:///C:/Users/esaji/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify the page title",
+    "steps": [
+      {
+        "name": "I verify the page title",
+        "aggregatedDurations": {
+          "median": 0.1037218,
+          "average": 0.1037218
+        },
+        "durations": [
+          {
+            "duration": 0.1037218,
+            "location": "file:///C:/Users/esaji/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:9"
+          }
+        ]
+      }
+    ]
+  }
+]

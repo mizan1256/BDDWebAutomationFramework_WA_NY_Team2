@@ -1,0 +1,160 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-09-18T06:39:04.038Z",
+        "line": 4,
+        "name": "United Airlines Book Button Check",
+        "description": "",
+        "id": "united-airlines-homepage-functionality-check;united-airlines-book-button-check",
+        "after": [
+          {
+            "result": {
+              "duration": 2177206400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.HomePageStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12951542600,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 48871500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "I am in United Airlines Homepage",
+            "match": {
+              "location": "stepdefinitions.HomePageStepDefinitions.i_am_in_united_airlines_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 216512000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 996600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "I click on Book Button",
+            "match": {
+              "location": "stepdefinitions.HomePageStepDefinitions.i_click_on_book_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1381347500,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1527700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "I click on Hotels Button",
+            "match": {
+              "location": "stepdefinitions.HomePageStepDefinitions.i_click_on_hotels_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6508555200,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1994300,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 8,
+            "name": "I enter \"Miami Beach\" in where to search box and submit",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Miami Beach\"",
+                  "offset": 8
+                }
+              ],
+              "location": "stepdefinitions.HomePageStepDefinitions.i_enter_in_where_to_search_box_and_submit(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5214309500,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.HomePageStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 9,
+            "name": "I validate Miami Beach landing properly",
+            "match": {
+              "location": "stepdefinitions.HomePageStepDefinitions.i_validate_miami_beach_landing_properly()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "United Airlines Homepage Functionality Check",
+    "description": "",
+    "id": "united-airlines-homepage-functionality-check",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/UnitedAirlinesHome.feature",
+    "tags": []
+  }
+]
