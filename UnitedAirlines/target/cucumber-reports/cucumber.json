@@ -11,13 +11,13 @@
         "steps": [
           {
             "result": {
-              "duration": 12371326800,
+              "duration": 10126095300,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 61529600,
+                  "duration": 26927700,
                   "status": "passed"
                 },
                 "match": {
@@ -35,15 +35,15 @@
         ]
       },
       {
-        "start_timestamp": "2020-09-12T06:29:59.893Z",
-        "line": 7,
-        "name": "United Airlines Flight Status functionality test",
+        "start_timestamp": "2020-09-18T06:46:18.347Z",
+        "line": 15,
+        "name": "United Airlines Book Hotels test",
         "description": "",
-        "id": "united-airlines-home-page-functionality-test;united-airlines-flight-status-functionality-test",
+        "id": "united-airlines-home-page-functionality-test;united-airlines-book-hotels-test",
         "after": [
           {
             "result": {
-              "duration": 996990900,
+              "duration": 759215700,
               "status": "passed"
             },
             "match": {
@@ -56,13 +56,13 @@
         "steps": [
           {
             "result": {
-              "duration": 347374500,
+              "duration": 190490600,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 2991200,
+                  "duration": 2990200,
                   "status": "passed"
                 },
                 "match": {
@@ -70,22 +70,22 @@
                 }
               }
             ],
-            "line": 8,
-            "name": "I click Flight status",
+            "line": 16,
+            "name": "I click on book button",
             "match": {
-              "location": "stepdefinitions.UnitedAirHomeStepDefinition.i_click_flight_status()"
+              "location": "stepdefinitions.UnitedAirHomeStepDefinition.i_click_on_book_button()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 841634600,
+              "duration": 256380200,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 2029100,
+                  "duration": 999200,
                   "status": "passed"
                 },
                 "match": {
@@ -93,22 +93,22 @@
                 }
               }
             ],
-            "line": 9,
-            "name": "I enter City in From field and To field",
+            "line": 17,
+            "name": "I click on Hotels button",
             "match": {
-              "location": "stepdefinitions.UnitedAirHomeStepDefinition.i_enter_city_in_from_field_and_to_field()"
+              "location": "stepdefinitions.UnitedAirHomeStepDefinition.i_click_on_hotels_button()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 5533968200,
+              "duration": 4357219600,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 996000,
+                  "duration": 1986800,
                   "status": "passed"
                 },
                 "match": {
@@ -116,22 +116,28 @@
                 }
               }
             ],
-            "line": 10,
-            "name": "I enter Flight number and Date",
+            "line": 18,
+            "name": "I enter \"Las Vegas\" in where to searchBox and submit",
             "match": {
-              "location": "stepdefinitions.UnitedAirHomeStepDefinition.i_enter_flight_number_and_date()"
+              "arguments": [
+                {
+                  "val": "\"Las Vegas\"",
+                  "offset": 8
+                }
+              ],
+              "location": "stepdefinitions.UnitedAirHomeStepDefinition.i_enter_in_where_to_search_box_and_submit(java.lang.String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 151172900,
+              "duration": 44877200,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 826800,
+                  "duration": 988000,
                   "status": "passed"
                 },
                 "match": {
@@ -139,33 +145,10 @@
                 }
               }
             ],
-            "line": 11,
-            "name": "I click Search Button",
+            "line": 19,
+            "name": "I validate Las Vegas landed page properly",
             "match": {
-              "location": "stepdefinitions.UnitedAirHomeStepDefinition.i_click_search_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 2680434400,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "duration": 1000600,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepdefinitions.UnitedAirHomeStepDefinition.getInit()"
-                }
-              }
-            ],
-            "line": 12,
-            "name": "I validate  flight status is appeared properly",
-            "match": {
-              "location": "stepdefinitions.UnitedAirHomeStepDefinition.i_validate_flight_status_is_appeared_properly()"
+              "location": "stepdefinitions.UnitedAirHomeStepDefinition.i_validate_las_vegas_landed_page_properly()"
             },
             "keyword": "Then "
           }

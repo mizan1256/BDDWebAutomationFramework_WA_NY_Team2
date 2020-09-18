@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="23.877">
-    <testcase classname="United Airlines home page functionality test" name="United Airlines Flight Status functionality test" time="23.203">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="16.284">
+    <testcase classname="United Airlines home page functionality test" name="United Airlines Book Hotels test" time="15.871">
         <system-out>
             <![CDATA[Given I am in home page.....................................................passed
-When I click Flight status..................................................passed
-And I enter City in From field and To field.................................passed
-And I enter Flight number and Date..........................................passed
-And I click Search Button...................................................passed
-Then I validate  flight status is appeared properly.........................passed
+When I click on book button.................................................passed
+And I click on Hotels button................................................passed
+And I enter "Las Vegas" in where to searchBox and submit....................passed
+Then I validate Las Vegas landed page properly..............................passed
 ]]>
         </system-out>
     </testcase>

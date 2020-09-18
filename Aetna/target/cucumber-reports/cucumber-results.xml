@@ -1,12 +1,228 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="11.721">
-    <testcase classname="Aetna HomePage Functionality Test" name="Aetna Shop For a Plan Button functionality Test" time="11.365">
+<testsuite errors="0" failures="3" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="12" time="178.572">
+    <testcase classname="Aetna home page functionality test" name="Aetna Shop a plan functionality test" time="11.643">
         <system-out>
-            <![CDATA[Given I am in Aetna HomePage................................................passed
-When I Click ShopForAPLan Button............................................passed
-And I Click on HealthCoverage Button........................................passed
-And I click FindADoctor Button..............................................passed
-Then I Verify page Title....................................................passed
+            <![CDATA[Given i am in Aetna home page...............................................passed
+When I click shop for a plan................................................passed
+And I go Health coverage....................................................passed
+And I click Student plans...................................................passed
+Then I validate "Helpful links" is appeared properly........................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Aetna home page functionality test" name="Aetna Shop a plan functionality test 2" time="10.4">
+        <system-out>
+            <![CDATA[Given i am in Aetna home page...............................................passed
+When I click shop for a plan................................................passed
+And I go Health coverage....................................................passed
+And I click Plans through an employer.......................................passed
+Then I validate Legal notices is appeared properly..........................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Aetna home page functionality test" name="Aetna Shop a plan functionality test 3" time="12.142">
+        <failure message="Step [I validate Aetna Well-being is appeared properly] is defined with 1 parameters at 'stepdefinitions.HomePageStepDefinition.i_validate_aetna_well_being_is_appeared_properly(java.lang.String)'.&#10;However, the gherkin step has 0 arguments.&#10;Step text: I validate Aetna Well-being is appeared properly" type="io.cucumber.core.exception.CucumberException">
+            <![CDATA[Given i am in Aetna home page...............................................passed
+When I click shop for a plan................................................passed
+And I go Health coverage....................................................passed
+And I click International Plans.............................................passed
+Then I validate Aetna Well-being is appeared properly.......................failed
+
+StackTrace:
+io.cucumber.core.exception.CucumberException: Step [I validate Aetna Well-being is appeared properly] is defined with 1 parameters at 'stepdefinitions.HomePageStepDefinition.i_validate_aetna_well_being_is_appeared_properly(java.lang.String)'.
+However, the gherkin step has 0 arguments.
+Step text: I validate Aetna Well-being is appeared properly
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.arityMismatch(PickleStepDefinitionMatch.java:83)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:42)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:63)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:49)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:99)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:71)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:199)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:234)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:230)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:58)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Aetna home page functionality test" name="Aetna Shop a plan functionality test 4" time="11.091">
+        <failure message="Step [I validate COVID-{int} Alert is appeared properly] is defined with 0 parameters at 'stepdefinitions.HomePageStepDefinition.i_validate_covid_alert_is_appeared_properly()'.&#10;However, the gherkin step has 1 arguments:&#10; * 19&#10;Step text: I validate COVID-19 Alert is appeared properly" type="io.cucumber.core.exception.CucumberException">
+            <![CDATA[Given i am in Aetna home page...............................................passed
+When I click shop for a plan................................................passed
+And I go Health coverage....................................................passed
+And I click find a doctor...................................................passed
+Then I validate COVID-19 Alert is appeared properly.........................failed
+
+StackTrace:
+io.cucumber.core.exception.CucumberException: Step [I validate COVID-{int} Alert is appeared properly] is defined with 0 parameters at 'stepdefinitions.HomePageStepDefinition.i_validate_covid_alert_is_appeared_properly()'.
+However, the gherkin step has 1 arguments:
+ * 19
+Step text: I validate COVID-19 Alert is appeared properly
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.arityMismatch(PickleStepDefinitionMatch.java:83)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:42)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:63)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:49)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:99)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:71)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:199)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:234)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:230)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:58)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Aetna home page functionality test" name="Aetna Shop a plan functionality test 5" time="10.68">
+        <system-out>
+            <![CDATA[Given i am in Aetna home page...............................................passed
+When I click shop for a plan................................................passed
+And I go dental, vision and supplemental....................................passed
+And I click dental plans....................................................passed
+Then I validate Legal notices is appeared properly..........................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Aetna home page functionality test" name="Aetna Shop a plan functionality test 6" time="11.924">
+        <system-out>
+            <![CDATA[Given i am in Aetna home page...............................................passed
+When I click shop for a plan................................................passed
+And I go dental, vision and supplemental....................................passed
+And I click find a dentist..................................................passed
+Then I validate You Can: is appeared properly...............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Aetna home page functionality test" name="Aetna Shop a plan functionality test 7" time="11.486">
+        <system-out>
+            <![CDATA[Given i am in Aetna home page...............................................passed
+When I click shop for a plan................................................passed
+And I go dental, vision and supplemental....................................passed
+And I click vision plans....................................................passed
+Then I validate Aetna Dental Direct plan is appeared properly...............passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Aetna HomePage Functionality Test" name="Aetna Shop a plan test" time="15.857">
+        <system-out>
+            <![CDATA[Given i am in Aetna home page...............................................passed
+When I click shop for a plan................................................passed
+And I go dental, vision and supplemental....................................passed
+And I click find an eye doctor..............................................passed
+Then I validate You Can: is appeared properly...............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Aetna HomePage Functionality Test" name="Aetna Shop a plan  test" time="50.946">
+        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;textParagraph_191&quot;]&quot;}&#10;  (Session info: chrome=85.0.4183.102)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-ESGVGIM', ip: '192.168.81.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\REBAKH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54006}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 03d9c2af6d0af7ab81fbbd0d03bb4ff8&#10;*** Element info: {Using=xpath, value=//*[@id=&quot;textParagraph_191&quot;]}" type="org.openqa.selenium.NoSuchElementException">
+            <![CDATA[Given i am in Aetna home page...............................................passed
+When I click shop for a plan................................................passed
+And I go dental, vision and supplemental....................................passed
+And I click supplemental plans..............................................passed
+Then I validate You Can: is appeared properly...............................failed
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="textParagraph_191"]"}
+  (Session info: chrome=85.0.4183.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-ESGVGIM', ip: '192.168.81.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\REBAKH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54006}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 03d9c2af6d0af7ab81fbbd0d03bb4ff8
+*** Element info: {Using=xpath, value=//*[@id="textParagraph_191"]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy25.getText(Unknown Source)
+	at aetnahome.HomePage.validateFindADentistCheck(HomePage.java:150)
+	at stepdefinitions.HomePageStepDefinition.i_validate_you_can_is_appeared_properly(HomePageStepDefinition.java:126)
+	at ✽.I validate You Can: is appeared properly(file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/ShopForPlan.feature:18)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Aetna HomePage Functionality Test" name="Aetna Shop a plan  test 2" time="10.901">
+        <system-out>
+            <![CDATA[Given i am in Aetna home page...............................................passed
+When I click shop for a plan................................................passed
+And I go pharmacy element...................................................passed
+And I click Get pharmacy plan information...................................passed
+Then I validate Aetna Medicare is appeared properly.........................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Aetna HomePage Functionality Test" name="Aetna Shop a plan  test 3" time="10.597">
+        <system-out>
+            <![CDATA[Given i am in Aetna home page...............................................passed
+When I click shop for a plan................................................passed
+And I go pharmacy element...................................................passed
+And I click find a pharmacy.................................................passed
+Then I validate *Required Selections is appeared properly...................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Aetna HomePage Functionality Test" name="Aetna Shop a plan test" time="10.203">
+        <system-out>
+            <![CDATA[Given i am in Aetna home page...............................................passed
+When I click shop for a plan................................................passed
+And I go pharmacy element...................................................passed
+And I click find medicine and costs.........................................passed
+Then I validate Already a member? is appeared properly......................passed
 ]]>
         </system-out>
     </testcase>

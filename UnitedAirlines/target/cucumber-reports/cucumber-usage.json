@@ -5,12 +5,12 @@
       {
         "name": "I am in home page",
         "aggregatedDurations": {
-          "median": 12.3713268,
-          "average": 12.3713268
+          "median": 10.1260953,
+          "average": 10.1260953
         },
         "durations": [
           {
-            "duration": 12.3713268,
+            "duration": 10.1260953,
             "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:4"
           }
         ]
@@ -18,90 +18,72 @@
     ]
   },
   {
-    "source": "I click Flight status",
+    "source": "I click on book button",
     "steps": [
       {
-        "name": "I click Flight status",
+        "name": "I click on book button",
         "aggregatedDurations": {
-          "median": 0.3473745,
-          "average": 0.3473745
+          "median": 0.1904906,
+          "average": 0.1904906
         },
         "durations": [
           {
-            "duration": 0.3473745,
-            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:8"
+            "duration": 0.1904906,
+            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:16"
           }
         ]
       }
     ]
   },
   {
-    "source": "I enter City in From field and To field",
+    "source": "I click on Hotels button",
     "steps": [
       {
-        "name": "I enter City in From field and To field",
+        "name": "I click on Hotels button",
         "aggregatedDurations": {
-          "median": 0.8416346,
-          "average": 0.8416346
+          "median": 0.2563802,
+          "average": 0.2563802
         },
         "durations": [
           {
-            "duration": 0.8416346,
-            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:9"
+            "duration": 0.2563802,
+            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:17"
           }
         ]
       }
     ]
   },
   {
-    "source": "I enter Flight number and Date",
+    "source": "I enter {string} in where to searchBox and submit",
     "steps": [
       {
-        "name": "I enter Flight number and Date",
+        "name": "I enter \"Las Vegas\" in where to searchBox and submit",
         "aggregatedDurations": {
-          "median": 5.5339682,
-          "average": 5.5339682
+          "median": 4.3572196,
+          "average": 4.3572196
         },
         "durations": [
           {
-            "duration": 5.5339682,
-            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:10"
+            "duration": 4.3572196,
+            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:18"
           }
         ]
       }
     ]
   },
   {
-    "source": "I click Search Button",
+    "source": "I validate Las Vegas landed page properly",
     "steps": [
       {
-        "name": "I click Search Button",
+        "name": "I validate Las Vegas landed page properly",
         "aggregatedDurations": {
-          "median": 0.1511729,
-          "average": 0.1511729
+          "median": 0.0448772,
+          "average": 0.0448772
         },
         "durations": [
           {
-            "duration": 0.1511729,
-            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:11"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "I validate  flight status is appeared properly",
-    "steps": [
-      {
-        "name": "I validate  flight status is appeared properly",
-        "aggregatedDurations": {
-          "median": 2.6804344,
-          "average": 2.6804344
-        },
-        "durations": [
-          {
-            "duration": 2.6804344,
-            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:12"
+            "duration": 0.0448772,
+            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:19"
           }
         ]
       }

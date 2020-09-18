@@ -1,9 +1,8 @@
 
 @SmokeTest
-Scenario: United Airlines Flight Status functionality test # src/test/java/features/UnitedAirlinesHome.feature:7
+Scenario: United Airlines Book Hotels test                 # src/test/java/features/UnitedAirlinesHome.feature:15
   Given I am in home page                                  # stepdefinitions.UnitedAirHomeStepDefinition.i_am_in_home_page()
-  When I click Flight status                               # stepdefinitions.UnitedAirHomeStepDefinition.i_click_flight_status()
-  And I enter City in From field and To field              # stepdefinitions.UnitedAirHomeStepDefinition.i_enter_city_in_from_field_and_to_field()
-  And I enter Flight number and Date                       # stepdefinitions.UnitedAirHomeStepDefinition.i_enter_flight_number_and_date()
-  And I click Search Button                                # stepdefinitions.UnitedAirHomeStepDefinition.i_click_search_button()
-  Then I validate  flight status is appeared properly      # stepdefinitions.UnitedAirHomeStepDefinition.i_validate_flight_status_is_appeared_properly()
+  When I click on book button                              # stepdefinitions.UnitedAirHomeStepDefinition.i_click_on_book_button()
+  And I click on Hotels button                             # stepdefinitions.UnitedAirHomeStepDefinition.i_click_on_hotels_button()
+  And I enter "Las Vegas" in where to searchBox and submit # stepdefinitions.UnitedAirHomeStepDefinition.i_enter_in_where_to_search_box_and_submit(java.lang.String)
+  Then I validate Las Vegas landed page properly           # stepdefinitions.UnitedAirHomeStepDefinition.i_validate_las_vegas_landed_page_properly()

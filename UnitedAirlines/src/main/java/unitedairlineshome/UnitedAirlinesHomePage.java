@@ -4,6 +4,9 @@ import common.WebAPI;
 import org.junit.Assert;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.How;
+
+import static unitedairlineshome.UnitedAirHomeWebElements.*;
 
 public class UnitedAirlinesHomePage extends WebAPI {
 
@@ -26,6 +29,22 @@ public class UnitedAirlinesHomePage extends WebAPI {
 
     @FindBy(xpath = "//div[@id='flightStatusLabel']")
     WebElement flightStatusText;
+
+    @FindBy(how = How.XPATH,using = bookButtonWebElements)
+    public WebElement bookButton;
+
+    @FindBy(how = How.XPATH,using = hotelsButtonWebElements)
+    public WebElement hotelsButton;
+
+    @FindBy(how = How.XPATH,using = whereToSearchBoxWebElements)
+    public WebElement whereToSearchBox;
+
+    @FindBy(how = How.XPATH,using = bookHotelsValidationText)
+    public WebElement booksHotelsText;
+
+    /**
+     * Flight Status
+     */
 
     public void clickOnFlightStatusBtn() {
         flightStatusBtn.click();
@@ -56,4 +75,28 @@ public class UnitedAirlinesHomePage extends WebAPI {
         Assert.assertEquals("Failed",expectedText,actualText);
     }
 
+    /**
+     * Book Hotels
+     */
+
+    public void clickBookButton(){
+        bookButton.click();
+    }
+
+    public void clickHotelsButton(){
+        hotelsButton.click();
+    }
+    public void enterWhereToSearchBox(String searchItem) throws InterruptedException {
+        driver.navigate().to("https://hotels.united.com/");
+        whereToSearchBox.sendKeys(searchItem);
+        whereToSearchBox.submit();
+        Thread.sleep(3000);
+    }
+    public void validateLandedPageText() throws InterruptedException {
+
+        String expectedText="Las Vegas, Nevada, United States of America";
+        String actualText=booksHotelsText.getText();
+        Assert.assertEquals("Failed",expectedText,actualText);
+
+    }
 }
