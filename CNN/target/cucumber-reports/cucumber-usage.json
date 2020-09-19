@@ -1,0 +1,92 @@
+[
+  {
+    "source": "I am in CNN home page",
+    "steps": [
+      {
+        "name": "I am in CNN home page",
+        "aggregatedDurations": {
+          "median": 8.7773483,
+          "average": 8.7773483
+        },
+        "durations": [
+          {
+            "duration": 8.7773483,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/CNN/src/test/java/features/CnnHomePage.feature:4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I do necessary steps to land on LogIn info page",
+    "steps": [
+      {
+        "name": "I do necessary steps to land on LogIn info page",
+        "aggregatedDurations": {
+          "median": 5.3822176,
+          "average": 5.3822176
+        },
+        "durations": [
+          {
+            "duration": 5.3822176,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/CNN/src/test/java/features/CnnHomePage.feature:89"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter credentials in logIn field",
+    "steps": [
+      {
+        "name": "I enter credentials in logIn field",
+        "aggregatedDurations": {
+          "median": 0.4985039,
+          "average": 0.4985039
+        },
+        "durations": [
+          {
+            "duration": 0.4985039,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/CNN/src/test/java/features/CnnHomePage.feature:90"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on logIn button",
+    "steps": [
+      {
+        "name": "I click on logIn button",
+        "aggregatedDurations": {
+          "median": 0.1990014,
+          "average": 0.1990014
+        },
+        "durations": [
+          {
+            "duration": 0.1990014,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/CNN/src/test/java/features/CnnHomePage.feature:93"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I validated {string} message is appeared",
+    "steps": [
+      {
+        "name": "I validated \"Your email has not been verified\" message is appeared",
+        "aggregatedDurations": {
+          "median": 0.288994,
+          "average": 0.288994
+        },
+        "durations": [
+          {
+            "duration": 0.288994,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/CNN/src/test/java/features/CnnHomePage.feature:94"
+          }
+        ]
+      }
+    ]
+  }
+]

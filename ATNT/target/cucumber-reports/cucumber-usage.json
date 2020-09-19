@@ -5,13 +5,207 @@
       {
         "name": "I am in at\u0026t homepage",
         "aggregatedDurations": {
-          "median": 8.3418746,
-          "average": 8.3418746
+          "median": 7.6990902,
+          "average": 7.9001261
         },
         "durations": [
           {
-            "duration": 8.3418746,
+            "duration": 9.0982527,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 7.644367,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 7.5786705,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 7.7916696,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 7.7538134,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 7.5339834,
             "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/RegistrationPage.feature:4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter {string} in searchBox",
+    "steps": [
+      {
+        "name": "I enter \"Samsung Phones\" in searchBox",
+        "aggregatedDurations": {
+          "median": 0.2630101,
+          "average": 0.2630101
+        },
+        "durations": [
+          {
+            "duration": 0.2630101,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:54"
+          }
+        ]
+      },
+      {
+        "name": "I enter \"Apple Watches\" in searchBox",
+        "aggregatedDurations": {
+          "median": 0.2410571,
+          "average": 0.2410571
+        },
+        "durations": [
+          {
+            "duration": 0.2410571,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:54"
+          }
+        ]
+      },
+      {
+        "name": "I enter \"Apple ipads\" in searchBox",
+        "aggregatedDurations": {
+          "median": 0.2299988,
+          "average": 0.2299988
+        },
+        "durations": [
+          {
+            "duration": 0.2299988,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:54"
+          }
+        ]
+      },
+      {
+        "name": "I enter \"iphone 11 Pro Max\" in searchBox",
+        "aggregatedDurations": {
+          "median": 0.2379843,
+          "average": 0.2379843
+        },
+        "durations": [
+          {
+            "duration": 0.2379843,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:54"
+          }
+        ]
+      },
+      {
+        "name": "I enter \"Samsung Tablets\" in searchBox",
+        "aggregatedDurations": {
+          "median": 0.2760122,
+          "average": 0.2760122
+        },
+        "durations": [
+          {
+            "duration": 0.2760122,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:54"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click searchButton",
+    "steps": [
+      {
+        "name": "I click searchButton",
+        "aggregatedDurations": {
+          "median": 4.5963987,
+          "average": 5.2792432
+        },
+        "durations": [
+          {
+            "duration": 3.7029953,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:55"
+          },
+          {
+            "duration": 4.5963987,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:55"
+          },
+          {
+            "duration": 4.3146616,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:55"
+          },
+          {
+            "duration": 5.2934611,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:55"
+          },
+          {
+            "duration": 8.4886993,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:55"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify {string} and {string}",
+    "steps": [
+      {
+        "name": "I verify \"\\\"Samsung Phones\\\"\" and \"Results for Samsung Phones - AT\u0026T Search\"",
+        "aggregatedDurations": {
+          "median": 0.0820291,
+          "average": 0.0820291
+        },
+        "durations": [
+          {
+            "duration": 0.0820291,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:56"
+          }
+        ]
+      },
+      {
+        "name": "I verify \"\\\"Apple Watches\\\"\" and \"Results for Apple Watches - AT\u0026T Search\"",
+        "aggregatedDurations": {
+          "median": 0.2150004,
+          "average": 0.2150004
+        },
+        "durations": [
+          {
+            "duration": 0.2150004,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:56"
+          }
+        ]
+      },
+      {
+        "name": "I verify \"\\\"Apple ipads\\\"\" and \"Results for Apple ipads - AT\u0026T Search\"",
+        "aggregatedDurations": {
+          "median": 0.017999,
+          "average": 0.017999
+        },
+        "durations": [
+          {
+            "duration": 0.017999,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:56"
+          }
+        ]
+      },
+      {
+        "name": "I verify \"\\\"iphone 11 Pro Max\\\"\" and \"Results for iphone 11 Pro Max - AT\u0026T Search\"",
+        "aggregatedDurations": {
+          "median": 0.4162557,
+          "average": 0.4162557
+        },
+        "durations": [
+          {
+            "duration": 0.4162557,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:56"
+          }
+        ]
+      },
+      {
+        "name": "I verify \"\\\"Samsung Tablets\\\"\" and \"Results for Samsung Tablets - AT\u0026T Search\"",
+        "aggregatedDurations": {
+          "median": 0.0399798,
+          "average": 0.0399798
+        },
+        "durations": [
+          {
+            "duration": 0.0399798,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:56"
           }
         ]
       }
@@ -23,13 +217,13 @@
       {
         "name": "I click the Account dropdown button",
         "aggregatedDurations": {
-          "median": 0.1940017,
-          "average": 0.1940017
+          "median": 0.5349989,
+          "average": 0.5349989
         },
         "durations": [
           {
-            "duration": 0.1940017,
-            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/RegistrationPage.feature:17"
+            "duration": 0.5349989,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/RegistrationPage.feature:18"
           }
         ]
       }
@@ -41,13 +235,13 @@
       {
         "name": "I click Pay without signing in",
         "aggregatedDurations": {
-          "median": 1.4639982,
-          "average": 1.4639982
+          "median": 1.7169675,
+          "average": 1.7169675
         },
         "durations": [
           {
-            "duration": 1.4639982,
-            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/RegistrationPage.feature:18"
+            "duration": 1.7169675,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/RegistrationPage.feature:19"
           }
         ]
       }
@@ -59,13 +253,13 @@
       {
         "name": "I enter \"7180000000\" Active AT\u0026T phone number box",
         "aggregatedDurations": {
-          "median": 0.9419996,
-          "average": 0.9419996
+          "median": 0.2129998,
+          "average": 0.2129998
         },
         "durations": [
           {
-            "duration": 0.9419996,
-            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/RegistrationPage.feature:19"
+            "duration": 0.2129998,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/RegistrationPage.feature:20"
           }
         ]
       }
@@ -77,13 +271,13 @@
       {
         "name": "I enter \"10000\" Billing ZIP Code",
         "aggregatedDurations": {
-          "median": 0.2570006,
-          "average": 0.2570006
+          "median": 0.3860052,
+          "average": 0.3860052
         },
         "durations": [
           {
-            "duration": 0.2570006,
-            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/RegistrationPage.feature:20"
+            "duration": 0.3860052,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/RegistrationPage.feature:21"
           }
         ]
       }

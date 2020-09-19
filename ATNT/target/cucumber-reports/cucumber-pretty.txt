@@ -1,6 +1,41 @@
 
 @SmokeTest
-Scenario: Atnt HomePage signUp functionality check with invalid data # src/test/java/features/RegistrationPage.feature:16
+Scenario Outline: Atnt SearchBox Functionality check with multiple products         # src/test/java/features/HomePage.feature:60
+  Given I am in at&t homepage                                                       # stepdefinitions.HomePageStepDefinition.i_am_in_at_t_homepage()
+  And I enter "Samsung Phones" in searchBox                                         # stepdefinitions.HomePageStepDefinition.i_enter_in_search_box(java.lang.String)
+  When I click searchButton                                                         # stepdefinitions.HomePageStepDefinition.i_click_search_button()
+  Then I verify "\"Samsung Phones\"" and "Results for Samsung Phones - AT&T Search" # stepdefinitions.HomePageStepDefinition.i_verify_and(java.lang.String,java.lang.String)
+
+@SmokeTest
+Scenario Outline: Atnt SearchBox Functionality check with multiple products       # src/test/java/features/HomePage.feature:61
+  Given I am in at&t homepage                                                     # stepdefinitions.HomePageStepDefinition.i_am_in_at_t_homepage()
+  And I enter "Apple Watches" in searchBox                                        # stepdefinitions.HomePageStepDefinition.i_enter_in_search_box(java.lang.String)
+  When I click searchButton                                                       # stepdefinitions.HomePageStepDefinition.i_click_search_button()
+  Then I verify "\"Apple Watches\"" and "Results for Apple Watches - AT&T Search" # stepdefinitions.HomePageStepDefinition.i_verify_and(java.lang.String,java.lang.String)
+
+@SmokeTest
+Scenario Outline: Atnt SearchBox Functionality check with multiple products   # src/test/java/features/HomePage.feature:62
+  Given I am in at&t homepage                                                 # stepdefinitions.HomePageStepDefinition.i_am_in_at_t_homepage()
+  And I enter "Apple ipads" in searchBox                                      # stepdefinitions.HomePageStepDefinition.i_enter_in_search_box(java.lang.String)
+  When I click searchButton                                                   # stepdefinitions.HomePageStepDefinition.i_click_search_button()
+  Then I verify "\"Apple ipads\"" and "Results for Apple ipads - AT&T Search" # stepdefinitions.HomePageStepDefinition.i_verify_and(java.lang.String,java.lang.String)
+
+@SmokeTest
+Scenario Outline: Atnt SearchBox Functionality check with multiple products               # src/test/java/features/HomePage.feature:63
+  Given I am in at&t homepage                                                             # stepdefinitions.HomePageStepDefinition.i_am_in_at_t_homepage()
+  And I enter "iphone 11 Pro Max" in searchBox                                            # stepdefinitions.HomePageStepDefinition.i_enter_in_search_box(java.lang.String)
+  When I click searchButton                                                               # stepdefinitions.HomePageStepDefinition.i_click_search_button()
+  Then I verify "\"iphone 11 Pro Max\"" and "Results for iphone 11 Pro Max - AT&T Search" # stepdefinitions.HomePageStepDefinition.i_verify_and(java.lang.String,java.lang.String)
+
+@SmokeTest
+Scenario Outline: Atnt SearchBox Functionality check with multiple products           # src/test/java/features/HomePage.feature:64
+  Given I am in at&t homepage                                                         # stepdefinitions.HomePageStepDefinition.i_am_in_at_t_homepage()
+  And I enter "Samsung Tablets" in searchBox                                          # stepdefinitions.HomePageStepDefinition.i_enter_in_search_box(java.lang.String)
+  When I click searchButton                                                           # stepdefinitions.HomePageStepDefinition.i_click_search_button()
+  Then I verify "\"Samsung Tablets\"" and "Results for Samsung Tablets - AT&T Search" # stepdefinitions.HomePageStepDefinition.i_verify_and(java.lang.String,java.lang.String)
+
+@SmokeTest
+Scenario: Atnt HomePage signUp functionality check with invalid data # src/test/java/features/RegistrationPage.feature:17
   Given I am in at&t homepage                                        # stepdefinitions.HomePageStepDefinition.i_am_in_at_t_homepage()
   And I click the Account dropdown button                            # stepdefinitions.RegistrationStepDefinition.i_click_the_account_dropdown_button()
   And I click Pay without signing in                                 # stepdefinitions.RegistrationStepDefinition.i_click_pay_without_signing_in()
@@ -13,8 +48,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LAPTOP-6QSDTELI', ip: '192.168.1.185', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\lenis\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57604}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 2723d36889a4bbffcab30d595b00b5ea
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\lenis\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63474}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 53c060323cc85e2d3e5b41a9b815bba6
 *** Element info: {Using=xpath, value=//*[@id="recaptcha-anchor"]/div[4]}
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -33,12 +68,12 @@ Session ID: 2723d36889a4bbffcab30d595b00b5ea
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
 	at com.sun.proxy.$Proxy25.click(Unknown Source)
-	at registration.RegistrationPage.capChaClick(RegistrationPage.java:74)
-	at stepdefinitions.RegistrationStepDefinition.i_click_capcha_box(RegistrationStepDefinition.java:87)
-	at ✽.I click capcha box(file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/RegistrationPage.feature:21)
+	at registration.RegistrationPage.capChaClick(RegistrationPage.java:89)
+	at stepdefinitions.RegistrationStepDefinition.i_click_capcha_box(RegistrationStepDefinition.java:88)
+	at ✽.I click capcha box(file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/RegistrationPage.feature:22)
 
 
-    Embedding Demo [image/png 86165 bytes]
+    Embedding Demo [image/png 83230 bytes]
 
       org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'

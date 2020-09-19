@@ -1,0 +1,44 @@
+
+@SmokeTest
+Scenario: Trip Advisor Search box functionality test   # src/test/java/features/TripAdvisor.feature:37
+  Given I am in Trip Advisor home page                 # stepdefinitions.TripAdvisorStepDefinition.i_am_in_trip_advisor_home_page()
+  When I click TravelForum                             # stepdefinitions.TripAdvisorStepDefinition.i_click_travel_forum()
+  And I click Flights                                  # stepdefinitions.TripAdvisorStepDefinition.i_click_flights()
+  And I enter Where from and To field                  # stepdefinitions.TripAdvisorStepDefinition.i_enter_where_from_and_to_field()
+  And I enter departure and arrival date               # stepdefinitions.TripAdvisorStepDefinition.i_enter_departure_and_arrival_date()
+  And I enter person field and close person field      # stepdefinitions.TripAdvisorStepDefinition.i_enter_person_field_and_close_person_field()
+  And I click find flight button                       # stepdefinitions.TripAdvisorStepDefinition.i_click_find_flight_button()
+  Then I varify COVID-19 Policies is appeared properly # stepdefinitions.TripAdvisorStepDefinition.i_varify_covid_policies_is_appeared_properly(java.lang.Integer)
+      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="leftRailFilter"]/div/div/div/div/div[4]"}
+  (Session info: chrome=85.0.4183.83)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-6QSDTELI', ip: '192.168.1.185', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\lenis\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49714}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 94c6f2640898f8fb93a71f7b9ad86195
+*** Element info: {Using=xpath, value=//*[@id="leftRailFilter"]/div/div/div/div/div[4]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy25.getText(Unknown Source)
+	at tripadvisorhome.TripAdvisorHomePage.validateTravelForum(TripAdvisorHomePage.java:201)
+	at stepdefinitions.TripAdvisorStepDefinition.i_varify_covid_policies_is_appeared_properly(TripAdvisorStepDefinition.java:129)
+	at ✽.I varify COVID-19 Policies is appeared properly(file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TripAdvisor/src/test/java/features/TripAdvisor.feature:44)
+
+
+    Embedding Demo [image/png 1229420 bytes]
+

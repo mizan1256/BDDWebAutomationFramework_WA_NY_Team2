@@ -1,7 +1,52 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="52.843">
-    <testcase classname="Atnt HomePage Account functionality check" name="Atnt HomePage signUp functionality check with invalid data" time="52.436">
-        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;recaptcha-anchor&quot;]/div[4]&quot;}&#10;  (Session info: chrome=85.0.4183.83)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LAPTOP-6QSDTELI', ip: '192.168.1.185', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\lenis\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57604}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 2723d36889a4bbffcab30d595b00b5ea&#10;*** Element info: {Using=xpath, value=//*[@id=&quot;recaptcha-anchor&quot;]/div[4]}" type="org.openqa.selenium.NoSuchElementException">
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="6" time="123.968">
+    <testcase classname="Feature: Att HomePage Functionality check" name="Atnt SearchBox Functionality check with multiple products" time="13.962">
+        <system-out>
+            <![CDATA[Given I am in at&t homepage.................................................passed
+And I enter "Samsung Phones" in searchBox...................................passed
+When I click searchButton...................................................passed
+Then I verify "\"Samsung Phones\"" and "Results for Samsung Phones - AT&T Search".passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Feature: Att HomePage Functionality check" name="Atnt SearchBox Functionality check with multiple products 2" time="13.408">
+        <system-out>
+            <![CDATA[Given I am in at&t homepage.................................................passed
+And I enter "Apple Watches" in searchBox....................................passed
+When I click searchButton...................................................passed
+Then I verify "\"Apple Watches\"" and "Results for Apple Watches - AT&T Search".passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Feature: Att HomePage Functionality check" name="Atnt SearchBox Functionality check with multiple products 3" time="12.868">
+        <system-out>
+            <![CDATA[Given I am in at&t homepage.................................................passed
+And I enter "Apple ipads" in searchBox......................................passed
+When I click searchButton...................................................passed
+Then I verify "\"Apple ipads\"" and "Results for Apple ipads - AT&T Search".passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Feature: Att HomePage Functionality check" name="Atnt SearchBox Functionality check with multiple products 4" time="14.447">
+        <system-out>
+            <![CDATA[Given I am in at&t homepage.................................................passed
+And I enter "iphone 11 Pro Max" in searchBox................................passed
+When I click searchButton...................................................passed
+Then I verify "\"iphone 11 Pro Max\"" and "Results for iphone 11 Pro Max - AT&T Search".passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Feature: Att HomePage Functionality check" name="Atnt SearchBox Functionality check with multiple products 5" time="17.259">
+        <system-out>
+            <![CDATA[Given I am in at&t homepage.................................................passed
+And I enter "Samsung Tablets" in searchBox..................................passed
+When I click searchButton...................................................passed
+Then I verify "\"Samsung Tablets\"" and "Results for Samsung Tablets - AT&T Search".passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Atnt HomePage Account functionality check" name="Atnt HomePage signUp functionality check with invalid data" time="51.613">
+        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;recaptcha-anchor&quot;]/div[4]&quot;}&#10;  (Session info: chrome=85.0.4183.83)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LAPTOP-6QSDTELI', ip: '192.168.1.185', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\lenis\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63474}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 53c060323cc85e2d3e5b41a9b815bba6&#10;*** Element info: {Using=xpath, value=//*[@id=&quot;recaptcha-anchor&quot;]/div[4]}" type="org.openqa.selenium.NoSuchElementException">
             <![CDATA[Given I am in at&t homepage.................................................passed
 And I click the Account dropdown button.....................................passed
 And I click Pay without signing in..........................................passed
@@ -16,8 +61,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LAPTOP-6QSDTELI', ip: '192.168.1.185', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\lenis\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57604}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 2723d36889a4bbffcab30d595b00b5ea
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\lenis\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63474}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 53c060323cc85e2d3e5b41a9b815bba6
 *** Element info: {Using=xpath, value=//*[@id="recaptcha-anchor"]/div[4]}
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -36,9 +81,9 @@ Session ID: 2723d36889a4bbffcab30d595b00b5ea
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
 	at com.sun.proxy.$Proxy25.click(Unknown Source)
-	at registration.RegistrationPage.capChaClick(RegistrationPage.java:74)
-	at stepdefinitions.RegistrationStepDefinition.i_click_capcha_box(RegistrationStepDefinition.java:87)
-	at ✽.I click capcha box(file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/RegistrationPage.feature:21)
+	at registration.RegistrationPage.capChaClick(RegistrationPage.java:89)
+	at stepdefinitions.RegistrationStepDefinition.i_click_capcha_box(RegistrationStepDefinition.java:88)
+	at ✽.I click capcha box(file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/RegistrationPage.feature:22)
 ]]>
         </failure>
     </testcase>

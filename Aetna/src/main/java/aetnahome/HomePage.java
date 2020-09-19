@@ -27,7 +27,7 @@ public class HomePage extends WebAPI {
     WebElement internationalPlansText;
     @FindBy(xpath = "/html/body/div[2]/div/nav/div/ul[1]/li[1]/div[2]/div/div/section/ul/li[2]/div[2]/ul/li[4]/a")
     WebElement findDoctor;
-    @FindBy(xpath = "//*[@id=\"content__main\"]/div[2]/div/div/div/div/div/div/div[2]/h2")
+    @FindBy(xpath = "//h3[contains(text(),'Already a member?')]")
     WebElement findDoctorText;
     @FindBy(xpath = "/html/body/div[2]/div/nav/div/ul[1]/li[1]/div[2]/div/div/section/ul/li[3]/div[1]/button")
     WebElement dentalAndVision;
@@ -129,7 +129,9 @@ public class HomePage extends WebAPI {
         Assert.assertEquals(expectedResult, actualResult);
     }
 
-    // Vision Plans
+    /**
+     * Vision Plans
+     */
     public void visionPlansCheck() {
         visionPlans.click();
     }

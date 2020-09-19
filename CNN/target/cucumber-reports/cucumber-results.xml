@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="16.329">
+    <testcase classname="CNN home page functionality test" name="CNN home User Account functionality test" time="16.007">
+        <system-out>
+            <![CDATA[Given I am in CNN home page.................................................passed
+When I do necessary steps to land on LogIn info page........................passed
+And I enter credentials in logIn field......................................passed
+And I click on logIn button.................................................passed
+Then I validated "Your email has not been verified" message is appeared.....passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

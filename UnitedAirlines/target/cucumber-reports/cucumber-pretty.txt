@@ -1,42 +1,8 @@
 
 @SmokeTest
-Scenario: United Airlines flight status functionality test                                                                       # src/test/java/features/UnitedAirlinesHome.feature:31
-  Given I am in home page                                                                                                        # stepdefinitions.UnitedAirStepDefinition.i_am_in_home_page()
-  When I click on My trips tab                                                                                                   # stepdefinitions.UnitedAirStepDefinition.i_click_on_my_trips_tab()
-  And I enter confirmation number in confirmation field                                                                          # stepdefinitions.UnitedAirStepDefinition.i_enter_confirmation_number_in_confirmation_field()
-  And I type last name in Last name field                                                                                        # stepdefinitions.UnitedAirStepDefinition.i_type_last_name_in_last_name_field()
-  And I click search box tab                                                                                                     # stepdefinitions.UnitedAirStepDefinition.i_click_search_box_tab()
-  Then I validate Your confirmation number, a 6 character alphanumeric code, and/or last name is not valid. is appeared properly # stepdefinitions.UnitedAirStepDefinition.i_validate_your_confirmation_number_a_character_alphanumeric_code_and_or_last_name_is_not_valid_is_appeared_properly(java.lang.Integer)
-      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="app"]/div/div/div/div[2]/div[3]/div/main/div[1]/div/div/div/span"}
-  (Session info: chrome=85.0.4183.83)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-6QSDTELI', ip: '192.168.1.185', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\lenis\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64468}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 709983c6d5695f49ce55fce01de5d09d
-*** Element info: {Using=xpath, value=//*[@id="app"]/div/div/div/div[2]/div[3]/div/main/div[1]/div/div/div/span}
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy25.getText(Unknown Source)
-	at unitedairlineshome.UnitedAirHomePage.validateMyTripfield(UnitedAirHomePage.java:110)
-	at stepdefinitions.UnitedAirStepDefinition.i_validate_your_confirmation_number_a_character_alphanumeric_code_and_or_last_name_is_not_valid_is_appeared_properly(UnitedAirStepDefinition.java:112)
-	at ✽.I validate Your confirmation number, a 6 character alphanumeric code, and/or last name is not valid. is appeared properly(file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:36)
-
-
-    Embedding Demo [image/png 98153 bytes]
-
+Scenario: United Airlines Book Button Check                   # src/test/java/features/UnitedAirlinesHome.feature:57
+  Given I am in United Airlines home page                     # stepdefinitions.UnitedAirStepDefinition.i_am_in_united_airlines_home_page()
+  When I click on Book Button                                 # stepdefinitions.UnitedAirStepDefinition.i_click_on_book_button()
+  And I click on Hotels Button                                # stepdefinitions.UnitedAirStepDefinition.i_click_on_hotels_button()
+  And I enter "Miami Beach" in where to search box and submit # stepdefinitions.UnitedAirStepDefinition.i_enter_in_where_to_search_box_and_submit(java.lang.String)
+  Then I validate Miami Beach landing properly                # stepdefinitions.UnitedAirStepDefinition.i_validate_miami_beach_landing_properly()

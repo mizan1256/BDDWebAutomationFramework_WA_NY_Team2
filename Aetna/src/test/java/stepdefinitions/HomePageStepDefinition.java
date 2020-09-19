@@ -36,8 +36,8 @@ public class HomePageStepDefinition extends WebAPI {
     }
 
     //    ShopPlan - HealthCoverage
-    @Given("i am in home page")
-    public void i_am_in_home_page() throws IOException {
+    @Given("I am in Geico home page")
+    public void i_am_in_geico_home_page() throws IOException {
         openBrowser("https://www.aetna.com/");
     }
 
@@ -92,7 +92,7 @@ public class HomePageStepDefinition extends WebAPI {
 
     @Then("I validate COVID-{int} Alert is appeared properly")
     public void i_validate_covid_alert_is_appeared_properly() {
-        homePage.validateFindADoctorCheck("");
+        homePage.validateFindADoctorCheck("Already a member?");
     }
 
     //  Dental plan

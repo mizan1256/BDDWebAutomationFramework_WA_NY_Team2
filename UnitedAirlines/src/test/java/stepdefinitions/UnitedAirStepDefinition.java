@@ -31,8 +31,8 @@ public class UnitedAirStepDefinition extends WebAPI {
         unitedAirHomePage = PageFactory.initElements(driver, UnitedAirHomePage.class);
     }
 
-    @Given("I am in home page")
-    public void i_am_in_home_page() throws IOException {
+    @Given("I am in United Airlines home page")
+    public void i_am_in_united_airlines_home_page() throws IOException {
         openBrowser("https://www.united.com/en/us");
     }
 
@@ -108,8 +108,88 @@ public class UnitedAirStepDefinition extends WebAPI {
     }
 
     @Then("I validate Your confirmation number, a {int} character alphanumeric code, and\\/or last name is not valid. is appeared properly")
-    public void i_validate_your_confirmation_number_a_character_alphanumeric_code_and_or_last_name_is_not_valid_is_appeared_properly(Integer int1) {
+    public void i_validate_your_confirmation_number_a_character_alphanumeric_code_and_or_last_name_is_not_valid_is_appeared_properly() {
         unitedAirHomePage.validateMyTripfield();
     }
+
+    //    Check Search Button
+    @When("I click on search button")
+    public void i_click_on_search_button() {
+        unitedAirHomePage.searchIconCheck();
+    }
+
+    @When("I click on covid-{int} update")
+    public void i_click_on_covid_update(Integer int1) throws InterruptedException {
+        unitedAirHomePage.coronavirusUpdate();
+    }
+
+    @When("I click on request a refund")
+    public void i_click_on_request_a_refund() throws InterruptedException {
+        unitedAirHomePage.requestRefundClick();
+    }
+
+    @Then("I validate Refund policies is appeared properly")
+    public void i_validate_refund_policies_is_appeared_properly() {
+        unitedAirHomePage.validateSearchIcon();
+    }
+
+    // Flight Receipt
+    @When("I click on get a flight receipt")
+    public void i_click_on_get_a_flight_receipt() throws InterruptedException {
+        unitedAirHomePage.flightReceiptCheck();
+    }
+
+//    @And("I enter traveler first name")
+//    public void i_enter_traveler_first_name() {
+//        unitedAirHomePage.enterFirstName();
+//    }
+
+    @And("I enter city name in from field and To fieldtraveler last name")
+    public void i_enter_city_name_in_from_field_and_to_fieldtraveler_last_name() {
+        unitedAirHomePage.enterLastName();
+    }
+
+    @And("I enter Last {int} digits of card")
+    public void i_enter_last_digits_of_card(Integer int1) {
+        unitedAirHomePage.enterCardNumber();
+    }
+
+    @And("I click searchButton box")
+    public void i_click_search_button_box() {
+        unitedAirHomePage.searchButtonCheck();
+    }
+
+    @Then("I validate We couldn't find your receipt is appeared properly")
+    public void i_validate_we_couldn_t_find_your_receipt_is_appeared_properly() {
+        unitedAirHomePage.validateFlightReceipt();
+    }
+
+    /**
+     *  Book button check
+     */
+
+    @When("I click on Book Button")
+    public void i_click_on_book_button() throws InterruptedException {
+        unitedAirHomePage.clickOnBookButton();
+    }
+
+    @When("I click on Hotels Button")
+    public void i_click_on_hotels_button() throws InterruptedException {
+        unitedAirHomePage.clickOnHotelButton();
+    }
+
+    @When("I enter {string} in where to search box and submit")
+    public void i_enter_in_where_to_search_box_and_submit(String searchItem) throws InterruptedException {
+        unitedAirHomePage.textOnWhereToSearchBox(searchItem);
+
+    }
+
+    @Then("I validate Miami Beach landing properly")
+    public void i_validate_miami_beach_landing_properly() throws InterruptedException {
+        unitedAirHomePage.validateLandedPageText();
+    }
+
+
+
 
 }

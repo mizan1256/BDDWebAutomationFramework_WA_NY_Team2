@@ -158,13 +158,14 @@ public class HomePageStepDefinition extends WebAPI {
 
     // Table
     @Given("I enter {string} in searchBox")
-    public void i_enter_in_search_box(String string) {
-        atntHome.tableSearchItems(string);
+    public void i_enter_in_search_box(String productName) {
+        atntHome.tableSearchItems(productName);
     }
 
     @Then("I verify {string} and {string}")
-    public void i_verify_and(String string, String string2) {
-        atntHome.validateTableProduct();
+    public void i_verify_and(String validateProduct,String validateTitle) {
+        atntHome.validateSearchTxt(validateProduct);
+        atntHome.validateSearchProductTitle(validateTitle);
     }
 
 }

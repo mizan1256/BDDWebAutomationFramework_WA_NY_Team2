@@ -1,16 +1,52 @@
 [
   {
-    "source": "I am on TD Bank home page",
+    "source": "I am in TD Bank home page",
     "steps": [
       {
-        "name": "I am on TD Bank home page",
+        "name": "I am in TD Bank home page",
         "aggregatedDurations": {
-          "median": 6.7757852,
-          "average": 6.7757852
+          "median": 6.51799525,
+          "average": 6.64401812
         },
         "durations": [
           {
-            "duration": 6.7757852,
+            "duration": 7.3321711,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TDBank/src/test/java/features/CreditCard.feature:4"
+          },
+          {
+            "duration": 6.4407978,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TDBank/src/test/java/features/CreditCard.feature:4"
+          },
+          {
+            "duration": 6.4950809,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TDBank/src/test/java/features/CreditCard.feature:4"
+          },
+          {
+            "duration": 6.3902731,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TDBank/src/test/java/features/CreditCard.feature:4"
+          },
+          {
+            "duration": 6.4953997,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TDBank/src/test/java/features/TDBankHomePage.feature:5"
+          },
+          {
+            "duration": 6.4218965,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TDBank/src/test/java/features/TDBankHomePage.feature:5"
+          },
+          {
+            "duration": 6.9995941,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TDBank/src/test/java/features/TDBankHomePage.feature:5"
+          },
+          {
+            "duration": 6.6699897,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TDBank/src/test/java/features/TDBankHomePage.feature:5"
+          },
+          {
+            "duration": 6.5405908,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TDBank/src/test/java/features/TDBankHomePage.feature:5"
+          },
+          {
+            "duration": 6.6543875,
             "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TDBank/src/test/java/features/TDBankHomePage.feature:5"
           }
         ]
@@ -18,54 +54,480 @@
     ]
   },
   {
-    "source": "I mouseHover on logIn",
+    "source": "I click on CreditCard icon",
     "steps": [
       {
-        "name": "I mouseHover on logIn",
+        "name": "I click on CreditCard icon",
         "aggregatedDurations": {
-          "median": 0.1651678,
-          "average": 0.1651678
+          "median": 3.80908855,
+          "average": 3.840749725
         },
         "durations": [
           {
-            "duration": 0.1651678,
-            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TDBank/src/test/java/features/TDBankHomePage.feature:6"
+            "duration": 4.0465908,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TDBank/src/test/java/features/CreditCard.feature:5"
+          },
+          {
+            "duration": 3.698231,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TDBank/src/test/java/features/CreditCard.feature:5"
+          },
+          {
+            "duration": 3.877853,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TDBank/src/test/java/features/CreditCard.feature:5"
+          },
+          {
+            "duration": 3.7403241,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TDBank/src/test/java/features/CreditCard.feature:5"
           }
         ]
       }
     ]
   },
   {
-    "source": "I click online banking",
+    "source": "I validate Credit Card Home page Title",
     "steps": [
       {
-        "name": "I click online banking",
+        "name": "I validate Credit Card Home page Title",
         "aggregatedDurations": {
-          "median": 8.6789894,
-          "average": 8.6789894
+          "median": 0.0320683,
+          "average": 0.0320683
         },
         "durations": [
           {
-            "duration": 8.6789894,
-            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TDBank/src/test/java/features/TDBankHomePage.feature:7"
+            "duration": 0.0320683,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TDBank/src/test/java/features/CreditCard.feature:10"
           }
         ]
       }
     ]
   },
   {
-    "source": "i validate log in page is displayed",
+    "source": "I click on Td Cash Credit Card",
     "steps": [
       {
-        "name": "i validate log in page is displayed",
+        "name": "I click on Td Cash Credit Card",
         "aggregatedDurations": {
-          "median": 0.1493914,
-          "average": 0.1493914
+          "median": 1.1239987,
+          "average": 1.1239987
         },
         "durations": [
           {
-            "duration": 0.1493914,
-            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TDBank/src/test/java/features/TDBankHomePage.feature:8"
+            "duration": 1.1239987,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TDBank/src/test/java/features/CreditCard.feature:14"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I validate Td Cash Credit Card is display",
+    "steps": [
+      {
+        "name": "I validate Td Cash Credit Card is display",
+        "aggregatedDurations": {
+          "median": 0.311002,
+          "average": 0.311002
+        },
+        "durations": [
+          {
+            "duration": 0.311002,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TDBank/src/test/java/features/CreditCard.feature:15"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I validate Td Cash Credit Card page Title",
+    "steps": [
+      {
+        "name": "I validate Td Cash Credit Card page Title",
+        "aggregatedDurations": {
+          "median": 0.0040001,
+          "average": 0.0040001
+        },
+        "durations": [
+          {
+            "duration": 0.0040001,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TDBank/src/test/java/features/CreditCard.feature:16"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on TD First Class Credit Card Button",
+    "steps": [
+      {
+        "name": "I click on TD First Class Credit Card Button",
+        "aggregatedDurations": {
+          "median": 0.8077258,
+          "average": 0.8077258
+        },
+        "durations": [
+          {
+            "duration": 0.8077258,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TDBank/src/test/java/features/CreditCard.feature:20"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I validate TD First Class Credit Card Image is display",
+    "steps": [
+      {
+        "name": "I validate TD First Class Credit Card Image is display",
+        "aggregatedDurations": {
+          "median": 0.0649984,
+          "average": 0.0649984
+        },
+        "durations": [
+          {
+            "duration": 0.0649984,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TDBank/src/test/java/features/CreditCard.feature:21"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I validate TD First Class Credit Card page Title",
+    "steps": [
+      {
+        "name": "I validate TD First Class Credit Card page Title",
+        "aggregatedDurations": {
+          "median": 0.0059993,
+          "average": 0.0059993
+        },
+        "durations": [
+          {
+            "duration": 0.0059993,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TDBank/src/test/java/features/CreditCard.feature:22"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Help me Choose Button",
+    "steps": [
+      {
+        "name": "I click on Help me Choose Button",
+        "aggregatedDurations": {
+          "median": 1.1074745,
+          "average": 1.1074745
+        },
+        "durations": [
+          {
+            "duration": 1.1074745,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TDBank/src/test/java/features/CreditCard.feature:27"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Cash and Next button",
+    "steps": [
+      {
+        "name": "I click on Cash and Next button",
+        "aggregatedDurations": {
+          "median": 0.6660005,
+          "average": 0.6660005
+        },
+        "durations": [
+          {
+            "duration": 0.6660005,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TDBank/src/test/java/features/CreditCard.feature:28"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I validate welcome message",
+    "steps": [
+      {
+        "name": "I validate welcome message",
+        "aggregatedDurations": {
+          "median": 0.0990447,
+          "average": 0.0990447
+        },
+        "durations": [
+          {
+            "duration": 0.0990447,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TDBank/src/test/java/features/CreditCard.feature:29"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I mouseHover on LogIn",
+    "steps": [
+      {
+        "name": "I mouseHover on LogIn",
+        "aggregatedDurations": {
+          "median": 0.1701527,
+          "average": 0.1701527
+        },
+        "durations": [
+          {
+            "duration": 0.1701527,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TDBank/src/test/java/features/TDBankHomePage.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on online banking",
+    "steps": [
+      {
+        "name": "I click on online banking",
+        "aggregatedDurations": {
+          "median": 10.5527159,
+          "average": 10.5527159
+        },
+        "durations": [
+          {
+            "duration": 10.5527159,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TDBank/src/test/java/features/TDBankHomePage.feature:11"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I validate log in page is displayed",
+    "steps": [
+      {
+        "name": "I validate log in page is displayed",
+        "aggregatedDurations": {
+          "median": 0.1749997,
+          "average": 0.1749997
+        },
+        "durations": [
+          {
+            "duration": 0.1749997,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TDBank/src/test/java/features/TDBankHomePage.feature:12"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on signUp button",
+    "steps": [
+      {
+        "name": "I click on signUp button",
+        "aggregatedDurations": {
+          "median": 4.359533,
+          "average": 4.359533
+        },
+        "durations": [
+          {
+            "duration": 4.359533,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TDBank/src/test/java/features/TDBankHomePage.feature:16"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I do necessary steps to land on User info page",
+    "steps": [
+      {
+        "name": "I do necessary steps to land on User info page",
+        "aggregatedDurations": {
+          "median": 6.4280688,
+          "average": 6.4280688
+        },
+        "durations": [
+          {
+            "duration": 6.4280688,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TDBank/src/test/java/features/TDBankHomePage.feature:17"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on logIn button in homePage",
+    "steps": [
+      {
+        "name": "I click on logIn button in homePage",
+        "aggregatedDurations": {
+          "median": 4.9528842,
+          "average": 4.9528842
+        },
+        "durations": [
+          {
+            "duration": 4.9528842,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TDBank/src/test/java/features/TDBankHomePage.feature:26"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter {string} and {string}",
+    "steps": [
+      {
+        "name": "I enter \"pnt30235\" and \"Pnt@30235\"",
+        "aggregatedDurations": {
+          "median": 2.0939973,
+          "average": 2.0939973
+        },
+        "durations": [
+          {
+            "duration": 2.0939973,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TDBank/src/test/java/features/TDBankHomePage.feature:27"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on login",
+    "steps": [
+      {
+        "name": "I click on login",
+        "aggregatedDurations": {
+          "median": 0.8100243,
+          "average": 0.8100243
+        },
+        "durations": [
+          {
+            "duration": 0.8100243,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TDBank/src/test/java/features/TDBankHomePage.feature:28"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I validate the error message",
+    "steps": [
+      {
+        "name": "I validate the error message",
+        "aggregatedDurations": {
+          "median": 3.105586,
+          "average": 3.105586
+        },
+        "durations": [
+          {
+            "duration": 3.105586,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TDBank/src/test/java/features/TDBankHomePage.feature:29"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on product",
+    "steps": [
+      {
+        "name": "I click on product",
+        "aggregatedDurations": {
+          "median": 0.1869993,
+          "average": 0.1869993
+        },
+        "durations": [
+          {
+            "duration": 0.1869993,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TDBank/src/test/java/features/TDBankHomePage.feature:37"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on checking",
+    "steps": [
+      {
+        "name": "I click on checking",
+        "aggregatedDurations": {
+          "median": 7.0319914,
+          "average": 7.0319914
+        },
+        "durations": [
+          {
+            "duration": 7.0319914,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TDBank/src/test/java/features/TDBankHomePage.feature:38"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I validate checking account page",
+    "steps": [
+      {
+        "name": "I validate checking account page",
+        "aggregatedDurations": {
+          "median": 0.0579989,
+          "average": 0.0579989
+        },
+        "durations": [
+          {
+            "duration": 0.0579989,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TDBank/src/test/java/features/TDBankHomePage.feature:39"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click FindUs Icon",
+    "steps": [
+      {
+        "name": "I click FindUs Icon",
+        "aggregatedDurations": {
+          "median": 1.0975527,
+          "average": 1.0975527
+        },
+        "durations": [
+          {
+            "duration": 1.0975527,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TDBank/src/test/java/features/TDBankHomePage.feature:44"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter {string} and click on searchIcon",
+    "steps": [
+      {
+        "name": "I enter \"11416\" and click on searchIcon",
+        "aggregatedDurations": {
+          "median": 6.1328044,
+          "average": 6.1328044
+        },
+        "durations": [
+          {
+            "duration": 6.1328044,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TDBank/src/test/java/features/TDBankHomePage.feature:45"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I take necessary steps and landed on locations page",
+    "steps": [
+      {
+        "name": "I take necessary steps and landed on locations page",
+        "aggregatedDurations": {
+          "median": 7.1997933,
+          "average": 7.1997933
+        },
+        "durations": [
+          {
+            "duration": 7.1997933,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TDBank/src/test/java/features/TDBankHomePage.feature:50"
           }
         ]
       }

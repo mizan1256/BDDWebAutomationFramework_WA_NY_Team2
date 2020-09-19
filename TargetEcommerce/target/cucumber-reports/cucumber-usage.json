@@ -1,0 +1,92 @@
+[
+  {
+    "source": "I am on targetEcommerce home page",
+    "steps": [
+      {
+        "name": "I am on targetEcommerce home page",
+        "aggregatedDurations": {
+          "median": 8.8281537,
+          "average": 8.8281537
+        },
+        "durations": [
+          {
+            "duration": 8.8281537,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetHomePage.feature:4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I do necessary steps to land sign In page",
+    "steps": [
+      {
+        "name": "I do necessary steps to land sign In page",
+        "aggregatedDurations": {
+          "median": 5.4582198,
+          "average": 5.4582198
+        },
+        "durations": [
+          {
+            "duration": 5.4582198,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetHomePage.feature:35"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter invalid email in email field",
+    "steps": [
+      {
+        "name": "I enter invalid email in email field",
+        "aggregatedDurations": {
+          "median": 0.2340033,
+          "average": 0.2340033
+        },
+        "durations": [
+          {
+            "duration": 0.2340033,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetHomePage.feature:36"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter invalid password in email field",
+    "steps": [
+      {
+        "name": "I enter invalid password in email field",
+        "aggregatedDurations": {
+          "median": 3.1493134,
+          "average": 3.1493134
+        },
+        "durations": [
+          {
+            "duration": 3.1493134,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetHomePage.feature:37"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I Click on sign In Button",
+    "steps": [
+      {
+        "name": "I Click on sign In Button",
+        "aggregatedDurations": {
+          "median": 0.5409971,
+          "average": 0.5409971
+        },
+        "durations": [
+          {
+            "duration": 0.5409971,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetHomePage.feature:38"
+          }
+        ]
+      }
+    ]
+  }
+]

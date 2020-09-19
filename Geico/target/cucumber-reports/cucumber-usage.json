@@ -1,0 +1,92 @@
+[
+  {
+    "source": "I am on Geico home page",
+    "steps": [
+      {
+        "name": "I am on Geico home page",
+        "aggregatedDurations": {
+          "median": 6.8063831,
+          "average": 6.8063831
+        },
+        "durations": [
+          {
+            "duration": 6.8063831,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on search icon",
+    "steps": [
+      {
+        "name": "I click on search icon",
+        "aggregatedDurations": {
+          "median": 2.1368028,
+          "average": 2.1368028
+        },
+        "durations": [
+          {
+            "duration": 2.1368028,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter Auto in search box",
+    "steps": [
+      {
+        "name": "I enter Auto in search box",
+        "aggregatedDurations": {
+          "median": 2.0934881,
+          "average": 2.0934881
+        },
+        "durations": [
+          {
+            "duration": 2.0934881,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on search button",
+    "steps": [
+      {
+        "name": "I click on search button",
+        "aggregatedDurations": {
+          "median": 1.9489974,
+          "average": 1.9489974
+        },
+        "durations": [
+          {
+            "duration": 1.9489974,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I validate {string} is appeared properly",
+    "steps": [
+      {
+        "name": "I validate \"Site Search\" is appeared properly",
+        "aggregatedDurations": {
+          "median": 0.037999,
+          "average": 0.037999
+        },
+        "durations": [
+          {
+            "duration": 0.037999,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:11"
+          }
+        ]
+      }
+    ]
+  }
+]

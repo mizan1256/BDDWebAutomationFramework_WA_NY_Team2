@@ -1,0 +1,184 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8777348300,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 20999500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.CnnStepDefinition.getInIt()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "I am in CNN home page",
+            "match": {
+              "location": "stepdefinitions.CnnStepDefinition.i_am_in_cnn_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-17T22:18:57.452Z",
+        "line": 88,
+        "name": "CNN home User Account functionality test",
+        "description": "",
+        "id": "cnn-home-page-functionality-test;cnn-home-user-account-functionality-test",
+        "after": [
+          {
+            "result": {
+              "duration": 757066900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.CnnStepDefinition.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5382217600,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2000100,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.CnnStepDefinition.getInIt()"
+                }
+              }
+            ],
+            "line": 89,
+            "name": "I do necessary steps to land on LogIn info page",
+            "match": {
+              "location": "stepdefinitions.CnnStepDefinition.i_do_necessary_steps_to_land_on_log_in_info_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 498503900,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.CnnStepDefinition.getInIt()"
+                }
+              }
+            ],
+            "line": 90,
+            "name": "I enter credentials in logIn field",
+            "match": {
+              "location": "stepdefinitions.CnnStepDefinition.i_enter_credentials_in_log_in_field(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Email",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "pnt30235_NY@gmail.com",
+                  "Pnt@30235"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 199001400,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 999700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.CnnStepDefinition.getInIt()"
+                }
+              }
+            ],
+            "line": 93,
+            "name": "I click on logIn button",
+            "match": {
+              "location": "stepdefinitions.CnnStepDefinition.i_click_on_log_in_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 288994000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1997400,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.CnnStepDefinition.getInIt()"
+                }
+              }
+            ],
+            "line": 94,
+            "name": "I validated \"Your email has not been verified\" message is appeared",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Your email has not been verified\"",
+                  "offset": 12
+                }
+              ],
+              "location": "stepdefinitions.CnnStepDefinition.i_validated_message_is_appeared(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "CNN home page functionality test",
+    "description": "",
+    "id": "cnn-home-page-functionality-test",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/CnnHomePage.feature",
+    "tags": []
+  }
+]

@@ -601,6 +601,14 @@ public class WebAPI {
         String text = webElement.getText();
         return text;
     }
+    public static void selectDateByJS(WebDriver driver, WebElement element, String dateValue){
+        JavascriptExecutor js=((JavascriptExecutor)driver);
+        js.executeScript("arguments[0].setAttribute('value','"+dateValue+"');",element);
+    }
+    public static void selectDateByJS1(WebDriver driver, WebElement element, String dateValue, String returnValue){
+        JavascriptExecutor js=((JavascriptExecutor)driver);
+        js.executeScript("arguments[0].setAttribute('value','"+dateValue+"','"+returnValue+"');",element);
+    }
 
 
 }

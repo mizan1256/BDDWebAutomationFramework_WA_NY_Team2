@@ -1,0 +1,8 @@
+
+@SmokeTest
+Scenario: CNN home User Account functionality test                        # src/test/java/features/CnnHomePage.feature:88
+  Given I am in CNN home page                                             # stepdefinitions.CnnStepDefinition.i_am_in_cnn_home_page()
+  When I do necessary steps to land on LogIn info page                    # stepdefinitions.CnnStepDefinition.i_do_necessary_steps_to_land_on_log_in_info_page()
+  And I enter credentials in logIn field                                  # stepdefinitions.CnnStepDefinition.i_enter_credentials_in_log_in_field(io.cucumber.datatable.DataTable)
+  And I click on logIn button                                             # stepdefinitions.CnnStepDefinition.i_click_on_log_in_button()
+  Then I validated "Your email has not been verified" message is appeared # stepdefinitions.CnnStepDefinition.i_validated_message_is_appeared(java.lang.String)

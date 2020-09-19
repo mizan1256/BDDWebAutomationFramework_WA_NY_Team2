@@ -161,16 +161,20 @@ public class AtntHome extends WebAPI {
     @FindBy(how = How.XPATH, using = homePagePrepaidValidateText)
     public WebElement validateText;
 
-    public void tableSearchItems(String string) {
-        searchBox.sendKeys(string);
+    public void tableSearchItems(String productName) {
+        searchBox.sendKeys(productName);
     }
 
-    public void validateTableProduct() {
-        samsung.isDisplayed();
-        appleWatch.isDisplayed();
-        appleIPad.isDisplayed();
-        iPhonePro.isDisplayed();
-        samsungTablet.isDisplayed();
+    public void validateSearchProductTitle(String validateTitle){
+        String expectedTitle= validateTitle;
+        String actualTitle=driver.getTitle();
+        Assert.assertEquals(expectedTitle,actualTitle);
+
+    }
+    public void validateSearchTxt(String actualText) {
+        String expectedResult= actualText;
+        System.out.println(expectedResult);
+        Assert.assertTrue(expectedResult.contains(actualText));
     }
 
 

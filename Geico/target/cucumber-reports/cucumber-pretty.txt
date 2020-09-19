@@ -1,0 +1,8 @@
+
+@SmokeTest
+Scenario: Geico home page search box functionality test # src/test/java/features/GeicoHome.feature:7
+  Given I am on Geico home page                         # stepdefinitions.GeicoHomeStepDefinitions.i_am_on_geico_home_page()
+  When I click on search icon                           # stepdefinitions.GeicoHomeStepDefinitions.i_click_on_search_icon()
+  And I enter Auto in search box                        # stepdefinitions.GeicoHomeStepDefinitions.i_enter_auto_in_search_box()
+  And I click on search button                          # stepdefinitions.GeicoHomeStepDefinitions.i_click_on_search_button()
+  Then I validate "Site Search" is appeared properly    # stepdefinitions.GeicoHomeStepDefinitions.i_validate_is_appeared_properly(java.lang.String)

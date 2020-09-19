@@ -1,0 +1,168 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6806383100,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 22999300,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.GeicoHomeStepDefinitions.getInIt()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "I am on Geico home page",
+            "match": {
+              "location": "stepdefinitions.GeicoHomeStepDefinitions.i_am_on_geico_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-18T03:17:35.730Z",
+        "line": 7,
+        "name": "Geico home page search box functionality test",
+        "description": "",
+        "id": "geico-home-page-functionality;geico-home-page-search-box-functionality-test",
+        "after": [
+          {
+            "result": {
+              "duration": 684999600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.GeicoHomeStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2136802800,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.GeicoHomeStepDefinitions.getInIt()"
+                }
+              }
+            ],
+            "line": 8,
+            "name": "I click on search icon",
+            "match": {
+              "location": "stepdefinitions.GeicoHomeStepDefinitions.i_click_on_search_icon()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2093488100,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.GeicoHomeStepDefinitions.getInIt()"
+                }
+              }
+            ],
+            "line": 9,
+            "name": "I enter Auto in search box",
+            "match": {
+              "location": "stepdefinitions.GeicoHomeStepDefinitions.i_enter_auto_in_search_box()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1948997400,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.GeicoHomeStepDefinitions.getInIt()"
+                }
+              }
+            ],
+            "line": 10,
+            "name": "I click on search button",
+            "match": {
+              "location": "stepdefinitions.GeicoHomeStepDefinitions.i_click_on_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 37999000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.GeicoHomeStepDefinitions.getInIt()"
+                }
+              }
+            ],
+            "line": 11,
+            "name": "I validate \"Site Search\" is appeared properly",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Site Search\"",
+                  "offset": 11
+                }
+              ],
+              "location": "stepdefinitions.GeicoHomeStepDefinitions.i_validate_is_appeared_properly(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "Geico Home page Functionality",
+    "description": "",
+    "id": "geico-home-page-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/GeicoHome.feature",
+    "tags": []
+  }
+]

@@ -3,7 +3,7 @@ Feature: Atnt HomePage Account functionality check
   Background:
     Given I am in at&t homepage
 
-  @pending
+#  @SmokeTest
   Scenario: Atnt HomePage signUp functionality check with invalid data
     And I click the Account dropdown button
     And I click signIn
@@ -13,7 +13,7 @@ Feature: Atnt HomePage Account functionality check
     Then I verified "Sign In" ia appeared properly
     And I verify page title as Login Screen
 
-  @SmokeTest
+#  @SmokeTest
   Scenario: Atnt HomePage signUp functionality check with invalid data
     And I click the Account dropdown button
     And I click Pay without signing in
@@ -24,7 +24,7 @@ Feature: Atnt HomePage Account functionality check
 #    Then I verified "Sign In" ia appeared properly
 #    And I verify page title as Login Screen
 
-  @SmokeTest
+#  @SmokeTest
   Scenario: Atnt HomePage signUp functionality check with invalid data
     And I click the Account dropdown button
     And I click Account overview

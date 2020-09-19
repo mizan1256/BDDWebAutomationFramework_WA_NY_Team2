@@ -5,12 +5,12 @@
       {
         "name": "i am in home page",
         "aggregatedDurations": {
-          "median": 6.9406887,
-          "average": 6.9406887
+          "median": 7.3648166,
+          "average": 7.3648166
         },
         "durations": [
           {
-            "duration": 6.9406887,
+            "duration": 7.3648166,
             "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/HomePage.feature:4"
           }
         ]
@@ -23,67 +23,49 @@
       {
         "name": "I click shop for a plan",
         "aggregatedDurations": {
-          "median": 0.2145118,
-          "average": 0.2145118
+          "median": 0.1089869,
+          "average": 0.1089869
         },
         "durations": [
           {
-            "duration": 0.2145118,
-            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/HomePage.feature:50"
+            "duration": 0.1089869,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/HomePage.feature:29"
           }
         ]
       }
     ]
   },
   {
-    "source": "I go dental, vision and supplemental",
+    "source": "I go Health coverage",
     "steps": [
       {
-        "name": "I go dental, vision and supplemental",
+        "name": "I go Health coverage",
         "aggregatedDurations": {
-          "median": 0.1175123,
-          "average": 0.1175123
+          "median": 0.1219996,
+          "average": 0.1219996
         },
         "durations": [
           {
-            "duration": 0.1175123,
-            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/HomePage.feature:51"
+            "duration": 0.1219996,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/HomePage.feature:30"
           }
         ]
       }
     ]
   },
   {
-    "source": "I click vision plans",
+    "source": "I click find a doctor",
     "steps": [
       {
-        "name": "I click vision plans",
+        "name": "I click find a doctor",
         "aggregatedDurations": {
-          "median": 0.8389886,
-          "average": 0.8389886
+          "median": 0.8565167,
+          "average": 0.8565167
         },
         "durations": [
           {
-            "duration": 0.8389886,
-            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/HomePage.feature:52"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "I validate Aetna Dental Direct plan is appeared properly",
-    "steps": [
-      {
-        "name": "I validate Aetna Dental Direct plan is appeared properly",
-        "aggregatedDurations": {
-          "median": 0.4379762,
-          "average": 0.4379762
-        },
-        "durations": [
-          {
-            "duration": 0.4379762,
-            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/HomePage.feature:53"
+            "duration": 0.8565167,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/HomePage.feature:31"
           }
         ]
       }
