@@ -1,10 +1,11 @@
 package cnnRegistration;
 
 import common.WebAPI;
+import org.junit.Assert;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
-import org.testng.Assert;
+
 
 import static cnnRegistration.RegistrationWebElement.*;
 import static cnnhome.CnnHomePageWebElement.*;
@@ -32,6 +33,9 @@ public class RegistrationPage extends WebAPI {
     public WebElement cnnZipCodeBox;
     @FindBy(how = How.XPATH, using = getWebElementZipCodeButton)
     public WebElement cnnZipCodeButton;
+    @FindBy(how = How.XPATH, using = registrationMsgWebElement)
+    public WebElement registrationMsg;
+
 
     public void cnnZipCodeBox() {
 
@@ -44,20 +48,34 @@ public class RegistrationPage extends WebAPI {
      *
      * @ CNN Fanctional test
      */
-    public void cnnSignUp() throws InterruptedException {
+
+    public void landOnSingUpPage() throws InterruptedException {
+        sleepFor(6);
         cnnLogInIcon.click();
         Thread.sleep(3000);
         cnnSignUpButton.click();
-        Thread.sleep(3000);
-        cnnSignUpEmail.sendKeys("pnt30242@gmail.com");
-        cnnSignUpPassword.sendKeys("Pnt@30242");
-        cnnSignUpZipCode.sendKeys("11432");
-        cnnRegistrationButton.click();
     }
 
-    public void validateCnnSignUp() {
-        System.out.println(driver.getTitle());
+    public void enterUserEmail(String emailAddress) {
+        cnnSignUpEmail.sendKeys(emailAddress);
+    }
 
+    public void enterUserPassword(String password) {
+        cnnSignUpPassword.sendKeys(password);
+    }
+
+    public void enterUserZipcode(String zipcode) {
+        cnnSignUpZipCode.sendKeys(zipcode);
+    }
+
+    public void clickOnRegistrationBtn() throws InterruptedException {
+        cnnRegistrationButton.click();
+        sleepFor(5);
+    }
+
+    public void validateRegistrationMessage(String actualText) {
+    String expectedText=registrationMsg.getText();
+        Assert.assertEquals("Text do not match", expectedText,actualText);
     }
 
     public void cnnAccountLogIn() throws InterruptedException {
@@ -71,5 +89,23 @@ public class RegistrationPage extends WebAPI {
     public void validateCnnAccountLogIn() {
         Assert.assertEquals("CNN - Breaking News, Latest News and Videos", driver.getTitle());
     }
+    /**
+     * Cnn logIn functionality check
+     */
+public void clickOnSingInBtn() throws InterruptedException {
+    sleepFor(6);
+    cnnLogInIcon.click();
+}
+public void enterLogInInfo(String userEmail, String userPassword) throws InterruptedException {
+    Thread.sleep(3000);
+    cnnLogInEmail.sendKeys(userEmail);
+    cnnLogInPassword.sendKeys(userPassword);
+    cnnLogInButton.click();
+}
+public void validateSingInPageTitle(){
+    String expectedTitle="CNN - Breaking News, Latest News and Videos";
+    String actualTitle=driver.getTitle();
+    Assert.assertEquals("Title does not match", expectedTitle,actualTitle);
 
+}
 }

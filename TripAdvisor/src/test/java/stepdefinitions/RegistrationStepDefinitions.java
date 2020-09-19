@@ -2,7 +2,6 @@ package stepdefinitions;
 
 import common.WebAPI;
 import io.cucumber.java.After;
-import io.cucumber.java.Before;
 import io.cucumber.java.BeforeStep;
 import io.cucumber.java.Scenario;
 import io.cucumber.java.en.And;
@@ -13,13 +12,13 @@ import org.junit.Assert;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.support.PageFactory;
-import tripAdvisorhome.TripAdvisorHomePage;
+import tripadvisorregistration.TripAdvisorRegistration;
 
 
 import java.io.IOException;
 
-public class HomePageStepDefinitions extends WebAPI {
-     static TripAdvisorHomePage tripAdvisorHomePage;
+public class RegistrationStepDefinitions extends WebAPI {
+     static TripAdvisorRegistration tripAdvisorHomePage;
     @After
     public void tearDown(Scenario scenario) {
         if (scenario.isFailed()) {
@@ -31,7 +30,7 @@ public class HomePageStepDefinitions extends WebAPI {
 
     @BeforeStep
     public static void getInit(){
-        tripAdvisorHomePage= PageFactory.initElements(driver,TripAdvisorHomePage.class);
+        tripAdvisorHomePage= PageFactory.initElements(driver, TripAdvisorRegistration.class);
     }
 
     @Given("I am in TripAdvisor homepage")

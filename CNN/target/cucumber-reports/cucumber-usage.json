@@ -1,0 +1,74 @@
+[
+  {
+    "source": "I am in Cnn home page",
+    "steps": [
+      {
+        "name": "I am in Cnn home page",
+        "aggregatedDurations": {
+          "median": 6.211591,
+          "average": 6.211591
+        },
+        "durations": [
+          {
+            "duration": 6.211591,
+            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/CNN/src/test/java/features/CnnHomePage.feature:4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on edition button",
+    "steps": [
+      {
+        "name": "I click on edition button",
+        "aggregatedDurations": {
+          "median": 10.647765,
+          "average": 10.647765
+        },
+        "durations": [
+          {
+            "duration": 10.647765,
+            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/CNN/src/test/java/features/CnnHomePage.feature:23"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Us International Arabic and Espanol button",
+    "steps": [
+      {
+        "name": "I click on Us International Arabic and Espanol button",
+        "aggregatedDurations": {
+          "median": 19.3501,
+          "average": 19.3501
+        },
+        "durations": [
+          {
+            "duration": 19.3501,
+            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/CNN/src/test/java/features/CnnHomePage.feature:24"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I validate page title",
+    "steps": [
+      {
+        "name": "I validate page title",
+        "aggregatedDurations": {
+          "median": 0.068696,
+          "average": 0.068696
+        },
+        "durations": [
+          {
+            "duration": 0.068696,
+            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/CNN/src/test/java/features/CnnHomePage.feature:25"
+          }
+        ]
+      }
+    ]
+  }
+]

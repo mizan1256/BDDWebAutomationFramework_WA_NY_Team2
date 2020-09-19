@@ -17,7 +17,7 @@ import java.util.List;
 
 public class TargetEcommerceStepDefinitions extends WebAPI {
 
-    TargetEcommerceHomePage targetEcommerceHomePage;
+   static TargetEcommerceHomePage targetEcommerceHomePage;
 
     @After // class project
     public void tearDown(Scenario scenario) {

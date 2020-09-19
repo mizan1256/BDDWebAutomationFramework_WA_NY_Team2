@@ -1,0 +1,186 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6211591000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 30344000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.CnnRegistrationStepDefinitions.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 3358000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.CnnHomeStepDefinitions.getInIt()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "I am in Cnn home page",
+            "match": {
+              "location": "stepdefinitions.CnnHomeStepDefinitions.i_am_in_cnn_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-19T01:11:59.661Z",
+        "line": 22,
+        "name": "CNN edition button check",
+        "description": "",
+        "id": "cnn-home-page-functionality-check;cnn-edition-button-check",
+        "after": [
+          {
+            "result": {
+              "duration": 273623000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.CnnHomeStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 262000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.CnnRegistrationStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10647765000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1395000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.CnnRegistrationStepDefinitions.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 618000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.CnnHomeStepDefinitions.getInIt()"
+                }
+              }
+            ],
+            "line": 23,
+            "name": "I click on edition button",
+            "match": {
+              "location": "stepdefinitions.CnnHomeStepDefinitions.i_click_on_edition_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 19350100000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1026000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.CnnRegistrationStepDefinitions.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1248000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.CnnHomeStepDefinitions.getInIt()"
+                }
+              }
+            ],
+            "line": 24,
+            "name": "I click on Us International Arabic and Espanol button",
+            "match": {
+              "location": "stepdefinitions.CnnHomeStepDefinitions.i_click_on_us_international_arabic_and_espanol_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 68696000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 788000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.CnnRegistrationStepDefinitions.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 997000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.CnnHomeStepDefinitions.getInIt()"
+                }
+              }
+            ],
+            "line": 25,
+            "name": "I validate page title",
+            "match": {
+              "location": "stepdefinitions.CnnHomeStepDefinitions.i_validate_page_title()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "CNN Home Page Functionality Check",
+    "description": "",
+    "id": "cnn-home-page-functionality-check",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/CnnHomePage.feature",
+    "tags": []
+  }
+]

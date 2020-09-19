@@ -19,7 +19,7 @@ Feature: United Airlines home page functionality test
     And I validate Check In page message
 
 
-
+  @SmokeTest
   Scenario:United Airlines flight booking functionality test
     When I click on close button in From box
     And I type city name of departure
@@ -27,7 +27,7 @@ Feature: United Airlines home page functionality test
     And I type city name of Destination
     Then I validate from* is appeared properly
 
-    @SmokeTest
+    #@SmokeTest
     Scenario: United Airlines Book Button functionality test
       When I click on Book Button
       And I click on Hotels Button

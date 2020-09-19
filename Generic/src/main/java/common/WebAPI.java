@@ -592,6 +592,9 @@ public class WebAPI {
         JavascriptExecutor js=((JavascriptExecutor)driver);
         js.executeScript("arguments[0].setAttribute('value','"+dateValue+"');",element);
     }
-
+    public static void selectDateByJSWithTwoValue(WebDriver driver, WebElement element, String dateValue, String returnValue){
+        JavascriptExecutor js=((JavascriptExecutor)driver);
+        js.executeScript("arguments[0].setAttribute('value','"+dateValue+"','"+returnValue+"');",element);
+    }
 
 }

@@ -14,7 +14,7 @@ Feature: TargetEcommerce Home page Functionality test
     Then I verify iPhone is appear properly
     And I verify page title as iPhone
 
-  @Regression
+  #@Regression
   Scenario: TargetEcommerce SearchBox functionality getting value from Scenario
     And I enter "iPhone" in searchBox
     Then I verify "iPhone" is appear properly

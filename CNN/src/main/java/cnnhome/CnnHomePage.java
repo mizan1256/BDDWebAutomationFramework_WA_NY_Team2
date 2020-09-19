@@ -15,41 +15,62 @@ public class CnnHomePage extends WebAPI {
     @FindBy(how = How.XPATH, using = webElementCnnSearchIcon)public WebElement cnnSearchIcon;
     @FindBy(how = How.XPATH, using = webElementCnnSearchBox)public WebElement cnnSearchBox;
     @FindBy(how = How.XPATH, using = webElementSearchTextIcon)public WebElement cnnSearchBoxTextIcon;
+    @FindBy(how = How.XPATH, using = editionIconWebElement)public WebElement editionIcon;
+    @FindBy(how = How.XPATH, using = usBtnWebElement)public WebElement usBtn;
+    @FindBy(how = How.XPATH, using = internationalBtnWebElement)public WebElement internationalBtn;
+    @FindBy(how = How.XPATH, using = arabicBtnWebElement)public WebElement arabicBtn;
+    @FindBy(how = How.XPATH, using = spanishBtnWebElement)public WebElement spanishBtn;
 
-
-    //Action Method
-    public void cnnLogInIconIsClickable(){
-        cnnLogInIcon.click();
-    }
-
-    //Validation Method
-    public void validateCnnLogInIconIsClickable(){
-        System.out.println(driver.getTitle());
-        Assert.assertEquals("CNN - Breaking News, Latest News and Videos", driver.getTitle());
-    }
-
-    //Action Method
-    public void cnnSearchIconIsClickable(){
+    /**
+     * Cnn SearchBox functionality check
+     * @param searchItem
+     * @throws InterruptedException
+     */
+    public void cnnSearchBoxCheck(String searchItem) throws InterruptedException {
         cnnSearchIcon.click();
-    }
-    //validation Method
-    public void validateCnnSearchIconIsClickable(){
-        Assert.assertTrue(cnnSearchBox.isDisplayed());
-        //System.out.println("Cnn Search Box is displayed :  "+cnnSearchBox.isDisplayed());
-    }
-    //Action Method
-    public void cnnSearchBoxTypeAble() throws InterruptedException {
-        cnnSearchIconIsClickable();
         cnnSearchBox.clear();
-        cnnSearchBox.sendKeys("Sports");
+        cnnSearchBox.sendKeys(searchItem);
         cnnSearchBox.sendKeys(Keys.ENTER);
         Thread.sleep(3000);
     }
-    //Validation Method
     public void validateCNNSearchBoxTypeAble(){
         System.out.println(driver.getTitle());
         Assert.assertEquals("Search CNN - Videos, Pictures, and News - CNN.com",driver.getTitle());
-
     }
+    /**
+     * Cnn search box check using data table
+     */
+    public void validateDataTablePageTitle(String actualTitle){
+        System.out.println(driver.getTitle());
+        Assert.assertEquals(actualTitle,driver.getTitle());
+    }
+    /**
+     * Cnn edition button check
+     */
+    public void clickOnEditionBtn() throws InterruptedException {
+        sleepFor(6);
+        editionIcon.click();
+        sleepFor(2);
+    }
+    public void selectFromEditionDropDown() throws InterruptedException {
+        usBtn.click();
+        sleepFor(6);
+        editionIcon.click();
+        sleepFor(2);
+        internationalBtn.click();
+        sleepFor(6);
+        editionIcon.click();
+        sleepFor(2);
+//        arabicBtn.click();
+//        sleepFor(4);
+//        goBackToHomeWindow();
+//        editionIcon.click();
+//        sleepFor(2);
+        spanishBtn.click();
+    }
+    public void validateEditionBtn(){
+            System.out.println(driver.getTitle());
+            Assert.assertEquals("CNN en Español | Últimas noticias en español de Latinoamérica, Estados Unidos y el mundo",driver.getTitle());
+        }
 
 }

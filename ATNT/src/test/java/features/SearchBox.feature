@@ -19,8 +19,7 @@ Feature: Att search functionality
     And I validate page title as iphone 11
 
   @SmokeTest
-# Att searchBox check with multiple value using data driven
-  Scenario Outline:
+  Scenario Outline:Att searchBox check with multiple value using data driven
     And I enter "<productName>" in searchBox
     When  I click searchButton
     And I validate "<validateProduct>" is appear properly

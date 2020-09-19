@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="37.079">
+    <testcase classname="CNN Home Page Functionality Check" name="CNN edition button check" time="36.689">
+        <system-out>
+            <![CDATA[Given I am in Cnn home page.................................................passed
+When I click on edition button..............................................passed
+And I click on Us International Arabic and Espanol button...................passed
+Then I validate page title..................................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
