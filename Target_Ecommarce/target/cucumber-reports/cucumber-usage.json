@@ -1,0 +1,38 @@
+[
+  {
+    "source": "I am on Target home page",
+    "steps": [
+      {
+        "name": "I am on Target home page",
+        "aggregatedDurations": {
+          "median": 4.833087,
+          "average": 4.833087
+        },
+        "durations": [
+          {
+            "duration": 4.833087,
+            "location": "file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/Target_Ecommarce/src/test/java/features/HomePage.feature:4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I validate search box displays",
+    "steps": [
+      {
+        "name": "I validate search box displays",
+        "aggregatedDurations": {
+          "median": 0.044071,
+          "average": 0.044071
+        },
+        "durations": [
+          {
+            "duration": 0.044071,
+            "location": "file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/Target_Ecommarce/src/test/java/features/HomePage.feature:5"
+          }
+        ]
+      }
+    ]
+  }
+]

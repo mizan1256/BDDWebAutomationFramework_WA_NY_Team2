@@ -1,0 +1,110 @@
+[
+  {
+    "source": "I am on TripAdvisor HomePage",
+    "steps": [
+      {
+        "name": "I am on TripAdvisor HomePage",
+        "aggregatedDurations": {
+          "median": 2.671645,
+          "average": 2.671645
+        },
+        "durations": [
+          {
+            "duration": 2.671645,
+            "location": "file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/TripAdvisor/src/test/java/features/TripAdvisor.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Restaurant Button",
+    "steps": [
+      {
+        "name": "I click on Restaurant Button",
+        "aggregatedDurations": {
+          "median": 5.86E-4,
+          "average": 5.86E-4
+        },
+        "durations": [
+          {
+            "duration": 5.86E-4,
+            "location": "file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/TripAdvisor/src/test/java/features/TripAdvisor.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I wrote Grass Valley on the search box",
+    "steps": [
+      {
+        "name": "I wrote Grass Valley on the search box",
+        "aggregatedDurations": {
+          "median": 1.77E-4,
+          "average": 1.77E-4
+        },
+        "durations": [
+          {
+            "duration": 1.77E-4,
+            "location": "file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/TripAdvisor/src/test/java/features/TripAdvisor.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Grass Valley",
+    "steps": [
+      {
+        "name": "I click on Grass Valley",
+        "aggregatedDurations": {
+          "median": 6.17E-4,
+          "average": 6.17E-4
+        },
+        "durations": [
+          {
+            "duration": 6.17E-4,
+            "location": "file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/TripAdvisor/src/test/java/features/TripAdvisor.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify Valley is appeared properly",
+    "steps": [
+      {
+        "name": "I verify Valley is appeared properly",
+        "aggregatedDurations": {
+          "median": 1.65E-4,
+          "average": 1.65E-4
+        },
+        "durations": [
+          {
+            "duration": 1.65E-4,
+            "location": "file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/TripAdvisor/src/test/java/features/TripAdvisor.feature:9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify page title",
+    "steps": [
+      {
+        "name": "I verify page title",
+        "aggregatedDurations": {
+          "median": 1.51E-4,
+          "average": 1.51E-4
+        },
+        "durations": [
+          {
+            "duration": 1.51E-4,
+            "location": "file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/TripAdvisor/src/test/java/features/TripAdvisor.feature:10"
+          }
+        ]
+      }
+    ]
+  }
+]

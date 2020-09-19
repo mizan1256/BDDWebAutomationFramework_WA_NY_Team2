@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="13.583">
+    <testcase classname="Geico HomePage Functionality Check." name="Geico Auto Butto Functionality Check" time="13.26">
+        <failure message="Title doesn't match expected:&lt;[]&gt; but was:&lt;[GEICO]&gt;" type="org.junit.ComparisonFailure">
+            <![CDATA[Given I am on Geico Home Page...............................................passed
+When I click on Auto Button.................................................passed
+And I checked the Check Box.................................................passed
+Then I click on START QUOTE.................................................passed
+And I verify CONTACT US.....................................................failed
+
+StackTrace:
+org.junit.ComparisonFailure: Title doesn't match expected:<[]> but was:<[GEICO]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at geicohome.GeicoHome.contactUsText(GeicoHome.java:41)
+	at stepdefinitions.HomePageStepDefinition.i_verify_contact_us(HomePageStepDefinition.java:54)
+	at ✽.I verify CONTACT US(file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:10)
+]]>
+        </failure>
+    </testcase>
+</testsuite>

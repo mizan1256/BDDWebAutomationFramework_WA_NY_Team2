@@ -1,0 +1,92 @@
+[
+  {
+    "source": "I am on Atnt HomePage",
+    "steps": [
+      {
+        "name": "I am on Atnt HomePage",
+        "aggregatedDurations": {
+          "median": 3.487401,
+          "average": 3.487401
+        },
+        "durations": [
+          {
+            "duration": 3.487401,
+            "location": "file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on TV Button",
+    "steps": [
+      {
+        "name": "I click on TV Button",
+        "aggregatedDurations": {
+          "median": 3.467191,
+          "average": 3.467191
+        },
+        "durations": [
+          {
+            "duration": 3.467191,
+            "location": "file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:22"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Sports Button",
+    "steps": [
+      {
+        "name": "I click on Sports Button",
+        "aggregatedDurations": {
+          "median": 1.736513,
+          "average": 1.736513
+        },
+        "durations": [
+          {
+            "duration": 1.736513,
+            "location": "file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:23"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Shop now Button",
+    "steps": [
+      {
+        "name": "I click on Shop now Button",
+        "aggregatedDurations": {
+          "median": 7.166928,
+          "average": 7.166928
+        },
+        "durations": [
+          {
+            "duration": 7.166928,
+            "location": "file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:24"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify Internet is appeared properly",
+    "steps": [
+      {
+        "name": "I verify Internet is appeared properly",
+        "aggregatedDurations": {
+          "median": 0.077455,
+          "average": 0.077455
+        },
+        "durations": [
+          {
+            "duration": 0.077455,
+            "location": "file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:25"
+          }
+        ]
+      }
+    ]
+  }
+]

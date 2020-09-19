@@ -1,0 +1,86 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-09-16T05:49:19.816Z",
+        "line": 3,
+        "name": "Target search box check",
+        "description": "",
+        "id": "target-homepage-functionality-check.;target-search-box-check",
+        "after": [
+          {
+            "result": {
+              "duration": 101510000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.HomePageStepDefinition.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4833087000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 20891000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.HomePageStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "I am on Target home page",
+            "match": {
+              "location": "stepdefinitions.HomePageStepDefinition.i_am_on_target_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 44071000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1233000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.HomePageStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "I validate search box displays",
+            "match": {
+              "location": "stepdefinitions.HomePageStepDefinition.i_validate_search_box_displays()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "Target HomePage Functionality Check.",
+    "description": "",
+    "id": "target-homepage-functionality-check.",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/HomePage.feature",
+    "tags": []
+  }
+]

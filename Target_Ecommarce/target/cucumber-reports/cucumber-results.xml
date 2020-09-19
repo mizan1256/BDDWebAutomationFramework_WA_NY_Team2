@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="5.449">
+    <testcase classname="Target HomePage Functionality Check." name="Target search box check" time="5.083">
+        <system-out>
+            <![CDATA[Given I am on Target home page..............................................passed
+And I validate search box displays..........................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

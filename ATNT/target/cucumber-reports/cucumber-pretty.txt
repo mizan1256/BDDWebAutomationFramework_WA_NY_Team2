@@ -1,0 +1,8 @@
+
+@SmokeTest
+Scenario: HomePage TV Button Check            # src/test/java/features/HomePage.feature:21
+  Given I am on Atnt HomePage                 # stepdefinitions.HomePageStepDefinition.i_am_on_atnt_home_page()
+  When I click on TV Button                   # stepdefinitions.HomePageStepDefinition.i_click_on_tv_button()
+  And I click on Sports Button                # stepdefinitions.HomePageStepDefinition.i_click_on_sports_button()
+  When I click on Shop now Button             # stepdefinitions.HomePageStepDefinition.i_click_on_shop_now_button()
+  Then I verify Internet is appeared properly # stepdefinitions.HomePageStepDefinition.i_verify_internet_is_appeared_properly()

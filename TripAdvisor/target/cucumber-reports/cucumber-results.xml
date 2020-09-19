@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="2.93">
+    <testcase classname="TripAdvisor HomePage Functionality Check." name="HomePage Restaurant Button Functionality Check" time="2.771">
+        <system-out>
+            <![CDATA[Given I am on TripAdvisor HomePage..........................................passed
+When I click on Restaurant Button...........................................passed
+And I wrote Grass Valley on the search box..................................passed
+Then I click on Grass Valley................................................passed
+And I verify Valley is appeared properly....................................passed
+And I verify page title.....................................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

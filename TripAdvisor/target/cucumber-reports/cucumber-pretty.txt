@@ -1,0 +1,9 @@
+
+@SmokeTest
+Scenario: HomePage Restaurant Button Functionality Check # src/test/java/features/TripAdvisor.feature:4
+  Given I am on TripAdvisor HomePage                     # stepdefinitions.HomePageStepDefinition.i_am_on_trip_advisor_home_page()
+  When I click on Restaurant Button                      # stepdefinitions.HomePageStepDefinition.i_click_on_restaurant_button()
+  And I wrote Grass Valley on the search box             # stepdefinitions.HomePageStepDefinition.i_wrote_grass_valley_on_the_search_box()
+  Then I click on Grass Valley                           # stepdefinitions.HomePageStepDefinition.i_click_on_grass_valley()
+  And I verify Valley is appeared properly               # stepdefinitions.HomePageStepDefinition.i_verify_valley_is_appeared_properly()
+  And I verify page title                                # stepdefinitions.HomePageStepDefinition.i_verify_page_title()

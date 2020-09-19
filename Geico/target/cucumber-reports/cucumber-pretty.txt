@@ -1,0 +1,17 @@
+
+@SmokeTest
+Scenario: Geico Auto Butto Functionality Check # src/test/java/features/GeicoHome.feature:5
+  Given I am on Geico Home Page                # stepdefinitions.HomePageStepDefinition.i_am_on_geico_home_page()
+  When I click on Auto Button                  # stepdefinitions.HomePageStepDefinition.i_click_on_auto_button()
+  And I checked the Check Box                  # stepdefinitions.HomePageStepDefinition.i_checked_the_check_box()
+  Then I click on START QUOTE                  # stepdefinitions.HomePageStepDefinition.i_click_on_start_quote()
+  And I verify CONTACT US                      # stepdefinitions.HomePageStepDefinition.i_verify_contact_us()
+      org.junit.ComparisonFailure: Title doesn't match expected:<[]> but was:<[GEICO]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at geicohome.GeicoHome.contactUsText(GeicoHome.java:41)
+	at stepdefinitions.HomePageStepDefinition.i_verify_contact_us(HomePageStepDefinition.java:54)
+	at ✽.I verify CONTACT US(file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:10)
+
+
+    Embedding Demo1 [image/png 29911 bytes]
+

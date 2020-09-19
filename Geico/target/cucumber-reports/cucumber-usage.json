@@ -1,0 +1,74 @@
+[
+  {
+    "source": "I am on Geico Home Page",
+    "steps": [
+      {
+        "name": "I am on Geico Home Page",
+        "aggregatedDurations": {
+          "median": 5.371667,
+          "average": 5.371667
+        },
+        "durations": [
+          {
+            "duration": 5.371667,
+            "location": "file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Auto Button",
+    "steps": [
+      {
+        "name": "I click on Auto Button",
+        "aggregatedDurations": {
+          "median": 3.125621,
+          "average": 3.125621
+        },
+        "durations": [
+          {
+            "duration": 3.125621,
+            "location": "file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I checked the Check Box",
+    "steps": [
+      {
+        "name": "I checked the Check Box",
+        "aggregatedDurations": {
+          "median": 3.055417,
+          "average": 3.055417
+        },
+        "durations": [
+          {
+            "duration": 3.055417,
+            "location": "file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on START QUOTE",
+    "steps": [
+      {
+        "name": "I click on START QUOTE",
+        "aggregatedDurations": {
+          "median": 0.733141,
+          "average": 0.733141
+        },
+        "durations": [
+          {
+            "duration": 0.733141,
+            "location": "file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:9"
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,5 @@
+
+@SmokeTest
+Scenario: Target search box check    # src/test/java/features/HomePage.feature:3
+  Given I am on Target home page     # stepdefinitions.HomePageStepDefinition.i_am_on_target_home_page()
+  And I validate search box displays # stepdefinitions.HomePageStepDefinition.i_validate_search_box_displays()

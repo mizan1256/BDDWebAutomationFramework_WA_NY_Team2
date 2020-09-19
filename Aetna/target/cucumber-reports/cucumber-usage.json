@@ -1,0 +1,92 @@
+[
+  {
+    "source": "i am in home page",
+    "steps": [
+      {
+        "name": "i am in home page",
+        "aggregatedDurations": {
+          "median": 3.007447,
+          "average": 3.007447
+        },
+        "durations": [
+          {
+            "duration": 3.007447,
+            "location": "file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/HomePage.feature:4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click shop for a plan",
+    "steps": [
+      {
+        "name": "I click shop for a plan",
+        "aggregatedDurations": {
+          "median": 0.063403,
+          "average": 0.063403
+        },
+        "durations": [
+          {
+            "duration": 0.063403,
+            "location": "file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/HomePage.feature:50"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I go dental, vision and supplemental",
+    "steps": [
+      {
+        "name": "I go dental, vision and supplemental",
+        "aggregatedDurations": {
+          "median": 0.470333,
+          "average": 0.470333
+        },
+        "durations": [
+          {
+            "duration": 0.470333,
+            "location": "file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/HomePage.feature:51"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click vision plans",
+    "steps": [
+      {
+        "name": "I click vision plans",
+        "aggregatedDurations": {
+          "median": 1.007519,
+          "average": 1.007519
+        },
+        "durations": [
+          {
+            "duration": 1.007519,
+            "location": "file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/HomePage.feature:52"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I validate Aetna Dental Direct plan is appeared properly",
+    "steps": [
+      {
+        "name": "I validate Aetna Dental Direct plan is appeared properly",
+        "aggregatedDurations": {
+          "median": 0.019977,
+          "average": 0.019977
+        },
+        "durations": [
+          {
+            "duration": 0.019977,
+            "location": "file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/HomePage.feature:53"
+          }
+        ]
+      }
+    ]
+  }
+]

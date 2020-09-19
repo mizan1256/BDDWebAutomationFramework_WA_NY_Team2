@@ -1,0 +1,167 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-09-11T23:42:43.235Z",
+        "line": 4,
+        "name": "HomePage Restaurant Button Functionality Check",
+        "description": "",
+        "id": "tripadvisor-homepage-functionality-check.;homepage-restaurant-button-functionality-check",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2671645000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 17727000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.HomePageStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "I am on TripAdvisor HomePage",
+            "match": {
+              "location": "stepdefinitions.HomePageStepDefinition.i_am_on_trip_advisor_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 586000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 501000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.HomePageStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "I click on Restaurant Button",
+            "match": {
+              "location": "stepdefinitions.HomePageStepDefinition.i_click_on_restaurant_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 177000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 391000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.HomePageStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "I wrote Grass Valley on the search box",
+            "match": {
+              "location": "stepdefinitions.HomePageStepDefinition.i_wrote_grass_valley_on_the_search_box()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 617000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 649000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.HomePageStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 8,
+            "name": "I click on Grass Valley",
+            "match": {
+              "location": "stepdefinitions.HomePageStepDefinition.i_click_on_grass_valley()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 165000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 421000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.HomePageStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 9,
+            "name": "I verify Valley is appeared properly",
+            "match": {
+              "location": "stepdefinitions.HomePageStepDefinition.i_verify_valley_is_appeared_properly()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 151000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 305000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.HomePageStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 10,
+            "name": "I verify page title",
+            "match": {
+              "location": "stepdefinitions.HomePageStepDefinition.i_verify_page_title()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "TripAdvisor HomePage Functionality Check.",
+    "description": "",
+    "id": "tripadvisor-homepage-functionality-check.",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/TripAdvisor.feature",
+    "tags": []
+  }
+]

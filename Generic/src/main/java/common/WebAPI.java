@@ -122,13 +122,13 @@ public class WebAPI {
 
     //Browser SetUp
     public static WebDriver driver = null;
-    public String browserstack_username = "mhs5";
-    public String browserstack_accesskey = "dGpR3twU2pLPLgXZxmSa";
+    public String browserstack_username = "shahzakerin1";
+    public String browserstack_accesskey = "p6Lw2dikmxqC11qcz1h2";
     public String saucelabs_username = "";
     public String saucelabs_accesskey = "";
 
-    public void openBrowser() throws IOException {
-        setUp(false,"browserstack","OS X","catalina","chrome","85","https://www.amazon.com");
+    public void openBrowser(String url) throws IOException {
+        setUp(false,"browserstack","OS X","catalina","chrome","85", url);
     }
 
     @Parameters({"useCloudEnv", "cloudEnvName", "os", "os_version", "browserName", "browserVersion", "url"})
@@ -146,11 +146,11 @@ public class WebAPI {
         } else {
             getLocalDriver(os, browserName);
         }
-        driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
-        //driver.manage().timeouts().pageLoadTimeout(25, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(25, TimeUnit.SECONDS);
         driver.manage().deleteAllCookies();
         driver.get(url);
-        //driver.manage().window().maximize();
+        driver.manage().timeouts().pageLoadTimeout(25, TimeUnit.SECONDS);
+        driver.manage().window().maximize();
     }
 
     public WebDriver getLocalDriver(@Optional("mac") String OS, String browserName) {

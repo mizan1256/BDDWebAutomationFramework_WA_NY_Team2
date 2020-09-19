@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="16.565">
+    <testcase classname="Atnt HomePage Functionality Check." name="HomePage TV Button Check" time="16.2">
+        <system-out>
+            <![CDATA[Given I am on Atnt HomePage.................................................passed
+When I click on TV Button...................................................passed
+And I click on Sports Button................................................passed
+When I click on Shop now Button.............................................passed
+Then I verify Internet is appeared properly.................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

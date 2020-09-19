@@ -1,0 +1,164 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3007447000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 17174000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.HomePageStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "i am in home page",
+            "match": {
+              "location": "stepdefinitions.HomePageStepDefinition.i_am_in_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-17T06:24:08.574Z",
+        "line": 49,
+        "name": "Aetna Shop a plan functionality test",
+        "description": "",
+        "id": "aetna-home-page-functionality-test;aetna-shop-a-plan-functionality-test",
+        "after": [
+          {
+            "result": {
+              "duration": 93240000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.HomePageStepDefinition.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 63403000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 624000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.HomePageStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 50,
+            "name": "I click shop for a plan",
+            "match": {
+              "location": "stepdefinitions.HomePageStepDefinition.i_click_shop_for_a_plan()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 470333000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1020000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.HomePageStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 51,
+            "name": "I go dental, vision and supplemental",
+            "match": {
+              "location": "stepdefinitions.HomePageStepDefinition.i_go_dental_vision_and_supplemental()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1007519000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 590000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.HomePageStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 52,
+            "name": "I click vision plans",
+            "match": {
+              "location": "stepdefinitions.HomePageStepDefinition.i_click_vision_plans()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 19977000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 807000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.HomePageStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 53,
+            "name": "I validate Aetna Dental Direct plan is appeared properly",
+            "match": {
+              "location": "stepdefinitions.HomePageStepDefinition.i_validate_aetna_dental_direct_plan_is_appeared_properly()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "Aetna home page functionality test",
+    "description": "",
+    "id": "aetna-home-page-functionality-test",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/HomePage.feature",
+    "tags": []
+  }
+]

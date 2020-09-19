@@ -1,0 +1,164 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3487401000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 16538000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.HomePageStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "I am on Atnt HomePage",
+            "match": {
+              "location": "stepdefinitions.HomePageStepDefinition.i_am_on_atnt_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-17T05:24:07.991Z",
+        "line": 21,
+        "name": "HomePage TV Button Check",
+        "description": "",
+        "id": "atnt-homepage-functionality-check.;homepage-tv-button-check",
+        "after": [
+          {
+            "result": {
+              "duration": 165280000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.HomePageStepDefinition.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3467191000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 936000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.HomePageStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 22,
+            "name": "I click on TV Button",
+            "match": {
+              "location": "stepdefinitions.HomePageStepDefinition.i_click_on_tv_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1736513000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 557000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.HomePageStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 23,
+            "name": "I click on Sports Button",
+            "match": {
+              "location": "stepdefinitions.HomePageStepDefinition.i_click_on_sports_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7166928000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 578000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.HomePageStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 24,
+            "name": "I click on Shop now Button",
+            "match": {
+              "location": "stepdefinitions.HomePageStepDefinition.i_click_on_shop_now_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 77455000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 548000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.HomePageStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 25,
+            "name": "I verify Internet is appeared properly",
+            "match": {
+              "location": "stepdefinitions.HomePageStepDefinition.i_verify_internet_is_appeared_properly()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "Atnt HomePage Functionality Check.",
+    "description": "",
+    "id": "atnt-homepage-functionality-check.",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/HomePage.feature",
+    "tags": []
+  }
+]
