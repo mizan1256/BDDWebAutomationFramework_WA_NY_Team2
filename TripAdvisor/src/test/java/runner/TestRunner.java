@@ -1,13 +1,8 @@
 package runner;
 
-import common.WebAPI;
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 import org.junit.runner.RunWith;
-
-import io.cucumber.junit.Cucumber;
-        import io.cucumber.junit.CucumberOptions;
-        import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
@@ -23,9 +18,6 @@ import io.cucumber.junit.Cucumber;
         dryRun = false,
         publish = true,
         tags = "(@SmokeTest or @Regression ) and (not @pending)"
-// tags = " ( @Regression or @smokeTest ) and not @pending "
-// tags = {"@Regression or @smokeTest or "}
-// tags={"@Test1,@Test2"}
 )
 public class TestRunner{
 }
