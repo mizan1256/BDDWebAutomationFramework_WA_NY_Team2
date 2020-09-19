@@ -16,10 +16,7 @@
     And   I verify Paris hotels is appear properly
     When  I verify page title
 
-    @SmokeTest
-    Scenario: TripAdvisor searchBox Functionality check with valid data
-      And I enter "<searchItem>" in searchBox
-      Then I verify "<verifyTitle>" and "<pageTitle>"
+
 
 
 

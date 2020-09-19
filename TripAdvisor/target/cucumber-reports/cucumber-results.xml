@@ -1,19 +1,167 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="14.897">
-    <testcase classname="TripAdvisor HomePage Functionality check" name="TripAdvisor SearchBox Functionality  check with Valid Data" time="14.246">
-        <failure message="Don't Exist expected:&lt;...earch results: Dhaka[1] - Tripadvisor&gt; but was:&lt;...earch results: Dhaka[] - Tripadvisor&gt;" type="org.junit.ComparisonFailure">
-            <![CDATA[Given I am in TripAdvisor homepage..........................................passed
-And I enter "Dhaka" in searchBox............................................passed
-When I click searchButton...................................................passed
-Then I verify "\"Dhaka\"" and "Search results: Dhaka - Tripadvisor".........failed
+<testsuite errors="0" failures="2" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="9" time="185.896">
+    <testcase classname="Trip Advisor Home Page Functionality test" name="Trip Advisor Search box functionality test" time="13.096">
+        <system-out>
+            <![CDATA[Given I am in Trip Advisor home page........................................passed
+When I type Texas i search box..............................................passed
+And I click search button...................................................passed
+And I click Hotels Button...................................................passed
+Then I varify "Texas" is appeared properly..................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Trip Advisor Home Page Functionality test" name="Trip Advisor Search box functionality test 2" time="11.95">
+        <system-out>
+            <![CDATA[Given I am in Trip Advisor home page........................................passed
+When I type Texas i search box..............................................passed
+And I click search button...................................................passed
+And I click Hotels Button...................................................passed
+And I click vacation rentals tab............................................passed
+Then I varify "Texas" is appeared properly..................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Trip Advisor Home Page Functionality test" name="Trip Advisor Search box functionality test 3" time="22.207">
+        <system-out>
+            <![CDATA[Given I am in Trip Advisor home page........................................passed
+When I type Texas i search box..............................................passed
+And I click search button...................................................passed
+And I click Hotels Button...................................................passed
+And I click Restaurants tab.................................................passed
+And I click Texas Roadhouse.................................................passed
+And I navigate new windows..................................................passed
+And I click food picture....................................................passed
+And I click Gallery button..................................................passed
+Then I varify food image is appeared properly...............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Trip Advisor Home Page Functionality test" name="Trip Advisor Search box functionality test 4" time="71.532">
+        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;leftRailFilter&quot;]/div/div/div/div/div[4]&quot;}&#10;  (Session info: chrome=85.0.4183.102)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-ESGVGIM', ip: '192.168.81.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\REBAKH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62287}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 85c6bf0443da6b9430613b0fca9c976a&#10;*** Element info: {Using=xpath, value=//*[@id=&quot;leftRailFilter&quot;]/div/div/div/div/div[4]}" type="org.openqa.selenium.NoSuchElementException">
+            <![CDATA[Given I am in Trip Advisor home page........................................passed
+When I click TravelForum....................................................passed
+And I click Flights.........................................................passed
+And I enter Where from and To field.........................................passed
+And I enter departure and arrival date......................................passed
+And I enter person field and close person field.............................passed
+And I click find flight button..............................................passed
+Then I varify COVID-19 Policies is appeared properly........................failed
 
 StackTrace:
-org.junit.ComparisonFailure: Don't Exist expected:<...earch results: Dhaka[1] - Tripadvisor> but was:<...earch results: Dhaka[] - Tripadvisor>
-	at org.junit.Assert.assertEquals(Assert.java:117)
-	at tripadvisorhome.TripAdvisorHomePage.verifyPageTitle(TripAdvisorHomePage.java:65)
-	at stepdefinitions.TripAdvisorStepDefinition.i_verify_and(TripAdvisorStepDefinition.java:102)
-	at ✽.I verify "\"Dhaka\"" and "Search results: Dhaka - Tripadvisor"(file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TripAdvisor/src/test/java/features/TripAdvisorHome.feature:22)
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="leftRailFilter"]/div/div/div/div/div[4]"}
+  (Session info: chrome=85.0.4183.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-ESGVGIM', ip: '192.168.81.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\REBAKH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62287}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 85c6bf0443da6b9430613b0fca9c976a
+*** Element info: {Using=xpath, value=//*[@id="leftRailFilter"]/div/div/div/div/div[4]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy25.getText(Unknown Source)
+	at tripadvisor.TripAdvisor.validateTravelForum(TripAdvisor.java:203)
+	at stepdefinitions.TaHomeStepDefinition.i_varify_covid_policies_is_appeared_properly(TaHomeStepDefinition.java:131)
+	at ✽.I varify COVID-19 Policies is appeared properly(file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TripAdvisor/src/test/java/features/TripAdvisor.feature:41)
 ]]>
         </failure>
+    </testcase>
+    <testcase classname="Trip Advisor Home Page Functionality test" name="Trip Advisor Search box functionality test 5" time="13.318">
+        <failure message="invalid selector: The result of the xpath expression &quot;//*[@id=&quot;taplc_trip_search_home_flights_0&quot;]/div[2]/div/div[1]/ul/li[2]/div/a/text()&quot; is: [object Text]. It should be an element.&#10;  (Session info: chrome=85.0.4183.102)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-ESGVGIM', ip: '192.168.81.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\REBAKH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62365}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 2faa18028d5754cfbfc7fa27b06294dc&#10;*** Element info: {Using=xpath, value=//*[@id=&quot;taplc_trip_search_home_flights_0&quot;]/div[2]/div/div[1]/ul/li[2]/div/a/text()}" type="org.openqa.selenium.InvalidSelectorException">
+            <![CDATA[Given I am in Trip Advisor home page........................................passed
+When I click TravelForum and click Flight...................................passed
+And I click One way tab.....................................................failed
+And I enter Where from and To field.........................................skipped
+And I enter departure date..................................................skipped
+And I enter person field and close person field.............................skipped
+And I click find flight button..............................................skipped
+Then I varify COVID-19 Policies is appeared properly........................skipped
+
+StackTrace:
+org.openqa.selenium.InvalidSelectorException: invalid selector: The result of the xpath expression "//*[@id="taplc_trip_search_home_flights_0"]/div[2]/div/div[1]/ul/li[2]/div/a/text()" is: [object Text]. It should be an element.
+  (Session info: chrome=85.0.4183.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-ESGVGIM', ip: '192.168.81.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\REBAKH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62365}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 2faa18028d5754cfbfc7fa27b06294dc
+*** Element info: {Using=xpath, value=//*[@id="taplc_trip_search_home_flights_0"]/div[2]/div/div[1]/ul/li[2]/div/a/text()}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy25.click(Unknown Source)
+	at tripadvisor.TripAdvisor.oneWayTab(TripAdvisor.java:218)
+	at stepdefinitions.TaHomeStepDefinition.i_click_one_way_tab(TaHomeStepDefinition.java:142)
+	at ✽.I click One way tab(file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TripAdvisor/src/test/java/features/TripAdvisor.feature:46)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Trip Advisor Home Page Functionality test" name="Trip Advisor Search box functionality test 6" time="10.703">
+        <system-out>
+            <![CDATA[Given I am in Trip Advisor home page........................................passed
+When I click Things to Do...................................................passed
+And I type in searchBox and submit..........................................passed
+Then I varify Dhaka City is appeared properly...............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Trip Advisor Home Page Functionality test" name="Trip Advisor Search box functionality test 7" time="10.73">
+        <system-out>
+            <![CDATA[Given I am in Trip Advisor home page........................................passed
+When I click Things to Do...................................................passed
+And I type in searchBox and submit..........................................passed
+Then I varify Dhaka City is appeared properly...............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Trip Advisor Home Page Functionality test" name="Trip Advisor Search box functionality test 8" time="9.83">
+        <system-out>
+            <![CDATA[Given I am in Trip Advisor home page........................................passed
+When I click trip button....................................................passed
+And I click get start.......................................................passed
+Then I varify reCAPCHA is appeared properly.................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Trip Advisor Home Page Functionality test" name="Trip Advisor Search box functionality test 9" time="22.017">
+        <system-out>
+            <![CDATA[Given I am in Trip Advisor home page........................................passed
+When I click Post...........................................................passed
+And I click Post Photo......................................................passed
+And I click hohel radio button..............................................passed
+And I type hotel name and city name and click search button.................passed
+And select and click radio button...........................................passed
+And I click Post Photos Button and click add photo btn......................passed
+And I click select photo from your computer.................................passed
+]]>
+        </system-out>
     </testcase>
 </testsuite>
