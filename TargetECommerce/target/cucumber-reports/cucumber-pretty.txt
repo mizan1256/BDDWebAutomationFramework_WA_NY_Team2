@@ -7,3 +7,48 @@ Scenario: TargetECommerce login functionality Check # src/test/java/features/Tar
   And I enter emailAddress and password             # stepdefinitions.TargetRegistrationStepDefinition.i_enter_email_address_and_password()
   When I click keepMeSignIn                         # stepdefinitions.TargetRegistrationStepDefinition.i_click_keep_me_sign_in()
   Then I verify text sign into your target account  # stepdefinitions.TargetRegistrationStepDefinition.i_verify_text_sign_into_your_target_account()
+
+@Regression
+Scenario Outline: TargetECommerce login functionality Check # src/test/java/features/TargetECommerceRegistration.feature:34
+  Given I am on TargetECommerce homepage                    # stepdefinitions.TargetRegistrationStepDefinition.i_am_on_target_e_commerce_homepage()
+  And I click on signIn                                     # stepdefinitions.TargetRegistrationStepDefinition.i_click_on_sign_in()
+  And I click on signInOption to sign in                    # stepdefinitions.TargetRegistrationStepDefinition.i_click_on_sign_in_option_to_sign_in()
+  And I enter "mtt123@gmail.com" and "abc123"               # stepdefinitions.TargetRegistrationStepDefinition.i_enter_and(java.lang.String,java.lang.String)
+  When I click keepMeSignIn                                 # stepdefinitions.TargetRegistrationStepDefinition.i_click_keep_me_sign_in()
+  Then I verify text sign into your target account          # stepdefinitions.TargetRegistrationStepDefinition.i_verify_text_sign_into_your_target_account()
+
+@Regression
+Scenario Outline: TargetECommerce login functionality Check # src/test/java/features/TargetECommerceRegistration.feature:35
+  Given I am on TargetECommerce homepage                    # stepdefinitions.TargetRegistrationStepDefinition.i_am_on_target_e_commerce_homepage()
+  And I click on signIn                                     # stepdefinitions.TargetRegistrationStepDefinition.i_click_on_sign_in()
+  And I click on signInOption to sign in                    # stepdefinitions.TargetRegistrationStepDefinition.i_click_on_sign_in_option_to_sign_in()
+  And I enter "mtt124@gmail.com" and "abc124"               # stepdefinitions.TargetRegistrationStepDefinition.i_enter_and(java.lang.String,java.lang.String)
+  When I click keepMeSignIn                                 # stepdefinitions.TargetRegistrationStepDefinition.i_click_keep_me_sign_in()
+  Then I verify text sign into your target account          # stepdefinitions.TargetRegistrationStepDefinition.i_verify_text_sign_into_your_target_account()
+
+@Regression
+Scenario Outline: TargetECommerce login functionality Check # src/test/java/features/TargetECommerceRegistration.feature:36
+  Given I am on TargetECommerce homepage                    # stepdefinitions.TargetRegistrationStepDefinition.i_am_on_target_e_commerce_homepage()
+  And I click on signIn                                     # stepdefinitions.TargetRegistrationStepDefinition.i_click_on_sign_in()
+  And I click on signInOption to sign in                    # stepdefinitions.TargetRegistrationStepDefinition.i_click_on_sign_in_option_to_sign_in()
+  And I enter "mtt125@gmail.com" and "abc125"               # stepdefinitions.TargetRegistrationStepDefinition.i_enter_and(java.lang.String,java.lang.String)
+  When I click keepMeSignIn                                 # stepdefinitions.TargetRegistrationStepDefinition.i_click_keep_me_sign_in()
+  Then I verify text sign into your target account          # stepdefinitions.TargetRegistrationStepDefinition.i_verify_text_sign_into_your_target_account()
+
+@Regression
+Scenario Outline: TargetECommerce login functionality Check # src/test/java/features/TargetECommerceRegistration.feature:37
+  Given I am on TargetECommerce homepage                    # stepdefinitions.TargetRegistrationStepDefinition.i_am_on_target_e_commerce_homepage()
+  And I click on signIn                                     # stepdefinitions.TargetRegistrationStepDefinition.i_click_on_sign_in()
+  And I click on signInOption to sign in                    # stepdefinitions.TargetRegistrationStepDefinition.i_click_on_sign_in_option_to_sign_in()
+  And I enter "mtt126@gmail.com" and "abc127"               # stepdefinitions.TargetRegistrationStepDefinition.i_enter_and(java.lang.String,java.lang.String)
+  When I click keepMeSignIn                                 # stepdefinitions.TargetRegistrationStepDefinition.i_click_keep_me_sign_in()
+  Then I verify text sign into your target account          # stepdefinitions.TargetRegistrationStepDefinition.i_verify_text_sign_into_your_target_account()
+
+@Regression
+Scenario Outline: TargetECommerce login functionality Check # src/test/java/features/TargetECommerceRegistration.feature:38
+  Given I am on TargetECommerce homepage                    # stepdefinitions.TargetRegistrationStepDefinition.i_am_on_target_e_commerce_homepage()
+  And I click on signIn                                     # stepdefinitions.TargetRegistrationStepDefinition.i_click_on_sign_in()
+  And I click on signInOption to sign in                    # stepdefinitions.TargetRegistrationStepDefinition.i_click_on_sign_in_option_to_sign_in()
+  And I enter "mtt127@gmail.com" and "abc128"               # stepdefinitions.TargetRegistrationStepDefinition.i_enter_and(java.lang.String,java.lang.String)
+  When I click keepMeSignIn                                 # stepdefinitions.TargetRegistrationStepDefinition.i_click_keep_me_sign_in()
+  Then I verify text sign into your target account          # stepdefinitions.TargetRegistrationStepDefinition.i_verify_text_sign_into_your_target_account()

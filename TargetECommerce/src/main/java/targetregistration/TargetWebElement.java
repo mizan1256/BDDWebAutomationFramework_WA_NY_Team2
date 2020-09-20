@@ -1,11 +1,11 @@
 package targetregistration;
 
-public class TargetRegistrationWebElement {
+public class TargetWebElement {
 
     public static final String signInXPathWebElement = "//*[@id=\"account\"]/span[4]";
     public static final String clickCreateAccountXPathWebElement = "//*[@id=\"accountNav-createAccount\"]/a/div";
     public static final String EmailAddressCssSWebElement = "#username";
-    public static final String firstNameCssSWebElement = "#firstname";
+    public static final String firstNameXpathSWebElement = "//input[@class='sc-iwsKbI eAChmV sc-jbKcbu ewHpKd'][@id='firstname']";
     public static final String lastNameCssSWebElement = "#lastname";
     public static final String passwordCssSWebElement = "#password";
     public static final String createAccountCssSWebElement = "#createAccount";
@@ -27,6 +27,9 @@ public class TargetRegistrationWebElement {
     public static final String myStoreStateXpathWebElement = "//select[@id='state']";
 
 
-
+    public static final String searchBoxXPathWebElement = "//*[@id=\"search\"]";
+    public static final String searchItemValidateXPathWebElement = "//h2[@class='Heading__StyledHeading-sc-1m9kw5a-0 hdEoFP h-display-block h-margin-b-tiny']";
+    public static final String createAccountXPathWebElement = "//*[@id=\"createAccount\"]";
+    public static final String createAccountXpathSWebElement1 = "//*[@id=\"accountNav-createAccount\"]/a/div";
 
 }
