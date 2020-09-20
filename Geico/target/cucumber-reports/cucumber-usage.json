@@ -1,0 +1,92 @@
+[
+  {
+    "source": "I am on Geico homepage",
+    "steps": [
+      {
+        "name": "I am on Geico homepage",
+        "aggregatedDurations": {
+          "median": 3.936511,
+          "average": 3.936511
+        },
+        "durations": [
+          {
+            "duration": 3.936511,
+            "location": "file:///Users/mobassaratabassum/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click searchlogo",
+    "steps": [
+      {
+        "name": "I click searchlogo",
+        "aggregatedDurations": {
+          "median": 0.055767,
+          "average": 0.055767
+        },
+        "durations": [
+          {
+            "duration": 0.055767,
+            "location": "file:///Users/mobassaratabassum/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter motorcycle in searchBox",
+    "steps": [
+      {
+        "name": "I enter motorcycle in searchBox",
+        "aggregatedDurations": {
+          "median": 0.917552,
+          "average": 0.917552
+        },
+        "durations": [
+          {
+            "duration": 0.917552,
+            "location": "file:///Users/mobassaratabassum/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click searchButton",
+    "steps": [
+      {
+        "name": "I click searchButton",
+        "aggregatedDurations": {
+          "median": 1.425933,
+          "average": 1.425933
+        },
+        "durations": [
+          {
+            "duration": 1.425933,
+            "location": "file:///Users/mobassaratabassum/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify siteSearchText",
+    "steps": [
+      {
+        "name": "I verify siteSearchText",
+        "aggregatedDurations": {
+          "median": 0.021238,
+          "average": 0.021238
+        },
+        "durations": [
+          {
+            "duration": 0.021238,
+            "location": "file:///Users/mobassaratabassum/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:11"
+          }
+        ]
+      }
+    ]
+  }
+]

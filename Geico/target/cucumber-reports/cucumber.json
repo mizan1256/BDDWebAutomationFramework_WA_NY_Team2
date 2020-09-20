@@ -1,0 +1,155 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-09-12T04:15:03.475Z",
+        "line": 6,
+        "name": "Geico searchBox functionality Check",
+        "description": "",
+        "id": "geico-homepage-functionality-check;geico-searchbox-functionality-check",
+        "after": [
+          {
+            "result": {
+              "duration": 96639000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.GeicoHomePageStpDefinition.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3936511000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 23621000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.GeicoHomePageStpDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "I am on Geico homepage",
+            "match": {
+              "location": "stepdefinitions.GeicoHomePageStpDefinition.i_am_on_geico_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 55767000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 456000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.GeicoHomePageStpDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 8,
+            "name": "I click searchlogo",
+            "match": {
+              "location": "stepdefinitions.GeicoHomePageStpDefinition.i_click_searchlogo()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 917552000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 413000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.GeicoHomePageStpDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 9,
+            "name": "I enter motorcycle in searchBox",
+            "match": {
+              "location": "stepdefinitions.GeicoHomePageStpDefinition.i_enter_motorcycle_in_search_box()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1425933000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 800000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.GeicoHomePageStpDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 10,
+            "name": "I click searchButton",
+            "match": {
+              "location": "stepdefinitions.GeicoHomePageStpDefinition.i_click_search_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 21238000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 389000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.GeicoHomePageStpDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 11,
+            "name": "I verify siteSearchText",
+            "match": {
+              "location": "stepdefinitions.GeicoHomePageStpDefinition.i_verify_site_search_text()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "Geico homePage functionality check",
+    "description": "",
+    "id": "geico-homepage-functionality-check",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/GeicoHome.feature",
+    "tags": []
+  }
+]

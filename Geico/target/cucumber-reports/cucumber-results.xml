@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="6.75">
+    <testcase classname="Geico homePage functionality check" name="Geico searchBox functionality Check" time="6.563">
+        <system-out>
+            <![CDATA[Given I am on Geico homepage................................................passed
+And I click searchlogo......................................................passed
+And I enter motorcycle in searchBox.........................................passed
+When I click searchButton...................................................passed
+Then I verify siteSearchText................................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

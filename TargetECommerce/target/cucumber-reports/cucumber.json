@@ -1,0 +1,178 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-09-16T05:18:06.308Z",
+        "line": 4,
+        "name": "TargetECommerce login functionality Check",
+        "description": "",
+        "id": "targetecommerce-homepage-functionality-check;targetecommerce-login-functionality-check",
+        "after": [
+          {
+            "result": {
+              "duration": 96968000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.TargetRegistrationStepDefinition.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2832500000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 35717000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.TargetRegistrationStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "I am on TargetECommerce homepage",
+            "match": {
+              "location": "stepdefinitions.TargetRegistrationStepDefinition.i_am_on_target_e_commerce_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 569498000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 916000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.TargetRegistrationStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "I click on signIn",
+            "match": {
+              "location": "stepdefinitions.TargetRegistrationStepDefinition.i_click_on_sign_in()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1636027000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 888000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.TargetRegistrationStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "I click on signInOption to sign in",
+            "match": {
+              "location": "stepdefinitions.TargetRegistrationStepDefinition.i_click_on_sign_in_option_to_sign_in()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 224843000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 795000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.TargetRegistrationStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 8,
+            "name": "I enter emailAddress and password",
+            "match": {
+              "location": "stepdefinitions.TargetRegistrationStepDefinition.i_enter_email_address_and_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 48823000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 748000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.TargetRegistrationStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 9,
+            "name": "I click keepMeSignIn",
+            "match": {
+              "location": "stepdefinitions.TargetRegistrationStepDefinition.i_click_keep_me_sign_in()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 56671000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1163000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.TargetRegistrationStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 10,
+            "name": "I verify text sign into your target account",
+            "match": {
+              "location": "stepdefinitions.TargetRegistrationStepDefinition.i_verify_text_sign_into_your_target_account()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "TargetECommerce homePage functionality check",
+    "description": "",
+    "id": "targetecommerce-homepage-functionality-check",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/TargetECommerceRegistration.feature",
+    "tags": []
+  }
+]

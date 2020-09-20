@@ -1,0 +1,128 @@
+[
+  {
+    "source": "I am on atnt homepage",
+    "steps": [
+      {
+        "name": "I am on atnt homepage",
+        "aggregatedDurations": {
+          "median": 3.765946,
+          "average": 3.765946
+        },
+        "durations": [
+          {
+            "duration": 3.765946,
+            "location": "file:///Users/mobassaratabassum/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/Login.feature:4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on account button",
+    "steps": [
+      {
+        "name": "I click on account button",
+        "aggregatedDurations": {
+          "median": 0.120822,
+          "average": 0.120822
+        },
+        "durations": [
+          {
+            "duration": 0.120822,
+            "location": "file:///Users/mobassaratabassum/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/Login.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Sign in option",
+    "steps": [
+      {
+        "name": "I click on Sign in option",
+        "aggregatedDurations": {
+          "median": 3.113464,
+          "average": 3.113464
+        },
+        "durations": [
+          {
+            "duration": 3.113464,
+            "location": "file:///Users/mobassaratabassum/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/Login.feature:9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "i enter user ID",
+    "steps": [
+      {
+        "name": "i enter user ID",
+        "aggregatedDurations": {
+          "median": 0.187584,
+          "average": 0.187584
+        },
+        "durations": [
+          {
+            "duration": 0.187584,
+            "location": "file:///Users/mobassaratabassum/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/Login.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter password",
+    "steps": [
+      {
+        "name": "I enter password",
+        "aggregatedDurations": {
+          "median": 0.111881,
+          "average": 0.111881
+        },
+        "durations": [
+          {
+            "duration": 0.111881,
+            "location": "file:///Users/mobassaratabassum/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/Login.feature:11"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click signIn button",
+    "steps": [
+      {
+        "name": "I click signIn button",
+        "aggregatedDurations": {
+          "median": 1.192393,
+          "average": 1.192393
+        },
+        "durations": [
+          {
+            "duration": 1.192393,
+            "location": "file:///Users/mobassaratabassum/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/Login.feature:12"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify the popup Error text",
+    "steps": [
+      {
+        "name": "I verify the popup Error text",
+        "aggregatedDurations": {
+          "median": 5.054517,
+          "average": 5.054517
+        },
+        "durations": [
+          {
+            "duration": 5.054517,
+            "location": "file:///Users/mobassaratabassum/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/Login.feature:13"
+          }
+        ]
+      }
+    ]
+  }
+]

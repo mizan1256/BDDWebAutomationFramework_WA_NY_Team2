@@ -1,0 +1,10 @@
+
+@Regression
+Scenario: Atnt login functionality Check # src/test/java/features/Login.feature:7
+  Given I am on atnt homepage            # stepdefinitions.HomePageStepDefinition.i_am_on_atnt_homepage()
+  And I click on account button          # stepdefinitions.LoginStepDefinitions.i_click_on_account_button()
+  And I click on Sign in option          # stepdefinitions.LoginStepDefinitions.i_click_on_sign_in_option()
+  And i enter user ID                    # stepdefinitions.LoginStepDefinitions.i_enter_user_id()
+  And I enter password                   # stepdefinitions.LoginStepDefinitions.i_enter_password()
+  When I click signIn button             # stepdefinitions.LoginStepDefinitions.i_click_sign_in_button()
+  Then I verify the popup Error text     # stepdefinitions.LoginStepDefinitions.i_verify_the_popup_error_text()

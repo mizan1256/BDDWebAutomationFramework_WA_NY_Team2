@@ -1,0 +1,110 @@
+[
+  {
+    "source": "I am on TargetECommerce homepage",
+    "steps": [
+      {
+        "name": "I am on TargetECommerce homepage",
+        "aggregatedDurations": {
+          "median": 2.8325,
+          "average": 2.8325
+        },
+        "durations": [
+          {
+            "duration": 2.8325,
+            "location": "file:///Users/mobassaratabassum/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetECommerce/src/test/java/features/TargetECommerceRegistration.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on signIn",
+    "steps": [
+      {
+        "name": "I click on signIn",
+        "aggregatedDurations": {
+          "median": 0.569498,
+          "average": 0.569498
+        },
+        "durations": [
+          {
+            "duration": 0.569498,
+            "location": "file:///Users/mobassaratabassum/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetECommerce/src/test/java/features/TargetECommerceRegistration.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on signInOption to sign in",
+    "steps": [
+      {
+        "name": "I click on signInOption to sign in",
+        "aggregatedDurations": {
+          "median": 1.636027,
+          "average": 1.636027
+        },
+        "durations": [
+          {
+            "duration": 1.636027,
+            "location": "file:///Users/mobassaratabassum/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetECommerce/src/test/java/features/TargetECommerceRegistration.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter emailAddress and password",
+    "steps": [
+      {
+        "name": "I enter emailAddress and password",
+        "aggregatedDurations": {
+          "median": 0.224843,
+          "average": 0.224843
+        },
+        "durations": [
+          {
+            "duration": 0.224843,
+            "location": "file:///Users/mobassaratabassum/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetECommerce/src/test/java/features/TargetECommerceRegistration.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click keepMeSignIn",
+    "steps": [
+      {
+        "name": "I click keepMeSignIn",
+        "aggregatedDurations": {
+          "median": 0.048823,
+          "average": 0.048823
+        },
+        "durations": [
+          {
+            "duration": 0.048823,
+            "location": "file:///Users/mobassaratabassum/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetECommerce/src/test/java/features/TargetECommerceRegistration.feature:9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify text sign into your target account",
+    "steps": [
+      {
+        "name": "I verify text sign into your target account",
+        "aggregatedDurations": {
+          "median": 0.056671,
+          "average": 0.056671
+        },
+        "durations": [
+          {
+            "duration": 0.056671,
+            "location": "file:///Users/mobassaratabassum/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetECommerce/src/test/java/features/TargetECommerceRegistration.feature:10"
+          }
+        ]
+      }
+    ]
+  }
+]

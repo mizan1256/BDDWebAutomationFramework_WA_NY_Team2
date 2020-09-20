@@ -127,9 +127,15 @@ public class WebAPI {
     public String saucelabs_username = "";
     public String saucelabs_accesskey = "";
 
-    public void openBrowser() throws IOException {
-        setUp(false,"browserstack","OS X","catalina","chrome","85","https://www.amazon.com");
+    public void openBrowser(String url) throws IOException {
+//        setUp(false,"browserstack","OS X","catalina","chrome","85","https://www.att.com");
+//        setUp(false,"browserstack","OS X","catalina","chrome","85","https://www.aetna.com/");
+//        setUp(false,"browserstack","OS X","catalina","chrome","85","https://www.geico.com/");
+        setUp(false,"browserstack","OS X","catalina","chrome","85",url);
     }
+//    public void openBrowser1(String url) throws IOException {
+//        setUp(false,"browserstack","OS X","catalina","chrome","85",url);
+//    }
 
     @Parameters({"useCloudEnv", "cloudEnvName", "os", "os_version", "browserName", "browserVersion", "url"})
     @BeforeMethod
@@ -275,7 +281,7 @@ public class WebAPI {
     }
 
     public void clearField(String locator) {
-        driver.findElement(By.id(locator)).clear();
+        driver.findElement(By.xpath(locator)).clear();
     }
 
     public void navigateBack() {

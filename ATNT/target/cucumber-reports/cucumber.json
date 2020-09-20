@@ -1,0 +1,282 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3765946000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 27705000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.LoginStepDefinitions.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1257000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.HomePageStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "I am on atnt homepage",
+            "match": {
+              "location": "stepdefinitions.HomePageStepDefinition.i_am_on_atnt_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-10T05:41:30.794Z",
+        "line": 7,
+        "name": "Atnt login functionality Check",
+        "description": "",
+        "id": "atnt-homepage-functionality-check;atnt-login-functionality-check",
+        "after": [
+          {
+            "result": {
+              "duration": 108259000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.HomePageStepDefinition.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 174000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.LoginStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 120822000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 726000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.LoginStepDefinitions.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 539000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.HomePageStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 8,
+            "name": "I click on account button",
+            "match": {
+              "location": "stepdefinitions.LoginStepDefinitions.i_click_on_account_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3113464000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 391000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.LoginStepDefinitions.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 581000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.HomePageStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 9,
+            "name": "I click on Sign in option",
+            "match": {
+              "location": "stepdefinitions.LoginStepDefinitions.i_click_on_sign_in_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 187584000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 385000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.LoginStepDefinitions.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 223000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.HomePageStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 10,
+            "name": "i enter user ID",
+            "match": {
+              "location": "stepdefinitions.LoginStepDefinitions.i_enter_user_id()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 111881000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 354000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.LoginStepDefinitions.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 194000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.HomePageStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 11,
+            "name": "I enter password",
+            "match": {
+              "location": "stepdefinitions.LoginStepDefinitions.i_enter_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1192393000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 432000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.LoginStepDefinitions.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 215000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.HomePageStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 12,
+            "name": "I click signIn button",
+            "match": {
+              "location": "stepdefinitions.LoginStepDefinitions.i_click_sign_in_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5054517000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 376000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.LoginStepDefinitions.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 233000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.HomePageStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 13,
+            "name": "I verify the popup Error text",
+            "match": {
+              "location": "stepdefinitions.LoginStepDefinitions.i_verify_the_popup_error_text()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "ATnt homePage functionality check",
+    "description": "",
+    "id": "atnt-homepage-functionality-check",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/Login.feature",
+    "tags": []
+  }
+]

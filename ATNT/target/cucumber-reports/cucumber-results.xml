@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="13.977">
+    <testcase classname="ATnt homePage functionality check" name="Atnt login functionality Check" time="13.771">
+        <system-out>
+            <![CDATA[Given I am on atnt homepage.................................................passed
+And I click on account button...............................................passed
+And I click on Sign in option...............................................passed
+And i enter user ID.........................................................passed
+And I enter password........................................................passed
+When I click signIn button..................................................passed
+Then I verify the popup Error text..........................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

@@ -1,0 +1,8 @@
+
+@Regression
+Scenario: Geico searchBox functionality Check # src/test/java/features/GeicoHome.feature:6
+  Given I am on Geico homepage                # stepdefinitions.GeicoHomePageStpDefinition.i_am_on_geico_homepage()
+  And I click searchlogo                      # stepdefinitions.GeicoHomePageStpDefinition.i_click_searchlogo()
+  And I enter motorcycle in searchBox         # stepdefinitions.GeicoHomePageStpDefinition.i_enter_motorcycle_in_search_box()
+  When I click searchButton                   # stepdefinitions.GeicoHomePageStpDefinition.i_click_search_button()
+  Then I verify siteSearchText                # stepdefinitions.GeicoHomePageStpDefinition.i_verify_site_search_text()

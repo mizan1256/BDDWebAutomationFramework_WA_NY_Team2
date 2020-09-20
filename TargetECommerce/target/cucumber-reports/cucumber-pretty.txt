@@ -1,0 +1,9 @@
+
+@Regression
+Scenario: TargetECommerce login functionality Check # src/test/java/features/TargetECommerceRegistration.feature:4
+  Given I am on TargetECommerce homepage            # stepdefinitions.TargetRegistrationStepDefinition.i_am_on_target_e_commerce_homepage()
+  And I click on signIn                             # stepdefinitions.TargetRegistrationStepDefinition.i_click_on_sign_in()
+  And I click on signInOption to sign in            # stepdefinitions.TargetRegistrationStepDefinition.i_click_on_sign_in_option_to_sign_in()
+  And I enter emailAddress and password             # stepdefinitions.TargetRegistrationStepDefinition.i_enter_email_address_and_password()
+  When I click keepMeSignIn                         # stepdefinitions.TargetRegistrationStepDefinition.i_click_keep_me_sign_in()
+  Then I verify text sign into your target account  # stepdefinitions.TargetRegistrationStepDefinition.i_verify_text_sign_into_your_target_account()

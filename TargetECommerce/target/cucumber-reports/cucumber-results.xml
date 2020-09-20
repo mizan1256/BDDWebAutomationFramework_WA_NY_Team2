@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="5.837">
+    <testcase classname="TargetECommerce homePage functionality check" name="TargetECommerce login functionality Check" time="5.638">
+        <system-out>
+            <![CDATA[Given I am on TargetECommerce homepage......................................passed
+And I click on signIn.......................................................passed
+And I click on signInOption to sign in......................................passed
+And I enter emailAddress and password.......................................passed
+When I click keepMeSignIn...................................................passed
+Then I verify text sign into your target account............................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
