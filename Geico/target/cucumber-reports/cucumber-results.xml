@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="6" time="66.637">
+    <testcase classname="Geico homePage functionality check" name="Geico login create account check with multiple variable" time="11.947">
+        <system-out>
+            <![CDATA[Given I am on Geico homepage................................................passed
+And I click on startHere....................................................passed
+And I enter "15170", "02141004" and "10045".................................passed
+When I click continue.......................................................passed
+Then I verify policyNumber on screen........................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Geico homePage functionality check" name="Geico login create account check with multiple variable 2" time="12.866">
+        <system-out>
+            <![CDATA[Given I am on Geico homepage................................................passed
+And I click on startHere....................................................passed
+And I enter "12434", "0319919" and "10322"..................................passed
+When I click continue.......................................................passed
+Then I verify policyNumber on screen........................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Geico homePage functionality check" name="Geico login create account check with multiple variable 3" time="10.291">
+        <system-out>
+            <![CDATA[Given I am on Geico homepage................................................passed
+And I click on startHere....................................................passed
+And I enter "12314", "03191996" and "10326".................................passed
+When I click continue.......................................................passed
+Then I verify policyNumber on screen........................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Geico homePage functionality check" name="Geico login create account check with multiple variable 4" time="10.508">
+        <system-out>
+            <![CDATA[Given I am on Geico homepage................................................passed
+And I click on startHere....................................................passed
+And I enter "12315", "03191296" and "10329".................................passed
+When I click continue.......................................................passed
+Then I verify policyNumber on screen........................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Geico homePage functionality check" name="Geico login create account check with multiple variable 5" time="10.216">
+        <system-out>
+            <![CDATA[Given I am on Geico homepage................................................passed
+And I click on startHere....................................................passed
+And I enter "12316", "01191996" and "10328".................................passed
+When I click continue.......................................................passed
+Then I verify policyNumber on screen........................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Geico homePage functionality check" name="Geico login create account check with multiple variable 6" time="10.277">
+        <system-out>
+            <![CDATA[Given I am on Geico homepage................................................passed
+And I click on startHere....................................................passed
+And I enter "12317", "05191996" and "10327".................................passed
+When I click continue.......................................................passed
+Then I verify policyNumber on screen........................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

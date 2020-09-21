@@ -1,6 +1,76 @@
 
 @SmokeTest
-Scenario: TD Bank Online Banking Functionality check # src/test/java/features/TDBankHomePage.feature:4
-  Given I am In TD Bank HomePage                     # stepdefinitions.TDStepDefinition.i_am_in_td_bank_home_page()
-  When I mouseHover on logIn Icon                    # stepdefinitions.TDStepDefinition.i_mouse_hover_on_log_in_icon()
-  And I Click Online Banking Button                  # stepdefinitions.TDStepDefinition.i_click_online_banking_button()
+Scenario: TD bank Credit Card home page display check # src/test/java/features/CreditCard.feature:10
+  Given I am on TD Bank home page                     # stepdefinitions.TDStepDefinition.i_am_on_td_bank_home_page()
+  And I click on CreditCard icon                      # stepdefinitions.CreditCardStepDefinition.i_click_on_credit_card_icon()
+  Then I validate Credit Card Home page Title         # stepdefinitions.CreditCardStepDefinition.i_validate_credit_card_home_page_title()
+
+@SmokeTest
+Scenario: Td Cash Credit Card home page check    # src/test/java/features/CreditCard.feature:14
+  Given I am on TD Bank home page                # stepdefinitions.TDStepDefinition.i_am_on_td_bank_home_page()
+  And I click on CreditCard icon                 # stepdefinitions.CreditCardStepDefinition.i_click_on_credit_card_icon()
+  And I click on Td Cash Credit Card             # stepdefinitions.CreditCardStepDefinition.i_click_on_td_cash_credit_card()
+  Then I validate Td Cash Credit Card is display # stepdefinitions.CreditCardStepDefinition.i_validate_td_cash_credit_card_is_display()
+  And I validate Td Cash Credit Card page Title  # stepdefinitions.CreditCardStepDefinition.i_validate_td_cash_credit_card_page_title()
+
+@SmokeTest
+Scenario: TD First Class Credit Card page check               # src/test/java/features/CreditCard.feature:20
+  Given I am on TD Bank home page                             # stepdefinitions.TDStepDefinition.i_am_on_td_bank_home_page()
+  And I click on CreditCard icon                              # stepdefinitions.CreditCardStepDefinition.i_click_on_credit_card_icon()
+  And I click on TD First Class Credit Card Button            # stepdefinitions.CreditCardStepDefinition.i_click_on_td_first_class_credit_card_button()
+  Then I validate TD First Class Credit Card Image is display # stepdefinitions.CreditCardStepDefinition.i_validate_td_first_class_credit_card_image_is_display()
+  And I validate TD First Class Credit Card page Title        # stepdefinitions.CreditCardStepDefinition.i_validate_td_first_class_credit_card_page_title()
+
+@SmokeTest
+Scenario: Help me choose button check   # src/test/java/features/CreditCard.feature:27
+  Given I am on TD Bank home page       # stepdefinitions.TDStepDefinition.i_am_on_td_bank_home_page()
+  And I click on CreditCard icon        # stepdefinitions.CreditCardStepDefinition.i_click_on_credit_card_icon()
+  When I click on Help me Choose Button # stepdefinitions.CreditCardStepDefinition.i_click_on_help_me_choose_button()
+  And I click on Cash and Next button   # stepdefinitions.CreditCardStepDefinition.i_click_on_cash_and_next_button()
+  Then I validate welcome message       # stepdefinitions.CreditCardStepDefinition.i_validate_welcome_message()
+
+@SmokeTest
+Scenario: TD Bank Online Banking check     # src/test/java/features/TDBankHomePage.feature:6
+  Given I am on TD Bank home page          # stepdefinitions.TDStepDefinition.i_am_on_td_bank_home_page()
+  When I mouseHover on logIn Icon          # stepdefinitions.TDStepDefinition.i_mouse_hover_on_log_in_icon()
+  And I Click Online Banking Button        # stepdefinitions.TDStepDefinition.i_click_online_banking_button()
+  Then I validated logIn Page is Displayed # stepdefinitions.TDStepDefinition.i_validated_log_in_page_is_displayed()
+
+@SmokeTest
+Scenario: TD Bank signUp                             # src/test/java/features/TDBankHomePage.feature:12
+  Given I am on TD Bank home page                    # stepdefinitions.TDStepDefinition.i_am_on_td_bank_home_page()
+  When I click on signUp button                      # stepdefinitions.TDStepDefinition.i_click_on_sign_up_button()
+  And I do necessary steps to land on User info page # stepdefinitions.TDStepDefinition.i_do_necessary_steps_to_land_on_user_info_page()
+  And I select account type                          # stepdefinitions.TDStepDefinition.i_select_account_type()
+  And I enter user information                       # stepdefinitions.TDStepDefinition.i_enter_user_information(io.cucumber.datatable.DataTable)
+  And I click on Continue Button                     # stepdefinitions.TDStepDefinition.i_click_on_continue_button()
+  Then I validate signUp message                     # stepdefinitions.TDStepDefinition.i_validate_sign_up_message()
+
+@SmokeTest
+Scenario Outline: TD Bank login functionality check with invalid credentials # src/test/java/features/TDBankHomePage.feature:30
+  Given I am on TD Bank home page                                            # stepdefinitions.TDStepDefinition.i_am_on_td_bank_home_page()
+  When I click on logIn button in homePage                                   # stepdefinitions.TDStepDefinition.i_click_on_log_in_button_in_home_page()
+  And I enter "shuvo242" and "Srt@012542"                                    # stepdefinitions.TDStepDefinition.i_enter_and(java.lang.String,java.lang.String)
+  And I click on login                                                       # stepdefinitions.TDStepDefinition.i_click_on_login()
+  Then I validate the error message                                          # stepdefinitions.TDStepDefinition.i_validate_the_error_message()
+
+@SmokeTest
+Scenario: TD Bank product dropDown list check # src/test/java/features/TDBankHomePage.feature:34
+  Given I am on TD Bank home page             # stepdefinitions.TDStepDefinition.i_am_on_td_bank_home_page()
+  When I click on product                     # stepdefinitions.TDStepDefinition.i_click_on_product()
+  And I click on checking                     # stepdefinitions.TDStepDefinition.i_click_on_checking()
+  Then I validate checking account page       # stepdefinitions.TDStepDefinition.i_validate_checking_account_page()
+
+@SmokeTest
+Scenario: TD Bank Find us Box functionality check # src/test/java/features/TDBankHomePage.feature:41
+  Given I am on TD Bank home page                 # stepdefinitions.TDStepDefinition.i_am_on_td_bank_home_page()
+  When I click FindUs Icon                        # stepdefinitions.TDStepDefinition.i_click_find_us_icon()
+  And I enter "11432" and click on searchIcon     # stepdefinitions.TDStepDefinition.i_enter_and_click_on_search_icon(java.lang.String)
+  Then I validate TD bank locations appeared      # stepdefinitions.TDStepDefinition.i_validate_td_bank_locations_appeared()
+
+@SmokeTest
+Scenario: Get Direction Button check                       # src/test/java/features/TDBankHomePage.feature:47
+  Given I am on TD Bank home page                          # stepdefinitions.TDStepDefinition.i_am_on_td_bank_home_page()
+  When I take necessary steps and landed on locations page # stepdefinitions.TDStepDefinition.i_take_necessary_steps_and_landed_on_locations_page()
+  And I click on Get Direction Button                      # stepdefinitions.TDStepDefinition.i_click_on_get_direction_button()
+  Then I validate google map page Title                    # stepdefinitions.TDStepDefinition.i_validate_google_map_page_title()

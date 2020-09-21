@@ -3,34 +3,62 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-09-11T06:34:59.840Z",
-        "line": 4,
-        "name": "TD Bank Online Banking Functionality check",
+        "line": 3,
+        "name": "",
         "description": "",
-        "id": "td-bank-homepage-functionality-test;td-bank-online-banking-functionality-check",
-        "after": [
-          {
-            "result": {
-              "duration": 1108061400,
-              "status": "passed"
-            },
-            "match": {
-              "location": "stepdefinitions.TDStepDefinition.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
+        "type": "background",
+        "keyword": "Background",
         "steps": [
           {
             "result": {
-              "duration": 7198049200,
+              "duration": 6972453500,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 35903300,
+                  "duration": 22939000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.CreditCardStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 5984300,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.TDStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "I am on TD Bank home page",
+            "match": {
+              "location": "stepdefinitions.TDStepDefinition.i_am_on_td_bank_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4148436400,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1937600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.CreditCardStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1996200,
                   "status": "passed"
                 },
                 "match": {
@@ -39,15 +67,1432 @@
               }
             ],
             "line": 5,
-            "name": "I am In TD Bank HomePage",
+            "name": "I click on CreditCard icon",
             "match": {
-              "location": "stepdefinitions.TDStepDefinition.i_am_in_td_bank_home_page()"
+              "location": "stepdefinitions.CreditCardStepDefinition.i_click_on_credit_card_icon()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-21T01:30:32.613Z",
+        "line": 10,
+        "name": "TD bank Credit Card home page display check",
+        "description": "",
+        "id": "td-bank-credit-card-home-page-feature-check;td-bank-credit-card-home-page-display-check",
+        "after": [
+          {
+            "result": {
+              "duration": 708841700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.TDStepDefinition.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.CreditCardStepDefinition.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 21906200,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.CreditCardStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 2984400,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.TDStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 11,
+            "name": "I validate Credit Card Home page Title",
+            "match": {
+              "location": "stepdefinitions.CreditCardStepDefinition.i_validate_credit_card_home_page_title()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6768954800,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.CreditCardStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 996400,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.TDStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "I am on TD Bank home page",
+            "match": {
+              "location": "stepdefinitions.TDStepDefinition.i_am_on_td_bank_home_page()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 216280400,
+              "duration": 3865708300,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 999000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.CreditCardStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1992700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.TDStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "I click on CreditCard icon",
+            "match": {
+              "location": "stepdefinitions.CreditCardStepDefinition.i_click_on_credit_card_icon()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-21T01:30:44.624Z",
+        "line": 14,
+        "name": "Td Cash Credit Card home page check",
+        "description": "",
+        "id": "td-bank-credit-card-home-page-feature-check;td-cash-credit-card-home-page-check",
+        "after": [
+          {
+            "result": {
+              "duration": 711883800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.TDStepDefinition.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 652900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.CreditCardStepDefinition.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 913703900,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 955100,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.CreditCardStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 2021600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.TDStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 15,
+            "name": "I click on Td Cash Credit Card",
+            "match": {
+              "location": "stepdefinitions.CreditCardStepDefinition.i_click_on_td_cash_credit_card()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 286235000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 996900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.CreditCardStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1993800,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.TDStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 16,
+            "name": "I validate Td Cash Credit Card is display",
+            "match": {
+              "location": "stepdefinitions.CreditCardStepDefinition.i_validate_td_cash_credit_card_is_display()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6978800,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 996800,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.CreditCardStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 998200,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.TDStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 17,
+            "name": "I validate Td Cash Credit Card page Title",
+            "match": {
+              "location": "stepdefinitions.CreditCardStepDefinition.i_validate_td_cash_credit_card_page_title()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6486555000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.CreditCardStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 997400,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.TDStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "I am on TD Bank home page",
+            "match": {
+              "location": "stepdefinitions.TDStepDefinition.i_am_on_td_bank_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4071245100,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1047700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.CreditCardStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 946000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.TDStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "I click on CreditCard icon",
+            "match": {
+              "location": "stepdefinitions.CreditCardStepDefinition.i_click_on_credit_card_icon()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-21T01:30:57.211Z",
+        "line": 20,
+        "name": "TD First Class Credit Card page check",
+        "description": "",
+        "id": "td-bank-credit-card-home-page-feature-check;td-first-class-credit-card-page-check",
+        "after": [
+          {
+            "result": {
+              "duration": 706909800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.TDStepDefinition.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.CreditCardStepDefinition.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1002569900,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.CreditCardStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.TDStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 21,
+            "name": "I click on TD First Class Credit Card Button",
+            "match": {
+              "location": "stepdefinitions.CreditCardStepDefinition.i_click_on_td_first_class_credit_card_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 57887300,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 997600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.CreditCardStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 996300,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.TDStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 22,
+            "name": "I validate TD First Class Credit Card Image is display",
+            "match": {
+              "location": "stepdefinitions.CreditCardStepDefinition.i_validate_td_first_class_credit_card_image_is_display()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 12966100,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 997700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.CreditCardStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1000200,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.TDStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 23,
+            "name": "I validate TD First Class Credit Card page Title",
+            "match": {
+              "location": "stepdefinitions.CreditCardStepDefinition.i_validate_td_first_class_credit_card_page_title()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6602984600,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.CreditCardStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 997000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.TDStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "I am on TD Bank home page",
+            "match": {
+              "location": "stepdefinitions.TDStepDefinition.i_am_on_td_bank_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4038606500,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.CreditCardStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.TDStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "I click on CreditCard icon",
+            "match": {
+              "location": "stepdefinitions.CreditCardStepDefinition.i_click_on_credit_card_icon()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-21T01:31:09.573Z",
+        "line": 27,
+        "name": "Help me choose button check",
+        "description": "",
+        "id": "td-bank-credit-card-home-page-feature-check;help-me-choose-button-check",
+        "after": [
+          {
+            "result": {
+              "duration": 690747300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.TDStepDefinition.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 637500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.CreditCardStepDefinition.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1301051200,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1700200,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.CreditCardStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.TDStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 28,
+            "name": "I click on Help me Choose Button",
+            "match": {
+              "location": "stepdefinitions.CreditCardStepDefinition.i_click_on_help_me_choose_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 693539200,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.CreditCardStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1000600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.TDStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 29,
+            "name": "I click on Cash and Next button",
+            "match": {
+              "location": "stepdefinitions.CreditCardStepDefinition.i_click_on_cash_and_next_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 118935400,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.CreditCardStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 995100,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.TDStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 30,
+            "name": "I validate welcome message",
+            "match": {
+              "location": "stepdefinitions.CreditCardStepDefinition.i_validate_welcome_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "TD Bank Credit Card Home Page feature check",
+    "description": "",
+    "id": "td-bank-credit-card-home-page-feature-check",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/CreditCard.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6459467500,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.CreditCardStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.TDStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 3,
+            "name": "I am on TD Bank home page",
+            "match": {
+              "location": "stepdefinitions.TDStepDefinition.i_am_on_td_bank_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-21T01:31:23.041Z",
+        "line": 6,
+        "name": "TD Bank Online Banking check",
+        "description": "",
+        "id": "td-bank-homepage-functionality-test;td-bank-online-banking-check",
+        "after": [
+          {
+            "result": {
+              "duration": 694899300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.TDStepDefinition.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.CreditCardStepDefinition.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 185488400,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.CreditCardStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1980800,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.TDStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "I mouseHover on logIn Icon",
+            "match": {
+              "location": "stepdefinitions.TDStepDefinition.i_mouse_hover_on_log_in_icon()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 12531031600,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 997400,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.CreditCardStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1994900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.TDStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 8,
+            "name": "I Click Online Banking Button",
+            "match": {
+              "location": "stepdefinitions.TDStepDefinition.i_click_online_banking_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3093663200,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 979900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.CreditCardStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.TDStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 9,
+            "name": "I validated logIn Page is Displayed",
+            "match": {
+              "location": "stepdefinitions.TDStepDefinition.i_validated_log_in_page_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6568713900,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.CreditCardStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 998200,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.TDStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 3,
+            "name": "I am on TD Bank home page",
+            "match": {
+              "location": "stepdefinitions.TDStepDefinition.i_am_on_td_bank_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-21T01:31:46.047Z",
+        "line": 12,
+        "name": "TD Bank signUp",
+        "description": "",
+        "id": "td-bank-homepage-functionality-test;td-bank-signup",
+        "after": [
+          {
+            "result": {
+              "duration": 753720400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.TDStepDefinition.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 739300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.CreditCardStepDefinition.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5125970100,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.CreditCardStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 998000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.TDStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 13,
+            "name": "I click on signUp button",
+            "match": {
+              "location": "stepdefinitions.TDStepDefinition.i_click_on_sign_up_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7143018400,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.CreditCardStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 996600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.TDStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 14,
+            "name": "I do necessary steps to land on User info page",
+            "match": {
+              "location": "stepdefinitions.TDStepDefinition.i_do_necessary_steps_to_land_on_user_info_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 466306300,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.CreditCardStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.TDStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 15,
+            "name": "I select account type",
+            "match": {
+              "location": "stepdefinitions.TDStepDefinition.i_select_account_type()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3706688800,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1009900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.CreditCardStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.TDStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 16,
+            "name": "I enter user information",
+            "match": {
+              "location": "stepdefinitions.TDStepDefinition.i_enter_user_information(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "firstName",
+                  "lastName",
+                  "email",
+                  "atmNumber",
+                  "SSN",
+                  "accountNumber",
+                  "userName",
+                  "reEnterUserName",
+                  "password",
+                  "reEnterPassword"
+                ]
+              },
+              {
+                "cells": [
+                  "Md",
+                  "Shuvo",
+                  "pnt30242@gmail.com",
+                  "144455667703217",
+                  "44455778903",
+                  "34526273848",
+                  "shuvo242",
+                  "shuvo242",
+                  "Srt@012542",
+                  "Srt@012542"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 214601300,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.CreditCardStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.TDStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 19,
+            "name": "I click on Continue Button",
+            "match": {
+              "location": "stepdefinitions.TDStepDefinition.i_click_on_continue_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 37891000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1013600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.CreditCardStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1997100,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.TDStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 20,
+            "name": "I validate signUp message",
+            "match": {
+              "location": "stepdefinitions.TDStepDefinition.i_validate_sign_up_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6890368000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.CreditCardStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 957900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.TDStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 3,
+            "name": "I am on TD Bank home page",
+            "match": {
+              "location": "stepdefinitions.TDStepDefinition.i_am_on_td_bank_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-21T01:32:10.101Z",
+        "line": 30,
+        "name": "TD Bank login functionality check with invalid credentials",
+        "description": "",
+        "id": "td-bank-homepage-functionality-test;td-bank-login-functionality-check-with-invalid-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 755086600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.TDStepDefinition.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.CreditCardStepDefinition.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4824695400,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.CreditCardStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.TDStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 24,
+            "name": "I click on logIn button in homePage",
+            "match": {
+              "location": "stepdefinitions.TDStepDefinition.i_click_on_log_in_button_in_home_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2447698800,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1996000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.CreditCardStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 983800,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.TDStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 25,
+            "name": "I enter \"shuvo242\" and \"Srt@012542\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"shuvo242\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"Srt@012542\"",
+                  "offset": 23
+                }
+              ],
+              "location": "stepdefinitions.TDStepDefinition.i_enter_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 724070600,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.CreditCardStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.TDStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 26,
+            "name": "I click on login",
+            "match": {
+              "location": "stepdefinitions.TDStepDefinition.i_click_on_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3058200800,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.CreditCardStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.TDStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 27,
+            "name": "I validate the error message",
+            "match": {
+              "location": "stepdefinitions.TDStepDefinition.i_validate_the_error_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7486268800,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.CreditCardStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 996200,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.TDStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 3,
+            "name": "I am on TD Bank home page",
+            "match": {
+              "location": "stepdefinitions.TDStepDefinition.i_am_on_td_bank_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-21T01:32:28.823Z",
+        "line": 34,
+        "name": "TD Bank product dropDown list check",
+        "description": "",
+        "id": "td-bank-homepage-functionality-test;td-bank-product-dropdown-list-check",
+        "after": [
+          {
+            "result": {
+              "duration": 747562700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.TDStepDefinition.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.CreditCardStepDefinition.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 164557700,
               "status": "passed"
             },
             "before": [
@@ -57,23 +1502,9 @@
                   "status": "passed"
                 },
                 "match": {
-                  "location": "stepdefinitions.TDStepDefinition.getInit()"
+                  "location": "stepdefinitions.CreditCardStepDefinition.getInIt()"
                 }
-              }
-            ],
-            "line": 6,
-            "name": "I mouseHover on logIn Icon",
-            "match": {
-              "location": "stepdefinitions.TDStepDefinition.i_mouse_hover_on_log_in_icon()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 603359800,
-              "status": "passed"
-            },
-            "before": [
+              },
               {
                 "result": {
                   "status": "passed"
@@ -83,12 +1514,416 @@
                 }
               }
             ],
-            "line": 7,
-            "name": "I Click Online Banking Button",
+            "line": 35,
+            "name": "I click on product",
             "match": {
-              "location": "stepdefinitions.TDStepDefinition.i_click_online_banking_button()"
+              "location": "stepdefinitions.TDStepDefinition.i_click_on_product()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7042211200,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.CreditCardStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 995100,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.TDStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 36,
+            "name": "I click on checking",
+            "match": {
+              "location": "stepdefinitions.TDStepDefinition.i_click_on_checking()"
             },
             "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 64108600,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 766900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.CreditCardStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 994800,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.TDStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 37,
+            "name": "I validate checking account page",
+            "match": {
+              "location": "stepdefinitions.TDStepDefinition.i_validate_checking_account_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7494294400,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.CreditCardStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 997600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.TDStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 3,
+            "name": "I am on TD Bank home page",
+            "match": {
+              "location": "stepdefinitions.TDStepDefinition.i_am_on_td_bank_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-21T01:32:44.340Z",
+        "line": 41,
+        "name": "TD Bank Find us Box functionality check",
+        "description": "",
+        "id": "td-bank-homepage-functionality-test;td-bank-find-us-box-functionality-check",
+        "after": [
+          {
+            "result": {
+              "duration": 747673200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.TDStepDefinition.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.CreditCardStepDefinition.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1077297500,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 992500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.CreditCardStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.TDStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 42,
+            "name": "I click FindUs Icon",
+            "match": {
+              "location": "stepdefinitions.TDStepDefinition.i_click_find_us_icon()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6148739300,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.CreditCardStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 2984500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.TDStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 43,
+            "name": "I enter \"11432\" and click on searchIcon",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"11432\"",
+                  "offset": 8
+                }
+              ],
+              "location": "stepdefinitions.TDStepDefinition.i_enter_and_click_on_search_icon(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 827580800,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.CreditCardStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.TDStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 44,
+            "name": "I validate TD bank locations appeared",
+            "match": {
+              "location": "stepdefinitions.TDStepDefinition.i_validate_td_bank_locations_appeared()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6519093400,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.CreditCardStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 996200,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.TDStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 3,
+            "name": "I am on TD Bank home page",
+            "match": {
+              "location": "stepdefinitions.TDStepDefinition.i_am_on_td_bank_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-21T01:33:00.659Z",
+        "line": 47,
+        "name": "Get Direction Button check",
+        "description": "",
+        "id": "td-bank-homepage-functionality-test;get-direction-button-check",
+        "after": [
+          {
+            "result": {
+              "duration": 750718900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.TDStepDefinition.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 703600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.CreditCardStepDefinition.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7290808500,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 988500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.CreditCardStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 989500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.TDStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 48,
+            "name": "I take necessary steps and landed on locations page",
+            "match": {
+              "location": "stepdefinitions.TDStepDefinition.i_take_necessary_steps_and_landed_on_locations_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4089924700,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.CreditCardStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.TDStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 49,
+            "name": "I click on Get Direction Button",
+            "match": {
+              "location": "stepdefinitions.TDStepDefinition.i_click_on_get_direction_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11965800,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.CreditCardStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.TDStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 50,
+            "name": "I validate google map page Title",
+            "match": {
+              "location": "stepdefinitions.TDStepDefinition.i_validate_google_map_page_title()"
+            },
+            "keyword": "Then "
           }
         ],
         "tags": [

@@ -18,11 +18,9 @@ import java.io.IOException;
 
 public class TaHomeStepDefinition extends WebAPI {
     static TripAdvisor tripAdvisor;
-    //Cucumber Hook
     @After
     public void tearDown(Scenario scenario) {
         if (scenario.isFailed()) {
-            // Take a screenshot...
             final byte[] screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
             scenario.attach(screenshot,"image/png","Demo1"); // ... and embed it in the report.
         }

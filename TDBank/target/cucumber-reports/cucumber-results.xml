@@ -1,10 +1,98 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="9.666">
-    <testcase classname="TD Bank HomePage Functionality Test" name="TD Bank Online Banking Functionality check" time="9.285">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="10" time="167.126">
+    <testcase classname="TD Bank Credit Card Home Page feature check" name="TD bank Credit Card home page display check" time="11.998">
         <system-out>
-            <![CDATA[Given I am In TD Bank HomePage..............................................passed
+            <![CDATA[Given I am on TD Bank home page.............................................passed
+And I click on CreditCard icon..............................................passed
+Then I validate Credit Card Home page Title.................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="TD Bank Credit Card Home Page feature check" name="Td Cash Credit Card home page check" time="12.574">
+        <system-out>
+            <![CDATA[Given I am on TD Bank home page.............................................passed
+And I click on CreditCard icon..............................................passed
+And I click on Td Cash Credit Card..........................................passed
+Then I validate Td Cash Credit Card is display..............................passed
+And I validate Td Cash Credit Card page Title...............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="TD Bank Credit Card Home Page feature check" name="TD First Class Credit Card page check" time="12.352">
+        <system-out>
+            <![CDATA[Given I am on TD Bank home page.............................................passed
+And I click on CreditCard icon..............................................passed
+And I click on TD First Class Credit Card Button............................passed
+Then I validate TD First Class Credit Card Image is display.................passed
+And I validate TD First Class Credit Card page Title........................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="TD Bank Credit Card Home Page feature check" name="Help me choose button check" time="13.46">
+        <system-out>
+            <![CDATA[Given I am on TD Bank home page.............................................passed
+And I click on CreditCard icon..............................................passed
+When I click on Help me Choose Button.......................................passed
+And I click on Cash and Next button.........................................passed
+Then I validate welcome message.............................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="TD Bank HomePage Functionality Test" name="TD Bank Online Banking check" time="22.986">
+        <system-out>
+            <![CDATA[Given I am on TD Bank home page.............................................passed
 When I mouseHover on logIn Icon.............................................passed
 And I Click Online Banking Button...........................................passed
+Then I validated logIn Page is Displayed....................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="TD Bank HomePage Functionality Test" name="TD Bank signUp" time="24.033">
+        <system-out>
+            <![CDATA[Given I am on TD Bank home page.............................................passed
+When I click on signUp button...............................................passed
+And I do necessary steps to land on User info page..........................passed
+And I select account type...................................................passed
+And I enter user information................................................passed
+And I click on Continue Button..............................................passed
+Then I validate signUp message..............................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="TD Bank HomePage Functionality Test" name="TD Bank login functionality check with invalid credentials" time="18.714">
+        <system-out>
+            <![CDATA[Given I am on TD Bank home page.............................................passed
+When I click on logIn button in homePage....................................passed
+And I enter "shuvo242" and "Srt@012542".....................................passed
+And I click on login........................................................passed
+Then I validate the error message...........................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="TD Bank HomePage Functionality Test" name="TD Bank product dropDown list check" time="15.512">
+        <system-out>
+            <![CDATA[Given I am on TD Bank home page.............................................passed
+When I click on product.....................................................passed
+And I click on checking.....................................................passed
+Then I validate checking account page.......................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="TD Bank HomePage Functionality Test" name="TD Bank Find us Box functionality check" time="16.307">
+        <system-out>
+            <![CDATA[Given I am on TD Bank home page.............................................passed
+When I click FindUs Icon....................................................passed
+And I enter "11432" and click on searchIcon.................................passed
+Then I validate TD bank locations appeared..................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="TD Bank HomePage Functionality Test" name="Get Direction Button check" time="18.673">
+        <system-out>
+            <![CDATA[Given I am on TD Bank home page.............................................passed
+When I take necessary steps and landed on locations page....................passed
+And I click on Get Direction Button.........................................passed
+Then I validate google map page Title.......................................passed
 ]]>
         </system-out>
     </testcase>

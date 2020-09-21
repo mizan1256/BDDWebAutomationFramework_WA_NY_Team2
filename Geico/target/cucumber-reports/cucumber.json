@@ -1,0 +1,942 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-09-20T22:20:13.820Z",
+        "line": 84,
+        "name": "Geico login create account check with multiple variable",
+        "description": "",
+        "id": "geico-homepage-functionality-check;geico-login-create-account-check-with-multiple-variable;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 795345700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.HomeStepDefinition.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7928134100,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 26929000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 77,
+            "name": "I am on Geico homepage",
+            "match": {
+              "location": "stepdefinitions.HomeStepDefinition.i_am_on_geico_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2132623600,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 997500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 78,
+            "name": "I click on startHere",
+            "match": {
+              "location": "stepdefinitions.HomeStepDefinition.i_click_on_start_here()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 765512800,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1990000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 79,
+            "name": "I enter \"15170\", \"02141004\" and \"10045\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"15170\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"02141004\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"10045\"",
+                  "offset": 32
+                }
+              ],
+              "location": "stepdefinitions.HomeStepDefinition.i_enter_and(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 107716900,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 996900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 80,
+            "name": "I click continue",
+            "match": {
+              "location": "stepdefinitions.HomeStepDefinition.i_click_continue()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 63826800,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2990400,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 81,
+            "name": "I verify policyNumber on screen",
+            "match": {
+              "location": "stepdefinitions.HomeStepDefinition.i_verify_policy_number_on_screen()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-20T22:20:25.815Z",
+        "line": 85,
+        "name": "Geico login create account check with multiple variable",
+        "description": "",
+        "id": "geico-homepage-functionality-check;geico-login-create-account-check-with-multiple-variable;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 1153928000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.HomeStepDefinition.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7615890900,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 77,
+            "name": "I am on Geico homepage",
+            "match": {
+              "location": "stepdefinitions.HomeStepDefinition.i_am_on_geico_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3189029100,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 999900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 78,
+            "name": "I click on startHere",
+            "match": {
+              "location": "stepdefinitions.HomeStepDefinition.i_click_on_start_here()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 760476600,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 997200,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 79,
+            "name": "I enter \"12434\", \"0319919\" and \"10322\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"12434\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"0319919\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"10322\"",
+                  "offset": 31
+                }
+              ],
+              "location": "stepdefinitions.HomeStepDefinition.i_enter_and(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 98736400,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 997600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 80,
+            "name": "I click continue",
+            "match": {
+              "location": "stepdefinitions.HomeStepDefinition.i_click_continue()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 37897400,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 81,
+            "name": "I verify policyNumber on screen",
+            "match": {
+              "location": "stepdefinitions.HomeStepDefinition.i_verify_policy_number_on_screen()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-20T22:20:38.689Z",
+        "line": 86,
+        "name": "Geico login create account check with multiple variable",
+        "description": "",
+        "id": "geico-homepage-functionality-check;geico-login-create-account-check-with-multiple-variable;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 717651700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.HomeStepDefinition.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6587145400,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 77,
+            "name": "I am on Geico homepage",
+            "match": {
+              "location": "stepdefinitions.HomeStepDefinition.i_am_on_geico_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2091296500,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 3996100,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 78,
+            "name": "I click on startHere",
+            "match": {
+              "location": "stepdefinitions.HomeStepDefinition.i_click_on_start_here()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 722419500,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 997400,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 79,
+            "name": "I enter \"12314\", \"03191996\" and \"10326\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"12314\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"03191996\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"10326\"",
+                  "offset": 32
+                }
+              ],
+              "location": "stepdefinitions.HomeStepDefinition.i_enter_and(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 125665600,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 80,
+            "name": "I click continue",
+            "match": {
+              "location": "stepdefinitions.HomeStepDefinition.i_click_continue()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 29920300,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1991800,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 81,
+            "name": "I verify policyNumber on screen",
+            "match": {
+              "location": "stepdefinitions.HomeStepDefinition.i_verify_policy_number_on_screen()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-20T22:20:49.001Z",
+        "line": 87,
+        "name": "Geico login create account check with multiple variable",
+        "description": "",
+        "id": "geico-homepage-functionality-check;geico-login-create-account-check-with-multiple-variable;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 1050261100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.HomeStepDefinition.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6463577100,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2999000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 77,
+            "name": "I am on Geico homepage",
+            "match": {
+              "location": "stepdefinitions.HomeStepDefinition.i_am_on_geico_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2049356600,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 78,
+            "name": "I click on startHere",
+            "match": {
+              "location": "stepdefinitions.HomeStepDefinition.i_click_on_start_here()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 774796600,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 997000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 79,
+            "name": "I enter \"12315\", \"03191296\" and \"10329\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"12315\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"03191296\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"10329\"",
+                  "offset": 32
+                }
+              ],
+              "location": "stepdefinitions.HomeStepDefinition.i_enter_and(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 107708100,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 993000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 80,
+            "name": "I click continue",
+            "match": {
+              "location": "stepdefinitions.HomeStepDefinition.i_click_continue()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 37913700,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1988300,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 81,
+            "name": "I verify policyNumber on screen",
+            "match": {
+              "location": "stepdefinitions.HomeStepDefinition.i_verify_policy_number_on_screen()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-20T22:20:59.518Z",
+        "line": 88,
+        "name": "Geico login create account check with multiple variable",
+        "description": "",
+        "id": "geico-homepage-functionality-check;geico-login-create-account-check-with-multiple-variable;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 704034800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.HomeStepDefinition.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6689183200,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 996100,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 77,
+            "name": "I am on Geico homepage",
+            "match": {
+              "location": "stepdefinitions.HomeStepDefinition.i_am_on_geico_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2019031900,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 78,
+            "name": "I click on startHere",
+            "match": {
+              "location": "stepdefinitions.HomeStepDefinition.i_click_on_start_here()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 651089900,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1998300,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 79,
+            "name": "I enter \"12316\", \"01191996\" and \"10328\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"12316\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"01191996\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"10328\"",
+                  "offset": 32
+                }
+              ],
+              "location": "stepdefinitions.HomeStepDefinition.i_enter_and(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 109230200,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 997300,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 80,
+            "name": "I click continue",
+            "match": {
+              "location": "stepdefinitions.HomeStepDefinition.i_click_continue()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 29880600,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1002000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 81,
+            "name": "I verify policyNumber on screen",
+            "match": {
+              "location": "stepdefinitions.HomeStepDefinition.i_verify_policy_number_on_screen()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-20T22:21:09.749Z",
+        "line": 89,
+        "name": "Geico login create account check with multiple variable",
+        "description": "",
+        "id": "geico-homepage-functionality-check;geico-login-create-account-check-with-multiple-variable;;7",
+        "after": [
+          {
+            "result": {
+              "duration": 803380200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.HomeStepDefinition.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6385480100,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 997300,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 77,
+            "name": "I am on Geico homepage",
+            "match": {
+              "location": "stepdefinitions.HomeStepDefinition.i_am_on_geico_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2344264500,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 998000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 78,
+            "name": "I click on startHere",
+            "match": {
+              "location": "stepdefinitions.HomeStepDefinition.i_click_on_start_here()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 605381800,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 79,
+            "name": "I enter \"12317\", \"05191996\" and \"10327\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"12317\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"05191996\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"10327\"",
+                  "offset": 32
+                }
+              ],
+              "location": "stepdefinitions.HomeStepDefinition.i_enter_and(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 100731500,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 995900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 80,
+            "name": "I click continue",
+            "match": {
+              "location": "stepdefinitions.HomeStepDefinition.i_click_continue()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 26926100,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 997500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.HomeStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 81,
+            "name": "I verify policyNumber on screen",
+            "match": {
+              "location": "stepdefinitions.HomeStepDefinition.i_verify_policy_number_on_screen()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "Geico homePage functionality check",
+    "description": "",
+    "id": "geico-homepage-functionality-check",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/GeicoHome.feature",
+    "tags": []
+  }
+]
