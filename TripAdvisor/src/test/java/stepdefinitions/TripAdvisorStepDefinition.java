@@ -36,23 +36,23 @@ public class TripAdvisorStepDefinition extends WebAPI {
         openBrowser("https://www.tripadvisor.com/");
     }
 
-    @When("I type Texas i search box")
-    public void i_type_texas_i_search_box() {
+    @When("I enter Texas in search box")
+    public void i_enter_texas_in_search_box() {
         tripAdvisorHomePage.WhereToSearchBox();
     }
 
-    @And("I click search button")
-    public void i_click_search_button() throws InterruptedException {
+    @And("I click on search button")
+    public void i_click_on_search_button() throws InterruptedException {
         tripAdvisorHomePage.searchButtonClick();
     }
 
-    @And("I click Hotels Button")
-    public void i_click_hotels_button() {
+    @And("I click on Hotels Button")
+    public void i_click_on_hotels_button() {
         tripAdvisorHomePage.hotelButtonClick();
     }
 
-    @Then("I varify {string} is appeared properly")
-    public void i_varify_is_appeared_properly(String string) {
+    @Then("I verify {string} is appeared properly")
+    public void i_verify_is_appeared_properly(String string) {
         tripAdvisorHomePage.validateWhereToSearchBox();
     }
 
@@ -88,19 +88,19 @@ public class TripAdvisorStepDefinition extends WebAPI {
         tripAdvisorHomePage.restaurantGallery();
     }
 
-    @Then("I varify food image is appeared properly")
-    public void i_varify_food_image_is_appeared_properly() {
+    @Then("I verify food image is appeared properly")
+    public void i_verify_food_image_is_appeared_properly() {
         tripAdvisorHomePage.validateRestaurant();
     }
 
     //  Flights status
-    @When("I click TravelForum")
-    public void i_click_travel_forum() throws InterruptedException {
+    @When("I click on TravelForum")
+    public void i_click_on_travel_forum() throws InterruptedException {
         tripAdvisorHomePage.travelForumCheck();
     }
 
-    @And("I click Flights")
-    public void i_click_flights() throws InterruptedException {
+    @And("I click on Flights")
+    public void i_click_on_flights() throws InterruptedException {
         tripAdvisorHomePage.flightTab();
     }
 
@@ -119,24 +119,24 @@ public class TripAdvisorStepDefinition extends WebAPI {
         tripAdvisorHomePage.personField();
     }
 
-    @And("I click find flight button")
-    public void i_click_find_flight_button() throws InterruptedException {
+    @And("I click on find flight button")
+    public void i_click_on_find_flight_button() throws InterruptedException {
         tripAdvisorHomePage.findFlightBox();
     }
 
-    @Then("I varify COVID-{int} Policies is appeared properly")
-    public void i_varify_covid_policies_is_appeared_properly(Integer int1) {
+    @Then("I verify COVID-{int} Policies is appeared properly")
+    public void i_verify_covid_policies_is_appeared_properly(Integer int1) {
         tripAdvisorHomePage.validateTravelForum();
     }
     //  One Way Trip
 
-    @And("I click TravelForum and click Flight")
-    public void i_click_travel_forum_and_click_flight() throws InterruptedException {
+    @And("I click on TravelForum and click on Flight")
+    public void i_click_on_travel_forum_and_click_on_flight() throws InterruptedException {
         tripAdvisorHomePage.travelForumAndFlightClick();
     }
 
-    @And("I click One way tab")
-    public void i_click_one_way_tab() {
+    @And("I click on One way tab")
+    public void i_click_on_one_way_tab() {
         tripAdvisorHomePage.oneWayTab();
     }
 
@@ -146,7 +146,7 @@ public class TripAdvisorStepDefinition extends WebAPI {
     }
 
     //    Things to Do
-    @When("I click Things to Do")
+    @When("I click on Things to Do")
     public void i_click_things_to_do() {
         tripAdvisorHomePage.thingsToDoCheck();
     }
@@ -156,40 +156,40 @@ public class TripAdvisorStepDefinition extends WebAPI {
         tripAdvisorHomePage.dhakaCity();
     }
 
-    @Then("I varify Dhaka City is appeared properly")
+    @Then("I verify Dhaka City is appeared properly")
     public void i_varify_dhaka_city_is_appeared_properly() {
         tripAdvisorHomePage.validateThingsToDo();
     }
 
     //    Trip Button
-    @When("I click trip button")
-    public void i_click_trip_button() {
+    @When("I click on trip button")
+    public void i_click_on_trip_button() {
         tripAdvisorHomePage.tripTabBtn();
     }
 
-    @And("I click get start")
-    public void i_click_get_start() {
+    @And("I click on get start")
+    public void i_click_on_get_start() {
         tripAdvisorHomePage.getStartBtn();
     }
 
-    @Then("I varify reCAPCHA is appeared properly")
-    public void i_varify_re_capcha_is_appeared_properly() {
+    @Then("I verify reCAPCHA is appeared properly")
+    public void i_verify_re_capcha_is_appeared_properly() {
         tripAdvisorHomePage.validateTripBtn();
     }
 
     //    Post Tab
-    @When("I click Post")
-    public void i_click_post() {
+    @When("I click on Post tab")
+    public void i_click_on_post_tab() {
         tripAdvisorHomePage.postTabButton();
     }
 
-    @When("I click Post Photo")
-    public void i_click_post_photo() throws InterruptedException {
+    @When("I click on Post Photo")
+    public void i_click_on_post_photo() throws InterruptedException {
         tripAdvisorHomePage.postPhotoDropDownBtn();
     }
 
-    @When("I click hohel radio button")
-    public void i_click_hohel_radio_button() {
+    @When("I click on hotel radio button")
+    public void i_click_on_hotel_radio_button() {
         tripAdvisorHomePage.hotelRadioButton();
     }
 
@@ -202,13 +202,13 @@ public class TripAdvisorStepDefinition extends WebAPI {
         tripAdvisorHomePage.hotel71RadioButton();
     }
 
-    @When("I click Post Photos Button and click add photo btn")
-    public void i_click_post_photos_button_and_click_add_photo_btn() {
+    @When("I click on Post Photos Button and click add photo btn")
+    public void i_click_on_post_photos_button_and_click_add_photo_btn() {
         tripAdvisorHomePage.postPhotoButton();
     }
 
-    @When("I click select photo from your computer.")
-    public void i_click_select_photo_from_your_computer() throws InterruptedException {
+    @When("I click on select photo from your computer.")
+    public void i_click_on_select_photo_from_your_computer() throws InterruptedException {
         tripAdvisorHomePage.selectPhotoFromComputer();
     }
 

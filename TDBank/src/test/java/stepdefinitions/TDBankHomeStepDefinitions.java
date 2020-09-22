@@ -90,9 +90,14 @@ public class TDBankHomeStepDefinitions extends WebAPI {
         tdBankHome.reEnterUserPassword(data.get(1).get(9));
     }
 
+    @Then("I click on continue button")
+    public void i_click_on_continue_button() {
+        tdBankHome.clickOnContinueBtn();
+    }
+
     @Then("I validate signUp message")
     public void i_validate_sign_up_message() {
-        tdBankHome.validateSignUpPageText("wrong text");
+        tdBankHome.validateSignUpPageText("");
     }
 
     /**

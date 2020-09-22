@@ -125,7 +125,7 @@ public class TDBankHome extends WebAPI {
 
     public void eSignAcceptCheckBox() throws InterruptedException {
         sleepFor(5);
-        eSignAcceptCheckBox.isSelected();
+        eSignAcceptCheckBox.click();
     }
 
     public void acceptSecondPopUpUsingAlert() {

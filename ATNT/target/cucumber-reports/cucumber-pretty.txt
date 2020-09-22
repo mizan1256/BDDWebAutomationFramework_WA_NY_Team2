@@ -1,38 +1,109 @@
 
 @SmokeTest
-Scenario Outline: Atnt SearchBox Functionality check with multiple products         # src/test/java/features/HomePage.feature:60
+Scenario: Att SearchBox Functionality check with valid data # src/test/java/features/HomePage.feature:7
+  Given I am in at&t homepage                               # stepdefinitions.HomePageStepDefinition.i_am_in_at_t_homepage()
+  And I enter Samsung Phones in searchBox                   # stepdefinitions.HomePageStepDefinition.i_enter_samsung_phones_in_search_box()
+  When I click searchButton                                 # stepdefinitions.HomePageStepDefinition.i_click_search_button()
+  Then I verify Samsung Phones is appear properly           # stepdefinitions.HomePageStepDefinition.i_verify_samsung_phones_is_appear_properly()
+  And I verify page title as Samsung Phones                 # stepdefinitions.HomePageStepDefinition.i_verify_page_title_as_samsung_phones()
+
+@SmokeTest
+Scenario: Att deals button Functionality check with valid data                            # src/test/java/features/HomePage.feature:14
+  Given I am in at&t homepage                                                             # stepdefinitions.HomePageStepDefinition.i_am_in_at_t_homepage()
+  When I click Deals Button                                                               # stepdefinitions.HomePageStepDefinition.i_click_deals_button()
+  Then I verify Wireless is appear properly                                               # stepdefinitions.HomePageStepDefinition.i_verify_wireless_is_appear_properly()
+  And I verify page title as AT&T Deals on Phones, Wireless Plans, Internet & TV Services # stepdefinitions.HomePageStepDefinition.i_verify_page_title_as_at_t_deals_on_phones_wireless_plans_internet_tv_services()
+
+@SmokeTest
+Scenario: Att Wireless button Functionality check with valid data                # src/test/java/features/HomePage.feature:20
+  Given I am in at&t homepage                                                    # stepdefinitions.HomePageStepDefinition.i_am_in_at_t_homepage()
+  When I click Wireless Button                                                   # stepdefinitions.HomePageStepDefinition.i_click_wireless_button()
+  Then I verify LEARN HOW TO is appear properly                                  # stepdefinitions.HomePageStepDefinition.i_verify_learn_how_to_is_appear_properly()
+  And I verify page title as AT&T Wireless – Latest Phones & Best Wireless Plans # stepdefinitions.HomePageStepDefinition.i_verify_page_title_as_at_t_wireless_latest_phones_best_wireless_plans()
+
+@SmokeTest
+Scenario: Att Internet button Functionality check with valid data                      # src/test/java/features/HomePage.feature:26
+  Given I am in at&t homepage                                                          # stepdefinitions.HomePageStepDefinition.i_am_in_at_t_homepage()
+  When I click internet Button                                                         # stepdefinitions.HomePageStepDefinition.i_click_internet_button()
+  Then I verify AT&T INTERNET is appear properly                                       # stepdefinitions.HomePageStepDefinition.i_verify_at_t_internet_is_appear_properly()
+  And I verify page title as AT&T Internet Plans - Home Internet - AT&T® Official Site # stepdefinitions.HomePageStepDefinition.i_verify_page_title_as_at_t_internet_plans_home_internet_at_t_official_site()
+
+@SmokeTest
+Scenario: Att TV button Functionality check with valid data # src/test/java/features/HomePage.feature:32
+  Given I am in at&t homepage                               # stepdefinitions.HomePageStepDefinition.i_am_in_at_t_homepage()
+  When I click TV Button                                    # stepdefinitions.HomePageStepDefinition.i_click_tv_button()
+  And I click on shop now button                            # stepdefinitions.HomePageStepDefinition.i_click_on_shop_now_button()
+  Then I verify Choose a TV package is appear properly      # stepdefinitions.HomePageStepDefinition.i_verify_choose_a_tv_package_is_appear_properly()
+  And I verify page title as Shop AT&T Bundles              # stepdefinitions.HomePageStepDefinition.i_verify_page_title_as_shop_at_t_bundles()
+
+@SmokeTest
+Scenario Outline: Atnt SearchBox Functionality check with multiple products # src/test/java/features/HomePage.feature:46
+  Given I am in at&t homepage                                               # stepdefinitions.HomePageStepDefinition.i_am_in_at_t_homepage()
+  And I enter "AT&T PREPAID" in searchBox                                   # stepdefinitions.HomePageStepDefinition.i_enter_in_search_box(java.lang.String)
+  When I click searchButton                                                 # stepdefinitions.HomePageStepDefinition.i_click_search_button()
+
+@SmokeTest
+Scenario Outline: Atnt SearchBox Functionality check with multiple products # src/test/java/features/HomePage.feature:47
+  Given I am in at&t homepage                                               # stepdefinitions.HomePageStepDefinition.i_am_in_at_t_homepage()
+  And I enter "AT&T Deals" in searchBox                                     # stepdefinitions.HomePageStepDefinition.i_enter_in_search_box(java.lang.String)
+  When I click searchButton                                                 # stepdefinitions.HomePageStepDefinition.i_click_search_button()
+
+@SmokeTest
+Scenario Outline: Atnt SearchBox Functionality check with multiple products # src/test/java/features/HomePage.feature:48
+  Given I am in at&t homepage                                               # stepdefinitions.HomePageStepDefinition.i_am_in_at_t_homepage()
+  And I enter "TV & internet bundles" in searchBox                          # stepdefinitions.HomePageStepDefinition.i_enter_in_search_box(java.lang.String)
+  When I click searchButton                                                 # stepdefinitions.HomePageStepDefinition.i_click_search_button()
+
+@SmokeTest
+Scenario Outline: Atnt SearchBox Functionality check with multiple products # src/test/java/features/HomePage.feature:49
+  Given I am in at&t homepage                                               # stepdefinitions.HomePageStepDefinition.i_am_in_at_t_homepage()
+  And I enter "Upgrade a device" in searchBox                               # stepdefinitions.HomePageStepDefinition.i_enter_in_search_box(java.lang.String)
+  When I click searchButton                                                 # stepdefinitions.HomePageStepDefinition.i_click_search_button()
+
+@SmokeTest
+Scenario Outline: Atnt SearchBox Functionality check with multiple products         # src/test/java/features/HomePage.feature:59
   Given I am in at&t homepage                                                       # stepdefinitions.HomePageStepDefinition.i_am_in_at_t_homepage()
   And I enter "Samsung Phones" in searchBox                                         # stepdefinitions.HomePageStepDefinition.i_enter_in_search_box(java.lang.String)
   When I click searchButton                                                         # stepdefinitions.HomePageStepDefinition.i_click_search_button()
   Then I verify "\"Samsung Phones\"" and "Results for Samsung Phones - AT&T Search" # stepdefinitions.HomePageStepDefinition.i_verify_and(java.lang.String,java.lang.String)
 
 @SmokeTest
-Scenario Outline: Atnt SearchBox Functionality check with multiple products       # src/test/java/features/HomePage.feature:61
+Scenario Outline: Atnt SearchBox Functionality check with multiple products       # src/test/java/features/HomePage.feature:60
   Given I am in at&t homepage                                                     # stepdefinitions.HomePageStepDefinition.i_am_in_at_t_homepage()
   And I enter "Apple Watches" in searchBox                                        # stepdefinitions.HomePageStepDefinition.i_enter_in_search_box(java.lang.String)
   When I click searchButton                                                       # stepdefinitions.HomePageStepDefinition.i_click_search_button()
   Then I verify "\"Apple Watches\"" and "Results for Apple Watches - AT&T Search" # stepdefinitions.HomePageStepDefinition.i_verify_and(java.lang.String,java.lang.String)
 
 @SmokeTest
-Scenario Outline: Atnt SearchBox Functionality check with multiple products   # src/test/java/features/HomePage.feature:62
+Scenario Outline: Atnt SearchBox Functionality check with multiple products   # src/test/java/features/HomePage.feature:61
   Given I am in at&t homepage                                                 # stepdefinitions.HomePageStepDefinition.i_am_in_at_t_homepage()
   And I enter "Apple ipads" in searchBox                                      # stepdefinitions.HomePageStepDefinition.i_enter_in_search_box(java.lang.String)
   When I click searchButton                                                   # stepdefinitions.HomePageStepDefinition.i_click_search_button()
   Then I verify "\"Apple ipads\"" and "Results for Apple ipads - AT&T Search" # stepdefinitions.HomePageStepDefinition.i_verify_and(java.lang.String,java.lang.String)
 
 @SmokeTest
-Scenario Outline: Atnt SearchBox Functionality check with multiple products               # src/test/java/features/HomePage.feature:63
+Scenario Outline: Atnt SearchBox Functionality check with multiple products               # src/test/java/features/HomePage.feature:62
   Given I am in at&t homepage                                                             # stepdefinitions.HomePageStepDefinition.i_am_in_at_t_homepage()
   And I enter "iphone 11 Pro Max" in searchBox                                            # stepdefinitions.HomePageStepDefinition.i_enter_in_search_box(java.lang.String)
   When I click searchButton                                                               # stepdefinitions.HomePageStepDefinition.i_click_search_button()
   Then I verify "\"iphone 11 Pro Max\"" and "Results for iphone 11 Pro Max - AT&T Search" # stepdefinitions.HomePageStepDefinition.i_verify_and(java.lang.String,java.lang.String)
 
 @SmokeTest
-Scenario Outline: Atnt SearchBox Functionality check with multiple products           # src/test/java/features/HomePage.feature:64
+Scenario Outline: Atnt SearchBox Functionality check with multiple products           # src/test/java/features/HomePage.feature:63
   Given I am in at&t homepage                                                         # stepdefinitions.HomePageStepDefinition.i_am_in_at_t_homepage()
   And I enter "Samsung Tablets" in searchBox                                          # stepdefinitions.HomePageStepDefinition.i_enter_in_search_box(java.lang.String)
   When I click searchButton                                                           # stepdefinitions.HomePageStepDefinition.i_click_search_button()
   Then I verify "\"Samsung Tablets\"" and "Results for Samsung Tablets - AT&T Search" # stepdefinitions.HomePageStepDefinition.i_verify_and(java.lang.String,java.lang.String)
+
+@SmokeTest
+Scenario: Atnt HomePage signUp functionality check with invalid data # src/test/java/features/RegistrationPage.feature:7
+  Given I am in at&t homepage                                        # stepdefinitions.HomePageStepDefinition.i_am_in_at_t_homepage()
+  And I click the Account dropdown button                            # stepdefinitions.RegistrationStepDefinition.i_click_the_account_dropdown_button()
+  And I click signIn                                                 # stepdefinitions.RegistrationStepDefinition.i_click_sign_in()
+  And I enter admin1234 in user Id box                               # stepdefinitions.RegistrationStepDefinition.i_enter_admin1234_in_user_id_box()
+  And I enter admin1234 in password box                              # stepdefinitions.RegistrationStepDefinition.i_enter_admin1234_in_password_box()
+  Then I verified "Sign In" ia appeared properly                     # stepdefinitions.RegistrationStepDefinition.i_verified_ia_appeared_properly(java.lang.String)
+  And I verify page title as Login Screen                            # stepdefinitions.RegistrationStepDefinition.i_verify_page_title_as_login_screen()
 
 @SmokeTest
 Scenario: Atnt HomePage signUp functionality check with invalid data # src/test/java/features/RegistrationPage.feature:17
@@ -43,13 +114,13 @@ Scenario: Atnt HomePage signUp functionality check with invalid data # src/test/
   And I enter "10000" Billing ZIP Code                               # stepdefinitions.RegistrationStepDefinition.i_enter_billing_zip_code(java.lang.String)
   And I click capcha box                                             # stepdefinitions.RegistrationStepDefinition.i_click_capcha_box()
       org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="recaptcha-anchor"]/div[4]"}
-  (Session info: chrome=85.0.4183.83)
+  (Session info: chrome=85.0.4183.102)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LAPTOP-6QSDTELI', ip: '192.168.1.185', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\lenis\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63474}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 53c060323cc85e2d3e5b41a9b815bba6
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\lenis\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49851}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 8c54953712f6a81c16c5d6afaefff36e
 *** Element info: {Using=xpath, value=//*[@id="recaptcha-anchor"]/div[4]}
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -73,7 +144,7 @@ Session ID: 53c060323cc85e2d3e5b41a9b815bba6
 	at ✽.I click capcha box(file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/RegistrationPage.feature:22)
 
 
-    Embedding Demo [image/png 83230 bytes]
+    Embedding Demo [image/png 83250 bytes]
 
       org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
@@ -86,3 +157,21 @@ Driver info: driver.version: RemoteWebDriver
 	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
 	at stepdefinitions.HomePageStepDefinition.tearDown(HomePageStepDefinition.java:30)
 
+
+@SmokeTest
+Scenario: Atnt HomePage signUp functionality check with invalid data # src/test/java/features/RegistrationPage.feature:28
+  Given I am in at&t homepage                                        # stepdefinitions.HomePageStepDefinition.i_am_in_at_t_homepage()
+  And I click the Account dropdown button                            # stepdefinitions.RegistrationStepDefinition.i_click_the_account_dropdown_button()
+  And I click Account overview                                       # stepdefinitions.RegistrationStepDefinition.i_click_account_overview()
+  And I click Create one now                                         # stepdefinitions.RegistrationStepDefinition.i_click_create_one_now()
+  And I click Wireless radio button                                  # stepdefinitions.RegistrationStepDefinition.i_click_wireless_radio_button()
+      io.cucumber.java.PendingException: TODO: implement me
+	at stepdefinitions.RegistrationStepDefinition.i_click_wireless_radio_button(RegistrationStepDefinition.java:105)
+	at ✽.I click Wireless radio button(file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/RegistrationPage.feature:32)
+
+  And I click continue box                                           # stepdefinitions.RegistrationStepDefinition.i_click_continue_box()
+  And I type phone number in AT&T phone number box                   # stepdefinitions.RegistrationStepDefinition.i_type_phone_number_in_at_t_phone_number_box()
+  And I type 5 digit zip code in Billing zip code Box                # stepdefinitions.RegistrationStepDefinition.i_type_digit_zip_code_in_billing_zip_code_box(java.lang.Integer)
+  When I click continue button                                       # stepdefinitions.RegistrationStepDefinition.i_click_continue_button()
+  Then I verified "Welcome" ia appeared properly                     # stepdefinitions.RegistrationStepDefinition.i_verified_ia_appeared_properly(java.lang.String)
+  And I verify page title as Create or link an ID                    # stepdefinitions.RegistrationStepDefinition.i_verify_page_title_as_create_or_link_an_id()

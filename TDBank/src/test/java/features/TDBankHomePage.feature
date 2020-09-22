@@ -5,7 +5,7 @@ Feature: TD Bank Home Page functionality test
     Given I am in TD Bank home page
 
 
-  @SmokeTest
+#  @SmokeTest
   Scenario: TD Bank Online Banking page is display
     When I mouseHover on LogIn
     And I click on online banking
@@ -19,9 +19,10 @@ Feature: TD Bank Home Page functionality test
     And I enter user information
       | firstName | lastName | email              | atmNumber        | SSN       | accountNumber | userName     | reEnterUserName | password  | reEnterPassword |
       | Mujahid   | Islam    | pnt30235@gmail.com | 1234567890876543 | 123456789 | 34526273848   | mujahid30235 | mujahid30235    | Pnt@30235 | Pnt@30235       |
+    And I click on continue button
     Then I validate signUp message
 
-  @SmokeTest
+#  @SmokeTest
   Scenario Outline: TD Bank login functionality check with invalid credentials
     When I click on logIn button in homePage
     And I enter "<userName>" and "<password>"
@@ -32,20 +33,20 @@ Feature: TD Bank Home Page functionality test
       | pnt30235 | Pnt@30235 |
 
 
-  @SmokeTest
+#  @SmokeTest
   Scenario: TD Bank product dropDown list check
     When I click on product
     And I click on checking
     Then I validate checking account page
 
 
-  @SmokeTest
+#  @SmokeTest
   Scenario: TD Bank Find us Box functionality check
     When I click FindUs Icon
     And I enter "11416" and click on searchIcon
     Then I validate TD bank locations appeared
 
-  @SmokeTest
+#  @SmokeTest
   Scenario: Get Direction Button check
     When I take necessary steps and landed on locations page
     And I click on Get Direction Button

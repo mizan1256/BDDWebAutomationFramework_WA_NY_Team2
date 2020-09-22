@@ -19,7 +19,7 @@ public class CnnHomePageWebElement {
     public static final String liveTvChannelButton = "//button[@class='Box-sc-1fet97o-0 sc-bRBYWo kyJGDH channels-button']//*[local-name()='svg']";
     public static final String liveTvBackHome = "//div[@class='Text-sc-1amvtpj-0 dJJhIr']";
     public static final String homePageText = "//*[@id=\"homepage-injection-zone-1\"]/div[2]/div/div/div/ul/li[1]/article/div/div/h3/a/span[3]";
-    public static final String liveTvPlayButton = "//*[@id=\"root\"]/div/div[2]/div[1]/div[1]/div/svg";
+    public static final String liveTvPlayButton = "//*[@id=\"root\"]/div/div[2]/div[1]/div[1]/div/svg/path";
 
     public static final String liveTvChannelCnn = "//img[@class='Image-p11edh-0 sc-hSdWYo lbWwbf']";
     public static final String liveTvLoginText = "//span[contains(text(),'Login')]";

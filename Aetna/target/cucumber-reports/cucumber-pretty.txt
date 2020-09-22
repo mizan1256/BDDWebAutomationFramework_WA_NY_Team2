@@ -1,19 +1,43 @@
 
 @SmokeTest
+Scenario: Aetna Shop a plan functionality test         # src/test/java/features/HomePage.feature:7
+  Given I am in Geico home page                        # stepdefinitions.HomePageStepDefinition.i_am_in_geico_home_page()
+  When I click shop for a plan                         # stepdefinitions.HomePageStepDefinition.i_click_shop_for_a_plan()
+  And I go Health coverage                             # stepdefinitions.HomePageStepDefinition.i_go_health_coverage()
+  And I click Student plans                            # stepdefinitions.HomePageStepDefinition.i_click_student_plans()
+  Then I validate "Helpful links" is appeared properly # stepdefinitions.HomePageStepDefinition.i_validate_is_appeared_properly(java.lang.String)
+
+@SmokeTest
+Scenario: Aetna Shop a plan functionality test       # src/test/java/features/HomePage.feature:14
+  Given I am in Geico home page                      # stepdefinitions.HomePageStepDefinition.i_am_in_geico_home_page()
+  When I click shop for a plan                       # stepdefinitions.HomePageStepDefinition.i_click_shop_for_a_plan()
+  And I go Health coverage                           # stepdefinitions.HomePageStepDefinition.i_go_health_coverage()
+  And I click Plans through an employer              # stepdefinitions.HomePageStepDefinition.i_click_plans_through_an_employer()
+  Then I validate Legal notices is appeared properly # stepdefinitions.HomePageStepDefinition.i_validate_legal_notices_is_appeared_properly()
+
+@SmokeTest
+Scenario: Aetna Shop a plan functionality test          # src/test/java/features/HomePage.feature:21
+  Given I am in Geico home page                         # stepdefinitions.HomePageStepDefinition.i_am_in_geico_home_page()
+  When I click shop for a plan                          # stepdefinitions.HomePageStepDefinition.i_click_shop_for_a_plan()
+  And I go Health coverage                              # stepdefinitions.HomePageStepDefinition.i_go_health_coverage()
+  And I click International Plans                       # stepdefinitions.HomePageStepDefinition.i_click_international_plans()
+  Then I validate Aetna Well-being is appeared properly # stepdefinitions.HomePageStepDefinition.i_validate_aetna_well_being_is_appeared_properly()
+
+@SmokeTest
 Scenario: Aetna Shop a plan functionality test           # src/test/java/features/HomePage.feature:28
-  Given i am in home page                                # stepdefinitions.HomePageStepDefinition.i_am_in_home_page()
+  Given I am in Geico home page                          # stepdefinitions.HomePageStepDefinition.i_am_in_geico_home_page()
   When I click shop for a plan                           # stepdefinitions.HomePageStepDefinition.i_click_shop_for_a_plan()
   And I go Health coverage                               # stepdefinitions.HomePageStepDefinition.i_go_health_coverage()
   And I click find a doctor                              # stepdefinitions.HomePageStepDefinition.i_click_find_a_doctor()
   Then I validate Already a member? is appeared properly # stepdefinitions.HomePageStepDefinition.i_validate_already_a_member_is_appeared_properly()
       org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="main"]/div[4]/div/div/div[1]/div/div/h2"}
-  (Session info: chrome=85.0.4183.83)
+  (Session info: chrome=85.0.4183.102)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LAPTOP-6QSDTELI', ip: '192.168.1.185', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\lenis\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55511}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 22adbc6210706d672dd2856035a9f4cd
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\lenis\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63593}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 186c70c1043c7d75954319ce5285ed30
 *** Element info: {Using=xpath, value=//*[@id="main"]/div[4]/div/div/div[1]/div/div/h2}
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -39,3 +63,100 @@ Session ID: 22adbc6210706d672dd2856035a9f4cd
 
     Embedding Demo [image/png 993512 bytes]
 
+
+@SmokeTest
+Scenario: Aetna Shop a plan functionality test       # src/test/java/features/HomePage.feature:35
+  Given I am in Geico home page                      # stepdefinitions.HomePageStepDefinition.i_am_in_geico_home_page()
+  When I click shop for a plan                       # stepdefinitions.HomePageStepDefinition.i_click_shop_for_a_plan()
+  And I go dental, vision and supplemental           # stepdefinitions.HomePageStepDefinition.i_go_dental_vision_and_supplemental()
+  And I click dental plans                           # stepdefinitions.HomePageStepDefinition.i_click_dental_plans()
+  Then I validate Legal notices is appeared properly # stepdefinitions.HomePageStepDefinition.i_validate_legal_notices_is_appeared_properly()
+
+@SmokeTest
+Scenario: Aetna Shop a plan functionality test  # src/test/java/features/HomePage.feature:42
+  Given I am in Geico home page                 # stepdefinitions.HomePageStepDefinition.i_am_in_geico_home_page()
+  When I click shop for a plan                  # stepdefinitions.HomePageStepDefinition.i_click_shop_for_a_plan()
+  And I go dental, vision and supplemental      # stepdefinitions.HomePageStepDefinition.i_go_dental_vision_and_supplemental()
+  And I click find a dentist                    # stepdefinitions.HomePageStepDefinition.i_click_find_a_dentist()
+  Then I validate You Can: is appeared properly # stepdefinitions.HomePageStepDefinition.i_validate_you_can_is_appeared_properly()
+
+@SmokeTest
+Scenario: Aetna Shop a plan functionality test                  # src/test/java/features/HomePage.feature:49
+  Given I am in Geico home page                                 # stepdefinitions.HomePageStepDefinition.i_am_in_geico_home_page()
+  When I click shop for a plan                                  # stepdefinitions.HomePageStepDefinition.i_click_shop_for_a_plan()
+  And I go dental, vision and supplemental                      # stepdefinitions.HomePageStepDefinition.i_go_dental_vision_and_supplemental()
+  And I click vision plans                                      # stepdefinitions.HomePageStepDefinition.i_click_vision_plans()
+  Then I validate Aetna Dental Direct plan is appeared properly # stepdefinitions.HomePageStepDefinition.i_validate_aetna_dental_direct_plan_is_appeared_properly()
+
+@SmokeTest
+Scenario: Aetna Shop a plan functionality test  # src/test/java/features/ShopAPlan.feature:7
+  Given I am in Geico home page                 # stepdefinitions.HomePageStepDefinition.i_am_in_geico_home_page()
+  When I click shop for a plan                  # stepdefinitions.HomePageStepDefinition.i_click_shop_for_a_plan()
+  And I go dental, vision and supplemental      # stepdefinitions.HomePageStepDefinition.i_go_dental_vision_and_supplemental()
+  And I click find an eye doctor                # stepdefinitions.HomePageStepDefinition.i_click_find_an_eye_doctor()
+  Then I validate You Can: is appeared properly # stepdefinitions.HomePageStepDefinition.i_validate_you_can_is_appeared_properly()
+
+@SmokeTest
+Scenario: Aetna Shop a plan functionality test  # src/test/java/features/ShopAPlan.feature:14
+  Given I am in Geico home page                 # stepdefinitions.HomePageStepDefinition.i_am_in_geico_home_page()
+  When I click shop for a plan                  # stepdefinitions.HomePageStepDefinition.i_click_shop_for_a_plan()
+  And I go dental, vision and supplemental      # stepdefinitions.HomePageStepDefinition.i_go_dental_vision_and_supplemental()
+  And I click supplemental plans                # stepdefinitions.HomePageStepDefinition.i_click_supplemental_plans()
+  Then I validate You Can: is appeared properly # stepdefinitions.HomePageStepDefinition.i_validate_you_can_is_appeared_properly()
+      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="textParagraph_191"]"}
+  (Session info: chrome=85.0.4183.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-6QSDTELI', ip: '192.168.1.185', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\lenis\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64139}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 12b668453b1b2d50ee9ae27bcf4c5313
+*** Element info: {Using=xpath, value=//*[@id="textParagraph_191"]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy25.getText(Unknown Source)
+	at aetnahome.HomePage.validateFindADentistCheck(HomePage.java:128)
+	at stepdefinitions.HomePageStepDefinition.i_validate_you_can_is_appeared_properly(HomePageStepDefinition.java:117)
+	at ✽.I validate You Can: is appeared properly(file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/ShopAPlan.feature:18)
+
+
+    Embedding Demo [image/png 618448 bytes]
+
+
+@SmokeTest
+Scenario: Aetna Shop a plan functionality test        # src/test/java/features/ShopAPlan.feature:21
+  Given I am in Geico home page                       # stepdefinitions.HomePageStepDefinition.i_am_in_geico_home_page()
+  When I click shop for a plan                        # stepdefinitions.HomePageStepDefinition.i_click_shop_for_a_plan()
+  And I go pharmacy element                           # stepdefinitions.HomePageStepDefinition.i_go_pharmacy_element()
+  And I click Get pharmacy plan information           # stepdefinitions.HomePageStepDefinition.i_click_get_pharmacy_plan_information()
+  Then I validate Aetna Medicare is appeared properly # stepdefinitions.HomePageStepDefinition.i_validate_aetna_medicare_is_appeared_properly()
+
+@SmokeTest
+Scenario: Aetna Shop a plan functionality test              # src/test/java/features/ShopAPlan.feature:28
+  Given I am in Geico home page                             # stepdefinitions.HomePageStepDefinition.i_am_in_geico_home_page()
+  When I click shop for a plan                              # stepdefinitions.HomePageStepDefinition.i_click_shop_for_a_plan()
+  And I go pharmacy element                                 # stepdefinitions.HomePageStepDefinition.i_go_pharmacy_element()
+  And I click find a pharmacy                               # stepdefinitions.HomePageStepDefinition.i_click_find_a_pharmacy()
+  Then I validate *Required Selections is appeared properly # stepdefinitions.HomePageStepDefinition.i_validate_required_selections_is_appeared_properly()
+
+@SmokeTest
+Scenario: Aetna Shop a plan functionality test           # src/test/java/features/ShopAPlan.feature:35
+  Given I am in Geico home page                          # stepdefinitions.HomePageStepDefinition.i_am_in_geico_home_page()
+  When I click shop for a plan                           # stepdefinitions.HomePageStepDefinition.i_click_shop_for_a_plan()
+  And I go pharmacy element                              # stepdefinitions.HomePageStepDefinition.i_go_pharmacy_element()
+  And I click find medicine and costs                    # stepdefinitions.HomePageStepDefinition.i_click_find_medicine_and_costs()
+  Then I validate Already a member? is appeared properly # stepdefinitions.HomePageStepDefinition.i_validate_already_a_member_is_appeared_properly()

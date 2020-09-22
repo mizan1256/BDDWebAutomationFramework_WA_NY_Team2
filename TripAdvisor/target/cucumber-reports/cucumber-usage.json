@@ -5,12 +5,12 @@
       {
         "name": "I am in Trip Advisor home page",
         "aggregatedDurations": {
-          "median": 7.4433393,
-          "average": 7.4433393
+          "median": 6.8553305,
+          "average": 6.8553305
         },
         "durations": [
           {
-            "duration": 7.4433393,
+            "duration": 6.8553305,
             "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TripAdvisor/src/test/java/features/TripAdvisor.feature:4"
           }
         ]
@@ -18,36 +18,36 @@
     ]
   },
   {
-    "source": "I click TravelForum",
+    "source": "I click on TravelForum",
     "steps": [
       {
-        "name": "I click TravelForum",
+        "name": "I click on TravelForum",
         "aggregatedDurations": {
-          "median": 3.1564704,
-          "average": 3.1564704
+          "median": 3.1263164,
+          "average": 3.1263164
         },
         "durations": [
           {
-            "duration": 3.1564704,
-            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TripAdvisor/src/test/java/features/TripAdvisor.feature:38"
+            "duration": 3.1263164,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TripAdvisor/src/test/java/features/TripAdvisor.feature:35"
           }
         ]
       }
     ]
   },
   {
-    "source": "I click Flights",
+    "source": "I click on Flights",
     "steps": [
       {
-        "name": "I click Flights",
+        "name": "I click on Flights",
         "aggregatedDurations": {
-          "median": 5.0111855,
-          "average": 5.0111855
+          "median": 4.3631812,
+          "average": 4.3631812
         },
         "durations": [
           {
-            "duration": 5.0111855,
-            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TripAdvisor/src/test/java/features/TripAdvisor.feature:39"
+            "duration": 4.3631812,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TripAdvisor/src/test/java/features/TripAdvisor.feature:36"
           }
         ]
       }
@@ -59,13 +59,13 @@
       {
         "name": "I enter Where from and To field",
         "aggregatedDurations": {
-          "median": 6.3437892,
-          "average": 6.3437892
+          "median": 6.2242094,
+          "average": 6.2242094
         },
         "durations": [
           {
-            "duration": 6.3437892,
-            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TripAdvisor/src/test/java/features/TripAdvisor.feature:40"
+            "duration": 6.2242094,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TripAdvisor/src/test/java/features/TripAdvisor.feature:37"
           }
         ]
       }
@@ -77,13 +77,13 @@
       {
         "name": "I enter departure and arrival date",
         "aggregatedDurations": {
-          "median": 7.1263351,
-          "average": 7.1263351
+          "median": 7.0815908,
+          "average": 7.0815908
         },
         "durations": [
           {
-            "duration": 7.1263351,
-            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TripAdvisor/src/test/java/features/TripAdvisor.feature:41"
+            "duration": 7.0815908,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TripAdvisor/src/test/java/features/TripAdvisor.feature:38"
           }
         ]
       }
@@ -95,31 +95,49 @@
       {
         "name": "I enter person field and close person field",
         "aggregatedDurations": {
-          "median": 2.434707,
-          "average": 2.434707
+          "median": 2.2625345,
+          "average": 2.2625345
         },
         "durations": [
           {
-            "duration": 2.434707,
-            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TripAdvisor/src/test/java/features/TripAdvisor.feature:42"
+            "duration": 2.2625345,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TripAdvisor/src/test/java/features/TripAdvisor.feature:39"
           }
         ]
       }
     ]
   },
   {
-    "source": "I click find flight button",
+    "source": "I click on find flight button",
     "steps": [
       {
-        "name": "I click find flight button",
+        "name": "I click on find flight button",
         "aggregatedDurations": {
-          "median": 0.0738855,
-          "average": 0.0738855
+          "median": 6.3659055,
+          "average": 6.3659055
         },
         "durations": [
           {
-            "duration": 0.0738855,
-            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TripAdvisor/src/test/java/features/TripAdvisor.feature:43"
+            "duration": 6.3659055,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TripAdvisor/src/test/java/features/TripAdvisor.feature:40"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify COVID-{int} Policies is appeared properly",
+    "steps": [
+      {
+        "name": "I verify COVID-19 Policies is appeared properly",
+        "aggregatedDurations": {
+          "median": 1.3892194,
+          "average": 1.3892194
+        },
+        "durations": [
+          {
+            "duration": 1.3892194,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TripAdvisor/src/test/java/features/TripAdvisor.feature:41"
           }
         ]
       }

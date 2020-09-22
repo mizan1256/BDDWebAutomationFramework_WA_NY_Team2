@@ -3,51 +3,27 @@
     "line": 1,
     "elements": [
       {
-        "line": 3,
+        "start_timestamp": "2020-09-22T05:00:40.587Z",
+        "line": 4,
         "name": "",
         "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 11584969400,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "duration": 19995500,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepdefinitions.UnitedAirStepDefinition.getInIt()"
-                }
-              }
-            ],
-            "line": 4,
-            "name": "I am in United Airlines home page",
-            "match": {
-              "location": "stepdefinitions.UnitedAirStepDefinition.i_am_in_united_airlines_home_page()"
-            },
-            "keyword": "Given "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-09-18T07:09:36.790Z",
-        "line": 57,
-        "name": "United Airlines Book Button Check",
-        "description": "",
-        "id": "united-airlines-home-page-functionality-test;united-airlines-book-button-check",
+        "id": "i-check-united-airlines-signin-functionality-test;",
         "after": [
           {
             "result": {
-              "duration": 746041800,
+              "duration": 1041075900,
               "status": "passed"
             },
             "match": {
               "location": "stepdefinitions.UnitedAirStepDefinition.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.UnitedAirFunctionStepDefinition.tearDown(io.cucumber.java.Scenario)"
             }
           }
         ],
@@ -56,13 +32,22 @@
         "steps": [
           {
             "result": {
-              "duration": 104840200,
+              "duration": 9847623200,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 1949200,
+                  "duration": 21926100,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.UnitedAirFunctionStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 4984000,
                   "status": "passed"
                 },
                 "match": {
@@ -70,22 +55,63 @@
                 }
               }
             ],
-            "line": 58,
-            "name": "I click on Book Button",
+            "line": 5,
+            "name": "I am in United Airlines home page",
             "match": {
-              "location": "stepdefinitions.UnitedAirStepDefinition.i_click_on_book_button()"
+              "location": "stepdefinitions.UnitedAirStepDefinition.i_am_in_united_airlines_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3358233600,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 996700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.UnitedAirFunctionStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 997000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.UnitedAirStepDefinition.getInIt()"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "I click on signIn button",
+            "match": {
+              "location": "stepdefinitions.UnitedAirFunctionStepDefinition.i_click_on_sign_in_button()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 235000000,
+              "duration": 9644720800,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 2000000,
+                  "duration": 997500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.UnitedAirFunctionStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 4981400,
                   "status": "passed"
                 },
                 "match": {
@@ -93,22 +119,30 @@
                 }
               }
             ],
-            "line": 59,
-            "name": "I click on Hotels Button",
+            "line": 7,
+            "name": "I click on join now and use title",
             "match": {
-              "location": "stepdefinitions.UnitedAirStepDefinition.i_click_on_hotels_button()"
+              "location": "stepdefinitions.UnitedAirFunctionStepDefinition.i_click_on_join_now_and_use_title()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 5456423100,
+              "duration": 9745520600,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 2002100,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.UnitedAirFunctionStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 996800,
                   "status": "passed"
                 },
                 "match": {
@@ -116,28 +150,82 @@
                 }
               }
             ],
-            "line": 60,
-            "name": "I enter \"Miami Beach\" in where to search box and submit",
+            "line": 8,
+            "name": "I use data in member information field",
             "match": {
-              "arguments": [
-                {
-                  "val": "\"Miami Beach\"",
-                  "offset": 8
+              "location": "stepdefinitions.UnitedAirFunctionStepDefinition.i_use_data_in_member_information_field(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "firstName",
+                  "middleName",
+                  "lastName",
+                  "date",
+                  "year"
+                ]
+              },
+              {
+                "cells": [
+                  "Mohammad",
+                  "Mujahidul",
+                  "Islam",
+                  "1",
+                  "1980"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 12325229800,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.UnitedAirFunctionStepDefinition.getInIt()"
                 }
-              ],
-              "location": "stepdefinitions.UnitedAirStepDefinition.i_enter_in_where_to_search_box_and_submit(java.lang.String)"
+              },
+              {
+                "result": {
+                  "duration": 1046000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.UnitedAirStepDefinition.getInIt()"
+                }
+              }
+            ],
+            "line": 11,
+            "name": "month and gender field is selected",
+            "match": {
+              "location": "stepdefinitions.UnitedAirFunctionStepDefinition.month_and_gender_field_is_selected()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 3687116500,
+              "duration": 35879200,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 1998100,
+                  "duration": 999000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.UnitedAirFunctionStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 993900,
                   "status": "passed"
                 },
                 "match": {
@@ -145,10 +233,10 @@
                 }
               }
             ],
-            "line": 61,
-            "name": "I validate Miami Beach landing properly",
+            "line": 12,
+            "name": "I validate Contact Information is appeared properly",
             "match": {
-              "location": "stepdefinitions.UnitedAirStepDefinition.i_validate_miami_beach_landing_properly()"
+              "location": "stepdefinitions.UnitedAirFunctionStepDefinition.i_validate_contact_information_is_appeared_properly()"
             },
             "keyword": "Then "
           }
@@ -160,11 +248,11 @@
         ]
       }
     ],
-    "name": "United Airlines home page functionality test",
+    "name": "I check United Airlines signIn functionality test",
     "description": "",
-    "id": "united-airlines-home-page-functionality-test",
+    "id": "i-check-united-airlines-signin-functionality-test",
     "keyword": "Feature",
-    "uri": "file:src/test/java/features/UnitedAirlinesHome.feature",
+    "uri": "file:src/test/java/features/UnitedAirFunction.feature",
     "tags": []
   }
 ]

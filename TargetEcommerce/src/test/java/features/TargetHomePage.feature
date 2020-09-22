@@ -10,19 +10,19 @@ Feature: TargetEcommerce Home page Functionality
     Then I validate “Samsung Phone” is appeared properly
 
   @SmokeTest
-  Scenario: Target home page search box functionality test
+  Scenario: Target home page Clearance Tab functionality test
     When I click on clearance tab
     And I click on Furniture clearance
     Then I validate “Filter results” is appeared properly
 
   @SmokeTest
-  Scenario: Target home page search box functionality test
+  Scenario: Target home page Registry Tab functionality test
     When I click on registry tab
     And I click on Create a Baby box
     Then I validate EASY FOR EVERYONE is appeared properly
 
   @SmokeTest
-  Scenario: TargetEcommerce Shopping Cart functionality test with validate
+  Scenario: TargetEcommerce Shopping Cart functionality test with valid data
     When I do necessary steps to Target create Account page
     And I enter invalid credentials
       | Email                 | firstName | lastName | phoneNumber | password   |
@@ -31,7 +31,7 @@ Feature: TargetEcommerce Home page Functionality
     Then I validate Keep me signed in message
 
   @SmokeTest
-  Scenario: TargetEcommerce Shopping Cart functionality test with validate
+  Scenario: TargetEcommerce Shopping Cart functionality test with invalid data
     When I do necessary steps to land sign In page
     And I enter invalid email in email field
     And I enter invalid password in email field
@@ -39,7 +39,7 @@ Feature: TargetEcommerce Home page Functionality
 #    Then I validate show message
 
   @SmokeTest
-  Scenario: TargetEcommerce Create Account functionality test with validate
+  Scenario: TargetEcommerce Create Account functionality test with valid data
     When I do necessary steps to land on User info page
     And I enter user credentials
       | Email                 | firstName | lastName | phoneNumber | password   |

@@ -52,7 +52,7 @@ public class TripAdvisorHomePage extends WebAPI {
     WebElement closeBtn;
     @FindBy(xpath = "//div[@class='ui_column submit_wrap']")
     WebElement findFlight;
-    @FindBy(xpath = "//*[@id=\"leftRailFilter\"]/div/div/div/div/div[4]")
+    @FindBy(xpath = "//div[@class='ui_header h2 _1yP-mZcd 'and text()='COVID-19 Policies']")
     WebElement travelForumText;
     @FindBy(xpath = "//*[@id=\"taplc_trip_search_home_flights_0\"]/div[2]/div/div[1]/ul/li[2]/div/a/text()")
     WebElement oneWay;
@@ -153,14 +153,14 @@ public class TripAdvisorHomePage extends WebAPI {
         image.isDisplayed();
     }
 
-//    public void tripAdvisorHotelTabButton() throws InterruptedException {
-//        clickByXpath(tripAdvisorHotelTab);
-//        Thread.sleep(3000);
-//        typeOnElementNEnter(tripAdvisorWhereToSearchBox, "Texas");
-//        Thread.sleep(3000);
-//        clickByXpath(tripAdvisorHotelButton);
-//        Thread.sleep(3000);
-//    }
+    public void tripAdvisorHotelTabButton() throws InterruptedException {
+        clickByXpath(tripAdvisorHotelTab);
+        Thread.sleep(3000);
+        typeOnElementNEnter(tripAdvisorWhereToSearchBox, "Texas");
+        Thread.sleep(3000);
+        clickByXpath(tripAdvisorHotelButton);
+        Thread.sleep(3000);
+    }
 
     /**
      * Travel Forum
@@ -201,6 +201,8 @@ public class TripAdvisorHomePage extends WebAPI {
 
     public void findFlightBox() throws InterruptedException {
         findFlight.click();
+        sleepFor(5);
+        driver.navigate().to("https://www.tripadvisor.com/CheapFlightsSearchResults-g293936-a_airport0.NYC-a_airport1.DAC-a_cos.0-a_date0.20200930-a_date1.20201002-a_formImp.01c14c3a__2D__87b8__2D__46eb__2D__8916__2D__6a4f771765c3__2E__8699-a_nearby0.no-a_nearby1.no-a_nonstop.no-a_pax0.a-a_pax1.a-a_travelers.2-Dhaka_City_Dhaka_Division.html");
     }
 
     public void validateTravelForum() {

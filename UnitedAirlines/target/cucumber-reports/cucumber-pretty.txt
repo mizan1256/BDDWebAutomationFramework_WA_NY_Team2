@@ -1,8 +1,9 @@
 
 @SmokeTest
-Scenario: United Airlines Book Button Check                   # src/test/java/features/UnitedAirlinesHome.feature:57
-  Given I am in United Airlines home page                     # stepdefinitions.UnitedAirStepDefinition.i_am_in_united_airlines_home_page()
-  When I click on Book Button                                 # stepdefinitions.UnitedAirStepDefinition.i_click_on_book_button()
-  And I click on Hotels Button                                # stepdefinitions.UnitedAirStepDefinition.i_click_on_hotels_button()
-  And I enter "Miami Beach" in where to search box and submit # stepdefinitions.UnitedAirStepDefinition.i_enter_in_where_to_search_box_and_submit(java.lang.String)
-  Then I validate Miami Beach landing properly                # stepdefinitions.UnitedAirStepDefinition.i_validate_miami_beach_landing_properly()
+Scenario:                                                  # src/test/java/features/UnitedAirFunction.feature:4
+  Given I am in United Airlines home page                  # stepdefinitions.UnitedAirStepDefinition.i_am_in_united_airlines_home_page()
+  When I click on signIn button                            # stepdefinitions.UnitedAirFunctionStepDefinition.i_click_on_sign_in_button()
+  And I click on join now and use title                    # stepdefinitions.UnitedAirFunctionStepDefinition.i_click_on_join_now_and_use_title()
+  And I use data in member information field               # stepdefinitions.UnitedAirFunctionStepDefinition.i_use_data_in_member_information_field(io.cucumber.datatable.DataTable)
+  And month and gender field is selected                   # stepdefinitions.UnitedAirFunctionStepDefinition.month_and_gender_field_is_selected()
+  Then I validate Contact Information is appeared properly # stepdefinitions.UnitedAirFunctionStepDefinition.i_validate_contact_information_is_appeared_properly()

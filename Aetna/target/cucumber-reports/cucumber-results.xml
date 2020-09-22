@@ -1,8 +1,38 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="50.585">
-    <testcase classname="Aetna home page functionality test" name="Aetna Shop a plan functionality test" time="50.238">
-        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;main&quot;]/div[4]/div/div/div[1]/div/div/h2&quot;}&#10;  (Session info: chrome=85.0.4183.83)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LAPTOP-6QSDTELI', ip: '192.168.1.185', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\lenis\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55511}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 22adbc6210706d672dd2856035a9f4cd&#10;*** Element info: {Using=xpath, value=//*[@id=&quot;main&quot;]/div[4]/div/div/div[1]/div/div/h2}" type="org.openqa.selenium.NoSuchElementException">
-            <![CDATA[Given i am in home page.....................................................passed
+<testsuite errors="0" failures="2" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="12" time="192.712">
+    <testcase classname="Aetna home page functionality test" name="Aetna Shop a plan functionality test" time="10.629">
+        <system-out>
+            <![CDATA[Given I am in Geico home page...............................................passed
+When I click shop for a plan................................................passed
+And I go Health coverage....................................................passed
+And I click Student plans...................................................passed
+Then I validate "Helpful links" is appeared properly........................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Aetna home page functionality test" name="Aetna Shop a plan functionality test 2" time="9.024">
+        <system-out>
+            <![CDATA[Given I am in Geico home page...............................................passed
+When I click shop for a plan................................................passed
+And I go Health coverage....................................................passed
+And I click Plans through an employer.......................................passed
+Then I validate Legal notices is appeared properly..........................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Aetna home page functionality test" name="Aetna Shop a plan functionality test 3" time="9.425">
+        <system-out>
+            <![CDATA[Given I am in Geico home page...............................................passed
+When I click shop for a plan................................................passed
+And I go Health coverage....................................................passed
+And I click International Plans.............................................passed
+Then I validate Aetna Well-being is appeared properly.......................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Aetna home page functionality test" name="Aetna Shop a plan functionality test 4" time="49.397">
+        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;main&quot;]/div[4]/div/div/div[1]/div/div/h2&quot;}&#10;  (Session info: chrome=85.0.4183.102)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LAPTOP-6QSDTELI', ip: '192.168.1.185', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\lenis\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63593}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 186c70c1043c7d75954319ce5285ed30&#10;*** Element info: {Using=xpath, value=//*[@id=&quot;main&quot;]/div[4]/div/div/div[1]/div/div/h2}" type="org.openqa.selenium.NoSuchElementException">
+            <![CDATA[Given I am in Geico home page...............................................passed
 When I click shop for a plan................................................passed
 And I go Health coverage....................................................passed
 And I click find a doctor...................................................passed
@@ -10,13 +40,13 @@ Then I validate Already a member? is appeared properly......................fail
 
 StackTrace:
 org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="main"]/div[4]/div/div/div[1]/div/div/h2"}
-  (Session info: chrome=85.0.4183.83)
+  (Session info: chrome=85.0.4183.102)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LAPTOP-6QSDTELI', ip: '192.168.1.185', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\lenis\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55511}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 22adbc6210706d672dd2856035a9f4cd
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\lenis\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63593}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 186c70c1043c7d75954319ce5285ed30
 *** Element info: {Using=xpath, value=//*[@id="main"]/div[4]/div/div/div[1]/div/div/h2}
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -40,5 +70,116 @@ Session ID: 22adbc6210706d672dd2856035a9f4cd
 	at ✽.I validate Already a member? is appeared properly(file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/HomePage.feature:32)
 ]]>
         </failure>
+    </testcase>
+    <testcase classname="Aetna home page functionality test" name="Aetna Shop a plan functionality test 5" time="9.016">
+        <system-out>
+            <![CDATA[Given I am in Geico home page...............................................passed
+When I click shop for a plan................................................passed
+And I go dental, vision and supplemental....................................passed
+And I click dental plans....................................................passed
+Then I validate Legal notices is appeared properly..........................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Aetna home page functionality test" name="Aetna Shop a plan functionality test 6" time="9.982">
+        <system-out>
+            <![CDATA[Given I am in Geico home page...............................................passed
+When I click shop for a plan................................................passed
+And I go dental, vision and supplemental....................................passed
+And I click find a dentist..................................................passed
+Then I validate You Can: is appeared properly...............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Aetna home page functionality test" name="Aetna Shop a plan functionality test 7" time="8.982">
+        <system-out>
+            <![CDATA[Given I am in Geico home page...............................................passed
+When I click shop for a plan................................................passed
+And I go dental, vision and supplemental....................................passed
+And I click vision plans....................................................passed
+Then I validate Aetna Dental Direct plan is appeared properly...............passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Aetna home page functionality test" name="Aetna Shop a plan functionality test" time="11.509">
+        <system-out>
+            <![CDATA[Given I am in Geico home page...............................................passed
+When I click shop for a plan................................................passed
+And I go dental, vision and supplemental....................................passed
+And I click find an eye doctor..............................................passed
+Then I validate You Can: is appeared properly...............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Aetna home page functionality test" name="Aetna Shop a plan functionality test 2" time="48.878">
+        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;textParagraph_191&quot;]&quot;}&#10;  (Session info: chrome=85.0.4183.102)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LAPTOP-6QSDTELI', ip: '192.168.1.185', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\lenis\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64139}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 12b668453b1b2d50ee9ae27bcf4c5313&#10;*** Element info: {Using=xpath, value=//*[@id=&quot;textParagraph_191&quot;]}" type="org.openqa.selenium.NoSuchElementException">
+            <![CDATA[Given I am in Geico home page...............................................passed
+When I click shop for a plan................................................passed
+And I go dental, vision and supplemental....................................passed
+And I click supplemental plans..............................................passed
+Then I validate You Can: is appeared properly...............................failed
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="textParagraph_191"]"}
+  (Session info: chrome=85.0.4183.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-6QSDTELI', ip: '192.168.1.185', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\lenis\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64139}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 12b668453b1b2d50ee9ae27bcf4c5313
+*** Element info: {Using=xpath, value=//*[@id="textParagraph_191"]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy25.getText(Unknown Source)
+	at aetnahome.HomePage.validateFindADentistCheck(HomePage.java:128)
+	at stepdefinitions.HomePageStepDefinition.i_validate_you_can_is_appeared_properly(HomePageStepDefinition.java:117)
+	at ✽.I validate You Can: is appeared properly(file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/ShopAPlan.feature:18)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Aetna home page functionality test" name="Aetna Shop a plan functionality test 3" time="8.221">
+        <system-out>
+            <![CDATA[Given I am in Geico home page...............................................passed
+When I click shop for a plan................................................passed
+And I go pharmacy element...................................................passed
+And I click Get pharmacy plan information...................................passed
+Then I validate Aetna Medicare is appeared properly.........................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Aetna home page functionality test" name="Aetna Shop a plan functionality test 4" time="8.643">
+        <system-out>
+            <![CDATA[Given I am in Geico home page...............................................passed
+When I click shop for a plan................................................passed
+And I go pharmacy element...................................................passed
+And I click find a pharmacy.................................................passed
+Then I validate *Required Selections is appeared properly...................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Aetna home page functionality test" name="Aetna Shop a plan functionality test 5" time="8.56">
+        <system-out>
+            <![CDATA[Given I am in Geico home page...............................................passed
+When I click shop for a plan................................................passed
+And I go pharmacy element...................................................passed
+And I click find medicine and costs.........................................passed
+Then I validate Already a member? is appeared properly......................passed
+]]>
+        </system-out>
     </testcase>
 </testsuite>

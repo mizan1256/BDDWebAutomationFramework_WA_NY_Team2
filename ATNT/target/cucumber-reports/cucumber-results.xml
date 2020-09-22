@@ -1,6 +1,85 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="6" time="123.968">
-    <testcase classname="Feature: Att HomePage Functionality check" name="Atnt SearchBox Functionality check with multiple products" time="13.962">
+<testsuite errors="0" failures="2" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="17" time="257.254">
+    <testcase classname="Feature: Att HomePage Functionality check" name="Att SearchBox Functionality check with valid data" time="13.087">
+        <system-out>
+            <![CDATA[Given I am in at&t homepage.................................................passed
+And I enter Samsung Phones in searchBox.....................................passed
+When I click searchButton...................................................passed
+Then I verify Samsung Phones is appear properly.............................passed
+And I verify page title as Samsung Phones...................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Feature: Att HomePage Functionality check" name="Att deals button Functionality check with valid data" time="10.841">
+        <system-out>
+            <![CDATA[Given I am in at&t homepage.................................................passed
+When I click Deals Button...................................................passed
+Then I verify Wireless is appear properly...................................passed
+And I verify page title as AT&T Deals on Phones, Wireless Plans, Internet & TV Services.passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Feature: Att HomePage Functionality check" name="Att Wireless button Functionality check with valid data" time="10.628">
+        <system-out>
+            <![CDATA[Given I am in at&t homepage.................................................passed
+When I click Wireless Button................................................passed
+Then I verify LEARN HOW TO is appear properly...............................passed
+And I verify page title as AT&T Wireless – Latest Phones & Best Wireless Plans.passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Feature: Att HomePage Functionality check" name="Att Internet button Functionality check with valid data" time="10.701">
+        <system-out>
+            <![CDATA[Given I am in at&t homepage.................................................passed
+When I click internet Button................................................passed
+Then I verify AT&T INTERNET is appear properly..............................passed
+And I verify page title as AT&T Internet Plans - Home Internet - AT&T® Official Site.passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Feature: Att HomePage Functionality check" name="Att TV button Functionality check with valid data" time="20.404">
+        <system-out>
+            <![CDATA[Given I am in at&t homepage.................................................passed
+When I click TV Button......................................................passed
+And I click on shop now button..............................................passed
+Then I verify Choose a TV package is appear properly........................passed
+And I verify page title as Shop AT&T Bundles................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Feature: Att HomePage Functionality check" name="Atnt SearchBox Functionality check with multiple products" time="13.762">
+        <system-out>
+            <![CDATA[Given I am in at&t homepage.................................................passed
+And I enter "AT&T PREPAID" in searchBox.....................................passed
+When I click searchButton...................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Feature: Att HomePage Functionality check" name="Atnt SearchBox Functionality check with multiple products 2" time="12.463">
+        <system-out>
+            <![CDATA[Given I am in at&t homepage.................................................passed
+And I enter "AT&T Deals" in searchBox.......................................passed
+When I click searchButton...................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Feature: Att HomePage Functionality check" name="Atnt SearchBox Functionality check with multiple products 3" time="13.495">
+        <system-out>
+            <![CDATA[Given I am in at&t homepage.................................................passed
+And I enter "TV & internet bundles" in searchBox............................passed
+When I click searchButton...................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Feature: Att HomePage Functionality check" name="Atnt SearchBox Functionality check with multiple products 4" time="13.26">
+        <system-out>
+            <![CDATA[Given I am in at&t homepage.................................................passed
+And I enter "Upgrade a device" in searchBox.................................passed
+When I click searchButton...................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Feature: Att HomePage Functionality check" name="Atnt SearchBox Functionality check with multiple products 5" time="10.851">
         <system-out>
             <![CDATA[Given I am in at&t homepage.................................................passed
 And I enter "Samsung Phones" in searchBox...................................passed
@@ -9,7 +88,7 @@ Then I verify "\"Samsung Phones\"" and "Results for Samsung Phones - AT&T Search
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Feature: Att HomePage Functionality check" name="Atnt SearchBox Functionality check with multiple products 2" time="13.408">
+    <testcase classname="Feature: Att HomePage Functionality check" name="Atnt SearchBox Functionality check with multiple products 6" time="14.436">
         <system-out>
             <![CDATA[Given I am in at&t homepage.................................................passed
 And I enter "Apple Watches" in searchBox....................................passed
@@ -18,7 +97,7 @@ Then I verify "\"Apple Watches\"" and "Results for Apple Watches - AT&T Search".
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Feature: Att HomePage Functionality check" name="Atnt SearchBox Functionality check with multiple products 3" time="12.868">
+    <testcase classname="Feature: Att HomePage Functionality check" name="Atnt SearchBox Functionality check with multiple products 7" time="13.711">
         <system-out>
             <![CDATA[Given I am in at&t homepage.................................................passed
 And I enter "Apple ipads" in searchBox......................................passed
@@ -27,7 +106,7 @@ Then I verify "\"Apple ipads\"" and "Results for Apple ipads - AT&T Search".pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Feature: Att HomePage Functionality check" name="Atnt SearchBox Functionality check with multiple products 4" time="14.447">
+    <testcase classname="Feature: Att HomePage Functionality check" name="Atnt SearchBox Functionality check with multiple products 8" time="13.93">
         <system-out>
             <![CDATA[Given I am in at&t homepage.................................................passed
 And I enter "iphone 11 Pro Max" in searchBox................................passed
@@ -36,7 +115,7 @@ Then I verify "\"iphone 11 Pro Max\"" and "Results for iphone 11 Pro Max - AT&T 
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Feature: Att HomePage Functionality check" name="Atnt SearchBox Functionality check with multiple products 5" time="17.259">
+    <testcase classname="Feature: Att HomePage Functionality check" name="Atnt SearchBox Functionality check with multiple products 9" time="12.531">
         <system-out>
             <![CDATA[Given I am in at&t homepage.................................................passed
 And I enter "Samsung Tablets" in searchBox..................................passed
@@ -45,8 +124,20 @@ Then I verify "\"Samsung Tablets\"" and "Results for Samsung Tablets - AT&T Sear
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Atnt HomePage Account functionality check" name="Atnt HomePage signUp functionality check with invalid data" time="51.613">
-        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;recaptcha-anchor&quot;]/div[4]&quot;}&#10;  (Session info: chrome=85.0.4183.83)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LAPTOP-6QSDTELI', ip: '192.168.1.185', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\lenis\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63474}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 53c060323cc85e2d3e5b41a9b815bba6&#10;*** Element info: {Using=xpath, value=//*[@id=&quot;recaptcha-anchor&quot;]/div[4]}" type="org.openqa.selenium.NoSuchElementException">
+    <testcase classname="Atnt HomePage Account functionality check" name="Atnt HomePage signUp functionality check with invalid data" time="12.32">
+        <system-out>
+            <![CDATA[Given I am in at&t homepage.................................................passed
+And I click the Account dropdown button.....................................passed
+And I click signIn..........................................................passed
+And I enter admin1234 in user Id box........................................passed
+And I enter admin1234 in password box.......................................passed
+Then I verified "Sign In" ia appeared properly..............................passed
+And I verify page title as Login Screen.....................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Atnt HomePage Account functionality check" name="Atnt HomePage signUp functionality check with invalid data 2" time="52.003">
+        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;recaptcha-anchor&quot;]/div[4]&quot;}&#10;  (Session info: chrome=85.0.4183.102)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LAPTOP-6QSDTELI', ip: '192.168.1.185', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\lenis\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49851}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 8c54953712f6a81c16c5d6afaefff36e&#10;*** Element info: {Using=xpath, value=//*[@id=&quot;recaptcha-anchor&quot;]/div[4]}" type="org.openqa.selenium.NoSuchElementException">
             <![CDATA[Given I am in at&t homepage.................................................passed
 And I click the Account dropdown button.....................................passed
 And I click Pay without signing in..........................................passed
@@ -56,13 +147,13 @@ And I click capcha box......................................................fail
 
 StackTrace:
 org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="recaptcha-anchor"]/div[4]"}
-  (Session info: chrome=85.0.4183.83)
+  (Session info: chrome=85.0.4183.102)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LAPTOP-6QSDTELI', ip: '192.168.1.185', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\lenis\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63474}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 53c060323cc85e2d3e5b41a9b815bba6
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\lenis\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49851}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 8c54953712f6a81c16c5d6afaefff36e
 *** Element info: {Using=xpath, value=//*[@id="recaptcha-anchor"]/div[4]}
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -84,6 +175,22 @@ Session ID: 53c060323cc85e2d3e5b41a9b815bba6
 	at registration.RegistrationPage.capChaClick(RegistrationPage.java:89)
 	at stepdefinitions.RegistrationStepDefinition.i_click_capcha_box(RegistrationStepDefinition.java:88)
 	at ✽.I click capcha box(file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/RegistrationPage.feature:22)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Atnt HomePage Account functionality check" name="Atnt HomePage signUp functionality check with invalid data 3" time="8.269">
+        <failure message="The scenario has pending or undefined step(s)" type="io.cucumber.java.PendingException">
+            <![CDATA[Given I am in at&t homepage.................................................passed
+And I click the Account dropdown button.....................................passed
+And I click Account overview................................................passed
+And I click Create one now..................................................passed
+And I click Wireless radio button...........................................pending
+And I click continue box....................................................skipped
+And I type phone number in AT&T phone number box............................skipped
+And I type 5 digit zip code in Billing zip code Box.........................skipped
+When I click continue button................................................skipped
+Then I verified "Welcome" ia appeared properly..............................skipped
+And I verify page title as Create or link an ID.............................skipped
 ]]>
         </failure>
     </testcase>
