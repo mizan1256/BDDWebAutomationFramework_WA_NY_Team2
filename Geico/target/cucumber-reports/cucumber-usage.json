@@ -1,234 +1,71 @@
 [
   {
-    "source": "I am on Geico homepage",
+    "source": "I am on Geico Homepage",
     "steps": [
       {
-        "name": "I am on Geico homepage",
+        "name": "I am on Geico Homepage",
         "aggregatedDurations": {
-          "median": 6.6381643,
-          "average": 6.9449018
+          "median": 7.2664743,
+          "average": 7.2664743
         },
         "durations": [
           {
-            "duration": 7.9281341,
-            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:77"
-          },
-          {
-            "duration": 7.6158909,
-            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:77"
-          },
-          {
-            "duration": 6.5871454,
-            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:77"
-          },
-          {
-            "duration": 6.4635771,
-            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:77"
-          },
-          {
-            "duration": 6.6891832,
-            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:77"
-          },
-          {
-            "duration": 6.3854801,
-            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:77"
+            "duration": 7.2664743,
+            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/Geico.feature:8"
           }
         ]
       }
     ]
   },
   {
-    "source": "I click on startHere",
+    "source": "I click on Career button",
     "steps": [
       {
-        "name": "I click on startHere",
+        "name": "I click on Career button",
         "aggregatedDurations": {
-          "median": 2.11196005,
-          "average": 2.304267033
+          "median": 4.7255673,
+          "average": 4.7255673
         },
         "durations": [
           {
-            "duration": 2.1326236,
-            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:78"
-          },
-          {
-            "duration": 3.1890291,
-            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:78"
-          },
-          {
-            "duration": 2.0912965,
-            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:78"
-          },
-          {
-            "duration": 2.0493566,
-            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:78"
-          },
-          {
-            "duration": 2.0190319,
-            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:78"
-          },
-          {
-            "duration": 2.3442645,
-            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:78"
+            "duration": 4.7255673,
+            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/Geico.feature:9"
           }
         ]
       }
     ]
   },
   {
-    "source": "I enter {string}, {string} and {string}",
+    "source": "I Click on Customer Service Button",
     "steps": [
       {
-        "name": "I enter \"15170\", \"02141004\" and \"10045\"",
+        "name": "I Click on Customer Service Button",
         "aggregatedDurations": {
-          "median": 0.7655128,
-          "average": 0.7655128
+          "median": 4.455076,
+          "average": 4.455076
         },
         "durations": [
           {
-            "duration": 0.7655128,
-            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:79"
-          }
-        ]
-      },
-      {
-        "name": "I enter \"12434\", \"0319919\" and \"10322\"",
-        "aggregatedDurations": {
-          "median": 0.7604766,
-          "average": 0.7604766
-        },
-        "durations": [
-          {
-            "duration": 0.7604766,
-            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:79"
-          }
-        ]
-      },
-      {
-        "name": "I enter \"12314\", \"03191996\" and \"10326\"",
-        "aggregatedDurations": {
-          "median": 0.7224195,
-          "average": 0.7224195
-        },
-        "durations": [
-          {
-            "duration": 0.7224195,
-            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:79"
-          }
-        ]
-      },
-      {
-        "name": "I enter \"12315\", \"03191296\" and \"10329\"",
-        "aggregatedDurations": {
-          "median": 0.7747966,
-          "average": 0.7747966
-        },
-        "durations": [
-          {
-            "duration": 0.7747966,
-            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:79"
-          }
-        ]
-      },
-      {
-        "name": "I enter \"12316\", \"01191996\" and \"10328\"",
-        "aggregatedDurations": {
-          "median": 0.6510899,
-          "average": 0.6510899
-        },
-        "durations": [
-          {
-            "duration": 0.6510899,
-            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:79"
-          }
-        ]
-      },
-      {
-        "name": "I enter \"12317\", \"05191996\" and \"10327\"",
-        "aggregatedDurations": {
-          "median": 0.6053818,
-          "average": 0.6053818
-        },
-        "durations": [
-          {
-            "duration": 0.6053818,
-            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:79"
+            "duration": 4.455076,
+            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/Geico.feature:10"
           }
         ]
       }
     ]
   },
   {
-    "source": "I click continue",
+    "source": "I validate Customer Service Careers text appear Properly",
     "steps": [
       {
-        "name": "I click continue",
+        "name": "I validate Customer Service Careers text appear Properly",
         "aggregatedDurations": {
-          "median": 0.1077125,
-          "average": 0.108298116
+          "median": 0.029921,
+          "average": 0.029921
         },
         "durations": [
           {
-            "duration": 0.1077169,
-            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:80"
-          },
-          {
-            "duration": 0.0987364,
-            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:80"
-          },
-          {
-            "duration": 0.1256656,
-            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:80"
-          },
-          {
-            "duration": 0.1077081,
-            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:80"
-          },
-          {
-            "duration": 0.1092302,
-            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:80"
-          },
-          {
-            "duration": 0.1007315,
-            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:80"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "I verify policyNumber on screen",
-    "steps": [
-      {
-        "name": "I verify policyNumber on screen",
-        "aggregatedDurations": {
-          "median": 0.03390885,
-          "average": 0.037727483
-        },
-        "durations": [
-          {
-            "duration": 0.0638268,
-            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:81"
-          },
-          {
-            "duration": 0.0378974,
-            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:81"
-          },
-          {
-            "duration": 0.0299203,
-            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:81"
-          },
-          {
-            "duration": 0.0379137,
-            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:81"
-          },
-          {
-            "duration": 0.0298806,
-            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:81"
-          },
-          {
-            "duration": 0.0269261,
-            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:81"
+            "duration": 0.029921,
+            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/Geico.feature:11"
           }
         ]
       }

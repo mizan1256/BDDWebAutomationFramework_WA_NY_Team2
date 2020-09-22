@@ -36,10 +36,7 @@ public class SearchBoxStepDefinition extends WebAPI {
      *
      * @param
      */
-    @Given("I am in att homepage")
-    public void i_am_in_att_homepage() throws IOException {
-        openBrowser("https://www.att.com/");
-    }
+
     @Given("I enter Apple iPhone {int} in searchBox")
     public void i_enter_iphone_in_search_box() {
 

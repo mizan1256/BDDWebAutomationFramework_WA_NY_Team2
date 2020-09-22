@@ -1,26 +1,23 @@
 Feature:Geico homePage functionality check
 
-#  Background:I am on Geico homepage
-
-  @Pending
-  Scenario: Geico searchBox functionality Check
+  Background:I am on Geico homepage
     Given I am on Geico homepage
+
+#  @SmokeTest
+  Scenario: Geico searchBox functionality Check
     And I click searchlogo
     And I enter motorcycle in searchBox
     When I click searchButton
     Then I verify siteSearchText
-
-  @Pending
+#  @SmokeTest
   Scenario: Geico searchBox functionality Check
-    Given I am on Geico homepage
     And I click searchlogo
     And I enter "motorcycle" in searchBox
     When I click searchButton
     Then I verify siteSearchText
 
-  @Pending
+#  @SmokeTest
   Scenario Outline: Geico searchBox functionality Check
-    Given I am on Geico homepage
     And I click searchlogo
     And I enter "<searchItem>" in searchBox
     When I click searchButton
@@ -35,9 +32,8 @@ Feature:Geico homePage functionality check
       | Flood Insurance      |
       | Boat Insurance       |
 
-  @Pending
+#  @SmokeTest
   Scenario: Geico login functionality Check
-    Given I am on Geico homepage
     And I choose click on the arrow to choose policy
     And I choose accessPolicy
     And I click on LoginOption
@@ -45,10 +41,8 @@ Feature:Geico homePage functionality check
     When I click loginButton
     Then I verify title
 
-
-  @Pending
+#  @SmokeTest
   Scenario Outline: Geico login functionality Check
-    Given I am on Geico homepage
     And I choose click on the arrow to choose policy
     And I choose accessPolicy
     And I click on LoginOption
@@ -64,17 +58,15 @@ Feature:Geico homePage functionality check
       | stt1324   | Ewfg234     |
       | stt1325   | 12424fer53  |
 
-  @Pending
+#  @SmokeTest
   Scenario: Geico login create account check with variable
-    Given I am on Geico homepage
     And I click on startHere
     And I enter "policyNumber", "dateOfBirth" and "zipCode"
     When I click continue
     Then I verify errorText on screen
 
-  @Regression
+#  @SmokeTest
   Scenario Outline: Geico login create account check with multiple variable
-    Given I am on Geico homepage
     And I click on startHere
     And I enter "<policyNumber>", "<dateOfBirth>" and "<zipCode>"
     When I click continue
@@ -82,7 +74,7 @@ Feature:Geico homePage functionality check
     Examples:
       | policyNumber | dateOfBirth | zipCode |
       | 15170        | 02141004    | 10045   |
-      | 12434       | 0319919     | 10322   |
+      | 12434        | 0319919     | 10322   |
       | 12314        | 03191996    | 10326   |
       | 12315        | 03191296    | 10329   |
       | 12316        | 01191996    | 10328   |

@@ -1,48 +1,7 @@
 
-@Regression
-Scenario Outline: Geico login create account check with multiple variable # src/test/java/features/GeicoHome.feature:84
-  Given I am on Geico homepage                                            # stepdefinitions.HomeStepDefinition.i_am_on_geico_homepage()
-  And I click on startHere                                                # stepdefinitions.HomeStepDefinition.i_click_on_start_here()
-  And I enter "15170", "02141004" and "10045"                             # stepdefinitions.HomeStepDefinition.i_enter_and(java.lang.String,java.lang.String,java.lang.String)
-  When I click continue                                                   # stepdefinitions.HomeStepDefinition.i_click_continue()
-  Then I verify policyNumber on screen                                    # stepdefinitions.HomeStepDefinition.i_verify_policy_number_on_screen()
-
-@Regression
-Scenario Outline: Geico login create account check with multiple variable # src/test/java/features/GeicoHome.feature:85
-  Given I am on Geico homepage                                            # stepdefinitions.HomeStepDefinition.i_am_on_geico_homepage()
-  And I click on startHere                                                # stepdefinitions.HomeStepDefinition.i_click_on_start_here()
-  And I enter "12434", "0319919" and "10322"                              # stepdefinitions.HomeStepDefinition.i_enter_and(java.lang.String,java.lang.String,java.lang.String)
-  When I click continue                                                   # stepdefinitions.HomeStepDefinition.i_click_continue()
-  Then I verify policyNumber on screen                                    # stepdefinitions.HomeStepDefinition.i_verify_policy_number_on_screen()
-
-@Regression
-Scenario Outline: Geico login create account check with multiple variable # src/test/java/features/GeicoHome.feature:86
-  Given I am on Geico homepage                                            # stepdefinitions.HomeStepDefinition.i_am_on_geico_homepage()
-  And I click on startHere                                                # stepdefinitions.HomeStepDefinition.i_click_on_start_here()
-  And I enter "12314", "03191996" and "10326"                             # stepdefinitions.HomeStepDefinition.i_enter_and(java.lang.String,java.lang.String,java.lang.String)
-  When I click continue                                                   # stepdefinitions.HomeStepDefinition.i_click_continue()
-  Then I verify policyNumber on screen                                    # stepdefinitions.HomeStepDefinition.i_verify_policy_number_on_screen()
-
-@Regression
-Scenario Outline: Geico login create account check with multiple variable # src/test/java/features/GeicoHome.feature:87
-  Given I am on Geico homepage                                            # stepdefinitions.HomeStepDefinition.i_am_on_geico_homepage()
-  And I click on startHere                                                # stepdefinitions.HomeStepDefinition.i_click_on_start_here()
-  And I enter "12315", "03191296" and "10329"                             # stepdefinitions.HomeStepDefinition.i_enter_and(java.lang.String,java.lang.String,java.lang.String)
-  When I click continue                                                   # stepdefinitions.HomeStepDefinition.i_click_continue()
-  Then I verify policyNumber on screen                                    # stepdefinitions.HomeStepDefinition.i_verify_policy_number_on_screen()
-
-@Regression
-Scenario Outline: Geico login create account check with multiple variable # src/test/java/features/GeicoHome.feature:88
-  Given I am on Geico homepage                                            # stepdefinitions.HomeStepDefinition.i_am_on_geico_homepage()
-  And I click on startHere                                                # stepdefinitions.HomeStepDefinition.i_click_on_start_here()
-  And I enter "12316", "01191996" and "10328"                             # stepdefinitions.HomeStepDefinition.i_enter_and(java.lang.String,java.lang.String,java.lang.String)
-  When I click continue                                                   # stepdefinitions.HomeStepDefinition.i_click_continue()
-  Then I verify policyNumber on screen                                    # stepdefinitions.HomeStepDefinition.i_verify_policy_number_on_screen()
-
-@Regression
-Scenario Outline: Geico login create account check with multiple variable # src/test/java/features/GeicoHome.feature:89
-  Given I am on Geico homepage                                            # stepdefinitions.HomeStepDefinition.i_am_on_geico_homepage()
-  And I click on startHere                                                # stepdefinitions.HomeStepDefinition.i_click_on_start_here()
-  And I enter "12317", "05191996" and "10327"                             # stepdefinitions.HomeStepDefinition.i_enter_and(java.lang.String,java.lang.String,java.lang.String)
-  When I click continue                                                   # stepdefinitions.HomeStepDefinition.i_click_continue()
-  Then I verify policyNumber on screen                                    # stepdefinitions.HomeStepDefinition.i_verify_policy_number_on_screen()
+@SmokeTest
+Scenario: Gecio Career button Check                             # src/test/java/features/Geico.feature:7
+  Given I am on Geico Homepage                                  # stepdefinitions.GecioStepDefinition.i_am_on_geico_homepage()
+  And I click on Career button                                  # stepdefinitions.GecioStepDefinition.i_click_on_career_button()
+  When I Click on Customer Service Button                       # stepdefinitions.GecioStepDefinition.i_click_on_customer_service_button()
+  Then I validate Customer Service Careers text appear Properly # stepdefinitions.GecioStepDefinition.i_validate_customer_service_careers_text_appear_properly()

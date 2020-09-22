@@ -1,0 +1,6 @@
+
+@SmokeTest
+Scenario: Atnt Sign Up Functionality check with invalid credentials # src/test/java/features/HomePage.feature:8
+  Given I am in att homepage                                        # stepdefinitions.HomePageDefinition.i_am_in_att_homepage()
+  And I click accountIcon                                           # stepdefinitions.HomePageDefinition.i_click_account_icon()
+  And I click singInButton                                          # stepdefinitions.HomePageDefinition.i_click_sing_in_button()
