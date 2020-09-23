@@ -163,6 +163,20 @@ public class GeicoHomeStepDefinitions extends WebAPI {
         geicoHome.verifyPolicyNumberErrorText();
 
     }
+    @And("I click on Career button")
+    public void i_click_on_career_button() throws InterruptedException {
+        geicoHome.clickCareerBtn();
+    }
+
+    @When("I Click on Customer Service Button")
+    public void i_click_on_customer_service_button() throws InterruptedException {
+        geicoHome.clickCustomerServiceBtn();
+    }
+
+    @Then("I validate Customer Service Careers text appear Properly")
+    public void i_validate_customer_service_careers_text_appear_properly() {
+        geicoHome.validateText();
+    }
 
 
 

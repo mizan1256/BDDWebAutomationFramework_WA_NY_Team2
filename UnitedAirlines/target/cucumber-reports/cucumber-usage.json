@@ -5,13 +5,29 @@
       {
         "name": "I am in United Airlines home page",
         "aggregatedDurations": {
-          "median": 9.8476232,
-          "average": 9.8476232
+          "median": 9.9592634,
+          "average": 10.16666724
         },
         "durations": [
           {
-            "duration": 9.8476232,
-            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirFunction.feature:5"
+            "duration": 10.8783425,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirFunction.feature:4"
+          },
+          {
+            "duration": 9.8105311,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirFunction.feature:4"
+          },
+          {
+            "duration": 9.9592634,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirFunction.feature:4"
+          },
+          {
+            "duration": 10.5498964,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirFunction.feature:4"
+          },
+          {
+            "duration": 9.6353028,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirFunction.feature:4"
           }
         ]
       }
@@ -23,13 +39,29 @@
       {
         "name": "I click on signIn button",
         "aggregatedDurations": {
-          "median": 3.3582336,
-          "average": 3.3582336
+          "median": 3.3373152,
+          "average": 3.34666398
         },
         "durations": [
           {
-            "duration": 3.3582336,
-            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirFunction.feature:6"
+            "duration": 3.3925004,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirFunction.feature:5"
+          },
+          {
+            "duration": 3.3182362,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirFunction.feature:5"
+          },
+          {
+            "duration": 3.3726566,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirFunction.feature:5"
+          },
+          {
+            "duration": 3.3126115,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirFunction.feature:5"
+          },
+          {
+            "duration": 3.3373152,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirFunction.feature:5"
           }
         ]
       }
@@ -41,13 +73,29 @@
       {
         "name": "I click on join now and use title",
         "aggregatedDurations": {
-          "median": 9.6447208,
-          "average": 9.6447208
+          "median": 12.9342462,
+          "average": 14.23505874
         },
         "durations": [
           {
-            "duration": 9.6447208,
-            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirFunction.feature:7"
+            "duration": 20.128093,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirFunction.feature:10"
+          },
+          {
+            "duration": 11.5559227,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirFunction.feature:19"
+          },
+          {
+            "duration": 12.9342462,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirFunction.feature:27"
+          },
+          {
+            "duration": 12.8537434,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirFunction.feature:36"
+          },
+          {
+            "duration": 13.7032884,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirFunction.feature:49"
           }
         ]
       }
@@ -59,13 +107,13 @@
       {
         "name": "I use data in member information field",
         "aggregatedDurations": {
-          "median": 9.7455206,
-          "average": 9.7455206
+          "median": 9.7988544,
+          "average": 9.7988544
         },
         "durations": [
           {
-            "duration": 9.7455206,
-            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirFunction.feature:8"
+            "duration": 9.7988544,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirFunction.feature:11"
           }
         ]
       }
@@ -77,13 +125,13 @@
       {
         "name": "month and gender field is selected",
         "aggregatedDurations": {
-          "median": 12.3252298,
-          "average": 12.3252298
+          "median": 12.3298507,
+          "average": 12.3298507
         },
         "durations": [
           {
-            "duration": 12.3252298,
-            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirFunction.feature:11"
+            "duration": 12.3298507,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirFunction.feature:14"
           }
         ]
       }
@@ -95,13 +143,193 @@
       {
         "name": "I validate Contact Information is appeared properly",
         "aggregatedDurations": {
-          "median": 0.0358792,
-          "average": 0.0358792
+          "median": 0.0358778,
+          "average": 0.0358778
         },
         "durations": [
           {
-            "duration": 0.0358792,
-            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirFunction.feature:12"
+            "duration": 0.0358778,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirFunction.feature:15"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I entered data in Contact Information field",
+    "steps": [
+      {
+        "name": "I entered data in Contact Information field",
+        "aggregatedDurations": {
+          "median": 13.6599059,
+          "average": 13.6599059
+        },
+        "durations": [
+          {
+            "duration": 13.6599059,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirFunction.feature:20"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I validate {string} appear properly",
+    "steps": [
+      {
+        "name": "I validate \"Phone number\" appear properly",
+        "aggregatedDurations": {
+          "median": 0.030897,
+          "average": 0.030897
+        },
+        "durations": [
+          {
+            "duration": 0.030897,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirFunction.feature:23"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I entered data in phone number field",
+    "steps": [
+      {
+        "name": "I entered data in phone number field",
+        "aggregatedDurations": {
+          "median": 4.9657112,
+          "average": 4.9657112
+        },
+        "durations": [
+          {
+            "duration": 4.9657112,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirFunction.feature:28"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on check box field",
+    "steps": [
+      {
+        "name": "I click on check box field",
+        "aggregatedDurations": {
+          "median": 0.1378585,
+          "average": 0.1378585
+        },
+        "durations": [
+          {
+            "duration": 0.1378585,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirFunction.feature:31"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify {string} appear properly",
+    "steps": [
+      {
+        "name": "I verify \"Email information\" appear properly",
+        "aggregatedDurations": {
+          "median": 0.036395,
+          "average": 0.036395
+        },
+        "durations": [
+          {
+            "duration": 0.036395,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirFunction.feature:32"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I entered data in email field",
+    "steps": [
+      {
+        "name": "I entered data in email field",
+        "aggregatedDurations": {
+          "median": 3.5739162,
+          "average": 3.5739162
+        },
+        "durations": [
+          {
+            "duration": 3.5739162,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirFunction.feature:37"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on check box and uncheck box",
+    "steps": [
+      {
+        "name": "I click on check box and uncheck box",
+        "aggregatedDurations": {
+          "median": 3.1903782,
+          "average": 3.1903782
+        },
+        "durations": [
+          {
+            "duration": 3.1903782,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirFunction.feature:40"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I entered data in password field",
+    "steps": [
+      {
+        "name": "I entered data in password field",
+        "aggregatedDurations": {
+          "median": 0.3269022,
+          "average": 0.3269022
+        },
+        "durations": [
+          {
+            "duration": 0.3269022,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirFunction.feature:41"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Show button",
+    "steps": [
+      {
+        "name": "I click on Show button",
+        "aggregatedDurations": {
+          "median": 3.1055252,
+          "average": 3.1055252
+        },
+        "durations": [
+          {
+            "duration": 3.1055252,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirFunction.feature:44"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify {string} display properly",
+    "steps": [
+      {
+        "name": "I verify \"Security questions\" display properly",
+        "aggregatedDurations": {
+          "median": 0.0398921,
+          "average": 0.0398921
+        },
+        "durations": [
+          {
+            "duration": 0.0398921,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirFunction.feature:45"
           }
         ]
       }

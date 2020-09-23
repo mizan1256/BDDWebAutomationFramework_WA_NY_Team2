@@ -1,9 +1,70 @@
 
 @SmokeTest
-Scenario:                                                  # src/test/java/features/UnitedAirFunction.feature:4
+Scenario: United Airlines SignIn functionality test        # src/test/java/features/UnitedAirFunction.feature:9
   Given I am in United Airlines home page                  # stepdefinitions.UnitedAirStepDefinition.i_am_in_united_airlines_home_page()
   When I click on signIn button                            # stepdefinitions.UnitedAirFunctionStepDefinition.i_click_on_sign_in_button()
   And I click on join now and use title                    # stepdefinitions.UnitedAirFunctionStepDefinition.i_click_on_join_now_and_use_title()
   And I use data in member information field               # stepdefinitions.UnitedAirFunctionStepDefinition.i_use_data_in_member_information_field(io.cucumber.datatable.DataTable)
   And month and gender field is selected                   # stepdefinitions.UnitedAirFunctionStepDefinition.month_and_gender_field_is_selected()
   Then I validate Contact Information is appeared properly # stepdefinitions.UnitedAirFunctionStepDefinition.i_validate_contact_information_is_appeared_properly()
+
+@SmokeTest
+Scenario: United Airlines contact information test # src/test/java/features/UnitedAirFunction.feature:18
+  Given I am in United Airlines home page          # stepdefinitions.UnitedAirStepDefinition.i_am_in_united_airlines_home_page()
+  When I click on signIn button                    # stepdefinitions.UnitedAirFunctionStepDefinition.i_click_on_sign_in_button()
+  And I click on join now and use title            # stepdefinitions.UnitedAirFunctionStepDefinition.i_click_on_join_now_and_use_title()
+  When I entered data in Contact Information field # stepdefinitions.UnitedAirFunctionStepDefinition.i_entered_data_in_contact_information_field(io.cucumber.datatable.DataTable)
+  Then I validate "Phone number" appear properly   # stepdefinitions.UnitedAirFunctionStepDefinition.i_validate_appear_properly(java.lang.String)
+
+@SmokeTest
+Scenario: United Airlines contact information test  # src/test/java/features/UnitedAirFunction.feature:26
+  Given I am in United Airlines home page           # stepdefinitions.UnitedAirStepDefinition.i_am_in_united_airlines_home_page()
+  When I click on signIn button                     # stepdefinitions.UnitedAirFunctionStepDefinition.i_click_on_sign_in_button()
+  And I click on join now and use title             # stepdefinitions.UnitedAirFunctionStepDefinition.i_click_on_join_now_and_use_title()
+  And I entered data in phone number field          # stepdefinitions.UnitedAirFunctionStepDefinition.i_entered_data_in_phone_number_field(io.cucumber.datatable.DataTable)
+  And I click on check box field                    # stepdefinitions.UnitedAirFunctionStepDefinition.i_click_on_check_box_field()
+  Then I verify "Email information" appear properly # stepdefinitions.UnitedAirFunctionStepDefinition.i_verify_appear_properly(java.lang.String)
+
+@SmokeTest
+Scenario: United Airlines contact information test    # src/test/java/features/UnitedAirFunction.feature:35
+  Given I am in United Airlines home page             # stepdefinitions.UnitedAirStepDefinition.i_am_in_united_airlines_home_page()
+  When I click on signIn button                       # stepdefinitions.UnitedAirFunctionStepDefinition.i_click_on_sign_in_button()
+  And I click on join now and use title               # stepdefinitions.UnitedAirFunctionStepDefinition.i_click_on_join_now_and_use_title()
+  And I entered data in email field                   # stepdefinitions.UnitedAirFunctionStepDefinition.i_entered_data_in_email_field(io.cucumber.datatable.DataTable)
+  And I click on check box and uncheck box            # stepdefinitions.UnitedAirFunctionStepDefinition.i_click_on_check_box_and_uncheck_box()
+  And I entered data in password field                # stepdefinitions.UnitedAirFunctionStepDefinition.i_entered_data_in_password_field(io.cucumber.datatable.DataTable)
+  And I click on Show button                          # stepdefinitions.UnitedAirFunctionStepDefinition.i_click_on_show_button()
+  Then I verify "Security questions" display properly # stepdefinitions.UnitedAirFunctionStepDefinition.i_verify_display_properly(java.lang.String)
+
+@SmokeTest
+Scenario: United Airlines contact information test # src/test/java/features/UnitedAirFunction.feature:48
+  Given I am in United Airlines home page          # stepdefinitions.UnitedAirStepDefinition.i_am_in_united_airlines_home_page()
+  When I click on signIn button                    # stepdefinitions.UnitedAirFunctionStepDefinition.i_click_on_sign_in_button()
+  And I click on join now and use title            # stepdefinitions.UnitedAirFunctionStepDefinition.i_click_on_join_now_and_use_title()
+  And I entered data in answer field               # stepdefinitions.UnitedAirFunctionStepDefinition.i_entered_data_in_answer_field(io.cucumber.datatable.DataTable)
+      org.openqa.selenium.NoSuchElementException: Cannot locate element with text: What is your favorite type of reading?
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-6QSDTELI', ip: '192.168.1.185', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
+	at common.WebAPI.selectOptionByVisibleText(WebAPI.java:432)
+	at unitedAirfunction.UnitedAirFunctionPage.questionAndAnswer2(UnitedAirFunctionPage.java:191)
+	at stepdefinitions.UnitedAirFunctionStepDefinition.i_entered_data_in_answer_field(UnitedAirFunctionStepDefinition.java:134)
+	at ✽.I entered data in answer field(file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirFunction.feature:50)
+
+  And I click on accept and enroll button          # stepdefinitions.UnitedAirFunctionStepDefinition.i_click_on_accept_and_enroll_button()
+
+    Embedding Demo [image/png 147231 bytes]
+
+      org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-6QSDTELI', ip: '192.168.1.185', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at stepdefinitions.UnitedAirFunctionStepDefinition.tearDown(UnitedAirFunctionStepDefinition.java:24)
+

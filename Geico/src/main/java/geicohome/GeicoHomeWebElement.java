@@ -30,6 +30,16 @@ public class GeicoHomeWebElement{
     public static final String errorTextXPathWebElement = "//span[contains(text(),'Policy Number is required.')]";
     public static final String errorTextPolicyNumberXPathWebElement = "//span[contains(text(),'Policy Number must be at least 10 characters')]";
 
+    public static final String webElementsGeicoCareerButton="//a[contains(text(),'Careers')]";
+    public static final String webElementsGeicoContactUsButton="//div[@id='footer-links-secondary']//a[contains(text(),'Contact Us')]";
+    public static final String webElementsGeicoPrivacyButton="//div[@id='footer-links-secondary']//a[contains(text(),'Privacy')]";
+    public static final String webElementsGeicoLogo="//a[@class='icon-geico']";
+    public static final String webElementsGeicoLogoText="//a[contains(text(),'COVID-19 Updates')]";
+    public static final String webElementsGeicoMakePaymentButton="//ul[@class='list']//a[contains(text(),'Make a payment')]";
+    public static final String webElementsGeicoSelectFieldBox="//select[@id='SelectComponent-1']";
+    public static final String webElementsGeicoPhoneNumberButton="//input[@id='TextInputTelComponent-1']";
+    public static final String webElementsGeicoZipCodeBox="//input[@id='TextInputZipComponent-1']";
+    public static final String webElementsGeicoMakePaymentContinueButton="//button[@name='SubmitButtonComponent-1']";
 
 
 }
