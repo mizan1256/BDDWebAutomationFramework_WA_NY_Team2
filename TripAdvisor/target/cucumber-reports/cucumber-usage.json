@@ -5,13 +5,271 @@
       {
         "name": "I am in Trip Advisor home page",
         "aggregatedDurations": {
-          "median": 6.8553305,
-          "average": 6.8553305
+          "median": 6.2040221,
+          "average": 6.2604271
         },
         "durations": [
           {
-            "duration": 6.8553305,
+            "duration": 6.4828167,
             "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TripAdvisor/src/test/java/features/TripAdvisor.feature:4"
+          },
+          {
+            "duration": 6.1919779,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TripAdvisor/src/test/java/features/TripAdvisor.feature:4"
+          },
+          {
+            "duration": 6.0698932,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TripAdvisor/src/test/java/features/TripAdvisor.feature:4"
+          },
+          {
+            "duration": 6.2835942,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TripAdvisor/src/test/java/features/TripAdvisor.feature:4"
+          },
+          {
+            "duration": 6.1522735,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TripAdvisor/src/test/java/features/TripAdvisor.feature:4"
+          },
+          {
+            "duration": 6.4110555,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TripAdvisor/src/test/java/features/TripAdvisor.feature:4"
+          },
+          {
+            "duration": 6.1808773,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TripAdvisor/src/test/java/features/TripAdvisor.feature:4"
+          },
+          {
+            "duration": 6.2040221,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TripAdvisor/src/test/java/features/TripAdvisor.feature:4"
+          },
+          {
+            "duration": 6.3673335,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TripAdvisor/src/test/java/features/TripAdvisor.feature:4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter Texas in search box",
+    "steps": [
+      {
+        "name": "I enter Texas in search box",
+        "aggregatedDurations": {
+          "median": 0.0930511,
+          "average": 0.105683433
+        },
+        "durations": [
+          {
+            "duration": 0.1329999,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TripAdvisor/src/test/java/features/TripAdvisor.feature:8"
+          },
+          {
+            "duration": 0.0909993,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TripAdvisor/src/test/java/features/TripAdvisor.feature:15"
+          },
+          {
+            "duration": 0.0930511,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TripAdvisor/src/test/java/features/TripAdvisor.feature:23"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on search button",
+    "steps": [
+      {
+        "name": "I click on search button",
+        "aggregatedDurations": {
+          "median": 3.0380541,
+          "average": 2.849736633
+        },
+        "durations": [
+          {
+            "duration": 3.0683717,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TripAdvisor/src/test/java/features/TripAdvisor.feature:9"
+          },
+          {
+            "duration": 3.0380541,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TripAdvisor/src/test/java/features/TripAdvisor.feature:16"
+          },
+          {
+            "duration": 2.4427841,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TripAdvisor/src/test/java/features/TripAdvisor.feature:24"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Hotels Button",
+    "steps": [
+      {
+        "name": "I click on Hotels Button",
+        "aggregatedDurations": {
+          "median": 0.0999209,
+          "average": 0.102727133
+        },
+        "durations": [
+          {
+            "duration": 0.1108526,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TripAdvisor/src/test/java/features/TripAdvisor.feature:10"
+          },
+          {
+            "duration": 0.0974079,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TripAdvisor/src/test/java/features/TripAdvisor.feature:17"
+          },
+          {
+            "duration": 0.0999209,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TripAdvisor/src/test/java/features/TripAdvisor.feature:25"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify {string} is appeared properly",
+    "steps": [
+      {
+        "name": "I verify \"Texas\" is appeared properly",
+        "aggregatedDurations": {
+          "median": 0.8013655,
+          "average": 0.8013655
+        },
+        "durations": [
+          {
+            "duration": 0.8680319,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TripAdvisor/src/test/java/features/TripAdvisor.feature:11"
+          },
+          {
+            "duration": 0.7346991,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TripAdvisor/src/test/java/features/TripAdvisor.feature:19"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click vacation rentals tab",
+    "steps": [
+      {
+        "name": "I click vacation rentals tab",
+        "aggregatedDurations": {
+          "median": 0.0729803,
+          "average": 0.0729803
+        },
+        "durations": [
+          {
+            "duration": 0.0729803,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TripAdvisor/src/test/java/features/TripAdvisor.feature:18"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click Restaurants tab",
+    "steps": [
+      {
+        "name": "I click Restaurants tab",
+        "aggregatedDurations": {
+          "median": 0.0800029,
+          "average": 0.0800029
+        },
+        "durations": [
+          {
+            "duration": 0.0800029,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TripAdvisor/src/test/java/features/TripAdvisor.feature:26"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click Texas Roadhouse",
+    "steps": [
+      {
+        "name": "I click Texas Roadhouse",
+        "aggregatedDurations": {
+          "median": 0.9458854,
+          "average": 0.9458854
+        },
+        "durations": [
+          {
+            "duration": 0.9458854,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TripAdvisor/src/test/java/features/TripAdvisor.feature:27"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I navigate new windows",
+    "steps": [
+      {
+        "name": "I navigate new windows",
+        "aggregatedDurations": {
+          "median": 1.3660002,
+          "average": 1.3660002
+        },
+        "durations": [
+          {
+            "duration": 1.3660002,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TripAdvisor/src/test/java/features/TripAdvisor.feature:28"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click food picture",
+    "steps": [
+      {
+        "name": "I click food picture",
+        "aggregatedDurations": {
+          "median": 0.8500001,
+          "average": 0.8500001
+        },
+        "durations": [
+          {
+            "duration": 0.8500001,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TripAdvisor/src/test/java/features/TripAdvisor.feature:29"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click Gallery button",
+    "steps": [
+      {
+        "name": "I click Gallery button",
+        "aggregatedDurations": {
+          "median": 2.7349577,
+          "average": 2.7349577
+        },
+        "durations": [
+          {
+            "duration": 2.7349577,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TripAdvisor/src/test/java/features/TripAdvisor.feature:30"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify food image is appeared properly",
+    "steps": [
+      {
+        "name": "I verify food image is appeared properly",
+        "aggregatedDurations": {
+          "median": 1.9912823,
+          "average": 1.9912823
+        },
+        "durations": [
+          {
+            "duration": 1.9912823,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TripAdvisor/src/test/java/features/TripAdvisor.feature:31"
           }
         ]
       }
@@ -23,12 +281,12 @@
       {
         "name": "I click on TravelForum",
         "aggregatedDurations": {
-          "median": 3.1263164,
-          "average": 3.1263164
+          "median": 3.0572275,
+          "average": 3.0572275
         },
         "durations": [
           {
-            "duration": 3.1263164,
+            "duration": 3.0572275,
             "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TripAdvisor/src/test/java/features/TripAdvisor.feature:35"
           }
         ]
@@ -41,12 +299,12 @@
       {
         "name": "I click on Flights",
         "aggregatedDurations": {
-          "median": 4.3631812,
-          "average": 4.3631812
+          "median": 4.8220214,
+          "average": 4.8220214
         },
         "durations": [
           {
-            "duration": 4.3631812,
+            "duration": 4.8220214,
             "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TripAdvisor/src/test/java/features/TripAdvisor.feature:36"
           }
         ]
@@ -59,12 +317,12 @@
       {
         "name": "I enter Where from and To field",
         "aggregatedDurations": {
-          "median": 6.2242094,
-          "average": 6.2242094
+          "median": 6.1902118,
+          "average": 6.1902118
         },
         "durations": [
           {
-            "duration": 6.2242094,
+            "duration": 6.1902118,
             "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TripAdvisor/src/test/java/features/TripAdvisor.feature:37"
           }
         ]
@@ -77,12 +335,12 @@
       {
         "name": "I enter departure and arrival date",
         "aggregatedDurations": {
-          "median": 7.0815908,
-          "average": 7.0815908
+          "median": 7.0825251,
+          "average": 7.0825251
         },
         "durations": [
           {
-            "duration": 7.0815908,
+            "duration": 7.0825251,
             "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TripAdvisor/src/test/java/features/TripAdvisor.feature:38"
           }
         ]
@@ -95,12 +353,12 @@
       {
         "name": "I enter person field and close person field",
         "aggregatedDurations": {
-          "median": 2.2625345,
-          "average": 2.2625345
+          "median": 2.3263822,
+          "average": 2.3263822
         },
         "durations": [
           {
-            "duration": 2.2625345,
+            "duration": 2.3263822,
             "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TripAdvisor/src/test/java/features/TripAdvisor.feature:39"
           }
         ]
@@ -113,12 +371,12 @@
       {
         "name": "I click on find flight button",
         "aggregatedDurations": {
-          "median": 6.3659055,
-          "average": 6.3659055
+          "median": 6.2652532,
+          "average": 6.2652532
         },
         "durations": [
           {
-            "duration": 6.3659055,
+            "duration": 6.2652532,
             "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TripAdvisor/src/test/java/features/TripAdvisor.feature:40"
           }
         ]
@@ -131,13 +389,277 @@
       {
         "name": "I verify COVID-19 Policies is appeared properly",
         "aggregatedDurations": {
-          "median": 1.3892194,
-          "average": 1.3892194
+          "median": 1.3335029,
+          "average": 1.3335029
         },
         "durations": [
           {
-            "duration": 1.3892194,
+            "duration": 1.3335029,
             "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TripAdvisor/src/test/java/features/TripAdvisor.feature:41"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on TravelForum and click on Flight",
+    "steps": [
+      {
+        "name": "I click on TravelForum and click on Flight",
+        "aggregatedDurations": {
+          "median": 4.6244523,
+          "average": 4.6244523
+        },
+        "durations": [
+          {
+            "duration": 4.6244523,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TripAdvisor/src/test/java/features/TripAdvisor.feature:45"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Things to Do",
+    "steps": [
+      {
+        "name": "I click on Things to Do",
+        "aggregatedDurations": {
+          "median": 0.06055775,
+          "average": 0.06055775
+        },
+        "durations": [
+          {
+            "duration": 0.0581151,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TripAdvisor/src/test/java/features/TripAdvisor.feature:55"
+          },
+          {
+            "duration": 0.0630004,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TripAdvisor/src/test/java/features/TripAdvisor.feature:61"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I type in searchBox and submit",
+    "steps": [
+      {
+        "name": "I type in searchBox and submit",
+        "aggregatedDurations": {
+          "median": 1.06132645,
+          "average": 1.06132645
+        },
+        "durations": [
+          {
+            "duration": 1.2596517,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TripAdvisor/src/test/java/features/TripAdvisor.feature:56"
+          },
+          {
+            "duration": 0.8630012,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TripAdvisor/src/test/java/features/TripAdvisor.feature:62"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify Dhaka City is appeared properly",
+    "steps": [
+      {
+        "name": "I verify Dhaka City is appeared properly",
+        "aggregatedDurations": {
+          "median": 1.5930362,
+          "average": 1.5930362
+        },
+        "durations": [
+          {
+            "duration": 1.2433927,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TripAdvisor/src/test/java/features/TripAdvisor.feature:57"
+          },
+          {
+            "duration": 1.9426797,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TripAdvisor/src/test/java/features/TripAdvisor.feature:63"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on trip button",
+    "steps": [
+      {
+        "name": "I click on trip button",
+        "aggregatedDurations": {
+          "median": 1.3790376,
+          "average": 1.3790376
+        },
+        "durations": [
+          {
+            "duration": 1.3790376,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TripAdvisor/src/test/java/features/TripAdvisor.feature:74"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on get start",
+    "steps": [
+      {
+        "name": "I click on get start",
+        "aggregatedDurations": {
+          "median": 0.0563194,
+          "average": 0.0563194
+        },
+        "durations": [
+          {
+            "duration": 0.0563194,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TripAdvisor/src/test/java/features/TripAdvisor.feature:75"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify reCAPCHA is appeared properly",
+    "steps": [
+      {
+        "name": "I verify reCAPCHA is appeared properly",
+        "aggregatedDurations": {
+          "median": 0.0530018,
+          "average": 0.0530018
+        },
+        "durations": [
+          {
+            "duration": 0.0530018,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TripAdvisor/src/test/java/features/TripAdvisor.feature:76"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Post tab",
+    "steps": [
+      {
+        "name": "I click on Post tab",
+        "aggregatedDurations": {
+          "median": 0.048544,
+          "average": 0.048544
+        },
+        "durations": [
+          {
+            "duration": 0.048544,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TripAdvisor/src/test/java/features/TripAdvisor.feature:80"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Post Photo",
+    "steps": [
+      {
+        "name": "I click on Post Photo",
+        "aggregatedDurations": {
+          "median": 3.8105197,
+          "average": 3.8105197
+        },
+        "durations": [
+          {
+            "duration": 3.8105197,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TripAdvisor/src/test/java/features/TripAdvisor.feature:81"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on hotel radio button",
+    "steps": [
+      {
+        "name": "I click on hotel radio button",
+        "aggregatedDurations": {
+          "median": 0.0679113,
+          "average": 0.0679113
+        },
+        "durations": [
+          {
+            "duration": 0.0679113,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TripAdvisor/src/test/java/features/TripAdvisor.feature:82"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I type hotel name and city name and click search button",
+    "steps": [
+      {
+        "name": "I type hotel name and city name and click search button",
+        "aggregatedDurations": {
+          "median": 3.1114195,
+          "average": 3.1114195
+        },
+        "durations": [
+          {
+            "duration": 3.1114195,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TripAdvisor/src/test/java/features/TripAdvisor.feature:83"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "select and click radio button",
+    "steps": [
+      {
+        "name": "select and click radio button",
+        "aggregatedDurations": {
+          "median": 3.0534149,
+          "average": 3.0534149
+        },
+        "durations": [
+          {
+            "duration": 3.0534149,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TripAdvisor/src/test/java/features/TripAdvisor.feature:84"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Post Photos Button and click add photo btn",
+    "steps": [
+      {
+        "name": "I click on Post Photos Button and click add photo btn",
+        "aggregatedDurations": {
+          "median": 0.5779054,
+          "average": 0.5779054
+        },
+        "durations": [
+          {
+            "duration": 0.5779054,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TripAdvisor/src/test/java/features/TripAdvisor.feature:85"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on select photo from your computer.",
+    "steps": [
+      {
+        "name": "I click on select photo from your computer.",
+        "aggregatedDurations": {
+          "median": 3.3311188,
+          "average": 3.3311188
+        },
+        "durations": [
+          {
+            "duration": 3.3311188,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TripAdvisor/src/test/java/features/TripAdvisor.feature:86"
           }
         ]
       }

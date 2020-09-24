@@ -36,8 +36,8 @@ public class HomePageStepDefinition extends WebAPI {
     }
 
     //    ShopPlan - HealthCoverage
-    @Given("I am in Geico home page")
-    public void i_am_in_geico_home_page() throws IOException {
+    @Given("I am on Aetna home page")
+    public void i_am_on_aetna_home_page() throws IOException {
         openBrowser("https://www.aetna.com/");
     }
 

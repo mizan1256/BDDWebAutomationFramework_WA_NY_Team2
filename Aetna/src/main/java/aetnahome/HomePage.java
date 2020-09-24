@@ -59,7 +59,7 @@ public class HomePage extends WebAPI {
     WebElement findAPharmacyText;
     @FindBy(xpath = "/html/body/div[2]/div/nav/div/ul[1]/li[1]/div[2]/div/div/section/ul/li[4]/div[2]/ul/li[3]/a")
     WebElement findMedicineAndCosts;
-    @FindBy(xpath = "//*[@id=\"main\"]/div[4]/div/div/div[1]/div/div/h2")
+    @FindBy(xpath = "//h2[contains(text(),'Already a member?')]")
     WebElement findMedicineAndCostsText;
 
 

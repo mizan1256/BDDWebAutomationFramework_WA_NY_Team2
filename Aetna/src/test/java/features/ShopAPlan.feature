@@ -1,7 +1,7 @@
 Feature: Aetna home page functionality test
 
   Background:
-    Given I am in Geico home page
+    Given I am on Aetna home page
 
   @SmokeTest
   Scenario:Aetna Shop a plan functionality test

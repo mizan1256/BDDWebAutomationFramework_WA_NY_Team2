@@ -3,7 +3,7 @@ Feature: CNN home page functionality test
   Background:
     Given I am in CNN home page
 
-#  @SmokeTest
+  @SmokeTest
   Scenario: CNN home User Account functionality test
     When I do necessary steps to land on User info page
     And I enter user credentials
@@ -11,7 +11,7 @@ Feature: CNN home page functionality test
       | pnt30235_NY@gmail.com | Pnt@30235 | 11416   |
     Then I validate *Required message
 
-#  @SmokeTest
+  @SmokeTest
   Scenario: CNN home User Account functionality test
     When I do necessary steps to land on User info page
     And I enter user credentials
@@ -20,7 +20,7 @@ Feature: CNN home page functionality test
     And I click on register button
     Then I validate "This account already exists. Please log in." message
 
-#  @SmokeTest
+  @SmokeTest
   Scenario: CNN home User Account functionality test
     When I do necessary steps to land on LogIn info page
     And I enter credentials in logIn field
@@ -28,7 +28,7 @@ Feature: CNN home page functionality test
       | pnt30235_NY@gmail.com | Pnt@30235 |
     Then I validate "Stay logged in" message is appeared
 
-#  @SmokeTest
+  @SmokeTest
   Scenario: CNN home User Account functionality test
     When I do necessary steps to land on LogIn info page
     And I enter credentials in logIn field

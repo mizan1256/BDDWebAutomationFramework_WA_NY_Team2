@@ -1,18 +1,52 @@
 
 @SmokeTest
+Scenario: CNN home page burger button functionality test # src/test/java/features/CnnHomePage.feature:8
+  Given I am in CNN home page                            # stepdefinitions.CnnStepDefinition.i_am_in_cnn_home_page()
+  When I click on burger button                          # stepdefinitions.CnnStepDefinition.i_click_on_burger_button()
+  And I enter sports in search box                       # stepdefinitions.CnnStepDefinition.i_enter_sports_in_search_box()
+  And I click on search button                           # stepdefinitions.CnnStepDefinition.i_click_on_search_button()
+  And I click on politics radio button                   # stepdefinitions.CnnStepDefinition.i_click_on_politics_radio_button()
+  Then I validate politics page is appeared properly     # stepdefinitions.CnnStepDefinition.i_validate_politics_page_is_appeared_properly()
+
+@SmokeTest
+Scenario: CNN home page Travel functionality test # src/test/java/features/CnnHomePage.feature:16
+  Given I am in CNN home page                     # stepdefinitions.CnnStepDefinition.i_am_in_cnn_home_page()
+  When I click on travel tab                      # stepdefinitions.CnnStepDefinition.i_click_on_travel_tab()
+  And I click on best beach                       # stepdefinitions.CnnStepDefinition.i_click_on_best_beach()
+  And I click on Map tab                          # stepdefinitions.CnnStepDefinition.i_click_on_map_tab()
+  And I click on radio button                     # stepdefinitions.CnnStepDefinition.i_click_on_radio_button()
+  Then I validate View All is visible             # stepdefinitions.CnnStepDefinition.i_validate_view_all_is_visible()
+
+@SmokeTest
+Scenario: CNN home page Travel functionality test   # src/test/java/features/CnnHomePage.feature:24
+  Given I am in CNN home page                       # stepdefinitions.CnnStepDefinition.i_am_in_cnn_home_page()
+  When I click on edition dropDown button           # stepdefinitions.CnnStepDefinition.i_click_on_edition_drop_down_button()
+  And I click on international                      # stepdefinitions.CnnStepDefinition.i_click_on_international()
+  And I click on all stories                        # stepdefinitions.CnnStepDefinition.i_click_on_all_stories()
+  And I click on Covid-19 symptoms                  # stepdefinitions.CnnStepDefinition.i_click_on_covid_symptoms(java.lang.Integer)
+  Then I validate By Sandee LaMotte, CNN is visible # stepdefinitions.CnnStepDefinition.i_validate_by_sandee_la_motte_cnn_is_visible()
+
+@SmokeTest
 Scenario: CNN home page Travel functionality test # src/test/java/features/CnnHomePage.feature:32
   Given I am in CNN home page                     # stepdefinitions.CnnStepDefinition.i_am_in_cnn_home_page()
   When I click on live Tv button                  # stepdefinitions.CnnStepDefinition.i_click_on_live_tv_button()
-  And I click on Tv Play Button                   # stepdefinitions.CnnStepDefinition.i_click_on_tv_play_button()
-      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".\/\/\*\[\@id\=\"root\"\]\/div\/div\[2\]\/div\[1\]\/div\[1\]\/div\/svg\/path"}
+  And I click on back to cnn.com                  # stepdefinitions.CnnStepDefinition.i_click_on_back_to_cnn_com()
+  Then I validate Covid-19 is visible             # stepdefinitions.CnnStepDefinition.i_validate_covid_is_visible(java.lang.Integer)
+
+@SmokeTest
+Scenario: CNN home page Travel functionality test # src/test/java/features/CnnHomePage.feature:39
+  Given I am in CNN home page                     # stepdefinitions.CnnStepDefinition.i_am_in_cnn_home_page()
+  When I click on live Tv button                  # stepdefinitions.CnnStepDefinition.i_click_on_live_tv_button()
+  And I click on Tv channel box                   # stepdefinitions.CnnStepDefinition.i_click_on_tv_channel_box()
+  And I click on cnn channel                      # stepdefinitions.CnnStepDefinition.i_click_on_cnn_channel()
+  And I click on back to cnn.com                  # stepdefinitions.CnnStepDefinition.i_click_on_back_to_cnn_com()
+      org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div class="Text-sc-1amvtpj-0 dJJhIr">...</div> is not clickable at point (1406, 689). Other element would receive the click: <iframe id="mvpdPickerFrame" class="visible" src="about:blank" scrolling="no"></iframe>
   (Session info: chrome=85.0.4183.102)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LAPTOP-6QSDTELI', ip: '192.168.1.185', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\lenis\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61942}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 938d1373773018a9afcfc223102096cc
-*** Element info: {Using=class name, value=//*[@id="root"]/div/div[2]/div[1]/div[1]/div/svg/path}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\lenis\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53292}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 6608528abe6cb0aad0f3ee46012b3d5c
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -23,19 +57,68 @@ Session ID: 938d1373773018a9afcfc223102096cc
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:412)
-	at org.openqa.selenium.By$ByClassName.findElement(By.java:389)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
 	at com.sun.proxy.$Proxy25.click(Unknown Source)
-	at cnnhome.CnnHomePage.liveTvPlayButton(CnnHomePage.java:139)
-	at stepdefinitions.CnnStepDefinition.i_click_on_tv_play_button(CnnStepDefinition.java:136)
-	at ✽.I click on Tv Play Button(file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/CNN/src/test/java/features/CnnHomePage.feature:34)
+	at cnnhome.CnnHomePage.liveTvBackHome(CnnHomePage.java:143)
+	at stepdefinitions.CnnStepDefinition.i_click_on_back_to_cnn_com(CnnStepDefinition.java:141)
+	at ✽.I click on back to cnn.com(file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/CNN/src/test/java/features/CnnHomePage.feature:43)
 
-  And I click on back to cnn.com                  # stepdefinitions.CnnStepDefinition.i_click_on_back_to_cnn_com()
-  Then I validate Covid-19 is visible             # stepdefinitions.CnnStepDefinition.i_validate_covid_is_visible(java.lang.Integer)
 
-    Embedding Demo [image/png 33353 bytes]
+    Embedding Demo [image/png 216047 bytes]
 
+
+@SmokeTest
+Scenario: CNN home page Travel functionality test # src/test/java/features/CnnHomePage.feature:47
+  Given I am in CNN home page                     # stepdefinitions.CnnStepDefinition.i_am_in_cnn_home_page()
+  When I click on live Tv button                  # stepdefinitions.CnnStepDefinition.i_click_on_live_tv_button()
+  And I click on Tv channel box                   # stepdefinitions.CnnStepDefinition.i_click_on_tv_channel_box()
+  And I click on cnn channel                      # stepdefinitions.CnnStepDefinition.i_click_on_cnn_channel()
+  And I click close button                        # stepdefinitions.CnnStepDefinition.i_click_close_button()
+  Then I validate News Shows is visible           # stepdefinitions.CnnStepDefinition.i_validate_news_shows_is_visible()
+
+@SmokeTest
+Scenario: CNN home page Travel functionality test # src/test/java/features/CnnHomePage.feature:55
+  Given I am in CNN home page                     # stepdefinitions.CnnStepDefinition.i_am_in_cnn_home_page()
+  When I click on live Tv button                  # stepdefinitions.CnnStepDefinition.i_click_on_live_tv_button()
+  And I click on Tv channel box                   # stepdefinitions.CnnStepDefinition.i_click_on_tv_channel_box()
+  And I click on cnn channel                      # stepdefinitions.CnnStepDefinition.i_click_on_cnn_channel()
+  And I click close button                        # stepdefinitions.CnnStepDefinition.i_click_close_button()
+  And I click linda voice button                  # stepdefinitions.CnnStepDefinition.i_click_linda_voice_button()
+  And I click linda voice play button             # stepdefinitions.CnnStepDefinition.i_click_linda_voice_play_button()
+  Then I validate US is visible                   # stepdefinitions.CnnStepDefinition.i_validate_us_is_visible()
+
+@SmokeTest
+Scenario: CNN home User Account functionality test    # src/test/java/features/CnnRegistrationPage.feature:7
+  Given I am in CNN home page                         # stepdefinitions.CnnStepDefinition.i_am_in_cnn_home_page()
+  When I do necessary steps to land on User info page # stepdefinitions.CnnStepDefinition.i_do_necessary_steps_to_land_on_user_info_page()
+  And I enter user credentials                        # stepdefinitions.CnnStepDefinition.i_enter_user_credentials(io.cucumber.datatable.DataTable)
+  Then I validate *Required message                   # stepdefinitions.CnnStepDefinition.i_validate_required_message()
+
+@SmokeTest
+Scenario: CNN home User Account functionality test                      # src/test/java/features/CnnRegistrationPage.feature:15
+  Given I am in CNN home page                                           # stepdefinitions.CnnStepDefinition.i_am_in_cnn_home_page()
+  When I do necessary steps to land on User info page                   # stepdefinitions.CnnStepDefinition.i_do_necessary_steps_to_land_on_user_info_page()
+  And I enter user credentials                                          # stepdefinitions.CnnStepDefinition.i_enter_user_credentials(io.cucumber.datatable.DataTable)
+  And I click on register button                                        # stepdefinitions.CnnStepDefinition.i_click_on_register_button()
+  Then I validate "This account already exists. Please log in." message # stepdefinitions.CnnStepDefinition.i_validate_message(java.lang.String)
+
+@SmokeTest
+Scenario: CNN home User Account functionality test     # src/test/java/features/CnnRegistrationPage.feature:24
+  Given I am in CNN home page                          # stepdefinitions.CnnStepDefinition.i_am_in_cnn_home_page()
+  When I do necessary steps to land on LogIn info page # stepdefinitions.CnnStepDefinition.i_do_necessary_steps_to_land_on_log_in_info_page()
+  And I enter credentials in logIn field               # stepdefinitions.CnnStepDefinition.i_enter_credentials_in_log_in_field(io.cucumber.datatable.DataTable)
+  Then I validate "Stay logged in" message is appeared # stepdefinitions.CnnStepDefinition.i_validate_message_is_appeared(java.lang.String)
+
+@SmokeTest
+Scenario: CNN home User Account functionality test                        # src/test/java/features/CnnRegistrationPage.feature:32
+  Given I am in CNN home page                                             # stepdefinitions.CnnStepDefinition.i_am_in_cnn_home_page()
+  When I do necessary steps to land on LogIn info page                    # stepdefinitions.CnnStepDefinition.i_do_necessary_steps_to_land_on_log_in_info_page()
+  And I enter credentials in logIn field                                  # stepdefinitions.CnnStepDefinition.i_enter_credentials_in_log_in_field(io.cucumber.datatable.DataTable)
+  And I click on logIn button                                             # stepdefinitions.CnnStepDefinition.i_click_on_log_in_button()
+  Then I validated "Your email has not been verified" message is appeared # stepdefinitions.CnnStepDefinition.i_validated_message_is_appeared(java.lang.String)

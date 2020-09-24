@@ -42,19 +42,20 @@ Feature: United Airlines home page signIn functionality test
       | password     | reEnterPassword |
       | pnt@30235_NY | pnt@30235_NY    |
     And I click on Show button
+    And I click on accept and enroll button
     Then I verify "Security questions" display properly
 
-  @SmokeTest
-  Scenario: United Airlines contact information test
-    And I click on join now and use title
-    And I entered data in answer field
-      | Answer       |
-      | Cricket      |
-      | Football     |
-      | Table Tennis |
-      | Swimming     |
-      | Badminton    |
-    And I click on accept and enroll button
+#  @SmokeTest
+#  Scenario: United Airlines contact information test
+#    And I click on join now and use title
+#    And I entered data in answer field
+#      | Answer       |
+#      | Cricket      |
+#      | Football     |
+#      | Table Tennis |
+#      | Swimming     |
+#      | Badminton    |
+
 #    Then I verify "Security questions" display properly
 
 

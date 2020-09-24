@@ -3,14 +3,14 @@ Feature: Trip Advisor Home Page Functionality test
   Background:
     Given I am in Trip Advisor home page
 
-#@SmokeTest
+@SmokeTest
   Scenario: Trip Advisor Search box functionality test
     When I enter Texas in search box
     And I click on search button
     And I click on Hotels Button
     Then I verify "Texas" is appeared properly
 
-#  @SmokeTest
+  @SmokeTest
   Scenario: Trip Advisor vacation test
     When I enter Texas in search box
     And I click on search button
@@ -18,7 +18,7 @@ Feature: Trip Advisor Home Page Functionality test
     And I click vacation rentals tab
     Then I verify "Texas" is appeared properly
 
-#  @SmokeTest
+  @SmokeTest
   Scenario: Trip Advisor restaurants test
     When I enter Texas in search box
     And I click on search button
@@ -40,7 +40,7 @@ Feature: Trip Advisor Home Page Functionality test
     And I click on find flight button
     Then I verify COVID-19 Policies is appeared properly
 
-#  @SmokeTest
+  @SmokeTest
   Scenario: Trip Advisor find flight functionality test
     When I click on TravelForum and click on Flight
     And I click on One way tab
@@ -50,13 +50,13 @@ Feature: Trip Advisor Home Page Functionality test
     And I click on find flight button
     Then I verify COVID-19 Policies is appeared properly
 
-#  @SmokeTest
+  @SmokeTest
   Scenario: Trip Advisor things to do functionality test
     When I click on Things to Do
     And I type in searchBox and submit
     Then I verify Dhaka City is appeared properly
 
-#  @SmokeTest
+  @SmokeTest
   Scenario: Trip Advisor things to do search box functionality test
     When I click on Things to Do
     And I type in searchBox and submit
@@ -69,13 +69,13 @@ Feature: Trip Advisor Home Page Functionality test
 #    And I click Advanced Air
 #    Then I varify Advance Air is appeared properly
 
-#  @SmokeTest
+  @SmokeTest
   Scenario: Trip Advisor trip button functionality test
     When I click on trip button
     And I click on get start
     Then I verify reCAPCHA is appeared properly
 
-#  @SmokeTest
+  @SmokeTest
   Scenario: Trip Advisor post tab functionality test
     When I click on Post tab
     And I click on Post Photo

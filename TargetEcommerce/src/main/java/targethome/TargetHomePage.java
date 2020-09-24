@@ -38,7 +38,7 @@ public class TargetHomePage extends WebAPI {
     @FindBy(xpath = "//button[@class='sc-bxivhb sjTNF']")
     WebElement validateSignUp;
     @FindBy(how = How.XPATH, using = webElementSearchBox) public WebElement searchBox;
-    @FindBy(how = How.CSS, using = webElementSearchButton) public WebElement searchButton;
+    @FindBy(how = How.XPATH, using = webElementSearchButton) public WebElement searchButton;
     @FindBy(how = How.XPATH, using = webElementSearchText) public WebElement searchText;
     @FindBy(how = How.XPATH, using = webElementTargetLogo) public WebElement targetLogo;
     @FindBy(how = How.XPATH, using = disposableMaskText) public WebElement faceMask;
@@ -73,7 +73,7 @@ public class TargetHomePage extends WebAPI {
     public void validateSearchText() throws InterruptedException {
         Thread.sleep(3000);
         String actualResult=searchText.getText();
-        String expectedResult= "Registry";
+        String expectedResult= "“Samsung Phone”";
         System.out.println("EASY FOR EVERYONE");
         org.testng.Assert.assertEquals(actualResult,expectedResult,"Search Item not match");
     }
@@ -86,7 +86,7 @@ public class TargetHomePage extends WebAPI {
         clearance.click();
     }
     public void furnitureClearance() throws InterruptedException {
-        Thread.sleep(3000);
+        Thread.sleep(5000);
         furnitureClearance.click();
     }
 

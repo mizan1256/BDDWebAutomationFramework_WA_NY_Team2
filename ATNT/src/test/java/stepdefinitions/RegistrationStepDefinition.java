@@ -1,6 +1,5 @@
 package stepdefinitions;
 
-import atnthome.AtntHome;
 import common.WebAPI;
 import io.cucumber.java.After;
 import io.cucumber.java.BeforeStep;
@@ -9,10 +8,14 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.support.PageFactory;
 import registration.RegistrationPage;
+
+import static registration.RegistrationPageWebElement.continueButtonWebElement;
+import static registration.RegistrationPageWebElement.wirelessRadioButtonWebElement;
 
 public class RegistrationStepDefinition extends WebAPI {
     static RegistrationPage registrationPage;
@@ -123,16 +126,107 @@ public class RegistrationStepDefinition extends WebAPI {
         throw new io.cucumber.java.PendingException();
     }
 
-    @When("I click continue button")
-    public void i_click_continue_button() {
-        // Write code here that turns the phrase above into concrete actions
-        throw new io.cucumber.java.PendingException();
-    }
+//    @When("I click continue button")
+//    public void i_click_continue_button() {
+//        // Write code here that turns the phrase above into concrete actions
+//        throw new io.cucumber.java.PendingException();
+//    }
 
     @Then("I verify page title as Create or link an ID")
     public void i_verify_page_title_as_create_or_link_an_id() {
         // Write code here that turns the phrase above into concrete actions
         throw new io.cucumber.java.PendingException();
+    }
+    @And("I click accountIcon")
+    public void i_click_account_icon() {
+        registrationPage.accountIconButton();
+    }
+
+    @And("I click singInButton")
+    public void i_click_sing_in_button() {
+        registrationPage.signInButton();
+    }
+
+    @When("I click on CreateButton")
+    public void i_click_on_create_button() {
+
+        registrationPage.createButton();
+    }
+    @And("I click wireless radioButton and continueButton")
+    public void i_click_wireless_radio_button_and_continue_button() throws InterruptedException {
+        registrationPage.clickOnElement(wirelessRadioButtonWebElement);
+        registrationPage.clickOnElement(continueButtonWebElement);
+        Thread.sleep(2000);
+    }
+
+    @Then("I enter phoneNumber and zipCode")
+    public void i_enter_phone_number_and_zip_code() throws InterruptedException {
+        driver.findElement(By.xpath("//input[@id='phoneNum']")).sendKeys("1234567890");
+        driver.findElement(By.xpath("//*[@id=\"zipcode\"]")).sendKeys("11432");
+        Thread.sleep(3000);
+    }
+
+    @When("I click continueButton")
+    public void i_click_continue_button() {
+        driver.findElement(By.xpath("//button[@class='btn btn-primary-functional btn-medium span3 ng-scope ng-isolate-scope']")).click();
+    }
+
+    @Then("I should be get en error message")
+    public void i_should_be_get_en_error_message() {
+        registrationPage.validateSignUpText("Sorry we could not validate your information.");
+    }
+
+    /**
+     * ATnT signIn functionality check with invalid credentials
+     */
+
+    @And("I on signIn page")
+    public void i_on_sign_in_page() {
+        registrationPage.accountIconButton();
+        registrationPage.signInButton();
+    }
+    @When("I enter userName and passWord")
+    public void i_enter_user_name_and_pass_word() {
+        registrationPage.enterUserId("pnt30242");
+        registrationPage.enterUserPassword("Pnt@30242");
+    }
+    @And("I click on signIn button")
+    public void i_click_on_sign_in_button() {
+        registrationPage.clickSignInButton();
+    }
+
+    @Then("I am getting error message")
+    public void i_am_getting_error_message() {
+        registrationPage.validateSignInPage();
+    }
+
+    /**
+     * Att data driven negative signIn test case
+     * @param userName
+     * @param PassWord
+     */
+    @Given("I enter email as {string} and password as {string}")
+    public void i_enter_email_as_and_password_as(String userName, String PassWord) {
+        registrationPage.enterUserId(userName);
+        registrationPage.enterUserPassword(PassWord);
+    }
+
+    /**
+     * Att BurgerButton menu test
+     */
+    @When("I click on burgerButton")
+    public void i_click_on_burger_button() throws InterruptedException {
+        registrationPage.clickBurgBtnMenu();
+    }
+
+    @And("I select wireless and click on Explore Wireless")
+    public void i_select_wireless_and_click_on_explore_wireless() {
+        registrationPage.selectWirelessAndExploreBtn();
+    }
+
+    @Then("I verify page title")
+    public void i_verify_page_title() {
+        registrationPage.validateExploreWirelessTitle();
     }
 
 
