@@ -5,25 +5,15 @@ Scenario: HomePage Restaurant Button Functionality Check # src/test/java/feature
   When I click on Restaurant Button                      # stepdefinitions.HomePageStepDefinition.i_click_on_restaurant_button()
   And I wrote Grass Valley on the search box             # stepdefinitions.HomePageStepDefinition.i_wrote_grass_valley_on_the_search_box()
   Then I click on Grass Valley                           # stepdefinitions.HomePageStepDefinition.i_click_on_grass_valley()
-  And I verify Valley is appeared properly               # stepdefinitions.HomePageStepDefinition.i_verify_valley_is_appeared_properly()
-  And I verify page title                                # stepdefinitions.HomePageStepDefinition.i_verify_page_title()
-
-@SmokeTest
-Scenario: Trip Advisor Search box functionality test          # src/test/java/features/TripAdvisorHome.feature:79
-  Given I am on TripAdvisor HomePage                          # stepdefinitions.HomePageStepDefinition.i_am_on_trip_advisor_home_page()
-  When I click Post                                           # stepdefinitions.HomePageStepDefinition.i_click_post()
-  And I click Post Photo                                      # stepdefinitions.HomePageStepDefinition.i_click_post_photo()
-  And I click hohel radio button                              # stepdefinitions.HomePageStepDefinition.i_click_hohel_radio_button()
-  And I type hotel name and city name and click search button # stepdefinitions.HomePageStepDefinition.i_type_hotel_name_and_city_name_and_click_search_button()
-  And select and click radio button                           # stepdefinitions.HomePageStepDefinition.select_and_click_radio_button()
-  And I click Post Photos Button and click add photo btn      # stepdefinitions.HomePageStepDefinition.i_click_post_photos_button_and_click_add_photo_btn()
-      org.openqa.selenium.ElementNotInteractableException: element not interactable
+      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class='_1aRPCGmR YfjlVygM']//div[@class='_3a_rGDNB'][contains(text(),'Grass Valley')]"}
   (Session info: chrome=85.0.4183.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'Shahs-MacBook-Pro.local', ip: '2604:2000:1000:4035:0:0:0:b0d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/6v/0pdt7m190gj...}, goog:chromeOptions: {debuggerAddress: localhost:52724}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 711217142bb277396b7e06cc36f13c2d
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/6v/0pdt7m190gj...}, goog:chromeOptions: {debuggerAddress: localhost:54170}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 099314765ba3a824058c9b459c874a92
+*** Element info: {Using=xpath, value=//a[@class='_1aRPCGmR YfjlVygM']//div[@class='_3a_rGDNB'][contains(text(),'Grass Valley')]}
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -34,20 +24,19 @@ Session ID: 711217142bb277396b7e06cc36f13c2d
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at com.sun.proxy.$Proxy25.sendKeys(Unknown Source)
-	at tripadvisorhome.TripAdvisorHomePage.postPhotoButton(TripAdvisorHomePage.java:324)
-	at stepdefinitions.HomePageStepDefinition.i_click_post_photos_button_and_click_add_photo_btn(HomePageStepDefinition.java:233)
-	at ✽.I click Post Photos Button and click add photo btn(file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/TripAdvisor/src/test/java/features/TripAdvisorHome.feature:85)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy25.click(Unknown Source)
+	at tripadvisorhome.TripAdvisorHomePage.grassValley(TripAdvisorHomePage.java:29)
+	at stepdefinitions.HomePageStepDefinition.i_click_on_grass_valley(HomePageStepDefinition.java:50)
+	at ✽.I click on Grass Valley(file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/TripAdvisor/src/test/java/features/TripAdvisor.feature:8)
 
-  And I click select photo from your computer.                # stepdefinitions.HomePageStepDefinition.i_click_select_photo_from_your_computer()
-  Then I varify reCAPCHA is appeared properly                 # stepdefinitions.HomePageStepDefinition.i_varify_re_capcha_is_appeared_properly()
+  And I verify Valley is appeared properly               # stepdefinitions.HomePageStepDefinition.i_verify_valley_is_appeared_properly()
+  And I verify page title                                # stepdefinitions.HomePageStepDefinition.i_verify_page_title()
 
-    Embedding Demo1 [image/png 350283 bytes]
+    Embedding Demo1 [image/png 333631 bytes]
 

@@ -33,37 +33,11 @@ public class HomePageStepDefinition extends WebAPI {
     @Given("I am on TripAdvisor HomePage")
     public void i_am_on_trip_advisor_home_page() throws IOException {
         openBrowser("https://www.tripadvisor.com/");
-
-    }
-
-    @When("I click on Restaurant Button")
-    public void i_click_on_restaurant_button() {
-
-
-    }
-
-    @When("I wrote Grass Valley on the search box")
-    public void i_wrote_grass_valley_on_the_search_box() {
-
-    }
-
-    @Then("I click on Grass Valley")
-    public void i_click_on_grass_valley() {
-
-    }
-
-    @Then("I verify Valley is appeared properly")
-    public void i_verify_valley_is_appeared_properly() {
-
     }
 
     @Then("I verify page title")
     public void i_verify_page_title() {
-
     }
-
-
-
     @When("I type Texas i search box")
     public void i_type_texas_i_search_box() {
         tripAdvisorHome.WhereToSearchBox();
@@ -236,6 +210,28 @@ public class HomePageStepDefinition extends WebAPI {
     @When("I click select photo from your computer.")
     public void i_click_select_photo_from_your_computer() throws InterruptedException {
         tripAdvisorHome.selectPhotoFromComputer();
+    }
+
+    // Restaurant Button
+    @When("I click on Restaurant Button")
+    public void i_click_on_restaurant_button() throws InterruptedException {
+        tripAdvisorHome.restaurantsButton();
+    }
+
+    @When("I wrote Grass Valley on the search box")
+    public void i_wrote_grass_valley_on_the_search_box() throws InterruptedException {
+        tripAdvisorHome.searchBox();
+    }
+
+    @Then("I click on Grass Valley")
+    public void i_click_on_grass_valley() throws InterruptedException {
+        tripAdvisorHome.grassValley();
+    }
+
+    // Restaurant Validation
+    @Then("I verify Valley is appeared properly")
+    public void i_verify_valley_is_appeared_properly() {
+        tripAdvisorHome.outDoorSeatingAvailableText();
     }
 
 }

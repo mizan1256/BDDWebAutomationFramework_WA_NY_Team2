@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="13.583">
-    <testcase classname="Geico HomePage Functionality Check." name="Geico Auto Butto Functionality Check" time="13.26">
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="47.87">
+    <testcase classname="Geico HomePage Functionality Check." name="Geico Auto Butto Functionality Check" time="17.144">
         <failure message="Title doesn't match expected:&lt;[]&gt; but was:&lt;[GEICO]&gt;" type="org.junit.ComparisonFailure">
-            <![CDATA[Given I am on Geico Home Page...............................................passed
+            <![CDATA[Given I am on Geico home page...............................................passed
+Given I am on Geico Home Page...............................................passed
 When I click on Auto Button.................................................passed
 And I checked the Check Box.................................................passed
 Then I click on START QUOTE.................................................passed
@@ -11,10 +12,39 @@ And I verify CONTACT US.....................................................fail
 StackTrace:
 org.junit.ComparisonFailure: Title doesn't match expected:<[]> but was:<[GEICO]>
 	at org.junit.Assert.assertEquals(Assert.java:117)
-	at geicohome.GeicoHome.contactUsText(GeicoHome.java:41)
+	at geicohome.GeicoHome.contactUsText(GeicoHome.java:110)
 	at stepdefinitions.HomePageStepDefinition.i_verify_contact_us(HomePageStepDefinition.java:54)
-	at ✽.I verify CONTACT US(file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:10)
+	at ✽.I verify CONTACT US(file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:12)
 ]]>
         </failure>
+    </testcase>
+    <testcase classname="Geico HomePage Functionality Check." name="Geico home page search box functionality test" time="8.296">
+        <system-out>
+            <![CDATA[Given I am on Geico home page...............................................passed
+When I click on search icon.................................................passed
+And I enter Auto in search box..............................................passed
+And I click on search button................................................passed
+Then I validate "Site Search" is appeared properly..........................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Geico HomePage Functionality Check." name="Geico home page search box functionality test 2" time="10.579">
+        <system-out>
+            <![CDATA[Given I am on Geico home page...............................................passed
+When I click on search icon.................................................passed
+And I enter Auto in search box..............................................passed
+And I click on search button................................................passed
+And I click on manage account...............................................passed
+Then I validate "Site Search" is appeared properly..........................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Geico HomePage Functionality Check." name="Gecio Career button Check" time="11.436">
+        <system-out>
+            <![CDATA[Given I am on Geico home page...............................................passed
+And I click on Career button................................................passed
+When I Click on Customer Service Button.....................................passed
+]]>
+        </system-out>
     </testcase>
 </testsuite>

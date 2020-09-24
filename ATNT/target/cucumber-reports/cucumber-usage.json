@@ -5,12 +5,12 @@
       {
         "name": "I am on Atnt HomePage",
         "aggregatedDurations": {
-          "median": 3.487401,
-          "average": 3.487401
+          "median": 3.774179,
+          "average": 3.774179
         },
         "durations": [
           {
-            "duration": 3.487401,
+            "duration": 3.774179,
             "location": "file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:4"
           }
         ]
@@ -18,72 +18,634 @@
     ]
   },
   {
-    "source": "I click on TV Button",
+    "source": "I enter {string} on search box",
     "steps": [
       {
-        "name": "I click on TV Button",
+        "name": "I enter \"Samsung Note10\" on search box",
         "aggregatedDurations": {
-          "median": 3.467191,
-          "average": 3.467191
+          "median": 0.246049,
+          "average": 0.246049
         },
         "durations": [
           {
-            "duration": 3.467191,
-            "location": "file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:22"
+            "duration": 0.246049,
+            "location": "file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:29"
           }
         ]
       }
     ]
   },
   {
-    "source": "I click on Sports Button",
+    "source": "I click on search icon",
     "steps": [
       {
-        "name": "I click on Sports Button",
+        "name": "I click on search icon",
         "aggregatedDurations": {
-          "median": 1.736513,
-          "average": 1.736513
+          "median": 8.176788,
+          "average": 8.176788
         },
         "durations": [
           {
-            "duration": 1.736513,
-            "location": "file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:23"
+            "duration": 8.176788,
+            "location": "file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:30"
           }
         ]
       }
     ]
   },
   {
-    "source": "I click on Shop now Button",
+    "source": "I validate \"Showing results for \"Samsung Note10\".\" as search result appears properly",
     "steps": [
       {
-        "name": "I click on Shop now Button",
+        "name": "I validate \"Showing results for \"Samsung Note10\".\" as search result appears properly",
         "aggregatedDurations": {
-          "median": 7.166928,
-          "average": 7.166928
+          "median": 0.980137,
+          "average": 0.980137
         },
         "durations": [
           {
-            "duration": 7.166928,
-            "location": "file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:24"
+            "duration": 0.980137,
+            "location": "file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:31"
           }
         ]
       }
     ]
   },
   {
-    "source": "I verify Internet is appeared properly",
+    "source": "I am in at\u0026t homepage",
     "steps": [
       {
-        "name": "I verify Internet is appeared properly",
+        "name": "I am in at\u0026t homepage",
         "aggregatedDurations": {
-          "median": 0.077455,
-          "average": 0.077455
+          "median": 3.138002,
+          "average": 3.202902
         },
         "durations": [
           {
-            "duration": 0.077455,
-            "location": "file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:25"
+            "duration": 4.223532,
+            "location": "file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage1.feature:4"
+          },
+          {
+            "duration": 3.537968,
+            "location": "file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage1.feature:4"
+          },
+          {
+            "duration": 2.962396,
+            "location": "file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage1.feature:4"
+          },
+          {
+            "duration": 3.220229,
+            "location": "file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage1.feature:4"
+          },
+          {
+            "duration": 3.113562,
+            "location": "file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage1.feature:4"
+          },
+          {
+            "duration": 3.280819,
+            "location": "file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage1.feature:4"
+          },
+          {
+            "duration": 3.089519,
+            "location": "file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage1.feature:4"
+          },
+          {
+            "duration": 2.780409,
+            "location": "file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage1.feature:4"
+          },
+          {
+            "duration": 3.258967,
+            "location": "file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage1.feature:4"
+          },
+          {
+            "duration": 3.256409,
+            "location": "file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage1.feature:4"
+          },
+          {
+            "duration": 2.918574,
+            "location": "file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage1.feature:4"
+          },
+          {
+            "duration": 3.245387,
+            "location": "file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage1.feature:4"
+          },
+          {
+            "duration": 3.065838,
+            "location": "file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage1.feature:4"
+          },
+          {
+            "duration": 3.121524,
+            "location": "file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage1.feature:4"
+          },
+          {
+            "duration": 3.138002,
+            "location": "file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/RegistrationPage.feature:4"
+          },
+          {
+            "duration": 3.087208,
+            "location": "file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/RegistrationPage.feature:4"
+          },
+          {
+            "duration": 3.148991,
+            "location": "file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/RegistrationPage.feature:4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter Samsung Phones in searchBox",
+    "steps": [
+      {
+        "name": "I enter Samsung Phones in searchBox",
+        "aggregatedDurations": {
+          "median": 0.235004,
+          "average": 0.235004
+        },
+        "durations": [
+          {
+            "duration": 0.235004,
+            "location": "file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage1.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click searchButton",
+    "steps": [
+      {
+        "name": "I click searchButton",
+        "aggregatedDurations": {
+          "median": 2.512721,
+          "average": 2.62628
+        },
+        "durations": [
+          {
+            "duration": 3.021516,
+            "location": "file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage1.feature:9"
+          },
+          {
+            "duration": 2.66734,
+            "location": "file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage1.feature:42"
+          },
+          {
+            "duration": 2.311607,
+            "location": "file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage1.feature:42"
+          },
+          {
+            "duration": 3.178102,
+            "location": "file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage1.feature:42"
+          },
+          {
+            "duration": 2.119368,
+            "location": "file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage1.feature:42"
+          },
+          {
+            "duration": 2.043821,
+            "location": "file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage1.feature:54"
+          },
+          {
+            "duration": 2.106419,
+            "location": "file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage1.feature:54"
+          },
+          {
+            "duration": 2.961125,
+            "location": "file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage1.feature:54"
+          },
+          {
+            "duration": 2.358102,
+            "location": "file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage1.feature:54"
+          },
+          {
+            "duration": 3.4954,
+            "location": "file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage1.feature:54"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify Samsung Phones is appear properly",
+    "steps": [
+      {
+        "name": "I verify Samsung Phones is appear properly",
+        "aggregatedDurations": {
+          "median": 0.070434,
+          "average": 0.070434
+        },
+        "durations": [
+          {
+            "duration": 0.070434,
+            "location": "file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage1.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify page title as Samsung Phones",
+    "steps": [
+      {
+        "name": "I verify page title as Samsung Phones",
+        "aggregatedDurations": {
+          "median": 0.002968,
+          "average": 0.002968
+        },
+        "durations": [
+          {
+            "duration": 0.002968,
+            "location": "file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage1.feature:11"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click Deals Button",
+    "steps": [
+      {
+        "name": "I click Deals Button",
+        "aggregatedDurations": {
+          "median": 2.011412,
+          "average": 2.011412
+        },
+        "durations": [
+          {
+            "duration": 2.011412,
+            "location": "file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage1.feature:15"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify Wireless is appear properly",
+    "steps": [
+      {
+        "name": "I verify Wireless is appear properly",
+        "aggregatedDurations": {
+          "median": 0.063984,
+          "average": 0.063984
+        },
+        "durations": [
+          {
+            "duration": 0.063984,
+            "location": "file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage1.feature:16"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify page title as AT\u0026T Deals on Phones, Wireless Plans, Internet \u0026 TV Services",
+    "steps": [
+      {
+        "name": "I verify page title as AT\u0026T Deals on Phones, Wireless Plans, Internet \u0026 TV Services",
+        "aggregatedDurations": {
+          "median": 0.003484,
+          "average": 0.003484
+        },
+        "durations": [
+          {
+            "duration": 0.003484,
+            "location": "file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage1.feature:17"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click Wireless Button",
+    "steps": [
+      {
+        "name": "I click Wireless Button",
+        "aggregatedDurations": {
+          "median": 2.045869,
+          "average": 2.045869
+        },
+        "durations": [
+          {
+            "duration": 2.045869,
+            "location": "file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage1.feature:21"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify LEARN HOW TO is appear properly",
+    "steps": [
+      {
+        "name": "I verify LEARN HOW TO is appear properly",
+        "aggregatedDurations": {
+          "median": 0.249862,
+          "average": 0.249862
+        },
+        "durations": [
+          {
+            "duration": 0.249862,
+            "location": "file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage1.feature:22"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify page title as AT\u0026T Wireless – Latest Phones \u0026 Best Wireless Plans",
+    "steps": [
+      {
+        "name": "I verify page title as AT\u0026T Wireless – Latest Phones \u0026 Best Wireless Plans",
+        "aggregatedDurations": {
+          "median": 0.0033,
+          "average": 0.0033
+        },
+        "durations": [
+          {
+            "duration": 0.0033,
+            "location": "file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage1.feature:23"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click internet Button",
+    "steps": [
+      {
+        "name": "I click internet Button",
+        "aggregatedDurations": {
+          "median": 2.192687,
+          "average": 2.192687
+        },
+        "durations": [
+          {
+            "duration": 2.192687,
+            "location": "file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage1.feature:27"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click TV Button",
+    "steps": [
+      {
+        "name": "I click TV Button",
+        "aggregatedDurations": {
+          "median": 1.996534,
+          "average": 1.996534
+        },
+        "durations": [
+          {
+            "duration": 1.996534,
+            "location": "file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage1.feature:33"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on shop now button",
+    "steps": [
+      {
+        "name": "I click on shop now button",
+        "aggregatedDurations": {
+          "median": 1.892502,
+          "average": 1.892502
+        },
+        "durations": [
+          {
+            "duration": 1.892502,
+            "location": "file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage1.feature:34"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify Choose a TV package is appear properly",
+    "steps": [
+      {
+        "name": "I verify Choose a TV package is appear properly",
+        "aggregatedDurations": {
+          "median": 4.086482,
+          "average": 4.086482
+        },
+        "durations": [
+          {
+            "duration": 4.086482,
+            "location": "file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage1.feature:35"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify page title as Shop AT\u0026T Bundles",
+    "steps": [
+      {
+        "name": "I verify page title as Shop AT\u0026T Bundles",
+        "aggregatedDurations": {
+          "median": 0.003286,
+          "average": 0.003286
+        },
+        "durations": [
+          {
+            "duration": 0.003286,
+            "location": "file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage1.feature:36"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter {string} in searchBox",
+    "steps": [
+      {
+        "name": "I enter \"AT\u0026T PREPAID\" in searchBox",
+        "aggregatedDurations": {
+          "median": 0.205808,
+          "average": 0.205808
+        },
+        "durations": [
+          {
+            "duration": 0.205808,
+            "location": "file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage1.feature:41"
+          }
+        ]
+      },
+      {
+        "name": "I enter \"AT\u0026T Deals\" in searchBox",
+        "aggregatedDurations": {
+          "median": 0.208836,
+          "average": 0.208836
+        },
+        "durations": [
+          {
+            "duration": 0.208836,
+            "location": "file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage1.feature:41"
+          }
+        ]
+      },
+      {
+        "name": "I enter \"TV \u0026 internet bundles\" in searchBox",
+        "aggregatedDurations": {
+          "median": 0.299662,
+          "average": 0.299662
+        },
+        "durations": [
+          {
+            "duration": 0.299662,
+            "location": "file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage1.feature:41"
+          }
+        ]
+      },
+      {
+        "name": "I enter \"Upgrade a device\" in searchBox",
+        "aggregatedDurations": {
+          "median": 0.208554,
+          "average": 0.208554
+        },
+        "durations": [
+          {
+            "duration": 0.208554,
+            "location": "file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage1.feature:41"
+          }
+        ]
+      },
+      {
+        "name": "I enter \"Samsung Phones\" in searchBox",
+        "aggregatedDurations": {
+          "median": 0.19206,
+          "average": 0.19206
+        },
+        "durations": [
+          {
+            "duration": 0.19206,
+            "location": "file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage1.feature:53"
+          }
+        ]
+      },
+      {
+        "name": "I enter \"Apple Watches\" in searchBox",
+        "aggregatedDurations": {
+          "median": 0.179042,
+          "average": 0.179042
+        },
+        "durations": [
+          {
+            "duration": 0.179042,
+            "location": "file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage1.feature:53"
+          }
+        ]
+      },
+      {
+        "name": "I enter \"Apple ipads\" in searchBox",
+        "aggregatedDurations": {
+          "median": 0.189847,
+          "average": 0.189847
+        },
+        "durations": [
+          {
+            "duration": 0.189847,
+            "location": "file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage1.feature:53"
+          }
+        ]
+      },
+      {
+        "name": "I enter \"iphone 11 Pro Max\" in searchBox",
+        "aggregatedDurations": {
+          "median": 0.222967,
+          "average": 0.222967
+        },
+        "durations": [
+          {
+            "duration": 0.222967,
+            "location": "file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage1.feature:53"
+          }
+        ]
+      },
+      {
+        "name": "I enter \"Samsung Tablets\" in searchBox",
+        "aggregatedDurations": {
+          "median": 0.239752,
+          "average": 0.239752
+        },
+        "durations": [
+          {
+            "duration": 0.239752,
+            "location": "file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage1.feature:53"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify {string} and {string}",
+    "steps": [
+      {
+        "name": "I verify \"\\\"Samsung Phones\\\"\" and \"Results for Samsung Phones - AT\u0026T Search\"",
+        "aggregatedDurations": {
+          "median": 0.003532,
+          "average": 0.003532
+        },
+        "durations": [
+          {
+            "duration": 0.003532,
+            "location": "file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage1.feature:55"
+          }
+        ]
+      },
+      {
+        "name": "I verify \"\\\"Apple Watches\\\"\" and \"Results for Apple Watches - AT\u0026T Search\"",
+        "aggregatedDurations": {
+          "median": 0.002705,
+          "average": 0.002705
+        },
+        "durations": [
+          {
+            "duration": 0.002705,
+            "location": "file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage1.feature:55"
+          }
+        ]
+      },
+      {
+        "name": "I verify \"\\\"Apple ipads\\\"\" and \"Results for Apple ipads - AT\u0026T Search\"",
+        "aggregatedDurations": {
+          "median": 0.00505,
+          "average": 0.00505
+        },
+        "durations": [
+          {
+            "duration": 0.00505,
+            "location": "file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage1.feature:55"
+          }
+        ]
+      },
+      {
+        "name": "I verify \"\\\"iphone 11 Pro Max\\\"\" and \"Results for iphone 11 Pro Max - AT\u0026T Search\"",
+        "aggregatedDurations": {
+          "median": 0.003761,
+          "average": 0.003761
+        },
+        "durations": [
+          {
+            "duration": 0.003761,
+            "location": "file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage1.feature:55"
+          }
+        ]
+      },
+      {
+        "name": "I verify \"\\\"Samsung Tablets\\\"\" and \"Results for Samsung Tablets - AT\u0026T Search\"",
+        "aggregatedDurations": {
+          "median": 0.004492,
+          "average": 0.004492
+        },
+        "durations": [
+          {
+            "duration": 0.004492,
+            "location": "file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage1.feature:55"
           }
         ]
       }

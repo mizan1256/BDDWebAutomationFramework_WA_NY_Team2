@@ -7,18 +7,34 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 
 public class TripAdvisorHomePage extends WebAPI {
+
     @FindBy(xpath = "//span[contains(text(),'Restaurants')]")
     WebElement restaurantsButton;
-//    @FindBy(xpath = "//div[@class='i3bZ_gBa _2RTs3_Ee _3TPJs5_m _3awdcWrG']//input[@placeholder='Where to?']")
-//    WebElement searchBox;
+    @FindBy(xpath = "//div[@class='i3bZ_gBa _2RTs3_Ee _3TPJs5_m _3awdcWrG']//input[@placeholder='Where to?']")
+    WebElement searchBox;
     @FindBy(xpath = "//a[@class='_1aRPCGmR YfjlVygM']//div[@class='_3a_rGDNB'][contains(text(),'Grass Valley')]")
     WebElement grassValley;
     @FindBy(xpath = "//a[contains(text(),'Outdoor Seating Available')]")
     WebElement outDoorSeatingAvailableText;
 
+    public void restaurantsButton() throws InterruptedException {
+        restaurantsButton.click();
+        Thread.sleep(3000);
+    }
+    public void searchBox() throws InterruptedException {
+        searchBox.sendKeys("Grass Valley");
+        Thread.sleep(3000);
+    }
+    public void grassValley() throws InterruptedException {
+        grassValley.click();
+        Thread.sleep(3000);
+    }
+    public void outDoorSeatingAvailableText(){
+        outDoorSeatingAvailableText.isDisplayed();
+    }
 
-    @FindBy(how = How.XPATH, using = homeSearchBox)
-    public WebElement searchBox;
+    //    @FindBy(how = How.XPATH, using = homeSearchBox)
+//    public WebElement searchBox;
     @FindBy(how = How.XPATH, using = homeSearchButton)
     public WebElement searchButton;
     @FindBy(xpath = "//*[@id=\"search-filters\"]/ul/li[2]/a")
@@ -102,23 +118,6 @@ public class TripAdvisorHomePage extends WebAPI {
 
     public static final String homeSearchBox ="//input[@placeholder='Where to?']";
     public static final String homeSearchButton = "//div[@class='i3bZ_gBa _2RTs3_Ee _3TPJs5_m']//span[@class='_2LyoLJ4U _2HBN-k68 _3LkX-HIr']";
-
-
-    public void restaurantsButton() throws InterruptedException {
-        restaurantsButton.click();
-        Thread.sleep(3000);
-    }
-    public void searchBox() throws InterruptedException {
-        searchBox.sendKeys("Grass Valley");
-        Thread.sleep(3000);
-    }
-    public void grassValley() throws InterruptedException {
-        grassValley.click();
-        Thread.sleep(3000);
-    }
-    public void outDoorSeatingAvailableText(){
-        outDoorSeatingAvailableText.isDisplayed();
-    }
 
 
 

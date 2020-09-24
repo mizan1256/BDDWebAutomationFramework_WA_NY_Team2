@@ -1,6 +1,7 @@
 
 @SmokeTest
-Scenario: Geico Auto Butto Functionality Check # src/test/java/features/GeicoHome.feature:5
+Scenario: Geico Auto Butto Functionality Check # src/test/java/features/GeicoHome.feature:7
+  Given I am on Geico home page                # stepdefinitions.GeicoHomeStepDefinitions.i_am_on_geico_home_page()
   Given I am on Geico Home Page                # stepdefinitions.HomePageStepDefinition.i_am_on_geico_home_page()
   When I click on Auto Button                  # stepdefinitions.HomePageStepDefinition.i_click_on_auto_button()
   And I checked the Check Box                  # stepdefinitions.HomePageStepDefinition.i_checked_the_check_box()
@@ -8,10 +9,44 @@ Scenario: Geico Auto Butto Functionality Check # src/test/java/features/GeicoHom
   And I verify CONTACT US                      # stepdefinitions.HomePageStepDefinition.i_verify_contact_us()
       org.junit.ComparisonFailure: Title doesn't match expected:<[]> but was:<[GEICO]>
 	at org.junit.Assert.assertEquals(Assert.java:117)
-	at geicohome.GeicoHome.contactUsText(GeicoHome.java:41)
+	at geicohome.GeicoHome.contactUsText(GeicoHome.java:110)
 	at stepdefinitions.HomePageStepDefinition.i_verify_contact_us(HomePageStepDefinition.java:54)
-	at ✽.I verify CONTACT US(file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:10)
+	at ✽.I verify CONTACT US(file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:12)
 
 
-    Embedding Demo1 [image/png 29911 bytes]
+    Embedding Demo1 [image/png 30171 bytes]
 
+      org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Shahs-MacBook-Pro.local', ip: '2604:2000:1000:4035:0:0:0:b0d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at stepdefinitions.GeicoHomeStepDefinitions.tearDown(GeicoHomeStepDefinitions.java:23)
+
+
+@SmokeTest
+Scenario: Geico home page search box functionality test # src/test/java/features/GeicoHome.feature:14
+  Given I am on Geico home page                         # stepdefinitions.GeicoHomeStepDefinitions.i_am_on_geico_home_page()
+  When I click on search icon                           # stepdefinitions.GeicoHomeStepDefinitions.i_click_on_search_icon()
+  And I enter Auto in search box                        # stepdefinitions.GeicoHomeStepDefinitions.i_enter_auto_in_search_box()
+  And I click on search button                          # stepdefinitions.GeicoHomeStepDefinitions.i_click_on_search_button()
+  Then I validate "Site Search" is appeared properly    # stepdefinitions.GeicoHomeStepDefinitions.i_validate_is_appeared_properly(java.lang.String)
+
+@SmokeTest
+Scenario: Geico home page search box functionality test # src/test/java/features/GeicoHome.feature:21
+  Given I am on Geico home page                         # stepdefinitions.GeicoHomeStepDefinitions.i_am_on_geico_home_page()
+  When I click on search icon                           # stepdefinitions.GeicoHomeStepDefinitions.i_click_on_search_icon()
+  And I enter Auto in search box                        # stepdefinitions.GeicoHomeStepDefinitions.i_enter_auto_in_search_box()
+  And I click on search button                          # stepdefinitions.GeicoHomeStepDefinitions.i_click_on_search_button()
+  And I click on manage account                         # stepdefinitions.GeicoHomeStepDefinitions.i_click_on_manage_account()
+  Then I validate "Site Search" is appeared properly    # stepdefinitions.GeicoHomeStepDefinitions.i_validate_is_appeared_properly(java.lang.String)
+
+@SmokeTest
+Scenario: Gecio Career button Check       # src/test/java/features/GeicoHome.feature:29
+  Given I am on Geico home page           # stepdefinitions.GeicoHomeStepDefinitions.i_am_on_geico_home_page()
+  And I click on Career button            # stepdefinitions.GeicoHomeStepDefinitions.i_click_on_career_button()
+  When I Click on Customer Service Button # stepdefinitions.GeicoHomeStepDefinitions.i_click_on_customer_service_button()

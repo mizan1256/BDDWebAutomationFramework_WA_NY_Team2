@@ -1,13 +1,182 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="16.565">
-    <testcase classname="Atnt HomePage Functionality Check." name="HomePage TV Button Check" time="16.2">
+<testsuite errors="0" failures="4" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="18" time="115.399">
+    <testcase classname="Atnt HomePage Functionality Check." name="Atnt Search Box Check" time="13.415">
         <system-out>
             <![CDATA[Given I am on Atnt HomePage.................................................passed
-When I click on TV Button...................................................passed
-And I click on Sports Button................................................passed
-When I click on Shop now Button.............................................passed
-Then I verify Internet is appeared properly.................................passed
+When I enter "Samsung Note10" on search box.................................passed
+And I click on search icon..................................................passed
+Then I validate "Showing results for "Samsung Note10"." as search result appears properly.passed
 ]]>
         </system-out>
+    </testcase>
+    <testcase classname="Feature: Att HomePage Functionality check" name="Att SearchBox Functionality check with valid data" time="7.694">
+        <system-out>
+            <![CDATA[Given I am in at&t homepage.................................................passed
+And I enter Samsung Phones in searchBox.....................................passed
+When I click searchButton...................................................passed
+Then I verify Samsung Phones is appear properly.............................passed
+And I verify page title as Samsung Phones...................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Feature: Att HomePage Functionality check" name="Att deals button Functionality check with valid data" time="5.736">
+        <system-out>
+            <![CDATA[Given I am in at&t homepage.................................................passed
+When I click Deals Button...................................................passed
+Then I verify Wireless is appear properly...................................passed
+And I verify page title as AT&T Deals on Phones, Wireless Plans, Internet & TV Services.passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Feature: Att HomePage Functionality check" name="Att Wireless button Functionality check with valid data" time="5.378">
+        <system-out>
+            <![CDATA[Given I am in at&t homepage.................................................passed
+When I click Wireless Button................................................passed
+Then I verify LEARN HOW TO is appear properly...............................passed
+And I verify page title as AT&T Wireless – Latest Phones & Best Wireless Plans.passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Feature: Att HomePage Functionality check" name="Att Internet button Functionality check with valid data" time="7.223">
+        <failure message="Do not match expected:&lt;[AT&amp;T INTERNET]&gt; but was:&lt;[Which AT&amp;T Internet plan is the fastest?]&gt;" type="org.junit.ComparisonFailure">
+            <![CDATA[Given I am in at&t homepage.................................................passed
+When I click internet Button................................................passed
+Then I verify AT&T INTERNET is appear properly..............................failed
+And I verify page title as AT&T Internet Plans - Home Internet - AT&T® Official Site.skipped
+
+StackTrace:
+org.junit.ComparisonFailure: Do not match expected:<[AT&T INTERNET]> but was:<[Which AT&T Internet plan is the fastest?]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at atnthome.AtntHome.validateInternetTabButton(AtntHome.java:157)
+	at stepdefinitions.HomePageStepDefinition.i_verify_at_t_internet_is_appear_properly(HomePageStepDefinition.java:175)
+	at ✽.I verify AT&T INTERNET is appear properly(file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage1.feature:28)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Feature: Att HomePage Functionality check" name="Att TV button Functionality check with valid data" time="11.252">
+        <system-out>
+            <![CDATA[Given I am in at&t homepage.................................................passed
+When I click TV Button......................................................passed
+And I click on shop now button..............................................passed
+Then I verify Choose a TV package is appear properly........................passed
+And I verify page title as Shop AT&T Bundles................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Feature: Att HomePage Functionality check" name="Atnt SearchBox Functionality check with multiple products" time="6.277">
+        <system-out>
+            <![CDATA[Given I am in at&t homepage.................................................passed
+And I enter "AT&T PREPAID" in searchBox.....................................passed
+When I click searchButton...................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Feature: Att HomePage Functionality check" name="Atnt SearchBox Functionality check with multiple products 2" time="5.784">
+        <system-out>
+            <![CDATA[Given I am in at&t homepage.................................................passed
+And I enter "AT&T Deals" in searchBox.......................................passed
+When I click searchButton...................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Feature: Att HomePage Functionality check" name="Atnt SearchBox Functionality check with multiple products 3" time="6.386">
+        <system-out>
+            <![CDATA[Given I am in at&t homepage.................................................passed
+And I enter "TV & internet bundles" in searchBox............................passed
+When I click searchButton...................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Feature: Att HomePage Functionality check" name="Atnt SearchBox Functionality check with multiple products 4" time="5.71">
+        <system-out>
+            <![CDATA[Given I am in at&t homepage.................................................passed
+And I enter "Upgrade a device" in searchBox.................................passed
+When I click searchButton...................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Feature: Att HomePage Functionality check" name="Atnt SearchBox Functionality check with multiple products 5" time="5.62">
+        <system-out>
+            <![CDATA[Given I am in at&t homepage.................................................passed
+And I enter "Samsung Phones" in searchBox...................................passed
+When I click searchButton...................................................passed
+Then I verify "\"Samsung Phones\"" and "Results for Samsung Phones - AT&T Search".passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Feature: Att HomePage Functionality check" name="Atnt SearchBox Functionality check with multiple products 6" time="5.329">
+        <system-out>
+            <![CDATA[Given I am in at&t homepage.................................................passed
+And I enter "Apple Watches" in searchBox....................................passed
+When I click searchButton...................................................passed
+Then I verify "\"Apple Watches\"" and "Results for Apple Watches - AT&T Search".passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Feature: Att HomePage Functionality check" name="Atnt SearchBox Functionality check with multiple products 7" time="6.518">
+        <system-out>
+            <![CDATA[Given I am in at&t homepage.................................................passed
+And I enter "Apple ipads" in searchBox......................................passed
+When I click searchButton...................................................passed
+Then I verify "\"Apple ipads\"" and "Results for Apple ipads - AT&T Search".passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Feature: Att HomePage Functionality check" name="Atnt SearchBox Functionality check with multiple products 8" time="5.778">
+        <system-out>
+            <![CDATA[Given I am in at&t homepage.................................................passed
+And I enter "iphone 11 Pro Max" in searchBox................................passed
+When I click searchButton...................................................passed
+Then I verify "\"iphone 11 Pro Max\"" and "Results for iphone 11 Pro Max - AT&T Search".passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Feature: Att HomePage Functionality check" name="Atnt SearchBox Functionality check with multiple products 9" time="6.975">
+        <system-out>
+            <![CDATA[Given I am in at&t homepage.................................................passed
+And I enter "Samsung Tablets" in searchBox..................................passed
+When I click searchButton...................................................passed
+Then I verify "\"Samsung Tablets\"" and "Results for Samsung Tablets - AT&T Search".passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Atnt HomePage Account functionality check" name="Atnt HomePage signUp functionality check with invalid data" time="3.241">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
+            <![CDATA[Given I am in at&t homepage.................................................passed
+And I click the Account dropdown button.....................................undefined
+And I click signIn..........................................................skipped
+And I enter admin1234 in user Id box........................................skipped
+And I enter admin1234 in password box.......................................skipped
+Then I verified "Sign In" ia appeared properly..............................skipped
+And I verify page title as Login Screen.....................................skipped
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Atnt HomePage Account functionality check" name="Atnt HomePage signUp functionality check with invalid data 2" time="3.187">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
+            <![CDATA[Given I am in at&t homepage.................................................passed
+And I click the Account dropdown button.....................................undefined
+And I click Pay without signing in..........................................skipped
+And I enter "7180000000" Active AT&T phone number box.......................skipped
+And I enter "10000" Billing ZIP Code........................................skipped
+And I click capcha box......................................................skipped
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Atnt HomePage Account functionality check" name="Atnt HomePage signUp functionality check with invalid data 3" time="3.242">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
+            <![CDATA[Given I am in at&t homepage.................................................passed
+And I click the Account dropdown button.....................................undefined
+And I click Account overview................................................skipped
+And I click Create one now..................................................skipped
+And I click Wireless radio button...........................................skipped
+And I click continue box....................................................skipped
+And I type phone number in AT&T phone number box............................skipped
+And I type 5 digit zip code in Billing zip code Box.........................skipped
+When I click continue button................................................skipped
+Then I verified "Welcome" ia appeared properly..............................skipped
+And I verify page title as Create or link an ID.............................skipped
+]]>
+        </failure>
     </testcase>
 </testsuite>

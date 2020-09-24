@@ -1,14 +1,14 @@
 Feature: Atnt HomePage Functionality Check.
 
-Background:
-  Given I am on Atnt HomePage
+  Background:
+    Given I am on Atnt HomePage
 
-    @pending
-    Scenario: HomePage Prepaid Button Functionality Check
-      When I click on Prepaid Button
-      And I click on Mobile Plans
-      Then I verify SM is appeared properly
-      And I verify page title
+  @pending
+  Scenario: HomePage Prepaid Button Functionality Check
+    When I click on Prepaid Button
+    And I click on Mobile Plans
+    Then I verify SM is appeared properly
+    And I verify page title
 
   @pending
   Scenario: HomePage Bundles Button Functionality Check
@@ -25,10 +25,17 @@ Background:
     Then I verify Internet is appeared properly
 
   @SmokeTest
-  Scenario: Atnt SignUp Functionality Check With Valid Data.
-    And I click on Account Icon
-    And I click on SignIn Button
-    Then I click on Create one now Button
+  Scenario: Atnt Search Box Check
+    When I enter "Samsung Note10" on search box
+    And I click on search icon
+    Then I validate "Showing results for "Samsung Note10"." as search result appears properly
+
+
+#  @SmokeTest
+#  Scenario: Atnt SignUp Functionality Check With Valid Data.
+#    And I click on Account Icon
+#    And I click on SignIn Button
+#    Then I click on Create one now Button
 
 
 
