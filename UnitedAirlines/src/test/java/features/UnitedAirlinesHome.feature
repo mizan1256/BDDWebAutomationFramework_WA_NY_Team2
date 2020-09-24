@@ -3,7 +3,7 @@ Feature: United Airlines home page functionality test
   Background:
     Given I am in home page
 
-  @pending @SmokeTest
+#  @SmokeTest
   Scenario: United Airlines Flight Status functionality test
     When I click Flight status
     And I enter City in From field and To field
@@ -11,7 +11,7 @@ Feature: United Airlines home page functionality test
     And I click Search Button
     Then I validate  flight status is appeared properly
 
-  @SmokeTest
+#  @SmokeTest
   Scenario: United Airlines Book Hotels test
     When I click on book button
     And I click on Hotels button

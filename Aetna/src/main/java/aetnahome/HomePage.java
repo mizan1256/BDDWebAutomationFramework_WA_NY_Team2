@@ -2,13 +2,11 @@ package aetnahome;
 
 import common.WebAPI;
 import org.junit.Assert;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 
-import static aetnahome.HomePageWebElements.*;
+import static aetnahome.HomePageWebElements.shopForPlanWebElements;
 
 public class HomePage extends WebAPI {
     @FindBy(how = How.XPATH,using =shopForPlanWebElements)
@@ -32,7 +30,7 @@ public class HomePage extends WebAPI {
     WebElement plansEmployerText;
     @FindBy(xpath = "/html/body/div[2]/div/nav/div/ul[1]/li[1]/div[2]/div/div/section/ul/li[2]/div[2]/ul/li[3]/a")
     WebElement internationalPlans;
-    @FindBy(xpath = "//*[@id=\"main\"]/div[6]/div/div/div[1]/div[1]/div/h2")
+    @FindBy(xpath = "//h1[contains(text(),'International Health Insurance')]")
     WebElement internationalPlansText;
 //    @FindBy(xpath = "/html/body/div[2]/div/nav/div/ul[1]/li[1]/div[2]/div/div/section/ul/li[2]/div[2]/ul/li[4]/a")
 //    WebElement findDoctor;

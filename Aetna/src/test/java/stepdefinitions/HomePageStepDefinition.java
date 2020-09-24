@@ -3,7 +3,6 @@ package stepdefinitions;
 import aetnahome.HomePage;
 import common.WebAPI;
 import io.cucumber.java.After;
-import io.cucumber.java.Before;
 import io.cucumber.java.BeforeStep;
 import io.cucumber.java.Scenario;
 import io.cucumber.java.en.And;
@@ -36,7 +35,7 @@ public class HomePageStepDefinition extends WebAPI {
      * Student plans
      */
 
-    @Given("i am in Aetna home page")
+    @Given("I am in Aetna home page")
     public void i_am_in_aetna_home_page() throws IOException {
       openBrowser("https://www.aetna.com/individuals-families.html");
     }

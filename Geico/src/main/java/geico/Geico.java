@@ -32,12 +32,13 @@ public class Geico extends WebAPI {
     @FindBy(how = How.XPATH,using = webElementsGeicoPrivacyButton)
     public WebElement geicoPrivacyButton;
 
-
+    /**
+     *  Geico Career Button
+     * @throws InterruptedException
+     */
 
     public void clickCareerBtn() throws InterruptedException {
-        JavascriptExecutor js = (JavascriptExecutor) driver;
-        js.executeScript("window.scrollBy(0,document.body.scrollHeight)");
-        Thread.sleep(3000);
+        scrollDown();
         acceptBtn.click();
         geicoCareerButton.click();
 

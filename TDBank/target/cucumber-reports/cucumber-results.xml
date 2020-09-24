@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="10" time="167.126">
-    <testcase classname="TD Bank Credit Card Home Page feature check" name="TD bank Credit Card home page display check" time="11.998">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="10" time="198.534">
+    <testcase classname="TD Bank Credit Card Home Page feature check" name="TD bank Credit Card home page display check" time="13.62">
         <system-out>
             <![CDATA[Given I am on TD Bank home page.............................................passed
 And I click on CreditCard icon..............................................passed
@@ -8,7 +8,7 @@ Then I validate Credit Card Home page Title.................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="TD Bank Credit Card Home Page feature check" name="Td Cash Credit Card home page check" time="12.574">
+    <testcase classname="TD Bank Credit Card Home Page feature check" name="Td Cash Credit Card home page check" time="13.394">
         <system-out>
             <![CDATA[Given I am on TD Bank home page.............................................passed
 And I click on CreditCard icon..............................................passed
@@ -18,7 +18,7 @@ And I validate Td Cash Credit Card page Title...............................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="TD Bank Credit Card Home Page feature check" name="TD First Class Credit Card page check" time="12.352">
+    <testcase classname="TD Bank Credit Card Home Page feature check" name="TD First Class Credit Card page check" time="30.424">
         <system-out>
             <![CDATA[Given I am on TD Bank home page.............................................passed
 And I click on CreditCard icon..............................................passed
@@ -28,7 +28,7 @@ And I validate TD First Class Credit Card page Title........................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="TD Bank Credit Card Home Page feature check" name="Help me choose button check" time="13.46">
+    <testcase classname="TD Bank Credit Card Home Page feature check" name="Help me choose button check" time="14.803">
         <system-out>
             <![CDATA[Given I am on TD Bank home page.............................................passed
 And I click on CreditCard icon..............................................passed
@@ -38,7 +38,7 @@ Then I validate welcome message.............................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="TD Bank HomePage Functionality Test" name="TD Bank Online Banking check" time="22.986">
+    <testcase classname="TD Bank HomePage Functionality Test" name="TD Bank Online Banking check" time="27.147">
         <system-out>
             <![CDATA[Given I am on TD Bank home page.............................................passed
 When I mouseHover on logIn Icon.............................................passed
@@ -47,7 +47,7 @@ Then I validated logIn Page is Displayed....................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="TD Bank HomePage Functionality Test" name="TD Bank signUp" time="24.033">
+    <testcase classname="TD Bank HomePage Functionality Test" name="TD Bank signUp" time="26.006">
         <system-out>
             <![CDATA[Given I am on TD Bank home page.............................................passed
 When I click on signUp button...............................................passed
@@ -59,7 +59,7 @@ Then I validate signUp message..............................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="TD Bank HomePage Functionality Test" name="TD Bank login functionality check with invalid credentials" time="18.714">
+    <testcase classname="TD Bank HomePage Functionality Test" name="TD Bank login functionality check with invalid credentials" time="20.683">
         <system-out>
             <![CDATA[Given I am on TD Bank home page.............................................passed
 When I click on logIn button in homePage....................................passed
@@ -69,7 +69,7 @@ Then I validate the error message...........................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="TD Bank HomePage Functionality Test" name="TD Bank product dropDown list check" time="15.512">
+    <testcase classname="TD Bank HomePage Functionality Test" name="TD Bank product dropDown list check" time="15.25">
         <system-out>
             <![CDATA[Given I am on TD Bank home page.............................................passed
 When I click on product.....................................................passed
@@ -78,7 +78,7 @@ Then I validate checking account page.......................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="TD Bank HomePage Functionality Test" name="TD Bank Find us Box functionality check" time="16.307">
+    <testcase classname="TD Bank HomePage Functionality Test" name="TD Bank Find us Box functionality check" time="16.005">
         <system-out>
             <![CDATA[Given I am on TD Bank home page.............................................passed
 When I click FindUs Icon....................................................passed
@@ -87,7 +87,7 @@ Then I validate TD bank locations appeared..................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="TD Bank HomePage Functionality Test" name="Get Direction Button check" time="18.673">
+    <testcase classname="TD Bank HomePage Functionality Test" name="Get Direction Button check" time="20.6">
         <system-out>
             <![CDATA[Given I am on TD Bank home page.............................................passed
 When I take necessary steps and landed on locations page....................passed

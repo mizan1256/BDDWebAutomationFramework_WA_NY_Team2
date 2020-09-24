@@ -1,0 +1,46 @@
+[
+  {
+    "source": "I am on targetEcommerce home page",
+    "steps": [
+      {
+        "name": "I am on targetEcommerce home page",
+        "aggregatedDurations": {
+          "median": 8.40181,
+          "average": 8.284403366
+        },
+        "durations": [
+          {
+            "duration": 8.40181,
+            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/Home.feature:5"
+          },
+          {
+            "duration": 9.0033505,
+            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/Home.feature:5"
+          },
+          {
+            "duration": 7.4480496,
+            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/Home.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I validate searchBox is displayed",
+    "steps": [
+      {
+        "name": "I validate searchBox is displayed",
+        "aggregatedDurations": {
+          "median": 0.1436162,
+          "average": 0.1436162
+        },
+        "durations": [
+          {
+            "duration": 0.1436162,
+            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/Home.feature:9"
+          }
+        ]
+      }
+    ]
+  }
+]

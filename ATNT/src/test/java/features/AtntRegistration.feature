@@ -29,9 +29,9 @@ Feature: Atnt home page sign up Functionality check
     Then  I am getting error message
 
     Examples:
-      | userName             | Password |
-      | admin@pnt.com  | admin    |
-      | oalKarim@gmail.com | 15021972 |
+      | userName            | Password |
+      | admin@pnt.com       | admin    |
+      | oalKarim@gmail.com  | 15021972 |
       | mikedavid@gmail.com | 01012010 |
 
   @SmokeTest

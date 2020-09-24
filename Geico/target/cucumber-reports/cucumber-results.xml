@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="18.019">
-    <testcase classname="Gecico LandPage Functionality Check" name="Gecio Career button Check" time="17.457">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="15.277">
+    <testcase classname="Gecico LandPage Functionality Check" name="Gecio Career button Check" time="14.634">
         <system-out>
             <![CDATA[Given I am on Geico Homepage................................................passed
 And I click on Career button................................................passed

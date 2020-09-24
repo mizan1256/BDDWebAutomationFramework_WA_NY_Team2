@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-09-22T04:42:31.748Z",
+        "start_timestamp": "2020-09-23T03:00:42.798Z",
         "line": 7,
         "name": "Gecio Career button Check",
         "description": "",
@@ -11,7 +11,7 @@
         "after": [
           {
             "result": {
-              "duration": 793735800,
+              "duration": 860033700,
               "status": "passed"
             },
             "match": {
@@ -32,13 +32,13 @@
         "steps": [
           {
             "result": {
-              "duration": 7266474300,
+              "duration": 7078891900,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 33909300,
+                  "duration": 38921100,
                   "status": "passed"
                 },
                 "match": {
@@ -47,7 +47,7 @@
               },
               {
                 "result": {
-                  "duration": 6984400,
+                  "duration": 5998300,
                   "status": "passed"
                 },
                 "match": {
@@ -64,13 +64,13 @@
           },
           {
             "result": {
-              "duration": 4725567300,
+              "duration": 2093033400,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 2989700,
+                  "duration": 4983100,
                   "status": "passed"
                 },
                 "match": {
@@ -79,7 +79,7 @@
               },
               {
                 "result": {
-                  "duration": 4980200,
+                  "duration": 1997100,
                   "status": "passed"
                 },
                 "match": {
@@ -96,13 +96,13 @@
           },
           {
             "result": {
-              "duration": 4455076000,
+              "duration": 4398939300,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 994100,
+                  "duration": 996900,
                   "status": "passed"
                 },
                 "match": {
@@ -111,7 +111,7 @@
               },
               {
                 "result": {
-                  "duration": 1996200,
+                  "duration": 997400,
                   "status": "passed"
                 },
                 "match": {
@@ -128,13 +128,13 @@
           },
           {
             "result": {
-              "duration": 29921000,
+              "duration": 36908000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 995400,
+                  "duration": 992100,
                   "status": "passed"
                 },
                 "match": {

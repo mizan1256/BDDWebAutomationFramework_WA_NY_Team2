@@ -95,4 +95,5 @@ public class SearchBoxStepDefinition extends WebAPI {
         atntSearchBox.validateSearchBoxPageTitle();
     }
 
+
 }

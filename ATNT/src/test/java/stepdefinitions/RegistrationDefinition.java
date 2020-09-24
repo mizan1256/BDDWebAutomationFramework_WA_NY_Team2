@@ -18,7 +18,7 @@ import java.io.IOException;
 
 import static atnthome.AtntHomeWebElements.*;
 
-public class HomePageDefinition extends WebAPI {
+public class RegistrationDefinition extends WebAPI {
     static AtntHome atntHome;
 
     @After // class project
