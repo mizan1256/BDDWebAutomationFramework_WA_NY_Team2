@@ -33,8 +33,8 @@ public class HomePageStepDefinition extends WebAPI {
         homePage = PageFactory.initElements(driver, HomePage.class);
     }
 
-    @Given("i am in home page")
-    public void i_am_in_home_page() throws IOException {
+    @Given("I am in Aetna home page")
+    public void i_am_in_Aetna_home_page() throws IOException {
         openBrowser("https://www.aetna.com/");
     }
 

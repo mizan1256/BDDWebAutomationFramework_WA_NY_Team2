@@ -29,6 +29,8 @@ public class TripAdvisorHomePageStepDefinitions extends WebAPI {
     public static void getInit(){
         tripAdvisorHome= PageFactory.initElements(driver, TripAdvisorHome.class);
     }
+
+
     // Search Box
     @Given("I am in Trip Advisor home page")
     public void i_am_in_trip_advisor_home_page() throws IOException {

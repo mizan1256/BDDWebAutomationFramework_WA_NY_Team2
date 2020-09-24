@@ -33,7 +33,7 @@ public class UnitedAirlinesHomePage extends WebAPI {
     @FindBy(how = How.XPATH, using = checkInLastNameFieldWebElement)
     public WebElement checkInLastNameField;
     @FindBy(how = How.XPATH, using = searchBtnWebElement)
-    public WebElement searchButton;
+    public WebElement checkInSearchBtn;
     @FindBy(how = How.XPATH, using = checkInErrTxtWebElement)
     public WebElement checkInErrTxt;
 
@@ -45,6 +45,43 @@ public class UnitedAirlinesHomePage extends WebAPI {
     public WebElement whereToSearch;
     @FindBy(how = How.XPATH, using = bookHotelsValidateTxtWebElement)
     public WebElement bookHotelsValidateTxt;
+
+    @FindBy(how = How.XPATH, using = signInButtonXPathWebElement)
+    public WebElement signInButton;
+    @FindBy(how = How.XPATH, using = loginLogoXpathWebElement)
+    public WebElement loginLogo;
+    @FindBy(how = How.XPATH, using = userNameXpathWebElement)
+    public WebElement userName;
+    @FindBy(how = How.XPATH, using = passwordXpathWebElement)
+    public WebElement password;
+    @FindBy(how = How.XPATH, using = errorTextXpathWebElement)
+    public WebElement errorText;
+    @FindBy(how = How.XPATH, using = signInVerifyXpathWebElement)
+    public WebElement signInVerify;
+    @FindBy(how = How.XPATH, using = searchLogoXpathWebElement)
+    public WebElement searchLogo;
+    @FindBy(how = How.XPATH, using = searchBoxXpathWebElement)
+    public WebElement searchBox;
+    @FindBy(how = How.XPATH, using = searchButtonXpathWebElement)
+    public WebElement searchButton;
+    @FindBy(how = How.XPATH, using = searchTextXpathWebElement)
+    public WebElement searchText;
+
+    @FindBy(how = How.XPATH, using = bookFlightRoundTripFromXpathWebElement)
+    public WebElement bookFlightRoundTripFrom;
+    @FindBy(how = How.XPATH, using = bookFlightRoundTripToXpathWebElement)
+    public WebElement bookFlightRoundTripTo;
+    @FindBy(how = How.XPATH, using = bookFlightDepartXpathWebElement)
+    public WebElement bookFlightDepart;
+    @FindBy(how = How.XPATH, using = bookFlightReturnXpathWebElement)
+    public WebElement bookFlightReturn;
+
+    @FindBy(how = How.XPATH, using = departDateOctoberXpathWebElement)
+    public WebElement  departDateOctober;
+    @FindBy(how = How.XPATH, using = returnDateOctoberXpathWebElement)
+    public WebElement returnDateOctober;
+    @FindBy(how = How.XPATH, using = findFlightsButtonXpathWebElement)
+    public WebElement findFlightsButton;
 
 
     /**
@@ -88,7 +125,7 @@ public class UnitedAirlinesHomePage extends WebAPI {
         typeOnElementWithWebElement(checkInLastNameField, "John");
     }
     public void clickOnCheckInSearchBtn(){
-        searchButton.click();
+        checkInSearchBtn.click();
     }
     public void validateCheckInTxt(){
         String expectedResult="We couldn't find a reservation with the provided information.";
@@ -117,5 +154,95 @@ public class UnitedAirlinesHomePage extends WebAPI {
         Assert.assertEquals("Text do not match", expectedResult,actualResult);
 
     }
+    //static String siteSearchText="Site search Results";
+
+    public void clickSignInOption() {
+        loginLogo.click();
+    }
+
+    public void enterUserNameAndPassword(String usId, String pwd) {
+        userName.sendKeys(usId);
+        password.sendKeys(pwd);
+    }
+
+    public void clickLoginButton() {
+        signInButton.click();
+    }
+
+    public void verifyText() {
+        String actualText = errorText.getText();
+        String expectedText = "Please enter a valid MileagePlus number.";
+        Assert.assertEquals(expectedText, actualText);
+    }
+
+    public void verifyImage() {
+        boolean actual = signInVerify.isDisplayed();
+        Assert.assertEquals(true, actual);
+    }
+
+    public void clickSearchLogo() {
+        searchLogo.click();
+    }
+
+    public void searchItemInSearchBox(String searchItem) {
+        searchBox.sendKeys(searchItem);
+
+    }
+
+    public void clickSearch() {
+        searchButton.click();
+    }
+
+    public void verifySearchText() throws InterruptedException {
+        sleepFor(5);
+        String actualText = searchText.getText();
+        String expectedText = "Site search Results";
+        Assert.assertEquals(expectedText, actualText);
+    }
+
+    public void enterFromLocationToSearchFlight() {
+        bookFlightRoundTripFrom.clear();
+        bookFlightRoundTripFrom.sendKeys("NewYork");
+    }
+    public void enterFromLocationToSearchFlight(String locationFrom) {
+        bookFlightRoundTripFrom.clear();
+        bookFlightRoundTripFrom.sendKeys(locationFrom);
+
+
+    }
+
+    public void enterToLocationToSearchFlight() {
+        bookFlightRoundTripTo.clear();
+        bookFlightRoundTripTo.sendKeys("paris");
+
+    }
+    public void enterToLocationToSearchFlight(String locationTo) throws InterruptedException {
+        bookFlightRoundTripTo.clear();
+        sleepFor(5);
+        bookFlightRoundTripTo.sendKeys(locationTo);
+        bookFlightRoundTripTo.submit();
+
+    }
+
+    public void enterDepartDateToSearchFlight() throws InterruptedException {
+        sleepFor(3);
+        bookFlightRoundTripTo.clear();
+        departDateOctober.click();
+    }
+
+
+    public void enterReturnDateToSearchFlight() {
+        clearField(bookFlightReturnXpathWebElement);
+        returnDateOctober.click();
+    }
+
+    public void clickFindFlightsSearchFlight() {
+        findFlightsButton.click();
+    }
+    public void validateSearchFlightTitle() {
+        String expectedTitle=flightTile;
+        String actualTitle=driver.getTitle();
+    }
+
 
 }

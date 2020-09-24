@@ -5,12 +5,36 @@
       {
         "name": "i am in home page",
         "aggregatedDurations": {
-          "median": 4.57778,
-          "average": 4.57778
+          "median": 8.117132,
+          "average": 8.103848
         },
         "durations": [
           {
-            "duration": 4.57778,
+            "duration": 8.658801,
+            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 8.105417,
+            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 7.841837,
+            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 8.864222,
+            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 9.080143,
+            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 8.117132,
+            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 6.059384,
             "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/HomePage.feature:4"
           }
         ]
@@ -23,13 +47,197 @@
       {
         "name": "I click shop for a plan",
         "aggregatedDurations": {
-          "median": 4.083997,
-          "average": 4.083997
+          "median": 4.811822,
+          "average": 5.373530428
         },
         "durations": [
           {
-            "duration": 4.083997,
+            "duration": 8.162592,
+            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/HomePage.feature:8"
+          },
+          {
+            "duration": 4.277989,
+            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/HomePage.feature:15"
+          },
+          {
+            "duration": 6.800201,
+            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/HomePage.feature:22"
+          },
+          {
+            "duration": 4.078122,
+            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/HomePage.feature:29"
+          },
+          {
+            "duration": 4.568674,
+            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/HomePage.feature:36"
+          },
+          {
+            "duration": 4.915313,
+            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/HomePage.feature:43"
+          },
+          {
+            "duration": 4.811822,
             "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/HomePage.feature:50"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I go Health coverage",
+    "steps": [
+      {
+        "name": "I go Health coverage",
+        "aggregatedDurations": {
+          "median": 8.082541,
+          "average": 8.67652975
+        },
+        "durations": [
+          {
+            "duration": 10.468221,
+            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/HomePage.feature:9"
+          },
+          {
+            "duration": 8.072816,
+            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/HomePage.feature:16"
+          },
+          {
+            "duration": 8.079701,
+            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/HomePage.feature:23"
+          },
+          {
+            "duration": 8.085381,
+            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/HomePage.feature:30"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click Student plans",
+    "steps": [
+      {
+        "name": "I click Student plans",
+        "aggregatedDurations": {
+          "median": 3.209799,
+          "average": 3.209799
+        },
+        "durations": [
+          {
+            "duration": 3.209799,
+            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/HomePage.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I validate {string} is appeared properly",
+    "steps": [
+      {
+        "name": "I validate \"Helpful links\" is appeared properly",
+        "aggregatedDurations": {
+          "median": 0.890378,
+          "average": 0.890378
+        },
+        "durations": [
+          {
+            "duration": 0.890378,
+            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/HomePage.feature:11"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click Plans through an employer",
+    "steps": [
+      {
+        "name": "I click Plans through an employer",
+        "aggregatedDurations": {
+          "median": 2.306645,
+          "average": 2.306645
+        },
+        "durations": [
+          {
+            "duration": 2.306645,
+            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/HomePage.feature:17"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I validate Legal notices is appeared properly",
+    "steps": [
+      {
+        "name": "I validate Legal notices is appeared properly",
+        "aggregatedDurations": {
+          "median": 0.031431,
+          "average": 0.031431
+        },
+        "durations": [
+          {
+            "duration": 0.026123,
+            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/HomePage.feature:18"
+          },
+          {
+            "duration": 0.036739,
+            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/HomePage.feature:39"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click International Plans",
+    "steps": [
+      {
+        "name": "I click International Plans",
+        "aggregatedDurations": {
+          "median": 2.80102,
+          "average": 2.80102
+        },
+        "durations": [
+          {
+            "duration": 2.80102,
+            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/HomePage.feature:24"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I validate Aetna Well-being is appeared properly",
+    "steps": [
+      {
+        "name": "I validate Aetna Well-being is appeared properly",
+        "aggregatedDurations": {
+          "median": 1.025814,
+          "average": 1.025814
+        },
+        "durations": [
+          {
+            "duration": 1.025814,
+            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/HomePage.feature:25"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click find a doctor",
+    "steps": [
+      {
+        "name": "I click find a doctor",
+        "aggregatedDurations": {
+          "median": 2.740533,
+          "average": 2.740533
+        },
+        "durations": [
+          {
+            "duration": 2.740533,
+            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/HomePage.feature:31"
           }
         ]
       }
@@ -41,13 +249,75 @@
       {
         "name": "I click on dental, vision and supplemental",
         "aggregatedDurations": {
-          "median": 3.067869,
-          "average": 3.067869
+          "median": 3.070507,
+          "average": 3.072776666
         },
         "durations": [
           {
-            "duration": 3.067869,
+            "duration": 3.069367,
+            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/HomePage.feature:37"
+          },
+          {
+            "duration": 3.070507,
+            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/HomePage.feature:44"
+          },
+          {
+            "duration": 3.078456,
             "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/HomePage.feature:51"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click dental plans",
+    "steps": [
+      {
+        "name": "I click dental plans",
+        "aggregatedDurations": {
+          "median": 1.343157,
+          "average": 1.343157
+        },
+        "durations": [
+          {
+            "duration": 1.343157,
+            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/HomePage.feature:38"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click find a dentist",
+    "steps": [
+      {
+        "name": "I click find a dentist",
+        "aggregatedDurations": {
+          "median": 4.010932,
+          "average": 4.010932
+        },
+        "durations": [
+          {
+            "duration": 4.010932,
+            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/HomePage.feature:45"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I validate You Can: is appeared properly",
+    "steps": [
+      {
+        "name": "I validate You Can: is appeared properly",
+        "aggregatedDurations": {
+          "median": 2.32521,
+          "average": 2.32521
+        },
+        "durations": [
+          {
+            "duration": 2.32521,
+            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/HomePage.feature:46"
           }
         ]
       }
@@ -59,12 +329,12 @@
       {
         "name": "I click vision plans",
         "aggregatedDurations": {
-          "median": 1.22504,
-          "average": 1.22504
+          "median": 1.214848,
+          "average": 1.214848
         },
         "durations": [
           {
-            "duration": 1.22504,
+            "duration": 1.214848,
             "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/HomePage.feature:52"
           }
         ]
@@ -77,12 +347,12 @@
       {
         "name": "I validate Aetna Dental Direct plan is appeared properly",
         "aggregatedDurations": {
-          "median": 0.052945,
-          "average": 0.052945
+          "median": 0.026775,
+          "average": 0.026775
         },
         "durations": [
           {
-            "duration": 0.052945,
+            "duration": 0.026775,
             "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/HomePage.feature:53"
           }
         ]

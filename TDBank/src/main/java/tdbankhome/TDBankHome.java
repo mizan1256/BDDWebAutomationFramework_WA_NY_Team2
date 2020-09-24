@@ -110,7 +110,6 @@ public class TDBankHome extends WebAPI {
         String expectedResult = validateText.getText();
         Assert.assertEquals("Text do not match", actualResult, expectedResult);
     }
-
     /**
      * TD Bank SignUp functionality test
      */
@@ -132,7 +131,7 @@ public class TDBankHome extends WebAPI {
 
     public void eSignAcceptCheckBox() throws InterruptedException {
         sleepFor(5);
-        eSignAcceptCheckBox.isSelected();
+        eSignAcceptCheckBox.click();
     }
 
     public void acceptSecondPopUpUsingAlert() {

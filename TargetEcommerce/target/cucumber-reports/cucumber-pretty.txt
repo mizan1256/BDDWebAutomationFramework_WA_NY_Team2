@@ -1,7 +1,333 @@
 
+@SmokeTest
+Scenario: Order pickUp home page check       # src/test/java/features/PickUpAndDelivery.feature:9
+  Given I am on targetEcommerce home page    # stepdefinitions.TargetEcommerceStepDefinitions.i_am_on_target_ecommerce_home_page()
+  When I click on pickUp and delivery button # stepdefinitions.PickUpAndDeliveryTest.i_click_on_pick_up_and_delivery_button()
+  And I click on Order pickUp button         # stepdefinitions.PickUpAndDeliveryTest.i_click_on_order_pick_up_button()
+      org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div class="Row-uds8za-0 iFzQdH">...</div> is not clickable at point (510, 60). Other element would receive the click: <a href="#pickupAndDeliveryMenu" class="Link-sc-1khjl8b-0 bTKAgl HeaderMainLink-sc-1tx0dwp-0 ICeff h-margin-l-wide" id="pickupAndDelivery" data-menu="pickupAndDelivery" aria-label="pickup and delivery menu" aria-expanded="true">...</a>
+  (Session info: chrome=85.0.4183.102)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:a9c7:73e3:b299:1374%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:60822}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 541bdcbe2adc11c26f6c734de1bf1940
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy25.click(Unknown Source)
+	at pickupanddelivery.PickUpAndDeliveryHome.clickOnOrderPickUpBtnBtn(PickUpAndDeliveryHome.java:37)
+	at stepdefinitions.PickUpAndDeliveryTest.i_click_on_order_pick_up_button(PickUpAndDeliveryTest.java:41)
+	at ✽.I click on Order pickUp button(file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/PickUpAndDelivery.feature:10)
+
+  Then I validate order pickUp home page     # stepdefinitions.PickUpAndDeliveryTest.i_validate_order_pick_up_home_page()
+
+    Embedding Demo [image/png 932669 bytes]
+
+      org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:a9c7:73e3:b299:1374%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at stepdefinitions.TargetEcommerceStepDefinitions.tearDown(TargetEcommerceStepDefinitions.java:26)
+
+
+@SmokeTest
+Scenario: Oder pickUp searchBox functionality check                                      # src/test/java/features/PickUpAndDelivery.feature:14
+  Given I am on targetEcommerce home page                                                # stepdefinitions.TargetEcommerceStepDefinitions.i_am_on_target_ecommerce_home_page()
+  When I click on pickUp and delivery button                                             # stepdefinitions.PickUpAndDeliveryTest.i_click_on_pick_up_and_delivery_button()
+  When I do necessary steps to land on oder pickUp home page                             # stepdefinitions.PickUpAndDeliveryTest.i_do_necessary_steps_to_land_on_oder_pick_up_home_page()
+      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(text(),'Order Pickup')]"}
+  (Session info: chrome=85.0.4183.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:a9c7:73e3:b299:1374%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:60885}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: c62b332a8efefbe9ecb33abac4b65c5b
+*** Element info: {Using=xpath, value=//div[contains(text(),'Order Pickup')]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy25.click(Unknown Source)
+	at pickupanddelivery.PickUpAndDeliveryHome.necessaryStepForOderPickUp(PickUpAndDeliveryHome.java:50)
+	at stepdefinitions.PickUpAndDeliveryTest.i_do_necessary_steps_to_land_on_oder_pick_up_home_page(PickUpAndDeliveryTest.java:54)
+	at ✽.I do necessary steps to land on oder pickUp home page(file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/PickUpAndDelivery.feature:15)
+
+  And I enter "655473634747" as order number in order searchBox and click searchBox Icon # stepdefinitions.PickUpAndDeliveryTest.i_enter_as_order_number_in_order_search_box_and_click_search_box_icon(java.lang.String)
+  Then I validate search result message                                                  # stepdefinitions.PickUpAndDeliveryTest.i_validate_search_result_message()
+
+    Embedding Demo [image/png 1270055 bytes]
+
+      org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:a9c7:73e3:b299:1374%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at stepdefinitions.TargetEcommerceStepDefinitions.tearDown(TargetEcommerceStepDefinitions.java:26)
+
+
+@SmokeTest
+Scenario: Same day delivery page check                                    # src/test/java/features/PickUpAndDelivery.feature:20
+  Given I am on targetEcommerce home page                                 # stepdefinitions.TargetEcommerceStepDefinitions.i_am_on_target_ecommerce_home_page()
+  When I click on pickUp and delivery button                              # stepdefinitions.PickUpAndDeliveryTest.i_click_on_pick_up_and_delivery_button()
+  And I click on same day delivery button                                 # stepdefinitions.PickUpAndDeliveryTest.i_click_on_same_day_delivery_button()
+  Then I validate "Get it as soon as 10am" as same day delivery home page # stepdefinitions.PickUpAndDeliveryTest.i_validate_as_same_day_delivery_home_page(java.lang.String)
+      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='h-text-sm h-text-greenDark']"}
+  (Session info: chrome=85.0.4183.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:a9c7:73e3:b299:1374%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:60939}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 11e5d2a6421746a9935cfeaf7fde9b79
+*** Element info: {Using=xpath, value=//span[@class='h-text-sm h-text-greenDark']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy25.getText(Unknown Source)
+	at pickupanddelivery.PickUpAndDeliveryHome.validateSameDayDeliveryCheck(PickUpAndDeliveryHome.java:71)
+	at stepdefinitions.PickUpAndDeliveryTest.i_validate_as_same_day_delivery_home_page(PickUpAndDeliveryTest.java:76)
+	at ✽.I validate "Get it as soon as 10am" as same day delivery home page(file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/PickUpAndDelivery.feature:22)
+
+
+    Embedding Demo [image/png 600726 bytes]
+
+      org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:a9c7:73e3:b299:1374%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at stepdefinitions.TargetEcommerceStepDefinitions.tearDown(TargetEcommerceStepDefinitions.java:26)
+
+
+@SmokeTest
+Scenario: Same day delivery signIn functionality check                    # src/test/java/features/PickUpAndDelivery.feature:25
+  Given I am on targetEcommerce home page                                 # stepdefinitions.TargetEcommerceStepDefinitions.i_am_on_target_ecommerce_home_page()
+  When I click on pickUp and delivery button                              # stepdefinitions.PickUpAndDeliveryTest.i_click_on_pick_up_and_delivery_button()
+  And I do necessary steps to land on signIn page                         # stepdefinitions.PickUpAndDeliveryTest.i_do_necessary_steps_to_land_on_sign_in_page()
+  And I enter "mizan_1256@yahoo.com" as email and "Tasmi1256" as password # stepdefinitions.PickUpAndDeliveryTest.i_enter_as_email_and_as_password(java.lang.String,java.lang.String)
+
+@SmokeTest
+Scenario: Drive Up home page check           # src/test/java/features/PickUpAndDelivery.feature:31
+  Given I am on targetEcommerce home page    # stepdefinitions.TargetEcommerceStepDefinitions.i_am_on_target_ecommerce_home_page()
+  When I click on pickUp and delivery button # stepdefinitions.PickUpAndDeliveryTest.i_click_on_pick_up_and_delivery_button()
+  And I click on drive up button             # stepdefinitions.PickUpAndDeliveryTest.i_click_on_drive_up_button()
+      org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=85.0.4183.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:a9c7:73e3:b299:1374%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:61059}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 668ca4e041ed80d14fd4f6e06ab2ec6e
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy25.click(Unknown Source)
+	at pickupanddelivery.PickUpAndDeliveryHome.clickOnDriveUpBtn(PickUpAndDeliveryHome.java:103)
+	at stepdefinitions.PickUpAndDeliveryTest.i_click_on_drive_up_button(PickUpAndDeliveryTest.java:101)
+	at ✽.I click on drive up button(file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/PickUpAndDelivery.feature:32)
+
+  Then I validate drive up home page Title   # stepdefinitions.PickUpAndDeliveryTest.i_validate_drive_up_home_page_title()
+
+    Embedding Demo [image/png 1271649 bytes]
+
+      org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:a9c7:73e3:b299:1374%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at stepdefinitions.TargetEcommerceStepDefinitions.tearDown(TargetEcommerceStepDefinitions.java:26)
+
+
 @Regression
-Scenario: TargetEcommerce SearchBox functionality getting value from Scenario # src/test/java/features/TargetecommerceHomePage.feature:18
-  Given I am on targetEcommerce home page                                     # stepdefinitions.TargetEcommerceStepDefinitions.i_am_on_target_ecommerce_home_page()
-  And I enter "iPhone" in searchBox                                           # stepdefinitions.TargetEcommerceStepDefinitions.i_enter_in_search_box(java.lang.String)
-  Then I verify "iPhone" is appear properly                                   # stepdefinitions.TargetEcommerceStepDefinitions.i_verify_is_appear_properly(java.lang.String)
-  And I verify page title as iPhone                                           # stepdefinitions.TargetEcommerceStepDefinitions.i_verify_page_title_as_i_phone()
+Scenario Outline: TargetEcommerce SearchBox functionality test with validate using data table # src/test/java/features/TargetecommerceHomePage.feature:32
+  Given I am on targetEcommerce home page                                                     # stepdefinitions.TargetEcommerceStepDefinitions.i_am_on_target_ecommerce_home_page()
+  And I enter "iPhone" in searchBox                                                           # stepdefinitions.TargetEcommerceStepDefinitions.i_enter_in_search_box(java.lang.String)
+  When I click searchButton                                                                   # stepdefinitions.TargetEcommerceStepDefinitions.i_click_search_button()
+  And I validate "iPhone" is appear properly                                                  # stepdefinitions.TargetEcommerceStepDefinitions.i_validate_is_appear_properly(java.lang.String)
+  And I validate page title as "Target : Expect More. Pay Less."                              # stepdefinitions.TargetEcommerceStepDefinitions.i_validate_page_title_as(java.lang.String)
+
+@Regression
+Scenario Outline: TargetEcommerce SearchBox functionality test with validate using data table # src/test/java/features/TargetecommerceHomePage.feature:33
+  Given I am on targetEcommerce home page                                                     # stepdefinitions.TargetEcommerceStepDefinitions.i_am_on_target_ecommerce_home_page()
+  And I enter "T-shirt for men" in searchBox                                                  # stepdefinitions.TargetEcommerceStepDefinitions.i_enter_in_search_box(java.lang.String)
+  When I click searchButton                                                                   # stepdefinitions.TargetEcommerceStepDefinitions.i_click_search_button()
+  And I validate "“T-shirt for men”" is appear properly                                       # stepdefinitions.TargetEcommerceStepDefinitions.i_validate_is_appear_properly(java.lang.String)
+  And I validate page title as "Target : Expect More. Pay Less."                              # stepdefinitions.TargetEcommerceStepDefinitions.i_validate_page_title_as(java.lang.String)
+
+@Regression
+Scenario Outline: TargetEcommerce SearchBox functionality test with validate using data table # src/test/java/features/TargetecommerceHomePage.feature:34
+  Given I am on targetEcommerce home page                                                     # stepdefinitions.TargetEcommerceStepDefinitions.i_am_on_target_ecommerce_home_page()
+  And I enter "mens jeans" in searchBox                                                       # stepdefinitions.TargetEcommerceStepDefinitions.i_enter_in_search_box(java.lang.String)
+  When I click searchButton                                                                   # stepdefinitions.TargetEcommerceStepDefinitions.i_click_search_button()
+  And I validate "“mens jeans”" is appear properly                                            # stepdefinitions.TargetEcommerceStepDefinitions.i_validate_is_appear_properly(java.lang.String)
+  And I validate page title as "Target : Expect More. Pay Less."                              # stepdefinitions.TargetEcommerceStepDefinitions.i_validate_page_title_as(java.lang.String)
+
+@Regression
+Scenario Outline: TargetEcommerce SearchBox functionality test with validate using data table # src/test/java/features/TargetecommerceHomePage.feature:35
+  Given I am on targetEcommerce home page                                                     # stepdefinitions.TargetEcommerceStepDefinitions.i_am_on_target_ecommerce_home_page()
+  And I enter "mens watches" in searchBox                                                     # stepdefinitions.TargetEcommerceStepDefinitions.i_enter_in_search_box(java.lang.String)
+  When I click searchButton                                                                   # stepdefinitions.TargetEcommerceStepDefinitions.i_click_search_button()
+  And I validate "“mens watches”" is appear properly                                          # stepdefinitions.TargetEcommerceStepDefinitions.i_validate_is_appear_properly(java.lang.String)
+  And I validate page title as "Target : Expect More. Pay Less."                              # stepdefinitions.TargetEcommerceStepDefinitions.i_validate_page_title_as(java.lang.String)
+
+@Regression
+Scenario: TargetEcommerce signUp functionality test with validate # src/test/java/features/TargetecommerceHomePage.feature:38
+  Given I am on targetEcommerce home page                         # stepdefinitions.TargetEcommerceStepDefinitions.i_am_on_target_ecommerce_home_page()
+  And I do necessary steps to land on User info page              # stepdefinitions.TargetEcommerceStepDefinitions.i_do_necessary_steps_to_land_on_user_info_page()
+  And I enter user credentials                                    # stepdefinitions.TargetEcommerceStepDefinitions.i_enter_user_credentials(io.cucumber.datatable.DataTable)
+  When I click on create account                                  # stepdefinitions.TargetEcommerceStepDefinitions.i_click_on_create_account()
+  Then I validate signUp message                                  # stepdefinitions.TargetEcommerceStepDefinitions.i_validate_sign_up_message()
+
+@SmokeTest
+Scenario Outline: Login into att using Data Driven                   # src/test/java/features/TargetecommerceHomePage.feature:55
+  Given I am on targetEcommerce home page                            # stepdefinitions.TargetEcommerceStepDefinitions.i_am_on_target_ecommerce_home_page()
+  And I am on signIn page                                            # stepdefinitions.TargetEcommerceStepDefinitions.i_am_on_sign_in_page()
+  And I enter email as "admin@yourstore.com" and password as "admin" # stepdefinitions.TargetEcommerceStepDefinitions.i_enter_email_as_and_password_as(java.lang.String,java.lang.String)
+  And I click on signIn button                                       # stepdefinitions.TargetEcommerceStepDefinitions.i_click_on_sign_in_button()
+  Then I should be getting a message                                 # stepdefinitions.TargetEcommerceStepDefinitions.i_should_be_getting_a_message()
+
+@SmokeTest
+Scenario Outline: Login into att using Data Driven                  # src/test/java/features/TargetecommerceHomePage.feature:56
+  Given I am on targetEcommerce home page                           # stepdefinitions.TargetEcommerceStepDefinitions.i_am_on_target_ecommerce_home_page()
+  And I am on signIn page                                           # stepdefinitions.TargetEcommerceStepDefinitions.i_am_on_sign_in_page()
+  And I enter email as "mizan@gmail.com" and password as "15021972" # stepdefinitions.TargetEcommerceStepDefinitions.i_enter_email_as_and_password_as(java.lang.String,java.lang.String)
+  And I click on signIn button                                      # stepdefinitions.TargetEcommerceStepDefinitions.i_click_on_sign_in_button()
+  Then I should be getting a message                                # stepdefinitions.TargetEcommerceStepDefinitions.i_should_be_getting_a_message()
+
+@SmokeTest
+Scenario Outline: Login into att using Data Driven                    # src/test/java/features/TargetecommerceHomePage.feature:57
+  Given I am on targetEcommerce home page                             # stepdefinitions.TargetEcommerceStepDefinitions.i_am_on_target_ecommerce_home_page()
+  And I am on signIn page                                             # stepdefinitions.TargetEcommerceStepDefinitions.i_am_on_sign_in_page()
+      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='sc-AxirZ cWICNE']//div[@class='sc-AxhCb eSwYtm']//*[local-name()='svg']//*[name()='path' and contains(@d,'M14.063 14')]"}
+  (Session info: chrome=85.0.4183.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:a9c7:73e3:b299:1374%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:61473}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: d68783e882cb1912f0f0145999e07668
+*** Element info: {Using=xpath, value=//span[@class='sc-AxirZ cWICNE']//div[@class='sc-AxhCb eSwYtm']//*[local-name()='svg']//*[name()='path' and contains(@d,'M14.063 14')]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy25.click(Unknown Source)
+	at targetHome.TargetEcommerceHomePage.iAmOnSignInPage(TargetEcommerceHomePage.java:137)
+	at stepdefinitions.TargetEcommerceStepDefinitions.i_am_on_sign_in_page(TargetEcommerceStepDefinitions.java:96)
+	at ✽.I am on signIn page(file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetecommerceHomePage.feature:48)
+
+  And I enter email as "mohammd@gmail.com" and password as "01012010" # stepdefinitions.TargetEcommerceStepDefinitions.i_enter_email_as_and_password_as(java.lang.String,java.lang.String)
+  And I click on signIn button                                        # stepdefinitions.TargetEcommerceStepDefinitions.i_click_on_sign_in_button()
+  Then I should be getting a message                                  # stepdefinitions.TargetEcommerceStepDefinitions.i_should_be_getting_a_message()
+
+    Embedding Demo [image/png 1271565 bytes]
+
+      org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:a9c7:73e3:b299:1374%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at stepdefinitions.TargetEcommerceStepDefinitions.tearDown(TargetEcommerceStepDefinitions.java:26)
+
+
+@SmokeTest
+Scenario: Target shoppingCart logo functionality check # src/test/java/features/TargetecommerceHomePage.feature:60
+  Given I am on targetEcommerce home page              # stepdefinitions.TargetEcommerceStepDefinitions.i_am_on_target_ecommerce_home_page()
+  And I click on shopping cart Icon                    # stepdefinitions.TargetEcommerceStepDefinitions.i_click_on_shopping_cart_icon()
+  Then I validate shopping cart page                   # stepdefinitions.TargetEcommerceStepDefinitions.i_validate_shopping_cart_page()
+
+@SmokeTest
+Scenario: Target Shopping Cart log in functionality check                  # src/test/java/features/TargetecommerceHomePage.feature:65
+  Given I am on targetEcommerce home page                                  # stepdefinitions.TargetEcommerceStepDefinitions.i_am_on_target_ecommerce_home_page()
+  When I click on shopping cart Icon                                       # stepdefinitions.TargetEcommerceStepDefinitions.i_click_on_shopping_cart_icon()
+  And I click on shopping cart signIn button                               # stepdefinitions.TargetEcommerceStepDefinitions.i_click_on_shopping_cart_signIn_button()
+  And I enter email as "mizan_1256@yahoo.com" and password as "Tasmi@1256" # stepdefinitions.TargetEcommerceStepDefinitions.i_enter_email_as_and_password_as(java.lang.String,java.lang.String)
+  Then I validate shopping cart log in page                                # stepdefinitions.TargetEcommerceStepDefinitions.i_validate_shopping_cart_log_in_page()

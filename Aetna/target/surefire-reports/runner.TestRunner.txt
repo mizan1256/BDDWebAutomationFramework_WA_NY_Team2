@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: runner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 129.5 s <<< FAILURE! - in runner.TestRunner
+Aetna home page functionality test.Aetna Shop a plan functionality test #4  Time elapsed: 18.963 s  <<< ERROR!
+io.cucumber.core.exception.CucumberException: 
+Could not invoke step [I validate COVID-{int} Alert is appeared properly] defined at 'stepdefinitions.HomePageStepDefinition.i_validate_covid_alert_is_appeared_properly(java.lang.String)'.
+It appears there was a problem with the step definition.
+The converted arguments types were (java.lang.Integer)
+Caused by: io.cucumber.core.backend.CucumberBackendException: Failed to invoke public void stepdefinitions.HomePageStepDefinition.i_validate_covid_alert_is_appeared_properly(java.lang.String)
+Caused by: java.lang.IllegalArgumentException: argument type mismatch
+

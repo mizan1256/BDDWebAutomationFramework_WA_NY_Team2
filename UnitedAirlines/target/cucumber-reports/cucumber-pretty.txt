@@ -1,8 +1,71 @@
 
 @SmokeTest
-Scenario: United Airlines Book Button functionality test                            # src/test/java/features/UnitedAirlinesHome.feature:31
-  Given I am in home page                                                           # stepdefinitions.UnitedAirStepDefinitions.i_am_in_home_page()
-  When I click on Book Button                                                       # stepdefinitions.UnitedAirStepDefinitions.i_click_on_book_button()
-  And I click on Hotels Button                                                      # stepdefinitions.UnitedAirStepDefinitions.i_click_on_hotels_button()
-  And I enter "Las Vegas, Nevada, United States of America" in searchBox and submit # stepdefinitions.UnitedAirStepDefinitions.i_enter_in_search_box_and_submit(java.lang.String)
-  Then I validate Landed page properly                                              # stepdefinitions.UnitedAirStepDefinitions.i_validate_landed_page_properly()
+Scenario: United Airlines SignIn functionality test        # src/test/java/features/UnitedAirRegistration.feature:8
+  Given I am in home page                                  # stepdefinitions.UnitedAirStepDefinitions.i_am_in_home_page()
+  When I click on signIn button                            # stepdefinitions.UniAirRegistrationStepDefinitions.i_click_on_sign_in_button()
+  And I click on join now and use title                    # stepdefinitions.UniAirRegistrationStepDefinitions.i_click_on_join_now_and_use_title()
+  And I use data in member information field               # stepdefinitions.UniAirRegistrationStepDefinitions.i_use_data_in_member_information_field(io.cucumber.datatable.DataTable)
+  And month and gender field is selected                   # stepdefinitions.UniAirRegistrationStepDefinitions.month_and_gender_field_is_selected()
+  Then I validate Contact Information is appeared properly # stepdefinitions.UniAirRegistrationStepDefinitions.i_validate_contact_information_is_appeared_properly()
+
+@SmokeTest
+Scenario: United Airlines contact information test # src/test/java/features/UnitedAirRegistration.feature:17
+  Given I am in home page                          # stepdefinitions.UnitedAirStepDefinitions.i_am_in_home_page()
+  When I click on signIn button                    # stepdefinitions.UniAirRegistrationStepDefinitions.i_click_on_sign_in_button()
+  And I click on join now and use title            # stepdefinitions.UniAirRegistrationStepDefinitions.i_click_on_join_now_and_use_title()
+  When I entered data in Contact Information field # stepdefinitions.UniAirRegistrationStepDefinitions.i_entered_data_in_contact_information_field(io.cucumber.datatable.DataTable)
+  Then I validate "Phone number" appear properly   # stepdefinitions.UniAirRegistrationStepDefinitions.i_validate_appear_properly(java.lang.String)
+
+@SmokeTest
+Scenario: United Airlines contact information test  # src/test/java/features/UnitedAirRegistration.feature:25
+  Given I am in home page                           # stepdefinitions.UnitedAirStepDefinitions.i_am_in_home_page()
+  When I click on signIn button                     # stepdefinitions.UniAirRegistrationStepDefinitions.i_click_on_sign_in_button()
+  And I click on join now and use title             # stepdefinitions.UniAirRegistrationStepDefinitions.i_click_on_join_now_and_use_title()
+  And I entered data in phone number field          # stepdefinitions.UniAirRegistrationStepDefinitions.i_entered_data_in_phone_number_field(io.cucumber.datatable.DataTable)
+  And I click on check box field                    # stepdefinitions.UniAirRegistrationStepDefinitions.i_click_on_check_box_field()
+  Then I verify "Email information" appear properly # stepdefinitions.UniAirRegistrationStepDefinitions.i_verify_appear_properly(java.lang.String)
+
+@SmokeTest
+Scenario: United Airlines contact information test    # src/test/java/features/UnitedAirRegistration.feature:34
+  Given I am in home page                             # stepdefinitions.UnitedAirStepDefinitions.i_am_in_home_page()
+  When I click on signIn button                       # stepdefinitions.UniAirRegistrationStepDefinitions.i_click_on_sign_in_button()
+  And I click on join now and use title               # stepdefinitions.UniAirRegistrationStepDefinitions.i_click_on_join_now_and_use_title()
+  And I entered data in email field                   # stepdefinitions.UniAirRegistrationStepDefinitions.i_entered_data_in_email_field(io.cucumber.datatable.DataTable)
+  And I click on check box and uncheck box            # stepdefinitions.UniAirRegistrationStepDefinitions.i_click_on_check_box_and_uncheck_box()
+  And I entered data in password field                # stepdefinitions.UniAirRegistrationStepDefinitions.i_entered_data_in_password_field(io.cucumber.datatable.DataTable)
+  And I click on Show button                          # stepdefinitions.UniAirRegistrationStepDefinitions.i_click_on_show_button()
+  And I click on accept and enroll button             # stepdefinitions.UniAirRegistrationStepDefinitions.i_click_on_accept_and_enroll_button()
+  Then I verify "Security questions" display properly # stepdefinitions.UniAirRegistrationStepDefinitions.i_verify_display_properly(java.lang.String)
+
+@SmokeTest
+Scenario: United Airlines contact information test # src/test/java/features/UnitedAirRegistration.feature:48
+  Given I am in home page                          # stepdefinitions.UnitedAirStepDefinitions.i_am_in_home_page()
+  When I click on signIn button                    # stepdefinitions.UniAirRegistrationStepDefinitions.i_click_on_sign_in_button()
+  And I click on join now and use title            # stepdefinitions.UniAirRegistrationStepDefinitions.i_click_on_join_now_and_use_title()
+  And I entered data in answer field               # stepdefinitions.UniAirRegistrationStepDefinitions.i_entered_data_in_answer_field(io.cucumber.datatable.DataTable)
+      org.openqa.selenium.NoSuchElementException: Cannot locate element with text: What is your favorite type of reading?
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:1835:9fda:291e:379d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
+	at common.WebAPI.selectOptionByVisibleText(WebAPI.java:419)
+	at unitedAirRegistration.UnitedAirRegistration.questionAndAnswer2(UnitedAirRegistration.java:191)
+	at stepdefinitions.UniAirRegistrationStepDefinitions.i_entered_data_in_answer_field(UniAirRegistrationStepDefinitions.java:134)
+	at ✽.I entered data in answer field(file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirRegistration.feature:50)
+
+  And I click on accept and enroll button          # stepdefinitions.UniAirRegistrationStepDefinitions.i_click_on_accept_and_enroll_button()
+
+    Embedding Demo1 [image/png 241084 bytes]
+
+      org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:1835:9fda:291e:379d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at stepdefinitions.UniAirRegistrationStepDefinitions.tearDown(UniAirRegistrationStepDefinitions.java:24)
+

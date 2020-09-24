@@ -1,7 +1,6 @@
 package stepdefinitions;
 
 import SearchBox.SearchBox;
-import atnthome.AtntHome;
 import common.WebAPI;
 import io.cucumber.java.After;
 import io.cucumber.java.BeforeStep;

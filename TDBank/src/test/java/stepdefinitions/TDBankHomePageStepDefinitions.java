@@ -93,7 +93,7 @@ public class TDBankHomePageStepDefinitions extends WebAPI {
 
     @Then("I validate signUp message")
     public void i_validate_sign_up_message() {
-        tdBankHome.validateSignUpPageText("wrong text");
+        tdBankHome.validateSignUpPageText("The information you gave doesn't match our records. Please review and make any updates before proceeding.");
     }
 
     /**
@@ -131,6 +131,11 @@ public class TDBankHomePageStepDefinitions extends WebAPI {
     public void i_click_on_checking() throws InterruptedException {
         tdBankHome.clickOnCheckingBtn();
     }
+    @When("I click on continue button")
+    public void i_click_on_continue_button() throws InterruptedException {
+        tdBankHome.clickOnContinueBtn();
+    }
+
 
     /**
      * TD Bank location searchBox check

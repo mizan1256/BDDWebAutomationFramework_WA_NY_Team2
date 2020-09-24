@@ -64,7 +64,7 @@ public class TargetEcommerceStepDefinitions extends WebAPI {
      * targetEcommerce signUp functional test
      */
     @Given("I do necessary steps to land on User info page")
-    public void i_do_necessary_steps_to_land_on_user_info_page() {
+    public void i_do_necessary_steps_to_land_on_user_info_page() throws InterruptedException {
         targetEcommerceHomePage.signUpNecessaryStep();
     }
     @Given("I enter user credentials")
@@ -85,6 +85,7 @@ public class TargetEcommerceStepDefinitions extends WebAPI {
 
     @Then("I validate signUp message")
     public void i_validate_sign_up_message() {
+        targetEcommerceHomePage.validateSingUpMessage("Sorry, something went wrong. Please try again.");
 
     }
     /**
@@ -141,4 +142,30 @@ targetEcommerceHomePage.validaUserSignIn();
     public void i_verify_is_appear_properly(String string) throws InterruptedException {
         targetEcommerceHomePage.validateSearchBox("Homepage");
     }
+    /**
+     * Target shoppingCart logo functionality check
+     */
+    @Given("I click on shopping cart Icon")
+    public void i_click_on_shopping_cart_icon() {
+    targetEcommerceHomePage.shoppingCartLogoIsClickable();
+    }
+
+    @Then("I validate shopping cart page")
+    public void i_validate_shopping_cart_page() throws InterruptedException {
+    targetEcommerceHomePage.validateShoppingCartLogoIsClickable();
+    }
+
+    /**
+     * Target Shopping Cart log in functionality check
+     */
+    @Then("I click on shopping cart signIn button")
+    public void i_click_on_shopping_cart_signIn_button() throws InterruptedException {
+        targetEcommerceHomePage.shoppingInCartLogIn() ;
+    }
+    @Then("I validate shopping cart log in page")
+    public void i_validate_shopping_cart_log_in_page() {
+    targetEcommerceHomePage.validateShoppingCartLogIn();
+    }
+
+
 }

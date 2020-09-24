@@ -57,6 +57,16 @@ public class TargetEcommerceHomePage extends WebAPI {
     @FindBy(xpath = "//h2[contains(text(),'Compare iPhone models')]")
     WebElement iPhoneSearchBoxTxt;
 
+    @FindBy(how = How.XPATH, using = shoppingCartLogo)
+    public WebElement shoppInCartLogo;
+    @FindBy(how = How.XPATH, using = shoppingCartLogoText)
+    public WebElement shoppingCartText;
+
+    @FindBy(how = How.XPATH, using = shoppingCartSignInButton)
+    public WebElement shoppingCartSignIn;
+    @FindBy(how = How.XPATH, using = finalSignInButton)
+    public WebElement finalSignIn;
+
     public void searchBoxIsDisplayed() {
         searchField.isDisplayed();
         Assert.assertTrue(driver.findElement(By.xpath("//input[@id='search']")).isDisplayed());
@@ -90,8 +100,9 @@ public class TargetEcommerceHomePage extends WebAPI {
      *    Positive test Creating account
      */
 
-    public void signUpNecessaryStep(){
+    public void signUpNecessaryStep() throws InterruptedException {
         signInButton.click();
+        sleepFor(2);
         createAccountDropDownLink.click();
     }
     public void enterUseEmail(String email){
@@ -114,6 +125,11 @@ public class TargetEcommerceHomePage extends WebAPI {
         createTargetAccount.click();
     }
 
+    public void validateSingUpMessage(String actulaText){
+        String expectedText=invalidPasswordErrorMessage.getText();
+        Assert.assertEquals("Text do not match", expectedText, actulaText);
+    }
+
     /**
      * SignIn to target user account
      */
@@ -123,7 +139,9 @@ public class TargetEcommerceHomePage extends WebAPI {
         signInDropDownButton.click();
     }
     public void enterUserSignInInfo(String userEmail, String userPassword ) throws InterruptedException {
+        signInEmailId.clear();
         signInEmailId.sendKeys(userEmail);
+        signInPassword.clear();
         signInPassword.sendKeys(userPassword);
         sleepFor(3);
     }
@@ -154,13 +172,40 @@ public void validateSearchProductTitle(String validateTitle){
         Assert.assertTrue(expectedResult.contains(actualText));
     }
 
-    /**
-     *
-     */
     public void validateSearchBox(String expectedResult) throws InterruptedException {
         sleepFor(4);
         String actualResult=searchText.getText();
         Assert.assertEquals("Search Item not match",actualResult,expectedResult);
 
     }
+    /**
+     * Target shopping cart logo functionality check
+     */
+    public void shoppingCartLogoIsClickable() {
+        shoppInCartLogo.click();
+    }
+
+    public void validateShoppingCartLogoIsClickable() throws InterruptedException {
+        Thread.sleep(3000);
+        String actualResult = shoppingCartText.getText();
+        System.out.println(shoppingCartText.getText());
+        Thread.sleep(3000);
+        String expectedResult = "Your cart is empty";
+        org.testng.Assert.assertEquals(actualResult, expectedResult, "Test case not match");
+    }
+    /**
+     * Shopping Cart Functional test
+     */
+    public void shoppingInCartLogIn() throws InterruptedException {
+        shoppingCartLogoIsClickable();
+        shoppingCartSignIn.click();
+        signInEmailId.sendKeys("mizan_1256@yahoo.com");
+        signInPassword.sendKeys("Tasmi1256");
+        finalSignIn.click();
+        Thread.sleep(3000);
+    }
+    public void validateShoppingCartLogIn() {
+        org.testng.Assert.assertEquals("Target : Expect More. Pay Less.", driver.getTitle());
+    }
+
 }

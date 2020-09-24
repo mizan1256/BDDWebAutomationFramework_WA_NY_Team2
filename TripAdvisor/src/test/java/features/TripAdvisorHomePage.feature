@@ -3,14 +3,14 @@ Feature: Trip Advisor Home Page Functionality test
   Background:
     Given I am in Trip Advisor home page
 
-  #@SmokeTest
+  @SmokeTest
   Scenario: Trip Advisor Search box functionality test
     When I type Texas i search box
     And I click search button
     And I click Hotels Button
     Then I varify "Texas" is appeared properly
 
- #@SmokeTest
+ @SmokeTest
   Scenario: Trip Advisor Search box functionality test
     When I type Texas i search box
     And I click search button
@@ -30,7 +30,7 @@ Feature: Trip Advisor Home Page Functionality test
     And I click Gallery button
     Then I varify food image is appeared properly
 
-  #@SmokeTest
+  @SmokeTest
   Scenario: Trip Advisor Search box functionality test
     When I click TravelForum
     And I click Flights
@@ -40,7 +40,7 @@ Feature: Trip Advisor Home Page Functionality test
     And I click find flight button
     Then I varify COVID-19 Policies is appeared properly
 
- # @SmokeTest
+  @SmokeTest
   Scenario: Trip Advisor Search box functionality test
     When I click TravelForum and click Flight
     And I click One way tab
@@ -50,32 +50,32 @@ Feature: Trip Advisor Home Page Functionality test
     And I click find flight button
     Then I varify COVID-19 Policies is appeared properly
 
- # @SmokeTest
+ @SmokeTest
   Scenario: Trip Advisor Search box functionality test
     When I click Things to Do
     And I type in searchBox and submit
     Then I varify Dhaka City is appeared properly
 
- # @SmokeTest
+ @SmokeTest
   Scenario: Trip Advisor Search box functionality test
     When I click Things to Do
     And I type in searchBox and submit
     Then I varify Dhaka City is appeared properly
+#
+# # @SmokeTest
+#  Scenario: Trip Advisor Search box functionality test
+#    When I click More Box
+#    And I click Airlines Tab
+#    And I click Advanced Air
+#    Then I varify Advance Air is appeared properly
 
- # @SmokeTest
-  Scenario: Trip Advisor Search box functionality test
-    When I click More Box
-    And I click Airlines Tab
-    And I click Advanced Air
-    Then I varify Advance Air is appeared properly
-
-  #@SmokeTest
+  @SmokeTest
   Scenario: Trip Advisor Search box functionality test
     When I click trip button
     And I click get start
     Then I varify reCAPCHA is appeared properly
 
-  #@SmokeTest
+  @SmokeTest
   Scenario: Trip Advisor Search box functionality test
     When I click Post
     And I click Post Photo

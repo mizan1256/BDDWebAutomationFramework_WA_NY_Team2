@@ -596,5 +596,8 @@ public class WebAPI {
         JavascriptExecutor js=((JavascriptExecutor)driver);
         js.executeScript("arguments[0].setAttribute('value','"+dateValue+"','"+returnValue+"');",element);
     }
-
+    public void scrollDown() {
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        js.executeScript("window.scrollBy(0,document.body.scrollHeight)");
+    }
 }

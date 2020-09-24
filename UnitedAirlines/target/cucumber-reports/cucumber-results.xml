@@ -1,13 +1,71 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="16.352">
-    <testcase classname="United Airlines home page functionality test" name="United Airlines Book Button functionality test" time="15.919">
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="5" time="206.06">
+    <testcase classname="United Airlines home page signIn functionality test" name="United Airlines SignIn functionality test" time="45.654">
         <system-out>
             <![CDATA[Given I am in home page.....................................................passed
-When I click on Book Button.................................................passed
-And I click on Hotels Button................................................passed
-And I enter "Las Vegas, Nevada, United States of America" in searchBox and submit.passed
-Then I validate Landed page properly........................................passed
+When I click on signIn button...............................................passed
+And I click on join now and use title.......................................passed
+And I use data in member information field..................................passed
+And month and gender field is selected......................................passed
+Then I validate Contact Information is appeared properly....................passed
 ]]>
         </system-out>
+    </testcase>
+    <testcase classname="United Airlines home page signIn functionality test" name="United Airlines contact information test" time="37.424">
+        <system-out>
+            <![CDATA[Given I am in home page.....................................................passed
+When I click on signIn button...............................................passed
+And I click on join now and use title.......................................passed
+When I entered data in Contact Information field............................passed
+Then I validate "Phone number" appear properly..............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="United Airlines home page signIn functionality test" name="United Airlines contact information test 2" time="27.244">
+        <system-out>
+            <![CDATA[Given I am in home page.....................................................passed
+When I click on signIn button...............................................passed
+And I click on join now and use title.......................................passed
+And I entered data in phone number field....................................passed
+And I click on check box field..............................................passed
+Then I verify "Email information" appear properly...........................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="United Airlines home page signIn functionality test" name="United Airlines contact information test 3" time="32.349">
+        <system-out>
+            <![CDATA[Given I am in home page.....................................................passed
+When I click on signIn button...............................................passed
+And I click on join now and use title.......................................passed
+And I entered data in email field...........................................passed
+And I click on check box and uncheck box....................................passed
+And I entered data in password field........................................passed
+And I click on Show button..................................................passed
+And I click on accept and enroll button.....................................passed
+Then I verify "Security questions" display properly.........................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="United Airlines home page signIn functionality test" name="United Airlines contact information test 4" time="62.73">
+        <failure message="Cannot locate element with text: What is your favorite type of reading?&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:1835:9fda:291e:379d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.NoSuchElementException">
+            <![CDATA[Given I am in home page.....................................................passed
+When I click on signIn button...............................................passed
+And I click on join now and use title.......................................passed
+And I entered data in answer field..........................................failed
+And I click on accept and enroll button.....................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: Cannot locate element with text: What is your favorite type of reading?
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:1835:9fda:291e:379d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
+	at common.WebAPI.selectOptionByVisibleText(WebAPI.java:419)
+	at unitedAirRegistration.UnitedAirRegistration.questionAndAnswer2(UnitedAirRegistration.java:191)
+	at stepdefinitions.UniAirRegistrationStepDefinitions.i_entered_data_in_answer_field(UniAirRegistrationStepDefinitions.java:134)
+	at ✽.I entered data in answer field(file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirRegistration.feature:50)
+]]>
+        </failure>
     </testcase>
 </testsuite>
