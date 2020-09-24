@@ -53,5 +53,29 @@ public class HomePageStepDefinitions extends WebAPI {
     public void i_validate_miami_beach_landing_properly() throws InterruptedException {
         unitedAirlinesHomePage.validateLandedPageText();
     }
+    @When("I click on Check-in Button")
+    public void i_click_on_check_in_button() {
+        unitedAirlinesHomePage.clickOnCheckInButton();
+    }
+
+    @When("I put {string} to Confirmation number Text Box")
+    public void i_put_to_confirmation_number_text_box(String confirmNumber) {
+        unitedAirlinesHomePage.typeOnConfirmationNumber(confirmNumber);
+    }
+
+    @When("I put {string} to last name Text Box")
+    public void i_put_to_last_name_text_box(String lastName) {
+        unitedAirlinesHomePage.typeOnLastName(lastName);
+    }
+
+    @Then("I Click on Search Button")
+    public void i_click_on_search_button() {
+        unitedAirlinesHomePage.clickOnSearchButton();
+    }
+
+    @Then("I Validate Check-in Web page Landed Properly")
+    public void i_validate_check_in_web_page_landed_properly() {
+        unitedAirlinesHomePage.validationLandedOnCheckInPageText();
+    }
 
 }

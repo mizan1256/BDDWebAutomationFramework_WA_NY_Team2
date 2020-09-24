@@ -63,5 +63,6 @@ public class HomePageStepDefinition extends WebAPI {
     public void i_verify_the_page_title() {
             geicoHome.validatePageTitle();
     }
+
     }
 
