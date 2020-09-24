@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="2" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="10" time="119.328">
+    <testcase classname="TD Bank Credit Card Home Page feature check" name="TD bank Credit Card home page display check" time="5.845">
+        <system-out>
+            <![CDATA[Given I am in TD Bank home page.............................................passed
+And I click on CreditCard icon..............................................passed
+Then I validate Credit Card Home page Title.................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="TD Bank Credit Card Home Page feature check" name="Td Cash Credit Card home page check" time="7.404">
+        <system-out>
+            <![CDATA[Given I am in TD Bank home page.............................................passed
+And I click on CreditCard icon..............................................passed
+And I click on Td Cash Credit Card..........................................passed
+Then I validate Td Cash Credit Card is display..............................passed
+And I validate Td Cash Credit Card page Title...............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="TD Bank Credit Card Home Page feature check" name="TD First Class Credit Card page check" time="6.548">
+        <system-out>
+            <![CDATA[Given I am in TD Bank home page.............................................passed
+And I click on CreditCard icon..............................................passed
+And I click on TD First Class Credit Card Button............................passed
+Then I validate TD First Class Credit Card Image is display.................passed
+And I validate TD First Class Credit Card page Title........................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="TD Bank Credit Card Home Page feature check" name="Help me choose button check" time="7.395">
+        <system-out>
+            <![CDATA[Given I am in TD Bank home page.............................................passed
+And I click on CreditCard icon..............................................passed
+When I click on Help me Choose Button.......................................passed
+And I click on Cash and Next button.........................................passed
+Then I validate welcome message.............................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="TD Bank Home Page functionality test" name="TD Bank Online Banking page is display" time="9.158">
+        <system-out>
+            <![CDATA[Given I am in TD Bank home page.............................................passed
+When I mouseHover on LogIn..................................................passed
+And I click on online banking...............................................passed
+Then I validate log in page is displayed....................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="TD Bank Home Page functionality test" name="TD Bank signUp" time="14.661">
+        <system-out>
+            <![CDATA[Given I am in TD Bank home page.............................................passed
+When I click on signUp button...............................................passed
+And I do necessary steps to land on User info page..........................passed
+And I select account type...................................................passed
+And I enter user information................................................passed
+And I click on continue button..............................................passed
+Then I validate signUp message..............................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="TD Bank Home Page functionality test" name="TD Bank login functionality check with invalid credentials" time="10.315">
+        <system-out>
+            <![CDATA[Given I am in TD Bank home page.............................................passed
+When I click on logIn button in homePage....................................passed
+And I enter "30248ny_shah" and "Pnt@30248"..................................passed
+And I click on login........................................................passed
+Then I validate the error message...........................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="TD Bank Home Page functionality test" name="TD Bank product dropDown list check" time="10.534">
+        <system-out>
+            <![CDATA[Given I am in TD Bank home page.............................................passed
+When I click on product.....................................................passed
+And I click on checking.....................................................passed
+Then I validate checking account page.......................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="TD Bank Home Page functionality test" name="TD Bank Find us Box functionality check" time="10.978">
+        <failure message="Search Item not match expected:&lt;10 locations near &quot;[Ozone Park], NY&quot;&gt; but was:&lt;10 locations near &quot;[Jamaica], NY&quot;&gt;" type="org.junit.ComparisonFailure">
+            <![CDATA[Given I am in TD Bank home page.............................................passed
+When I click FindUs Icon....................................................passed
+And I enter "11416" and click on searchIcon.................................passed
+Then I validate TD bank locations appeared..................................failed
+
+StackTrace:
+org.junit.ComparisonFailure: Search Item not match expected:<10 locations near "[Ozone Park], NY"> but was:<10 locations near "[Jamaica], NY">
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at tdbankhome.TDBankHome.validateFindUsValidationText(TDBankHome.java:262)
+	at stepdefinitions.TDBankHomeStepDefinitions.i_validate_td_bank_locations_appeared(TDBankHomeStepDefinitions.java:159)
+	at ✽.I validate TD bank locations appeared(file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/TDBank/src/test/java/features/TDBankHomePage.feature:47)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="TD Bank Home Page functionality test" name="Get Direction Button check" time="36.14">
+        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;js-yl-USBRANCH40244&quot;]/article/div[11]/div/div/div/a&quot;}&#10;  (Session info: chrome=85.0.4183.121)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Shahs-MacBook-Pro.local', ip: '2604:2000:1000:4035:0:0:0:b0d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/6v/0pdt7m190gj...}, goog:chromeOptions: {debuggerAddress: localhost:55758}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 148b78ad01596b02674c76a4d5405356&#10;*** Element info: {Using=xpath, value=//*[@id=&quot;js-yl-USBRANCH40244&quot;]/article/div[11]/div/div/div/a}" type="org.openqa.selenium.NoSuchElementException">
+            <![CDATA[Given I am in TD Bank home page.............................................passed
+When I take necessary steps and landed on locations page....................passed
+And I click on Get Direction Button.........................................failed
+Then I validate google map page Title.......................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="js-yl-USBRANCH40244"]/article/div[11]/div/div/div/a"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Shahs-MacBook-Pro.local', ip: '2604:2000:1000:4035:0:0:0:b0d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/6v/0pdt7m190gj...}, goog:chromeOptions: {debuggerAddress: localhost:55758}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 148b78ad01596b02674c76a4d5405356
+*** Element info: {Using=xpath, value=//*[@id="js-yl-USBRANCH40244"]/article/div[11]/div/div/div/a}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy25.click(Unknown Source)
+	at tdbankhome.TDBankHome.clickOnGetDirection(TDBankHome.java:274)
+	at stepdefinitions.TDBankHomeStepDefinitions.i_click_on_get_direction_button(TDBankHomeStepDefinitions.java:172)
+	at ✽.I click on Get Direction Button(file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/TDBank/src/test/java/features/TDBankHomePage.feature:52)
+]]>
+        </failure>
+    </testcase>
+</testsuite>

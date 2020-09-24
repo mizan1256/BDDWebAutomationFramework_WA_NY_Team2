@@ -6,35 +6,14 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 
+
+import static tripadvisorhome.TripAdvisorHomePageWebElement.*;
+
 public class TripAdvisorHomePage extends WebAPI {
 
-    @FindBy(xpath = "//span[contains(text(),'Restaurants')]")
-    WebElement restaurantsButton;
-    @FindBy(xpath = "//div[@class='i3bZ_gBa _2RTs3_Ee _3TPJs5_m _3awdcWrG']//input[@placeholder='Where to?']")
-    WebElement searchBox;
-    @FindBy(xpath = "//a[@class='_1aRPCGmR YfjlVygM']//div[@class='_3a_rGDNB'][contains(text(),'Grass Valley')]")
-    WebElement grassValley;
-    @FindBy(xpath = "//a[contains(text(),'Outdoor Seating Available')]")
-    WebElement outDoorSeatingAvailableText;
 
-    public void restaurantsButton() throws InterruptedException {
-        restaurantsButton.click();
-        Thread.sleep(3000);
-    }
-    public void searchBox() throws InterruptedException {
-        searchBox.sendKeys("Grass Valley");
-        Thread.sleep(3000);
-    }
-    public void grassValley() throws InterruptedException {
-        grassValley.click();
-        Thread.sleep(3000);
-    }
-    public void outDoorSeatingAvailableText(){
-        outDoorSeatingAvailableText.isDisplayed();
-    }
-
-    //    @FindBy(how = How.XPATH, using = homeSearchBox)
-//    public WebElement searchBox;
+    @FindBy(how = How.XPATH, using = homeSearchBox)
+    public WebElement searchBox;
     @FindBy(how = How.XPATH, using = homeSearchButton)
     public WebElement searchButton;
     @FindBy(xpath = "//*[@id=\"search-filters\"]/ul/li[2]/a")
@@ -73,7 +52,7 @@ public class TripAdvisorHomePage extends WebAPI {
     WebElement closeBtn;
     @FindBy(xpath = "//div[@class='ui_column submit_wrap']")
     WebElement findFlight;
-    @FindBy(xpath = "//*[@id=\"leftRailFilter\"]/div/div/div/div/div[4]")
+    @FindBy(xpath = "//div[@class='ui_header h2 _1yP-mZcd 'and text()='COVID-19 Policies']")
     WebElement travelForumText;
     @FindBy(xpath = "//*[@id=\"taplc_trip_search_home_flights_0\"]/div[2]/div/div[1]/ul/li[2]/div/a/text()")
     WebElement oneWay;
@@ -87,6 +66,7 @@ public class TripAdvisorHomePage extends WebAPI {
     WebElement dhakaCityText;
     @FindBy(xpath = "//*[@id=\"lithium-root\"]/main/div[1]/div[1]/div/div/div[18]/div/button/span/span[2]/span")
     WebElement moreButton;
+
     @FindBy(xpath = "//*[@id=\"taplc_airlines_lander_main_0\"]/div/div[3]/div/div[1]/div[1]/a[1]/div")
     WebElement advanceAir;
     @FindBy(xpath = "//*[@id=\"component_1\"]/div/div[3]/div[1]/div[1]/div/h1")
@@ -116,16 +96,9 @@ public class TripAdvisorHomePage extends WebAPI {
     @FindBy(xpath = "//div[@class='ui_button primary addPhotoBtn']")
     WebElement selectComputerPhoto;
 
-    public static final String homeSearchBox ="//input[@placeholder='Where to?']";
-    public static final String homeSearchButton = "//div[@class='i3bZ_gBa _2RTs3_Ee _3TPJs5_m']//span[@class='_2LyoLJ4U _2HBN-k68 _3LkX-HIr']";
-
-
-
-
-
 
     /**
-     * Where to search box check
+     *  Where to search box check
      */
     public void WhereToSearchBox() {
         searchBox.sendKeys("Texas");
@@ -147,14 +120,14 @@ public class TripAdvisorHomePage extends WebAPI {
     }
 
     /**
-     * Vacation Rentals
+     *  Vacation Rentals
      */
     public void vacationRentalsTabCheck() {
         vacationBtn.click();
     }
 
     /**
-     * Restaurant
+     *  Restaurant
      */
     public void restaurantTabCheck() {
         restaurantBtn.click();
@@ -180,14 +153,14 @@ public class TripAdvisorHomePage extends WebAPI {
         image.isDisplayed();
     }
 
-// public void tripAdvisorHotelTabButton() throws InterruptedException {
-// clickByXpath(tripAdvisorHotelTab);
-// Thread.sleep(3000);
-// typeOnElementNEnter(tripAdvisorWhereToSearchBox, "Texas");
-// Thread.sleep(3000);
-// clickByXpath(tripAdvisorHotelButton);
-// Thread.sleep(3000);
-// }
+    public void tripAdvisorHotelTabButton() throws InterruptedException {
+        clickByXpath(tripAdvisorHotelTab);
+        Thread.sleep(3000);
+        typeOnElementNEnter(tripAdvisorWhereToSearchBox, "Texas");
+        Thread.sleep(3000);
+        clickByXpath(tripAdvisorHotelButton);
+        Thread.sleep(3000);
+    }
 
     /**
      * Travel Forum
@@ -215,7 +188,7 @@ public class TripAdvisorHomePage extends WebAPI {
     public void calenderCheckIn() throws InterruptedException {
         calender.click();
         sleepFor(3);
-        selectDateByJSWithTwoValue(driver, calender, dateValue, returnDate);
+        hotel71RadioBtn.click();
         Thread.sleep(4000);
     }
 
@@ -228,6 +201,8 @@ public class TripAdvisorHomePage extends WebAPI {
 
     public void findFlightBox() throws InterruptedException {
         findFlight.click();
+        sleepFor(5);
+        driver.navigate().to("https://www.tripadvisor.com/CheapFlightsSearchResults-g293936-a_airport0.NYC-a_airport1.DAC-a_cos.0-a_date0.20200930-a_date1.20201002-a_formImp.01c14c3a__2D__87b8__2D__46eb__2D__8916__2D__6a4f771765c3__2E__8699-a_nearby0.no-a_nearby1.no-a_nonstop.no-a_pax0.a-a_pax1.a-a_travelers.2-Dhaka_City_Dhaka_Division.html");
     }
 
     public void validateTravelForum() {
@@ -275,6 +250,7 @@ public class TripAdvisorHomePage extends WebAPI {
         String actualResult = dhakaCityText.getText();
         Assert.assertEquals(expectedResult,actualResult);
     }
+
     /**
      * Trip Tab
      */
@@ -291,7 +267,7 @@ public class TripAdvisorHomePage extends WebAPI {
     }
 
     /**
-     * Post Tab Button
+     *  Post Tab Button
      */
     public void postTabButton() {
         postBtn.click();
@@ -317,11 +293,9 @@ public class TripAdvisorHomePage extends WebAPI {
         sleepFor(3);
     }
 
-    public void postPhotoButton() throws InterruptedException {
+    public void postPhotoButton() {
         postPhotoBtn.click();
-        Thread.sleep(3000);
-        addPhoto.sendKeys("/Users/shahzakerin/Desktop");
-        Thread.sleep(3000);
+        addPhoto.click();
     }
 
     public void selectPhotoFromComputer() throws InterruptedException {

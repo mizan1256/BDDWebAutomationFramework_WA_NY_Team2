@@ -41,21 +41,40 @@ Scenario: United Airlines contact information test # src/test/java/features/Unit
   Given I am in United Airlines home page          # stepdefinitions.UnitedAirStepDefinition.i_am_in_united_airlines_home_page()
   When I click on signIn button                    # stepdefinitions.UnitedAirRegistrationStepDefinition.i_click_on_sign_in_button()
   And I click on join now and use title            # stepdefinitions.UnitedAirRegistrationStepDefinition.i_click_on_join_now_and_use_title()
-  And I entered data in answer field               # stepdefinitions.UnitedAirRegistrationStepDefinition.i_entered_data_in_answer_field(io.cucumber.datatable.DataTable)
-      org.openqa.selenium.NoSuchElementException: Cannot locate element with text: What is your favorite type of reading?
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+      org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'Shahs-MacBook-Pro.local', ip: '2604:2000:1000:4035:0:0:0:b0d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
-Driver info: driver.version: unknown
-	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
-	at common.WebAPI.selectOptionByVisibleText(WebAPI.java:415)
-	at unitedairregistration.UnitedAirRegistrationPage.questionAndAnswer2(UnitedAirRegistrationPage.java:191)
-	at stepdefinitions.UnitedAirRegistrationStepDefinition.i_entered_data_in_answer_field(UnitedAirRegistrationStepDefinition.java:136)
-	at ✽.I entered data in answer field(file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirRegistration.feature:50)
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/6v/0pdt7m190gj...}, goog:chromeOptions: {debuggerAddress: localhost:58525}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: d8591183f79a60818ae96bb562be1352
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy25.click(Unknown Source)
+	at unitedairregistration.UnitedAirRegistrationPage.joinNowButton(UnitedAirRegistrationPage.java:65)
+	at stepdefinitions.UnitedAirRegistrationStepDefinition.i_click_on_join_now_and_use_title(UnitedAirRegistrationStepDefinition.java:44)
+	at ✽.I click on join now and use title(file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirRegistration.feature:49)
 
+  And I entered data in answer field               # stepdefinitions.UnitedAirRegistrationStepDefinition.i_entered_data_in_answer_field(io.cucumber.datatable.DataTable)
   And I click on accept and enroll button          # stepdefinitions.UnitedAirRegistrationStepDefinition.i_click_on_accept_and_enroll_button()
 
-    Embedding Demo [image/png 261539 bytes]
+    Embedding Demo [image/png 1720189 bytes]
 
       org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
@@ -68,3 +87,237 @@ Driver info: driver.version: RemoteWebDriver
 	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
 	at stepdefinitions.UnitedAirRegistrationStepDefinition.tearDown(UnitedAirRegistrationStepDefinition.java:26)
 
+
+@SmokeTest
+Scenario: United Airlines flight status functionality test # src/test/java/features/UnitedAirlinesHome.feature:7
+  Given I am in United Airlines home page                  # stepdefinitions.UnitedAirStepDefinition.i_am_in_united_airlines_home_page()
+  When I click on flight status tab                        # stepdefinitions.UnitedAirStepDefinition.i_click_on_flight_status_tab()
+  And I enter city name in from field and To field         # stepdefinitions.UnitedAirStepDefinition.i_enter_city_name_in_from_field_and_to_field()
+  And I enter flight number and date                       # stepdefinitions.UnitedAirStepDefinition.i_enter_flight_number_and_date()
+      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(text(),'Sep 12, 2020')]"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Shahs-MacBook-Pro.local', ip: '2604:2000:1000:4035:0:0:0:b0d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/6v/0pdt7m190gj...}, goog:chromeOptions: {debuggerAddress: localhost:58576}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 3569010b4c11de272eda65ad4a52710b
+*** Element info: {Using=xpath, value=//div[contains(text(),'Sep 12, 2020')]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy25.click(Unknown Source)
+	at unitedairlineshome.UnitedAirHomePage.flightNumberAndDateField(UnitedAirHomePage.java:62)
+	at stepdefinitions.UnitedAirStepDefinition.i_enter_flight_number_and_date(UnitedAirStepDefinition.java:54)
+	at ✽.I enter flight number and date(file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:10)
+
+  And I click search button                                # stepdefinitions.UnitedAirStepDefinition.i_click_search_button()
+  Then I validate DEPARTURE is appeared properly           # stepdefinitions.UnitedAirStepDefinition.i_validate_departure_is_appeared_properly()
+
+    Embedding Demo [image/png 2033661 bytes]
+
+      org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Shahs-MacBook-Pro.local', ip: '2604:2000:1000:4035:0:0:0:b0d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at stepdefinitions.UnitedAirRegistrationStepDefinition.tearDown(UnitedAirRegistrationStepDefinition.java:26)
+
+
+@SmokeTest
+Scenario: United Airlines flight status functionality test                                           # src/test/java/features/UnitedAirlinesHome.feature:15
+  Given I am in United Airlines home page                                                            # stepdefinitions.UnitedAirStepDefinition.i_am_in_united_airlines_home_page()
+  When I click on CheckIn tab                                                                        # stepdefinitions.UnitedAirStepDefinition.i_click_on_check_in_tab()
+  And I enter ticket number in confirmation field                                                    # stepdefinitions.UnitedAirStepDefinition.i_enter_ticket_number_in_confirmation_field()
+  And I enter last name in Last name field                                                           # stepdefinitions.UnitedAirStepDefinition.i_enter_last_name_in_last_name_field()
+  And I click search box                                                                             # stepdefinitions.UnitedAirStepDefinition.i_click_search_box()
+  Then I validate We couldn't find a reservation with the provided information. is appeared properly # stepdefinitions.UnitedAirStepDefinition.i_validate_we_couldn_t_find_a_reservation_with_the_provided_information_is_appeared_properly()
+      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="app"]/div/div/div/div[2]/div[3]/div/main/div[1]/div/div/div/span"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Shahs-MacBook-Pro.local', ip: '2604:2000:1000:4035:0:0:0:b0d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/6v/0pdt7m190gj...}, goog:chromeOptions: {debuggerAddress: localhost:58620}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 9fc813f1a1b3150951d3df8e051bd1d3
+*** Element info: {Using=xpath, value=//*[@id="app"]/div/div/div/div[2]/div[3]/div/main/div[1]/div/div/div/span}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy25.getText(Unknown Source)
+	at unitedairlineshome.UnitedAirHomePage.validateCheckInfield(UnitedAirHomePage.java:97)
+	at stepdefinitions.UnitedAirStepDefinition.i_validate_we_couldn_t_find_a_reservation_with_the_provided_information_is_appeared_properly(UnitedAirStepDefinition.java:90)
+	at ✽.I validate We couldn't find a reservation with the provided information. is appeared properly(file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:20)
+
+
+    Embedding Demo [image/png 2033786 bytes]
+
+      org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Shahs-MacBook-Pro.local', ip: '2604:2000:1000:4035:0:0:0:b0d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at stepdefinitions.UnitedAirRegistrationStepDefinition.tearDown(UnitedAirRegistrationStepDefinition.java:26)
+
+
+@SmokeTest
+Scenario: United Airlines flight status functionality test                                                                       # src/test/java/features/UnitedAirlinesHome.feature:23
+  Given I am in United Airlines home page                                                                                        # stepdefinitions.UnitedAirStepDefinition.i_am_in_united_airlines_home_page()
+  When I click on My trips tab                                                                                                   # stepdefinitions.UnitedAirStepDefinition.i_click_on_my_trips_tab()
+  And I enter confirmation number in confirmation field                                                                          # stepdefinitions.UnitedAirStepDefinition.i_enter_confirmation_number_in_confirmation_field()
+  And I type last name in Last name field                                                                                        # stepdefinitions.UnitedAirStepDefinition.i_type_last_name_in_last_name_field()
+  And I click search box tab                                                                                                     # stepdefinitions.UnitedAirStepDefinition.i_click_search_box_tab()
+  Then I validate Your confirmation number, a 6 character alphanumeric code, and/or last name is not valid. is appeared properly # stepdefinitions.UnitedAirStepDefinition.i_validate_your_confirmation_number_a_character_alphanumeric_code_and_or_last_name_is_not_valid_is_appeared_properly()
+      io.cucumber.core.exception.CucumberException: Step [I validate Your confirmation number, a {int} character alphanumeric code, and\/or last name is not valid. is appeared properly] is defined with 0 parameters at 'stepdefinitions.UnitedAirStepDefinition.i_validate_your_confirmation_number_a_character_alphanumeric_code_and_or_last_name_is_not_valid_is_appeared_properly()'.
+However, the gherkin step has 1 arguments:
+ * 6
+Step text: I validate Your confirmation number, a 6 character alphanumeric code, and/or last name is not valid. is appeared properly
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.arityMismatch(PickleStepDefinitionMatch.java:83)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:42)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:63)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:49)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:99)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:71)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:199)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:234)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:230)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:58)
+
+
+    Embedding Demo [image/png 30041 bytes]
+
+      org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Shahs-MacBook-Pro.local', ip: '2604:2000:1000:4035:0:0:0:b0d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at stepdefinitions.UnitedAirRegistrationStepDefinition.tearDown(UnitedAirRegistrationStepDefinition.java:26)
+
+
+@SmokeTest
+Scenario: United Airlines search button functionality test # src/test/java/features/UnitedAirlinesHome.feature:31
+  Given I am in United Airlines home page                  # stepdefinitions.UnitedAirStepDefinition.i_am_in_united_airlines_home_page()
+  When I click on search button                            # stepdefinitions.UnitedAirStepDefinition.i_click_on_search_button()
+  And I click on covid-19 update                           # stepdefinitions.UnitedAirStepDefinition.i_click_on_covid_update(java.lang.Integer)
+  And I click on request a refund                          # stepdefinitions.UnitedAirStepDefinition.i_click_on_request_a_refund()
+  Then I validate Refund policies is appeared properly     # stepdefinitions.UnitedAirStepDefinition.i_validate_refund_policies_is_appeared_properly()
+      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//h1[contains(text(),'Refund policies')]"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Shahs-MacBook-Pro.local', ip: '2604:2000:1000:4035:0:0:0:b0d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/6v/0pdt7m190gj...}, goog:chromeOptions: {debuggerAddress: localhost:58706}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 02cb03103f1b1ab02688d5aa4f44bb4d
+*** Element info: {Using=xpath, value=//h1[contains(text(),'Refund policies')]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy25.getText(Unknown Source)
+	at unitedairlineshome.UnitedAirHomePage.validateSearchIcon(UnitedAirHomePage.java:141)
+	at stepdefinitions.UnitedAirStepDefinition.i_validate_refund_policies_is_appeared_properly(UnitedAirStepDefinition.java:136)
+	at ✽.I validate Refund policies is appeared properly(file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:35)
+
+
+    Embedding Demo [image/png 420477 bytes]
+
+      org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Shahs-MacBook-Pro.local', ip: '2604:2000:1000:4035:0:0:0:b0d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at stepdefinitions.UnitedAirRegistrationStepDefinition.tearDown(UnitedAirRegistrationStepDefinition.java:26)
+
+
+@SmokeTest
+Scenario: United Airlines search button functionality test           # src/test/java/features/UnitedAirlinesHome.feature:38
+  Given I am in United Airlines home page                            # stepdefinitions.UnitedAirStepDefinition.i_am_in_united_airlines_home_page()
+  When I click on search button                                      # stepdefinitions.UnitedAirStepDefinition.i_click_on_search_button()
+  And I click on get a flight receipt                                # stepdefinitions.UnitedAirStepDefinition.i_click_on_get_a_flight_receipt()
+  And I click searchButton box                                       # stepdefinitions.UnitedAirStepDefinition.i_click_search_button_box()
+  Then I validate We couldn't find your receipt is appeared properly # stepdefinitions.UnitedAirStepDefinition.i_validate_we_couldn_t_find_your_receipt_is_appeared_properly()
+
+@SmokeTest
+Scenario: United Airlines Book Button Check                   # src/test/java/features/UnitedAirlinesHome.feature:49
+  Given I am in United Airlines home page                     # stepdefinitions.UnitedAirStepDefinition.i_am_in_united_airlines_home_page()
+  When I click on Book Button                                 # stepdefinitions.UnitedAirStepDefinition.i_click_on_book_button()
+  And I click on Hotels Button                                # stepdefinitions.UnitedAirStepDefinition.i_click_on_hotels_button()
+  And I enter "Miami Beach" in where to search box and submit # stepdefinitions.UnitedAirStepDefinition.i_enter_in_where_to_search_box_and_submit(java.lang.String)
+  Then I validate Miami Beach landing properly                # stepdefinitions.UnitedAirStepDefinition.i_validate_miami_beach_landing_properly()

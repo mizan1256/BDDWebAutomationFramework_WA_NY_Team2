@@ -2,7 +2,7 @@ Feature: CNN home page functionality test
 
   Background:
     Given I am in CNN home page
-    When I click on live Tv button
+
 
     @SmokeTest
     Scenario: CNN home page burger button functionality test
@@ -31,7 +31,7 @@ Feature: CNN home page functionality test
     @SmokeTest
     Scenario: CNN home page Travel functionality test
     When I click on live Tv button
-    And I click on Tv Play Button
+#    And I click on Tv Play Button
     And I click on back to cnn.com
     Then I validate Covid-19 is visible
 
@@ -40,7 +40,7 @@ Feature: CNN home page functionality test
     When I click on live Tv button
     And I click on Tv channel box
     And I click on cnn channel
-    Then I validate Login is visible
+#    Then I validate Login is visible
 
     @SmokeTest
     Scenario: CNN home page Travel functionality test

@@ -5,12 +5,12 @@
       {
         "name": "I am on Target home page",
         "aggregatedDurations": {
-          "median": 4.833087,
-          "average": 4.833087
+          "median": 4.266152,
+          "average": 4.266152
         },
         "durations": [
           {
-            "duration": 4.833087,
+            "duration": 4.266152,
             "location": "file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/Target_Ecommarce/src/test/java/features/HomePage.feature:4"
           }
         ]
@@ -23,13 +23,179 @@
       {
         "name": "I validate search box displays",
         "aggregatedDurations": {
-          "median": 0.044071,
-          "average": 0.044071
+          "median": 0.054827,
+          "average": 0.054827
         },
         "durations": [
           {
-            "duration": 0.044071,
+            "duration": 0.054827,
             "location": "file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/Target_Ecommarce/src/test/java/features/HomePage.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I am on targetEcommerce home page",
+    "steps": [
+      {
+        "name": "I am on targetEcommerce home page",
+        "aggregatedDurations": {
+          "median": 3.4578505,
+          "average": 3.37529925
+        },
+        "durations": [
+          {
+            "duration": 3.215098,
+            "location": "file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/Target_Ecommarce/src/test/java/features/TargetHomePage.feature:4"
+          },
+          {
+            "duration": 4.839578,
+            "location": "file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/Target_Ecommarce/src/test/java/features/TargetHomePage.feature:4"
+          },
+          {
+            "duration": 3.594706,
+            "location": "file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/Target_Ecommarce/src/test/java/features/TargetHomePage.feature:4"
+          },
+          {
+            "duration": 3.809453,
+            "location": "file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/Target_Ecommarce/src/test/java/features/TargetHomePage.feature:4"
+          },
+          {
+            "duration": 2.588506,
+            "location": "file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/Target_Ecommarce/src/test/java/features/TargetHomePage.feature:4"
+          },
+          {
+            "duration": 3.947935,
+            "location": "file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/Target_Ecommarce/src/test/java/features/TargetHomePage.feature:4"
+          },
+          {
+            "duration": 4.247983,
+            "location": "file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/Target_Ecommarce/src/test/java/features/TargetHomePage.feature:4"
+          },
+          {
+            "duration": 3.649287,
+            "location": "file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/Target_Ecommarce/src/test/java/features/TargetHomePage.feature:4"
+          },
+          {
+            "duration": 3.569611,
+            "location": "file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/Target_Ecommarce/src/test/java/features/TargetHomePage.feature:4"
+          },
+          {
+            "duration": 4.042657,
+            "location": "file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/Target_Ecommarce/src/test/java/features/TargetHomePage.feature:4"
+          },
+          {
+            "duration": 2.949925,
+            "location": "file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/Target_Ecommarce/src/test/java/features/TargetHomePage.feature:4"
+          },
+          {
+            "duration": 3.34609,
+            "location": "file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/Target_Ecommarce/src/test/java/features/TargetHomePage.feature:4"
+          },
+          {
+            "duration": 2.421953,
+            "location": "file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/Target_Ecommarce/src/test/java/features/TargetHomePage.feature:4"
+          },
+          {
+            "duration": 3.171296,
+            "location": "file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/Target_Ecommarce/src/test/java/features/TargetHomePage.feature:4"
+          },
+          {
+            "duration": 2.349729,
+            "location": "file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/Target_Ecommarce/src/test/java/features/TargetHomePage.feature:4"
+          },
+          {
+            "duration": 2.260981,
+            "location": "file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/Target_Ecommarce/src/test/java/features/TargetHomePage.feature:4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter Samsung Phones",
+    "steps": [
+      {
+        "name": "I enter Samsung Phones",
+        "aggregatedDurations": {
+          "median": 0.418667,
+          "average": 0.418667
+        },
+        "durations": [
+          {
+            "duration": 0.418667,
+            "location": "file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/Target_Ecommarce/src/test/java/features/TargetHomePage.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter {string} in searchBox",
+    "steps": [
+      {
+        "name": "I enter \"Samsung Phones\" in searchBox",
+        "aggregatedDurations": {
+          "median": 0.323987,
+          "average": 0.323987
+        },
+        "durations": [
+          {
+            "duration": 0.323987,
+            "location": "file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/Target_Ecommarce/src/test/java/features/TargetHomePage.feature:66"
+          }
+        ]
+      },
+      {
+        "name": "I enter \"Apple Watches\" in searchBox",
+        "aggregatedDurations": {
+          "median": 0.427398,
+          "average": 0.427398
+        },
+        "durations": [
+          {
+            "duration": 0.427398,
+            "location": "file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/Target_Ecommarce/src/test/java/features/TargetHomePage.feature:66"
+          }
+        ]
+      },
+      {
+        "name": "I enter \"Apple ipads\" in searchBox",
+        "aggregatedDurations": {
+          "median": 0.299811,
+          "average": 0.299811
+        },
+        "durations": [
+          {
+            "duration": 0.299811,
+            "location": "file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/Target_Ecommarce/src/test/java/features/TargetHomePage.feature:66"
+          }
+        ]
+      },
+      {
+        "name": "I enter \"iphone 11 Pro Max\" in searchBox",
+        "aggregatedDurations": {
+          "median": 0.3553,
+          "average": 0.3553
+        },
+        "durations": [
+          {
+            "duration": 0.3553,
+            "location": "file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/Target_Ecommarce/src/test/java/features/TargetHomePage.feature:66"
+          }
+        ]
+      },
+      {
+        "name": "I enter \"Samsung Tablets\" in searchBox",
+        "aggregatedDurations": {
+          "median": 0.41263,
+          "average": 0.41263
+        },
+        "durations": [
+          {
+            "duration": 0.41263,
+            "location": "file:///Users/shahzakerin/BDDWebAutomationFramework_WA_NY_Team2/Target_Ecommarce/src/test/java/features/TargetHomePage.feature:66"
           }
         ]
       }
