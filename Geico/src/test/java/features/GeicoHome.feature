@@ -3,20 +3,20 @@ Feature:Geico homePage functionality check
   Background:I am on Geico homepage
     Given I am on Geico homepage
 
-#  @SmokeTest
+  @SmokeTest
   Scenario: Geico searchBox functionality Check
     And I click searchlogo
     And I enter motorcycle in searchBox
     When I click searchButton
     Then I verify siteSearchText
-#  @SmokeTest
+  @SmokeTest
   Scenario: Geico searchBox functionality Check
     And I click searchlogo
     And I enter "motorcycle" in searchBox
     When I click searchButton
     Then I verify siteSearchText
 
-#  @SmokeTest
+  @SmokeTest
   Scenario Outline: Geico searchBox functionality Check
     And I click searchlogo
     And I enter "<searchItem>" in searchBox
@@ -32,7 +32,7 @@ Feature:Geico homePage functionality check
       | Flood Insurance      |
       | Boat Insurance       |
 
-#  @SmokeTest
+  @SmokeTest
   Scenario: Geico login functionality Check
     And I choose click on the arrow to choose policy
     And I choose accessPolicy
@@ -41,7 +41,7 @@ Feature:Geico homePage functionality check
     When I click loginButton
     Then I verify title
 
-#  @SmokeTest
+  @SmokeTest
   Scenario Outline: Geico login functionality Check
     And I choose click on the arrow to choose policy
     And I choose accessPolicy
@@ -58,14 +58,14 @@ Feature:Geico homePage functionality check
       | stt1324   | Ewfg234     |
       | stt1325   | 12424fer53  |
 
-#  @SmokeTest
+  @SmokeTest
   Scenario: Geico login create account check with variable
     And I click on startHere
     And I enter "policyNumber", "dateOfBirth" and "zipCode"
     When I click continue
     Then I verify errorText on screen
 
-#  @SmokeTest
+  @SmokeTest
   Scenario Outline: Geico login create account check with multiple variable
     And I click on startHere
     And I enter "<policyNumber>", "<dateOfBirth>" and "<zipCode>"

@@ -2,7 +2,6 @@ package stepdefinitions;
 
 import cnnregistration.CnnRegistration;
 import common.WebAPI;
-import io.cucumber.datatable.DataTable;
 import io.cucumber.java.After;
 import io.cucumber.java.BeforeStep;
 import io.cucumber.java.Scenario;
@@ -15,95 +14,63 @@ import org.openqa.selenium.support.PageFactory;
 import java.util.List;
 
 public class CnnRegStepDefinition extends WebAPI {
-
     static CnnRegistration cnnRegistration;
 
-    @After // class project
+    @After
     public void tearDown(Scenario scenario) {
         if (scenario.isFailed()) {
-            // Take a screenshot...
             final byte[] screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
-            scenario.attach(screenshot, "image/png", "Demo"); // ... and embed it in the report.
+            scenario.attach(screenshot, "image/png", "Demo1"); // ... and embed it in the report.
         }
         cleanUp();
     }
 
     @BeforeStep
-    public static void getInIt() {
+    public void getInIt() {
         cnnRegistration = PageFactory.initElements(driver, CnnRegistration.class);
-//        registrationPage = PageFactory.initElements(driver, RegistrationPage.class);
-    }
-
-
-
-
-
-    /**
-     * User Account Check
-     *
-     */
-    @When("I do necessary steps to land on User info page")
-    public void i_do_necessary_steps_to_land_on_user_info_page() throws InterruptedException {
-        cnnRegistration.userAccountCheck();
-    }
-
-    @When("I enter user credentials")
-    public void i_enter_user_credentials(DataTable userTable) throws InterruptedException {
-        List<List<String>> data = userTable.asLists(String.class);
-        cnnRegistration.userCredentialEmail(data.get(1).get(0));
-        cnnRegistration.userCredentialPassword(data.get(1).get(1));
-        cnnRegistration.userCredentialZipCode(data.get(1).get(2));
-    }
-
-    @Then("I validate *Required message")
-    public void i_validate_required_message() {
-        cnnRegistration.validateUserAccountCheck();
     }
 
     /**
-     * User Account negative test
+     * Cnn signUp functionality check
+     * @throws InterruptedException
      */
-    @When("I click on register button")
-    public void i_click_on_register_button() throws InterruptedException {
-        cnnRegistration.userCredentialRegisterBox();
+    @When("I do all necessary steps to land on Registration page")
+    public void i_do_all_necessary_steps_to_land_on_registration_page() throws InterruptedException {
+        cnnRegistration.landOnSingUpPage();
     }
 
-    @Then("I validate {string} message")
-    public void i_validate_message(String string) {
-        cnnRegistration.validateUserAccountNegativeTest(string);
+    @When("I enter user info")
+    public void i_enter_user_info(io.cucumber.datatable.DataTable table) {
+        List<List<String>> data = table.asLists(String.class);
+        cnnRegistration.enterUserEmail(data.get(1).get(0));
+        cnnRegistration.enterUserPassword(data.get(1).get(1));
+        cnnRegistration.enterUserZipcode(data.get(1).get(2));
     }
 
+    @When("I click on registration button")
+    public void i_click_on_registration_button() throws InterruptedException {
+        cnnRegistration.clickOnRegistrationBtn();
+    }
+
+    @Then("I validate welcome message")
+    public void i_validate_welcome_message() {
+        cnnRegistration.validateRegistrationMessage("This account already exists. Please log in.");
+    }
     /**
-     *  Log In positive test
+     * Cnn logIn functionality check
      */
-    @When("I do necessary steps to land on LogIn info page")
-    public void i_do_necessary_steps_to_land_on_log_in_info_page() throws InterruptedException {
-        cnnRegistration.logInPositiveCheck();
+    @When("I click on SingInIcon")
+    public void i_click_on_sing_in_icon() throws InterruptedException {
+        cnnRegistration.clickOnSingInBtn();
     }
 
-    @When("I enter credentials in logIn field")
-    public void i_enter_credentials_in_log_in_field(DataTable logInTable) {
-        List<List<String>> login = logInTable.asLists(String.class);
-        cnnRegistration.logInEmail(login.get(1).get(0));
-        cnnRegistration.logInPassword(login.get(1).get(1));
+    @When("I enter {string} and {string}")
+    public void i_enter_and(String userEmail, String password) throws InterruptedException {
+        cnnRegistration.enterLogInInfo(userEmail,password);
     }
 
-    @Then("I validate {string} message is appeared")
-    public void i_validate_message_is_appeared(String string) {
-        cnnRegistration.validateLogInPositiveCheck(string);
+    @Then("I validate landed page title")
+    public void i_validate_landed_page_title() {
+        cnnRegistration.validateSingInPageTitle();
     }
-
-    /**
-     *  Log in negative
-     */
-    @When("I click on logIn button")
-    public void i_click_on_log_in_button() {
-        cnnRegistration.logInBoxClick();
-    }
-
-    @Then("I validated {string} message is appeared")
-    public void i_validated_message_is_appeared(String string) {
-        cnnRegistration.validateLogInNegativeCheck(string);
-    }
-
 }

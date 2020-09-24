@@ -1,4 +1,33 @@
 
 @SmokeTest
-Scenario: Atnt Sign Up Functionality check with invalid credentials # src/test/java/features/HomePage.feature:8
-  Given I am in att homepage                                        # stepdefinitions.HomePageDefinition.i_am_in_att_homepage()
+Scenario: Att deals button Functionality check with valid data                            # src/test/java/features/Atnt.feature:7
+  Given I am in att homepage                                                              # stepdefinitions.RegistrationDefinition.i_am_in_att_homepage()
+  When I click Deals Button                                                               # stepdefinitions.AtntStepDefinition.i_click_deals_button()
+  Then I verify Wireless is appear properly                                               # stepdefinitions.AtntStepDefinition.i_verify_wireless_is_appear_properly()
+  And I verify page title as AT&T Deals on Phones, Wireless Plans, Internet & TV Services # stepdefinitions.AtntStepDefinition.i_verify_page_title_as_at_t_deals_on_phones_wireless_plans_internet_tv_services()
+
+@SmokeTest
+Scenario: Att Wireless button Functionality check with valid data                # src/test/java/features/Atnt.feature:13
+  Given I am in att homepage                                                     # stepdefinitions.RegistrationDefinition.i_am_in_att_homepage()
+  When I click Wireless Button                                                   # stepdefinitions.AtntStepDefinition.i_click_wireless_button()
+  Then I verify LEARN HOW TO is appear properly                                  # stepdefinitions.AtntStepDefinition.i_verify_learn_how_to_is_appear_properly()
+  And I verify page title as AT&T Wireless – Latest Phones & Best Wireless Plans # stepdefinitions.AtntStepDefinition.i_verify_page_title_as_at_t_wireless_latest_phones_best_wireless_plans()
+
+@SmokeTest
+Scenario: Att Internet button Functionality check with valid data                      # src/test/java/features/Atnt.feature:19
+  Given I am in att homepage                                                           # stepdefinitions.RegistrationDefinition.i_am_in_att_homepage()
+  When I click internet Button                                                         # stepdefinitions.AtntStepDefinition.i_click_internet_button()
+  Then I verify AT&T INTERNET is appear properly                                       # stepdefinitions.AtntStepDefinition.i_verify_at_t_internet_is_appear_properly()
+  And I verify page title as AT&T Internet Plans - Home Internet - AT&T® Official Site # stepdefinitions.AtntStepDefinition.i_verify_page_title_as_at_t_internet_plans_home_internet_at_t_official_site()
+
+@SmokeTest
+Scenario: Att TV button Functionality check with valid data # src/test/java/features/Atnt.feature:25
+  Given I am in att homepage                                # stepdefinitions.RegistrationDefinition.i_am_in_att_homepage()
+  When I click TV Button                                    # stepdefinitions.AtntStepDefinition.i_click_tv_button()
+  And I click on shop now button                            # stepdefinitions.AtntStepDefinition.i_click_on_shop_now_button()
+  Then I verify Choose a TV package is appear properly      # stepdefinitions.AtntStepDefinition.i_verify_choose_a_tv_package_is_appear_properly()
+  And I verify page title as Shop AT&T Bundles              # stepdefinitions.AtntStepDefinition.i_verify_page_title_as_shop_at_t_bundles()
+
+@SmokeTest
+Scenario: Atnt Sign Up Functionality check with invalid credentials # src/test/java/features/AtntRegistration.feature:8
+  Given I am in att homepage                                        # stepdefinitions.RegistrationDefinition.i_am_in_att_homepage()
