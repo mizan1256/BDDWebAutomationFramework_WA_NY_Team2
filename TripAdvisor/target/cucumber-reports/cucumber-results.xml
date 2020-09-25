@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="9" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="9" time="0.793">
-    <testcase classname="Trip Advisor Home Page Functionality test" name="Trip Advisor Search box functionality test" time="0.135">
+<testsuite errors="0" failures="11" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="11" time="0.8">
+    <testcase classname="Trip Advisor Home Page Functionality test" name="Trip Advisor Search box functionality test" time="0.14">
         <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
             <![CDATA[Given I am in Trip Advisor home page........................................undefined
 When I type Texas i search box..............................................skipped
@@ -10,7 +10,7 @@ Then I varify "Texas" is appeared properly..................................skip
 ]]>
         </failure>
     </testcase>
-    <testcase classname="Trip Advisor Home Page Functionality test" name="Trip Advisor Search box functionality test 2" time="0.008">
+    <testcase classname="Trip Advisor Home Page Functionality test" name="Trip Advisor Search box functionality test 2" time="0.01">
         <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
             <![CDATA[Given I am in Trip Advisor home page........................................undefined
 When I type Texas i search box..............................................skipped
@@ -21,7 +21,7 @@ Then I varify "Texas" is appeared properly..................................skip
 ]]>
         </failure>
     </testcase>
-    <testcase classname="Trip Advisor Home Page Functionality test" name="Trip Advisor Search box functionality test 3" time="0.009">
+    <testcase classname="Trip Advisor Home Page Functionality test" name="Trip Advisor Search box functionality test 3" time="0.006">
         <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
             <![CDATA[Given I am in Trip Advisor home page........................................undefined
 When I type Texas i search box..............................................skipped
@@ -36,7 +36,7 @@ Then I varify food image is appeared properly...............................skip
 ]]>
         </failure>
     </testcase>
-    <testcase classname="Trip Advisor Home Page Functionality test" name="Trip Advisor Search box functionality test 4" time="0.014">
+    <testcase classname="Trip Advisor Home Page Functionality test" name="Trip Advisor Search box functionality test 4" time="0.006">
         <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
             <![CDATA[Given I am in Trip Advisor home page........................................undefined
 When I click TravelForum....................................................skipped
@@ -49,7 +49,7 @@ Then I varify COVID-19 Policies is appeared properly........................skip
 ]]>
         </failure>
     </testcase>
-    <testcase classname="Trip Advisor Home Page Functionality test" name="Trip Advisor Search box functionality test 5" time="0.02">
+    <testcase classname="Trip Advisor Home Page Functionality test" name="Trip Advisor Search box functionality test 5" time="0.01">
         <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
             <![CDATA[Given I am in Trip Advisor home page........................................undefined
 When I click TravelForum and click Flight...................................skipped
@@ -62,7 +62,7 @@ Then I varify COVID-19 Policies is appeared properly........................skip
 ]]>
         </failure>
     </testcase>
-    <testcase classname="Trip Advisor Home Page Functionality test" name="Trip Advisor Search box functionality test 6" time="0.008">
+    <testcase classname="Trip Advisor Home Page Functionality test" name="Trip Advisor Search box functionality test 6" time="0.005">
         <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
             <![CDATA[Given I am in Trip Advisor home page........................................undefined
 When I click Things to Do...................................................skipped
@@ -71,7 +71,7 @@ Then I varify Dhaka City is appeared properly...............................skip
 ]]>
         </failure>
     </testcase>
-    <testcase classname="Trip Advisor Home Page Functionality test" name="Trip Advisor Search box functionality test 7" time="0.005">
+    <testcase classname="Trip Advisor Home Page Functionality test" name="Trip Advisor Search box functionality test 7" time="0.003">
         <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
             <![CDATA[Given I am in Trip Advisor home page........................................undefined
 When I click Things to Do...................................................skipped
@@ -80,7 +80,7 @@ Then I varify Dhaka City is appeared properly...............................skip
 ]]>
         </failure>
     </testcase>
-    <testcase classname="Trip Advisor Home Page Functionality test" name="Trip Advisor Search box functionality test 8" time="0.01">
+    <testcase classname="Trip Advisor Home Page Functionality test" name="Trip Advisor Search box functionality test 8" time="0.011">
         <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
             <![CDATA[Given I am in Trip Advisor home page........................................undefined
 When I click trip button....................................................skipped
@@ -89,7 +89,7 @@ Then I varify reCAPCHA is appeared properly.................................skip
 ]]>
         </failure>
     </testcase>
-    <testcase classname="Trip Advisor Home Page Functionality test" name="Trip Advisor Search box functionality test 9" time="0.011">
+    <testcase classname="Trip Advisor Home Page Functionality test" name="Trip Advisor Search box functionality test 9" time="0.007">
         <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
             <![CDATA[Given I am in Trip Advisor home page........................................undefined
 When I click Post...........................................................skipped
@@ -99,6 +99,28 @@ And I type hotel name and city name and click search button.................skip
 And select and click radio button...........................................skipped
 And I click Post Photos Button and click add photo btn......................skipped
 And I click select photo from your computer.................................skipped
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="TripAdvisor HomePage Functionality check" name="TripAdvisor SearchBox Functionality check with valid data" time="0.008">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
+            <![CDATA[Given I am in TripAdvisor homepage..........................................undefined
+When I click searchButton...................................................skipped
+And I enter Cox's Bazar in searchBox........................................skipped
+When I click searchButton...................................................skipped
+Then I verify Cox's Bazar is appear properly................................skipped
+And I verify page title as Search results: Cox's Bazar - Tripadvisor........skipped
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="TripAdvisor HomePage Functionality check" name="TripAdvisor Hotel SearchBox Functionality check with valid data" time="0.005">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
+            <![CDATA[Given I am in TripAdvisor homepage..........................................undefined
+When I click searchButton...................................................skipped
+And I click Hotels Button in homepage.......................................skipped
+When I enter on Paris in searchBox..........................................skipped
+And I verify Paris hotels is appear properly................................skipped
+When I verify page title....................................................skipped
 ]]>
         </failure>
     </testcase>

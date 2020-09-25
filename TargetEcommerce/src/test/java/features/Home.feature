@@ -22,3 +22,48 @@ Feature: TargetEcommerce Home page Functionality test
       |pntitny@gmail.com | Md   | Shuvo    | 7186901258  | Pnt@30242 |
     When I click on create account
     Then I validate signUp message
+
+  @Regression
+  Scenario: TargetEcommerce SearchBox functionality getting value from Scenario
+    And I enter "iPhone" in searchBox
+    Then I verify "iPhone" is appear properly
+    And I verify page title as iPhone
+
+  @Regression
+  Scenario Outline: TargetEcommerce SearchBox functionality test with validate using data table
+    And I enter "<productName>" in searchBox
+    When  I click searchButton
+    And I validate "<validateProduct>" is appear properly
+    And I validate page title as "<validateTitle>"
+
+    Examples:
+      | productName     | validateProduct   | validateTitle                   |
+      | iPhone          | iPhone            | Target : Expect More. Pay Less. |
+      | T-shirt for men | “T-shirt for men” | Target : Expect More. Pay Less. |
+      | mens jeans      | “mens jeans”      | Target : Expect More. Pay Less. |
+      | mens watches    | “mens watches”    | Target : Expect More. Pay Less. |
+
+  @SmokeTest
+  Scenario Outline: Login into att using Data Driven
+    And I am on signIn page
+    And I enter email as "<userEmail>" and password as "<Password>"
+    And I click on signIn button
+    Then  I should be getting a message
+
+    Examples:
+      | userEmail           | Password |
+      | admin@yourstore.com | admin    |
+      | mizan@gmail.com     | 15021972 |
+      | mohammd@gmail.com   | 01012010 |
+
+  @SmokeTest
+  Scenario: Target shoppingCart logo functionality check
+    And I click on shopping cart Icon
+    Then I validate shopping cart page
+
+  @SmokeTest
+  Scenario: Target Shopping Cart log in functionality check
+    When I click on shopping cart Icon
+    And I click on shopping cart signIn button
+    And I enter email as "mizan_1256@yahoo.com" and password as "Tasmi@1256"
+    Then I validate shopping cart log in page

@@ -55,6 +55,18 @@ public class TargetHome extends WebAPI {
     WebElement searchFieldButton;
     @FindBy(xpath = "//h2[contains(text(),'Compare iPhone models')]")
     WebElement iPhoneSearchBoxTxt;
+    @FindBy(how = How.XPATH, using = SignInButtonWebElement)
+    public WebElement signInBtn;
+
+    @FindBy(how = How.XPATH, using = shoppingCartLogo)
+    public WebElement shoppInCartLogo;
+    @FindBy(how = How.XPATH, using = shoppingCartLogoText)
+    public WebElement shoppingCartText;
+
+    @FindBy(how = How.XPATH, using = shoppingCartSignInButton)
+    public WebElement shoppingCartSignIn;
+
+
 
     public void searchBoxIsDisplayed() {
         searchField.isDisplayed();
@@ -111,6 +123,89 @@ public class TargetHome extends WebAPI {
     }
     public void enterCreateTargetAccount(){
         createTargetAccount.click();
+    }
+
+    public void validateSingUpMessage(String actulaText){
+        String expectedText=invalidPasswordErrorMessage.getText();
+        Assert.assertEquals("Text do not match", expectedText, actulaText);
+    }
+
+    /**
+     * SignIn to target user account
+     */
+    public void iAmOnSignInPage() throws InterruptedException {
+        signInButton.click();
+        sleepFor(2);
+        signInDropDownButton.click();
+    }
+    public void enterUserSignInInfo(String userEmail, String userPassword ) throws InterruptedException {
+        signInEmailId.clear();
+        signInEmailId.sendKeys(userEmail);
+        signInPassword.clear();
+        signInPassword.sendKeys(userPassword);
+        sleepFor(3);
+    }
+    public void clickOnSignInBtn(){
+        signInBtn.click();
+    }
+    public void validaUserSignIn(){
+        Assert.assertEquals("Target Login",driver.getTitle());
+    }
+    /**
+     * searchBox functionality test using
+     */
+    public void searchBoXCheck(String productName){
+        searchBox.sendKeys(productName);
+    }
+    public void clickOnSearchBtn(){
+        searchButton.click();
+    }
+    public void validateSearchProductTitle(String validateTitle){
+        String expectedTitle= validateTitle;
+        String actualTitle=driver.getTitle();
+        Assert.assertEquals(expectedTitle,actualTitle);
+
+    }
+    public void validateSearchTxt(String actualText) {
+        String expectedResult= actualText;
+        System.out.println(expectedResult);
+        Assert.assertTrue(expectedResult.contains(actualText));
+    }
+
+    public void validateSearchBox(String expectedResult) throws InterruptedException {
+        sleepFor(4);
+        String actualResult=searchText.getText();
+        Assert.assertEquals("Search Item not match",actualResult,expectedResult);
+
+    }
+    /**
+     * Target shopping cart logo functionality check
+     */
+    public void shoppingCartLogoIsClickable() {
+        shoppInCartLogo.click();
+    }
+
+    public void validateShoppingCartLogoIsClickable() throws InterruptedException {
+        Thread.sleep(3000);
+        String actualResult = shoppingCartText.getText();
+        System.out.println(shoppingCartText.getText());
+        Thread.sleep(3000);
+        String expectedResult = "Your cart is empty";
+        org.testng.Assert.assertEquals(actualResult, expectedResult, "Test case not match");
+    }
+    /**
+     * Shopping Cart Functional test
+     */
+    public void shoppingInCartLogIn() throws InterruptedException {
+        shoppingCartLogoIsClickable();
+        shoppingCartSignIn.click();
+        signInEmailId.sendKeys("mizan_1256@yahoo.com");
+        signInPassword.sendKeys("Tasmi1256");
+        finalSignIn.click();
+        Thread.sleep(3000);
+    }
+    public void validateShoppingCartLogIn() {
+        org.testng.Assert.assertEquals("Target : Expect More. Pay Less.", driver.getTitle());
     }
 
 }

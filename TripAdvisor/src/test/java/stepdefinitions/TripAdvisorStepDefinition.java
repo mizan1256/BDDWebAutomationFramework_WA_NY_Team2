@@ -5,17 +5,13 @@ import io.cucumber.java.After;
 import io.cucumber.java.BeforeStep;
 import io.cucumber.java.Scenario;
 import io.cucumber.java.en.And;
-import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
-import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import tripadvisorhome.TripAdvisorHomePage;
-
-import java.io.IOException;
 
 public class TripAdvisorStepDefinition extends WebAPI {
     static TripAdvisorHomePage tripAdvisorHomePage;
@@ -36,11 +32,14 @@ public class TripAdvisorStepDefinition extends WebAPI {
                 PageFactory.initElements(driver,TripAdvisorHomePage.class);
     }
 
-    @Given("I am in TripAdvisor homepage")
-    public void i_am_in_trip_advisor_homepage() throws IOException {
-    openBrowser("https://www.tripadvisor.com/");
-
-    }
+//    @Given("I am in TripAdvisor homepage")
+//    public void i_am_in_trip_advisor_homepage() throws IOException {
+//    openBrowser("https://www.tripadvisor.com/");
+//
+//    }
+//    @Given("I am in Trip Advisor home page")
+//    public void i_am_in_trip_advisor_home_page() throws IOException {
+//        openBrowser("https://www.tripadvisor.com/");
 
     @And("I enter Cox's Bazar in searchBox")
     public void i_enter_cox_s_bazar_in_search_box() throws InterruptedException {

@@ -31,10 +31,15 @@ public class TaHomeStepDefinition extends WebAPI {
         tripAdvisor= PageFactory.initElements(driver,TripAdvisor.class);
     }
     // Search Box
+
     @Given("I am in Trip Advisor home page")
     public void i_am_in_trip_advisor_home_page() throws IOException {
         openBrowser("https://www.tripadvisor.com/");
     }
+//    @Given("I am in Trip Advisor home page")
+//    public void i_am_in_trip_advisor_home_page() throws IOException {
+//
+//    }
 
     @When("I type Texas i search box")
     public void i_type_texas_i_search_box() {

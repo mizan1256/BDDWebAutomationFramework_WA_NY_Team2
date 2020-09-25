@@ -91,7 +91,87 @@ public class HomeStepDefinition extends WebAPI {
 
     @Then("I validate signUp message")
     public void i_validate_sign_up_message() {
-
+        targetHome.validateSingUpMessage("Sorry, something went wrong. Please try again.");
     }
+
+    /**
+     * targetEcommerce signIn check
+     */
+    @Given("I am on signIn page")
+    public void i_am_on_sign_in_page() throws InterruptedException {
+        targetHome.iAmOnSignInPage();
+    }
+
+    @Given("I enter email as {string} and password as {string}")
+    public void i_enter_email_as_and_password_as(String userEmail, String Password) throws InterruptedException {
+        targetHome.enterUserSignInInfo(userEmail, Password);
+    }
+
+    @Given("I click on signIn button")
+    public void i_click_on_sign_in_button() {
+        targetHome.clickOnSignInBtn();
+    }
+
+    @Then("I should be getting a message")
+    public void i_should_be_getting_a_message() {
+        targetHome.validaUserSignIn();
+    }
+
+    /**
+     * Target searchBox functionality check
+     */
+    @Given("I enter {string} in searchBox")
+    public void i_enter_in_search_box(String productName) {
+        targetHome.searchBoXCheck(productName);
+    }
+
+    @When("I click searchButton")
+    public void i_click_search_button() {
+        targetHome.clickOnSearchBtn();
+    }
+
+    @When("I validate {string} is appear properly")
+    public void i_validate_is_appear_properly(String validateProduct) {
+        targetHome.validateSearchTxt(validateProduct);
+    }
+
+    @When("I validate page title as {string}")
+    public void i_validate_page_title_as(String validateTitle) {
+        targetHome.validateSearchProductTitle(validateTitle);
+    }
+
+    /**
+     * TargetEcommerce SearchBox functionality getting value from Scenario
+     * @param string
+     */
+    @Then("I verify {string} is appear properly")
+    public void i_verify_is_appear_properly(String string) throws InterruptedException {
+        targetHome.validateSearchBox("Homepage");
+    }
+    /**
+     * Target shoppingCart logo functionality check
+     */
+    @Given("I click on shopping cart Icon")
+    public void i_click_on_shopping_cart_icon() {
+        targetHome.shoppingCartLogoIsClickable();
+    }
+
+    @Then("I validate shopping cart page")
+    public void i_validate_shopping_cart_page() throws InterruptedException {
+        targetHome.validateShoppingCartLogoIsClickable();
+    }
+
+    /**
+     * Target Shopping Cart log in functionality check
+     */
+    @Then("I click on shopping cart signIn button")
+    public void i_click_on_shopping_cart_signIn_button() throws InterruptedException {
+        targetHome.shoppingInCartLogIn() ;
+    }
+    @Then("I validate shopping cart log in page")
+    public void i_validate_shopping_cart_log_in_page() {
+        targetHome.validateShoppingCartLogIn();
+    }
+
 
 }

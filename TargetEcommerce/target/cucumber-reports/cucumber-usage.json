@@ -5,21 +5,81 @@
       {
         "name": "I am on targetEcommerce home page",
         "aggregatedDurations": {
-          "median": 8.40181,
-          "average": 8.284403366
+          "median": 8.25531715,
+          "average": 8.148140016
         },
         "durations": [
           {
-            "duration": 8.40181,
+            "duration": 10.128799,
             "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/Home.feature:5"
           },
           {
-            "duration": 9.0033505,
+            "duration": 8.3433515,
             "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/Home.feature:5"
           },
           {
-            "duration": 7.4480496,
+            "duration": 7.1476478,
             "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/Home.feature:5"
+          },
+          {
+            "duration": 8.6833565,
+            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/Home.feature:5"
+          },
+          {
+            "duration": 8.5047023,
+            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/Home.feature:5"
+          },
+          {
+            "duration": 8.7114099,
+            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/Home.feature:5"
+          },
+          {
+            "duration": 7.7870226,
+            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/Home.feature:5"
+          },
+          {
+            "duration": 8.2710997,
+            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/Home.feature:5"
+          },
+          {
+            "duration": 8.3679705,
+            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/Home.feature:5"
+          },
+          {
+            "duration": 8.408368,
+            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/Home.feature:5"
+          },
+          {
+            "duration": 8.2395346,
+            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/Home.feature:5"
+          },
+          {
+            "duration": 8.1356591,
+            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/Home.feature:5"
+          },
+          {
+            "duration": 6.7934613,
+            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/Home.feature:5"
+          },
+          {
+            "duration": 8.5061877,
+            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetPickUp.feature:4"
+          },
+          {
+            "duration": 7.1270814,
+            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetPickUp.feature:4"
+          },
+          {
+            "duration": 7.4148255,
+            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetPickUp.feature:4"
+          },
+          {
+            "duration": 7.9232056,
+            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetPickUp.feature:4"
+          },
+          {
+            "duration": 8.1728373,
+            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetPickUp.feature:4"
           }
         ]
       }
@@ -31,13 +91,65 @@
       {
         "name": "I validate searchBox is displayed",
         "aggregatedDurations": {
-          "median": 0.1436162,
-          "average": 0.1436162
+          "median": 0.1655464,
+          "average": 0.1655464
         },
         "durations": [
           {
-            "duration": 0.1436162,
+            "duration": 0.1655464,
             "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/Home.feature:9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on pickUp and delivery button",
+    "steps": [
+      {
+        "name": "I click on pickUp and delivery button",
+        "aggregatedDurations": {
+          "median": 0.1884934,
+          "average": 0.30293316
+        },
+        "durations": [
+          {
+            "duration": 0.3464447,
+            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetPickUp.feature:5"
+          },
+          {
+            "duration": 0.1800463,
+            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetPickUp.feature:5"
+          },
+          {
+            "duration": 0.6131763,
+            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetPickUp.feature:5"
+          },
+          {
+            "duration": 0.1884934,
+            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetPickUp.feature:5"
+          },
+          {
+            "duration": 0.1865051,
+            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetPickUp.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on same day delivery button",
+    "steps": [
+      {
+        "name": "I click on same day delivery button",
+        "aggregatedDurations": {
+          "median": 3.3874606,
+          "average": 3.3874606
+        },
+        "durations": [
+          {
+            "duration": 3.3874606,
+            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetPickUp.feature:21"
           }
         ]
       }

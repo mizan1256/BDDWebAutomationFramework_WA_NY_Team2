@@ -43,19 +43,293 @@ Scenario: United Airlines contact information test # src/test/java/features/Regi
   When I click on signIn button                    # stepdefinitions.UnitedAirRegStepDefinition.i_click_on_sign_in_button()
   And I click on join now and use title            # stepdefinitions.UnitedAirRegStepDefinition.i_click_on_join_now_and_use_title()
   And I entered data in answer field               # stepdefinitions.UnitedAirRegStepDefinition.i_entered_data_in_answer_field(io.cucumber.datatable.DataTable)
-      org.openqa.selenium.NoSuchElementException: Cannot locate element with text: What is your favorite type of movie?
+      org.openqa.selenium.NoSuchElementException: Cannot locate element with text: What is your favorite type of vacation?
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-ESGVGIM', ip: '192.168.81.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
 Driver info: driver.version: unknown
 	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
 	at common.WebAPI.selectOptionByVisibleText(WebAPI.java:415)
-	at unitedairregistration.UnitedAirRegistration.questionAndAnswer3(UnitedAirRegistration.java:199)
-	at stepdefinitions.UnitedAirRegStepDefinition.i_entered_data_in_answer_field(UnitedAirRegStepDefinition.java:134)
+	at unitedairregistration.UnitedAirRegistration.questionAndAnswer4(UnitedAirRegistration.java:206)
+	at stepdefinitions.UnitedAirRegStepDefinition.i_entered_data_in_answer_field(UnitedAirRegStepDefinition.java:135)
 	at ✽.I entered data in answer field(file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/Registration.feature:51)
 
 
-    Embedding Demo [image/png 79142 bytes]
+    Embedding Demo [image/png 78995 bytes]
+
+      org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-ESGVGIM', ip: '192.168.81.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at stepdefinitions.UnitedAirHomeStepDefinition.tearDown(UnitedAirHomeStepDefinition.java:22)
+
+
+@SmokeTest
+Scenario: United Airlines Flight Status functionality test # src/test/java/features/UnitedAirlinesHome.feature:7
+  Given I am in home page                                  # stepdefinitions.UnitedAirHomeStepDefinition.i_am_in_home_page()
+  When I click Flight status                               # stepdefinitions.UnitedAirHomeStepDefinition.i_click_flight_status()
+      org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-ESGVGIM', ip: '192.168.81.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\REBAKH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53602}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 0ba0ea4b24d0575711dbf2ba99a49a37
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy25.click(Unknown Source)
+	at unitedairlineshome.UnitedAirlinesHomePage.clickOnFlightStatusBtn(UnitedAirlinesHomePage.java:87)
+	at stepdefinitions.UnitedAirHomeStepDefinition.i_click_flight_status(UnitedAirHomeStepDefinition.java:44)
+	at ✽.I click Flight status(file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:8)
+
+  And I enter City in From field and To field              # stepdefinitions.UnitedAirHomeStepDefinition.i_enter_city_in_from_field_and_to_field()
+  And I enter Flight number and Date                       # stepdefinitions.UnitedAirHomeStepDefinition.i_enter_flight_number_and_date()
+  And I click Search Button                                # stepdefinitions.UnitedAirHomeStepDefinition.i_click_search_button()
+  Then I validate  flight status is appeared properly      # stepdefinitions.UnitedAirHomeStepDefinition.i_validate_flight_status_is_appeared_properly()
+
+    Embedding Demo [image/png 914416 bytes]
+
+      org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-ESGVGIM', ip: '192.168.81.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at stepdefinitions.UnitedAirHomeStepDefinition.tearDown(UnitedAirHomeStepDefinition.java:22)
+
+
+@SmokeTest
+Scenario: United Airlines Book Hotels test                 # src/test/java/features/UnitedAirlinesHome.feature:15
+  Given I am in home page                                  # stepdefinitions.UnitedAirHomeStepDefinition.i_am_in_home_page()
+  When I click on book button                              # stepdefinitions.UnitedAirHomeStepDefinition.i_click_on_book_button()
+  And I click on Hotels button                             # stepdefinitions.UnitedAirHomeStepDefinition.i_click_on_hotels_button()
+      org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-ESGVGIM', ip: '192.168.81.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\REBAKH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53653}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: a4b1dbbae719dd81354d913a34fe2d4e
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor109.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy25.click(Unknown Source)
+	at unitedairlineshome.UnitedAirlinesHomePage.clickHotelsButton(UnitedAirlinesHomePage.java:124)
+	at stepdefinitions.UnitedAirHomeStepDefinition.i_click_on_hotels_button(UnitedAirHomeStepDefinition.java:77)
+	at ✽.I click on Hotels button(file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:17)
+
+  And I enter "Las Vegas" in where to searchBox and submit # stepdefinitions.UnitedAirHomeStepDefinition.i_enter_in_where_to_search_box_and_submit(java.lang.String)
+  Then I validate Las Vegas landed page properly           # stepdefinitions.UnitedAirHomeStepDefinition.i_validate_las_vegas_landed_page_properly()
+
+    Embedding Demo [image/png 914459 bytes]
+
+      org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-ESGVGIM', ip: '192.168.81.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at stepdefinitions.UnitedAirHomeStepDefinition.tearDown(UnitedAirHomeStepDefinition.java:22)
+
+
+@SmokeTest
+Scenario: United Airlines flight status functionality test                                           # src/test/java/features/UnitedAirlinesHome.feature:22
+  Given I am in home page                                                                            # stepdefinitions.UnitedAirHomeStepDefinition.i_am_in_home_page()
+  When I click on CheckIn tab                                                                        # stepdefinitions.UnitedAirHomeStepDefinition.i_click_on_check_in_tab()
+  And I enter ticket number in confirmation field                                                    # stepdefinitions.UnitedAirHomeStepDefinition.i_enter_ticket_number_in_confirmation_field()
+      org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-ESGVGIM', ip: '192.168.81.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\REBAKH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53698}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: acf996e54751394e057274f2a07a3323
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+	at jdk.internal.reflect.GeneratedMethodAccessor107.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy25.sendKeys(Unknown Source)
+	at unitedairlineshome.UnitedAirlinesHomePage.ticketNumberField(UnitedAirlinesHomePage.java:148)
+	at stepdefinitions.UnitedAirHomeStepDefinition.i_enter_ticket_number_in_confirmation_field(UnitedAirHomeStepDefinition.java:99)
+	at ✽.I enter ticket number in confirmation field(file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:24)
+
+  And I enter last name in Last name field                                                           # stepdefinitions.UnitedAirHomeStepDefinition.i_enter_last_name_in_last_name_field()
+  And I click search box                                                                             # stepdefinitions.UnitedAirHomeStepDefinition.i_click_search_box()
+  Then I validate We couldn't find a reservation with the provided information. is appeared properly # stepdefinitions.UnitedAirHomeStepDefinition.i_validate_we_couldn_t_find_a_reservation_with_the_provided_information_is_appeared_properly()
+
+    Embedding Demo [image/png 900849 bytes]
+
+      org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-ESGVGIM', ip: '192.168.81.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at stepdefinitions.UnitedAirHomeStepDefinition.tearDown(UnitedAirHomeStepDefinition.java:22)
+
+
+@SmokeTest
+Scenario: United Airlines flight status functionality test # src/test/java/features/UnitedAirlinesHome.feature:30
+  Given I am in home page                                  # stepdefinitions.UnitedAirHomeStepDefinition.i_am_in_home_page()
+  When I click on My trips tab                             # stepdefinitions.UnitedAirHomeStepDefinition.i_click_on_my_trips_tab()
+  And I enter confirmation number in confirmation field    # stepdefinitions.UnitedAirHomeStepDefinition.i_enter_confirmation_number_in_confirmation_field()
+      org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-ESGVGIM', ip: '192.168.81.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\REBAKH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53741}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 60109eb461b4671f28f05e75cbebaf30
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+	at jdk.internal.reflect.GeneratedMethodAccessor107.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy25.sendKeys(Unknown Source)
+	at unitedairlineshome.UnitedAirlinesHomePage.confirmationNumberField(UnitedAirlinesHomePage.java:171)
+	at stepdefinitions.UnitedAirHomeStepDefinition.i_enter_confirmation_number_in_confirmation_field(UnitedAirHomeStepDefinition.java:124)
+	at ✽.I enter confirmation number in confirmation field(file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:32)
+
+  And I type last name in Last name field                  # stepdefinitions.UnitedAirHomeStepDefinition.i_type_last_name_in_last_name_field()
+  And I click search box tab                               # stepdefinitions.UnitedAirHomeStepDefinition.i_click_search_box_tab()
+
+    Embedding Demo [image/png 872057 bytes]
+
+      org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-ESGVGIM', ip: '192.168.81.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at stepdefinitions.UnitedAirHomeStepDefinition.tearDown(UnitedAirHomeStepDefinition.java:22)
+
+
+@SmokeTest
+Scenario: United Airlines search button functionality test # src/test/java/features/UnitedAirlinesHome.feature:38
+  Given I am in home page                                  # stepdefinitions.UnitedAirHomeStepDefinition.i_am_in_home_page()
+  When I click on search button                            # stepdefinitions.UnitedAirHomeStepDefinition.i_click_on_search_button()
+  And I click on covid-19 update                           # stepdefinitions.UnitedAirHomeStepDefinition.i_click_on_covid_update(java.lang.Integer)
+  And I click on request a refund                          # stepdefinitions.UnitedAirHomeStepDefinition.i_click_on_request_a_refund()
+  Then I validate Refund policies is appeared properly     # stepdefinitions.UnitedAirHomeStepDefinition.i_validate_refund_policies_is_appeared_properly()
+
+@SmokeTest
+Scenario: United Airlines search button functionality test           # src/test/java/features/UnitedAirlinesHome.feature:45
+  Given I am in home page                                            # stepdefinitions.UnitedAirHomeStepDefinition.i_am_in_home_page()
+  When I click on search button                                      # stepdefinitions.UnitedAirHomeStepDefinition.i_click_on_search_button()
+  And I click on get a flight receipt                                # stepdefinitions.UnitedAirHomeStepDefinition.i_click_on_get_a_flight_receipt()
+  And I click searchButton box                                       # stepdefinitions.UnitedAirHomeStepDefinition.i_click_search_button_box()
+  Then I validate We couldn't find your receipt is appeared properly # stepdefinitions.UnitedAirHomeStepDefinition.i_validate_we_couldn_t_find_your_receipt_is_appeared_properly()
+
+@SmokeTest
+Scenario: United Airlines Book Button Check                         # src/test/java/features/UnitedAirlinesHome.feature:56
+  Given I am in home page                                           # stepdefinitions.UnitedAirHomeStepDefinition.i_am_in_home_page()
+  When I click on Book Button Tab                                   # stepdefinitions.UnitedAirHomeStepDefinition.i_click_on_book_button_tab()
+  And I click on Hotels Button Tab                                  # stepdefinitions.UnitedAirHomeStepDefinition.i_click_on_hotels_button_Tab()
+      org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-ESGVGIM', ip: '192.168.81.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\REBAKH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53889}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5c2a491569697b10fa654a6487495e07
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor109.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy25.click(Unknown Source)
+	at unitedairlineshome.UnitedAirlinesHomePage.clickOnHotelButton(UnitedAirlinesHomePage.java:246)
+	at stepdefinitions.UnitedAirHomeStepDefinition.i_click_on_hotels_button_Tab(UnitedAirHomeStepDefinition.java:205)
+	at ✽.I click on Hotels Button Tab(file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:58)
+
+  And I enter "Miami Beach" in where to search box and enter submit # stepdefinitions.UnitedAirHomeStepDefinition.i_enter_in_where_to_search_box_and_enter_submit(java.lang.String)
+  Then I validate Miami Beach landing properly                      # stepdefinitions.UnitedAirHomeStepDefinition.i_validate_miami_beach_landing_properly()
+
+    Embedding Demo [image/png 892750 bytes]
 
       org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'

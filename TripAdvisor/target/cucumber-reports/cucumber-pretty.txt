@@ -82,3 +82,21 @@ Scenario: Trip Advisor Search box functionality test          # src/test/java/fe
   And select and click radio button                           # null
   And I click Post Photos Button and click add photo btn      # null
   And I click select photo from your computer.                # null
+
+@SmokeTest
+Scenario: TripAdvisor SearchBox Functionality check with valid data    # src/test/java/features/TripAdvisorHome.feature:6
+  Given I am in TripAdvisor homepage                                   # null
+  When I click searchButton                                            # null
+  And I enter Cox's Bazar in searchBox                                 # null
+  When I click searchButton                                            # null
+  Then I verify Cox's Bazar is appear properly                         # null
+  And I verify page title as Search results: Cox's Bazar - Tripadvisor # null
+
+@SmokeTest
+Scenario: TripAdvisor Hotel SearchBox Functionality check with valid data # src/test/java/features/TripAdvisorHome.feature:13
+  Given I am in TripAdvisor homepage                                      # null
+  When I click searchButton                                               # null
+  And I click Hotels Button in homepage                                   # null
+  When I enter on Paris in searchBox                                      # null
+  And I verify Paris hotels is appear properly                            # null
+  When I verify page title                                                # null

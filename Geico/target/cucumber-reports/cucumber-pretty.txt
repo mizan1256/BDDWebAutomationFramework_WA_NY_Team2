@@ -1,7 +1,3 @@
 
 @SmokeTest
 Scenario: Gecio Career button Check                             # src/test/java/features/Geico.feature:7
-  Given I am on Geico Homepage                                  # stepdefinitions.GecioStepDefinition.i_am_on_geico_homepage()
-  And I click on Career button                                  # stepdefinitions.GecioStepDefinition.i_click_on_career_button()
-  When I Click on Customer Service Button                       # stepdefinitions.GecioStepDefinition.i_click_on_customer_service_button()
-  Then I validate Customer Service Careers text appear Properly # stepdefinitions.GecioStepDefinition.i_validate_customer_service_careers_text_appear_properly()
