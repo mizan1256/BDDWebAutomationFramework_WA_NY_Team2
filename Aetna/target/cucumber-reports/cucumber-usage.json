@@ -1,0 +1,562 @@
+[
+  {
+    "source": "I am in Aetna home page",
+    "steps": [
+      {
+        "name": "I am in Aetna home page",
+        "aggregatedDurations": {
+          "median": 7.82789655,
+          "average": 8.351714008
+        },
+        "durations": [
+          {
+            "duration": 8.3206943,
+            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/Home.feature:5"
+          },
+          {
+            "duration": 8.3885383,
+            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/Home.feature:5"
+          },
+          {
+            "duration": 7.5382103,
+            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/Home.feature:5"
+          },
+          {
+            "duration": 7.0372005,
+            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/Home.feature:5"
+          },
+          {
+            "duration": 7.8566941,
+            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/Home.feature:5"
+          },
+          {
+            "duration": 7.5588763,
+            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/Home.feature:5"
+          },
+          {
+            "duration": 7.3836805,
+            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/Home.feature:5"
+          },
+          {
+            "duration": 7.3018313,
+            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/ShopForPlan.feature:4"
+          },
+          {
+            "duration": 7.9893098,
+            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/ShopForPlan.feature:4"
+          },
+          {
+            "duration": 8.6837694,
+            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/ShopForPlan.feature:4"
+          },
+          {
+            "duration": 7.799099,
+            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/ShopForPlan.feature:4"
+          },
+          {
+            "duration": 14.3626643,
+            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/ShopForPlan.feature:4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click shop for a plan",
+    "steps": [
+      {
+        "name": "I click shop for a plan",
+        "aggregatedDurations": {
+          "median": 0.15110475,
+          "average": 0.170646816
+        },
+        "durations": [
+          {
+            "duration": 0.1635634,
+            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/Home.feature:9"
+          },
+          {
+            "duration": 0.2812453,
+            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/Home.feature:16"
+          },
+          {
+            "duration": 0.1651656,
+            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/Home.feature:23"
+          },
+          {
+            "duration": 0.1226762,
+            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/Home.feature:30"
+          },
+          {
+            "duration": 0.1096874,
+            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/Home.feature:37"
+          },
+          {
+            "duration": 0.2623034,
+            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/Home.feature:44"
+          },
+          {
+            "duration": 0.1386461,
+            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/Home.feature:51"
+          },
+          {
+            "duration": 0.2523217,
+            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/ShopForPlan.feature:8"
+          },
+          {
+            "duration": 0.131651,
+            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/ShopForPlan.feature:15"
+          },
+          {
+            "duration": 0.1206754,
+            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/ShopForPlan.feature:22"
+          },
+          {
+            "duration": 0.0917523,
+            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/ShopForPlan.feature:29"
+          },
+          {
+            "duration": 0.208074,
+            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/ShopForPlan.feature:36"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I go Health coverage",
+    "steps": [
+      {
+        "name": "I go Health coverage",
+        "aggregatedDurations": {
+          "median": 0.1560748,
+          "average": 0.158328475
+        },
+        "durations": [
+          {
+            "duration": 0.1585654,
+            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/Home.feature:10"
+          },
+          {
+            "duration": 0.1685482,
+            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/Home.feature:17"
+          },
+          {
+            "duration": 0.1535842,
+            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/Home.feature:24"
+          },
+          {
+            "duration": 0.1526161,
+            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/Home.feature:31"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click Student plans",
+    "steps": [
+      {
+        "name": "I click Student plans",
+        "aggregatedDurations": {
+          "median": 1.5925023,
+          "average": 1.5925023
+        },
+        "durations": [
+          {
+            "duration": 1.5925023,
+            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/Home.feature:11"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I validate {string} is appeared properly",
+    "steps": [
+      {
+        "name": "I validate \"Helpful links\" is appeared properly",
+        "aggregatedDurations": {
+          "median": 0.2289085,
+          "average": 0.2289085
+        },
+        "durations": [
+          {
+            "duration": 0.2289085,
+            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/Home.feature:12"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click Plans through an employer",
+    "steps": [
+      {
+        "name": "I click Plans through an employer",
+        "aggregatedDurations": {
+          "median": 0.9411548,
+          "average": 0.9411548
+        },
+        "durations": [
+          {
+            "duration": 0.9411548,
+            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/Home.feature:18"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I validate Legal notices is appeared properly",
+    "steps": [
+      {
+        "name": "I validate Legal notices is appeared properly",
+        "aggregatedDurations": {
+          "median": 0.4892031,
+          "average": 0.4892031
+        },
+        "durations": [
+          {
+            "duration": 0.5286015,
+            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/Home.feature:19"
+          },
+          {
+            "duration": 0.4498047,
+            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/Home.feature:40"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click International Plans",
+    "steps": [
+      {
+        "name": "I click International Plans",
+        "aggregatedDurations": {
+          "median": 0.9704427,
+          "average": 0.9704427
+        },
+        "durations": [
+          {
+            "duration": 0.9704427,
+            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/Home.feature:25"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click find a doctor",
+    "steps": [
+      {
+        "name": "I click find a doctor",
+        "aggregatedDurations": {
+          "median": 0.8296209,
+          "average": 0.8296209
+        },
+        "durations": [
+          {
+            "duration": 0.8296209,
+            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/Home.feature:32"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I go dental, vision and supplemental",
+    "steps": [
+      {
+        "name": "I go dental, vision and supplemental",
+        "aggregatedDurations": {
+          "median": 0.1665567,
+          "average": 0.19364146
+        },
+        "durations": [
+          {
+            "duration": 0.1623639,
+            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/Home.feature:38"
+          },
+          {
+            "duration": 0.1176851,
+            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/Home.feature:45"
+          },
+          {
+            "duration": 0.2134275,
+            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/Home.feature:52"
+          },
+          {
+            "duration": 0.3081741,
+            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/ShopForPlan.feature:9"
+          },
+          {
+            "duration": 0.1665567,
+            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/ShopForPlan.feature:16"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click dental plans",
+    "steps": [
+      {
+        "name": "I click dental plans",
+        "aggregatedDurations": {
+          "median": 1.2070379,
+          "average": 1.2070379
+        },
+        "durations": [
+          {
+            "duration": 1.2070379,
+            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/Home.feature:39"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click find a dentist",
+    "steps": [
+      {
+        "name": "I click find a dentist",
+        "aggregatedDurations": {
+          "median": 1.9136555,
+          "average": 1.9136555
+        },
+        "durations": [
+          {
+            "duration": 1.9136555,
+            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/Home.feature:46"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click vision plans",
+    "steps": [
+      {
+        "name": "I click vision plans",
+        "aggregatedDurations": {
+          "median": 1.6763797,
+          "average": 1.6763797
+        },
+        "durations": [
+          {
+            "duration": 1.6763797,
+            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/Home.feature:53"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I validate Aetna Dental Direct plan is appeared properly",
+    "steps": [
+      {
+        "name": "I validate Aetna Dental Direct plan is appeared properly",
+        "aggregatedDurations": {
+          "median": 0.0279229,
+          "average": 0.0279229
+        },
+        "durations": [
+          {
+            "duration": 0.0279229,
+            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/Home.feature:54"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click find an eye doctor",
+    "steps": [
+      {
+        "name": "I click find an eye doctor",
+        "aggregatedDurations": {
+          "median": 2.0991215,
+          "average": 2.0991215
+        },
+        "durations": [
+          {
+            "duration": 2.0991215,
+            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/ShopForPlan.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I validate You Can: is appeared properly",
+    "steps": [
+      {
+        "name": "I validate You Can: is appeared properly",
+        "aggregatedDurations": {
+          "median": 1.4821163,
+          "average": 1.4821163
+        },
+        "durations": [
+          {
+            "duration": 1.4821163,
+            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/ShopForPlan.feature:11"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click supplemental plans",
+    "steps": [
+      {
+        "name": "I click supplemental plans",
+        "aggregatedDurations": {
+          "median": 1.1714176,
+          "average": 1.1714176
+        },
+        "durations": [
+          {
+            "duration": 1.1714176,
+            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/ShopForPlan.feature:17"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I go pharmacy element",
+    "steps": [
+      {
+        "name": "I go pharmacy element",
+        "aggregatedDurations": {
+          "median": 0.189503,
+          "average": 0.180365
+        },
+        "durations": [
+          {
+            "duration": 0.189503,
+            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/ShopForPlan.feature:23"
+          },
+          {
+            "duration": 0.2174198,
+            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/ShopForPlan.feature:30"
+          },
+          {
+            "duration": 0.1341722,
+            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/ShopForPlan.feature:37"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click Get pharmacy plan information",
+    "steps": [
+      {
+        "name": "I click Get pharmacy plan information",
+        "aggregatedDurations": {
+          "median": 1.2072399,
+          "average": 1.2072399
+        },
+        "durations": [
+          {
+            "duration": 1.2072399,
+            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/ShopForPlan.feature:24"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I validate Aetna Medicare is appeared properly",
+    "steps": [
+      {
+        "name": "I validate Aetna Medicare is appeared properly",
+        "aggregatedDurations": {
+          "median": 0.4912048,
+          "average": 0.4912048
+        },
+        "durations": [
+          {
+            "duration": 0.4912048,
+            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/ShopForPlan.feature:25"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click find a pharmacy",
+    "steps": [
+      {
+        "name": "I click find a pharmacy",
+        "aggregatedDurations": {
+          "median": 1.3531787,
+          "average": 1.3531787
+        },
+        "durations": [
+          {
+            "duration": 1.3531787,
+            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/ShopForPlan.feature:31"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I validate *Required Selections is appeared properly",
+    "steps": [
+      {
+        "name": "I validate *Required Selections is appeared properly",
+        "aggregatedDurations": {
+          "median": 0.0648239,
+          "average": 0.0648239
+        },
+        "durations": [
+          {
+            "duration": 0.0648239,
+            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/ShopForPlan.feature:32"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click find medicine and costs",
+    "steps": [
+      {
+        "name": "I click find medicine and costs",
+        "aggregatedDurations": {
+          "median": 0.9986661,
+          "average": 0.9986661
+        },
+        "durations": [
+          {
+            "duration": 0.9986661,
+            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/ShopForPlan.feature:38"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I validate Already a member? is appeared properly",
+    "steps": [
+      {
+        "name": "I validate Already a member? is appeared properly",
+        "aggregatedDurations": {
+          "median": 0.120025,
+          "average": 0.120025
+        },
+        "durations": [
+          {
+            "duration": 0.120025,
+            "location": "file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/ShopForPlan.feature:39"
+          }
+        ]
+      }
+    ]
+  }
+]

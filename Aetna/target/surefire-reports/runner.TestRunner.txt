@@ -1,0 +1,41 @@
+-------------------------------------------------------------------------------
+Test set: runner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 223.151 s <<< FAILURE! - in runner.TestRunner
+Aetna home page functionality test.Aetna Shop a plan  test #3  Time elapsed: 11.761 s  <<< ERROR!
+io.cucumber.core.exception.CucumberException: 
+Step [I validate Aetna Well-being is appeared properly] is defined with 1 parameters at 'stepdefinitions.HomePageStepDefinition.i_validate_aetna_well_being_is_appeared_properly(java.lang.String)'.
+However, the gherkin step has 0 arguments.
+Step text: I validate Aetna Well-being is appeared properly
+
+Aetna home page functionality test.Aetna Shop a plan  test #4  Time elapsed: 10.312 s  <<< ERROR!
+io.cucumber.core.exception.CucumberException: 
+Step [I validate COVID-{int} Alert is appeared properly] is defined with 0 parameters at 'stepdefinitions.HomePageStepDefinition.i_validate_covid_alert_is_appeared_properly()'.
+However, the gherkin step has 1 arguments:
+ * 19
+Step text: I validate COVID-19 Alert is appeared properly
+
+Aetna home page functionality test.Aetna Shop a plan test #1  Time elapsed: 51.105 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="textParagraph_191"]"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-ESGVGIM', ip: '192.168.81.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\REBAKH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58387}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 2c23a4b2dfdfc9b564e7da97feab1950
+*** Element info: {Using=xpath, value=//*[@id="textParagraph_191"]}
+
+Aetna HomePage Functionality Test.Aetna Shop a plan  test #1  Time elapsed: 50.829 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="textParagraph_191"]"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-ESGVGIM', ip: '192.168.81.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\REBAKH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58750}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 270e4887e855c07a5f6848be2f1ea9f6
+*** Element info: {Using=xpath, value=//*[@id="textParagraph_191"]}
+
