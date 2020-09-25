@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="3" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="12" time="241.352">
-    <testcase classname="Aetna home page functionality test" name="Aetna Shop a plan functionality test" time="11.587">
+<testsuite errors="0" failures="5" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="12" time="315.959">
+    <testcase classname="Aetna home page functionality test" name="Aetna Shop a plan student plans test" time="26.46">
         <system-out>
-            <![CDATA[Given I am in Aetna home page...............................................passed
+            <![CDATA[Given I am on Aetna home page...............................................passed
 When I click shop for a plan................................................passed
 And I go Health coverage....................................................passed
 And I click Student plans...................................................passed
@@ -10,9 +10,9 @@ Then I validate "Helpful links" is appeared properly........................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Aetna home page functionality test" name="Aetna Shop a plan functionality test 2" time="9.322">
+    <testcase classname="Aetna home page functionality test" name="Aetna Shop a plan through an employer test" time="9.557">
         <system-out>
-            <![CDATA[Given I am in Aetna home page...............................................passed
+            <![CDATA[Given I am on Aetna home page...............................................passed
 When I click shop for a plan................................................passed
 And I go Health coverage....................................................passed
 And I click Plans through an employer.......................................passed
@@ -20,9 +20,9 @@ Then I validate Legal notices is appeared properly..........................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Aetna home page functionality test" name="Aetna Shop a plan functionality test 3" time="9.663">
+    <testcase classname="Aetna home page functionality test" name="Aetna shop a plan international plans test" time="9.84">
         <system-out>
-            <![CDATA[Given I am in Aetna home page...............................................passed
+            <![CDATA[Given I am on Aetna home page...............................................passed
 When I click shop for a plan................................................passed
 And I go Health coverage....................................................passed
 And I click International Plans.............................................passed
@@ -30,24 +30,24 @@ Then I validate Aetna Well-being is appeared properly.......................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Aetna home page functionality test" name="Aetna Shop a plan functionality test 4" time="50.62">
-        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;main&quot;]/div[4]/div/div/div[1]/div/div/h2&quot;}&#10;  (Session info: chrome=85.0.4183.102)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LAPTOP-6QSDTELI', ip: '192.168.1.185', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\lenis\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56530}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: f36218e65b746700ae988d3001ccd088&#10;*** Element info: {Using=xpath, value=//*[@id=&quot;main&quot;]/div[4]/div/div/div[1]/div/div/h2}" type="org.openqa.selenium.NoSuchElementException">
-            <![CDATA[Given I am in Aetna home page...............................................passed
+    <testcase classname="Aetna home page functionality test" name="Aetna Shop a plan find a doctor test" time="52.414">
+        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//h2[contains(text(),'Already a member?')]&quot;}&#10;  (Session info: chrome=85.0.4183.121)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LAPTOP-6QSDTELI', ip: '192.168.1.185', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\lenis\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58758}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 41f613af397f79f448b6814885cd4c0c&#10;*** Element info: {Using=xpath, value=//h2[contains(text(),'Already a member?')]}" type="org.openqa.selenium.NoSuchElementException">
+            <![CDATA[Given I am on Aetna home page...............................................passed
 When I click shop for a plan................................................passed
 And I go Health coverage....................................................passed
 And I click find a doctor...................................................passed
 Then I validate Already a member? is appeared properly......................failed
 
 StackTrace:
-org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="main"]/div[4]/div/div/div[1]/div/div/h2"}
-  (Session info: chrome=85.0.4183.102)
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//h2[contains(text(),'Already a member?')]"}
+  (Session info: chrome=85.0.4183.121)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LAPTOP-6QSDTELI', ip: '192.168.1.185', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\lenis\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56530}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: f36218e65b746700ae988d3001ccd088
-*** Element info: {Using=xpath, value=//*[@id="main"]/div[4]/div/div/div[1]/div/div/h2}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\lenis\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58758}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 41f613af397f79f448b6814885cd4c0c
+*** Element info: {Using=xpath, value=//h2[contains(text(),'Already a member?')]}
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -71,9 +71,9 @@ Session ID: f36218e65b746700ae988d3001ccd088
 ]]>
         </failure>
     </testcase>
-    <testcase classname="Aetna home page functionality test" name="Aetna Shop a plan functionality test 5" time="9.575">
+    <testcase classname="Aetna home page functionality test" name="Aetna Shop a plan dental plans test" time="10.446">
         <system-out>
-            <![CDATA[Given I am in Aetna home page...............................................passed
+            <![CDATA[Given I am on Aetna home page...............................................passed
 When I click shop for a plan................................................passed
 And I go dental, vision and supplemental....................................passed
 And I click dental plans....................................................passed
@@ -81,43 +81,23 @@ Then I validate Legal notices is appeared properly..........................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Aetna home page functionality test" name="Aetna Shop a plan functionality test 6" time="11.406">
-        <system-out>
-            <![CDATA[Given I am in Aetna home page...............................................passed
+    <testcase classname="Aetna home page functionality test" name="Aetna Shop a plan dentist test" time="50.107">
+        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;textParagraph_191&quot;]&quot;}&#10;  (Session info: chrome=85.0.4183.121)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LAPTOP-6QSDTELI', ip: '192.168.1.185', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\lenis\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58978}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 94e9b812d0cb330f41d53f98687180ce&#10;*** Element info: {Using=xpath, value=//*[@id=&quot;textParagraph_191&quot;]}" type="org.openqa.selenium.NoSuchElementException">
+            <![CDATA[Given I am on Aetna home page...............................................passed
 When I click shop for a plan................................................passed
 And I go dental, vision and supplemental....................................passed
 And I click find a dentist..................................................passed
-Then I validate You Can: is appeared properly...............................passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="Aetna home page functionality test" name="Aetna Shop a plan functionality test 7" time="9.128">
-        <system-out>
-            <![CDATA[Given I am in Aetna home page...............................................passed
-When I click shop for a plan................................................passed
-And I go dental, vision and supplemental....................................passed
-And I click vision plans....................................................passed
-Then I validate Aetna Dental Direct plan is appeared properly...............passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="Aetna home page functionality test" name="Aetna Shop a plan functionality test" time="50.15">
-        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;textParagraph_191&quot;]&quot;}&#10;  (Session info: chrome=85.0.4183.102)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LAPTOP-6QSDTELI', ip: '192.168.1.185', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\lenis\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56950}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: d3c0056a61b324df577287c4e894effb&#10;*** Element info: {Using=xpath, value=//*[@id=&quot;textParagraph_191&quot;]}" type="org.openqa.selenium.NoSuchElementException">
-            <![CDATA[Given I am in Aetna home page...............................................passed
-When I click shop for a plan................................................passed
-And I go dental, vision and supplemental....................................passed
-And I click find an eye doctor..............................................passed
 Then I validate You Can: is appeared properly...............................failed
 
 StackTrace:
 org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="textParagraph_191"]"}
-  (Session info: chrome=85.0.4183.102)
+  (Session info: chrome=85.0.4183.121)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LAPTOP-6QSDTELI', ip: '192.168.1.185', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\lenis\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56950}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: d3c0056a61b324df577287c4e894effb
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\lenis\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58978}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 94e9b812d0cb330f41d53f98687180ce
 *** Element info: {Using=xpath, value=//*[@id="textParagraph_191"]}
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -138,13 +118,58 @@ Session ID: d3c0056a61b324df577287c4e894effb
 	at com.sun.proxy.$Proxy25.getText(Unknown Source)
 	at aetnahome.HomePage.validateFindADentistCheck(HomePage.java:128)
 	at stepdefinitions.HomePageStepDefinition.i_validate_you_can_is_appeared_properly(HomePageStepDefinition.java:117)
-	at ✽.I validate You Can: is appeared properly(file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/ShopAPlan.feature:11)
+	at ✽.I validate You Can: is appeared properly(file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/HomePage.feature:46)
 ]]>
         </failure>
     </testcase>
-    <testcase classname="Aetna home page functionality test" name="Aetna Shop a plan functionality test 2" time="49.927">
-        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;textParagraph_191&quot;]&quot;}&#10;  (Session info: chrome=85.0.4183.102)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LAPTOP-6QSDTELI', ip: '192.168.1.185', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\lenis\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57070}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 4dd0761747c55c862766c79c58a81df5&#10;*** Element info: {Using=xpath, value=//*[@id=&quot;textParagraph_191&quot;]}" type="org.openqa.selenium.NoSuchElementException">
-            <![CDATA[Given I am in Aetna home page...............................................passed
+    <testcase classname="Aetna home page functionality test" name="Aetna Shop a plan vision plans test" time="9.961">
+        <system-out>
+            <![CDATA[Given I am on Aetna home page...............................................passed
+When I click shop for a plan................................................passed
+And I go dental, vision and supplemental....................................passed
+And I click vision plans....................................................passed
+Then I validate Aetna Dental Direct plan is appeared properly...............passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Aetna home page functionality test" name="Aetna Shop a plan functionality test" time="38.896">
+        <failure message="timeout: Timed out receiving message from renderer: 30.000&#10;  (Session info: chrome=85.0.4183.121)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LAPTOP-6QSDTELI', ip: '192.168.1.185', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\lenis\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59233}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 99d78fc2f59d1df0de56aedcc104ee33" type="org.openqa.selenium.TimeoutException">
+            <![CDATA[Given I am on Aetna home page...............................................failed
+When I click shop for a plan................................................skipped
+And I go dental, vision and supplemental....................................skipped
+And I click find an eye doctor..............................................skipped
+Then I validate You Can: is appeared properly...............................skipped
+
+StackTrace:
+org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 30.000
+  (Session info: chrome=85.0.4183.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-6QSDTELI', ip: '192.168.1.185', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\lenis\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59233}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 99d78fc2f59d1df0de56aedcc104ee33
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
+	at common.WebAPI.setUp(WebAPI.java:153)
+	at common.WebAPI.openBrowser(WebAPI.java:131)
+	at stepdefinitions.HomePageStepDefinition.i_am_on_aetna_home_page(HomePageStepDefinition.java:41)
+	at ✽.I am on Aetna home page(file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/ShopAPlan.feature:4)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Aetna home page functionality test" name="Aetna Shop a plan functionality test 2" time="49.702">
+        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;textParagraph_191&quot;]&quot;}&#10;  (Session info: chrome=85.0.4183.121)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LAPTOP-6QSDTELI', ip: '192.168.1.185', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\lenis\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59322}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 609b4ce6098ba2c5a4abb6858db4d019&#10;*** Element info: {Using=xpath, value=//*[@id=&quot;textParagraph_191&quot;]}" type="org.openqa.selenium.NoSuchElementException">
+            <![CDATA[Given I am on Aetna home page...............................................passed
 When I click shop for a plan................................................passed
 And I go dental, vision and supplemental....................................passed
 And I click supplemental plans..............................................passed
@@ -152,13 +177,13 @@ Then I validate You Can: is appeared properly...............................fail
 
 StackTrace:
 org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="textParagraph_191"]"}
-  (Session info: chrome=85.0.4183.102)
+  (Session info: chrome=85.0.4183.121)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LAPTOP-6QSDTELI', ip: '192.168.1.185', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\lenis\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57070}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 4dd0761747c55c862766c79c58a81df5
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\lenis\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59322}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 609b4ce6098ba2c5a4abb6858db4d019
 *** Element info: {Using=xpath, value=//*[@id="textParagraph_191"]}
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -183,9 +208,9 @@ Session ID: 4dd0761747c55c862766c79c58a81df5
 ]]>
         </failure>
     </testcase>
-    <testcase classname="Aetna home page functionality test" name="Aetna Shop a plan functionality test 3" time="10.473">
+    <testcase classname="Aetna home page functionality test" name="Aetna Shop a plan functionality test 3" time="10.051">
         <system-out>
-            <![CDATA[Given I am in Aetna home page...............................................passed
+            <![CDATA[Given I am on Aetna home page...............................................passed
 When I click shop for a plan................................................passed
 And I go pharmacy element...................................................passed
 And I click Get pharmacy plan information...................................passed
@@ -193,19 +218,44 @@ Then I validate Aetna Medicare is appeared properly.........................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Aetna home page functionality test" name="Aetna Shop a plan functionality test 4" time="8.981">
-        <system-out>
-            <![CDATA[Given I am in Aetna home page...............................................passed
-When I click shop for a plan................................................passed
-And I go pharmacy element...................................................passed
-And I click find a pharmacy.................................................passed
-Then I validate *Required Selections is appeared properly...................passed
+    <testcase classname="Aetna home page functionality test" name="Aetna Shop a plan functionality test 4" time="39.06">
+        <failure message="timeout: Timed out receiving message from renderer: 30.000&#10;  (Session info: chrome=85.0.4183.121)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LAPTOP-6QSDTELI', ip: '192.168.1.185', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\lenis\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59597}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 959f62c93276ce52cf5439ef57bd21fd" type="org.openqa.selenium.TimeoutException">
+            <![CDATA[Given I am on Aetna home page...............................................failed
+When I click shop for a plan................................................skipped
+And I go pharmacy element...................................................skipped
+And I click find a pharmacy.................................................skipped
+Then I validate *Required Selections is appeared properly...................skipped
+
+StackTrace:
+org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 30.000
+  (Session info: chrome=85.0.4183.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-6QSDTELI', ip: '192.168.1.185', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\lenis\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59597}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 959f62c93276ce52cf5439ef57bd21fd
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
+	at common.WebAPI.setUp(WebAPI.java:153)
+	at common.WebAPI.openBrowser(WebAPI.java:131)
+	at stepdefinitions.HomePageStepDefinition.i_am_on_aetna_home_page(HomePageStepDefinition.java:41)
+	at ✽.I am on Aetna home page(file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/ShopAPlan.feature:4)
 ]]>
-        </system-out>
+        </failure>
     </testcase>
-    <testcase classname="Aetna home page functionality test" name="Aetna Shop a plan functionality test 5" time="9.702">
+    <testcase classname="Aetna home page functionality test" name="Aetna Shop a plan functionality test 5" time="9.002">
         <system-out>
-            <![CDATA[Given I am in Aetna home page...............................................passed
+            <![CDATA[Given I am on Aetna home page...............................................passed
 When I click shop for a plan................................................passed
 And I go pharmacy element...................................................passed
 And I click find medicine and costs.........................................passed
