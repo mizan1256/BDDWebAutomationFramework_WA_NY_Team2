@@ -39,6 +39,27 @@ public class HomePage extends WebAPI {
     WebElement visionPlans;
     @FindBy(xpath = "//*[@id=\"content__main\"]/div[2]/div/div/div[2]/div[1]/div/div[2]/div[1]/div/div/p[1]/strong")
     WebElement visionPlanText;
+    @FindBy(xpath = "/html/body/div[2]/div/nav/div/ul[1]/li[1]/div[2]/div/div/section/ul/li[3]/div[2]/ul/li[4]/a")
+    WebElement findEyeDoctor;
+    @FindBy(xpath = "/html/body/div[2]/div/nav/div/ul[1]/li[1]/div[2]/div/div/section/ul/li[3]/div[2]/ul/li[5]/a")
+    WebElement supplementalPlans;
+    @FindBy(xpath = "//*[@id=\"main\"]/div/div[3]/div/div[2]/div[1]/div[2]/div/h3")
+    WebElement supplementPlansText;
+    @FindBy(xpath = "/html/body/div[2]/div/nav/div/ul[1]/li[1]/div[2]/div/div/section/ul/li[4]/div[1]/button")
+    WebElement pharmacyBtn;
+    @FindBy(xpath = "/html/body/div[2]/div/nav/div/ul[1]/li[1]/div[2]/div/div/section/ul/li[4]/div[2]/ul/li[1]/a")
+    WebElement getPharmacyPlan;
+    @FindBy(xpath = "//*[@id=\"main\"]/div/div[1]/div/div/div/div/div[2]/a/span")
+    WebElement pharmacyBtntext;
+    @FindBy(xpath = "/html/body/div[2]/div/nav/div/ul[1]/li[1]/div[2]/div/div/section/ul/li[4]/div[2]/ul/li[2]/a")
+    WebElement findAPharmacy;
+    @FindBy(xpath = "//*[@id=\"advanced_search\"]/table/tbody/tr[1]/td")
+    WebElement findAPharmacyText;
+    @FindBy(xpath = "/html/body/div[2]/div/nav/div/ul[1]/li[1]/div[2]/div/div/section/ul/li[4]/div[2]/ul/li[3]/a")
+    WebElement findMedicineAndCosts;
+    @FindBy(xpath = "//*[@id=\"main\"]/div[4]/div/div/div[1]/div/div/h2")
+    WebElement findMedicineAndCostsText;
+
 
     public void shopPlanCheck() throws InterruptedException {
         sleepFor(4);
@@ -117,5 +138,62 @@ public class HomePage extends WebAPI {
         String expectedResult = visionPlanText.getText();
         Assert.assertEquals(expectedResult, actualResult);
     }
+    /**
+     * Find an Eye Doctor
+     */
+    public void findAnEyeDoctorCheck() {
+        findEyeDoctor.click();
+    }
 
+    /**
+     * Supplemental Plans
+     */
+    public void supplementalPlansCheck() {
+        supplementalPlans.click();
+    }
+
+    public void validateSupplementalPlansCheck(String actualResult) {
+        String expectedResult = supplementPlansText.getText();
+        Assert.assertEquals(expectedResult, actualResult);
+    }
+
+    /**
+     * Pharmacy -  Get pharmacy plan
+     */
+    public void pharmacyBtnCheck() {
+        pharmacyBtn.click();
+    }
+
+    public void getPharmacyPlans() {
+        getPharmacyPlan.click();
+    }
+
+    public void validateGetPharmacyPlans(String actualResult) {
+        String expectedResult = pharmacyBtntext.getText();
+        Assert.assertEquals(expectedResult, actualResult);
+    }
+
+    /**
+     * Find A Pharmacy
+     */
+    public void findAPharmacyCheck() {
+        findAPharmacy.click();
+    }
+
+    public void validateFindAPharmacyCheck(String actualResult) {
+        String expectedResult = findAPharmacyText.getText();
+        Assert.assertEquals(expectedResult, actualResult);
+    }
+
+    /**
+     * Find Medicine and Costs
+     */
+    public void findAMedicineAndCostsCheck() {
+        findMedicineAndCosts.click();
+    }
+
+    public void validateFindAMedicineAndCostsCheck(String actualResult) {
+        String expectedResult = findMedicineAndCostsText.getText();
+        Assert.assertEquals(expectedResult, actualResult);
+    }
 }

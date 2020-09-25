@@ -4,13 +4,13 @@ Scenario: Order pickUp home page check       # src/test/java/features/PickUpAndD
   Given I am on targetEcommerce home page    # stepdefinitions.TargetEcommerceStepDefinitions.i_am_on_target_ecommerce_home_page()
   When I click on pickUp and delivery button # stepdefinitions.PickUpAndDeliveryTest.i_click_on_pick_up_and_delivery_button()
   And I click on Order pickUp button         # stepdefinitions.PickUpAndDeliveryTest.i_click_on_order_pick_up_button()
-      org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div class="Row-uds8za-0 iFzQdH">...</div> is not clickable at point (510, 60). Other element would receive the click: <a href="#pickupAndDeliveryMenu" class="Link-sc-1khjl8b-0 bTKAgl HeaderMainLink-sc-1tx0dwp-0 ICeff h-margin-l-wide" id="pickupAndDelivery" data-menu="pickupAndDelivery" aria-label="pickup and delivery menu" aria-expanded="true">...</a>
-  (Session info: chrome=85.0.4183.102)
+      org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div class="Row-uds8za-0 kRWFss">...</div> is not clickable at point (510, 60). Other element would receive the click: <a href="#pickupAndDeliveryMenu" class="Link-sc-1khjl8b-0 dJwaza HeaderMainLink-sc-1tx0dwp-0 jQaVFI h-margin-l-wide" id="pickupAndDelivery" data-menu="pickupAndDelivery" aria-label="pickup and delivery menu" aria-expanded="true">...</a>
+  (Session info: chrome=85.0.4183.121)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:a9c7:73e3:b299:1374%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:64f4:6584:30b4:691d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:60822}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 541bdcbe2adc11c26f6c734de1bf1940
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:61404}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: ef6a678bc5d32d603a203971e70dec19
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -28,18 +28,18 @@ Session ID: 541bdcbe2adc11c26f6c734de1bf1940
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at com.sun.proxy.$Proxy25.click(Unknown Source)
+	at com.sun.proxy.$Proxy24.click(Unknown Source)
 	at pickupanddelivery.PickUpAndDeliveryHome.clickOnOrderPickUpBtnBtn(PickUpAndDeliveryHome.java:37)
 	at stepdefinitions.PickUpAndDeliveryTest.i_click_on_order_pick_up_button(PickUpAndDeliveryTest.java:41)
 	at ✽.I click on Order pickUp button(file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/PickUpAndDelivery.feature:10)
 
   Then I validate order pickUp home page     # stepdefinitions.PickUpAndDeliveryTest.i_validate_order_pick_up_home_page()
 
-    Embedding Demo [image/png 932669 bytes]
+    Embedding Demo [image/png 932598 bytes]
 
       org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:a9c7:73e3:b299:1374%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:64f4:6584:30b4:691d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
 Driver info: driver.version: RemoteWebDriver
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
@@ -55,13 +55,13 @@ Scenario: Oder pickUp searchBox functionality check                             
   When I click on pickUp and delivery button                                             # stepdefinitions.PickUpAndDeliveryTest.i_click_on_pick_up_and_delivery_button()
   When I do necessary steps to land on oder pickUp home page                             # stepdefinitions.PickUpAndDeliveryTest.i_do_necessary_steps_to_land_on_oder_pick_up_home_page()
       org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(text(),'Order Pickup')]"}
-  (Session info: chrome=85.0.4183.102)
+  (Session info: chrome=85.0.4183.121)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:a9c7:73e3:b299:1374%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:64f4:6584:30b4:691d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:60885}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: c62b332a8efefbe9ecb33abac4b65c5b
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:61494}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 0643588e85dd729b38195c032912d6dd
 *** Element info: {Using=xpath, value=//div[contains(text(),'Order Pickup')]}
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -79,7 +79,7 @@ Session ID: c62b332a8efefbe9ecb33abac4b65c5b
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy25.click(Unknown Source)
+	at com.sun.proxy.$Proxy24.click(Unknown Source)
 	at pickupanddelivery.PickUpAndDeliveryHome.necessaryStepForOderPickUp(PickUpAndDeliveryHome.java:50)
 	at stepdefinitions.PickUpAndDeliveryTest.i_do_necessary_steps_to_land_on_oder_pick_up_home_page(PickUpAndDeliveryTest.java:54)
 	at ✽.I do necessary steps to land on oder pickUp home page(file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/PickUpAndDelivery.feature:15)
@@ -87,11 +87,11 @@ Session ID: c62b332a8efefbe9ecb33abac4b65c5b
   And I enter "655473634747" as order number in order searchBox and click searchBox Icon # stepdefinitions.PickUpAndDeliveryTest.i_enter_as_order_number_in_order_search_box_and_click_search_box_icon(java.lang.String)
   Then I validate search result message                                                  # stepdefinitions.PickUpAndDeliveryTest.i_validate_search_result_message()
 
-    Embedding Demo [image/png 1270055 bytes]
+    Embedding Demo [image/png 1278787 bytes]
 
       org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:a9c7:73e3:b299:1374%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:64f4:6584:30b4:691d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
 Driver info: driver.version: RemoteWebDriver
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
@@ -106,72 +106,13 @@ Scenario: Same day delivery page check                                    # src/
   Given I am on targetEcommerce home page                                 # stepdefinitions.TargetEcommerceStepDefinitions.i_am_on_target_ecommerce_home_page()
   When I click on pickUp and delivery button                              # stepdefinitions.PickUpAndDeliveryTest.i_click_on_pick_up_and_delivery_button()
   And I click on same day delivery button                                 # stepdefinitions.PickUpAndDeliveryTest.i_click_on_same_day_delivery_button()
-  Then I validate "Get it as soon as 10am" as same day delivery home page # stepdefinitions.PickUpAndDeliveryTest.i_validate_as_same_day_delivery_home_page(java.lang.String)
-      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='h-text-sm h-text-greenDark']"}
-  (Session info: chrome=85.0.4183.102)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+      org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div class="Row-uds8za-0 kRWFss">...</div> is not clickable at point (510, 32). Other element would receive the click: <span class="h-hidden-md-down">...</span>
+  (Session info: chrome=85.0.4183.121)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:a9c7:73e3:b299:1374%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:64f4:6584:30b4:691d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:60939}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 11e5d2a6421746a9935cfeaf7fde9b79
-*** Element info: {Using=xpath, value=//span[@class='h-text-sm h-text-greenDark']}
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy25.getText(Unknown Source)
-	at pickupanddelivery.PickUpAndDeliveryHome.validateSameDayDeliveryCheck(PickUpAndDeliveryHome.java:71)
-	at stepdefinitions.PickUpAndDeliveryTest.i_validate_as_same_day_delivery_home_page(PickUpAndDeliveryTest.java:76)
-	at ✽.I validate "Get it as soon as 10am" as same day delivery home page(file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/PickUpAndDelivery.feature:22)
-
-
-    Embedding Demo [image/png 600726 bytes]
-
-      org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:a9c7:73e3:b299:1374%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
-	at stepdefinitions.TargetEcommerceStepDefinitions.tearDown(TargetEcommerceStepDefinitions.java:26)
-
-
-@SmokeTest
-Scenario: Same day delivery signIn functionality check                    # src/test/java/features/PickUpAndDelivery.feature:25
-  Given I am on targetEcommerce home page                                 # stepdefinitions.TargetEcommerceStepDefinitions.i_am_on_target_ecommerce_home_page()
-  When I click on pickUp and delivery button                              # stepdefinitions.PickUpAndDeliveryTest.i_click_on_pick_up_and_delivery_button()
-  And I do necessary steps to land on signIn page                         # stepdefinitions.PickUpAndDeliveryTest.i_do_necessary_steps_to_land_on_sign_in_page()
-  And I enter "mizan_1256@yahoo.com" as email and "Tasmi1256" as password # stepdefinitions.PickUpAndDeliveryTest.i_enter_as_email_and_as_password(java.lang.String,java.lang.String)
-
-@SmokeTest
-Scenario: Drive Up home page check           # src/test/java/features/PickUpAndDelivery.feature:31
-  Given I am on targetEcommerce home page    # stepdefinitions.TargetEcommerceStepDefinitions.i_am_on_target_ecommerce_home_page()
-  When I click on pickUp and delivery button # stepdefinitions.PickUpAndDeliveryTest.i_click_on_pick_up_and_delivery_button()
-  And I click on drive up button             # stepdefinitions.PickUpAndDeliveryTest.i_click_on_drive_up_button()
-      org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
-  (Session info: chrome=85.0.4183.102)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:a9c7:73e3:b299:1374%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:61059}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 668ca4e041ed80d14fd4f6e06ab2ec6e
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:61762}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 75140868cfc490cd0bc05f224c7add2e
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -189,18 +130,203 @@ Session ID: 668ca4e041ed80d14fd4f6e06ab2ec6e
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at com.sun.proxy.$Proxy25.click(Unknown Source)
+	at com.sun.proxy.$Proxy24.click(Unknown Source)
+	at pickupanddelivery.PickUpAndDeliveryHome.sameDayDeliveryCheck(PickUpAndDeliveryHome.java:66)
+	at stepdefinitions.PickUpAndDeliveryTest.i_click_on_same_day_delivery_button(PickUpAndDeliveryTest.java:71)
+	at ✽.I click on same day delivery button(file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/PickUpAndDelivery.feature:21)
+
+  Then I validate "Get it as soon as 10am" as same day delivery home page # stepdefinitions.PickUpAndDeliveryTest.i_validate_as_same_day_delivery_home_page(java.lang.String)
+
+    Embedding Demo [image/png 932602 bytes]
+
+      org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:64f4:6584:30b4:691d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at stepdefinitions.TargetEcommerceStepDefinitions.tearDown(TargetEcommerceStepDefinitions.java:26)
+
+
+@SmokeTest
+Scenario: Same day delivery signIn functionality check                    # src/test/java/features/PickUpAndDelivery.feature:25
+  Given I am on targetEcommerce home page                                 # stepdefinitions.TargetEcommerceStepDefinitions.i_am_on_target_ecommerce_home_page()
+  When I click on pickUp and delivery button                              # stepdefinitions.PickUpAndDeliveryTest.i_click_on_pick_up_and_delivery_button()
+  And I do necessary steps to land on signIn page                         # stepdefinitions.PickUpAndDeliveryTest.i_do_necessary_steps_to_land_on_sign_in_page()
+      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@class='Button-bwu3xu-0 bVjgbd']"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:64f4:6584:30b4:691d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:61906}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 40e56726cb4cf50e0d7089d38bf37387
+*** Element info: {Using=xpath, value=//button[@class='Button-bwu3xu-0 bVjgbd']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy24.click(Unknown Source)
+	at pickupanddelivery.PickUpAndDeliveryHome.necessaryStepsToSameDayDeliveryLogIn(PickUpAndDeliveryHome.java:81)
+	at stepdefinitions.PickUpAndDeliveryTest.i_do_necessary_steps_to_land_on_sign_in_page(PickUpAndDeliveryTest.java:83)
+	at ✽.I do necessary steps to land on signIn page(file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/PickUpAndDelivery.feature:26)
+
+  And I enter "mizan_1256@yahoo.com" as email and "Tasmi1256" as password # stepdefinitions.PickUpAndDeliveryTest.i_enter_as_email_and_as_password(java.lang.String,java.lang.String)
+
+    Embedding Demo [image/png 598129 bytes]
+
+      org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:64f4:6584:30b4:691d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at stepdefinitions.TargetEcommerceStepDefinitions.tearDown(TargetEcommerceStepDefinitions.java:26)
+
+
+@SmokeTest
+Scenario: Drive Up home page check           # src/test/java/features/PickUpAndDelivery.feature:31
+  Given I am on targetEcommerce home page    # stepdefinitions.TargetEcommerceStepDefinitions.i_am_on_target_ecommerce_home_page()
+  When I click on pickUp and delivery button # stepdefinitions.PickUpAndDeliveryTest.i_click_on_pick_up_and_delivery_button()
+  And I click on drive up button             # stepdefinitions.PickUpAndDeliveryTest.i_click_on_drive_up_button()
+      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='Row-uds8za-0 iFzQdH'][contains(text(),'Drive Up')]"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:64f4:6584:30b4:691d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:62193}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: cb1934c5394ef540265e592fb4f78a28
+*** Element info: {Using=xpath, value=//div[@class='Row-uds8za-0 iFzQdH'][contains(text(),'Drive Up')]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy24.click(Unknown Source)
 	at pickupanddelivery.PickUpAndDeliveryHome.clickOnDriveUpBtn(PickUpAndDeliveryHome.java:103)
 	at stepdefinitions.PickUpAndDeliveryTest.i_click_on_drive_up_button(PickUpAndDeliveryTest.java:101)
 	at ✽.I click on drive up button(file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/PickUpAndDelivery.feature:32)
 
   Then I validate drive up home page Title   # stepdefinitions.PickUpAndDeliveryTest.i_validate_drive_up_home_page_title()
 
-    Embedding Demo [image/png 1271649 bytes]
+    Embedding Demo [image/png 1270483 bytes]
 
       org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:a9c7:73e3:b299:1374%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:64f4:6584:30b4:691d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at stepdefinitions.TargetEcommerceStepDefinitions.tearDown(TargetEcommerceStepDefinitions.java:26)
+
+
+@Regression
+Scenario: TargetEcommerce SearchBox check # src/test/java/features/TargetecommerceHomePage.feature:8
+  Given I am on targetEcommerce home page # stepdefinitions.TargetEcommerceStepDefinitions.i_am_on_target_ecommerce_home_page()
+  And I validate searchBox is displayed   # stepdefinitions.TargetEcommerceStepDefinitions.i_validate_search_box_is_displayed()
+
+@Regression
+Scenario: TargetEcommerce SearchBox functionality test with validate # src/test/java/features/TargetecommerceHomePage.feature:12
+  Given I am on targetEcommerce home page                            # stepdefinitions.TargetEcommerceStepDefinitions.i_am_on_target_ecommerce_home_page()
+  And I enter iPhone in searchBox                                    # stepdefinitions.TargetEcommerceStepDefinitions.i_enter_i_phone_in_search_box()
+  Then I verify iPhone is appear properly                            # stepdefinitions.TargetEcommerceStepDefinitions.i_verify_i_phone_is_appear_properly()
+      org.junit.ComparisonFailure: iPhone expected:<[iPhone]> but was:<[Text do not match]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at targetHome.TargetEcommerceHomePage.validateSearchText(TargetEcommerceHomePage.java:89)
+	at stepdefinitions.TargetEcommerceStepDefinitions.i_verify_i_phone_is_appear_properly(TargetEcommerceStepDefinitions.java:57)
+	at ✽.I verify iPhone is appear properly(file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetecommerceHomePage.feature:14)
+
+  And I verify page title as iPhone                                  # stepdefinitions.TargetEcommerceStepDefinitions.i_verify_page_title_as_i_phone()
+
+    Embedding Demo [image/png 644072 bytes]
+
+      org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:64f4:6584:30b4:691d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at stepdefinitions.TargetEcommerceStepDefinitions.tearDown(TargetEcommerceStepDefinitions.java:26)
+
+
+@Regression
+Scenario: TargetEcommerce SearchBox functionality getting value from Scenario # src/test/java/features/TargetecommerceHomePage.feature:18
+  Given I am on targetEcommerce home page                                     # stepdefinitions.TargetEcommerceStepDefinitions.i_am_on_target_ecommerce_home_page()
+  And I enter "iPhone" in searchBox                                           # stepdefinitions.TargetEcommerceStepDefinitions.i_enter_in_search_box(java.lang.String)
+  Then I verify "iPhone" is appear properly                                   # stepdefinitions.TargetEcommerceStepDefinitions.i_verify_is_appear_properly(java.lang.String)
+      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//h1[@class='Heading__StyledHeading-sc-1m9kw5a-0 jAsGMN h-margin-b-none']"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:64f4:6584:30b4:691d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:62554}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 66498302668ac0d9e4144bdff0f8e985
+*** Element info: {Using=xpath, value=//h1[@class='Heading__StyledHeading-sc-1m9kw5a-0 jAsGMN h-margin-b-none']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy24.getText(Unknown Source)
+	at targetHome.TargetEcommerceHomePage.validateSearchBox(TargetEcommerceHomePage.java:178)
+	at stepdefinitions.TargetEcommerceStepDefinitions.i_verify_is_appear_properly(TargetEcommerceStepDefinitions.java:143)
+	at ✽.I verify "iPhone" is appear properly(file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetecommerceHomePage.feature:20)
+
+  And I verify page title as iPhone                                           # stepdefinitions.TargetEcommerceStepDefinitions.i_verify_page_title_as_i_phone()
+
+    Embedding Demo [image/png 805344 bytes]
+
+      org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:64f4:6584:30b4:691d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
 Driver info: driver.version: RemoteWebDriver
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
@@ -215,69 +341,221 @@ Scenario Outline: TargetEcommerce SearchBox functionality test with validate usi
   Given I am on targetEcommerce home page                                                     # stepdefinitions.TargetEcommerceStepDefinitions.i_am_on_target_ecommerce_home_page()
   And I enter "iPhone" in searchBox                                                           # stepdefinitions.TargetEcommerceStepDefinitions.i_enter_in_search_box(java.lang.String)
   When I click searchButton                                                                   # stepdefinitions.TargetEcommerceStepDefinitions.i_click_search_button()
+      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@class='SearchInputButton-sc-1opoijs-0 gpTjzt' and text()='go']"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:64f4:6584:30b4:691d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:62738}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 0a7d7b61d98b946a0efdbe56b0daeac7
+*** Element info: {Using=xpath, value=//button[@class='SearchInputButton-sc-1opoijs-0 gpTjzt' and text()='go']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy24.click(Unknown Source)
+	at targetHome.TargetEcommerceHomePage.clickOnSearchBtn(TargetEcommerceHomePage.java:162)
+	at stepdefinitions.TargetEcommerceStepDefinitions.i_click_search_button(TargetEcommerceStepDefinitions.java:124)
+	at ✽.I click searchButton(file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetecommerceHomePage.feature:26)
+
   And I validate "iPhone" is appear properly                                                  # stepdefinitions.TargetEcommerceStepDefinitions.i_validate_is_appear_properly(java.lang.String)
   And I validate page title as "Target : Expect More. Pay Less."                              # stepdefinitions.TargetEcommerceStepDefinitions.i_validate_page_title_as(java.lang.String)
+
+    Embedding Demo [image/png 794825 bytes]
+
+      org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:64f4:6584:30b4:691d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at stepdefinitions.TargetEcommerceStepDefinitions.tearDown(TargetEcommerceStepDefinitions.java:26)
+
 
 @Regression
 Scenario Outline: TargetEcommerce SearchBox functionality test with validate using data table # src/test/java/features/TargetecommerceHomePage.feature:33
   Given I am on targetEcommerce home page                                                     # stepdefinitions.TargetEcommerceStepDefinitions.i_am_on_target_ecommerce_home_page()
   And I enter "T-shirt for men" in searchBox                                                  # stepdefinitions.TargetEcommerceStepDefinitions.i_enter_in_search_box(java.lang.String)
   When I click searchButton                                                                   # stepdefinitions.TargetEcommerceStepDefinitions.i_click_search_button()
+      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@class='SearchInputButton-sc-1opoijs-0 gpTjzt' and text()='go']"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:64f4:6584:30b4:691d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:62907}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 9a18b3d62f02fd715c69d88eb27be747
+*** Element info: {Using=xpath, value=//button[@class='SearchInputButton-sc-1opoijs-0 gpTjzt' and text()='go']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy24.click(Unknown Source)
+	at targetHome.TargetEcommerceHomePage.clickOnSearchBtn(TargetEcommerceHomePage.java:162)
+	at stepdefinitions.TargetEcommerceStepDefinitions.i_click_search_button(TargetEcommerceStepDefinitions.java:124)
+	at ✽.I click searchButton(file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetecommerceHomePage.feature:26)
+
   And I validate "“T-shirt for men”" is appear properly                                       # stepdefinitions.TargetEcommerceStepDefinitions.i_validate_is_appear_properly(java.lang.String)
   And I validate page title as "Target : Expect More. Pay Less."                              # stepdefinitions.TargetEcommerceStepDefinitions.i_validate_page_title_as(java.lang.String)
+
+    Embedding Demo [image/png 850241 bytes]
+
+      org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:64f4:6584:30b4:691d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at stepdefinitions.TargetEcommerceStepDefinitions.tearDown(TargetEcommerceStepDefinitions.java:26)
+
 
 @Regression
 Scenario Outline: TargetEcommerce SearchBox functionality test with validate using data table # src/test/java/features/TargetecommerceHomePage.feature:34
   Given I am on targetEcommerce home page                                                     # stepdefinitions.TargetEcommerceStepDefinitions.i_am_on_target_ecommerce_home_page()
   And I enter "mens jeans" in searchBox                                                       # stepdefinitions.TargetEcommerceStepDefinitions.i_enter_in_search_box(java.lang.String)
   When I click searchButton                                                                   # stepdefinitions.TargetEcommerceStepDefinitions.i_click_search_button()
+      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@class='SearchInputButton-sc-1opoijs-0 gpTjzt' and text()='go']"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:64f4:6584:30b4:691d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:63090}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5cc526c0c89af508a312812ee3642e18
+*** Element info: {Using=xpath, value=//button[@class='SearchInputButton-sc-1opoijs-0 gpTjzt' and text()='go']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy24.click(Unknown Source)
+	at targetHome.TargetEcommerceHomePage.clickOnSearchBtn(TargetEcommerceHomePage.java:162)
+	at stepdefinitions.TargetEcommerceStepDefinitions.i_click_search_button(TargetEcommerceStepDefinitions.java:124)
+	at ✽.I click searchButton(file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetecommerceHomePage.feature:26)
+
   And I validate "“mens jeans”" is appear properly                                            # stepdefinitions.TargetEcommerceStepDefinitions.i_validate_is_appear_properly(java.lang.String)
   And I validate page title as "Target : Expect More. Pay Less."                              # stepdefinitions.TargetEcommerceStepDefinitions.i_validate_page_title_as(java.lang.String)
+
+    Embedding Demo [image/png 804773 bytes]
+
+      org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:64f4:6584:30b4:691d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at stepdefinitions.TargetEcommerceStepDefinitions.tearDown(TargetEcommerceStepDefinitions.java:26)
+
 
 @Regression
 Scenario Outline: TargetEcommerce SearchBox functionality test with validate using data table # src/test/java/features/TargetecommerceHomePage.feature:35
   Given I am on targetEcommerce home page                                                     # stepdefinitions.TargetEcommerceStepDefinitions.i_am_on_target_ecommerce_home_page()
   And I enter "mens watches" in searchBox                                                     # stepdefinitions.TargetEcommerceStepDefinitions.i_enter_in_search_box(java.lang.String)
   When I click searchButton                                                                   # stepdefinitions.TargetEcommerceStepDefinitions.i_click_search_button()
+      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@class='SearchInputButton-sc-1opoijs-0 gpTjzt' and text()='go']"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:64f4:6584:30b4:691d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:63258}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: a2891e80c7436571a3c5f6ff37f86318
+*** Element info: {Using=xpath, value=//button[@class='SearchInputButton-sc-1opoijs-0 gpTjzt' and text()='go']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy24.click(Unknown Source)
+	at targetHome.TargetEcommerceHomePage.clickOnSearchBtn(TargetEcommerceHomePage.java:162)
+	at stepdefinitions.TargetEcommerceStepDefinitions.i_click_search_button(TargetEcommerceStepDefinitions.java:124)
+	at ✽.I click searchButton(file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetecommerceHomePage.feature:26)
+
   And I validate "“mens watches”" is appear properly                                          # stepdefinitions.TargetEcommerceStepDefinitions.i_validate_is_appear_properly(java.lang.String)
   And I validate page title as "Target : Expect More. Pay Less."                              # stepdefinitions.TargetEcommerceStepDefinitions.i_validate_page_title_as(java.lang.String)
+
+    Embedding Demo [image/png 888046 bytes]
+
+      org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:64f4:6584:30b4:691d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at stepdefinitions.TargetEcommerceStepDefinitions.tearDown(TargetEcommerceStepDefinitions.java:26)
+
 
 @Regression
 Scenario: TargetEcommerce signUp functionality test with validate # src/test/java/features/TargetecommerceHomePage.feature:38
   Given I am on targetEcommerce home page                         # stepdefinitions.TargetEcommerceStepDefinitions.i_am_on_target_ecommerce_home_page()
   And I do necessary steps to land on User info page              # stepdefinitions.TargetEcommerceStepDefinitions.i_do_necessary_steps_to_land_on_user_info_page()
-  And I enter user credentials                                    # stepdefinitions.TargetEcommerceStepDefinitions.i_enter_user_credentials(io.cucumber.datatable.DataTable)
-  When I click on create account                                  # stepdefinitions.TargetEcommerceStepDefinitions.i_click_on_create_account()
-  Then I validate signUp message                                  # stepdefinitions.TargetEcommerceStepDefinitions.i_validate_sign_up_message()
-
-@SmokeTest
-Scenario Outline: Login into att using Data Driven                   # src/test/java/features/TargetecommerceHomePage.feature:55
-  Given I am on targetEcommerce home page                            # stepdefinitions.TargetEcommerceStepDefinitions.i_am_on_target_ecommerce_home_page()
-  And I am on signIn page                                            # stepdefinitions.TargetEcommerceStepDefinitions.i_am_on_sign_in_page()
-  And I enter email as "admin@yourstore.com" and password as "admin" # stepdefinitions.TargetEcommerceStepDefinitions.i_enter_email_as_and_password_as(java.lang.String,java.lang.String)
-  And I click on signIn button                                       # stepdefinitions.TargetEcommerceStepDefinitions.i_click_on_sign_in_button()
-  Then I should be getting a message                                 # stepdefinitions.TargetEcommerceStepDefinitions.i_should_be_getting_a_message()
-
-@SmokeTest
-Scenario Outline: Login into att using Data Driven                  # src/test/java/features/TargetecommerceHomePage.feature:56
-  Given I am on targetEcommerce home page                           # stepdefinitions.TargetEcommerceStepDefinitions.i_am_on_target_ecommerce_home_page()
-  And I am on signIn page                                           # stepdefinitions.TargetEcommerceStepDefinitions.i_am_on_sign_in_page()
-  And I enter email as "mizan@gmail.com" and password as "15021972" # stepdefinitions.TargetEcommerceStepDefinitions.i_enter_email_as_and_password_as(java.lang.String,java.lang.String)
-  And I click on signIn button                                      # stepdefinitions.TargetEcommerceStepDefinitions.i_click_on_sign_in_button()
-  Then I should be getting a message                                # stepdefinitions.TargetEcommerceStepDefinitions.i_should_be_getting_a_message()
-
-@SmokeTest
-Scenario Outline: Login into att using Data Driven                    # src/test/java/features/TargetecommerceHomePage.feature:57
-  Given I am on targetEcommerce home page                             # stepdefinitions.TargetEcommerceStepDefinitions.i_am_on_target_ecommerce_home_page()
-  And I am on signIn page                                             # stepdefinitions.TargetEcommerceStepDefinitions.i_am_on_sign_in_page()
       org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='sc-AxirZ cWICNE']//div[@class='sc-AxhCb eSwYtm']//*[local-name()='svg']//*[name()='path' and contains(@d,'M14.063 14')]"}
-  (Session info: chrome=85.0.4183.102)
+  (Session info: chrome=85.0.4183.121)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:a9c7:73e3:b299:1374%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:64f4:6584:30b4:691d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:61473}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: d68783e882cb1912f0f0145999e07668
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:63426}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 35b3578ab32fcecd23fa76a2637bef00
 *** Element info: {Using=xpath, value=//span[@class='sc-AxirZ cWICNE']//div[@class='sc-AxhCb eSwYtm']//*[local-name()='svg']//*[name()='path' and contains(@d,'M14.063 14')]}
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -295,8 +573,164 @@ Session ID: d68783e882cb1912f0f0145999e07668
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy25.click(Unknown Source)
-	at targetHome.TargetEcommerceHomePage.iAmOnSignInPage(TargetEcommerceHomePage.java:137)
+	at com.sun.proxy.$Proxy24.click(Unknown Source)
+	at targetHome.TargetEcommerceHomePage.signUpNecessaryStep(TargetEcommerceHomePage.java:105)
+	at stepdefinitions.TargetEcommerceStepDefinitions.i_do_necessary_steps_to_land_on_user_info_page(TargetEcommerceStepDefinitions.java:68)
+	at ✽.I do necessary steps to land on User info page(file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetecommerceHomePage.feature:39)
+
+  And I enter user credentials                                    # stepdefinitions.TargetEcommerceStepDefinitions.i_enter_user_credentials(io.cucumber.datatable.DataTable)
+  When I click on create account                                  # stepdefinitions.TargetEcommerceStepDefinitions.i_click_on_create_account()
+  Then I validate signUp message                                  # stepdefinitions.TargetEcommerceStepDefinitions.i_validate_sign_up_message()
+
+    Embedding Demo [image/png 1280503 bytes]
+
+      org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:64f4:6584:30b4:691d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at stepdefinitions.TargetEcommerceStepDefinitions.tearDown(TargetEcommerceStepDefinitions.java:26)
+
+
+@SmokeTest
+Scenario Outline: Login into att using Data Driven                   # src/test/java/features/TargetecommerceHomePage.feature:55
+  Given I am on targetEcommerce home page                            # stepdefinitions.TargetEcommerceStepDefinitions.i_am_on_target_ecommerce_home_page()
+  And I am on signIn page                                            # stepdefinitions.TargetEcommerceStepDefinitions.i_am_on_sign_in_page()
+      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='sc-AxirZ cWICNE']//div[@class='sc-AxhCb eSwYtm']//*[local-name()='svg']//*[name()='path' and contains(@d,'M14.063 14')]"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:64f4:6584:30b4:691d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:63600}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: e5912f75c36929705868f510163649af
+*** Element info: {Using=xpath, value=//span[@class='sc-AxirZ cWICNE']//div[@class='sc-AxhCb eSwYtm']//*[local-name()='svg']//*[name()='path' and contains(@d,'M14.063 14')]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy24.click(Unknown Source)
+	at targetHome.TargetEcommerceHomePage.iAmOnSignInPage(TargetEcommerceHomePage.java:138)
+	at stepdefinitions.TargetEcommerceStepDefinitions.i_am_on_sign_in_page(TargetEcommerceStepDefinitions.java:96)
+	at ✽.I am on signIn page(file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetecommerceHomePage.feature:48)
+
+  And I enter email as "admin@yourstore.com" and password as "admin" # stepdefinitions.TargetEcommerceStepDefinitions.i_enter_email_as_and_password_as(java.lang.String,java.lang.String)
+  And I click on signIn button                                       # stepdefinitions.TargetEcommerceStepDefinitions.i_click_on_sign_in_button()
+  Then I should be getting a message                                 # stepdefinitions.TargetEcommerceStepDefinitions.i_should_be_getting_a_message()
+
+    Embedding Demo [image/png 1270549 bytes]
+
+      org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:64f4:6584:30b4:691d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at stepdefinitions.TargetEcommerceStepDefinitions.tearDown(TargetEcommerceStepDefinitions.java:26)
+
+
+@SmokeTest
+Scenario Outline: Login into att using Data Driven                  # src/test/java/features/TargetecommerceHomePage.feature:56
+  Given I am on targetEcommerce home page                           # stepdefinitions.TargetEcommerceStepDefinitions.i_am_on_target_ecommerce_home_page()
+  And I am on signIn page                                           # stepdefinitions.TargetEcommerceStepDefinitions.i_am_on_sign_in_page()
+      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='sc-AxirZ cWICNE']//div[@class='sc-AxhCb eSwYtm']//*[local-name()='svg']//*[name()='path' and contains(@d,'M14.063 14')]"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:64f4:6584:30b4:691d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:63766}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: b5b4f3cff22c588f6291110c40dfe3af
+*** Element info: {Using=xpath, value=//span[@class='sc-AxirZ cWICNE']//div[@class='sc-AxhCb eSwYtm']//*[local-name()='svg']//*[name()='path' and contains(@d,'M14.063 14')]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy24.click(Unknown Source)
+	at targetHome.TargetEcommerceHomePage.iAmOnSignInPage(TargetEcommerceHomePage.java:138)
+	at stepdefinitions.TargetEcommerceStepDefinitions.i_am_on_sign_in_page(TargetEcommerceStepDefinitions.java:96)
+	at ✽.I am on signIn page(file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetecommerceHomePage.feature:48)
+
+  And I enter email as "mizan@gmail.com" and password as "15021972" # stepdefinitions.TargetEcommerceStepDefinitions.i_enter_email_as_and_password_as(java.lang.String,java.lang.String)
+  And I click on signIn button                                      # stepdefinitions.TargetEcommerceStepDefinitions.i_click_on_sign_in_button()
+  Then I should be getting a message                                # stepdefinitions.TargetEcommerceStepDefinitions.i_should_be_getting_a_message()
+
+    Embedding Demo [image/png 1270549 bytes]
+
+      org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:64f4:6584:30b4:691d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at stepdefinitions.TargetEcommerceStepDefinitions.tearDown(TargetEcommerceStepDefinitions.java:26)
+
+
+@SmokeTest
+Scenario Outline: Login into att using Data Driven                    # src/test/java/features/TargetecommerceHomePage.feature:57
+  Given I am on targetEcommerce home page                             # stepdefinitions.TargetEcommerceStepDefinitions.i_am_on_target_ecommerce_home_page()
+  And I am on signIn page                                             # stepdefinitions.TargetEcommerceStepDefinitions.i_am_on_sign_in_page()
+      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='sc-AxirZ cWICNE']//div[@class='sc-AxhCb eSwYtm']//*[local-name()='svg']//*[name()='path' and contains(@d,'M14.063 14')]"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:64f4:6584:30b4:691d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:63929}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: e3f7edc2961e6ed124e1200a7e48b7f0
+*** Element info: {Using=xpath, value=//span[@class='sc-AxirZ cWICNE']//div[@class='sc-AxhCb eSwYtm']//*[local-name()='svg']//*[name()='path' and contains(@d,'M14.063 14')]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy24.click(Unknown Source)
+	at targetHome.TargetEcommerceHomePage.iAmOnSignInPage(TargetEcommerceHomePage.java:138)
 	at stepdefinitions.TargetEcommerceStepDefinitions.i_am_on_sign_in_page(TargetEcommerceStepDefinitions.java:96)
 	at ✽.I am on signIn page(file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetecommerceHomePage.feature:48)
 
@@ -304,11 +738,11 @@ Session ID: d68783e882cb1912f0f0145999e07668
   And I click on signIn button                                        # stepdefinitions.TargetEcommerceStepDefinitions.i_click_on_sign_in_button()
   Then I should be getting a message                                  # stepdefinitions.TargetEcommerceStepDefinitions.i_should_be_getting_a_message()
 
-    Embedding Demo [image/png 1271565 bytes]
+    Embedding Demo [image/png 1270549 bytes]
 
       org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:a9c7:73e3:b299:1374%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:64f4:6584:30b4:691d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
 Driver info: driver.version: RemoteWebDriver
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
@@ -322,12 +756,100 @@ Driver info: driver.version: RemoteWebDriver
 Scenario: Target shoppingCart logo functionality check # src/test/java/features/TargetecommerceHomePage.feature:60
   Given I am on targetEcommerce home page              # stepdefinitions.TargetEcommerceStepDefinitions.i_am_on_target_ecommerce_home_page()
   And I click on shopping cart Icon                    # stepdefinitions.TargetEcommerceStepDefinitions.i_click_on_shopping_cart_icon()
+      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='sc-AxjAm hhuVxr']//div[@class='sc-AxiKw eSbheu']"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:64f4:6584:30b4:691d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:64133}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 4aa52c1a1ec3c5187462bfecfadf68dc
+*** Element info: {Using=xpath, value=//span[@class='sc-AxjAm hhuVxr']//div[@class='sc-AxiKw eSbheu']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy24.click(Unknown Source)
+	at targetHome.TargetEcommerceHomePage.shoppingCartLogoIsClickable(TargetEcommerceHomePage.java:186)
+	at stepdefinitions.TargetEcommerceStepDefinitions.i_click_on_shopping_cart_icon(TargetEcommerceStepDefinitions.java:150)
+	at ✽.I click on shopping cart Icon(file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetecommerceHomePage.feature:61)
+
   Then I validate shopping cart page                   # stepdefinitions.TargetEcommerceStepDefinitions.i_validate_shopping_cart_page()
+
+    Embedding Demo [image/png 1280503 bytes]
+
+      org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:64f4:6584:30b4:691d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at stepdefinitions.TargetEcommerceStepDefinitions.tearDown(TargetEcommerceStepDefinitions.java:26)
+
 
 @SmokeTest
 Scenario: Target Shopping Cart log in functionality check                  # src/test/java/features/TargetecommerceHomePage.feature:65
   Given I am on targetEcommerce home page                                  # stepdefinitions.TargetEcommerceStepDefinitions.i_am_on_target_ecommerce_home_page()
   When I click on shopping cart Icon                                       # stepdefinitions.TargetEcommerceStepDefinitions.i_click_on_shopping_cart_icon()
+      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='sc-AxjAm hhuVxr']//div[@class='sc-AxiKw eSbheu']"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:64f4:6584:30b4:691d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:64296}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 20dbd483fdcf72859b69f53ee5688599
+*** Element info: {Using=xpath, value=//span[@class='sc-AxjAm hhuVxr']//div[@class='sc-AxiKw eSbheu']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy24.click(Unknown Source)
+	at targetHome.TargetEcommerceHomePage.shoppingCartLogoIsClickable(TargetEcommerceHomePage.java:186)
+	at stepdefinitions.TargetEcommerceStepDefinitions.i_click_on_shopping_cart_icon(TargetEcommerceStepDefinitions.java:150)
+	at ✽.I click on shopping cart Icon(file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetecommerceHomePage.feature:66)
+
   And I click on shopping cart signIn button                               # stepdefinitions.TargetEcommerceStepDefinitions.i_click_on_shopping_cart_signIn_button()
   And I enter email as "mizan_1256@yahoo.com" and password as "Tasmi@1256" # stepdefinitions.TargetEcommerceStepDefinitions.i_enter_email_as_and_password_as(java.lang.String,java.lang.String)
   Then I validate shopping cart log in page                                # stepdefinitions.TargetEcommerceStepDefinitions.i_validate_shopping_cart_log_in_page()
+
+    Embedding Demo [image/png 1270549 bytes]
+
+      org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:64f4:6584:30b4:691d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at stepdefinitions.TargetEcommerceStepDefinitions.tearDown(TargetEcommerceStepDefinitions.java:26)
+

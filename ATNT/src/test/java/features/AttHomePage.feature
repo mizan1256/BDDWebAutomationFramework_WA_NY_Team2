@@ -1,14 +1,7 @@
 Feature: Feature: Att HomePage Functionality check
 
   Background:
-    Given I am in at&t homepage
-
-  @SmokeTest
-  Scenario: Att SearchBox Functionality check with valid data
-    And I enter Samsung Phones in searchBox
-    When I click searchButton
-    Then I verify Samsung Phones is appear properly
-    And I verify page title as Samsung Phones
+    Given I am in att homepage
 
   @SmokeTest
   Scenario: Att deals button Functionality check with valid data
@@ -35,29 +28,3 @@ Feature: Feature: Att HomePage Functionality check
     Then I verify Choose a TV package is appear properly
     And I verify page title as Shop AT&T Bundles
 
-
-  @SmokeTest
-  Scenario Outline:Atnt SearchBox Functionality check with multiple products
-    And I enter "<searchItems>" in searchBox
-    When I click searchButton
-
-    Examples:
-      | searchItems           |
-      | AT&T PREPAID          |
-      | AT&T Deals            |
-      | TV & internet bundles |
-      | Upgrade a device      |
-
-  @SmokeTest
-  Scenario Outline:Atnt SearchBox Functionality check with multiple products
-    And I enter "<productName>" in searchBox
-    When I click searchButton
-    Then I verify "<validateProduct>" and "<validateTitle>"
-#    And I verify page title as "<pageTitle>"
-    Examples:
-      | productName       | validateProduct       | validateTitle                               |
-      | Samsung Phones    | \"Samsung Phones\"    | Results for Samsung Phones - AT&T Search    |
-      | Apple Watches     | \"Apple Watches\"     | Results for Apple Watches - AT&T Search     |
-      | Apple ipads       | \"Apple ipads\"       | Results for Apple ipads - AT&T Search       |
-      | iphone 11 Pro Max | \"iphone 11 Pro Max\" | Results for iphone 11 Pro Max - AT&T Search |
-      | Samsung Tablets   | \"Samsung Tablets\"   | Results for Samsung Tablets - AT&T Search   |

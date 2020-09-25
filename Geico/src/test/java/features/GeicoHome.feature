@@ -81,3 +81,12 @@ Feature:Geico homePage functionality check
       | 12315        | 03191296    | 10329   |
       | 12316        | 01191996    | 10328   |
       | 12317        | 05191996    | 10327   |
+
+  @SmokeTest
+  Scenario: Gecio Career button Check
+    Given I am on Geico Homepage
+    And   I click on Career button
+    When  I Click on Customer Service Button
+    Then  I validate Customer Service Careers text appear Properly
+
+

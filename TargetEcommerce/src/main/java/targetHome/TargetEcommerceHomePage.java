@@ -54,7 +54,7 @@ public class TargetEcommerceHomePage extends WebAPI {
     WebElement searchField;
     @FindBy(xpath = "//button[@class='SearchInputButton-sc-1opoijs-0 gpTjzt']")
     WebElement searchFieldButton;
-    @FindBy(xpath = "//h2[contains(text(),'Compare iPhone models')]")
+    @FindBy(xpath = "//h1[@class='Heading__StyledHeading-sc-1m9kw5a-0 crGulm h-margin-b-none']")
     WebElement iPhoneSearchBoxTxt;
 
     @FindBy(how = How.XPATH, using = shoppingCartLogo)
@@ -76,14 +76,15 @@ public class TargetEcommerceHomePage extends WebAPI {
     public void searchBoxCheck(String searchItem) {
         searchField.clear();
         searchField.sendKeys(searchItem);
-        searchFieldButton.click();
+        searchField.submit();
+       // searchFieldButton.click();
     }
 
     //Validation Method
     public void validateSearchText() throws InterruptedException {
         sleepFor(5);
         String actualResult = iPhoneSearchBoxTxt.getText();
-        String expectedResult = "Compare iPhone models";
+        String expectedResult = "iPhone";
         System.out.println(actualResult);
         Assert.assertEquals(actualResult, expectedResult, "Text do not match");
     }

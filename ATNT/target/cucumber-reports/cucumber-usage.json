@@ -5,49 +5,299 @@
       {
         "name": "I am in att homepage",
         "aggregatedDurations": {
-          "median": 5.074731,
-          "average": 8.8148649
+          "median": 4.8684255,
+          "average": 5.116345
         },
         "durations": [
           {
-            "duration": 5.984922,
-            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:5"
+            "duration": 4.596944,
+            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/AttHomePage.feature:4"
           },
           {
-            "duration": 5.087115,
-            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:5"
+            "duration": 3.916189,
+            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/AttHomePage.feature:4"
           },
           {
-            "duration": 5.606825,
-            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:5"
+            "duration": 4.008135,
+            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/AttHomePage.feature:4"
           },
           {
-            "duration": 4.395291,
-            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:5"
+            "duration": 3.970051,
+            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/AttHomePage.feature:4"
           },
           {
-            "duration": 4.731978,
-            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:5"
+            "duration": 3.999551,
+            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/AttRegistration.feature:5"
           },
           {
-            "duration": 5.062347,
-            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:5"
+            "duration": 4.899083,
+            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/AttRegistration.feature:5"
           },
           {
-            "duration": 4.091696,
+            "duration": 4.933431,
+            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/AttRegistration.feature:5"
+          },
+          {
+            "duration": 5.397636,
+            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/AttRegistration.feature:5"
+          },
+          {
+            "duration": 5.491516,
+            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/AttRegistration.feature:5"
+          },
+          {
+            "duration": 7.250459,
+            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/AttRegistration.feature:5"
+          },
+          {
+            "duration": 4.60654,
             "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/SearchBox.feature:5"
           },
           {
-            "duration": 4.653964,
+            "duration": 5.604393,
             "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/SearchBox.feature:5"
           },
           {
-            "duration": 15.664179,
+            "duration": 8.117134,
             "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/SearchBox.feature:5"
           },
           {
-            "duration": 32.870332,
+            "duration": 4.837768,
             "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/SearchBox.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click Deals Button",
+    "steps": [
+      {
+        "name": "I click Deals Button",
+        "aggregatedDurations": {
+          "median": 1.772874,
+          "average": 1.772874
+        },
+        "durations": [
+          {
+            "duration": 1.772874,
+            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/AttHomePage.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify Wireless is appear properly",
+    "steps": [
+      {
+        "name": "I verify Wireless is appear properly",
+        "aggregatedDurations": {
+          "median": 0.036515,
+          "average": 0.036515
+        },
+        "durations": [
+          {
+            "duration": 0.036515,
+            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/AttHomePage.feature:9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify page title as AT\u0026T Deals on Phones, Wireless Plans, Internet \u0026 TV Services",
+    "steps": [
+      {
+        "name": "I verify page title as AT\u0026T Deals on Phones, Wireless Plans, Internet \u0026 TV Services",
+        "aggregatedDurations": {
+          "median": 0.00484,
+          "average": 0.00484
+        },
+        "durations": [
+          {
+            "duration": 0.00484,
+            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/AttHomePage.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click Wireless Button",
+    "steps": [
+      {
+        "name": "I click Wireless Button",
+        "aggregatedDurations": {
+          "median": 2.668071,
+          "average": 2.668071
+        },
+        "durations": [
+          {
+            "duration": 2.668071,
+            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/AttHomePage.feature:14"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify LEARN HOW TO is appear properly",
+    "steps": [
+      {
+        "name": "I verify LEARN HOW TO is appear properly",
+        "aggregatedDurations": {
+          "median": 0.0493,
+          "average": 0.0493
+        },
+        "durations": [
+          {
+            "duration": 0.0493,
+            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/AttHomePage.feature:15"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify page title as AT\u0026T Wireless – Latest Phones \u0026 Best Wireless Plans",
+    "steps": [
+      {
+        "name": "I verify page title as AT\u0026T Wireless – Latest Phones \u0026 Best Wireless Plans",
+        "aggregatedDurations": {
+          "median": 0.005014,
+          "average": 0.005014
+        },
+        "durations": [
+          {
+            "duration": 0.005014,
+            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/AttHomePage.feature:16"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click internet Button",
+    "steps": [
+      {
+        "name": "I click internet Button",
+        "aggregatedDurations": {
+          "median": 1.892148,
+          "average": 1.892148
+        },
+        "durations": [
+          {
+            "duration": 1.892148,
+            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/AttHomePage.feature:20"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify AT\u0026T INTERNET is appear properly",
+    "steps": [
+      {
+        "name": "I verify AT\u0026T INTERNET is appear properly",
+        "aggregatedDurations": {
+          "median": 0.032772,
+          "average": 0.032772
+        },
+        "durations": [
+          {
+            "duration": 0.032772,
+            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/AttHomePage.feature:21"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify page title as AT\u0026T Internet Plans - Home Internet - AT\u0026T® Official Site",
+    "steps": [
+      {
+        "name": "I verify page title as AT\u0026T Internet Plans - Home Internet - AT\u0026T® Official Site",
+        "aggregatedDurations": {
+          "median": 0.005134,
+          "average": 0.005134
+        },
+        "durations": [
+          {
+            "duration": 0.005134,
+            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/AttHomePage.feature:22"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click TV Button",
+    "steps": [
+      {
+        "name": "I click TV Button",
+        "aggregatedDurations": {
+          "median": 4.204899,
+          "average": 4.204899
+        },
+        "durations": [
+          {
+            "duration": 4.204899,
+            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/AttHomePage.feature:26"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on shop now button",
+    "steps": [
+      {
+        "name": "I click on shop now button",
+        "aggregatedDurations": {
+          "median": 2.511459,
+          "average": 2.511459
+        },
+        "durations": [
+          {
+            "duration": 2.511459,
+            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/AttHomePage.feature:27"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify Choose a TV package is appear properly",
+    "steps": [
+      {
+        "name": "I verify Choose a TV package is appear properly",
+        "aggregatedDurations": {
+          "median": 5.027939,
+          "average": 5.027939
+        },
+        "durations": [
+          {
+            "duration": 5.027939,
+            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/AttHomePage.feature:28"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify page title as Shop AT\u0026T Bundles",
+    "steps": [
+      {
+        "name": "I verify page title as Shop AT\u0026T Bundles",
+        "aggregatedDurations": {
+          "median": 0.006907,
+          "average": 0.006907
+        },
+        "durations": [
+          {
+            "duration": 0.006907,
+            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/AttHomePage.feature:29"
           }
         ]
       }
@@ -59,13 +309,13 @@
       {
         "name": "I click accountIcon",
         "aggregatedDurations": {
-          "median": 40.258841,
-          "average": 40.258841
+          "median": 40.268212,
+          "average": 40.268212
         },
         "durations": [
           {
-            "duration": 40.258841,
-            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:9"
+            "duration": 40.268212,
+            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/AttRegistration.feature:9"
           }
         ]
       }
@@ -77,13 +327,13 @@
       {
         "name": "I click singInButton",
         "aggregatedDurations": {
-          "median": 46.49692,
-          "average": 46.49692
+          "median": 41.022672,
+          "average": 41.022672
         },
         "durations": [
           {
-            "duration": 46.49692,
-            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:10"
+            "duration": 41.022672,
+            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/AttRegistration.feature:10"
           }
         ]
       }
@@ -95,13 +345,13 @@
       {
         "name": "I click on CreateButton",
         "aggregatedDurations": {
-          "median": 41.39905,
-          "average": 41.39905
+          "median": 41.693568,
+          "average": 41.693568
         },
         "durations": [
           {
-            "duration": 41.39905,
-            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:11"
+            "duration": 41.693568,
+            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/AttRegistration.feature:11"
           }
         ]
       }
@@ -113,13 +363,13 @@
       {
         "name": "I click wireless radioButton and continueButton",
         "aggregatedDurations": {
-          "median": 52.332506,
-          "average": 52.332506
+          "median": 57.112116,
+          "average": 57.112116
         },
         "durations": [
           {
-            "duration": 52.332506,
-            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:12"
+            "duration": 57.112116,
+            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/AttRegistration.feature:12"
           }
         ]
       }
@@ -131,13 +381,13 @@
       {
         "name": "I enter phoneNumber and zipCode",
         "aggregatedDurations": {
-          "median": 3.285283,
-          "average": 3.285283
+          "median": 3.367582,
+          "average": 3.367582
         },
         "durations": [
           {
-            "duration": 3.285283,
-            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:13"
+            "duration": 3.367582,
+            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/AttRegistration.feature:13"
           }
         ]
       }
@@ -149,13 +399,13 @@
       {
         "name": "I click continueButton",
         "aggregatedDurations": {
-          "median": 0.085912,
-          "average": 0.085912
+          "median": 0.163568,
+          "average": 0.163568
         },
         "durations": [
           {
-            "duration": 0.085912,
-            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:14"
+            "duration": 0.163568,
+            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/AttRegistration.feature:14"
           }
         ]
       }
@@ -167,13 +417,13 @@
       {
         "name": "I should be get en error message",
         "aggregatedDurations": {
-          "median": 0.817155,
-          "average": 0.817155
+          "median": 0.609466,
+          "average": 0.609466
         },
         "durations": [
           {
-            "duration": 0.817155,
-            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:15"
+            "duration": 0.609466,
+            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/AttRegistration.feature:15"
           }
         ]
       }
@@ -185,25 +435,21 @@
       {
         "name": "I on signIn page",
         "aggregatedDurations": {
-          "median": 85.495872,
-          "average": 84.69456975
+          "median": 83.112424,
+          "average": 85.258754666
         },
         "durations": [
           {
-            "duration": 82.194504,
-            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:19"
+            "duration": 81.456399,
+            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/AttRegistration.feature:19"
           },
           {
-            "duration": 85.592031,
-            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:26"
+            "duration": 91.207441,
+            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/AttRegistration.feature:26"
           },
           {
-            "duration": 85.481802,
-            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:26"
-          },
-          {
-            "duration": 85.509942,
-            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:26"
+            "duration": 83.112424,
+            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/AttRegistration.feature:26"
           }
         ]
       }
@@ -215,13 +461,13 @@
       {
         "name": "I enter userName and passWord",
         "aggregatedDurations": {
-          "median": 7.019383,
-          "average": 7.019383
+          "median": 3.884387,
+          "average": 3.884387
         },
         "durations": [
           {
-            "duration": 7.019383,
-            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:20"
+            "duration": 3.884387,
+            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/AttRegistration.feature:20"
           }
         ]
       }
@@ -233,25 +479,21 @@
       {
         "name": "I click on signIn button",
         "aggregatedDurations": {
-          "median": 2.2414705,
-          "average": 2.3163635
+          "median": 3.007369,
+          "average": 3.144141666
         },
         "durations": [
           {
-            "duration": 3.121671,
-            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:21"
+            "duration": 3.721337,
+            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/AttRegistration.feature:21"
           },
           {
-            "duration": 2.15003,
-            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:28"
+            "duration": 3.007369,
+            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/AttRegistration.feature:28"
           },
           {
-            "duration": 1.660842,
-            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:28"
-          },
-          {
-            "duration": 2.332911,
-            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:28"
+            "duration": 2.703719,
+            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/AttRegistration.feature:28"
           }
         ]
       }
@@ -263,39 +505,26 @@
       {
         "name": "I enter email as \"admin@yourstore.com\" and password as \"admin\"",
         "aggregatedDurations": {
-          "median": 0.324295,
-          "average": 0.324295
+          "median": 5.923725,
+          "average": 5.923725
         },
         "durations": [
           {
-            "duration": 0.324295,
-            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:27"
-          }
-        ]
-      },
-      {
-        "name": "I enter email as \"oalfaruque@gmail.com\" and password as \"15021972\"",
-        "aggregatedDurations": {
-          "median": 0.409654,
-          "average": 0.409654
-        },
-        "durations": [
-          {
-            "duration": 0.409654,
-            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:27"
+            "duration": 5.923725,
+            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/AttRegistration.feature:27"
           }
         ]
       },
       {
         "name": "I enter email as \"mikemiller@gmail.com\" and password as \"01012010\"",
         "aggregatedDurations": {
-          "median": 0.331662,
-          "average": 0.331662
+          "median": 3.868716,
+          "average": 3.868716
         },
         "durations": [
           {
-            "duration": 0.331662,
-            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:27"
+            "duration": 3.868716,
+            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/AttRegistration.feature:27"
           }
         ]
       }
@@ -307,13 +536,13 @@
       {
         "name": "I click on burgerButton",
         "aggregatedDurations": {
-          "median": 0.15293,
-          "average": 0.15293
+          "median": 0.12777,
+          "average": 0.12777
         },
         "durations": [
           {
-            "duration": 0.15293,
-            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:39"
+            "duration": 0.12777,
+            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/AttRegistration.feature:39"
           }
         ]
       }
@@ -325,13 +554,13 @@
       {
         "name": "I select wireless and click on Explore Wireless",
         "aggregatedDurations": {
-          "median": 1.75924,
-          "average": 1.75924
+          "median": 0.827648,
+          "average": 0.827648
         },
         "durations": [
           {
-            "duration": 1.75924,
-            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:40"
+            "duration": 0.827648,
+            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/AttRegistration.feature:40"
           }
         ]
       }
@@ -343,13 +572,13 @@
       {
         "name": "I verify page title",
         "aggregatedDurations": {
-          "median": 0.005303,
-          "average": 0.005303
+          "median": 0.00426,
+          "average": 0.00426
         },
         "durations": [
           {
-            "duration": 0.005303,
-            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:41"
+            "duration": 0.00426,
+            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/AttRegistration.feature:41"
           }
         ]
       }
@@ -361,48 +590,13 @@
       {
         "name": "I enter Apple iPhone 11 in searchBox",
         "aggregatedDurations": {
-          "median": 0.210496,
-          "average": 0.210496
+          "median": 0.303091,
+          "average": 0.303091
         },
         "durations": [
           {
-            "duration": 0.210496,
+            "duration": 0.303091,
             "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/SearchBox.feature:9"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "I enter {string} in searchBox",
-    "steps": [
-      {
-        "name": "I enter \"Apple iPhone 11\" in searchBox",
-        "aggregatedDurations": {
-          "median": 0.276113,
-          "average": 0.276113
-        },
-        "durations": [
-          {
-            "duration": 0.281428,
-            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/SearchBox.feature:16"
-          },
-          {
-            "duration": 0.270798,
-            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/SearchBox.feature:23"
-          }
-        ]
-      },
-      {
-        "name": "I enter \"Apple iPhone 10\" in searchBox",
-        "aggregatedDurations": {
-          "median": 0.321464,
-          "average": 0.321464
-        },
-        "durations": [
-          {
-            "duration": 0.321464,
-            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/SearchBox.feature:23"
           }
         ]
       }
@@ -414,17 +608,60 @@
       {
         "name": "I click searchButton",
         "aggregatedDurations": {
-          "median": 12.91769,
-          "average": 12.91769
+          "median": 4.880453,
+          "average": 5.32088425
         },
         "durations": [
           {
-            "duration": 3.575214,
+            "duration": 3.724514,
+            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/SearchBox.feature:10"
+          },
+          {
+            "duration": 4.55997,
             "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/SearchBox.feature:17"
           },
           {
-            "duration": 22.260166,
+            "duration": 7.798117,
             "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/SearchBox.feature:24"
+          },
+          {
+            "duration": 5.200936,
+            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/SearchBox.feature:24"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter {string} in searchBox",
+    "steps": [
+      {
+        "name": "I enter \"Apple iPhone 11\" in searchBox",
+        "aggregatedDurations": {
+          "median": 0.3309265,
+          "average": 0.3309265
+        },
+        "durations": [
+          {
+            "duration": 0.290872,
+            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/SearchBox.feature:16"
+          },
+          {
+            "duration": 0.370981,
+            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/SearchBox.feature:23"
+          }
+        ]
+      },
+      {
+        "name": "I enter \"Apple iPhone 10\" in searchBox",
+        "aggregatedDurations": {
+          "median": 0.409255,
+          "average": 0.409255
+        },
+        "durations": [
+          {
+            "duration": 0.409255,
+            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/SearchBox.feature:23"
           }
         ]
       }
@@ -436,12 +673,12 @@
       {
         "name": "I validate \"Apple iPhone 11\" is appear properly",
         "aggregatedDurations": {
-          "median": 2.588581,
-          "average": 2.588581
+          "median": 2.239308,
+          "average": 2.239308
         },
         "durations": [
           {
-            "duration": 2.588581,
+            "duration": 2.239308,
             "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/SearchBox.feature:18"
           }
         ]
@@ -454,12 +691,12 @@
       {
         "name": "I validate page title as iphone 11",
         "aggregatedDurations": {
-          "median": 0.081571,
-          "average": 0.081571
+          "median": 0.009736,
+          "average": 0.009736
         },
         "durations": [
           {
-            "duration": 0.081571,
+            "duration": 0.009736,
             "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/SearchBox.feature:19"
           }
         ]

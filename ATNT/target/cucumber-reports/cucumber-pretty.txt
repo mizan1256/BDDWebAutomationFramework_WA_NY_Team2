@@ -1,30 +1,59 @@
 
 @SmokeTest
-Scenario: Atnt Sign Up Functionality check with invalid credentials # src/test/java/features/HomePage.feature:8
-  Given I am in att homepage                                        # stepdefinitions.HomePageStepDefinitions.i_am_in_att_homepage()
-  And I click accountIcon                                           # stepdefinitions.HomePageStepDefinitions.i_click_account_icon()
-  And I click singInButton                                          # stepdefinitions.HomePageStepDefinitions.i_click_sing_in_button()
-  When I click on CreateButton                                      # stepdefinitions.HomePageStepDefinitions.i_click_on_create_button()
-  And I click wireless radioButton and continueButton               # stepdefinitions.HomePageStepDefinitions.i_click_wireless_radio_button_and_continue_button()
-  Then I enter phoneNumber and zipCode                              # stepdefinitions.HomePageStepDefinitions.i_enter_phone_number_and_zip_code()
-  When I click continueButton                                       # stepdefinitions.HomePageStepDefinitions.i_click_continue_button()
-  And I should be get en error message                              # stepdefinitions.HomePageStepDefinitions.i_should_be_get_en_error_message()
+Scenario: Att deals button Functionality check with valid data                            # src/test/java/features/AttHomePage.feature:7
+  Given I am in att homepage                                                              # stepdefinitions.AttRegiStepDefinitions.i_am_in_att_homepage()
+  When I click Deals Button                                                               # stepdefinitions.AttHomePageStepDefinitions.i_click_deals_button()
+  Then I verify Wireless is appear properly                                               # stepdefinitions.AttHomePageStepDefinitions.i_verify_wireless_is_appear_properly()
+  And I verify page title as AT&T Deals on Phones, Wireless Plans, Internet & TV Services # stepdefinitions.AttHomePageStepDefinitions.i_verify_page_title_as_at_t_deals_on_phones_wireless_plans_internet_tv_services()
 
 @SmokeTest
-Scenario: Check signIn with invalid credentials # src/test/java/features/HomePage.feature:18
-  Given I am in att homepage                    # stepdefinitions.HomePageStepDefinitions.i_am_in_att_homepage()
-  And I on signIn page                          # stepdefinitions.HomePageStepDefinitions.i_on_sign_in_page()
-  When I enter userName and passWord            # stepdefinitions.HomePageStepDefinitions.i_enter_user_name_and_pass_word()
-  And I click on signIn button                  # stepdefinitions.HomePageStepDefinitions.i_click_on_sign_in_button()
-  Then I am getting error message               # stepdefinitions.HomePageStepDefinitions.i_am_getting_error_message()
+Scenario: Att Wireless button Functionality check with valid data                # src/test/java/features/AttHomePage.feature:13
+  Given I am in att homepage                                                     # stepdefinitions.AttRegiStepDefinitions.i_am_in_att_homepage()
+  When I click Wireless Button                                                   # stepdefinitions.AttHomePageStepDefinitions.i_click_wireless_button()
+  Then I verify LEARN HOW TO is appear properly                                  # stepdefinitions.AttHomePageStepDefinitions.i_verify_learn_how_to_is_appear_properly()
+  And I verify page title as AT&T Wireless – Latest Phones & Best Wireless Plans # stepdefinitions.AttHomePageStepDefinitions.i_verify_page_title_as_at_t_wireless_latest_phones_best_wireless_plans()
+
+@SmokeTest
+Scenario: Att Internet button Functionality check with valid data                      # src/test/java/features/AttHomePage.feature:19
+  Given I am in att homepage                                                           # stepdefinitions.AttRegiStepDefinitions.i_am_in_att_homepage()
+  When I click internet Button                                                         # stepdefinitions.AttHomePageStepDefinitions.i_click_internet_button()
+  Then I verify AT&T INTERNET is appear properly                                       # stepdefinitions.AttHomePageStepDefinitions.i_verify_at_t_internet_is_appear_properly()
+  And I verify page title as AT&T Internet Plans - Home Internet - AT&T® Official Site # stepdefinitions.AttHomePageStepDefinitions.i_verify_page_title_as_at_t_internet_plans_home_internet_at_t_official_site()
+
+@SmokeTest
+Scenario: Att TV button Functionality check with valid data # src/test/java/features/AttHomePage.feature:25
+  Given I am in att homepage                                # stepdefinitions.AttRegiStepDefinitions.i_am_in_att_homepage()
+  When I click TV Button                                    # stepdefinitions.AttHomePageStepDefinitions.i_click_tv_button()
+  And I click on shop now button                            # stepdefinitions.AttHomePageStepDefinitions.i_click_on_shop_now_button()
+  Then I verify Choose a TV package is appear properly      # stepdefinitions.AttHomePageStepDefinitions.i_verify_choose_a_tv_package_is_appear_properly()
+  And I verify page title as Shop AT&T Bundles              # stepdefinitions.AttHomePageStepDefinitions.i_verify_page_title_as_shop_at_t_bundles()
+
+@SmokeTest
+Scenario: Atnt Sign Up Functionality check with invalid credentials # src/test/java/features/AttRegistration.feature:8
+  Given I am in att homepage                                        # stepdefinitions.AttRegiStepDefinitions.i_am_in_att_homepage()
+  And I click accountIcon                                           # stepdefinitions.AttRegiStepDefinitions.i_click_account_icon()
+  And I click singInButton                                          # stepdefinitions.AttRegiStepDefinitions.i_click_sing_in_button()
+  When I click on CreateButton                                      # stepdefinitions.AttRegiStepDefinitions.i_click_on_create_button()
+  And I click wireless radioButton and continueButton               # stepdefinitions.AttRegiStepDefinitions.i_click_wireless_radio_button_and_continue_button()
+  Then I enter phoneNumber and zipCode                              # stepdefinitions.AttRegiStepDefinitions.i_enter_phone_number_and_zip_code()
+  When I click continueButton                                       # stepdefinitions.AttRegiStepDefinitions.i_click_continue_button()
+  And I should be get en error message                              # stepdefinitions.AttRegiStepDefinitions.i_should_be_get_en_error_message()
+
+@SmokeTest
+Scenario: Check signIn with invalid credentials # src/test/java/features/AttRegistration.feature:18
+  Given I am in att homepage                    # stepdefinitions.AttRegiStepDefinitions.i_am_in_att_homepage()
+  And I on signIn page                          # stepdefinitions.AttRegiStepDefinitions.i_on_sign_in_page()
+  When I enter userName and passWord            # stepdefinitions.AttRegiStepDefinitions.i_enter_user_name_and_pass_word()
+  And I click on signIn button                  # stepdefinitions.AttRegiStepDefinitions.i_click_on_sign_in_button()
+  Then I am getting error message               # stepdefinitions.AttRegiStepDefinitions.i_am_getting_error_message()
       org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='errorDescArea']"}
-  (Session info: chrome=85.0.4183.102)
+  (Session info: chrome=85.0.4183.121)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:a9c7:73e3:b299:1374%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:64f4:6584:30b4:691d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:54633}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 648c5b811062f7e0a333629d8cd81b06
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:64035}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 686068ad3d7ca2a8bd4cda53000d2cdc
 *** Element info: {Using=xpath, value=//div[@id='errorDescArea']}
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -40,42 +69,53 @@ Session ID: 648c5b811062f7e0a333629d8cd81b06
 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at atnthome.AtntHome.validateSignInPage(AtntHome.java:52)
-	at stepdefinitions.HomePageStepDefinitions.i_am_getting_error_message(HomePageStepDefinitions.java:114)
-	at ✽.I am getting error message(file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:22)
+	at atntregistration.AttRegistration.validateSignInPage(AttRegistration.java:52)
+	at stepdefinitions.AttRegiStepDefinitions.i_am_getting_error_message(AttRegiStepDefinitions.java:104)
+	at ✽.I am getting error message(file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/AttRegistration.feature:22)
 
 
     Embedding Demo [image/png 98330 bytes]
 
       org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:a9c7:73e3:b299:1374%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:64f4:6584:30b4:691d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
 Driver info: driver.version: RemoteWebDriver
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
 	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
-	at stepdefinitions.SearchBoxStepDefinitions.tearDown(SearchBoxStepDefinitions.java:23)
+	at stepdefinitions.AttRegiStepDefinitions.tearDown(AttRegiStepDefinitions.java:28)
+
+      org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:64f4:6584:30b4:691d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at stepdefinitions.SearchBoxStepDefinitions.tearDown(SearchBoxStepDefinitions.java:22)
 
 
 @SmokeTest
-Scenario Outline: Login into att using Data Driven                   # src/test/java/features/HomePage.feature:33
-  Given I am in att homepage                                         # stepdefinitions.HomePageStepDefinitions.i_am_in_att_homepage()
-  And I on signIn page                                               # stepdefinitions.HomePageStepDefinitions.i_on_sign_in_page()
-  And I enter email as "admin@yourstore.com" and password as "admin" # stepdefinitions.HomePageStepDefinitions.i_enter_email_as_and_password_as(java.lang.String,java.lang.String)
-  And I click on signIn button                                       # stepdefinitions.HomePageStepDefinitions.i_click_on_sign_in_button()
-  Then I am getting error message                                    # stepdefinitions.HomePageStepDefinitions.i_am_getting_error_message()
+Scenario Outline: Login into att using Data Driven                   # src/test/java/features/AttRegistration.feature:33
+  Given I am in att homepage                                         # stepdefinitions.AttRegiStepDefinitions.i_am_in_att_homepage()
+  And I on signIn page                                               # stepdefinitions.AttRegiStepDefinitions.i_on_sign_in_page()
+  And I enter email as "admin@yourstore.com" and password as "admin" # stepdefinitions.AttRegiStepDefinitions.i_enter_email_as_and_password_as(java.lang.String,java.lang.String)
+  And I click on signIn button                                       # stepdefinitions.AttRegiStepDefinitions.i_click_on_sign_in_button()
+  Then I am getting error message                                    # stepdefinitions.AttRegiStepDefinitions.i_am_getting_error_message()
       org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='errorDescArea']"}
-  (Session info: chrome=85.0.4183.102)
+  (Session info: chrome=85.0.4183.121)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:a9c7:73e3:b299:1374%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:64f4:6584:30b4:691d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:54779}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: c9ff7213995331bc40dce2aec2f612b7
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:65022}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 26c16d23e5c1bb3f0036f1ba10c338b7
 *** Element info: {Using=xpath, value=//div[@id='errorDescArea']}
-	at jdk.internal.reflect.GeneratedConstructorAccessor12.newInstance(Unknown Source)
+	at jdk.internal.reflect.GeneratedConstructorAccessor16.newInstance(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
@@ -88,140 +128,47 @@ Session ID: c9ff7213995331bc40dce2aec2f612b7
 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at atnthome.AtntHome.validateSignInPage(AtntHome.java:52)
-	at stepdefinitions.HomePageStepDefinitions.i_am_getting_error_message(HomePageStepDefinitions.java:114)
-	at ✽.I am getting error message(file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:29)
+	at atntregistration.AttRegistration.validateSignInPage(AttRegistration.java:52)
+	at stepdefinitions.AttRegiStepDefinitions.i_am_getting_error_message(AttRegiStepDefinitions.java:104)
+	at ✽.I am getting error message(file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/AttRegistration.feature:29)
 
 
     Embedding Demo [image/png 98330 bytes]
 
       org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:a9c7:73e3:b299:1374%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:64f4:6584:30b4:691d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
 Driver info: driver.version: RemoteWebDriver
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
 	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
-	at stepdefinitions.SearchBoxStepDefinitions.tearDown(SearchBoxStepDefinitions.java:23)
-
-
-@SmokeTest
-Scenario Outline: Login into att using Data Driven                       # src/test/java/features/HomePage.feature:34
-  Given I am in att homepage                                             # stepdefinitions.HomePageStepDefinitions.i_am_in_att_homepage()
-  And I on signIn page                                                   # stepdefinitions.HomePageStepDefinitions.i_on_sign_in_page()
-  And I enter email as "oalfaruque@gmail.com" and password as "15021972" # stepdefinitions.HomePageStepDefinitions.i_enter_email_as_and_password_as(java.lang.String,java.lang.String)
-  And I click on signIn button                                           # stepdefinitions.HomePageStepDefinitions.i_click_on_sign_in_button()
-  Then I am getting error message                                        # stepdefinitions.HomePageStepDefinitions.i_am_getting_error_message()
-      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='errorDescArea']"}
-  (Session info: chrome=85.0.4183.102)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:a9c7:73e3:b299:1374%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:54928}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 9ccd8b1065c5ef4c371a4305e4740a0a
-*** Element info: {Using=xpath, value=//div[@id='errorDescArea']}
-	at jdk.internal.reflect.GeneratedConstructorAccessor12.newInstance(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at atnthome.AtntHome.validateSignInPage(AtntHome.java:52)
-	at stepdefinitions.HomePageStepDefinitions.i_am_getting_error_message(HomePageStepDefinitions.java:114)
-	at ✽.I am getting error message(file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:29)
-
-
-    Embedding Demo [image/png 98330 bytes]
+	at stepdefinitions.AttRegiStepDefinitions.tearDown(AttRegiStepDefinitions.java:28)
 
       org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:a9c7:73e3:b299:1374%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:64f4:6584:30b4:691d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
 Driver info: driver.version: RemoteWebDriver
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
 	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
-	at stepdefinitions.SearchBoxStepDefinitions.tearDown(SearchBoxStepDefinitions.java:23)
+	at stepdefinitions.SearchBoxStepDefinitions.tearDown(SearchBoxStepDefinitions.java:22)
 
 
 @SmokeTest
-Scenario Outline: Login into att using Data Driven                       # src/test/java/features/HomePage.feature:35
-  Given I am in att homepage                                             # stepdefinitions.HomePageStepDefinitions.i_am_in_att_homepage()
-  And I on signIn page                                                   # stepdefinitions.HomePageStepDefinitions.i_on_sign_in_page()
-  And I enter email as "mikemiller@gmail.com" and password as "01012010" # stepdefinitions.HomePageStepDefinitions.i_enter_email_as_and_password_as(java.lang.String,java.lang.String)
-  And I click on signIn button                                           # stepdefinitions.HomePageStepDefinitions.i_click_on_sign_in_button()
-  Then I am getting error message                                        # stepdefinitions.HomePageStepDefinitions.i_am_getting_error_message()
-      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='errorDescArea']"}
-  (Session info: chrome=85.0.4183.102)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Scenario Outline: Login into att using Data Driven                       # src/test/java/features/AttRegistration.feature:34
+  Given I am in att homepage                                             # stepdefinitions.AttRegiStepDefinitions.i_am_in_att_homepage()
+  And I on signIn page                                                   # stepdefinitions.AttRegiStepDefinitions.i_on_sign_in_page()
+      org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=85.0.4183.121)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:a9c7:73e3:b299:1374%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:64f4:6584:30b4:691d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:55080}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 40377388bb663d3eb51ed6c33d540f50
-*** Element info: {Using=xpath, value=//div[@id='errorDescArea']}
-	at jdk.internal.reflect.GeneratedConstructorAccessor12.newInstance(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at atnthome.AtntHome.validateSignInPage(AtntHome.java:52)
-	at stepdefinitions.HomePageStepDefinitions.i_am_getting_error_message(HomePageStepDefinitions.java:114)
-	at ✽.I am getting error message(file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:29)
-
-
-    Embedding Demo [image/png 98330 bytes]
-
-      org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:a9c7:73e3:b299:1374%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
-	at stepdefinitions.SearchBoxStepDefinitions.tearDown(SearchBoxStepDefinitions.java:23)
-
-
-@SmokeTest
-Scenario: Att menu burgerButton test                  # src/test/java/features/HomePage.feature:38
-  Given I am in att homepage                          # stepdefinitions.HomePageStepDefinitions.i_am_in_att_homepage()
-  When I click on burgerButton                        # stepdefinitions.HomePageStepDefinitions.i_click_on_burger_button()
-  And I select wireless and click on Explore Wireless # stepdefinitions.HomePageStepDefinitions.i_select_wireless_and_click_on_explore_wireless()
-  And I verify page title                             # stepdefinitions.HomePageStepDefinitions.i_verify_page_title()
-
-@SmokeTest
-Scenario: Att searchBox functionality check with valid data # src/test/java/features/SearchBox.feature:8
-  Given I am in att homepage                                # stepdefinitions.HomePageStepDefinitions.i_am_in_att_homepage()
-  And I enter Apple iPhone 11 in searchBox                  # stepdefinitions.SearchBoxStepDefinitions.i_enter_iphone_in_search_box(java.lang.Integer)
-  When I click searchButton                                 # stepdefinitions.SearchBoxStepDefinitions.i_click_search_button()
-      org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 20.000
-  (Session info: chrome=85.0.4183.102)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:a9c7:73e3:b299:1374%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:55264}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 81c24b91c1bebd3901d5c2d2c803d9a3
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:49381}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 9112a50350f57c983d65419e36b4a6ec
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -234,64 +181,172 @@ Session ID: 81c24b91c1bebd3901d5c2d2c803d9a3
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
 	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at common.WebAPI.clickOnElement(WebAPI.java:226)
+	at atntregistration.AttRegistration.signInButton(AttRegistration.java:15)
+	at stepdefinitions.AttRegiStepDefinitions.i_on_sign_in_page(AttRegiStepDefinitions.java:90)
+	at ✽.I on signIn page(file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/AttRegistration.feature:26)
+
+  And I enter email as "oalfaruque@gmail.com" and password as "15021972" # stepdefinitions.AttRegiStepDefinitions.i_enter_email_as_and_password_as(java.lang.String,java.lang.String)
+  And I click on signIn button                                           # stepdefinitions.AttRegiStepDefinitions.i_click_on_sign_in_button()
+  Then I am getting error message                                        # stepdefinitions.AttRegiStepDefinitions.i_am_getting_error_message()
+
+    Embedding Demo [image/png 872635 bytes]
+
+      org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:64f4:6584:30b4:691d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at stepdefinitions.AttRegiStepDefinitions.tearDown(AttRegiStepDefinitions.java:28)
+
+      org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:64f4:6584:30b4:691d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at stepdefinitions.SearchBoxStepDefinitions.tearDown(SearchBoxStepDefinitions.java:22)
+
+
+@SmokeTest
+Scenario Outline: Login into att using Data Driven                       # src/test/java/features/AttRegistration.feature:35
+  Given I am in att homepage                                             # stepdefinitions.AttRegiStepDefinitions.i_am_in_att_homepage()
+  And I on signIn page                                                   # stepdefinitions.AttRegiStepDefinitions.i_on_sign_in_page()
+  And I enter email as "mikemiller@gmail.com" and password as "01012010" # stepdefinitions.AttRegiStepDefinitions.i_enter_email_as_and_password_as(java.lang.String,java.lang.String)
+  And I click on signIn button                                           # stepdefinitions.AttRegiStepDefinitions.i_click_on_sign_in_button()
+  Then I am getting error message                                        # stepdefinitions.AttRegiStepDefinitions.i_am_getting_error_message()
+      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='errorDescArea']"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:64f4:6584:30b4:691d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:49625}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 765d353a5916b4217827e37e3f95717f
+*** Element info: {Using=xpath, value=//div[@id='errorDescArea']}
+	at jdk.internal.reflect.GeneratedConstructorAccessor16.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at atntregistration.AttRegistration.validateSignInPage(AttRegistration.java:52)
+	at stepdefinitions.AttRegiStepDefinitions.i_am_getting_error_message(AttRegiStepDefinitions.java:104)
+	at ✽.I am getting error message(file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/AttRegistration.feature:29)
+
+
+    Embedding Demo [image/png 98330 bytes]
+
+      org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:64f4:6584:30b4:691d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at stepdefinitions.AttRegiStepDefinitions.tearDown(AttRegiStepDefinitions.java:28)
+
+      org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:64f4:6584:30b4:691d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at stepdefinitions.SearchBoxStepDefinitions.tearDown(SearchBoxStepDefinitions.java:22)
+
+
+@SmokeTest
+Scenario: Att menu burgerButton test                  # src/test/java/features/AttRegistration.feature:38
+  Given I am in att homepage                          # stepdefinitions.AttRegiStepDefinitions.i_am_in_att_homepage()
+  When I click on burgerButton                        # stepdefinitions.AttRegiStepDefinitions.i_click_on_burger_button()
+  And I select wireless and click on Explore Wireless # stepdefinitions.AttRegiStepDefinitions.i_select_wireless_and_click_on_explore_wireless()
+  And I verify page title                             # stepdefinitions.AttRegiStepDefinitions.i_verify_page_title()
+
+@SmokeTest
+Scenario: Att searchBox functionality check with valid data # src/test/java/features/SearchBox.feature:8
+  Given I am in att homepage                                # stepdefinitions.AttRegiStepDefinitions.i_am_in_att_homepage()
+  And I enter Apple iPhone 11 in searchBox                  # stepdefinitions.SearchBoxStepDefinitions.i_enter_iphone_in_search_box(java.lang.Integer)
+  When I click searchButton                                 # stepdefinitions.SearchBoxStepDefinitions.i_click_search_button()
+  Then I verify Apple iPhone 11 is appear properly          # stepdefinitions.SearchBoxStepDefinitions.i_verify_apple_i_phone_is_appear_properly(java.lang.Integer)
+      org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:64f4:6584:30b4:691d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:50546}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 9a170e7b211bdc949947dad38be29985
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:166)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at com.sun.proxy.$Proxy26.click(Unknown Source)
-	at SearchBox.SearchBox.searchBtnCheck(SearchBox.java:25)
-	at stepdefinitions.SearchBoxStepDefinitions.i_click_search_button(SearchBoxStepDefinitions.java:44)
-	at ✽.I click searchButton(file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/SearchBox.feature:10)
+	at com.sun.proxy.$Proxy25.getText(Unknown Source)
+	at SearchBox.SearchBox.validateSearchBoxTxt(SearchBox.java:29)
+	at stepdefinitions.SearchBoxStepDefinitions.i_verify_apple_i_phone_is_appear_properly(SearchBoxStepDefinitions.java:48)
+	at ✽.I verify Apple iPhone 11 is appear properly(file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/SearchBox.feature:11)
 
-  Then I verify Apple iPhone 11 is appear properly          # stepdefinitions.SearchBoxStepDefinitions.i_verify_apple_i_phone_is_appear_properly(java.lang.Integer)
   And I verify page title as iphone 11                      # stepdefinitions.SearchBoxStepDefinitions.i_verify_page_title_as_iphone(java.lang.Integer)
-      org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 10.000
-  (Session info: chrome=85.0.4183.102)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:a9c7:73e3:b299:1374%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:55264}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 81c24b91c1bebd3901d5c2d2c803d9a3
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
-	at stepdefinitions.HomePageStepDefinitions.tearDown(HomePageStepDefinitions.java:34)
 
-      org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 10.000
-  (Session info: chrome=85.0.4183.102)
+    Embedding Demo [image/png 555549 bytes]
+
+      org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:a9c7:73e3:b299:1374%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:55264}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 81c24b91c1bebd3901d5c2d2c803d9a3
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:64f4:6584:30b4:691d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
 	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
-	at stepdefinitions.SearchBoxStepDefinitions.tearDown(SearchBoxStepDefinitions.java:23)
+	at stepdefinitions.AttRegiStepDefinitions.tearDown(AttRegiStepDefinitions.java:28)
+
+      org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:64f4:6584:30b4:691d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at stepdefinitions.SearchBoxStepDefinitions.tearDown(SearchBoxStepDefinitions.java:22)
 
 
 @SmokeTest
 Scenario: Att searchBox functionality check with valid data # src/test/java/features/SearchBox.feature:15
-  Given I am in att homepage                                # stepdefinitions.HomePageStepDefinitions.i_am_in_att_homepage()
+  Given I am in att homepage                                # stepdefinitions.AttRegiStepDefinitions.i_am_in_att_homepage()
   And I enter "Apple iPhone 11" in searchBox                # stepdefinitions.SearchBoxStepDefinitions.i_enter_in_search_box(java.lang.String)
   When I click searchButton                                 # stepdefinitions.SearchBoxStepDefinitions.i_click_search_button()
   Then I validate "Apple iPhone 11" is appear properly      # stepdefinitions.SearchBoxStepDefinitions.i_validate_is_appear_properly(java.lang.String)
@@ -299,58 +354,91 @@ Scenario: Att searchBox functionality check with valid data # src/test/java/feat
 
 @SmokeTest
 Scenario Outline: Att searchBox check with multiple value using data driven  # src/test/java/features/SearchBox.feature:30
-  Given I am in att homepage                                                 # stepdefinitions.HomePageStepDefinitions.i_am_in_att_homepage()
+  Given I am in att homepage                                                 # stepdefinitions.AttRegiStepDefinitions.i_am_in_att_homepage()
   And I enter "Apple iPhone 11" in searchBox                                 # stepdefinitions.SearchBoxStepDefinitions.i_enter_in_search_box(java.lang.String)
   When I click searchButton                                                  # stepdefinitions.SearchBoxStepDefinitions.i_click_search_button()
-      org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 20.000
-  (Session info: chrome=85.0.4183.102)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:a9c7:73e3:b299:1374%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:55429}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 9e201245e13e670c9f0f73ea1546c1f2
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+  And I validate "Showing results for "Apple iPhone 11"." is appear properly # stepdefinitions.SearchBoxStepDefinitions.i_validate_showing_results_for_apple_i_phone_is_appear_properly(java.lang.String)
+      io.cucumber.core.exception.CucumberException: Could not invoke step [I validate "Showing results for "Apple iPhone {int}"." is appear properly] defined at 'stepdefinitions.SearchBoxStepDefinitions.i_validate_showing_results_for_apple_i_phone_is_appear_properly(java.lang.String)'.
+It appears there was a problem with the step definition.
+The converted arguments types were (java.lang.Integer)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.couldNotInvokeStep(PickleStepDefinitionMatch.java:130)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:65)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:63)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:49)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:99)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:71)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:199)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:234)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:230)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:58)
+Caused by: io.cucumber.core.backend.CucumberBackendException: Failed to invoke public void stepdefinitions.SearchBoxStepDefinitions.i_validate_showing_results_for_apple_i_phone_is_appear_properly(java.lang.String)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:68)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	... 30 more
+Caused by: java.lang.IllegalArgumentException: argument type mismatch
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at com.sun.proxy.$Proxy26.click(Unknown Source)
-	at SearchBox.SearchBox.searchBtnCheck(SearchBox.java:25)
-	at stepdefinitions.SearchBoxStepDefinitions.i_click_search_button(SearchBoxStepDefinitions.java:44)
-	at ✽.I click searchButton(file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/SearchBox.feature:24)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	... 35 more
 
-  And I validate "Showing results for "Apple iPhone 11"." is appear properly # stepdefinitions.SearchBoxStepDefinitions.i_validate_showing_results_for_apple_i_phone_is_appear_properly(java.lang.String)
   And I validate page title as "Results for Apple iPhones 11 - AT&T Search"  # stepdefinitions.SearchBoxStepDefinitions.i_validate_page_title_as(java.lang.String)
 
-    Embedding Demo [image/png 510157 bytes]
+    Embedding Demo [image/png 555665 bytes]
 
       org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:a9c7:73e3:b299:1374%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:64f4:6584:30b4:691d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
 Driver info: driver.version: RemoteWebDriver
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
 	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
-	at stepdefinitions.SearchBoxStepDefinitions.tearDown(SearchBoxStepDefinitions.java:23)
+	at stepdefinitions.AttRegiStepDefinitions.tearDown(AttRegiStepDefinitions.java:28)
+
+      org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:64f4:6584:30b4:691d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at stepdefinitions.SearchBoxStepDefinitions.tearDown(SearchBoxStepDefinitions.java:22)
 
 
 @SmokeTest
 Scenario Outline: Att searchBox check with multiple value using data driven  # src/test/java/features/SearchBox.feature:31
-  Given I am in att homepage                                                 # stepdefinitions.HomePageStepDefinitions.i_am_in_att_homepage()
+  Given I am in att homepage                                                 # stepdefinitions.AttRegiStepDefinitions.i_am_in_att_homepage()
   And I enter "Apple iPhone 10" in searchBox                                 # stepdefinitions.SearchBoxStepDefinitions.i_enter_in_search_box(java.lang.String)
   When I click searchButton                                                  # stepdefinitions.SearchBoxStepDefinitions.i_click_search_button()
   And I validate "Showing results for "Apple iphone 10"." is appear properly # null

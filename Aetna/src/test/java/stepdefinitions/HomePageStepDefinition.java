@@ -97,6 +97,11 @@ public class HomePageStepDefinition extends WebAPI {
     public void i_click_on_dental_vision_and_supplemental() throws InterruptedException {
         homePage.dentalAndVisionCheck();
     }
+    // Dental plan
+    @When("I go dental, vision and supplemental")
+    public void i_go_dental_vision_and_supplemental() throws InterruptedException {
+        homePage.dentalAndVisionCheck();
+    }
 
     @When("I click dental plans")
     public void i_click_dental_plans() {
@@ -122,5 +127,70 @@ public class HomePageStepDefinition extends WebAPI {
     @Then("I validate Aetna Dental Direct plan is appeared properly")
     public void i_validate_aetna_dental_direct_plan_is_appeared_properly() {
         homePage.validateVisionPlansCheck("Aetna Dental Direct plan");
+    }
+    /**
+     * Find an Eye Doctor
+     */
+
+    @When("I click find an eye doctor")
+    public void i_click_find_an_eye_doctor() {
+        homePage.findAnEyeDoctorCheck();
+    }
+    /**
+     * Supplemental Plans
+     */
+
+    @When("I click supplemental plans")
+    public void i_click_supplemental_plans() {
+        homePage.supplementalPlansCheck();
+    }
+
+    @Then("I validate Accident plans is appeared properly")
+    public void i_validate_accident_plans_is_appeared_properly() {
+        homePage.validateSupplementalPlansCheck("Accident plans");
+    }
+    /**
+     * Pharmacy -  Get pharmacy plan
+     */
+
+    @When("I go pharmacy element")
+    public void i_go_pharmacy_element() {
+        homePage.pharmacyBtnCheck();
+    }
+
+    @And("I click Get pharmacy plan information")
+    public void i_click_get_pharmacy_plan_information() {
+        homePage.getPharmacyPlans();
+    }
+
+    @Then("I validate Aetna Medicare is appeared properly")
+    public void i_validate_aetna_medicare_is_appeared_properly() {
+        homePage.validateGetPharmacyPlans("Aetna Medicare:");
+    }
+    /**
+     * Find A Pharmacy
+     */
+
+    @And("I click find a pharmacy")
+    public void i_click_find_a_pharmacy() {
+        homePage.findAPharmacyCheck();
+    }
+
+    @Then("I validate *Required Selections is appeared properly")
+    public void i_validate_required_selections_is_appeared_properly() {
+        homePage.validateFindAPharmacyCheck("*Required Selections");
+    }
+    /**
+     * Find Medicine and Costs
+     */
+
+    @When("I click find medicine and costs")
+    public void i_click_find_medicine_and_costs() {
+        homePage.findAMedicineAndCostsCheck();
+    }
+
+    @Then("I validate Already a member? is appeared properly")
+    public void i_validate_already_a_member_is_appeared_properly() {
+        homePage.validateFindAMedicineAndCostsCheck("Already a member?");
     }
 }

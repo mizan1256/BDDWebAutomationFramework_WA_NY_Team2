@@ -5,68 +5,80 @@
       {
         "name": "I am on targetEcommerce home page",
         "aggregatedDurations": {
-          "median": 4.579472,
-          "average": 4.780019266
+          "median": 4.2935205,
+          "average": 4.784978777
         },
         "durations": [
           {
-            "duration": 6.332924,
+            "duration": 4.10312,
             "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/PickUpAndDelivery.feature:4"
           },
           {
-            "duration": 5.627955,
+            "duration": 5.710499,
             "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/PickUpAndDelivery.feature:4"
           },
           {
-            "duration": 4.579472,
+            "duration": 9.272228,
             "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/PickUpAndDelivery.feature:4"
           },
           {
-            "duration": 3.296789,
+            "duration": 4.906187,
             "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/PickUpAndDelivery.feature:4"
           },
           {
-            "duration": 4.282235,
+            "duration": 5.238518,
             "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/PickUpAndDelivery.feature:4"
           },
           {
-            "duration": 6.501281,
+            "duration": 4.238314,
             "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetecommerceHomePage.feature:5"
           },
           {
-            "duration": 3.339722,
+            "duration": 5.110692,
             "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetecommerceHomePage.feature:5"
           },
           {
-            "duration": 3.834771,
+            "duration": 3.311185,
             "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetecommerceHomePage.feature:5"
           },
           {
-            "duration": 3.68818,
+            "duration": 4.29213,
             "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetecommerceHomePage.feature:5"
           },
           {
-            "duration": 5.848886,
+            "duration": 7.954499,
             "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetecommerceHomePage.feature:5"
           },
           {
-            "duration": 6.211731,
+            "duration": 3.078979,
             "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetecommerceHomePage.feature:5"
           },
           {
-            "duration": 4.139546,
+            "duration": 4.111188,
             "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetecommerceHomePage.feature:5"
           },
           {
-            "duration": 5.143673,
+            "duration": 3.146053,
             "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetecommerceHomePage.feature:5"
           },
           {
-            "duration": 5.407297,
+            "duration": 4.767454,
             "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetecommerceHomePage.feature:5"
           },
           {
-            "duration": 3.465827,
+            "duration": 4.294911,
+            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetecommerceHomePage.feature:5"
+          },
+          {
+            "duration": 6.321967,
+            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetecommerceHomePage.feature:5"
+          },
+          {
+            "duration": 3.410906,
+            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetecommerceHomePage.feature:5"
+          },
+          {
+            "duration": 2.860788,
             "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetecommerceHomePage.feature:5"
           }
         ]
@@ -79,28 +91,28 @@
       {
         "name": "I click on pickUp and delivery button",
         "aggregatedDurations": {
-          "median": 0.096803,
-          "average": 0.1232184
+          "median": 0.1027,
+          "average": 0.1067862
         },
         "durations": [
           {
-            "duration": 0.09149,
+            "duration": 0.1012,
             "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/PickUpAndDelivery.feature:5"
           },
           {
-            "duration": 0.096803,
+            "duration": 0.114225,
             "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/PickUpAndDelivery.feature:5"
           },
           {
-            "duration": 0.096139,
+            "duration": 0.11498,
             "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/PickUpAndDelivery.feature:5"
           },
           {
-            "duration": 0.2315,
+            "duration": 0.100826,
             "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/PickUpAndDelivery.feature:5"
           },
           {
-            "duration": 0.10016,
+            "duration": 0.1027,
             "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/PickUpAndDelivery.feature:5"
           }
         ]
@@ -108,54 +120,36 @@
     ]
   },
   {
-    "source": "I click on same day delivery button",
+    "source": "I validate searchBox is displayed",
     "steps": [
       {
-        "name": "I click on same day delivery button",
+        "name": "I validate searchBox is displayed",
         "aggregatedDurations": {
-          "median": 3.194952,
-          "average": 3.194952
+          "median": 0.069654,
+          "average": 0.069654
         },
         "durations": [
           {
-            "duration": 3.194952,
-            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/PickUpAndDelivery.feature:21"
+            "duration": 0.069654,
+            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetecommerceHomePage.feature:9"
           }
         ]
       }
     ]
   },
   {
-    "source": "I do necessary steps to land on signIn page",
+    "source": "I enter iPhone in searchBox",
     "steps": [
       {
-        "name": "I do necessary steps to land on signIn page",
+        "name": "I enter iPhone in searchBox",
         "aggregatedDurations": {
-          "median": 11.421474,
-          "average": 11.421474
+          "median": 0.654036,
+          "average": 0.654036
         },
         "durations": [
           {
-            "duration": 11.421474,
-            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/PickUpAndDelivery.feature:26"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "I enter {string} as email and {string} as password",
-    "steps": [
-      {
-        "name": "I enter \"mizan_1256@yahoo.com\" as email and \"Tasmi1256\" as password",
-        "aggregatedDurations": {
-          "median": 6.737113,
-          "average": 6.737113
-        },
-        "durations": [
-          {
-            "duration": 6.737113,
-            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/PickUpAndDelivery.feature:27"
+            "duration": 0.654036,
+            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetecommerceHomePage.feature:13"
           }
         ]
       }
@@ -167,12 +161,16 @@
       {
         "name": "I enter \"iPhone\" in searchBox",
         "aggregatedDurations": {
-          "median": 0.352788,
-          "average": 0.352788
+          "median": 0.31876,
+          "average": 0.31876
         },
         "durations": [
           {
-            "duration": 0.352788,
+            "duration": 0.273107,
+            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetecommerceHomePage.feature:19"
+          },
+          {
+            "duration": 0.364413,
             "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetecommerceHomePage.feature:25"
           }
         ]
@@ -180,12 +178,12 @@
       {
         "name": "I enter \"T-shirt for men\" in searchBox",
         "aggregatedDurations": {
-          "median": 0.466692,
-          "average": 0.466692
+          "median": 0.470246,
+          "average": 0.470246
         },
         "durations": [
           {
-            "duration": 0.466692,
+            "duration": 0.470246,
             "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetecommerceHomePage.feature:25"
           }
         ]
@@ -193,12 +191,12 @@
       {
         "name": "I enter \"mens jeans\" in searchBox",
         "aggregatedDurations": {
-          "median": 0.444862,
-          "average": 0.444862
+          "median": 0.395741,
+          "average": 0.395741
         },
         "durations": [
           {
-            "duration": 0.444862,
+            "duration": 0.395741,
             "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetecommerceHomePage.feature:25"
           }
         ]
@@ -206,388 +204,13 @@
       {
         "name": "I enter \"mens watches\" in searchBox",
         "aggregatedDurations": {
-          "median": 0.501214,
-          "average": 0.501214
+          "median": 0.45498,
+          "average": 0.45498
         },
         "durations": [
           {
-            "duration": 0.501214,
+            "duration": 0.45498,
             "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetecommerceHomePage.feature:25"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "I click searchButton",
-    "steps": [
-      {
-        "name": "I click searchButton",
-        "aggregatedDurations": {
-          "median": 0.3385535,
-          "average": 0.32537025
-        },
-        "durations": [
-          {
-            "duration": 0.331616,
-            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetecommerceHomePage.feature:26"
-          },
-          {
-            "duration": 0.345491,
-            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetecommerceHomePage.feature:26"
-          },
-          {
-            "duration": 0.253133,
-            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetecommerceHomePage.feature:26"
-          },
-          {
-            "duration": 0.371241,
-            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetecommerceHomePage.feature:26"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "I validate {string} is appear properly",
-    "steps": [
-      {
-        "name": "I validate \"iPhone\" is appear properly",
-        "aggregatedDurations": {
-          "median": 0.001942,
-          "average": 0.001942
-        },
-        "durations": [
-          {
-            "duration": 0.001942,
-            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetecommerceHomePage.feature:27"
-          }
-        ]
-      },
-      {
-        "name": "I validate \"“T-shirt for men”\" is appear properly",
-        "aggregatedDurations": {
-          "median": 2.76E-4,
-          "average": 2.76E-4
-        },
-        "durations": [
-          {
-            "duration": 2.76E-4,
-            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetecommerceHomePage.feature:27"
-          }
-        ]
-      },
-      {
-        "name": "I validate \"“mens jeans”\" is appear properly",
-        "aggregatedDurations": {
-          "median": 1.96E-4,
-          "average": 1.96E-4
-        },
-        "durations": [
-          {
-            "duration": 1.96E-4,
-            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetecommerceHomePage.feature:27"
-          }
-        ]
-      },
-      {
-        "name": "I validate \"“mens watches”\" is appear properly",
-        "aggregatedDurations": {
-          "median": 1.8E-4,
-          "average": 1.8E-4
-        },
-        "durations": [
-          {
-            "duration": 1.8E-4,
-            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetecommerceHomePage.feature:27"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "I validate page title as {string}",
-    "steps": [
-      {
-        "name": "I validate page title as \"Target : Expect More. Pay Less.\"",
-        "aggregatedDurations": {
-          "median": 0.0061795,
-          "average": 0.0156295
-        },
-        "durations": [
-          {
-            "duration": 0.005693,
-            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetecommerceHomePage.feature:28"
-          },
-          {
-            "duration": 0.006666,
-            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetecommerceHomePage.feature:28"
-          },
-          {
-            "duration": 0.005332,
-            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetecommerceHomePage.feature:28"
-          },
-          {
-            "duration": 0.044827,
-            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetecommerceHomePage.feature:28"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "I do necessary steps to land on User info page",
-    "steps": [
-      {
-        "name": "I do necessary steps to land on User info page",
-        "aggregatedDurations": {
-          "median": 3.433087,
-          "average": 3.433087
-        },
-        "durations": [
-          {
-            "duration": 3.433087,
-            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetecommerceHomePage.feature:39"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "I enter user credentials",
-    "steps": [
-      {
-        "name": "I enter user credentials",
-        "aggregatedDurations": {
-          "median": 0.680047,
-          "average": 0.680047
-        },
-        "durations": [
-          {
-            "duration": 0.680047,
-            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetecommerceHomePage.feature:40"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "I click on create account",
-    "steps": [
-      {
-        "name": "I click on create account",
-        "aggregatedDurations": {
-          "median": 0.432848,
-          "average": 0.432848
-        },
-        "durations": [
-          {
-            "duration": 0.432848,
-            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetecommerceHomePage.feature:43"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "I validate signUp message",
-    "steps": [
-      {
-        "name": "I validate signUp message",
-        "aggregatedDurations": {
-          "median": 0.472827,
-          "average": 0.472827
-        },
-        "durations": [
-          {
-            "duration": 0.472827,
-            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetecommerceHomePage.feature:44"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "I am on signIn page",
-    "steps": [
-      {
-        "name": "I am on signIn page",
-        "aggregatedDurations": {
-          "median": 2.9408805,
-          "average": 2.9408805
-        },
-        "durations": [
-          {
-            "duration": 3.341216,
-            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetecommerceHomePage.feature:48"
-          },
-          {
-            "duration": 2.540545,
-            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetecommerceHomePage.feature:48"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "I enter email as {string} and password as {string}",
-    "steps": [
-      {
-        "name": "I enter email as \"admin@yourstore.com\" and password as \"admin\"",
-        "aggregatedDurations": {
-          "median": 3.354155,
-          "average": 3.354155
-        },
-        "durations": [
-          {
-            "duration": 3.354155,
-            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetecommerceHomePage.feature:49"
-          }
-        ]
-      },
-      {
-        "name": "I enter email as \"mizan@gmail.com\" and password as \"15021972\"",
-        "aggregatedDurations": {
-          "median": 4.791051,
-          "average": 4.791051
-        },
-        "durations": [
-          {
-            "duration": 4.791051,
-            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetecommerceHomePage.feature:49"
-          }
-        ]
-      },
-      {
-        "name": "I enter email as \"mizan_1256@yahoo.com\" and password as \"Tasmi@1256\"",
-        "aggregatedDurations": {
-          "median": 3.472997,
-          "average": 3.472997
-        },
-        "durations": [
-          {
-            "duration": 3.472997,
-            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetecommerceHomePage.feature:68"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "I click on signIn button",
-    "steps": [
-      {
-        "name": "I click on signIn button",
-        "aggregatedDurations": {
-          "median": 0.070114,
-          "average": 0.070114
-        },
-        "durations": [
-          {
-            "duration": 0.066741,
-            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetecommerceHomePage.feature:50"
-          },
-          {
-            "duration": 0.073487,
-            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetecommerceHomePage.feature:50"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "I should be getting a message",
-    "steps": [
-      {
-        "name": "I should be getting a message",
-        "aggregatedDurations": {
-          "median": 0.009878,
-          "average": 0.009878
-        },
-        "durations": [
-          {
-            "duration": 0.010535,
-            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetecommerceHomePage.feature:51"
-          },
-          {
-            "duration": 0.009221,
-            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetecommerceHomePage.feature:51"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "I click on shopping cart Icon",
-    "steps": [
-      {
-        "name": "I click on shopping cart Icon",
-        "aggregatedDurations": {
-          "median": 0.6797515,
-          "average": 0.6797515
-        },
-        "durations": [
-          {
-            "duration": 1.200918,
-            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetecommerceHomePage.feature:61"
-          },
-          {
-            "duration": 0.158585,
-            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetecommerceHomePage.feature:66"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "I validate shopping cart page",
-    "steps": [
-      {
-        "name": "I validate shopping cart page",
-        "aggregatedDurations": {
-          "median": 6.049025,
-          "average": 6.049025
-        },
-        "durations": [
-          {
-            "duration": 6.049025,
-            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetecommerceHomePage.feature:62"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "I click on shopping cart signIn button",
-    "steps": [
-      {
-        "name": "I click on shopping cart signIn button",
-        "aggregatedDurations": {
-          "median": 7.802464,
-          "average": 7.802464
-        },
-        "durations": [
-          {
-            "duration": 7.802464,
-            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetecommerceHomePage.feature:67"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "I validate shopping cart log in page",
-    "steps": [
-      {
-        "name": "I validate shopping cart log in page",
-        "aggregatedDurations": {
-          "median": 0.005379,
-          "average": 0.005379
-        },
-        "durations": [
-          {
-            "duration": 0.005379,
-            "location": "file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetecommerceHomePage.feature:69"
           }
         ]
       }

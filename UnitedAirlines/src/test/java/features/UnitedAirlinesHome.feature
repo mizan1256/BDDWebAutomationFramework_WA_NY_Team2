@@ -3,7 +3,7 @@ Feature: United Airlines SignUp functionality test
   Background:
     Given I am in United Air home page
 
- #@SmokeTest
+ @SmokeTest
   Scenario: United Airlines Flight Status functionality test
     When I click Flight status
     And I enter City in From field and To field
@@ -11,14 +11,14 @@ Feature: United Airlines SignUp functionality test
     Then I click Search Button
 
 
- # @SmokeTest
+ @SmokeTest
   Scenario: United Airlines Check In functionality test
     When I click Check In
     And I enter ticket Number and Last Name
     Then I click checkIn Search Button
     And I validate Check In page message
 
-   # @SmokeTest
+    @SmokeTest
     Scenario: United Airlines Book Button functionality test
       When I click on Book Button
       And I click on Hotels Button
@@ -33,7 +33,7 @@ Feature: United Airlines SignUp functionality test
     Then I verify image
 
 
- # @SmokeTest
+ @SmokeTest
   Scenario: United login functionality Check with variable
     And I click on signInOption
     And I enter "mizan1256" and "Pnt@30242"
@@ -41,7 +41,7 @@ Feature: United Airlines SignUp functionality test
     Then I verify image
 
 
- # @SmokeTest
+ @SmokeTest
   Scenario Outline: United login functionality Check with multiple variable
     And I click on signInOption
     And I enter "<userName>" and "<password>"
@@ -79,7 +79,7 @@ Feature: United Airlines SignUp functionality test
 
 
 #flight search
- # @SmokeTest
+ @SmokeTest
   Scenario: United round trip flights functionality Check
 #    And I enter location From*
     And I enter location To
@@ -89,7 +89,7 @@ Feature: United Airlines SignUp functionality test
     Then I verify SearchFlightsTitle
 
 
-  #@SmokeTest
+@SmokeTest
   Scenario: United round trip flights functionality Check with multiple flights
     And I enter destination location "London"*
     And I clear enter depart Date departDate
@@ -97,7 +97,7 @@ Feature: United Airlines SignUp functionality test
     When I click findFlights
     Then I verify SearchFlightsTitle
 
-  #@SmokeTest
+  @SmokeTest
   Scenario Outline: United round trip flights functionality Check with variable
     And I enter destination location "<location>"*
     And I clear enter depart Date departDate
