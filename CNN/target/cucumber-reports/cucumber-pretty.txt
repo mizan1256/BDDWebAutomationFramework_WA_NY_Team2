@@ -1,0 +1,314 @@
+
+@SmokeTest
+Scenario: Login with invalid credentials             # src/test/java/features/CnnLogin.feature:11
+  Given I am on cnn home page                        # stepdefinitions.CnnHomeStepsDefinitions.i_am_on_cnn_home_page()
+  When I click on user account button                # stepdefinitions.CnnHomeStepsDefinitions.i_click_on_user_account_button()
+  And I enter "test@gmail.com" into email text field # stepdefinitions.CnnHomeStepsDefinitions.i_enter_into_email_text_field(java.lang.String)
+  And I enter "123456" into password text field      # stepdefinitions.CnnHomeStepsDefinitions.i_enter_into_password_text_field(java.lang.String)
+  And I click on login button                        # stepdefinitions.CnnHomeStepsDefinitions.i_click_on_login_button()
+  Then I verify invalid login text                   # stepdefinitions.CnnHomeStepsDefinitions.i_verify_invalid_login_text()
+
+@SmokeTest
+Scenario Outline: Login with invalid credentials for multiple users # src/test/java/features/CnnLogin.feature:28
+  Given I am on cnn home page                                       # stepdefinitions.CnnHomeStepsDefinitions.i_am_on_cnn_home_page()
+  When I click on user account button                               # stepdefinitions.CnnHomeStepsDefinitions.i_click_on_user_account_button()
+  And I enter "pnt123@gmail.com" into email text field              # stepdefinitions.CnnHomeStepsDefinitions.i_enter_into_email_text_field(java.lang.String)
+  And I enter "test123456" into password text field                 # stepdefinitions.CnnHomeStepsDefinitions.i_enter_into_password_text_field(java.lang.String)
+  And I click on login button                                       # stepdefinitions.CnnHomeStepsDefinitions.i_click_on_login_button()
+  Then I verify invalid login text                                  # stepdefinitions.CnnHomeStepsDefinitions.i_verify_invalid_login_text()
+
+@SmokeTest
+Scenario Outline: Login with invalid credentials for multiple users # src/test/java/features/CnnLogin.feature:29
+  Given I am on cnn home page                                       # stepdefinitions.CnnHomeStepsDefinitions.i_am_on_cnn_home_page()
+  When I click on user account button                               # stepdefinitions.CnnHomeStepsDefinitions.i_click_on_user_account_button()
+  And I enter "ant321@gmail.com" into email text field              # stepdefinitions.CnnHomeStepsDefinitions.i_enter_into_email_text_field(java.lang.String)
+  And I enter "ant123456" into password text field                  # stepdefinitions.CnnHomeStepsDefinitions.i_enter_into_password_text_field(java.lang.String)
+  And I click on login button                                       # stepdefinitions.CnnHomeStepsDefinitions.i_click_on_login_button()
+  Then I verify invalid login text                                  # stepdefinitions.CnnHomeStepsDefinitions.i_verify_invalid_login_text()
+
+@SmokeTest
+Scenario: Login with  all valid credentials               # src/test/java/features/CnnLogin.feature:33
+  Given I am on cnn home page                             # stepdefinitions.CnnHomeStepsDefinitions.i_am_on_cnn_home_page()
+  When I click on user account button                     # stepdefinitions.CnnHomeStepsDefinitions.i_click_on_user_account_button()
+  And I enter "pntp.2020@gmail.com" into email text field # stepdefinitions.CnnHomeStepsDefinitions.i_enter_into_email_text_field(java.lang.String)
+  And I enter "Test2020@" into password text field        # stepdefinitions.CnnHomeStepsDefinitions.i_enter_into_password_text_field(java.lang.String)
+  And I click on login button                             # stepdefinitions.CnnHomeStepsDefinitions.i_click_on_login_button()
+  Then I verify the page title                            # stepdefinitions.CnnHomeStepsDefinitions.i_verify_the_page_title()
+
+@SmokeTest
+Scenario: Sign up  with invalid email address      # src/test/java/features/CnnSignup.feature:10
+  Given I am on cnn home page                      # stepdefinitions.CnnHomeStepsDefinitions.i_am_on_cnn_home_page()
+  When I click on user account button              # stepdefinitions.CnnHomeStepsDefinitions.i_click_on_user_account_button()
+  And I click on sign up link                      # stepdefinitions.CnnHomeStepsDefinitions.i_click_on_sign_up_link()
+  And I enter "abcd" into email text field         # stepdefinitions.CnnHomeStepsDefinitions.i_enter_into_email_text_field(java.lang.String)
+  And I enter "Test2020@" into password text field # stepdefinitions.CnnHomeStepsDefinitions.i_enter_into_password_text_field(java.lang.String)
+      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='loginPassword']"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Syeds-MacBook-Pro.local', ip: '2604:2000:b102:8800:24ab:2c28:90a:c5df%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/4y/llbfbmfx3tv...}, goog:chromeOptions: {debuggerAddress: localhost:49975}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 34aa55a8608c169dc4b2024c09040382
+*** Element info: {Using=xpath, value=//input[@name='loginPassword']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy24.sendKeys(Unknown Source)
+	at common.WebAPI.typeOnElement(WebAPI.java:226)
+	at cnnhome.CnnHomePage.enterPasswordIntoPasswordField(CnnHomePage.java:90)
+	at stepdefinitions.CnnHomeStepsDefinitions.i_enter_into_password_text_field(CnnHomeStepsDefinitions.java:58)
+	at ✽.I enter "Test2020@" into password text field(file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/CNN/src/test/java/features/CnnSignup.feature:14)
+
+  And I enter "11435" into the zipcode text field  # stepdefinitions.CnnHomeStepsDefinitions.i_enter_into_the_zipcode_text_field(java.lang.String)
+  And I click on register button                   # stepdefinitions.CnnHomeStepsDefinitions.i_click_on_register_button()
+  Then I verify invalid email address text         # stepdefinitions.CnnHomeStepsDefinitions.i_verify_invalid_email_address_text()
+
+    Embedding Demo1 [image/png 98759 bytes]
+
+
+@SmokeTest
+Scenario: Sign up  with invalid password                  # src/test/java/features/CnnSignup.feature:20
+  Given I am on cnn home page                             # stepdefinitions.CnnHomeStepsDefinitions.i_am_on_cnn_home_page()
+  When I click on user account button                     # stepdefinitions.CnnHomeStepsDefinitions.i_click_on_user_account_button()
+  And I click on sign up link                             # stepdefinitions.CnnHomeStepsDefinitions.i_click_on_sign_up_link()
+  And I enter "pntp.2020@gmail.com" into email text field # stepdefinitions.CnnHomeStepsDefinitions.i_enter_into_email_text_field(java.lang.String)
+      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='loginEmail']"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Syeds-MacBook-Pro.local', ip: '2604:2000:b102:8800:24ab:2c28:90a:c5df%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/4y/llbfbmfx3tv...}, goog:chromeOptions: {debuggerAddress: localhost:50350}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5e7af19fbcbc9b91c78f753280cd1377
+*** Element info: {Using=xpath, value=//input[@name='loginEmail']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy24.sendKeys(Unknown Source)
+	at common.WebAPI.typeOnElement(WebAPI.java:226)
+	at cnnhome.CnnHomePage.enterEmailIntoEmailField(CnnHomePage.java:86)
+	at stepdefinitions.CnnHomeStepsDefinitions.i_enter_into_email_text_field(CnnHomeStepsDefinitions.java:53)
+	at ✽.I enter "pntp.2020@gmail.com" into email text field(file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/CNN/src/test/java/features/CnnSignup.feature:23)
+
+  And I enter "asdfghj" into password text field          # stepdefinitions.CnnHomeStepsDefinitions.i_enter_into_password_text_field(java.lang.String)
+  And I enter "11435" into the zipcode text field         # stepdefinitions.CnnHomeStepsDefinitions.i_enter_into_the_zipcode_text_field(java.lang.String)
+  And I click on register button                          # stepdefinitions.CnnHomeStepsDefinitions.i_click_on_register_button()
+  Then I verify invalid password text                     # stepdefinitions.CnnHomeStepsDefinitions.i_verify_invalid_password_text()
+
+    Embedding Demo1 [image/png 98759 bytes]
+
+
+@SmokeTest
+Scenario: Sign up  with invalid zipcode                   # src/test/java/features/CnnSignup.feature:30
+  Given I am on cnn home page                             # stepdefinitions.CnnHomeStepsDefinitions.i_am_on_cnn_home_page()
+  When I click on user account button                     # stepdefinitions.CnnHomeStepsDefinitions.i_click_on_user_account_button()
+  And I click on sign up link                             # stepdefinitions.CnnHomeStepsDefinitions.i_click_on_sign_up_link()
+  And I enter "pntp.2020@gmail.com" into email text field # stepdefinitions.CnnHomeStepsDefinitions.i_enter_into_email_text_field(java.lang.String)
+      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='loginEmail']"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Syeds-MacBook-Pro.local', ip: '2604:2000:b102:8800:24ab:2c28:90a:c5df%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/4y/llbfbmfx3tv...}, goog:chromeOptions: {debuggerAddress: localhost:50737}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 6f94f6001c8f53eb05232ab38c7653d4
+*** Element info: {Using=xpath, value=//input[@name='loginEmail']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy24.sendKeys(Unknown Source)
+	at common.WebAPI.typeOnElement(WebAPI.java:226)
+	at cnnhome.CnnHomePage.enterEmailIntoEmailField(CnnHomePage.java:86)
+	at stepdefinitions.CnnHomeStepsDefinitions.i_enter_into_email_text_field(CnnHomeStepsDefinitions.java:53)
+	at ✽.I enter "pntp.2020@gmail.com" into email text field(file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/CNN/src/test/java/features/CnnSignup.feature:33)
+
+  And I enter "asdfghj" into password text field          # stepdefinitions.CnnHomeStepsDefinitions.i_enter_into_password_text_field(java.lang.String)
+  And I enter "11435" into the zipcode text field         # stepdefinitions.CnnHomeStepsDefinitions.i_enter_into_the_zipcode_text_field(java.lang.String)
+  And I click on register button                          # stepdefinitions.CnnHomeStepsDefinitions.i_click_on_register_button()
+  Then I verify invalid zipcode message                   # stepdefinitions.CnnHomeStepsDefinitions.i_verify_invalid_zipcode_message()
+
+    Embedding Demo1 [image/png 98759 bytes]
+
+
+@SmokeTest
+Scenario Outline: : Sign up with valid credentials            # src/test/java/features/CnnSignup.feature:51
+  Given I am on cnn home page                                 # stepdefinitions.CnnHomeStepsDefinitions.i_am_on_cnn_home_page()
+  When I click on user account button                         # stepdefinitions.CnnHomeStepsDefinitions.i_click_on_user_account_button()
+  And I click on sign up link                                 # stepdefinitions.CnnHomeStepsDefinitions.i_click_on_sign_up_link()
+  And I enter "pntp.2020@gmail.com" into the eamil text field # stepdefinitions.CnnHomeStepsDefinitions.i_enter_into_the_eamil_text_field(java.lang.String)
+  And I enter "Test2020@" into the password text field        # stepdefinitions.CnnHomeStepsDefinitions.i_enter_into_the_password_text_field(java.lang.String)
+  And I enter "11435" into the zipcode text field             # stepdefinitions.CnnHomeStepsDefinitions.i_enter_into_the_zipcode_text_field(java.lang.String)
+  And I click on register button                              # stepdefinitions.CnnHomeStepsDefinitions.i_click_on_register_button()
+  Then I verify that account is valid                         # stepdefinitions.CnnHomeStepsDefinitions.i_verify_that_account_is_valid()
+
+@SmokeTest
+Scenario Outline: : Sign up with Invalid credentials   # src/test/java/features/CnnSignup.feature:65
+  Given I am on cnn home page                          # stepdefinitions.CnnHomeStepsDefinitions.i_am_on_cnn_home_page()
+  When I click on user account button                  # stepdefinitions.CnnHomeStepsDefinitions.i_click_on_user_account_button()
+  And I click on sign up link                          # stepdefinitions.CnnHomeStepsDefinitions.i_click_on_sign_up_link()
+  And I enter "asdf" into the eamil text field         # stepdefinitions.CnnHomeStepsDefinitions.i_enter_into_the_eamil_text_field(java.lang.String)
+  And I enter "Test1234@" into the password text field # stepdefinitions.CnnHomeStepsDefinitions.i_enter_into_the_password_text_field(java.lang.String)
+  And I enter "11435" into the zipcode text field      # stepdefinitions.CnnHomeStepsDefinitions.i_enter_into_the_zipcode_text_field(java.lang.String)
+  And I click on register button                       # stepdefinitions.CnnHomeStepsDefinitions.i_click_on_register_button()
+  Then I verify the "<errorMsg>" for invalid sign up   # stepdefinitions.CnnHomeStepsDefinitions.i_verify_the_for_invalid_sign_up(java.lang.String)
+      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='Text-sc-1amvtpj-0 indexes__FeedbackText-sc-1l7akfd-32 iygQsz']"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Syeds-MacBook-Pro.local', ip: '2604:2000:b102:8800:24ab:2c28:90a:c5df%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/4y/llbfbmfx3tv...}, goog:chromeOptions: {debuggerAddress: localhost:51410}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 21e18c74c8b07399b99a49312adef205
+*** Element info: {Using=xpath, value=//div[@class='Text-sc-1amvtpj-0 indexes__FeedbackText-sc-1l7akfd-32 iygQsz']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy24.getText(Unknown Source)
+	at cnnhome.CnnHomePage.invalidSignUpText(CnnHomePage.java:149)
+	at stepdefinitions.CnnHomeStepsDefinitions.i_verify_the_for_invalid_sign_up(CnnHomeStepsDefinitions.java:136)
+	at ✽.I verify the "<errorMsg>" for invalid sign up(file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/CNN/src/test/java/features/CnnSignup.feature:61)
+
+
+    Embedding Demo1 [image/png 140407 bytes]
+
+
+@SmokeTest
+Scenario Outline: : Sign up with Invalid credentials     # src/test/java/features/CnnSignup.feature:66
+  Given I am on cnn home page                            # stepdefinitions.CnnHomeStepsDefinitions.i_am_on_cnn_home_page()
+  When I click on user account button                    # stepdefinitions.CnnHomeStepsDefinitions.i_click_on_user_account_button()
+  And I click on sign up link                            # stepdefinitions.CnnHomeStepsDefinitions.i_click_on_sign_up_link()
+  And I enter "test@Gmail.com" into the eamil text field # stepdefinitions.CnnHomeStepsDefinitions.i_enter_into_the_eamil_text_field(java.lang.String)
+  And I enter "12345678" into the password text field    # stepdefinitions.CnnHomeStepsDefinitions.i_enter_into_the_password_text_field(java.lang.String)
+  And I enter "11435" into the zipcode text field        # stepdefinitions.CnnHomeStepsDefinitions.i_enter_into_the_zipcode_text_field(java.lang.String)
+  And I click on register button                         # stepdefinitions.CnnHomeStepsDefinitions.i_click_on_register_button()
+  Then I verify the "<errorMsg>" for invalid sign up     # stepdefinitions.CnnHomeStepsDefinitions.i_verify_the_for_invalid_sign_up(java.lang.String)
+      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='Text-sc-1amvtpj-0 indexes__FeedbackText-sc-1l7akfd-32 iygQsz']"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Syeds-MacBook-Pro.local', ip: '2604:2000:b102:8800:24ab:2c28:90a:c5df%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/4y/llbfbmfx3tv...}, goog:chromeOptions: {debuggerAddress: localhost:51777}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 123a859f4f2e7e0160ba32f1799f86c8
+*** Element info: {Using=xpath, value=//div[@class='Text-sc-1amvtpj-0 indexes__FeedbackText-sc-1l7akfd-32 iygQsz']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy24.getText(Unknown Source)
+	at cnnhome.CnnHomePage.invalidSignUpText(CnnHomePage.java:149)
+	at stepdefinitions.CnnHomeStepsDefinitions.i_verify_the_for_invalid_sign_up(CnnHomeStepsDefinitions.java:136)
+	at ✽.I verify the "<errorMsg>" for invalid sign up(file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/CNN/src/test/java/features/CnnSignup.feature:61)
+
+
+    Embedding Demo1 [image/png 178839 bytes]
+
+
+@SmokeTest
+Scenario Outline: : Sign up with Invalid credentials     # src/test/java/features/CnnSignup.feature:67
+  Given I am on cnn home page                            # stepdefinitions.CnnHomeStepsDefinitions.i_am_on_cnn_home_page()
+  When I click on user account button                    # stepdefinitions.CnnHomeStepsDefinitions.i_click_on_user_account_button()
+  And I click on sign up link                            # stepdefinitions.CnnHomeStepsDefinitions.i_click_on_sign_up_link()
+  And I enter "test@Gmail.com" into the eamil text field # stepdefinitions.CnnHomeStepsDefinitions.i_enter_into_the_eamil_text_field(java.lang.String)
+  And I enter "Test1234@" into the password text field   # stepdefinitions.CnnHomeStepsDefinitions.i_enter_into_the_password_text_field(java.lang.String)
+  And I enter "abcde" into the zipcode text field        # stepdefinitions.CnnHomeStepsDefinitions.i_enter_into_the_zipcode_text_field(java.lang.String)
+  And I click on register button                         # stepdefinitions.CnnHomeStepsDefinitions.i_click_on_register_button()
+  Then I verify the "<errorMsg>" for invalid sign up     # stepdefinitions.CnnHomeStepsDefinitions.i_verify_the_for_invalid_sign_up(java.lang.String)
+      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='Text-sc-1amvtpj-0 indexes__FeedbackText-sc-1l7akfd-32 iygQsz']"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Syeds-MacBook-Pro.local', ip: '2604:2000:b102:8800:24ab:2c28:90a:c5df%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/4y/llbfbmfx3tv...}, goog:chromeOptions: {debuggerAddress: localhost:52140}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: f4a56ee8dbda1da8bd6d0c673c8b7a23
+*** Element info: {Using=xpath, value=//div[@class='Text-sc-1amvtpj-0 indexes__FeedbackText-sc-1l7akfd-32 iygQsz']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy24.getText(Unknown Source)
+	at cnnhome.CnnHomePage.invalidSignUpText(CnnHomePage.java:149)
+	at stepdefinitions.CnnHomeStepsDefinitions.i_verify_the_for_invalid_sign_up(CnnHomeStepsDefinitions.java:136)
+	at ✽.I verify the "<errorMsg>" for invalid sign up(file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/CNN/src/test/java/features/CnnSignup.feature:61)
+
+
+    Embedding Demo1 [image/png 144217 bytes]
+

@@ -1,0 +1,544 @@
+[
+  {
+    "source": "I am on cnn home page",
+    "steps": [
+      {
+        "name": "I am on cnn home page",
+        "aggregatedDurations": {
+          "median": 6.999312,
+          "average": 6.715820545
+        },
+        "durations": [
+          {
+            "duration": 8.592754,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/CNN/src/test/java/features/CnnLogin.feature:8"
+          },
+          {
+            "duration": 5.426597,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/CNN/src/test/java/features/CnnLogin.feature:8"
+          },
+          {
+            "duration": 5.228549,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/CNN/src/test/java/features/CnnLogin.feature:8"
+          },
+          {
+            "duration": 10.005052,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/CNN/src/test/java/features/CnnLogin.feature:8"
+          },
+          {
+            "duration": 5.630042,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/CNN/src/test/java/features/CnnSignup.feature:7"
+          },
+          {
+            "duration": 7.012752,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/CNN/src/test/java/features/CnnSignup.feature:7"
+          },
+          {
+            "duration": 7.913682,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/CNN/src/test/java/features/CnnSignup.feature:7"
+          },
+          {
+            "duration": 6.999312,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/CNN/src/test/java/features/CnnSignup.feature:7"
+          },
+          {
+            "duration": 4.986297,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/CNN/src/test/java/features/CnnSignup.feature:7"
+          },
+          {
+            "duration": 7.498511,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/CNN/src/test/java/features/CnnSignup.feature:7"
+          },
+          {
+            "duration": 4.580478,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/CNN/src/test/java/features/CnnSignup.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on user account button",
+    "steps": [
+      {
+        "name": "I click on user account button",
+        "aggregatedDurations": {
+          "median": 4.173313,
+          "average": 3.597548181
+        },
+        "durations": [
+          {
+            "duration": 4.173313,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/CNN/src/test/java/features/CnnLogin.feature:12"
+          },
+          {
+            "duration": 2.749721,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/CNN/src/test/java/features/CnnLogin.feature:20"
+          },
+          {
+            "duration": 4.335302,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/CNN/src/test/java/features/CnnLogin.feature:20"
+          },
+          {
+            "duration": 0.342899,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/CNN/src/test/java/features/CnnLogin.feature:34"
+          },
+          {
+            "duration": 5.206381,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/CNN/src/test/java/features/CnnSignup.feature:11"
+          },
+          {
+            "duration": 5.798618,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/CNN/src/test/java/features/CnnSignup.feature:21"
+          },
+          {
+            "duration": 2.062335,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/CNN/src/test/java/features/CnnSignup.feature:31"
+          },
+          {
+            "duration": 2.685307,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/CNN/src/test/java/features/CnnSignup.feature:41"
+          },
+          {
+            "duration": 4.370006,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/CNN/src/test/java/features/CnnSignup.feature:55"
+          },
+          {
+            "duration": 2.238487,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/CNN/src/test/java/features/CnnSignup.feature:55"
+          },
+          {
+            "duration": 5.610661,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/CNN/src/test/java/features/CnnSignup.feature:55"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter {string} into email text field",
+    "steps": [
+      {
+        "name": "I enter \"test@gmail.com\" into email text field",
+        "aggregatedDurations": {
+          "median": 1.562539,
+          "average": 1.562539
+        },
+        "durations": [
+          {
+            "duration": 1.562539,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/CNN/src/test/java/features/CnnLogin.feature:13"
+          }
+        ]
+      },
+      {
+        "name": "I enter \"pnt123@gmail.com\" into email text field",
+        "aggregatedDurations": {
+          "median": 0.526629,
+          "average": 0.526629
+        },
+        "durations": [
+          {
+            "duration": 0.526629,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/CNN/src/test/java/features/CnnLogin.feature:21"
+          }
+        ]
+      },
+      {
+        "name": "I enter \"ant321@gmail.com\" into email text field",
+        "aggregatedDurations": {
+          "median": 1.520497,
+          "average": 1.520497
+        },
+        "durations": [
+          {
+            "duration": 1.520497,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/CNN/src/test/java/features/CnnLogin.feature:21"
+          }
+        ]
+      },
+      {
+        "name": "I enter \"pntp.2020@gmail.com\" into email text field",
+        "aggregatedDurations": {
+          "median": 0.56377,
+          "average": 0.56377
+        },
+        "durations": [
+          {
+            "duration": 0.56377,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/CNN/src/test/java/features/CnnLogin.feature:35"
+          }
+        ]
+      },
+      {
+        "name": "I enter \"abcd\" into email text field",
+        "aggregatedDurations": {
+          "median": 1.091069,
+          "average": 1.091069
+        },
+        "durations": [
+          {
+            "duration": 1.091069,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/CNN/src/test/java/features/CnnSignup.feature:13"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter {string} into password text field",
+    "steps": [
+      {
+        "name": "I enter \"123456\" into password text field",
+        "aggregatedDurations": {
+          "median": 0.438942,
+          "average": 0.438942
+        },
+        "durations": [
+          {
+            "duration": 0.438942,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/CNN/src/test/java/features/CnnLogin.feature:14"
+          }
+        ]
+      },
+      {
+        "name": "I enter \"test123456\" into password text field",
+        "aggregatedDurations": {
+          "median": 0.638351,
+          "average": 0.638351
+        },
+        "durations": [
+          {
+            "duration": 0.638351,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/CNN/src/test/java/features/CnnLogin.feature:22"
+          }
+        ]
+      },
+      {
+        "name": "I enter \"ant123456\" into password text field",
+        "aggregatedDurations": {
+          "median": 1.574015,
+          "average": 1.574015
+        },
+        "durations": [
+          {
+            "duration": 1.574015,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/CNN/src/test/java/features/CnnLogin.feature:22"
+          }
+        ]
+      },
+      {
+        "name": "I enter \"Test2020@\" into password text field",
+        "aggregatedDurations": {
+          "median": 0.733151,
+          "average": 0.733151
+        },
+        "durations": [
+          {
+            "duration": 0.733151,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/CNN/src/test/java/features/CnnLogin.feature:36"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on login button",
+    "steps": [
+      {
+        "name": "I click on login button",
+        "aggregatedDurations": {
+          "median": 0.3233085,
+          "average": 0.47089925
+        },
+        "durations": [
+          {
+            "duration": 0.201535,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/CNN/src/test/java/features/CnnLogin.feature:15"
+          },
+          {
+            "duration": 0.225709,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/CNN/src/test/java/features/CnnLogin.feature:23"
+          },
+          {
+            "duration": 1.035445,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/CNN/src/test/java/features/CnnLogin.feature:23"
+          },
+          {
+            "duration": 0.420908,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/CNN/src/test/java/features/CnnLogin.feature:37"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify invalid login text",
+    "steps": [
+      {
+        "name": "I verify invalid login text",
+        "aggregatedDurations": {
+          "median": 0.25873,
+          "average": 0.306473333
+        },
+        "durations": [
+          {
+            "duration": 0.25873,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/CNN/src/test/java/features/CnnLogin.feature:16"
+          },
+          {
+            "duration": 0.438703,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/CNN/src/test/java/features/CnnLogin.feature:24"
+          },
+          {
+            "duration": 0.221987,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/CNN/src/test/java/features/CnnLogin.feature:24"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify the page title",
+    "steps": [
+      {
+        "name": "I verify the page title",
+        "aggregatedDurations": {
+          "median": 0.012969,
+          "average": 0.012969
+        },
+        "durations": [
+          {
+            "duration": 0.012969,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/CNN/src/test/java/features/CnnLogin.feature:38"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on sign up link",
+    "steps": [
+      {
+        "name": "I click on sign up link",
+        "aggregatedDurations": {
+          "median": 0.421325,
+          "average": 0.847621285
+        },
+        "durations": [
+          {
+            "duration": 0.386242,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/CNN/src/test/java/features/CnnSignup.feature:12"
+          },
+          {
+            "duration": 0.247413,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/CNN/src/test/java/features/CnnSignup.feature:22"
+          },
+          {
+            "duration": 1.303272,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/CNN/src/test/java/features/CnnSignup.feature:32"
+          },
+          {
+            "duration": 2.682333,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/CNN/src/test/java/features/CnnSignup.feature:42"
+          },
+          {
+            "duration": 0.415175,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/CNN/src/test/java/features/CnnSignup.feature:56"
+          },
+          {
+            "duration": 0.421325,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/CNN/src/test/java/features/CnnSignup.feature:56"
+          },
+          {
+            "duration": 0.477589,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/CNN/src/test/java/features/CnnSignup.feature:56"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter {string} into the eamil text field",
+    "steps": [
+      {
+        "name": "I enter \"pntp.2020@gmail.com\" into the eamil text field",
+        "aggregatedDurations": {
+          "median": 1.136743,
+          "average": 1.136743
+        },
+        "durations": [
+          {
+            "duration": 1.136743,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/CNN/src/test/java/features/CnnSignup.feature:43"
+          }
+        ]
+      },
+      {
+        "name": "I enter \"asdf\" into the eamil text field",
+        "aggregatedDurations": {
+          "median": 1.599826,
+          "average": 1.599826
+        },
+        "durations": [
+          {
+            "duration": 1.599826,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/CNN/src/test/java/features/CnnSignup.feature:57"
+          }
+        ]
+      },
+      {
+        "name": "I enter \"test@Gmail.com\" into the eamil text field",
+        "aggregatedDurations": {
+          "median": 1.859094,
+          "average": 1.859094
+        },
+        "durations": [
+          {
+            "duration": 1.770407,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/CNN/src/test/java/features/CnnSignup.feature:57"
+          },
+          {
+            "duration": 1.947781,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/CNN/src/test/java/features/CnnSignup.feature:57"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter {string} into the password text field",
+    "steps": [
+      {
+        "name": "I enter \"Test2020@\" into the password text field",
+        "aggregatedDurations": {
+          "median": 0.16477,
+          "average": 0.16477
+        },
+        "durations": [
+          {
+            "duration": 0.16477,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/CNN/src/test/java/features/CnnSignup.feature:44"
+          }
+        ]
+      },
+      {
+        "name": "I enter \"Test1234@\" into the password text field",
+        "aggregatedDurations": {
+          "median": 0.18033,
+          "average": 0.18033
+        },
+        "durations": [
+          {
+            "duration": 0.200079,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/CNN/src/test/java/features/CnnSignup.feature:58"
+          },
+          {
+            "duration": 0.160581,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/CNN/src/test/java/features/CnnSignup.feature:58"
+          }
+        ]
+      },
+      {
+        "name": "I enter \"12345678\" into the password text field",
+        "aggregatedDurations": {
+          "median": 0.127335,
+          "average": 0.127335
+        },
+        "durations": [
+          {
+            "duration": 0.127335,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/CNN/src/test/java/features/CnnSignup.feature:58"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter {string} into the zipcode text field",
+    "steps": [
+      {
+        "name": "I enter \"11435\" into the zipcode text field",
+        "aggregatedDurations": {
+          "median": 0.125253,
+          "average": 0.123759666
+        },
+        "durations": [
+          {
+            "duration": 0.126847,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/CNN/src/test/java/features/CnnSignup.feature:45"
+          },
+          {
+            "duration": 0.125253,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/CNN/src/test/java/features/CnnSignup.feature:59"
+          },
+          {
+            "duration": 0.119179,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/CNN/src/test/java/features/CnnSignup.feature:59"
+          }
+        ]
+      },
+      {
+        "name": "I enter \"abcde\" into the zipcode text field",
+        "aggregatedDurations": {
+          "median": 0.13251,
+          "average": 0.13251
+        },
+        "durations": [
+          {
+            "duration": 0.13251,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/CNN/src/test/java/features/CnnSignup.feature:59"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on register button",
+    "steps": [
+      {
+        "name": "I click on register button",
+        "aggregatedDurations": {
+          "median": 0.1175815,
+          "average": 0.1307025
+        },
+        "durations": [
+          {
+            "duration": 0.100134,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/CNN/src/test/java/features/CnnSignup.feature:46"
+          },
+          {
+            "duration": 0.080541,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/CNN/src/test/java/features/CnnSignup.feature:60"
+          },
+          {
+            "duration": 0.207106,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/CNN/src/test/java/features/CnnSignup.feature:60"
+          },
+          {
+            "duration": 0.135029,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/CNN/src/test/java/features/CnnSignup.feature:60"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify that account is valid",
+    "steps": [
+      {
+        "name": "I verify that account is valid",
+        "aggregatedDurations": {
+          "median": 0.272823,
+          "average": 0.272823
+        },
+        "durations": [
+          {
+            "duration": 0.272823,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/CNN/src/test/java/features/CnnSignup.feature:47"
+          }
+        ]
+      }
+    ]
+  }
+]

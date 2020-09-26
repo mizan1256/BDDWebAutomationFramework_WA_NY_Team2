@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="4" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="12" time="215.015">
+    <testcase classname="Trip Advisor Hotel Book From End to End" name="Book Hotel for a couple filling up all required data" time="44.882">
+        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[@class='ui_button primary fullwidth' and text()='Update']&quot;}&#10;  (Session info: chrome=85.0.4183.121)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Syeds-MacBook-Pro.local', ip: '2604:2000:b102:8800:24ab:2c28:90a:c5df%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '11.0.8'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/4y/llbfbmfx3tv...}, goog:chromeOptions: {debuggerAddress: localhost:62333}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: b704a901f1c00f2abe8138fa0318e6a1&#10;*** Element info: {Using=xpath, value=//button[@class='ui_button primary fullwidth' and text()='Update']}" type="org.openqa.selenium.NoSuchElementException">
+            <![CDATA[Given I am on Trip advisor home page........................................passed
+When I click on Hotels button...............................................passed
+And I type "Niagara Falls" in where to field and enter......................passed
+And I input "10/01/20" into checkIn Field...................................passed
+And I input "10/04/20" into checkOutField...................................passed
+And I click on update guest button..........................................failed
+And I click on crown plaza view deal button.................................skipped
+And I navigate to crown plaza page and change currency from dropdown........skipped
+And I select one bed and click on queen bed select room button..............skipped
+And I select standard rate and click on select rate button..................skipped
+And I enter required data into respective fields............................skipped
+And I select appropriate data from drop down................................skipped
+And I select certify check mark button......................................skipped
+And I click on book reservation button......................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@class='ui_button primary fullwidth' and text()='Update']"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Syeds-MacBook-Pro.local', ip: '2604:2000:b102:8800:24ab:2c28:90a:c5df%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/4y/llbfbmfx3tv...}, goog:chromeOptions: {debuggerAddress: localhost:62333}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: b704a901f1c00f2abe8138fa0318e6a1
+*** Element info: {Using=xpath, value=//button[@class='ui_button primary fullwidth' and text()='Update']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy25.click(Unknown Source)
+	at common.WebAPI.clickOnElement(WebAPI.java:220)
+	at tripadvisorhome.HotelBookPage.clickOnUpdateGuestBtn(HotelBookPage.java:131)
+	at stepdefinitions.HotelBookSteps.i_click_on_update_guest_button(HotelBookSteps.java:75)
+	at ✽.I click on update guest button(file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TripAdvisor/src/test/java/features/HotelBook.feature:12)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="TripAdvisor HomePage Functionality check" name="TripAdvisor SearchBox Functionality check with valid data" time="7.142">
+        <system-out>
+            <![CDATA[Given I am in TripAdvisor homepage..........................................passed
+And I enter Mexico City in searchBox........................................passed
+When I click searchButton...................................................passed
+Then I verify Mexico City is appear properly................................passed
+And I verify page title as Mexico City......................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="TripAdvisor HomePage Functionality check" name="TripAdvisor sign in Functionality check with valid credentials" time="19.75">
+        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//iframe[@class='_30pzQStV']&quot;}&#10;  (Session info: chrome=85.0.4183.121)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Syeds-MacBook-Pro.local', ip: '2604:2000:b102:8800:24ab:2c28:90a:c5df%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '11.0.8'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/4y/llbfbmfx3tv...}, goog:chromeOptions: {debuggerAddress: localhost:62650}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 24786042aaafafddb128473607de9856&#10;*** Element info: {Using=xpath, value=//iframe[@class='_30pzQStV']}" type="org.openqa.selenium.NoSuchElementException">
+            <![CDATA[Given I am in TripAdvisor homepage..........................................passed
+And I click on signIn Button adn continue button............................passed
+And I enter email as "pnt30242@gmail.com" and password as "Pnt@1256"........failed
+When I click on LOG IN......................................................skipped
+Then I landed on home page..................................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//iframe[@class='_30pzQStV']"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Syeds-MacBook-Pro.local', ip: '2604:2000:b102:8800:24ab:2c28:90a:c5df%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/4y/llbfbmfx3tv...}, goog:chromeOptions: {debuggerAddress: localhost:62650}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 24786042aaafafddb128473607de9856
+*** Element info: {Using=xpath, value=//iframe[@class='_30pzQStV']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy25.getWrappedElement(Unknown Source)
+	at org.openqa.selenium.remote.internal.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:50)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:891)
+	at tripadvisorregistration.TripAdvisorRegistration.enterEmailAndPassword(TripAdvisorRegistration.java:56)
+	at stepdefinitions.RegistrationStepDefinitions.i_enter_email_as_and_password_as(RegistrationStepDefinitions.java:72)
+	at ✽.I enter email as "pnt30242@gmail.com" and password as "Pnt@1256"(file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TripAdvisor/src/test/java/features/TripAdvisor.feature:17)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Trip Advisor Home Page Functionality test" name="Trip Advisor Search box functionality test" time="12.886">
+        <system-out>
+            <![CDATA[Given I am in Trip Advisor home page........................................passed
+When I type Texas i search box..............................................passed
+And I click search button...................................................passed
+And I click Hotels Button...................................................passed
+Then I varify "Florida" is appeared properly................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Trip Advisor Home Page Functionality test" name="Trip Advisor Search box functionality test 2" time="12.589">
+        <system-out>
+            <![CDATA[Given I am in Trip Advisor home page........................................passed
+When I type Texas i search box..............................................passed
+And I click search button...................................................passed
+And I click Hotels Button...................................................passed
+And I click vacation rentals tab............................................passed
+Then I varify "Florida" is appeared properly................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Trip Advisor Home Page Functionality test" name="Trip Advisor Search box functionality test 3" time="20.692">
+        <system-out>
+            <![CDATA[Given I am in Trip Advisor home page........................................passed
+When I type Texas i search box..............................................passed
+And I click search button...................................................passed
+And I click Hotels Button...................................................passed
+And I click Restaurants tab.................................................passed
+And I click Texas Roadhouse.................................................passed
+And I navigate new windows..................................................passed
+And I click food picture....................................................passed
+And I click Gallery button..................................................passed
+Then I varify food image is appeared properly...............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Trip Advisor Home Page Functionality test" name="Trip Advisor Search box functionality test 4" time="42.841">
+        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;leftRailFilter&quot;]/div/div/div/div/div[4]&quot;}&#10;  (Session info: chrome=85.0.4183.121)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Syeds-MacBook-Pro.local', ip: '2604:2000:b102:8800:24ab:2c28:90a:c5df%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '11.0.8'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/4y/llbfbmfx3tv...}, goog:chromeOptions: {debuggerAddress: localhost:63193}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 3f845e24acdfc214abe5899fb276d987&#10;*** Element info: {Using=xpath, value=//*[@id=&quot;leftRailFilter&quot;]/div/div/div/div/div[4]}" type="org.openqa.selenium.NoSuchElementException">
+            <![CDATA[Given I am in Trip Advisor home page........................................passed
+When I click TravelForum....................................................passed
+And I click Flights.........................................................passed
+And I enter Where from and To field.........................................passed
+And I enter departure and arrival date......................................passed
+And I enter person field and close person field.............................passed
+And I click find flight button..............................................passed
+Then I varify COVID-19 Policies is appeared properly........................failed
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="leftRailFilter"]/div/div/div/div/div[4]"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Syeds-MacBook-Pro.local', ip: '2604:2000:b102:8800:24ab:2c28:90a:c5df%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/4y/llbfbmfx3tv...}, goog:chromeOptions: {debuggerAddress: localhost:63193}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 3f845e24acdfc214abe5899fb276d987
+*** Element info: {Using=xpath, value=//*[@id="leftRailFilter"]/div/div/div/div/div[4]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy25.getText(Unknown Source)
+	at tripadvisorhome.TripAdvisorHome.validateTravelForum(TripAdvisorHome.java:200)
+	at stepdefinitions.TripAdvisorHomePageStepDefinitions.i_varify_covid_policies_is_appeared_properly(TripAdvisorHomePageStepDefinitions.java:131)
+	at ✽.I varify COVID-19 Policies is appeared properly(file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TripAdvisor/src/test/java/features/TripAdvisorHomePage.feature:41)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Trip Advisor Home Page Functionality test" name="Trip Advisor Search box functionality test 5" time="10.135">
+        <failure message="invalid selector: The result of the xpath expression &quot;//*[@id=&quot;taplc_trip_search_home_flights_0&quot;]/div[2]/div/div[1]/ul/li[2]/div/a/text()&quot; is: [object Text]. It should be an element.&#10;  (Session info: chrome=85.0.4183.121)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Syeds-MacBook-Pro.local', ip: '2604:2000:b102:8800:24ab:2c28:90a:c5df%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '11.0.8'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/4y/llbfbmfx3tv...}, goog:chromeOptions: {debuggerAddress: localhost:63506}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: ad0e2913259124cb477d8d9266dfeefc&#10;*** Element info: {Using=xpath, value=//*[@id=&quot;taplc_trip_search_home_flights_0&quot;]/div[2]/div/div[1]/ul/li[2]/div/a/text()}" type="org.openqa.selenium.InvalidSelectorException">
+            <![CDATA[Given I am in Trip Advisor home page........................................passed
+When I click TravelForum and click Flight...................................passed
+And I click One way tab.....................................................failed
+And I enter Where from and To field.........................................skipped
+And I enter departure date..................................................skipped
+And I enter person field and close person field.............................skipped
+And I click find flight button..............................................skipped
+Then I varify COVID-19 Policies is appeared properly........................skipped
+
+StackTrace:
+org.openqa.selenium.InvalidSelectorException: invalid selector: The result of the xpath expression "//*[@id="taplc_trip_search_home_flights_0"]/div[2]/div/div[1]/ul/li[2]/div/a/text()" is: [object Text]. It should be an element.
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Syeds-MacBook-Pro.local', ip: '2604:2000:b102:8800:24ab:2c28:90a:c5df%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/4y/llbfbmfx3tv...}, goog:chromeOptions: {debuggerAddress: localhost:63506}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: ad0e2913259124cb477d8d9266dfeefc
+*** Element info: {Using=xpath, value=//*[@id="taplc_trip_search_home_flights_0"]/div[2]/div/div[1]/ul/li[2]/div/a/text()}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy25.click(Unknown Source)
+	at tripadvisorhome.TripAdvisorHome.oneWayTab(TripAdvisorHome.java:215)
+	at stepdefinitions.TripAdvisorHomePageStepDefinitions.i_click_one_way_tab(TripAdvisorHomePageStepDefinitions.java:142)
+	at ✽.I click One way tab(file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TripAdvisor/src/test/java/features/TripAdvisorHomePage.feature:46)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Trip Advisor Home Page Functionality test" name="Trip Advisor Search box functionality test 6" time="6.035">
+        <system-out>
+            <![CDATA[Given I am in Trip Advisor home page........................................passed
+When I click Things to Do...................................................passed
+And I type in searchBox and submit..........................................passed
+Then I varify Dhaka City is appeared properly...............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Trip Advisor Home Page Functionality test" name="Trip Advisor Search box functionality test 7" time="7.891">
+        <system-out>
+            <![CDATA[Given I am in Trip Advisor home page........................................passed
+When I click Things to Do...................................................passed
+And I type in searchBox and submit..........................................passed
+Then I varify Dhaka City is appeared properly...............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Trip Advisor Home Page Functionality test" name="Trip Advisor Search box functionality test 8" time="5.141">
+        <system-out>
+            <![CDATA[Given I am in Trip Advisor home page........................................passed
+When I click trip button....................................................passed
+And I click get start.......................................................passed
+Then I varify reCAPCHA is appeared properly.................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Trip Advisor Home Page Functionality test" name="Trip Advisor Search box functionality test 9" time="24.109">
+        <system-out>
+            <![CDATA[Given I am in Trip Advisor home page........................................passed
+When I click Post...........................................................passed
+And I click Post Photo......................................................passed
+And I click hohel radio button..............................................passed
+And I type hotel name and city name and click search button.................passed
+And select and click radio button...........................................passed
+And I click Post Photos Button and click add photo btn......................passed
+And I click select photo from your computer.................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

@@ -1,0 +1,285 @@
+
+@SmokeTest
+Scenario: Aetna Shop a plan student plans test         # src/test/java/features/HomePage.feature:7
+  Given I am on Aetna home page                        # stepdefinitions.HomePageStepDefinition.i_am_on_aetna_home_page()
+  When I click shop for a plan                         # stepdefinitions.HomePageStepDefinition.i_click_shop_for_a_plan()
+  And I go Health coverage                             # stepdefinitions.HomePageStepDefinition.i_go_health_coverage()
+  And I click Student plans                            # stepdefinitions.HomePageStepDefinition.i_click_student_plans()
+  Then I validate "Helpful links" is appeared properly # stepdefinitions.HomePageStepDefinition.i_validate_is_appeared_properly(java.lang.String)
+
+@SmokeTest
+Scenario: Aetna Shop a plan through an employer test # src/test/java/features/HomePage.feature:14
+  Given I am on Aetna home page                      # stepdefinitions.HomePageStepDefinition.i_am_on_aetna_home_page()
+  When I click shop for a plan                       # stepdefinitions.HomePageStepDefinition.i_click_shop_for_a_plan()
+  And I go Health coverage                           # stepdefinitions.HomePageStepDefinition.i_go_health_coverage()
+  And I click Plans through an employer              # stepdefinitions.HomePageStepDefinition.i_click_plans_through_an_employer()
+  Then I validate Legal notices is appeared properly # stepdefinitions.HomePageStepDefinition.i_validate_legal_notices_is_appeared_properly()
+
+@SmokeTest
+Scenario: Aetna shop a plan international plans test    # src/test/java/features/HomePage.feature:21
+  Given I am on Aetna home page                         # stepdefinitions.HomePageStepDefinition.i_am_on_aetna_home_page()
+  When I click shop for a plan                          # stepdefinitions.HomePageStepDefinition.i_click_shop_for_a_plan()
+  And I go Health coverage                              # stepdefinitions.HomePageStepDefinition.i_go_health_coverage()
+  And I click International Plans                       # stepdefinitions.HomePageStepDefinition.i_click_international_plans()
+  Then I validate Aetna Well-being is appeared properly # stepdefinitions.HomePageStepDefinition.i_validate_aetna_well_being_is_appeared_properly()
+
+@SmokeTest
+Scenario: Aetna Shop a plan find a doctor test           # src/test/java/features/HomePage.feature:28
+  Given I am on Aetna home page                          # stepdefinitions.HomePageStepDefinition.i_am_on_aetna_home_page()
+  When I click shop for a plan                           # stepdefinitions.HomePageStepDefinition.i_click_shop_for_a_plan()
+  And I go Health coverage                               # stepdefinitions.HomePageStepDefinition.i_go_health_coverage()
+  And I click find a doctor                              # stepdefinitions.HomePageStepDefinition.i_click_find_a_doctor()
+  Then I validate Already a member? is appeared properly # stepdefinitions.HomePageStepDefinition.i_validate_already_a_member_is_appeared_properly()
+      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//h2[contains(text(),'Already a member?')]"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Syeds-MacBook-Pro.local', ip: '2604:2000:b102:8800:24ab:2c28:90a:c5df%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/4y/llbfbmfx3tv...}, goog:chromeOptions: {debuggerAddress: localhost:55658}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 3f154e46784dee340f04dc5e8dd120d1
+*** Element info: {Using=xpath, value=//h2[contains(text(),'Already a member?')]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy26.getText(Unknown Source)
+	at aetnahome.HomePage.validateFindAMedicineAndCostsCheck(HomePage.java:188)
+	at stepdefinitions.HomePageStepDefinition.i_validate_already_a_member_is_appeared_properly(HomePageStepDefinition.java:183)
+	at ✽.I validate Already a member? is appeared properly(file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/HomePage.feature:32)
+
+
+    Embedding Demo [image/png 1881991 bytes]
+
+
+@SmokeTest
+Scenario: Aetna Shop a plan dental plans test        # src/test/java/features/HomePage.feature:35
+  Given I am on Aetna home page                      # stepdefinitions.HomePageStepDefinition.i_am_on_aetna_home_page()
+  When I click shop for a plan                       # stepdefinitions.HomePageStepDefinition.i_click_shop_for_a_plan()
+  And I go dental, vision and supplemental           # stepdefinitions.HomePageStepDefinition.i_go_dental_vision_and_supplemental()
+      org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=85.0.4183.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Syeds-MacBook-Pro.local', ip: '2604:2000:b102:8800:24ab:2c28:90a:c5df%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/4y/llbfbmfx3tv...}, goog:chromeOptions: {debuggerAddress: localhost:55864}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 7903b1941b5aed5617da9e583c6c82e5
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy26.click(Unknown Source)
+	at aetnahome.HomePage.dentalAndVisionCheck(HomePage.java:114)
+	at stepdefinitions.HomePageStepDefinition.i_go_dental_vision_and_supplemental(HomePageStepDefinition.java:101)
+	at ✽.I go dental, vision and supplemental(file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/HomePage.feature:37)
+
+  And I click dental plans                           # stepdefinitions.HomePageStepDefinition.i_click_dental_plans()
+  Then I validate Legal notices is appeared properly # stepdefinitions.HomePageStepDefinition.i_validate_legal_notices_is_appeared_properly()
+
+    Embedding Demo [image/png 1410242 bytes]
+
+
+@SmokeTest
+Scenario: Aetna Shop a plan dentist test        # src/test/java/features/HomePage.feature:42
+  Given I am on Aetna home page                 # stepdefinitions.HomePageStepDefinition.i_am_on_aetna_home_page()
+  When I click shop for a plan                  # stepdefinitions.HomePageStepDefinition.i_click_shop_for_a_plan()
+  And I go dental, vision and supplemental      # stepdefinitions.HomePageStepDefinition.i_go_dental_vision_and_supplemental()
+  And I click find a dentist                    # stepdefinitions.HomePageStepDefinition.i_click_find_a_dentist()
+  Then I validate You Can: is appeared properly # stepdefinitions.HomePageStepDefinition.i_validate_you_can_is_appeared_properly()
+
+@SmokeTest
+Scenario: Aetna Shop a plan vision plans test                   # src/test/java/features/HomePage.feature:49
+  Given I am on Aetna home page                                 # stepdefinitions.HomePageStepDefinition.i_am_on_aetna_home_page()
+  When I click shop for a plan                                  # stepdefinitions.HomePageStepDefinition.i_click_shop_for_a_plan()
+  And I go dental, vision and supplemental                      # stepdefinitions.HomePageStepDefinition.i_go_dental_vision_and_supplemental()
+  And I click vision plans                                      # stepdefinitions.HomePageStepDefinition.i_click_vision_plans()
+  Then I validate Aetna Dental Direct plan is appeared properly # stepdefinitions.HomePageStepDefinition.i_validate_aetna_dental_direct_plan_is_appeared_properly()
+
+@SmokeTest
+Scenario: Aetna Shop a plan functionality test  # src/test/java/features/ShopAPlan.feature:7
+  Given I am on Aetna home page                 # stepdefinitions.HomePageStepDefinition.i_am_on_aetna_home_page()
+  When I click shop for a plan                  # stepdefinitions.HomePageStepDefinition.i_click_shop_for_a_plan()
+  And I go dental, vision and supplemental      # stepdefinitions.HomePageStepDefinition.i_go_dental_vision_and_supplemental()
+      org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=85.0.4183.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Syeds-MacBook-Pro.local', ip: '2604:2000:b102:8800:24ab:2c28:90a:c5df%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/4y/llbfbmfx3tv...}, goog:chromeOptions: {debuggerAddress: localhost:56336}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5d6b9748dec6547cc5a1a6abbe358acf
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor92.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy26.click(Unknown Source)
+	at aetnahome.HomePage.dentalAndVisionCheck(HomePage.java:114)
+	at stepdefinitions.HomePageStepDefinition.i_go_dental_vision_and_supplemental(HomePageStepDefinition.java:101)
+	at ✽.I go dental, vision and supplemental(file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/ShopAPlan.feature:9)
+
+  And I click find an eye doctor                # stepdefinitions.HomePageStepDefinition.i_click_find_an_eye_doctor()
+  Then I validate You Can: is appeared properly # stepdefinitions.HomePageStepDefinition.i_validate_you_can_is_appeared_properly()
+
+    Embedding Demo [image/png 1410242 bytes]
+
+
+@SmokeTest
+Scenario: Aetna Shop a plan functionality test  # src/test/java/features/ShopAPlan.feature:14
+  Given I am on Aetna home page                 # stepdefinitions.HomePageStepDefinition.i_am_on_aetna_home_page()
+  When I click shop for a plan                  # stepdefinitions.HomePageStepDefinition.i_click_shop_for_a_plan()
+  And I go dental, vision and supplemental      # stepdefinitions.HomePageStepDefinition.i_go_dental_vision_and_supplemental()
+      org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=85.0.4183.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Syeds-MacBook-Pro.local', ip: '2604:2000:b102:8800:24ab:2c28:90a:c5df%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/4y/llbfbmfx3tv...}, goog:chromeOptions: {debuggerAddress: localhost:56514}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 1ebdc6419b9df365bf9cbbc2e1cdf668
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor92.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy26.click(Unknown Source)
+	at aetnahome.HomePage.dentalAndVisionCheck(HomePage.java:114)
+	at stepdefinitions.HomePageStepDefinition.i_go_dental_vision_and_supplemental(HomePageStepDefinition.java:101)
+	at ✽.I go dental, vision and supplemental(file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/ShopAPlan.feature:16)
+
+  And I click supplemental plans                # stepdefinitions.HomePageStepDefinition.i_click_supplemental_plans()
+  Then I validate You Can: is appeared properly # stepdefinitions.HomePageStepDefinition.i_validate_you_can_is_appeared_properly()
+
+    Embedding Demo [image/png 1410242 bytes]
+
+
+@SmokeTest
+Scenario: Aetna Shop a plan functionality test        # src/test/java/features/ShopAPlan.feature:21
+  Given I am on Aetna home page                       # stepdefinitions.HomePageStepDefinition.i_am_on_aetna_home_page()
+  When I click shop for a plan                        # stepdefinitions.HomePageStepDefinition.i_click_shop_for_a_plan()
+  And I go pharmacy element                           # stepdefinitions.HomePageStepDefinition.i_go_pharmacy_element()
+      org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=85.0.4183.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Syeds-MacBook-Pro.local', ip: '2604:2000:b102:8800:24ab:2c28:90a:c5df%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/4y/llbfbmfx3tv...}, goog:chromeOptions: {debuggerAddress: localhost:56720}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 353d4c9ae95858e66aa3caadb6c9bd60
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor92.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy26.click(Unknown Source)
+	at aetnahome.HomePage.pharmacyBtnCheck(HomePage.java:160)
+	at stepdefinitions.HomePageStepDefinition.i_go_pharmacy_element(HomePageStepDefinition.java:151)
+	at ✽.I go pharmacy element(file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/ShopAPlan.feature:23)
+
+  And I click Get pharmacy plan information           # stepdefinitions.HomePageStepDefinition.i_click_get_pharmacy_plan_information()
+  Then I validate Aetna Medicare is appeared properly # stepdefinitions.HomePageStepDefinition.i_validate_aetna_medicare_is_appeared_properly()
+
+    Embedding Demo [image/png 1410242 bytes]
+
+
+@SmokeTest
+Scenario: Aetna Shop a plan functionality test              # src/test/java/features/ShopAPlan.feature:28
+  Given I am on Aetna home page                             # stepdefinitions.HomePageStepDefinition.i_am_on_aetna_home_page()
+  When I click shop for a plan                              # stepdefinitions.HomePageStepDefinition.i_click_shop_for_a_plan()
+  And I go pharmacy element                                 # stepdefinitions.HomePageStepDefinition.i_go_pharmacy_element()
+      org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=85.0.4183.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Syeds-MacBook-Pro.local', ip: '2604:2000:b102:8800:24ab:2c28:90a:c5df%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/4y/llbfbmfx3tv...}, goog:chromeOptions: {debuggerAddress: localhost:56889}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: e9e29fd8db8ea922d95b88d762f34bb6
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor92.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy26.click(Unknown Source)
+	at aetnahome.HomePage.pharmacyBtnCheck(HomePage.java:160)
+	at stepdefinitions.HomePageStepDefinition.i_go_pharmacy_element(HomePageStepDefinition.java:151)
+	at ✽.I go pharmacy element(file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Aetna/src/test/java/features/ShopAPlan.feature:30)
+
+  And I click find a pharmacy                               # stepdefinitions.HomePageStepDefinition.i_click_find_a_pharmacy()
+  Then I validate *Required Selections is appeared properly # stepdefinitions.HomePageStepDefinition.i_validate_required_selections_is_appeared_properly()
+
+    Embedding Demo [image/png 1410242 bytes]
+
+
+@SmokeTest
+Scenario: Aetna Shop a plan functionality test           # src/test/java/features/ShopAPlan.feature:35
+  Given I am on Aetna home page                          # stepdefinitions.HomePageStepDefinition.i_am_on_aetna_home_page()
+  When I click shop for a plan                           # stepdefinitions.HomePageStepDefinition.i_click_shop_for_a_plan()
+  And I go pharmacy element                              # stepdefinitions.HomePageStepDefinition.i_go_pharmacy_element()
+  And I click find medicine and costs                    # stepdefinitions.HomePageStepDefinition.i_click_find_medicine_and_costs()
+  Then I validate Already a member? is appeared properly # stepdefinitions.HomePageStepDefinition.i_validate_already_a_member_is_appeared_properly()

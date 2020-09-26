@@ -1,0 +1,661 @@
+
+@SmokeTest
+Scenario: United Airlines SignIn functionality test        # src/test/java/features/UnitedAirRegistration.feature:8
+  Given I am in United Air home page                       # stepdefinitions.UnitedAirHomeSteps.i_am_in_United_Air_home_page()
+  When I click on signIn button                            # stepdefinitions.UnitedAirRegistrationSteps.i_click_on_sign_in_button()
+  And I click on join now and use title                    # stepdefinitions.UnitedAirRegistrationSteps.i_click_on_join_now_and_use_title()
+  And I use data in member information field               # stepdefinitions.UnitedAirRegistrationSteps.i_use_data_in_member_information_field(io.cucumber.datatable.DataTable)
+  And month and gender field is selected                   # stepdefinitions.UnitedAirRegistrationSteps.month_and_gender_field_is_selected()
+  Then I validate Contact Information is appeared properly # stepdefinitions.UnitedAirRegistrationSteps.i_validate_contact_information_is_appeared_properly()
+
+@SmokeTest
+Scenario: United Airlines contact information test # src/test/java/features/UnitedAirRegistration.feature:17
+  Given I am in United Air home page               # stepdefinitions.UnitedAirHomeSteps.i_am_in_United_Air_home_page()
+  When I click on signIn button                    # stepdefinitions.UnitedAirRegistrationSteps.i_click_on_sign_in_button()
+  And I click on join now and use title            # stepdefinitions.UnitedAirRegistrationSteps.i_click_on_join_now_and_use_title()
+  When I entered data in Contact Information field # stepdefinitions.UnitedAirRegistrationSteps.i_entered_data_in_contact_information_field(io.cucumber.datatable.DataTable)
+  Then I validate "Phone number" appear properly   # stepdefinitions.UnitedAirRegistrationSteps.i_validate_appear_properly(java.lang.String)
+
+@SmokeTest
+Scenario: United Airlines contact information test  # src/test/java/features/UnitedAirRegistration.feature:25
+  Given I am in United Air home page                # stepdefinitions.UnitedAirHomeSteps.i_am_in_United_Air_home_page()
+  When I click on signIn button                     # stepdefinitions.UnitedAirRegistrationSteps.i_click_on_sign_in_button()
+  And I click on join now and use title             # stepdefinitions.UnitedAirRegistrationSteps.i_click_on_join_now_and_use_title()
+  And I entered data in phone number field          # stepdefinitions.UnitedAirRegistrationSteps.i_entered_data_in_phone_number_field(io.cucumber.datatable.DataTable)
+  And I click on check box field                    # stepdefinitions.UnitedAirRegistrationSteps.i_click_on_check_box_field()
+  Then I verify "Email information" appear properly # stepdefinitions.UnitedAirRegistrationSteps.i_verify_appear_properly(java.lang.String)
+
+@SmokeTest
+Scenario: United Airlines contact information test    # src/test/java/features/UnitedAirRegistration.feature:34
+  Given I am in United Air home page                  # stepdefinitions.UnitedAirHomeSteps.i_am_in_United_Air_home_page()
+  When I click on signIn button                       # stepdefinitions.UnitedAirRegistrationSteps.i_click_on_sign_in_button()
+  And I click on join now and use title               # stepdefinitions.UnitedAirRegistrationSteps.i_click_on_join_now_and_use_title()
+      org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Syeds-MacBook-Pro.local', ip: '2604:2000:b102:8800:24ab:2c28:90a:c5df%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/4y/llbfbmfx3tv...}, goog:chromeOptions: {debuggerAddress: localhost:65222}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 7db4c6aad76acc705b27cb9e34d0caf6
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy25.click(Unknown Source)
+	at unitedairlinesregistration.UnitedAirRegistration.joinNowButton(UnitedAirRegistration.java:67)
+	at stepdefinitions.UnitedAirRegistrationSteps.i_click_on_join_now_and_use_title(UnitedAirRegistrationSteps.java:42)
+	at ✽.I click on join now and use title(file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirRegistration.feature:35)
+
+  And I entered data in email field                   # stepdefinitions.UnitedAirRegistrationSteps.i_entered_data_in_email_field(io.cucumber.datatable.DataTable)
+  And I click on check box and uncheck box            # stepdefinitions.UnitedAirRegistrationSteps.i_click_on_check_box_and_uncheck_box()
+  And I entered data in password field                # stepdefinitions.UnitedAirRegistrationSteps.i_entered_data_in_password_field(io.cucumber.datatable.DataTable)
+  And I click on Show button                          # stepdefinitions.UnitedAirRegistrationSteps.i_click_on_show_button()
+  And I click on accept and enroll button             # stepdefinitions.UnitedAirRegistrationSteps.i_click_on_accept_and_enroll_button()
+  Then I verify "Security questions" display properly # stepdefinitions.UnitedAirRegistrationSteps.i_verify_display_properly(java.lang.String)
+
+    Embedding Demo1 [image/png 1010141 bytes]
+
+      org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Syeds-MacBook-Pro.local', ip: '2604:2000:b102:8800:24ab:2c28:90a:c5df%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '11.0.8'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at stepdefinitions.UnitedAirRegistrationSteps.tearDown(UnitedAirRegistrationSteps.java:24)
+
+
+@SmokeTest
+Scenario: United Airlines Flight Status functionality test # src/test/java/features/UnitedAirlinesHome.feature:7
+  Given I am in United Air home page                       # stepdefinitions.UnitedAirHomeSteps.i_am_in_United_Air_home_page()
+  When I click Flight status                               # stepdefinitions.UnitedAirHomeSteps.i_click_flight_status()
+  And I enter City in From field and To field              # stepdefinitions.UnitedAirHomeSteps.i_enter_city_in_from_field_and_to_field()
+  And I enter Flight number and  Date                      # stepdefinitions.UnitedAirHomeSteps.i_enter_flight_number_and_date()
+      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(text(),'Sep 12, 2020')]"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Syeds-MacBook-Pro.local', ip: '2604:2000:b102:8800:24ab:2c28:90a:c5df%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/4y/llbfbmfx3tv...}, goog:chromeOptions: {debuggerAddress: localhost:65299}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: df4368def156c6095b9108270750a4f5
+*** Element info: {Using=xpath, value=//div[contains(text(),'Sep 12, 2020')]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy25.click(Unknown Source)
+	at unitedairlineshome.UnitedAirlinesHomePage.enterFlightNumber(UnitedAirlinesHomePage.java:105)
+	at stepdefinitions.UnitedAirHomeSteps.i_enter_flight_number_and_date(UnitedAirHomeSteps.java:51)
+	at ✽.I enter Flight number and  Date(file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:10)
+
+  Then I click Search Button                               # stepdefinitions.UnitedAirHomeSteps.i_click_search_button()
+
+    Embedding Demo1 [image/png 2907399 bytes]
+
+      org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Syeds-MacBook-Pro.local', ip: '2604:2000:b102:8800:24ab:2c28:90a:c5df%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '11.0.8'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at stepdefinitions.UnitedAirRegistrationSteps.tearDown(UnitedAirRegistrationSteps.java:24)
+
+
+@SmokeTest
+Scenario: United Airlines Check In functionality test # src/test/java/features/UnitedAirlinesHome.feature:15
+  Given I am in United Air home page                  # stepdefinitions.UnitedAirHomeSteps.i_am_in_United_Air_home_page()
+  When I click Check In                               # stepdefinitions.UnitedAirHomeSteps.i_click_check_in()
+  And I enter ticket Number and Last Name             # stepdefinitions.UnitedAirHomeSteps.i_enter_ticket_number_and_last_name()
+  Then I click checkIn Search Button                  # stepdefinitions.UnitedAirHomeSteps.i_click_checkIn_search_button()
+  And I validate Check In page message                # stepdefinitions.UnitedAirHomeSteps.i_validate_check_in_page_message()
+
+@SmokeTest
+Scenario: United Airlines Book Button functionality test                         # src/test/java/features/UnitedAirlinesHome.feature:22
+  Given I am in United Air home page                                             # stepdefinitions.UnitedAirHomeSteps.i_am_in_United_Air_home_page()
+  When I click on Book Button                                                    # stepdefinitions.UnitedAirHomeSteps.i_click_on_book_button()
+  And I click on Hotels Button                                                   # stepdefinitions.UnitedAirHomeSteps.i_click_on_hotels_button()
+  And I enter "Miami, Florida, United States of America" in searchBox and submit # stepdefinitions.UnitedAirHomeSteps.i_enter_in_search_box_and_submit(java.lang.String)
+  Then I validate Landed page properly                                           # stepdefinitions.UnitedAirHomeSteps.i_validate_landed_page_properly()
+      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//h1[@class='destination-title']"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Syeds-MacBook-Pro.local', ip: '2604:2000:b102:8800:24ab:2c28:90a:c5df%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/4y/llbfbmfx3tv...}, goog:chromeOptions: {debuggerAddress: localhost:49158}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 4d9b7280ae898f4030c1d43bb675dd79
+*** Element info: {Using=xpath, value=//h1[@class='destination-title']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy25.getText(Unknown Source)
+	at unitedairlineshome.UnitedAirlinesHomePage.validateLandedPageTxt(UnitedAirlinesHomePage.java:154)
+	at stepdefinitions.UnitedAirHomeSteps.i_validate_landed_page_properly(UnitedAirHomeSteps.java:105)
+	at ✽.I validate Landed page properly(file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:26)
+
+
+    Embedding Demo1 [image/png 1490319 bytes]
+
+      org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Syeds-MacBook-Pro.local', ip: '2604:2000:b102:8800:24ab:2c28:90a:c5df%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '11.0.8'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at stepdefinitions.UnitedAirRegistrationSteps.tearDown(UnitedAirRegistrationSteps.java:24)
+
+
+@SmokeTest
+Scenario: United login functionality Check # src/test/java/features/UnitedAirlinesHome.feature:29
+  Given I am in United Air home page       # stepdefinitions.UnitedAirHomeSteps.i_am_in_United_Air_home_page()
+  And I click on signInOption              # stepdefinitions.UnitedAirHomeSteps.i_click_on_sign_in_option()
+  And I enter userName and password        # stepdefinitions.UnitedAirHomeSteps.i_enter_user_name_and_password()
+  When I click loginButton                 # stepdefinitions.UnitedAirHomeSteps.i_click_login_button()
+  Then I verify image                      # stepdefinitions.UnitedAirHomeSteps.i_verify_image()
+
+@SmokeTest
+Scenario: United login functionality Check with variable # src/test/java/features/UnitedAirlinesHome.feature:37
+  Given I am in United Air home page                     # stepdefinitions.UnitedAirHomeSteps.i_am_in_United_Air_home_page()
+  And I click on signInOption                            # stepdefinitions.UnitedAirHomeSteps.i_click_on_sign_in_option()
+  And I enter "pnt1234" and "test123"                    # stepdefinitions.UnitedAirHomeSteps.i_enter_and(java.lang.String,java.lang.String)
+  When I click loginButton                               # stepdefinitions.UnitedAirHomeSteps.i_click_login_button()
+  Then I verify image                                    # stepdefinitions.UnitedAirHomeSteps.i_verify_image()
+
+@SmokeTest
+Scenario Outline: United login functionality Check with multiple variable # src/test/java/features/UnitedAirlinesHome.feature:52
+  Given I am in United Air home page                                      # stepdefinitions.UnitedAirHomeSteps.i_am_in_United_Air_home_page()
+  And I click on signInOption                                             # stepdefinitions.UnitedAirHomeSteps.i_click_on_sign_in_option()
+  And I enter "pnt123" and "test123"                                      # stepdefinitions.UnitedAirHomeSteps.i_enter_and(java.lang.String,java.lang.String)
+  When I click loginButton                                                # stepdefinitions.UnitedAirHomeSteps.i_click_login_button()
+  Then I verify image                                                     # stepdefinitions.UnitedAirHomeSteps.i_verify_image()
+
+@SmokeTest
+Scenario Outline: United login functionality Check with multiple variable # src/test/java/features/UnitedAirlinesHome.feature:53
+  Given I am in United Air home page                                      # stepdefinitions.UnitedAirHomeSteps.i_am_in_United_Air_home_page()
+  And I click on signInOption                                             # stepdefinitions.UnitedAirHomeSteps.i_click_on_sign_in_option()
+  And I enter "pnt345" and "test124"                                      # stepdefinitions.UnitedAirHomeSteps.i_enter_and(java.lang.String,java.lang.String)
+  When I click loginButton                                                # stepdefinitions.UnitedAirHomeSteps.i_click_login_button()
+  Then I verify image                                                     # stepdefinitions.UnitedAirHomeSteps.i_verify_image()
+
+@SmokeTest
+Scenario Outline: United login functionality Check with multiple variable # src/test/java/features/UnitedAirlinesHome.feature:54
+  Given I am in United Air home page                                      # stepdefinitions.UnitedAirHomeSteps.i_am_in_United_Air_home_page()
+  And I click on signInOption                                             # stepdefinitions.UnitedAirHomeSteps.i_click_on_sign_in_option()
+  And I enter "pnt678" and "test125"                                      # stepdefinitions.UnitedAirHomeSteps.i_enter_and(java.lang.String,java.lang.String)
+  When I click loginButton                                                # stepdefinitions.UnitedAirHomeSteps.i_click_login_button()
+  Then I verify image                                                     # stepdefinitions.UnitedAirHomeSteps.i_verify_image()
+
+@SmokeTest
+Scenario Outline: United login functionality Check with multiple variable # src/test/java/features/UnitedAirlinesHome.feature:55
+  Given I am in United Air home page                                      # stepdefinitions.UnitedAirHomeSteps.i_am_in_United_Air_home_page()
+  And I click on signInOption                                             # stepdefinitions.UnitedAirHomeSteps.i_click_on_sign_in_option()
+  And I enter "pnt987" and "test126"                                      # stepdefinitions.UnitedAirHomeSteps.i_enter_and(java.lang.String,java.lang.String)
+  When I click loginButton                                                # stepdefinitions.UnitedAirHomeSteps.i_click_login_button()
+  Then I verify image                                                     # stepdefinitions.UnitedAirHomeSteps.i_verify_image()
+
+@SmokeTest
+Scenario Outline: United login functionality Check with multiple variable # src/test/java/features/UnitedAirlinesHome.feature:56
+  Given I am in United Air home page                                      # stepdefinitions.UnitedAirHomeSteps.i_am_in_United_Air_home_page()
+  And I click on signInOption                                             # stepdefinitions.UnitedAirHomeSteps.i_click_on_sign_in_option()
+  And I enter "pnt001" and "test127"                                      # stepdefinitions.UnitedAirHomeSteps.i_enter_and(java.lang.String,java.lang.String)
+  When I click loginButton                                                # stepdefinitions.UnitedAirHomeSteps.i_click_login_button()
+  Then I verify image                                                     # stepdefinitions.UnitedAirHomeSteps.i_verify_image()
+
+@SmokeTest
+Scenario: United search functionality Check with variable # src/test/java/features/UnitedAirlinesHome.feature:60
+  Given I am in United Air home page                      # stepdefinitions.UnitedAirHomeSteps.i_am_in_United_Air_home_page()
+  And i click on the searchLogo                           # stepdefinitions.UnitedAirHomeSteps.i_click_on_the_search_logo()
+  And I enter "deals and offers" in the searchBox         # stepdefinitions.UnitedAirHomeSteps.i_enter_in_the_search_box(java.lang.String)
+  When I click searchButton                               # stepdefinitions.UnitedAirHomeSteps.i_click_searchButton()
+  Then I verify searchText                                # stepdefinitions.UnitedAirHomeSteps.i_verify_search_text()
+
+@SmokeTest
+Scenario Outline: United search functionality Check with variable # src/test/java/features/UnitedAirlinesHome.feature:75
+  Given I am in United Air home page                              # stepdefinitions.UnitedAirHomeSteps.i_am_in_United_Air_home_page()
+  And i click on the searchLogo                                   # stepdefinitions.UnitedAirHomeSteps.i_click_on_the_search_logo()
+  And I enter "airlines" in the searchBox                         # stepdefinitions.UnitedAirHomeSteps.i_enter_in_the_search_box(java.lang.String)
+  When I click searchButton                                       # stepdefinitions.UnitedAirHomeSteps.i_click_searchButton()
+  Then I verify searchText                                        # stepdefinitions.UnitedAirHomeSteps.i_verify_search_text()
+
+@SmokeTest
+Scenario Outline: United search functionality Check with variable # src/test/java/features/UnitedAirlinesHome.feature:76
+  Given I am in United Air home page                              # stepdefinitions.UnitedAirHomeSteps.i_am_in_United_Air_home_page()
+  And i click on the searchLogo                                   # stepdefinitions.UnitedAirHomeSteps.i_click_on_the_search_logo()
+  And I enter "flights" in the searchBox                          # stepdefinitions.UnitedAirHomeSteps.i_enter_in_the_search_box(java.lang.String)
+  When I click searchButton                                       # stepdefinitions.UnitedAirHomeSteps.i_click_searchButton()
+  Then I verify searchText                                        # stepdefinitions.UnitedAirHomeSteps.i_verify_search_text()
+
+@SmokeTest
+Scenario Outline: United search functionality Check with variable # src/test/java/features/UnitedAirlinesHome.feature:77
+  Given I am in United Air home page                              # stepdefinitions.UnitedAirHomeSteps.i_am_in_United_Air_home_page()
+  And i click on the searchLogo                                   # stepdefinitions.UnitedAirHomeSteps.i_click_on_the_search_logo()
+  And I enter "airline partner" in the searchBox                  # stepdefinitions.UnitedAirHomeSteps.i_enter_in_the_search_box(java.lang.String)
+  When I click searchButton                                       # stepdefinitions.UnitedAirHomeSteps.i_click_searchButton()
+  Then I verify searchText                                        # stepdefinitions.UnitedAirHomeSteps.i_verify_search_text()
+
+@SmokeTest
+Scenario Outline: United search functionality Check with variable # src/test/java/features/UnitedAirlinesHome.feature:78
+  Given I am in United Air home page                              # stepdefinitions.UnitedAirHomeSteps.i_am_in_United_Air_home_page()
+  And i click on the searchLogo                                   # stepdefinitions.UnitedAirHomeSteps.i_click_on_the_search_logo()
+  And I enter "flight delays" in the searchBox                    # stepdefinitions.UnitedAirHomeSteps.i_enter_in_the_search_box(java.lang.String)
+  When I click searchButton                                       # stepdefinitions.UnitedAirHomeSteps.i_click_searchButton()
+  Then I verify searchText                                        # stepdefinitions.UnitedAirHomeSteps.i_verify_search_text()
+
+@SmokeTest
+Scenario: United round trip flights functionality Check # src/test/java/features/UnitedAirlinesHome.feature:83
+  Given I am in United Air home page                    # stepdefinitions.UnitedAirHomeSteps.i_am_in_United_Air_home_page()
+  And I enter location To                               # stepdefinitions.UnitedAirHomeSteps.i_enter_location_to()
+  And I clear enter departDate                          # stepdefinitions.UnitedAirHomeSteps.i_clear_enter_depart_date()
+      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='passengersSlidingInputContainer']//div[3]//div[1]//table[1]//tbody[1]//tr[1]//td[5]"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Syeds-MacBook-Pro.local', ip: '2604:2000:b102:8800:24ab:2c28:90a:c5df%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/4y/llbfbmfx3tv...}, goog:chromeOptions: {debuggerAddress: localhost:50275}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: deaa0b645bb176be23458a34f1f70a59
+*** Element info: {Using=xpath, value=//div[@id='passengersSlidingInputContainer']//div[3]//div[1]//table[1]//tbody[1]//tr[1]//td[5]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy25.click(Unknown Source)
+	at unitedairlineshome.UnitedAirlinesHomePage.enterDepartDateToSearchFlight(UnitedAirlinesHomePage.java:231)
+	at stepdefinitions.UnitedAirHomeSteps.i_clear_enter_depart_date(UnitedAirHomeSteps.java:169)
+	at ✽.I clear enter departDate(file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:85)
+
+  And I clear enter returnDate                          # stepdefinitions.UnitedAirHomeSteps.i_clear_enter_return_date()
+  When I click findFlights                              # stepdefinitions.UnitedAirHomeSteps.i_click_find_flights()
+  Then I verify SearchFlightsTitle                      # stepdefinitions.UnitedAirHomeSteps.i_verify_search_flights_title()
+
+    Embedding Demo1 [image/png 1760252 bytes]
+
+      org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Syeds-MacBook-Pro.local', ip: '2604:2000:b102:8800:24ab:2c28:90a:c5df%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '11.0.8'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at stepdefinitions.UnitedAirRegistrationSteps.tearDown(UnitedAirRegistrationSteps.java:24)
+
+
+@SmokeTest
+Scenario: United round trip flights functionality Check with multiple flights # src/test/java/features/UnitedAirlinesHome.feature:92
+  Given I am in United Air home page                                          # stepdefinitions.UnitedAirHomeSteps.i_am_in_United_Air_home_page()
+  And I enter destination location "Paris"*                                   # stepdefinitions.UnitedAirHomeSteps.i_enter_destination_location(java.lang.String)
+  And I clear enter depart Date departDate                                    # stepdefinitions.UnitedAirHomeSteps.i_clear_enter_depart_date_depart_date()
+      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@placeholder='To*']"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Syeds-MacBook-Pro.local', ip: '2604:2000:b102:8800:24ab:2c28:90a:c5df%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/4y/llbfbmfx3tv...}, goog:chromeOptions: {debuggerAddress: localhost:50424}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5b566f130d50f5b94e518456bf5ca31a
+*** Element info: {Using=xpath, value=//input[@placeholder='To*']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy25.clear(Unknown Source)
+	at unitedairlineshome.UnitedAirlinesHomePage.enterDepartDateToSearchFlight(UnitedAirlinesHomePage.java:230)
+	at stepdefinitions.UnitedAirHomeSteps.i_clear_enter_depart_date_depart_date(UnitedAirHomeSteps.java:196)
+	at ✽.I clear enter depart Date departDate(file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:94)
+
+  And I clear enter return date returnDate                                    # stepdefinitions.UnitedAirHomeSteps.i_clear_enter_return_date_return_date()
+  When I click findFlights                                                    # stepdefinitions.UnitedAirHomeSteps.i_click_find_flights()
+  Then I verify SearchFlightsTitle                                            # stepdefinitions.UnitedAirHomeSteps.i_verify_search_flights_title()
+
+    Embedding Demo1 [image/png 65189 bytes]
+
+      org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Syeds-MacBook-Pro.local', ip: '2604:2000:b102:8800:24ab:2c28:90a:c5df%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '11.0.8'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at stepdefinitions.UnitedAirRegistrationSteps.tearDown(UnitedAirRegistrationSteps.java:24)
+
+
+@SmokeTest
+Scenario Outline: United round trip flights functionality Check with variable # src/test/java/features/UnitedAirlinesHome.feature:108
+  Given I am in United Air home page                                          # stepdefinitions.UnitedAirHomeSteps.i_am_in_United_Air_home_page()
+  And I enter destination location "Turkey"*                                  # stepdefinitions.UnitedAirHomeSteps.i_enter_destination_location(java.lang.String)
+  And I clear enter depart Date departDate                                    # stepdefinitions.UnitedAirHomeSteps.i_clear_enter_depart_date_depart_date()
+      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@placeholder='To*']"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Syeds-MacBook-Pro.local', ip: '2604:2000:b102:8800:24ab:2c28:90a:c5df%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/4y/llbfbmfx3tv...}, goog:chromeOptions: {debuggerAddress: localhost:50613}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 93b9768dee9df90df1c1a692b7f4aef2
+*** Element info: {Using=xpath, value=//input[@placeholder='To*']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy25.clear(Unknown Source)
+	at unitedairlineshome.UnitedAirlinesHomePage.enterDepartDateToSearchFlight(UnitedAirlinesHomePage.java:230)
+	at stepdefinitions.UnitedAirHomeSteps.i_clear_enter_depart_date_depart_date(UnitedAirHomeSteps.java:196)
+	at ✽.I clear enter depart Date departDate(file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:102)
+
+  And I clear enter return date returnDate                                    # stepdefinitions.UnitedAirHomeSteps.i_clear_enter_return_date_return_date()
+  When I click findFlights                                                    # stepdefinitions.UnitedAirHomeSteps.i_click_find_flights()
+  Then I verify SearchFlightsTitle                                            # stepdefinitions.UnitedAirHomeSteps.i_verify_search_flights_title()
+
+    Embedding Demo1 [image/png 64886 bytes]
+
+      org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Syeds-MacBook-Pro.local', ip: '2604:2000:b102:8800:24ab:2c28:90a:c5df%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '11.0.8'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at stepdefinitions.UnitedAirRegistrationSteps.tearDown(UnitedAirRegistrationSteps.java:24)
+
+
+@SmokeTest
+Scenario Outline: United round trip flights functionality Check with variable # src/test/java/features/UnitedAirlinesHome.feature:109
+  Given I am in United Air home page                                          # stepdefinitions.UnitedAirHomeSteps.i_am_in_United_Air_home_page()
+  And I enter destination location "Paris"*                                   # stepdefinitions.UnitedAirHomeSteps.i_enter_destination_location(java.lang.String)
+  And I clear enter depart Date departDate                                    # stepdefinitions.UnitedAirHomeSteps.i_clear_enter_depart_date_depart_date()
+      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@placeholder='To*']"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Syeds-MacBook-Pro.local', ip: '2604:2000:b102:8800:24ab:2c28:90a:c5df%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/4y/llbfbmfx3tv...}, goog:chromeOptions: {debuggerAddress: localhost:50798}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 4e1b91e2c0d17528eeec3b8d136a3c27
+*** Element info: {Using=xpath, value=//input[@placeholder='To*']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy25.clear(Unknown Source)
+	at unitedairlineshome.UnitedAirlinesHomePage.enterDepartDateToSearchFlight(UnitedAirlinesHomePage.java:230)
+	at stepdefinitions.UnitedAirHomeSteps.i_clear_enter_depart_date_depart_date(UnitedAirHomeSteps.java:196)
+	at ✽.I clear enter depart Date departDate(file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:102)
+
+  And I clear enter return date returnDate                                    # stepdefinitions.UnitedAirHomeSteps.i_clear_enter_return_date_return_date()
+  When I click findFlights                                                    # stepdefinitions.UnitedAirHomeSteps.i_click_find_flights()
+  Then I verify SearchFlightsTitle                                            # stepdefinitions.UnitedAirHomeSteps.i_verify_search_flights_title()
+
+    Embedding Demo1 [image/png 65802 bytes]
+
+      org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Syeds-MacBook-Pro.local', ip: '2604:2000:b102:8800:24ab:2c28:90a:c5df%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '11.0.8'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at stepdefinitions.UnitedAirRegistrationSteps.tearDown(UnitedAirRegistrationSteps.java:24)
+
+
+@SmokeTest
+Scenario Outline: United round trip flights functionality Check with variable # src/test/java/features/UnitedAirlinesHome.feature:110
+  Given I am in United Air home page                                          # stepdefinitions.UnitedAirHomeSteps.i_am_in_United_Air_home_page()
+  And I enter destination location "Nepal"*                                   # stepdefinitions.UnitedAirHomeSteps.i_enter_destination_location(java.lang.String)
+  And I clear enter depart Date departDate                                    # stepdefinitions.UnitedAirHomeSteps.i_clear_enter_depart_date_depart_date()
+      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@placeholder='To*']"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Syeds-MacBook-Pro.local', ip: '2604:2000:b102:8800:24ab:2c28:90a:c5df%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/4y/llbfbmfx3tv...}, goog:chromeOptions: {debuggerAddress: localhost:51002}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 1ff7c2bb2c6813ececcfdb90cd94869e
+*** Element info: {Using=xpath, value=//input[@placeholder='To*']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy25.clear(Unknown Source)
+	at unitedairlineshome.UnitedAirlinesHomePage.enterDepartDateToSearchFlight(UnitedAirlinesHomePage.java:230)
+	at stepdefinitions.UnitedAirHomeSteps.i_clear_enter_depart_date_depart_date(UnitedAirHomeSteps.java:196)
+	at ✽.I clear enter depart Date departDate(file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:102)
+
+  And I clear enter return date returnDate                                    # stepdefinitions.UnitedAirHomeSteps.i_clear_enter_return_date_return_date()
+  When I click findFlights                                                    # stepdefinitions.UnitedAirHomeSteps.i_click_find_flights()
+  Then I verify SearchFlightsTitle                                            # stepdefinitions.UnitedAirHomeSteps.i_verify_search_flights_title()
+
+    Embedding Demo1 [image/png 65018 bytes]
+
+      org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Syeds-MacBook-Pro.local', ip: '2604:2000:b102:8800:24ab:2c28:90a:c5df%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '11.0.8'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at stepdefinitions.UnitedAirRegistrationSteps.tearDown(UnitedAirRegistrationSteps.java:24)
+
+
+@SmokeTest
+Scenario Outline: United round trip flights functionality Check with variable # src/test/java/features/UnitedAirlinesHome.feature:111
+  Given I am in United Air home page                                          # stepdefinitions.UnitedAirHomeSteps.i_am_in_United_Air_home_page()
+  And I enter destination location "Egypt"*                                   # stepdefinitions.UnitedAirHomeSteps.i_enter_destination_location(java.lang.String)
+  And I clear enter depart Date departDate                                    # stepdefinitions.UnitedAirHomeSteps.i_clear_enter_depart_date_depart_date()
+      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@placeholder='To*']"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Syeds-MacBook-Pro.local', ip: '2604:2000:b102:8800:24ab:2c28:90a:c5df%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/4y/llbfbmfx3tv...}, goog:chromeOptions: {debuggerAddress: localhost:51188}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 051e10a6934ddd16383a7f605351b281
+*** Element info: {Using=xpath, value=//input[@placeholder='To*']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy25.clear(Unknown Source)
+	at unitedairlineshome.UnitedAirlinesHomePage.enterDepartDateToSearchFlight(UnitedAirlinesHomePage.java:230)
+	at stepdefinitions.UnitedAirHomeSteps.i_clear_enter_depart_date_depart_date(UnitedAirHomeSteps.java:196)
+	at ✽.I clear enter depart Date departDate(file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:102)
+
+  And I clear enter return date returnDate                                    # stepdefinitions.UnitedAirHomeSteps.i_clear_enter_return_date_return_date()
+  When I click findFlights                                                    # stepdefinitions.UnitedAirHomeSteps.i_click_find_flights()
+  Then I verify SearchFlightsTitle                                            # stepdefinitions.UnitedAirHomeSteps.i_verify_search_flights_title()
+
+    Embedding Demo1 [image/png 65298 bytes]
+
+      org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Syeds-MacBook-Pro.local', ip: '2604:2000:b102:8800:24ab:2c28:90a:c5df%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '11.0.8'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at stepdefinitions.UnitedAirRegistrationSteps.tearDown(UnitedAirRegistrationSteps.java:24)
+
+
+@SmokeTest
+Scenario Outline: United round trip flights functionality Check with variable # src/test/java/features/UnitedAirlinesHome.feature:112
+  Given I am in United Air home page                                          # stepdefinitions.UnitedAirHomeSteps.i_am_in_United_Air_home_page()
+  And I enter destination location "London"*                                  # stepdefinitions.UnitedAirHomeSteps.i_enter_destination_location(java.lang.String)
+  And I clear enter depart Date departDate                                    # stepdefinitions.UnitedAirHomeSteps.i_clear_enter_depart_date_depart_date()
+      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@placeholder='To*']"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Syeds-MacBook-Pro.local', ip: '2604:2000:b102:8800:24ab:2c28:90a:c5df%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/4y/llbfbmfx3tv...}, goog:chromeOptions: {debuggerAddress: localhost:51366}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 867c66748bbeb39692ef8ec1a420e4ec
+*** Element info: {Using=xpath, value=//input[@placeholder='To*']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy25.clear(Unknown Source)
+	at unitedairlineshome.UnitedAirlinesHomePage.enterDepartDateToSearchFlight(UnitedAirlinesHomePage.java:230)
+	at stepdefinitions.UnitedAirHomeSteps.i_clear_enter_depart_date_depart_date(UnitedAirHomeSteps.java:196)
+	at ✽.I clear enter depart Date departDate(file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:102)
+
+  And I clear enter return date returnDate                                    # stepdefinitions.UnitedAirHomeSteps.i_clear_enter_return_date_return_date()
+  When I click findFlights                                                    # stepdefinitions.UnitedAirHomeSteps.i_click_find_flights()
+  Then I verify SearchFlightsTitle                                            # stepdefinitions.UnitedAirHomeSteps.i_verify_search_flights_title()
+
+    Embedding Demo1 [image/png 64210 bytes]
+
+      org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Syeds-MacBook-Pro.local', ip: '2604:2000:b102:8800:24ab:2c28:90a:c5df%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '11.0.8'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at stepdefinitions.UnitedAirRegistrationSteps.tearDown(UnitedAirRegistrationSteps.java:24)
+

@@ -122,20 +122,22 @@ public class WebAPI {
 
     //Browser SetUp
     public static WebDriver driver = null;
-    public String browserstack_username = "mhs5";
-    public String browserstack_accesskey = "dGpR3twU2pLPLgXZxmSa";
+    public String browserstack_username = "pntp1";
+    public String browserstack_accesskey = "DcYKjQ1kuKUzyxzbgdxB";
     public String saucelabs_username = "";
     public String saucelabs_accesskey = "";
 
-    public void openBrowser() throws IOException {
-        setUp(false,"browserstack","OS X","catalina","chrome","85","https://www.amazon.com");
+    public  void openBrowser(String url) throws IOException {
+        setUp(false,"browserstack","OS X","catalina","chrome-options","85",url);
+        //setUp(false,"browserstack","OS X","catalina","chrome","85","https://www.cnn.com");
+
     }
 
     @Parameters({"useCloudEnv", "cloudEnvName", "os", "os_version", "browserName", "browserVersion", "url"})
     @BeforeMethod
     public void setUp(@Optional("false") boolean useCloudEnv, @Optional("false") String cloudEnvName,
-                      @Optional("windows") String os, @Optional("10") String os_version, @Optional("chrome-options") String browserName, @Optional("34")
-                              String browserVersion, @Optional("https://www.google.com") String url) throws IOException {
+                      @Optional("OS X") String os, @Optional("Mojave") String os_version, @Optional("chrome") String browserName, @Optional("85")
+                              String browserVersion, @Optional("https://www.cnn.com") String url) throws IOException {
 
         if (useCloudEnv == true) {
             if (cloudEnvName.equalsIgnoreCase("browserstack")) {
@@ -146,17 +148,17 @@ public class WebAPI {
         } else {
             getLocalDriver(os, browserName);
         }
-        driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
-        //driver.manage().timeouts().pageLoadTimeout(25, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
         driver.manage().deleteAllCookies();
         driver.get(url);
-        //driver.manage().window().maximize();
+        driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
+        driver.manage().window().maximize();
     }
 
     public WebDriver getLocalDriver(@Optional("mac") String OS, String browserName) {
         if (browserName.equalsIgnoreCase("chrome")) {
             if (OS.equalsIgnoreCase("OS X")) {
-                System.setProperty("webdriver.chrome.driver", "../Generic/BrowserDriver/mac/chromedriver");
+                System.setProperty("webdriver.chrome.driver", "../Generic/BrowserDriver/Mac/chromedriver");
             } else if (OS.equalsIgnoreCase("Windows")) {
                 System.setProperty("webdriver.chrome.driver", "../Generic/BrowserDriver/windows/chromedriver.exe");
             }
@@ -165,14 +167,14 @@ public class WebAPI {
             ChromeOptions options = new ChromeOptions();
             options.addArguments("--disable-notifications");
             if (OS.equalsIgnoreCase("OS X")) {
-                System.setProperty("webdriver.chrome.driver", "../Generic/BrowserDriver/mac/chromedriver");
+                System.setProperty("webdriver.chrome.driver", "../Generic/BrowserDriver/Mac/chromedriver");
             } else if (OS.equalsIgnoreCase("Windows")) {
                 System.setProperty("webdriver.chrome.driver", "../Generic/BrowserDriver/windows/chromedriver.exe");
             }
             driver = new ChromeDriver(options);
         } else if (browserName.equalsIgnoreCase("firefox")) {
             if (OS.equalsIgnoreCase("OS X")) {
-                System.setProperty("webdriver.gecko.driver", "../Generic/BrowserDriver/mac/geckodriver");
+                System.setProperty("webdriver.gecko.driver", "../Generic/BrowserDriver/Mac/geckodriver");
             } else if (OS.equalsIgnoreCase("Windows")) {
                 System.setProperty("webdriver.gecko.driver", "../Generic/BrowserDriver/windows/geckodriver.exe");
             }
@@ -212,6 +214,58 @@ public class WebAPI {
 
 
     //helper methods
+
+    //Modified
+    public void clickOnElement(WebElement element) {
+        element.click();
+    }
+
+
+    //Modified
+    public void typeOnElement(WebElement element, String value) {
+        element.sendKeys(value);
+    }
+
+
+    //Modified
+    public void typeOnElementAndEnter(WebElement element, String value) {
+        element.sendKeys(value, Keys.ENTER);
+    }
+
+    //Modified
+    public void mouseHover(WebElement element) {
+        Actions actions = new Actions(driver);
+        actions.moveToElement(element).perform();
+    }
+
+    //Modified
+    public void selectFromDropdownByVisibleText(WebElement element, String value) {
+
+        Select select = new Select(element);
+        select.selectByVisibleText(value);
+    }
+
+    //Modified(Added by me)
+    public void selectFromDropdownByIndexNo(WebElement element, int indexNo) {
+        Select select = new Select(element);
+        select.selectByIndex(indexNo);
+    }
+
+
+    //Thread.sleep Method-Modified
+    public static void sleepFor(int sec) {
+        try {
+            Thread.sleep(sec * 1000);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+
+
+
+
+
     public void clickOnElement(String locator) {
         try {
             driver.findElement(By.cssSelector(locator)).click();
@@ -227,6 +281,8 @@ public class WebAPI {
             }
         }
     }
+
+
 
     public void typeOnElement(String locator, String value) {
         try {
@@ -306,6 +362,11 @@ public class WebAPI {
     public void clickByXpath(String locator) {
         driver.findElement(By.xpath(locator)).click();
     }
+
+    public void clickByLinkText(String locator) {
+        driver.findElement(By.linkText(locator)).click();
+    }
+
 
     public void typeByCss(String locator, String value) {
         driver.findElement(By.cssSelector(locator)).sendKeys(value);
@@ -415,9 +476,11 @@ public class WebAPI {
         select.selectByVisibleText(value);
     }
 
-    public static void sleepFor(int sec) throws InterruptedException {
-        Thread.sleep(sec * 1000);
-    }
+//    public static void sleepFor(int sec) throws InterruptedException {
+//        Thread.sleep(sec * 1000);
+//    }
+
+
 
     public void mouseHoverByCSS(String locator) {
         try {
@@ -584,6 +647,27 @@ public class WebAPI {
         String text = webElement.getText();
         return text;
     }
+
+
+    //JS Executor
+
+    //Js Executor for Date input
+//    public static void selectDateByJS(WebDriver driver, WebElement element, String date){
+//        JavascriptExecutor js=((JavascriptExecutor)driver);
+//        js.executeScript("arguments[0].setAttribute('value','"+date+"');",element);
+//    }
+
+    public static void selectDateByJS(WebDriver driver, WebElement element, String dateValue){
+        JavascriptExecutor js=((JavascriptExecutor)driver);
+        js.executeScript("arguments[0].setAttribute('value','"+dateValue+"');",element);
+    }
+    public static void selectDateByJSWithTwoValue(WebDriver driver, WebElement element, String dateValue, String returnValue){
+        JavascriptExecutor js=((JavascriptExecutor)driver);
+        js.executeScript("arguments[0].setAttribute('value','"+dateValue+"','"+returnValue+"');",element);
+    }
+
+
+
 
 
 }

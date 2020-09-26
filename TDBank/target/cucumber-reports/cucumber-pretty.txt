@@ -1,0 +1,185 @@
+
+@SmokeTest
+Scenario: Change country from home page                     # src/test/java/features/TDBankHomePage.feature:7
+  Given I am on TD Bank home page                           # stepdefinitions.TdBankHomeSteps.i_am_on_td_bank_home_page()
+  When I click on flag button                               # stepdefinitions.TdBankHomeSteps.i_click_on_flag_button()
+  And I change the country from US to Canada                # stepdefinitions.TdBankHomeSteps.i_change_the_country_from_us_to_canada()
+  Then I verify Canada Td Bank website is appeared properly # stepdefinitions.TdBankHomeSteps.i_verify_canada_td_bank_website_is_appeared_properly()
+
+@SmokeTest
+Scenario: Verify credit card page using mouse hover     # src/test/java/features/TDBankHomePage.feature:13
+  Given I am on TD Bank home page                       # stepdefinitions.TdBankHomeSteps.i_am_on_td_bank_home_page()
+  When I mouse hover over products drop down  button    # stepdefinitions.TdBankHomeSteps.i_mouse_hover_over_products_drop_down_button()
+  And I click on credit card link                       # stepdefinitions.TdBankHomeSteps.i_click_on_credit_card_link()
+  Then I verify credit card page title in different tab # stepdefinitions.TdBankHomeSteps.i_verify_credit_card_page_title_in_different_tab()
+
+@SmokeTest
+Scenario: Set location for saving account from drop down using Select functionality # src/test/java/features/TDBankHomePage.feature:19
+  Given I am on TD Bank home page                                                   # stepdefinitions.TdBankHomeSteps.i_am_on_td_bank_home_page()
+  When I mouse hover over products drop down  button                                # stepdefinitions.TdBankHomeSteps.i_mouse_hover_over_products_drop_down_button()
+  And I click on savings link                                                       # stepdefinitions.TdBankHomeSteps.i_click_on_savings_link()
+  And I select "New York" as a state                                                # stepdefinitions.TdBankHomeSteps.i_select_as_a_state(java.lang.String)
+  And I select "Astoria" as a city                                                  # stepdefinitions.TdBankHomeSteps.i_select_as_a_city(java.lang.String)
+  And I set my location                                                             # stepdefinitions.TdBankHomeSteps.i_set_my_location()
+  Then I verify savings account page                                                # stepdefinitions.TdBankHomeSteps.i_verify_savings_account_page()
+
+@SmokeTest
+Scenario: Verify Login with invalid credentials            # src/test/java/features/TDBankHomePage.feature:28
+  Given I am on TD Bank home page                          # stepdefinitions.TdBankHomeSteps.i_am_on_td_bank_home_page()
+  When I mouse hover over login link                       # stepdefinitions.TdBankHomeSteps.i_mouse_hover_over_login_link()
+  And I click on online banking                            # stepdefinitions.TdBankHomeSteps.i_click_on_online_banking()
+      org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 19.693
+  (Session info: chrome=85.0.4183.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Syeds-MacBook-Pro.local', ip: '2604:2000:b102:8800:24ab:2c28:90a:c5df%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/4y/llbfbmfx3tv...}, goog:chromeOptions: {debuggerAddress: localhost:60009}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 6f6ff8ba8a12ac94946e645dc68089bf
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:857)
+	at tdbankhome.TDBankHome.clickOnOnlineBanking(TDBankHome.java:129)
+	at stepdefinitions.TdBankHomeSteps.i_click_on_online_banking(TdBankHomeSteps.java:130)
+	at ✽.I click on online banking(file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TDBank/src/test/java/features/TDBankHomePage.feature:30)
+
+  And I enter username and password into respective fields # stepdefinitions.TdBankHomeSteps.i_enter_username_and_password_into_respective_fields(io.cucumber.datatable.DataTable)
+  And I click on login button                              # stepdefinitions.TdBankHomeSteps.i_click_on_login_button()
+  Then I verify invalid login text                         # stepdefinitions.TdBankHomeSteps.i_verify_invalid_login_text()
+
+    Embedding Demo1 [image/png 182900 bytes]
+
+
+@SmokeTest
+Scenario Outline: Verify Login with invalid credentials for multiple users # src/test/java/features/TDBankHomePage.feature:45
+  Given I am on TD Bank home page                                          # stepdefinitions.TdBankHomeSteps.i_am_on_td_bank_home_page()
+  When I mouse hover over login link                                       # stepdefinitions.TdBankHomeSteps.i_mouse_hover_over_login_link()
+  And I click on online banking                                            # stepdefinitions.TdBankHomeSteps.i_click_on_online_banking()
+  And I enter data "test1234" and "123456" into  fields                    # stepdefinitions.TdBankHomeSteps.i_enter_data_and_into_fields(java.lang.String,java.lang.String)
+  And I click on login button                                              # stepdefinitions.TdBankHomeSteps.i_click_on_login_button()
+  Then I verify invalid login text                                         # stepdefinitions.TdBankHomeSteps.i_verify_invalid_login_text()
+      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='error-message ng-binding']"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Syeds-MacBook-Pro.local', ip: '2604:2000:b102:8800:24ab:2c28:90a:c5df%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/4y/llbfbmfx3tv...}, goog:chromeOptions: {debuggerAddress: localhost:60380}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: cb12733710d7584da1e3d6105e16dd0f
+*** Element info: {Using=xpath, value=//span[@class='error-message ng-binding']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy24.getText(Unknown Source)
+	at tdbankhome.TDBankHome.validateLoginWithInvalidCredentials(TDBankHome.java:141)
+	at stepdefinitions.TdBankHomeSteps.i_verify_invalid_login_text(TdBankHomeSteps.java:148)
+	at ✽.I verify invalid login text(file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TDBank/src/test/java/features/TDBankHomePage.feature:42)
+
+
+    Embedding Demo1 [image/png 1466910 bytes]
+
+
+@SmokeTest
+Scenario Outline: Verify Login with invalid credentials for multiple users # src/test/java/features/TDBankHomePage.feature:46
+  Given I am on TD Bank home page                                          # stepdefinitions.TdBankHomeSteps.i_am_on_td_bank_home_page()
+  When I mouse hover over login link                                       # stepdefinitions.TdBankHomeSteps.i_mouse_hover_over_login_link()
+  And I click on online banking                                            # stepdefinitions.TdBankHomeSteps.i_click_on_online_banking()
+  And I enter data "pnt5678" and "654321" into  fields                     # stepdefinitions.TdBankHomeSteps.i_enter_data_and_into_fields(java.lang.String,java.lang.String)
+  And I click on login button                                              # stepdefinitions.TdBankHomeSteps.i_click_on_login_button()
+  Then I verify invalid login text                                         # stepdefinitions.TdBankHomeSteps.i_verify_invalid_login_text()
+      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='error-message ng-binding']"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Syeds-MacBook-Pro.local', ip: '2604:2000:b102:8800:24ab:2c28:90a:c5df%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/4y/llbfbmfx3tv...}, goog:chromeOptions: {debuggerAddress: localhost:60787}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: b4356634da91cd2cdefaaf666afc961d
+*** Element info: {Using=xpath, value=//span[@class='error-message ng-binding']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy24.getText(Unknown Source)
+	at tdbankhome.TDBankHome.validateLoginWithInvalidCredentials(TDBankHome.java:141)
+	at stepdefinitions.TdBankHomeSteps.i_verify_invalid_login_text(TdBankHomeSteps.java:148)
+	at ✽.I verify invalid login text(file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TDBank/src/test/java/features/TDBankHomePage.feature:42)
+
+
+    Embedding Demo1 [image/png 1467005 bytes]
+
+
+@SmokeTest
+Scenario Outline: Verify Login with invalid credentials for multiple users # src/test/java/features/TDBankHomePage.feature:47
+  Given I am on TD Bank home page                                          # stepdefinitions.TdBankHomeSteps.i_am_on_td_bank_home_page()
+  When I mouse hover over login link                                       # stepdefinitions.TdBankHomeSteps.i_mouse_hover_over_login_link()
+  And I click on online banking                                            # stepdefinitions.TdBankHomeSteps.i_click_on_online_banking()
+  And I enter data "ntp9876" and "567890" into  fields                     # stepdefinitions.TdBankHomeSteps.i_enter_data_and_into_fields(java.lang.String,java.lang.String)
+  And I click on login button                                              # stepdefinitions.TdBankHomeSteps.i_click_on_login_button()
+  Then I verify invalid login text                                         # stepdefinitions.TdBankHomeSteps.i_verify_invalid_login_text()
+      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='error-message ng-binding']"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Syeds-MacBook-Pro.local', ip: '2604:2000:b102:8800:24ab:2c28:90a:c5df%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/4y/llbfbmfx3tv...}, goog:chromeOptions: {debuggerAddress: localhost:61240}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 335cb64c753f87fcfcd63953769925fe
+*** Element info: {Using=xpath, value=//span[@class='error-message ng-binding']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy24.getText(Unknown Source)
+	at tdbankhome.TDBankHome.validateLoginWithInvalidCredentials(TDBankHome.java:141)
+	at stepdefinitions.TdBankHomeSteps.i_verify_invalid_login_text(TdBankHomeSteps.java:148)
+	at ✽.I verify invalid login text(file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TDBank/src/test/java/features/TDBankHomePage.feature:42)
+
+
+    Embedding Demo1 [image/png 1466762 bytes]
+

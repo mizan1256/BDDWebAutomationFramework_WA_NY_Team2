@@ -1,0 +1,340 @@
+
+@SmokeTest
+Scenario: Book Hotel for a couple filling up all required data         # src/test/java/features/HotelBook.feature:7
+  Given I am on Trip advisor home page                                 # stepdefinitions.HotelBookSteps.i_am_on_trip_advisor_home_page()
+  When I click on Hotels button                                        # stepdefinitions.HotelBookSteps.i_click_on_hotels_button()
+  And I type "Niagara Falls" in where to field and enter               # stepdefinitions.HotelBookSteps.i_type_in_where_to_field_and_enter(java.lang.String)
+  And I input "10/01/20" into checkIn Field                            # stepdefinitions.HotelBookSteps.i_input_into_check_in_field(java.lang.String)
+  And I input "10/04/20" into checkOutField                            # stepdefinitions.HotelBookSteps.i_input_into_check_out_field(java.lang.String)
+  And I click on update guest button                                   # stepdefinitions.HotelBookSteps.i_click_on_update_guest_button()
+      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@class='ui_button primary fullwidth' and text()='Update']"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Syeds-MacBook-Pro.local', ip: '2604:2000:b102:8800:24ab:2c28:90a:c5df%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/4y/llbfbmfx3tv...}, goog:chromeOptions: {debuggerAddress: localhost:62333}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: b704a901f1c00f2abe8138fa0318e6a1
+*** Element info: {Using=xpath, value=//button[@class='ui_button primary fullwidth' and text()='Update']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy25.click(Unknown Source)
+	at common.WebAPI.clickOnElement(WebAPI.java:220)
+	at tripadvisorhome.HotelBookPage.clickOnUpdateGuestBtn(HotelBookPage.java:131)
+	at stepdefinitions.HotelBookSteps.i_click_on_update_guest_button(HotelBookSteps.java:75)
+	at ✽.I click on update guest button(file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TripAdvisor/src/test/java/features/HotelBook.feature:12)
+
+  And I click on crown plaza view deal button                          # stepdefinitions.HotelBookSteps.i_click_on_crown_plaza_view_deal_button()
+  And I navigate to crown plaza page and change currency from dropdown # stepdefinitions.HotelBookSteps.i_navigate_to_crown_plaza_page_and_change_currency_from_dropdown()
+  And I select one bed and click on queen bed select room button       # stepdefinitions.HotelBookSteps.i_select_one_bed_and_click_on_queen_bed_select_room_button()
+  And I select standard rate and click on select rate button           # stepdefinitions.HotelBookSteps.i_select_standard_rate_and_click_on_select_rate_button()
+  And I enter required data into respective fields                     # stepdefinitions.HotelBookSteps.i_enter_required_data_into_respective_fields(io.cucumber.datatable.DataTable)
+  And I select appropriate data from drop down                         # stepdefinitions.HotelBookSteps.i_select_appropriate_data_from_drop_down(io.cucumber.datatable.DataTable)
+  And I select certify check mark button                               # stepdefinitions.HotelBookSteps.i_select_certify_check_mark_button()
+  And I click on book reservation button                               # stepdefinitions.HotelBookSteps.i_click_on_book_reservation_button()
+
+    Embedding Demo1 [image/png 708322 bytes]
+
+      org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Syeds-MacBook-Pro.local', ip: '2604:2000:b102:8800:24ab:2c28:90a:c5df%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '11.0.8'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at stepdefinitions.HotelBookSteps.tearDown(HotelBookSteps.java:29)
+
+      org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Syeds-MacBook-Pro.local', ip: '2604:2000:b102:8800:24ab:2c28:90a:c5df%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '11.0.8'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at stepdefinitions.TripAdvisorHomePageStepDefinitions.tearDown(TripAdvisorHomePageStepDefinitions.java:25)
+
+
+@SmokeTest
+Scenario: TripAdvisor SearchBox Functionality check with valid data # src/test/java/features/TripAdvisor.feature:8
+  Given I am in TripAdvisor homepage                                # stepdefinitions.RegistrationStepDefinitions.i_am_in_trip_advisor_homepage()
+  And I enter Mexico City in searchBox                              # stepdefinitions.RegistrationStepDefinitions.i_enter_mexico_city_in_search_box()
+  When I click searchButton                                         # stepdefinitions.RegistrationStepDefinitions.i_click_search_button()
+  Then I verify Mexico City is appear properly                      # stepdefinitions.RegistrationStepDefinitions.i_verify_mexico_city_is_appear_properly()
+  And I verify page title as Mexico City                            # stepdefinitions.RegistrationStepDefinitions.i_verify_page_title_as_mexico_city()
+
+@SmokeTest
+Scenario: TripAdvisor sign in Functionality check with valid credentials # src/test/java/features/TripAdvisor.feature:15
+  Given I am in TripAdvisor homepage                                     # stepdefinitions.RegistrationStepDefinitions.i_am_in_trip_advisor_homepage()
+  And I click on signIn Button adn continue button                       # stepdefinitions.RegistrationStepDefinitions.i_click_on_sign_in_button_adn_continue_button()
+  And I enter email as "pnt30242@gmail.com" and password as "Pnt@1256"   # stepdefinitions.RegistrationStepDefinitions.i_enter_email_as_and_password_as(java.lang.String,java.lang.String)
+      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//iframe[@class='_30pzQStV']"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Syeds-MacBook-Pro.local', ip: '2604:2000:b102:8800:24ab:2c28:90a:c5df%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/4y/llbfbmfx3tv...}, goog:chromeOptions: {debuggerAddress: localhost:62650}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 24786042aaafafddb128473607de9856
+*** Element info: {Using=xpath, value=//iframe[@class='_30pzQStV']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy25.getWrappedElement(Unknown Source)
+	at org.openqa.selenium.remote.internal.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:50)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:891)
+	at tripadvisorregistration.TripAdvisorRegistration.enterEmailAndPassword(TripAdvisorRegistration.java:56)
+	at stepdefinitions.RegistrationStepDefinitions.i_enter_email_as_and_password_as(RegistrationStepDefinitions.java:72)
+	at ✽.I enter email as "pnt30242@gmail.com" and password as "Pnt@1256"(file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TripAdvisor/src/test/java/features/TripAdvisor.feature:17)
+
+  When I click on LOG IN                                                 # stepdefinitions.RegistrationStepDefinitions.i_click_on_log_in()
+  Then I landed on home page                                             # stepdefinitions.RegistrationStepDefinitions.i_landed_on_home_page()
+
+    Embedding Demo1 [image/png 768408 bytes]
+
+      org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Syeds-MacBook-Pro.local', ip: '2604:2000:b102:8800:24ab:2c28:90a:c5df%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '11.0.8'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at stepdefinitions.HotelBookSteps.tearDown(HotelBookSteps.java:29)
+
+      org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Syeds-MacBook-Pro.local', ip: '2604:2000:b102:8800:24ab:2c28:90a:c5df%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '11.0.8'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at stepdefinitions.TripAdvisorHomePageStepDefinitions.tearDown(TripAdvisorHomePageStepDefinitions.java:25)
+
+
+@SmokeTest
+Scenario: Trip Advisor Search box functionality test # src/test/java/features/TripAdvisorHomePage.feature:7
+  Given I am in Trip Advisor home page               # stepdefinitions.TripAdvisorHomePageStepDefinitions.i_am_in_trip_advisor_home_page()
+  When I type Texas i search box                     # stepdefinitions.TripAdvisorHomePageStepDefinitions.i_type_texas_i_search_box()
+  And I click search button                          # stepdefinitions.TripAdvisorHomePageStepDefinitions.i_click_search_button()
+  And I click Hotels Button                          # stepdefinitions.TripAdvisorHomePageStepDefinitions.i_click_hotels_button()
+  Then I varify "Florida" is appeared properly       # stepdefinitions.TripAdvisorHomePageStepDefinitions.i_varify_is_appeared_properly(java.lang.String)
+
+@SmokeTest
+Scenario: Trip Advisor Search box functionality test # src/test/java/features/TripAdvisorHomePage.feature:14
+  Given I am in Trip Advisor home page               # stepdefinitions.TripAdvisorHomePageStepDefinitions.i_am_in_trip_advisor_home_page()
+  When I type Texas i search box                     # stepdefinitions.TripAdvisorHomePageStepDefinitions.i_type_texas_i_search_box()
+  And I click search button                          # stepdefinitions.TripAdvisorHomePageStepDefinitions.i_click_search_button()
+  And I click Hotels Button                          # stepdefinitions.TripAdvisorHomePageStepDefinitions.i_click_hotels_button()
+  And I click vacation rentals tab                   # stepdefinitions.TripAdvisorHomePageStepDefinitions.i_click_vacation_rentals_tab()
+  Then I varify "Florida" is appeared properly       # stepdefinitions.TripAdvisorHomePageStepDefinitions.i_varify_is_appeared_properly(java.lang.String)
+
+@SmokeTest
+Scenario: Trip Advisor Search box functionality test # src/test/java/features/TripAdvisorHomePage.feature:22
+  Given I am in Trip Advisor home page               # stepdefinitions.TripAdvisorHomePageStepDefinitions.i_am_in_trip_advisor_home_page()
+  When I type Texas i search box                     # stepdefinitions.TripAdvisorHomePageStepDefinitions.i_type_texas_i_search_box()
+  And I click search button                          # stepdefinitions.TripAdvisorHomePageStepDefinitions.i_click_search_button()
+  And I click Hotels Button                          # stepdefinitions.TripAdvisorHomePageStepDefinitions.i_click_hotels_button()
+  And I click Restaurants tab                        # stepdefinitions.TripAdvisorHomePageStepDefinitions.i_click_restaurants_tab()
+  And I click Texas Roadhouse                        # stepdefinitions.TripAdvisorHomePageStepDefinitions.i_click_texas_roadhouse()
+  And I navigate new windows                         # stepdefinitions.TripAdvisorHomePageStepDefinitions.i_navigate_new_windows()
+  And I click food picture                           # stepdefinitions.TripAdvisorHomePageStepDefinitions.i_click_food_picture()
+  And I click Gallery button                         # stepdefinitions.TripAdvisorHomePageStepDefinitions.i_click_gallery_button()
+  Then I varify food image is appeared properly      # stepdefinitions.TripAdvisorHomePageStepDefinitions.i_varify_food_image_is_appeared_properly()
+
+@SmokeTest
+Scenario: Trip Advisor Search box functionality test   # src/test/java/features/TripAdvisorHomePage.feature:34
+  Given I am in Trip Advisor home page                 # stepdefinitions.TripAdvisorHomePageStepDefinitions.i_am_in_trip_advisor_home_page()
+  When I click TravelForum                             # stepdefinitions.TripAdvisorHomePageStepDefinitions.i_click_travel_forum()
+  And I click Flights                                  # stepdefinitions.TripAdvisorHomePageStepDefinitions.i_click_flights()
+  And I enter Where from and To field                  # stepdefinitions.TripAdvisorHomePageStepDefinitions.i_enter_where_from_and_to_field()
+  And I enter departure and arrival date               # stepdefinitions.TripAdvisorHomePageStepDefinitions.i_enter_departure_and_arrival_date()
+  And I enter person field and close person field      # stepdefinitions.TripAdvisorHomePageStepDefinitions.i_enter_person_field_and_close_person_field()
+  And I click find flight button                       # stepdefinitions.TripAdvisorHomePageStepDefinitions.i_click_find_flight_button()
+  Then I varify COVID-19 Policies is appeared properly # stepdefinitions.TripAdvisorHomePageStepDefinitions.i_varify_covid_policies_is_appeared_properly(java.lang.Integer)
+      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="leftRailFilter"]/div/div/div/div/div[4]"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Syeds-MacBook-Pro.local', ip: '2604:2000:b102:8800:24ab:2c28:90a:c5df%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/4y/llbfbmfx3tv...}, goog:chromeOptions: {debuggerAddress: localhost:63193}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 3f845e24acdfc214abe5899fb276d987
+*** Element info: {Using=xpath, value=//*[@id="leftRailFilter"]/div/div/div/div/div[4]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy25.getText(Unknown Source)
+	at tripadvisorhome.TripAdvisorHome.validateTravelForum(TripAdvisorHome.java:200)
+	at stepdefinitions.TripAdvisorHomePageStepDefinitions.i_varify_covid_policies_is_appeared_properly(TripAdvisorHomePageStepDefinitions.java:131)
+	at ✽.I varify COVID-19 Policies is appeared properly(file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TripAdvisor/src/test/java/features/TripAdvisorHomePage.feature:41)
+
+
+    Embedding Demo1 [image/png 2049218 bytes]
+
+      org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Syeds-MacBook-Pro.local', ip: '2604:2000:b102:8800:24ab:2c28:90a:c5df%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '11.0.8'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at stepdefinitions.HotelBookSteps.tearDown(HotelBookSteps.java:29)
+
+      org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Syeds-MacBook-Pro.local', ip: '2604:2000:b102:8800:24ab:2c28:90a:c5df%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '11.0.8'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at stepdefinitions.TripAdvisorHomePageStepDefinitions.tearDown(TripAdvisorHomePageStepDefinitions.java:25)
+
+
+@SmokeTest
+Scenario: Trip Advisor Search box functionality test   # src/test/java/features/TripAdvisorHomePage.feature:44
+  Given I am in Trip Advisor home page                 # stepdefinitions.TripAdvisorHomePageStepDefinitions.i_am_in_trip_advisor_home_page()
+  When I click TravelForum and click Flight            # stepdefinitions.TripAdvisorHomePageStepDefinitions.i_click_travel_forum_and_click_flight()
+  And I click One way tab                              # stepdefinitions.TripAdvisorHomePageStepDefinitions.i_click_one_way_tab()
+      org.openqa.selenium.InvalidSelectorException: invalid selector: The result of the xpath expression "//*[@id="taplc_trip_search_home_flights_0"]/div[2]/div/div[1]/ul/li[2]/div/a/text()" is: [object Text]. It should be an element.
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Syeds-MacBook-Pro.local', ip: '2604:2000:b102:8800:24ab:2c28:90a:c5df%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/4y/llbfbmfx3tv...}, goog:chromeOptions: {debuggerAddress: localhost:63506}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: ad0e2913259124cb477d8d9266dfeefc
+*** Element info: {Using=xpath, value=//*[@id="taplc_trip_search_home_flights_0"]/div[2]/div/div[1]/ul/li[2]/div/a/text()}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy25.click(Unknown Source)
+	at tripadvisorhome.TripAdvisorHome.oneWayTab(TripAdvisorHome.java:215)
+	at stepdefinitions.TripAdvisorHomePageStepDefinitions.i_click_one_way_tab(TripAdvisorHomePageStepDefinitions.java:142)
+	at ✽.I click One way tab(file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TripAdvisor/src/test/java/features/TripAdvisorHomePage.feature:46)
+
+  And I enter Where from and To field                  # stepdefinitions.TripAdvisorHomePageStepDefinitions.i_enter_where_from_and_to_field()
+  And I enter departure date                           # stepdefinitions.TripAdvisorHomePageStepDefinitions.i_enter_departure_date()
+  And I enter person field and close person field      # stepdefinitions.TripAdvisorHomePageStepDefinitions.i_enter_person_field_and_close_person_field()
+  And I click find flight button                       # stepdefinitions.TripAdvisorHomePageStepDefinitions.i_click_find_flight_button()
+  Then I varify COVID-19 Policies is appeared properly # stepdefinitions.TripAdvisorHomePageStepDefinitions.i_varify_covid_policies_is_appeared_properly(java.lang.Integer)
+
+    Embedding Demo1 [image/png 2020942 bytes]
+
+      org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Syeds-MacBook-Pro.local', ip: '2604:2000:b102:8800:24ab:2c28:90a:c5df%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '11.0.8'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at stepdefinitions.HotelBookSteps.tearDown(HotelBookSteps.java:29)
+
+      org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Syeds-MacBook-Pro.local', ip: '2604:2000:b102:8800:24ab:2c28:90a:c5df%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '11.0.8'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at stepdefinitions.TripAdvisorHomePageStepDefinitions.tearDown(TripAdvisorHomePageStepDefinitions.java:25)
+
+
+@SmokeTest
+Scenario: Trip Advisor Search box functionality test # src/test/java/features/TripAdvisorHomePage.feature:54
+  Given I am in Trip Advisor home page               # stepdefinitions.TripAdvisorHomePageStepDefinitions.i_am_in_trip_advisor_home_page()
+  When I click Things to Do                          # stepdefinitions.TripAdvisorHomePageStepDefinitions.i_click_things_to_do()
+  And I type in searchBox and submit                 # stepdefinitions.TripAdvisorHomePageStepDefinitions.i_type_in_search_box_and_submit()
+  Then I varify Dhaka City is appeared properly      # stepdefinitions.TripAdvisorHomePageStepDefinitions.i_varify_dhaka_city_is_appeared_properly()
+
+@SmokeTest
+Scenario: Trip Advisor Search box functionality test # src/test/java/features/TripAdvisorHomePage.feature:60
+  Given I am in Trip Advisor home page               # stepdefinitions.TripAdvisorHomePageStepDefinitions.i_am_in_trip_advisor_home_page()
+  When I click Things to Do                          # stepdefinitions.TripAdvisorHomePageStepDefinitions.i_click_things_to_do()
+  And I type in searchBox and submit                 # stepdefinitions.TripAdvisorHomePageStepDefinitions.i_type_in_search_box_and_submit()
+  Then I varify Dhaka City is appeared properly      # stepdefinitions.TripAdvisorHomePageStepDefinitions.i_varify_dhaka_city_is_appeared_properly()
+
+@SmokeTest
+Scenario: Trip Advisor Search box functionality test # src/test/java/features/TripAdvisorHomePage.feature:68
+  Given I am in Trip Advisor home page               # stepdefinitions.TripAdvisorHomePageStepDefinitions.i_am_in_trip_advisor_home_page()
+  When I click trip button                           # stepdefinitions.TripAdvisorHomePageStepDefinitions.i_click_trip_button()
+  And I click get start                              # stepdefinitions.TripAdvisorHomePageStepDefinitions.i_click_get_start()
+  Then I varify reCAPCHA is appeared properly        # stepdefinitions.TripAdvisorHomePageStepDefinitions.i_varify_re_capcha_is_appeared_properly()
+
+@SmokeTest
+Scenario: Trip Advisor Search box functionality test          # src/test/java/features/TripAdvisorHomePage.feature:74
+  Given I am in Trip Advisor home page                        # stepdefinitions.TripAdvisorHomePageStepDefinitions.i_am_in_trip_advisor_home_page()
+  When I click Post                                           # stepdefinitions.TripAdvisorHomePageStepDefinitions.i_click_post()
+  And I click Post Photo                                      # stepdefinitions.TripAdvisorHomePageStepDefinitions.i_click_post_photo()
+  And I click hohel radio button                              # stepdefinitions.TripAdvisorHomePageStepDefinitions.i_click_hohel_radio_button()
+  And I type hotel name and city name and click search button # stepdefinitions.TripAdvisorHomePageStepDefinitions.i_type_hotel_name_and_city_name_and_click_search_button()
+  And select and click radio button                           # stepdefinitions.TripAdvisorHomePageStepDefinitions.select_and_click_radio_button()
+  And I click Post Photos Button and click add photo btn      # stepdefinitions.TripAdvisorHomePageStepDefinitions.i_click_post_photos_button_and_click_add_photo_btn()
+  And I click select photo from your computer.                # stepdefinitions.TripAdvisorHomePageStepDefinitions.i_click_select_photo_from_your_computer()

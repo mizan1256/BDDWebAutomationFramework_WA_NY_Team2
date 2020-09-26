@@ -1,0 +1,973 @@
+[
+  {
+    "source": "I am in United Air home page",
+    "steps": [
+      {
+        "name": "I am in United Air home page",
+        "aggregatedDurations": {
+          "median": 6.0440325,
+          "average": 6.430636615
+        },
+        "durations": [
+          {
+            "duration": 8.551922,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirRegistration.feature:4"
+          },
+          {
+            "duration": 7.852629,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirRegistration.feature:4"
+          },
+          {
+            "duration": 6.465871,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirRegistration.feature:4"
+          },
+          {
+            "duration": 5.942615,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirRegistration.feature:4"
+          },
+          {
+            "duration": 5.776361,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:4"
+          },
+          {
+            "duration": 5.803528,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:4"
+          },
+          {
+            "duration": 7.966539,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:4"
+          },
+          {
+            "duration": 6.611508,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:4"
+          },
+          {
+            "duration": 5.66768,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:4"
+          },
+          {
+            "duration": 7.320969,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:4"
+          },
+          {
+            "duration": 5.389274,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:4"
+          },
+          {
+            "duration": 5.341299,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:4"
+          },
+          {
+            "duration": 6.302295,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:4"
+          },
+          {
+            "duration": 5.658608,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:4"
+          },
+          {
+            "duration": 6.01261,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:4"
+          },
+          {
+            "duration": 5.151698,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:4"
+          },
+          {
+            "duration": 7.077386,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:4"
+          },
+          {
+            "duration": 5.918424,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:4"
+          },
+          {
+            "duration": 6.15136,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:4"
+          },
+          {
+            "duration": 6.24716,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:4"
+          },
+          {
+            "duration": 5.97566,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:4"
+          },
+          {
+            "duration": 6.075455,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:4"
+          },
+          {
+            "duration": 8.773123,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:4"
+          },
+          {
+            "duration": 7.815047,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:4"
+          },
+          {
+            "duration": 5.714353,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:4"
+          },
+          {
+            "duration": 5.633178,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on signIn button",
+    "steps": [
+      {
+        "name": "I click on signIn button",
+        "aggregatedDurations": {
+          "median": 3.183577,
+          "average": 3.18469175
+        },
+        "durations": [
+          {
+            "duration": 3.215706,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirRegistration.feature:5"
+          },
+          {
+            "duration": 3.195168,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirRegistration.feature:5"
+          },
+          {
+            "duration": 3.171986,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirRegistration.feature:5"
+          },
+          {
+            "duration": 3.155907,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirRegistration.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on join now and use title",
+    "steps": [
+      {
+        "name": "I click on join now and use title",
+        "aggregatedDurations": {
+          "median": 14.563769,
+          "average": 15.744695333
+        },
+        "durations": [
+          {
+            "duration": 14.547869,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirRegistration.feature:9"
+          },
+          {
+            "duration": 18.122448,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirRegistration.feature:18"
+          },
+          {
+            "duration": 14.563769,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirRegistration.feature:26"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I use data in member information field",
+    "steps": [
+      {
+        "name": "I use data in member information field",
+        "aggregatedDurations": {
+          "median": 9.582256,
+          "average": 9.582256
+        },
+        "durations": [
+          {
+            "duration": 9.582256,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirRegistration.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "month and gender field is selected",
+    "steps": [
+      {
+        "name": "month and gender field is selected",
+        "aggregatedDurations": {
+          "median": 12.308944,
+          "average": 12.308944
+        },
+        "durations": [
+          {
+            "duration": 12.308944,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirRegistration.feature:13"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I validate Contact Information is appeared properly",
+    "steps": [
+      {
+        "name": "I validate Contact Information is appeared properly",
+        "aggregatedDurations": {
+          "median": 0.052966,
+          "average": 0.052966
+        },
+        "durations": [
+          {
+            "duration": 0.052966,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirRegistration.feature:14"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I entered data in Contact Information field",
+    "steps": [
+      {
+        "name": "I entered data in Contact Information field",
+        "aggregatedDurations": {
+          "median": 13.820117,
+          "average": 13.820117
+        },
+        "durations": [
+          {
+            "duration": 13.820117,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirRegistration.feature:19"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I validate {string} appear properly",
+    "steps": [
+      {
+        "name": "I validate \"Phone number\" appear properly",
+        "aggregatedDurations": {
+          "median": 0.052339,
+          "average": 0.052339
+        },
+        "durations": [
+          {
+            "duration": 0.052339,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirRegistration.feature:22"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I entered data in phone number field",
+    "steps": [
+      {
+        "name": "I entered data in phone number field",
+        "aggregatedDurations": {
+          "median": 4.6691,
+          "average": 4.6691
+        },
+        "durations": [
+          {
+            "duration": 4.6691,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirRegistration.feature:27"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on check box field",
+    "steps": [
+      {
+        "name": "I click on check box field",
+        "aggregatedDurations": {
+          "median": 0.145741,
+          "average": 0.145741
+        },
+        "durations": [
+          {
+            "duration": 0.145741,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirRegistration.feature:30"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify {string} appear properly",
+    "steps": [
+      {
+        "name": "I verify \"Email information\" appear properly",
+        "aggregatedDurations": {
+          "median": 0.029075,
+          "average": 0.029075
+        },
+        "durations": [
+          {
+            "duration": 0.029075,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirRegistration.feature:31"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click Flight status",
+    "steps": [
+      {
+        "name": "I click Flight status",
+        "aggregatedDurations": {
+          "median": 0.182946,
+          "average": 0.182946
+        },
+        "durations": [
+          {
+            "duration": 0.182946,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter City in From field and To field",
+    "steps": [
+      {
+        "name": "I enter City in From field and To field",
+        "aggregatedDurations": {
+          "median": 0.413572,
+          "average": 0.413572
+        },
+        "durations": [
+          {
+            "duration": 0.413572,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click Check In",
+    "steps": [
+      {
+        "name": "I click Check In",
+        "aggregatedDurations": {
+          "median": 0.12127,
+          "average": 0.12127
+        },
+        "durations": [
+          {
+            "duration": 0.12127,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:16"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter ticket Number and Last Name",
+    "steps": [
+      {
+        "name": "I enter ticket Number and Last Name",
+        "aggregatedDurations": {
+          "median": 5.681517,
+          "average": 5.681517
+        },
+        "durations": [
+          {
+            "duration": 5.681517,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:17"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click checkIn Search Button",
+    "steps": [
+      {
+        "name": "I click checkIn Search Button",
+        "aggregatedDurations": {
+          "median": 0.387088,
+          "average": 0.387088
+        },
+        "durations": [
+          {
+            "duration": 0.387088,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:18"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I validate Check In page message",
+    "steps": [
+      {
+        "name": "I validate Check In page message",
+        "aggregatedDurations": {
+          "median": 5.08301,
+          "average": 5.08301
+        },
+        "durations": [
+          {
+            "duration": 5.08301,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:19"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Book Button",
+    "steps": [
+      {
+        "name": "I click on Book Button",
+        "aggregatedDurations": {
+          "median": 0.256485,
+          "average": 0.256485
+        },
+        "durations": [
+          {
+            "duration": 0.256485,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:23"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Hotels Button",
+    "steps": [
+      {
+        "name": "I click on Hotels Button",
+        "aggregatedDurations": {
+          "median": 0.520527,
+          "average": 0.520527
+        },
+        "durations": [
+          {
+            "duration": 0.520527,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:24"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter {string} in searchBox and submit",
+    "steps": [
+      {
+        "name": "I enter \"Miami, Florida, United States of America\" in searchBox and submit",
+        "aggregatedDurations": {
+          "median": 5.720711,
+          "average": 5.720711
+        },
+        "durations": [
+          {
+            "duration": 5.720711,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:25"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on signInOption",
+    "steps": [
+      {
+        "name": "I click on signInOption",
+        "aggregatedDurations": {
+          "median": 0.25008,
+          "average": 0.270275428
+        },
+        "durations": [
+          {
+            "duration": 0.515511,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:30"
+          },
+          {
+            "duration": 0.25008,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:38"
+          },
+          {
+            "duration": 0.214341,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:46"
+          },
+          {
+            "duration": 0.154394,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:46"
+          },
+          {
+            "duration": 0.25839,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:46"
+          },
+          {
+            "duration": 0.200045,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:46"
+          },
+          {
+            "duration": 0.299167,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:46"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter userName and password",
+    "steps": [
+      {
+        "name": "I enter userName and password",
+        "aggregatedDurations": {
+          "median": 0.908188,
+          "average": 0.908188
+        },
+        "durations": [
+          {
+            "duration": 0.908188,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:31"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click loginButton",
+    "steps": [
+      {
+        "name": "I click loginButton",
+        "aggregatedDurations": {
+          "median": 0.131063,
+          "average": 0.221790714
+        },
+        "durations": [
+          {
+            "duration": 0.593519,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:32"
+          },
+          {
+            "duration": 0.11373,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:40"
+          },
+          {
+            "duration": 0.131063,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:48"
+          },
+          {
+            "duration": 0.070995,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:48"
+          },
+          {
+            "duration": 0.266323,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:48"
+          },
+          {
+            "duration": 0.245898,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:48"
+          },
+          {
+            "duration": 0.131007,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:48"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify image",
+    "steps": [
+      {
+        "name": "I verify image",
+        "aggregatedDurations": {
+          "median": 0.057114,
+          "average": 0.092150428
+        },
+        "durations": [
+          {
+            "duration": 0.275905,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:33"
+          },
+          {
+            "duration": 0.041469,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:41"
+          },
+          {
+            "duration": 0.074047,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:49"
+          },
+          {
+            "duration": 0.031209,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:49"
+          },
+          {
+            "duration": 0.057114,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:49"
+          },
+          {
+            "duration": 0.116777,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:49"
+          },
+          {
+            "duration": 0.048532,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:49"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter {string} and {string}",
+    "steps": [
+      {
+        "name": "I enter \"pnt1234\" and \"test123\"",
+        "aggregatedDurations": {
+          "median": 0.705115,
+          "average": 0.705115
+        },
+        "durations": [
+          {
+            "duration": 0.705115,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:39"
+          }
+        ]
+      },
+      {
+        "name": "I enter \"pnt123\" and \"test123\"",
+        "aggregatedDurations": {
+          "median": 1.089302,
+          "average": 1.089302
+        },
+        "durations": [
+          {
+            "duration": 1.089302,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:47"
+          }
+        ]
+      },
+      {
+        "name": "I enter \"pnt345\" and \"test124\"",
+        "aggregatedDurations": {
+          "median": 0.560499,
+          "average": 0.560499
+        },
+        "durations": [
+          {
+            "duration": 0.560499,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:47"
+          }
+        ]
+      },
+      {
+        "name": "I enter \"pnt678\" and \"test125\"",
+        "aggregatedDurations": {
+          "median": 0.562616,
+          "average": 0.562616
+        },
+        "durations": [
+          {
+            "duration": 0.562616,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:47"
+          }
+        ]
+      },
+      {
+        "name": "I enter \"pnt987\" and \"test126\"",
+        "aggregatedDurations": {
+          "median": 0.575377,
+          "average": 0.575377
+        },
+        "durations": [
+          {
+            "duration": 0.575377,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:47"
+          }
+        ]
+      },
+      {
+        "name": "I enter \"pnt001\" and \"test127\"",
+        "aggregatedDurations": {
+          "median": 0.647928,
+          "average": 0.647928
+        },
+        "durations": [
+          {
+            "duration": 0.647928,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:47"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "i click on the searchLogo",
+    "steps": [
+      {
+        "name": "i click on the searchLogo",
+        "aggregatedDurations": {
+          "median": 0.144224,
+          "average": 0.1439768
+        },
+        "durations": [
+          {
+            "duration": 0.144224,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:61"
+          },
+          {
+            "duration": 0.180802,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:69"
+          },
+          {
+            "duration": 0.139366,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:69"
+          },
+          {
+            "duration": 0.149722,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:69"
+          },
+          {
+            "duration": 0.10577,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:69"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter {string} in the searchBox",
+    "steps": [
+      {
+        "name": "I enter \"deals and offers\" in the searchBox",
+        "aggregatedDurations": {
+          "median": 0.653896,
+          "average": 0.653896
+        },
+        "durations": [
+          {
+            "duration": 0.653896,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:62"
+          }
+        ]
+      },
+      {
+        "name": "I enter \"airlines\" in the searchBox",
+        "aggregatedDurations": {
+          "median": 0.431242,
+          "average": 0.431242
+        },
+        "durations": [
+          {
+            "duration": 0.431242,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:70"
+          }
+        ]
+      },
+      {
+        "name": "I enter \"flights\" in the searchBox",
+        "aggregatedDurations": {
+          "median": 0.470713,
+          "average": 0.470713
+        },
+        "durations": [
+          {
+            "duration": 0.470713,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:70"
+          }
+        ]
+      },
+      {
+        "name": "I enter \"airline partner\" in the searchBox",
+        "aggregatedDurations": {
+          "median": 0.61501,
+          "average": 0.61501
+        },
+        "durations": [
+          {
+            "duration": 0.61501,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:70"
+          }
+        ]
+      },
+      {
+        "name": "I enter \"flight delays\" in the searchBox",
+        "aggregatedDurations": {
+          "median": 0.587803,
+          "average": 0.587803
+        },
+        "durations": [
+          {
+            "duration": 0.587803,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:70"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click searchButton",
+    "steps": [
+      {
+        "name": "I click searchButton",
+        "aggregatedDurations": {
+          "median": 1.392086,
+          "average": 1.6381598
+        },
+        "durations": [
+          {
+            "duration": 2.668708,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:63"
+          },
+          {
+            "duration": 1.228894,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:71"
+          },
+          {
+            "duration": 1.392086,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:71"
+          },
+          {
+            "duration": 1.569697,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:71"
+          },
+          {
+            "duration": 1.331414,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:71"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify searchText",
+    "steps": [
+      {
+        "name": "I verify searchText",
+        "aggregatedDurations": {
+          "median": 5.054537,
+          "average": 5.0905948
+        },
+        "durations": [
+          {
+            "duration": 5.239306,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:64"
+          },
+          {
+            "duration": 5.023845,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:72"
+          },
+          {
+            "duration": 5.036353,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:72"
+          },
+          {
+            "duration": 5.054537,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:72"
+          },
+          {
+            "duration": 5.098933,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:72"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter location To",
+    "steps": [
+      {
+        "name": "I enter location To",
+        "aggregatedDurations": {
+          "median": 1.13503,
+          "average": 1.13503
+        },
+        "durations": [
+          {
+            "duration": 1.13503,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:84"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter destination location {string}*",
+    "steps": [
+      {
+        "name": "I enter destination location \"Paris\"*",
+        "aggregatedDurations": {
+          "median": 11.164662,
+          "average": 11.164662
+        },
+        "durations": [
+          {
+            "duration": 11.619518,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:93"
+          },
+          {
+            "duration": 10.709806,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:101"
+          }
+        ]
+      },
+      {
+        "name": "I enter destination location \"Turkey\"*",
+        "aggregatedDurations": {
+          "median": 11.140882,
+          "average": 11.140882
+        },
+        "durations": [
+          {
+            "duration": 11.140882,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:101"
+          }
+        ]
+      },
+      {
+        "name": "I enter destination location \"Nepal\"*",
+        "aggregatedDurations": {
+          "median": 10.548024,
+          "average": 10.548024
+        },
+        "durations": [
+          {
+            "duration": 10.548024,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:101"
+          }
+        ]
+      },
+      {
+        "name": "I enter destination location \"Egypt\"*",
+        "aggregatedDurations": {
+          "median": 10.479327,
+          "average": 10.479327
+        },
+        "durations": [
+          {
+            "duration": 10.479327,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:101"
+          }
+        ]
+      },
+      {
+        "name": "I enter destination location \"London\"*",
+        "aggregatedDurations": {
+          "median": 11.443915,
+          "average": 11.443915
+        },
+        "durations": [
+          {
+            "duration": 11.443915,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:101"
+          }
+        ]
+      }
+    ]
+  }
+]

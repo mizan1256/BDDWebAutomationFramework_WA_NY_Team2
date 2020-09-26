@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="23" time="174.297">
+    <testcase classname="Geico homePage functionality check" name="Geico searchBox functionality Check" time="7.441">
+        <system-out>
+            <![CDATA[Given I am on Geico homepage................................................passed
+And I click searchlogo......................................................passed
+And I enter motorcycle in searchBox.........................................passed
+When I click searchButton...................................................passed
+Then I verify siteSearchText................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Geico homePage functionality check" name="Geico searchBox functionality Check 2" time="5.252">
+        <system-out>
+            <![CDATA[Given I am on Geico homepage................................................passed
+And I click searchlogo......................................................passed
+And I enter "motorcycle" in searchBox.......................................passed
+When I click searchButton...................................................passed
+Then I verify siteSearchText................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Geico homePage functionality check" name="Geico searchBox functionality Check 3" time="5.763">
+        <system-out>
+            <![CDATA[Given I am on Geico homepage................................................passed
+And I click searchlogo......................................................passed
+And I enter "Motorcycle Insurance" in searchBox.............................passed
+When I click searchButton...................................................passed
+Then I verify siteSearchText................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Geico homePage functionality check" name="Geico searchBox functionality Check 4" time="11.665">
+        <system-out>
+            <![CDATA[Given I am on Geico homepage................................................passed
+And I click searchlogo......................................................passed
+And I enter "Car Insurance" in searchBox....................................passed
+When I click searchButton...................................................passed
+Then I verify siteSearchText................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Geico homePage functionality check" name="Geico searchBox functionality Check 5" time="5.854">
+        <system-out>
+            <![CDATA[Given I am on Geico homepage................................................passed
+And I click searchlogo......................................................passed
+And I enter "Condo Insurance" in searchBox..................................passed
+When I click searchButton...................................................passed
+Then I verify siteSearchText................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Geico homePage functionality check" name="Geico searchBox functionality Check 6" time="5.67">
+        <system-out>
+            <![CDATA[Given I am on Geico homepage................................................passed
+And I click searchlogo......................................................passed
+And I enter "life Insurance" in searchBox...................................passed
+When I click searchButton...................................................passed
+Then I verify siteSearchText................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Geico homePage functionality check" name="Geico searchBox functionality Check 7" time="5.254">
+        <system-out>
+            <![CDATA[Given I am on Geico homepage................................................passed
+And I click searchlogo......................................................passed
+And I enter "RV Insurance" in searchBox.....................................passed
+When I click searchButton...................................................passed
+Then I verify siteSearchText................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Geico homePage functionality check" name="Geico searchBox functionality Check 8" time="7.844">
+        <system-out>
+            <![CDATA[Given I am on Geico homepage................................................passed
+And I click searchlogo......................................................passed
+And I enter "Flood Insurance" in searchBox..................................passed
+When I click searchButton...................................................passed
+Then I verify siteSearchText................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Geico homePage functionality check" name="Geico searchBox functionality Check 9" time="6.999">
+        <system-out>
+            <![CDATA[Given I am on Geico homepage................................................passed
+And I click searchlogo......................................................passed
+And I enter "Boat Insurance" in searchBox...................................passed
+When I click searchButton...................................................passed
+Then I verify siteSearchText................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Geico homePage functionality check" name="Geico login functionality Check" time="8.364">
+        <system-out>
+            <![CDATA[Given I am on Geico homepage................................................passed
+And I choose click on the arrow to choose policy............................passed
+And I choose accessPolicy...................................................passed
+And I click on LoginOption..................................................passed
+And I enter userName and password...........................................passed
+When I click loginButton....................................................passed
+Then I verify title.........................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Geico homePage functionality check" name="Geico login functionality Check 2" time="7.802">
+        <system-out>
+            <![CDATA[Given I am on Geico homepage................................................passed
+And I choose click on the arrow to choose policy............................passed
+And I choose accessPolicy...................................................passed
+And I click on LoginOption..................................................passed
+And I enter "mtt1213" and "abs12344556".....................................passed
+When I click loginButton....................................................passed
+Then I verify title.........................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Geico homePage functionality check" name="Geico login functionality Check 3" time="9.817">
+        <system-out>
+            <![CDATA[Given I am on Geico homepage................................................passed
+And I choose click on the arrow to choose policy............................passed
+And I choose accessPolicy...................................................passed
+And I click on LoginOption..................................................passed
+And I enter "mttt124" and "abs214324".......................................passed
+When I click loginButton....................................................passed
+Then I verify title.........................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Geico homePage functionality check" name="Geico login functionality Check 4" time="7.996">
+        <system-out>
+            <![CDATA[Given I am on Geico homepage................................................passed
+And I choose click on the arrow to choose policy............................passed
+And I choose accessPolicy...................................................passed
+And I click on LoginOption..................................................passed
+And I enter "mtt124324" and "12424653"......................................passed
+When I click loginButton....................................................passed
+Then I verify title.........................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Geico homePage functionality check" name="Geico login functionality Check 5" time="7.497">
+        <system-out>
+            <![CDATA[Given I am on Geico homepage................................................passed
+And I choose click on the arrow to choose policy............................passed
+And I choose accessPolicy...................................................passed
+And I click on LoginOption..................................................passed
+And I enter "mtt12424" and "12424653".......................................passed
+When I click loginButton....................................................passed
+Then I verify title.........................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Geico homePage functionality check" name="Geico login functionality Check 6" time="7.833">
+        <system-out>
+            <![CDATA[Given I am on Geico homepage................................................passed
+And I choose click on the arrow to choose policy............................passed
+And I choose accessPolicy...................................................passed
+And I click on LoginOption..................................................passed
+And I enter "mtt1324" and "Ewfg234".........................................passed
+When I click loginButton....................................................passed
+Then I verify title.........................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Geico homePage functionality check" name="Geico login functionality Check 7" time="7.732">
+        <system-out>
+            <![CDATA[Given I am on Geico homepage................................................passed
+And I choose click on the arrow to choose policy............................passed
+And I choose accessPolicy...................................................passed
+And I click on LoginOption..................................................passed
+And I enter "mtt1325" and "12424fer53"......................................passed
+When I click loginButton....................................................passed
+Then I verify title.........................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Geico homePage functionality check" name="Geico login create account check with variable" time="7.325">
+        <system-out>
+            <![CDATA[Given I am on Geico homepage................................................passed
+And I click on startHere....................................................passed
+And I enter "policyNumber", "dateOfBirth" and "zipCode".....................passed
+When I click continue.......................................................passed
+Then I verify errorText on screen...........................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Geico homePage functionality check" name="Geico login create account check with multiple variable" time="9.852">
+        <system-out>
+            <![CDATA[Given I am on Geico homepage................................................passed
+And I click on startHere....................................................passed
+And I enter "1234", "02141004" and "10045"..................................passed
+When I click continue.......................................................passed
+Then I verify policyNumber on screen........................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Geico homePage functionality check" name="Geico login create account check with multiple variable 2" time="10.829">
+        <system-out>
+            <![CDATA[Given I am on Geico homepage................................................passed
+And I click on startHere....................................................passed
+And I enter "124355", "0319919" and "10422".................................passed
+When I click continue.......................................................passed
+Then I verify policyNumber on screen........................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Geico homePage functionality check" name="Geico login create account check with multiple variable 3" time="7.572">
+        <system-out>
+            <![CDATA[Given I am on Geico homepage................................................passed
+And I click on startHere....................................................passed
+And I enter "12314", "03191996" and "10326".................................passed
+When I click continue.......................................................passed
+Then I verify policyNumber on screen........................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Geico homePage functionality check" name="Geico login create account check with multiple variable 4" time="6.302">
+        <system-out>
+            <![CDATA[Given I am on Geico homepage................................................passed
+And I click on startHere....................................................passed
+And I enter "12315", "03191296" and "10329".................................passed
+When I click continue.......................................................passed
+Then I verify policyNumber on screen........................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Geico homePage functionality check" name="Geico login create account check with multiple variable 5" time="6.383">
+        <system-out>
+            <![CDATA[Given I am on Geico homepage................................................passed
+And I click on startHere....................................................passed
+And I enter "12316", "01191996" and "10328".................................passed
+When I click continue.......................................................passed
+Then I verify policyNumber on screen........................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Geico homePage functionality check" name="Geico login create account check with multiple variable 6" time="6.378">
+        <system-out>
+            <![CDATA[Given I am on Geico homepage................................................passed
+And I click on startHere....................................................passed
+And I enter "12317", "05191996" and "10327".................................passed
+When I click continue.......................................................passed
+Then I verify policyNumber on screen........................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

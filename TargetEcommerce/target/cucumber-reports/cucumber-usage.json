@@ -1,0 +1,447 @@
+[
+  {
+    "source": "I am on targetEcommerce home page",
+    "steps": [
+      {
+        "name": "I am on targetEcommerce home page",
+        "aggregatedDurations": {
+          "median": 4.757426,
+          "average": 4.998707928
+        },
+        "durations": [
+          {
+            "duration": 7.322918,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetEcom.feature:4"
+          },
+          {
+            "duration": 5.99438,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetEcom.feature:4"
+          },
+          {
+            "duration": 4.691442,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetEcom.feature:4"
+          },
+          {
+            "duration": 4.09101,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetEcom.feature:4"
+          },
+          {
+            "duration": 4.470011,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetEcom.feature:4"
+          },
+          {
+            "duration": 4.504507,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetEcom.feature:4"
+          },
+          {
+            "duration": 5.091567,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetEcom.feature:4"
+          },
+          {
+            "duration": 4.903975,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetEcom.feature:4"
+          },
+          {
+            "duration": 4.404036,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetEcom.feature:4"
+          },
+          {
+            "duration": 6.933768,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetEcom.feature:4"
+          },
+          {
+            "duration": 4.82341,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetEcom.feature:4"
+          },
+          {
+            "duration": 4.337292,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetEcom.feature:4"
+          },
+          {
+            "duration": 5.176445,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetEcom.feature:4"
+          },
+          {
+            "duration": 3.23715,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetEcom.feature:4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter Samsung Phones",
+    "steps": [
+      {
+        "name": "I enter Samsung Phones",
+        "aggregatedDurations": {
+          "median": 0.930856,
+          "average": 0.930856
+        },
+        "durations": [
+          {
+            "duration": 0.930856,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetEcom.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on search button",
+    "steps": [
+      {
+        "name": "I click on search button",
+        "aggregatedDurations": {
+          "median": 0.492832,
+          "average": 0.4629298
+        },
+        "durations": [
+          {
+            "duration": 0.564853,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetEcom.feature:9"
+          },
+          {
+            "duration": 0.347724,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetSearchBox.feature:15"
+          },
+          {
+            "duration": 0.387021,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetSearchBox.feature:15"
+          },
+          {
+            "duration": 0.522219,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetSearchBox.feature:15"
+          },
+          {
+            "duration": 0.492832,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetSearchBox.feature:15"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I validate “Samsung Phone” is appeared properly",
+    "steps": [
+      {
+        "name": "I validate “Samsung Phone” is appeared properly",
+        "aggregatedDurations": {
+          "median": 4.183978,
+          "average": 4.183978
+        },
+        "durations": [
+          {
+            "duration": 4.183978,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetEcom.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter {string} in searchBox",
+    "steps": [
+      {
+        "name": "I enter \"Mask\" in searchBox",
+        "aggregatedDurations": {
+          "median": 0.306138,
+          "average": 0.306138
+        },
+        "durations": [
+          {
+            "duration": 0.306138,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetEcom.feature:65"
+          }
+        ]
+      },
+      {
+        "name": "I enter \"Soap\" in searchBox",
+        "aggregatedDurations": {
+          "median": 0.351227,
+          "average": 0.351227
+        },
+        "durations": [
+          {
+            "duration": 0.351227,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetEcom.feature:65"
+          }
+        ]
+      },
+      {
+        "name": "I enter \"Bike\" in searchBox",
+        "aggregatedDurations": {
+          "median": 0.382838,
+          "average": 0.382838
+        },
+        "durations": [
+          {
+            "duration": 0.382838,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetEcom.feature:65"
+          }
+        ]
+      },
+      {
+        "name": "I enter \"Shirt\" in searchBox",
+        "aggregatedDurations": {
+          "median": 1.195497,
+          "average": 1.195497
+        },
+        "durations": [
+          {
+            "duration": 1.195497,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetEcom.feature:65"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click searchButton",
+    "steps": [
+      {
+        "name": "I click searchButton",
+        "aggregatedDurations": {
+          "median": 0.350074,
+          "average": 0.4468765
+        },
+        "durations": [
+          {
+            "duration": 0.357547,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetEcom.feature:66"
+          },
+          {
+            "duration": 0.320284,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetEcom.feature:66"
+          },
+          {
+            "duration": 0.342601,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetEcom.feature:66"
+          },
+          {
+            "duration": 0.767074,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetEcom.feature:66"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I validate {string} is appear properly",
+    "steps": [
+      {
+        "name": "I validate \"\\\"Mask\\\"\" is appear properly",
+        "aggregatedDurations": {
+          "median": 0.005549,
+          "average": 0.005549
+        },
+        "durations": [
+          {
+            "duration": 0.005549,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetEcom.feature:67"
+          }
+        ]
+      },
+      {
+        "name": "I validate \"\\\"Soap\\\"\" is appear properly",
+        "aggregatedDurations": {
+          "median": 2.26E-4,
+          "average": 2.26E-4
+        },
+        "durations": [
+          {
+            "duration": 2.26E-4,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetEcom.feature:67"
+          }
+        ]
+      },
+      {
+        "name": "I validate \"\\\"Bike\\\"\" is appear properly",
+        "aggregatedDurations": {
+          "median": 2.15E-4,
+          "average": 2.15E-4
+        },
+        "durations": [
+          {
+            "duration": 2.15E-4,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetEcom.feature:67"
+          }
+        ]
+      },
+      {
+        "name": "I validate \"\\\"Shirt\\\"\" is appear properly",
+        "aggregatedDurations": {
+          "median": 1.69E-4,
+          "average": 1.69E-4
+        },
+        "durations": [
+          {
+            "duration": 1.69E-4,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetEcom.feature:67"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I validate page title as {string}",
+    "steps": [
+      {
+        "name": "I validate page title as \"Target : Expect More. Pay Less.\"",
+        "aggregatedDurations": {
+          "median": 0.0332835,
+          "average": 0.06000975
+        },
+        "durations": [
+          {
+            "duration": 0.023361,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetEcom.feature:68"
+          },
+          {
+            "duration": 0.031404,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetEcom.feature:68"
+          },
+          {
+            "duration": 0.035163,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetEcom.feature:68"
+          },
+          {
+            "duration": 0.150111,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetEcom.feature:68"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I am on Target Home Page",
+    "steps": [
+      {
+        "name": "I am on Target Home Page",
+        "aggregatedDurations": {
+          "median": 4.1500805,
+          "average": 4.473288
+        },
+        "durations": [
+          {
+            "duration": 4.308791,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetLogin.feature:4"
+          },
+          {
+            "duration": 3.538483,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetSearchBox.feature:4"
+          },
+          {
+            "duration": 4.566907,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetSearchBox.feature:4"
+          },
+          {
+            "duration": 7.08211,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetSearchBox.feature:4"
+          },
+          {
+            "duration": 3.99137,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetSearchBox.feature:4"
+          },
+          {
+            "duration": 3.352067,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetSearchBox.feature:4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on sign in drop down",
+    "steps": [
+      {
+        "name": "I click on sign in drop down",
+        "aggregatedDurations": {
+          "median": 3.215134,
+          "average": 3.215134
+        },
+        "durations": [
+          {
+            "duration": 3.215134,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetLogin.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter {string} in search box",
+    "steps": [
+      {
+        "name": "I enter \"iphone11\" in search box",
+        "aggregatedDurations": {
+          "median": 0.521774,
+          "average": 0.521774
+        },
+        "durations": [
+          {
+            "duration": 0.521774,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetSearchBox.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter {string} in serach box fields",
+    "steps": [
+      {
+        "name": "I enter \"watch\" in serach box fields",
+        "aggregatedDurations": {
+          "median": 0.561759,
+          "average": 0.561759
+        },
+        "durations": [
+          {
+            "duration": 0.561759,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetSearchBox.feature:14"
+          }
+        ]
+      },
+      {
+        "name": "I enter \"mask\" in serach box fields",
+        "aggregatedDurations": {
+          "median": 0.47396,
+          "average": 0.47396
+        },
+        "durations": [
+          {
+            "duration": 0.47396,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetSearchBox.feature:14"
+          }
+        ]
+      },
+      {
+        "name": "I enter \"soap\" in serach box fields",
+        "aggregatedDurations": {
+          "median": 0.609013,
+          "average": 0.609013
+        },
+        "durations": [
+          {
+            "duration": 0.609013,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetSearchBox.feature:14"
+          }
+        ]
+      },
+      {
+        "name": "I enter \"fan\" in serach box fields",
+        "aggregatedDurations": {
+          "median": 0.616413,
+          "average": 0.616413
+        },
+        "durations": [
+          {
+            "duration": 0.616413,
+            "location": "file:///Users/syedhussain/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TargetSearchBox.feature:14"
+          }
+        ]
+      }
+    ]
+  }
+]
