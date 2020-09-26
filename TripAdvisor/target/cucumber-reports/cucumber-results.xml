@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="3" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="11" time="217.702">
-    <testcase classname="Trip Advisor Home Page Functionality test" name="Trip Advisor Search box functionality test" time="13.375">
+<testsuite errors="0" failures="2" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="11" time="212.467">
+    <testcase classname="Trip Advisor Home Page Functionality test" name="Trip Advisor Search box functionality test" time="12.743">
         <system-out>
             <![CDATA[Given I am in Trip Advisor home page........................................passed
 When I type Texas i search box..............................................passed
@@ -10,49 +10,18 @@ Then I varify "Texas" is appeared properly..................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Trip Advisor Home Page Functionality test" name="Trip Advisor Search box functionality test 2" time="12.848">
-        <failure message="stale element reference: element is not attached to the page document&#10;  (Session info: chrome=85.0.4183.121)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-ESGVGIM', ip: '192.168.81.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\REBAKH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63560}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 07a4abec0db86c5cc27473d8824b47be" type="org.openqa.selenium.StaleElementReferenceException">
+    <testcase classname="Trip Advisor Home Page Functionality test" name="Trip Advisor Search box functionality test 2" time="12.031">
+        <system-out>
             <![CDATA[Given I am in Trip Advisor home page........................................passed
 When I type Texas i search box..............................................passed
 And I click search button...................................................passed
-And I click Hotels Button...................................................failed
-And I click vacation rentals tab............................................skipped
-Then I varify "Texas" is appeared properly..................................skipped
-
-StackTrace:
-org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
-  (Session info: chrome=85.0.4183.121)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-ESGVGIM', ip: '192.168.81.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\REBAKH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63560}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 07a4abec0db86c5cc27473d8824b47be
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at com.sun.proxy.$Proxy25.click(Unknown Source)
-	at tripadvisor.TripAdvisor.hotelButtonClick(TripAdvisor.java:108)
-	at stepdefinitions.TaHomeStepDefinition.i_click_hotels_button(TaHomeStepDefinition.java:60)
-	at ✽.I click Hotels Button(file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TripAdvisor/src/test/java/features/TripAdvisor.feature:17)
+And I click Hotels Button...................................................passed
+And I click vacation rentals tab............................................passed
+Then I varify "Texas" is appeared properly..................................passed
 ]]>
-        </failure>
+        </system-out>
     </testcase>
-    <testcase classname="Trip Advisor Home Page Functionality test" name="Trip Advisor Search box functionality test 3" time="21.122">
+    <testcase classname="Trip Advisor Home Page Functionality test" name="Trip Advisor Search box functionality test 3" time="20.464">
         <system-out>
             <![CDATA[Given I am in Trip Advisor home page........................................passed
 When I type Texas i search box..............................................passed
@@ -67,8 +36,8 @@ Then I varify food image is appeared properly...............................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Trip Advisor Home Page Functionality test" name="Trip Advisor Search box functionality test 4" time="73.768">
-        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;leftRailFilter&quot;]/div/div/div/div/div[4]&quot;}&#10;  (Session info: chrome=85.0.4183.121)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-ESGVGIM', ip: '192.168.81.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\REBAKH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63709}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 593ab8852678f3ecf71107f76779369b&#10;*** Element info: {Using=xpath, value=//*[@id=&quot;leftRailFilter&quot;]/div/div/div/div/div[4]}" type="org.openqa.selenium.NoSuchElementException">
+    <testcase classname="Trip Advisor Home Page Functionality test" name="Trip Advisor Search box functionality test 4" time="71.593">
+        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;leftRailFilter&quot;]/div/div/div/div/div[4]&quot;}&#10;  (Session info: chrome=85.0.4183.121)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-ESGVGIM', ip: '192.168.81.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\REBAKH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64093}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 5c601f40fd37cc013bc5a8bcaaf9b8b6&#10;*** Element info: {Using=xpath, value=//*[@id=&quot;leftRailFilter&quot;]/div/div/div/div/div[4]}" type="org.openqa.selenium.NoSuchElementException">
             <![CDATA[Given I am in Trip Advisor home page........................................passed
 When I click TravelForum....................................................passed
 And I click Flights.........................................................passed
@@ -85,8 +54,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-ESGVGIM', ip: '192.168.81.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\REBAKH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63709}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 593ab8852678f3ecf71107f76779369b
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\REBAKH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64093}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5c601f40fd37cc013bc5a8bcaaf9b8b6
 *** Element info: {Using=xpath, value=//*[@id="leftRailFilter"]/div/div/div/div/div[4]}
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -111,8 +80,8 @@ Session ID: 593ab8852678f3ecf71107f76779369b
 ]]>
         </failure>
     </testcase>
-    <testcase classname="Trip Advisor Home Page Functionality test" name="Trip Advisor Search box functionality test 5" time="16.893">
-        <failure message="invalid selector: The result of the xpath expression &quot;//*[@id=&quot;taplc_trip_search_home_flights_0&quot;]/div[2]/div/div[1]/ul/li[2]/div/a/text()&quot; is: [object Text]. It should be an element.&#10;  (Session info: chrome=85.0.4183.121)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-ESGVGIM', ip: '192.168.81.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\REBAKH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63879}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: bb85f269f864c4728114e391b7532995&#10;*** Element info: {Using=xpath, value=//*[@id=&quot;taplc_trip_search_home_flights_0&quot;]/div[2]/div/div[1]/ul/li[2]/div/a/text()}" type="org.openqa.selenium.InvalidSelectorException">
+    <testcase classname="Trip Advisor Home Page Functionality test" name="Trip Advisor Search box functionality test 5" time="16.586">
+        <failure message="invalid selector: The result of the xpath expression &quot;//*[@id=&quot;taplc_trip_search_home_flights_0&quot;]/div[2]/div/div[1]/ul/li[2]/div/a/text()&quot; is: [object Text]. It should be an element.&#10;  (Session info: chrome=85.0.4183.121)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-ESGVGIM', ip: '192.168.81.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\REBAKH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64226}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 8de070119f4adfb3894f11e88ed4d6d2&#10;*** Element info: {Using=xpath, value=//*[@id=&quot;taplc_trip_search_home_flights_0&quot;]/div[2]/div/div[1]/ul/li[2]/div/a/text()}" type="org.openqa.selenium.InvalidSelectorException">
             <![CDATA[Given I am in Trip Advisor home page........................................passed
 When I click TravelForum and click Flight...................................passed
 And I click One way tab.....................................................failed
@@ -129,8 +98,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-ESGVGIM', ip: '192.168.81.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\REBAKH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63879}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: bb85f269f864c4728114e391b7532995
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\REBAKH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64226}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 8de070119f4adfb3894f11e88ed4d6d2
 *** Element info: {Using=xpath, value=//*[@id="taplc_trip_search_home_flights_0"]/div[2]/div/div[1]/ul/li[2]/div/a/text()}
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -155,7 +124,7 @@ Session ID: bb85f269f864c4728114e391b7532995
 ]]>
         </failure>
     </testcase>
-    <testcase classname="Trip Advisor Home Page Functionality test" name="Trip Advisor Search box functionality test 6" time="10.603">
+    <testcase classname="Trip Advisor Home Page Functionality test" name="Trip Advisor Search box functionality test 6" time="11.638">
         <system-out>
             <![CDATA[Given I am in Trip Advisor home page........................................passed
 When I click Things to Do...................................................passed
@@ -164,7 +133,7 @@ Then I varify Dhaka City is appeared properly...............................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Trip Advisor Home Page Functionality test" name="Trip Advisor Search box functionality test 7" time="10.938">
+    <testcase classname="Trip Advisor Home Page Functionality test" name="Trip Advisor Search box functionality test 7" time="10.624">
         <system-out>
             <![CDATA[Given I am in Trip Advisor home page........................................passed
 When I click Things to Do...................................................passed
@@ -173,7 +142,7 @@ Then I varify Dhaka City is appeared properly...............................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Trip Advisor Home Page Functionality test" name="Trip Advisor Search box functionality test 8" time="9.596">
+    <testcase classname="Trip Advisor Home Page Functionality test" name="Trip Advisor Search box functionality test 8" time="9.608">
         <system-out>
             <![CDATA[Given I am in Trip Advisor home page........................................passed
 When I click trip button....................................................passed
@@ -182,7 +151,7 @@ Then I varify reCAPCHA is appeared properly.................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Trip Advisor Home Page Functionality test" name="Trip Advisor Search box functionality test 9" time="21.88">
+    <testcase classname="Trip Advisor Home Page Functionality test" name="Trip Advisor Search box functionality test 9" time="21.933">
         <system-out>
             <![CDATA[Given I am in Trip Advisor home page........................................passed
 When I click Post...........................................................passed
@@ -195,7 +164,7 @@ And I click select photo from your computer.................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="TripAdvisor HomePage Functionality check" name="TripAdvisor SearchBox Functionality check with valid data" time="12.757">
+    <testcase classname="TripAdvisor HomePage Functionality check" name="TripAdvisor SearchBox Functionality check with valid data" time="13.097">
         <system-out>
             <![CDATA[Given I am in Trip Advisor home page........................................passed
 When I click searchButton...................................................passed
@@ -206,7 +175,7 @@ And I verify page title as Search results: Cox's Bazar - Tripadvisor........pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="TripAdvisor HomePage Functionality check" name="TripAdvisor Hotel SearchBox Functionality check with valid data" time="13.155">
+    <testcase classname="TripAdvisor HomePage Functionality check" name="TripAdvisor Hotel SearchBox Functionality check with valid data" time="11.483">
         <system-out>
             <![CDATA[Given I am in Trip Advisor home page........................................passed
 When I click searchButton...................................................passed

@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-09-26T04:37:49.684Z",
+        "start_timestamp": "2020-09-26T16:24:09.957Z",
         "line": 7,
         "name": "Gecio Career button Check",
         "description": "",
@@ -11,7 +11,7 @@
         "after": [
           {
             "result": {
-              "duration": 654458600,
+              "duration": 761780800,
               "status": "passed"
             },
             "match": {
@@ -20,7 +20,6 @@
           },
           {
             "result": {
-              "duration": 958300,
               "status": "passed"
             },
             "match": {
@@ -33,13 +32,13 @@
         "steps": [
           {
             "result": {
-              "duration": 6968373700,
+              "duration": 9525800600,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 33907000,
+                  "duration": 58313100,
                   "status": "passed"
                 },
                 "match": {
@@ -48,7 +47,7 @@
               },
               {
                 "result": {
-                  "duration": 4986900,
+                  "duration": 11006300,
                   "status": "passed"
                 },
                 "match": {
@@ -65,13 +64,13 @@
           },
           {
             "result": {
-              "duration": 1261760900,
+              "duration": 2108991300,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 1997000,
+                  "duration": 2992900,
                   "status": "passed"
                 },
                 "match": {
@@ -80,7 +79,7 @@
               },
               {
                 "result": {
-                  "duration": 2998000,
+                  "duration": 3092100,
                   "status": "passed"
                 },
                 "match": {
@@ -97,12 +96,13 @@
           },
           {
             "result": {
-              "duration": 3970335600,
+              "duration": 4427646100,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
+                  "duration": 321700,
                   "status": "passed"
                 },
                 "match": {
@@ -111,7 +111,7 @@
               },
               {
                 "result": {
-                  "duration": 1996600,
+                  "duration": 1994200,
                   "status": "passed"
                 },
                 "match": {
@@ -128,13 +128,13 @@
           },
           {
             "result": {
-              "duration": 38894800,
+              "duration": 68898100,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 996800,
+                  "duration": 1028700,
                   "status": "passed"
                 },
                 "match": {
@@ -143,7 +143,7 @@
               },
               {
                 "result": {
-                  "duration": 997800,
+                  "duration": 2959600,
                   "status": "passed"
                 },
                 "match": {
@@ -185,7 +185,7 @@
         "steps": [
           {
             "result": {
-              "duration": 7253776400,
+              "duration": 7830215200,
               "status": "passed"
             },
             "before": [
@@ -199,7 +199,7 @@
               },
               {
                 "result": {
-                  "duration": 977100,
+                  "duration": 941400,
                   "status": "passed"
                 },
                 "match": {
@@ -217,7 +217,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-09-26T04:38:02.746Z",
+        "start_timestamp": "2020-09-26T16:24:27.181Z",
         "line": 7,
         "name": "Geico searchBox functionality Check",
         "description": "",
@@ -225,7 +225,7 @@
         "after": [
           {
             "result": {
-              "duration": 684177800,
+              "duration": 715398400,
               "status": "passed"
             },
             "match": {
@@ -234,7 +234,6 @@
           },
           {
             "result": {
-              "duration": 618200,
               "status": "passed"
             },
             "match": {
@@ -247,13 +246,13 @@
         "steps": [
           {
             "result": {
-              "duration": 144247500,
+              "duration": 297776600,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 1002400,
+                  "duration": 1032900,
                   "status": "passed"
                 },
                 "match": {
@@ -262,7 +261,7 @@
               },
               {
                 "result": {
-                  "duration": 3992100,
+                  "duration": 387700,
                   "status": "passed"
                 },
                 "match": {
@@ -279,12 +278,13 @@
           },
           {
             "result": {
-              "duration": 257104900,
+              "duration": 320494300,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
+                  "duration": 1749600,
                   "status": "passed"
                 },
                 "match": {
@@ -293,7 +293,7 @@
               },
               {
                 "result": {
-                  "duration": 996600,
+                  "duration": 995800,
                   "status": "passed"
                 },
                 "match": {
@@ -310,7 +310,7 @@
           },
           {
             "result": {
-              "duration": 1253007400,
+              "duration": 1442711700,
               "status": "passed"
             },
             "before": [
@@ -324,7 +324,6 @@
               },
               {
                 "result": {
-                  "duration": 996500,
                   "status": "passed"
                 },
                 "match": {
@@ -341,13 +340,13 @@
           },
           {
             "result": {
-              "duration": 133931200,
+              "duration": 197642100,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 996300,
+                  "duration": 55300,
                   "status": "passed"
                 },
                 "match": {
@@ -356,7 +355,7 @@
               },
               {
                 "result": {
-                  "duration": 1006500,
+                  "duration": 1996500,
                   "status": "passed"
                 },
                 "match": {
@@ -387,13 +386,13 @@
         "steps": [
           {
             "result": {
-              "duration": 7323354000,
+              "duration": 7249246700,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 961600,
+                  "duration": 967600,
                   "status": "passed"
                 },
                 "match": {
@@ -402,7 +401,7 @@
               },
               {
                 "result": {
-                  "duration": 997100,
+                  "duration": 995500,
                   "status": "passed"
                 },
                 "match": {
@@ -420,7 +419,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-09-26T04:38:12.517Z",
+        "start_timestamp": "2020-09-26T16:24:38.078Z",
         "line": 13,
         "name": "Geico searchBox functionality Check",
         "description": "",
@@ -428,7 +427,7 @@
         "after": [
           {
             "result": {
-              "duration": 718870300,
+              "duration": 667520000,
               "status": "passed"
             },
             "match": {
@@ -437,6 +436,7 @@
           },
           {
             "result": {
+              "duration": 974000,
               "status": "passed"
             },
             "match": {
@@ -449,13 +449,13 @@
         "steps": [
           {
             "result": {
-              "duration": 227395600,
+              "duration": 393595500,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 997200,
+                  "duration": 993000,
                   "status": "passed"
                 },
                 "match": {
@@ -464,7 +464,7 @@
               },
               {
                 "result": {
-                  "duration": 992500,
+                  "duration": 813500,
                   "status": "passed"
                 },
                 "match": {
@@ -481,13 +481,13 @@
           },
           {
             "result": {
-              "duration": 238608000,
+              "duration": 199259600,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 994800,
+                  "duration": 7984200,
                   "status": "passed"
                 },
                 "match": {
@@ -496,7 +496,7 @@
               },
               {
                 "result": {
-                  "duration": 997900,
+                  "duration": 2948800,
                   "status": "passed"
                 },
                 "match": {
@@ -519,13 +519,12 @@
           },
           {
             "result": {
-              "duration": 1017514600,
+              "duration": 1329957100,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 995000,
                   "status": "passed"
                 },
                 "match": {
@@ -534,6 +533,7 @@
               },
               {
                 "result": {
+                  "duration": 947200,
                   "status": "passed"
                 },
                 "match": {
@@ -550,13 +550,12 @@
           },
           {
             "result": {
-              "duration": 37405400,
+              "duration": 46917200,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 1983800,
                   "status": "passed"
                 },
                 "match": {
@@ -565,7 +564,7 @@
               },
               {
                 "result": {
-                  "duration": 999200,
+                  "duration": 1000600,
                   "status": "passed"
                 },
                 "match": {
@@ -596,12 +595,13 @@
         "steps": [
           {
             "result": {
-              "duration": 6388544600,
+              "duration": 7360111800,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
+                  "duration": 1070500,
                   "status": "passed"
                 },
                 "match": {
@@ -610,7 +610,7 @@
               },
               {
                 "result": {
-                  "duration": 997300,
+                  "duration": 1754400,
                   "status": "passed"
                 },
                 "match": {
@@ -628,7 +628,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-09-26T04:38:22.112Z",
+        "start_timestamp": "2020-09-26T16:24:48.056Z",
         "line": 27,
         "name": "Geico searchBox functionality Check",
         "description": "",
@@ -636,7 +636,7 @@
         "after": [
           {
             "result": {
-              "duration": 664833200,
+              "duration": 656684100,
               "status": "passed"
             },
             "match": {
@@ -645,6 +645,7 @@
           },
           {
             "result": {
+              "duration": 998200,
               "status": "passed"
             },
             "match": {
@@ -657,13 +658,13 @@
         "steps": [
           {
             "result": {
-              "duration": 215058400,
+              "duration": 278809400,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 997300,
+                  "duration": 1843100,
                   "status": "passed"
                 },
                 "match": {
@@ -672,6 +673,7 @@
               },
               {
                 "result": {
+                  "duration": 992800,
                   "status": "passed"
                 },
                 "match": {
@@ -688,12 +690,13 @@
           },
           {
             "result": {
-              "duration": 256168500,
+              "duration": 499035000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
+                  "duration": 1030200,
                   "status": "passed"
                 },
                 "match": {
@@ -702,7 +705,7 @@
               },
               {
                 "result": {
-                  "duration": 997600,
+                  "duration": 891600,
                   "status": "passed"
                 },
                 "match": {
@@ -725,13 +728,13 @@
           },
           {
             "result": {
-              "duration": 1213735900,
+              "duration": 1810260600,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 996100,
+                  "duration": 531800,
                   "status": "passed"
                 },
                 "match": {
@@ -740,6 +743,7 @@
               },
               {
                 "result": {
+                  "duration": 988200,
                   "status": "passed"
                 },
                 "match": {
@@ -756,13 +760,13 @@
           },
           {
             "result": {
-              "duration": 41921700,
+              "duration": 270570500,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 1021800,
+                  "duration": 874100,
                   "status": "passed"
                 },
                 "match": {
@@ -771,6 +775,7 @@
               },
               {
                 "result": {
+                  "duration": 994200,
                   "status": "passed"
                 },
                 "match": {
@@ -801,13 +806,13 @@
         "steps": [
           {
             "result": {
-              "duration": 6372029200,
+              "duration": 7820967000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 997500,
+                  "duration": 536400,
                   "status": "passed"
                 },
                 "match": {
@@ -816,6 +821,7 @@
               },
               {
                 "result": {
+                  "duration": 1083800,
                   "status": "passed"
                 },
                 "match": {
@@ -833,7 +839,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-09-26T04:38:30.910Z",
+        "start_timestamp": "2020-09-26T16:24:58.984Z",
         "line": 28,
         "name": "Geico searchBox functionality Check",
         "description": "",
@@ -841,7 +847,7 @@
         "after": [
           {
             "result": {
-              "duration": 676163900,
+              "duration": 717532700,
               "status": "passed"
             },
             "match": {
@@ -850,6 +856,7 @@
           },
           {
             "result": {
+              "duration": 1006800,
               "status": "passed"
             },
             "match": {
@@ -862,13 +869,13 @@
         "steps": [
           {
             "result": {
-              "duration": 219414300,
+              "duration": 324909400,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 1005100,
+                  "duration": 997500,
                   "status": "passed"
                 },
                 "match": {
@@ -877,6 +884,7 @@
               },
               {
                 "result": {
+                  "duration": 1004700,
                   "status": "passed"
                 },
                 "match": {
@@ -893,13 +901,13 @@
           },
           {
             "result": {
-              "duration": 249332500,
+              "duration": 300348500,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 997900,
+                  "duration": 1586900,
                   "status": "passed"
                 },
                 "match": {
@@ -930,12 +938,13 @@
           },
           {
             "result": {
-              "duration": 1173764200,
+              "duration": 1173663000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
+                  "duration": 985000,
                   "status": "passed"
                 },
                 "match": {
@@ -960,7 +969,7 @@
           },
           {
             "result": {
-              "duration": 50968100,
+              "duration": 52287300,
               "status": "passed"
             },
             "before": [
@@ -974,7 +983,7 @@
               },
               {
                 "result": {
-                  "duration": 997100,
+                  "duration": 898900,
                   "status": "passed"
                 },
                 "match": {
@@ -1005,12 +1014,13 @@
         "steps": [
           {
             "result": {
-              "duration": 7430462300,
+              "duration": 7520750700,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
+                  "duration": 776100,
                   "status": "passed"
                 },
                 "match": {
@@ -1019,7 +1029,7 @@
               },
               {
                 "result": {
-                  "duration": 1470500,
+                  "duration": 996300,
                   "status": "passed"
                 },
                 "match": {
@@ -1037,7 +1047,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-09-26T04:38:39.674Z",
+        "start_timestamp": "2020-09-26T16:25:09.408Z",
         "line": 29,
         "name": "Geico searchBox functionality Check",
         "description": "",
@@ -1045,7 +1055,7 @@
         "after": [
           {
             "result": {
-              "duration": 690739900,
+              "duration": 716755400,
               "status": "passed"
             },
             "match": {
@@ -1054,7 +1064,6 @@
           },
           {
             "result": {
-              "duration": 999000,
               "status": "passed"
             },
             "match": {
@@ -1067,12 +1076,13 @@
         "steps": [
           {
             "result": {
-              "duration": 211641500,
+              "duration": 275866100,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
+                  "duration": 998100,
                   "status": "passed"
                 },
                 "match": {
@@ -1081,7 +1091,7 @@
               },
               {
                 "result": {
-                  "duration": 997600,
+                  "duration": 996200,
                   "status": "passed"
                 },
                 "match": {
@@ -1098,7 +1108,7 @@
           },
           {
             "result": {
-              "duration": 247303400,
+              "duration": 196178500,
               "status": "passed"
             },
             "before": [
@@ -1112,6 +1122,7 @@
               },
               {
                 "result": {
+                  "duration": 1063200,
                   "status": "passed"
                 },
                 "match": {
@@ -1134,12 +1145,13 @@
           },
           {
             "result": {
-              "duration": 1124921400,
+              "duration": 1396214600,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
+                  "duration": 959500,
                   "status": "passed"
                 },
                 "match": {
@@ -1164,7 +1176,7 @@
           },
           {
             "result": {
-              "duration": 73097200,
+              "duration": 183928100,
               "status": "passed"
             },
             "before": [
@@ -1178,7 +1190,6 @@
               },
               {
                 "result": {
-                  "duration": 997900,
                   "status": "passed"
                 },
                 "match": {
@@ -1209,12 +1220,13 @@
         "steps": [
           {
             "result": {
-              "duration": 6480602700,
+              "duration": 6834017200,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
+                  "duration": 999700,
                   "status": "passed"
                 },
                 "match": {
@@ -1223,6 +1235,7 @@
               },
               {
                 "result": {
+                  "duration": 992800,
                   "status": "passed"
                 },
                 "match": {
@@ -1240,7 +1253,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-09-26T04:38:49.471Z",
+        "start_timestamp": "2020-09-26T16:25:19.733Z",
         "line": 30,
         "name": "Geico searchBox functionality Check",
         "description": "",
@@ -1248,7 +1261,7 @@
         "after": [
           {
             "result": {
-              "duration": 692934000,
+              "duration": 1495703200,
               "status": "passed"
             },
             "match": {
@@ -1257,6 +1270,7 @@
           },
           {
             "result": {
+              "duration": 624100,
               "status": "passed"
             },
             "match": {
@@ -1269,12 +1283,13 @@
         "steps": [
           {
             "result": {
-              "duration": 220960600,
+              "duration": 254051500,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
+                  "duration": 1159700,
                   "status": "passed"
                 },
                 "match": {
@@ -1299,13 +1314,12 @@
           },
           {
             "result": {
-              "duration": 261308900,
+              "duration": 285794200,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 993600,
                   "status": "passed"
                 },
                 "match": {
@@ -1314,7 +1328,7 @@
               },
               {
                 "result": {
-                  "duration": 998000,
+                  "duration": 997300,
                   "status": "passed"
                 },
                 "match": {
@@ -1337,12 +1351,13 @@
           },
           {
             "result": {
-              "duration": 1200406100,
+              "duration": 1220125800,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
+                  "duration": 1030500,
                   "status": "passed"
                 },
                 "match": {
@@ -1367,7 +1382,7 @@
           },
           {
             "result": {
-              "duration": 96700900,
+              "duration": 45933200,
               "status": "passed"
             },
             "before": [
@@ -1411,7 +1426,7 @@
         "steps": [
           {
             "result": {
-              "duration": 6370726200,
+              "duration": 7916235800,
               "status": "passed"
             },
             "before": [
@@ -1425,6 +1440,7 @@
               },
               {
                 "result": {
+                  "duration": 1001800,
                   "status": "passed"
                 },
                 "match": {
@@ -1442,7 +1458,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-09-26T04:38:58.437Z",
+        "start_timestamp": "2020-09-26T16:25:29.902Z",
         "line": 31,
         "name": "Geico searchBox functionality Check",
         "description": "",
@@ -1450,7 +1466,7 @@
         "after": [
           {
             "result": {
-              "duration": 676944900,
+              "duration": 720058900,
               "status": "passed"
             },
             "match": {
@@ -1459,6 +1475,7 @@
           },
           {
             "result": {
+              "duration": 605700,
               "status": "passed"
             },
             "match": {
@@ -1471,13 +1488,12 @@
         "steps": [
           {
             "result": {
-              "duration": 210386700,
+              "duration": 248283000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 1988100,
                   "status": "passed"
                 },
                 "match": {
@@ -1486,7 +1502,7 @@
               },
               {
                 "result": {
-                  "duration": 2011600,
+                  "duration": 996400,
                   "status": "passed"
                 },
                 "match": {
@@ -1503,13 +1519,12 @@
           },
           {
             "result": {
-              "duration": 256229800,
+              "duration": 272598300,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 990300,
                   "status": "passed"
                 },
                 "match": {
@@ -1540,13 +1555,13 @@
           },
           {
             "result": {
-              "duration": 1281016500,
+              "duration": 1387317500,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 998600,
+                  "duration": 1059700,
                   "status": "passed"
                 },
                 "match": {
@@ -1555,6 +1570,7 @@
               },
               {
                 "result": {
+                  "duration": 929100,
                   "status": "passed"
                 },
                 "match": {
@@ -1571,12 +1587,13 @@
           },
           {
             "result": {
-              "duration": 189701900,
+              "duration": 356755000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
+                  "duration": 990300,
                   "status": "passed"
                 },
                 "match": {
@@ -1585,6 +1602,7 @@
               },
               {
                 "result": {
+                  "duration": 961700,
                   "status": "passed"
                 },
                 "match": {
@@ -1615,7 +1633,7 @@
         "steps": [
           {
             "result": {
-              "duration": 6500127600,
+              "duration": 9560952600,
               "status": "passed"
             },
             "before": [
@@ -1629,6 +1647,7 @@
               },
               {
                 "result": {
+                  "duration": 1232800,
                   "status": "passed"
                 },
                 "match": {
@@ -1646,7 +1665,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-09-26T04:39:07.439Z",
+        "start_timestamp": "2020-09-26T16:25:40.844Z",
         "line": 32,
         "name": "Geico searchBox functionality Check",
         "description": "",
@@ -1654,7 +1673,7 @@
         "after": [
           {
             "result": {
-              "duration": 622311100,
+              "duration": 744006400,
               "status": "passed"
             },
             "match": {
@@ -1663,7 +1682,7 @@
           },
           {
             "result": {
-              "duration": 962000,
+              "duration": 1164300,
               "status": "passed"
             },
             "match": {
@@ -1676,13 +1695,13 @@
         "steps": [
           {
             "result": {
-              "duration": 214605800,
+              "duration": 281130200,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 995800,
+                  "duration": 2007600,
                   "status": "passed"
                 },
                 "match": {
@@ -1691,6 +1710,7 @@
               },
               {
                 "result": {
+                  "duration": 856200,
                   "status": "passed"
                 },
                 "match": {
@@ -1707,12 +1727,13 @@
           },
           {
             "result": {
-              "duration": 251268500,
+              "duration": 362928400,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
+                  "duration": 995000,
                   "status": "passed"
                 },
                 "match": {
@@ -1721,7 +1742,7 @@
               },
               {
                 "result": {
-                  "duration": 1001100,
+                  "duration": 487700,
                   "status": "passed"
                 },
                 "match": {
@@ -1744,12 +1765,13 @@
           },
           {
             "result": {
-              "duration": 1139614100,
+              "duration": 1421864000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
+                  "duration": 1123800,
                   "status": "passed"
                 },
                 "match": {
@@ -1758,6 +1780,7 @@
               },
               {
                 "result": {
+                  "duration": 901200,
                   "status": "passed"
                 },
                 "match": {
@@ -1774,7 +1797,7 @@
           },
           {
             "result": {
-              "duration": 42885500,
+              "duration": 47211200,
               "status": "passed"
             },
             "before": [
@@ -1788,7 +1811,6 @@
               },
               {
                 "result": {
-                  "duration": 994100,
                   "status": "passed"
                 },
                 "match": {
@@ -1819,13 +1841,12 @@
         "steps": [
           {
             "result": {
-              "duration": 6338659800,
+              "duration": 7029747400,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 1000400,
                   "status": "passed"
                 },
                 "match": {
@@ -1834,6 +1855,7 @@
               },
               {
                 "result": {
+                  "duration": 845000,
                   "status": "passed"
                 },
                 "match": {
@@ -1851,7 +1873,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-09-26T04:39:16.228Z",
+        "start_timestamp": "2020-09-26T16:25:53.300Z",
         "line": 33,
         "name": "Geico searchBox functionality Check",
         "description": "",
@@ -1859,7 +1881,7 @@
         "after": [
           {
             "result": {
-              "duration": 640126400,
+              "duration": 1125830300,
               "status": "passed"
             },
             "match": {
@@ -1880,13 +1902,12 @@
         "steps": [
           {
             "result": {
-              "duration": 213708200,
+              "duration": 281993300,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 991200,
                   "status": "passed"
                 },
                 "match": {
@@ -1895,6 +1916,7 @@
               },
               {
                 "result": {
+                  "duration": 984600,
                   "status": "passed"
                 },
                 "match": {
@@ -1911,7 +1933,7 @@
           },
           {
             "result": {
-              "duration": 253343300,
+              "duration": 322142000,
               "status": "passed"
             },
             "before": [
@@ -1925,7 +1947,6 @@
               },
               {
                 "result": {
-                  "duration": 996400,
                   "status": "passed"
                 },
                 "match": {
@@ -1948,13 +1969,13 @@
           },
           {
             "result": {
-              "duration": 1088367100,
+              "duration": 1995522100,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 994600,
+                  "duration": 1030500,
                   "status": "passed"
                 },
                 "match": {
@@ -1979,13 +2000,12 @@
           },
           {
             "result": {
-              "duration": 43880300,
+              "duration": 471562700,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 999800,
                   "status": "passed"
                 },
                 "match": {
@@ -2024,7 +2044,7 @@
         "steps": [
           {
             "result": {
-              "duration": 6364999400,
+              "duration": 6847120000,
               "status": "passed"
             },
             "before": [
@@ -2038,6 +2058,7 @@
               },
               {
                 "result": {
+                  "duration": 64500,
                   "status": "passed"
                 },
                 "match": {
@@ -2055,7 +2076,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-09-26T04:39:24.819Z",
+        "start_timestamp": "2020-09-26T16:26:04.546Z",
         "line": 36,
         "name": "Geico login functionality Check",
         "description": "",
@@ -2063,7 +2084,7 @@
         "after": [
           {
             "result": {
-              "duration": 811503800,
+              "duration": 722538100,
               "status": "passed"
             },
             "match": {
@@ -2084,7 +2105,7 @@
         "steps": [
           {
             "result": {
-              "duration": 118359800,
+              "duration": 157295300,
               "status": "passed"
             },
             "before": [
@@ -2098,6 +2119,7 @@
               },
               {
                 "result": {
+                  "duration": 959200,
                   "status": "passed"
                 },
                 "match": {
@@ -2114,13 +2136,12 @@
           },
           {
             "result": {
-              "duration": 202899300,
+              "duration": 268445400,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 997500,
                   "status": "passed"
                 },
                 "match": {
@@ -2129,6 +2150,7 @@
               },
               {
                 "result": {
+                  "duration": 997500,
                   "status": "passed"
                 },
                 "match": {
@@ -2145,12 +2167,13 @@
           },
           {
             "result": {
-              "duration": 2791583000,
+              "duration": 4085955000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
+                  "duration": 996900,
                   "status": "passed"
                 },
                 "match": {
@@ -2159,7 +2182,7 @@
               },
               {
                 "result": {
-                  "duration": 997600,
+                  "duration": 996900,
                   "status": "passed"
                 },
                 "match": {
@@ -2176,13 +2199,12 @@
           },
           {
             "result": {
-              "duration": 324401300,
+              "duration": 1000521300,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 997900,
                   "status": "passed"
                 },
                 "match": {
@@ -2191,6 +2213,7 @@
               },
               {
                 "result": {
+                  "duration": 995800,
                   "status": "passed"
                 },
                 "match": {
@@ -2207,7 +2230,7 @@
           },
           {
             "result": {
-              "duration": 582454600,
+              "duration": 2265726900,
               "status": "passed"
             },
             "before": [
@@ -2221,7 +2244,7 @@
               },
               {
                 "result": {
-                  "duration": 997200,
+                  "duration": 1030100,
                   "status": "passed"
                 },
                 "match": {
@@ -2238,7 +2261,7 @@
           },
           {
             "result": {
-              "duration": 21942000,
+              "duration": 273822700,
               "status": "passed"
             },
             "before": [
@@ -2282,12 +2305,13 @@
         "steps": [
           {
             "result": {
-              "duration": 6361106500,
+              "duration": 7758713300,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
+                  "duration": 999400,
                   "status": "passed"
                 },
                 "match": {
@@ -2296,6 +2320,7 @@
               },
               {
                 "result": {
+                  "duration": 1994600,
                   "status": "passed"
                 },
                 "match": {
@@ -2313,7 +2338,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-09-26T04:39:36.055Z",
+        "start_timestamp": "2020-09-26T16:26:20.207Z",
         "line": 54,
         "name": "Geico login functionality Check",
         "description": "",
@@ -2321,7 +2346,7 @@
         "after": [
           {
             "result": {
-              "duration": 669067600,
+              "duration": 790144500,
               "status": "passed"
             },
             "match": {
@@ -2330,6 +2355,7 @@
           },
           {
             "result": {
+              "duration": 892400,
               "status": "passed"
             },
             "match": {
@@ -2342,7 +2368,7 @@
         "steps": [
           {
             "result": {
-              "duration": 132383300,
+              "duration": 580490900,
               "status": "passed"
             },
             "before": [
@@ -2372,13 +2398,13 @@
           },
           {
             "result": {
-              "duration": 217727300,
+              "duration": 354723200,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 997000,
+                  "duration": 992600,
                   "status": "passed"
                 },
                 "match": {
@@ -2387,7 +2413,7 @@
               },
               {
                 "result": {
-                  "duration": 1000300,
+                  "duration": 999700,
                   "status": "passed"
                 },
                 "match": {
@@ -2404,13 +2430,12 @@
           },
           {
             "result": {
-              "duration": 1956309800,
+              "duration": 2963737300,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 999500,
                   "status": "passed"
                 },
                 "match": {
@@ -2419,7 +2444,7 @@
               },
               {
                 "result": {
-                  "duration": 1033100,
+                  "duration": 485500,
                   "status": "passed"
                 },
                 "match": {
@@ -2436,12 +2461,13 @@
           },
           {
             "result": {
-              "duration": 959644800,
+              "duration": 490930600,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
+                  "duration": 1062200,
                   "status": "passed"
                 },
                 "match": {
@@ -2450,7 +2476,6 @@
               },
               {
                 "result": {
-                  "duration": 997900,
                   "status": "passed"
                 },
                 "match": {
@@ -2477,7 +2502,7 @@
           },
           {
             "result": {
-              "duration": 566511100,
+              "duration": 750057900,
               "status": "passed"
             },
             "before": [
@@ -2491,6 +2516,7 @@
               },
               {
                 "result": {
+                  "duration": 996400,
                   "status": "passed"
                 },
                 "match": {
@@ -2507,7 +2533,7 @@
           },
           {
             "result": {
-              "duration": 87259400,
+              "duration": 23472300,
               "status": "passed"
             },
             "before": [
@@ -2551,12 +2577,13 @@
         "steps": [
           {
             "result": {
-              "duration": 6256783000,
+              "duration": 6696184600,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
+                  "duration": 917500,
                   "status": "passed"
                 },
                 "match": {
@@ -2565,7 +2592,6 @@
               },
               {
                 "result": {
-                  "duration": 997900,
                   "status": "passed"
                 },
                 "match": {
@@ -2583,7 +2609,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-09-26T04:39:47.028Z",
+        "start_timestamp": "2020-09-26T16:26:33.952Z",
         "line": 55,
         "name": "Geico login functionality Check",
         "description": "",
@@ -2591,7 +2617,7 @@
         "after": [
           {
             "result": {
-              "duration": 677769800,
+              "duration": 692012700,
               "status": "passed"
             },
             "match": {
@@ -2600,7 +2626,7 @@
           },
           {
             "result": {
-              "duration": 758000,
+              "duration": 582600,
               "status": "passed"
             },
             "match": {
@@ -2613,12 +2639,13 @@
         "steps": [
           {
             "result": {
-              "duration": 182510900,
+              "duration": 165137500,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
+                  "duration": 997500,
                   "status": "passed"
                 },
                 "match": {
@@ -2627,7 +2654,6 @@
               },
               {
                 "result": {
-                  "duration": 1992000,
                   "status": "passed"
                 },
                 "match": {
@@ -2644,12 +2670,13 @@
           },
           {
             "result": {
-              "duration": 140899000,
+              "duration": 349033300,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
+                  "duration": 997600,
                   "status": "passed"
                 },
                 "match": {
@@ -2658,6 +2685,7 @@
               },
               {
                 "result": {
+                  "duration": 995900,
                   "status": "passed"
                 },
                 "match": {
@@ -2674,7 +2702,7 @@
           },
           {
             "result": {
-              "duration": 1928386500,
+              "duration": 2511066300,
               "status": "passed"
             },
             "before": [
@@ -2688,7 +2716,6 @@
               },
               {
                 "result": {
-                  "duration": 998300,
                   "status": "passed"
                 },
                 "match": {
@@ -2705,7 +2732,7 @@
           },
           {
             "result": {
-              "duration": 908575000,
+              "duration": 652806900,
               "status": "passed"
             },
             "before": [
@@ -2719,7 +2746,6 @@
               },
               {
                 "result": {
-                  "duration": 996700,
                   "status": "passed"
                 },
                 "match": {
@@ -2746,7 +2772,7 @@
           },
           {
             "result": {
-              "duration": 584444100,
+              "duration": 679272700,
               "status": "passed"
             },
             "before": [
@@ -2776,7 +2802,7 @@
           },
           {
             "result": {
-              "duration": 75804500,
+              "duration": 23726600,
               "status": "passed"
             },
             "before": [
@@ -2820,7 +2846,7 @@
         "steps": [
           {
             "result": {
-              "duration": 7545630700,
+              "duration": 7700398300,
               "status": "passed"
             },
             "before": [
@@ -2834,6 +2860,7 @@
               },
               {
                 "result": {
+                  "duration": 1099300,
                   "status": "passed"
                 },
                 "match": {
@@ -2851,7 +2878,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-09-26T04:39:57.801Z",
+        "start_timestamp": "2020-09-26T16:26:45.752Z",
         "line": 56,
         "name": "Geico login functionality Check",
         "description": "",
@@ -2859,7 +2886,7 @@
         "after": [
           {
             "result": {
-              "duration": 657237400,
+              "duration": 711283100,
               "status": "passed"
             },
             "match": {
@@ -2880,12 +2907,13 @@
         "steps": [
           {
             "result": {
-              "duration": 122670700,
+              "duration": 174964800,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
+                  "duration": 555100,
                   "status": "passed"
                 },
                 "match": {
@@ -2910,7 +2938,7 @@
           },
           {
             "result": {
-              "duration": 219414600,
+              "duration": 216340800,
               "status": "passed"
             },
             "before": [
@@ -2924,7 +2952,6 @@
               },
               {
                 "result": {
-                  "duration": 997900,
                   "status": "passed"
                 },
                 "match": {
@@ -2941,12 +2968,13 @@
           },
           {
             "result": {
-              "duration": 2030089800,
+              "duration": 2641465000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
+                  "duration": 995900,
                   "status": "passed"
                 },
                 "match": {
@@ -2971,13 +2999,13 @@
           },
           {
             "result": {
-              "duration": 847774200,
+              "duration": 701850200,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 996400,
+                  "duration": 995400,
                   "status": "passed"
                 },
                 "match": {
@@ -2986,7 +3014,6 @@
               },
               {
                 "result": {
-                  "duration": 990400,
                   "status": "passed"
                 },
                 "match": {
@@ -3013,13 +3040,13 @@
           },
           {
             "result": {
-              "duration": 621383900,
+              "duration": 714372000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 993800,
+                  "duration": 1580100,
                   "status": "passed"
                 },
                 "match": {
@@ -3028,6 +3055,7 @@
               },
               {
                 "result": {
+                  "duration": 110600,
                   "status": "passed"
                 },
                 "match": {
@@ -3044,13 +3072,12 @@
           },
           {
             "result": {
-              "duration": 86645300,
+              "duration": 17967300,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 2985600,
                   "status": "passed"
                 },
                 "match": {
@@ -3059,7 +3086,6 @@
               },
               {
                 "result": {
-                  "duration": 1005500,
                   "status": "passed"
                 },
                 "match": {
@@ -3090,7 +3116,7 @@
         "steps": [
           {
             "result": {
-              "duration": 7566128000,
+              "duration": 6852225200,
               "status": "passed"
             },
             "before": [
@@ -3104,7 +3130,7 @@
               },
               {
                 "result": {
-                  "duration": 998600,
+                  "duration": 349400,
                   "status": "passed"
                 },
                 "match": {
@@ -3122,7 +3148,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-09-26T04:40:09.954Z",
+        "start_timestamp": "2020-09-26T16:26:58.657Z",
         "line": 57,
         "name": "Geico login functionality Check",
         "description": "",
@@ -3130,7 +3156,7 @@
         "after": [
           {
             "result": {
-              "duration": 777820500,
+              "duration": 772327700,
               "status": "passed"
             },
             "match": {
@@ -3151,7 +3177,7 @@
         "steps": [
           {
             "result": {
-              "duration": 124666600,
+              "duration": 268747000,
               "status": "passed"
             },
             "before": [
@@ -3165,6 +3191,7 @@
               },
               {
                 "result": {
+                  "duration": 962500,
                   "status": "passed"
                 },
                 "match": {
@@ -3181,7 +3208,7 @@
           },
           {
             "result": {
-              "duration": 203487000,
+              "duration": 440026100,
               "status": "passed"
             },
             "before": [
@@ -3195,7 +3222,6 @@
               },
               {
                 "result": {
-                  "duration": 996400,
                   "status": "passed"
                 },
                 "match": {
@@ -3212,13 +3238,12 @@
           },
           {
             "result": {
-              "duration": 1937412000,
+              "duration": 2738627100,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 974400,
                   "status": "passed"
                 },
                 "match": {
@@ -3227,7 +3252,7 @@
               },
               {
                 "result": {
-                  "duration": 994500,
+                  "duration": 1066600,
                   "status": "passed"
                 },
                 "match": {
@@ -3244,7 +3269,7 @@
           },
           {
             "result": {
-              "duration": 884733200,
+              "duration": 653161900,
               "status": "passed"
             },
             "before": [
@@ -3258,6 +3283,7 @@
               },
               {
                 "result": {
+                  "duration": 996800,
                   "status": "passed"
                 },
                 "match": {
@@ -3284,7 +3310,7 @@
           },
           {
             "result": {
-              "duration": 571849600,
+              "duration": 705789300,
               "status": "passed"
             },
             "before": [
@@ -3314,7 +3340,7 @@
           },
           {
             "result": {
-              "duration": 68876000,
+              "duration": 18939200,
               "status": "passed"
             },
             "before": [
@@ -3358,7 +3384,7 @@
         "steps": [
           {
             "result": {
-              "duration": 6460892900,
+              "duration": 6722706400,
               "status": "passed"
             },
             "before": [
@@ -3389,7 +3415,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-09-26T04:40:22.102Z",
+        "start_timestamp": "2020-09-26T16:27:11.130Z",
         "line": 58,
         "name": "Geico login functionality Check",
         "description": "",
@@ -3397,7 +3423,7 @@
         "after": [
           {
             "result": {
-              "duration": 644652000,
+              "duration": 714391400,
               "status": "passed"
             },
             "match": {
@@ -3406,7 +3432,7 @@
           },
           {
             "result": {
-              "duration": 964300,
+              "duration": 996200,
               "status": "passed"
             },
             "match": {
@@ -3419,13 +3445,13 @@
         "steps": [
           {
             "result": {
-              "duration": 100769200,
+              "duration": 207464000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 988800,
+                  "duration": 724900,
                   "status": "passed"
                 },
                 "match": {
@@ -3450,7 +3476,7 @@
           },
           {
             "result": {
-              "duration": 224399500,
+              "duration": 243777700,
               "status": "passed"
             },
             "before": [
@@ -3480,7 +3506,7 @@
           },
           {
             "result": {
-              "duration": 2599291600,
+              "duration": 3481977900,
               "status": "passed"
             },
             "before": [
@@ -3510,12 +3536,13 @@
           },
           {
             "result": {
-              "duration": 369024500,
+              "duration": 574649700,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
+                  "duration": 961900,
                   "status": "passed"
                 },
                 "match": {
@@ -3550,7 +3577,7 @@
           },
           {
             "result": {
-              "duration": 753082500,
+              "duration": 1133669200,
               "status": "passed"
             },
             "before": [
@@ -3564,7 +3591,6 @@
               },
               {
                 "result": {
-                  "duration": 978600,
                   "status": "passed"
                 },
                 "match": {
@@ -3581,7 +3607,7 @@
           },
           {
             "result": {
-              "duration": 23903600,
+              "duration": 191795500,
               "status": "passed"
             },
             "before": [
@@ -3595,6 +3621,7 @@
               },
               {
                 "result": {
+                  "duration": 1044600,
                   "status": "passed"
                 },
                 "match": {
@@ -3625,13 +3652,13 @@
         "steps": [
           {
             "result": {
-              "duration": 7658464700,
+              "duration": 6884073200,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 997200,
+                  "duration": 996900,
                   "status": "passed"
                 },
                 "match": {
@@ -3640,6 +3667,7 @@
               },
               {
                 "result": {
+                  "duration": 410500,
                   "status": "passed"
                 },
                 "match": {
@@ -3657,7 +3685,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-09-26T04:40:33.294Z",
+        "start_timestamp": "2020-09-26T16:27:24.436Z",
         "line": 59,
         "name": "Geico login functionality Check",
         "description": "",
@@ -3665,7 +3693,7 @@
         "after": [
           {
             "result": {
-              "duration": 649253700,
+              "duration": 701351500,
               "status": "passed"
             },
             "match": {
@@ -3686,7 +3714,7 @@
         "steps": [
           {
             "result": {
-              "duration": 93749300,
+              "duration": 210989700,
               "status": "passed"
             },
             "before": [
@@ -3700,6 +3728,7 @@
               },
               {
                 "result": {
+                  "duration": 999100,
                   "status": "passed"
                 },
                 "match": {
@@ -3716,7 +3745,7 @@
           },
           {
             "result": {
-              "duration": 236366200,
+              "duration": 719599400,
               "status": "passed"
             },
             "before": [
@@ -3746,12 +3775,13 @@
           },
           {
             "result": {
-              "duration": 2101766800,
+              "duration": 3028985800,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
+                  "duration": 937700,
                   "status": "passed"
                 },
                 "match": {
@@ -3776,12 +3806,13 @@
           },
           {
             "result": {
-              "duration": 868491200,
+              "duration": 482651400,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
+                  "duration": 1187200,
                   "status": "passed"
                 },
                 "match": {
@@ -3790,7 +3821,6 @@
               },
               {
                 "result": {
-                  "duration": 997500,
                   "status": "passed"
                 },
                 "match": {
@@ -3817,13 +3847,12 @@
           },
           {
             "result": {
-              "duration": 548043100,
+              "duration": 1369437000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 983600,
                   "status": "passed"
                 },
                 "match": {
@@ -3832,6 +3861,7 @@
               },
               {
                 "result": {
+                  "duration": 602600,
                   "status": "passed"
                 },
                 "match": {
@@ -3848,7 +3878,7 @@
           },
           {
             "result": {
-              "duration": 73802000,
+              "duration": 289518800,
               "status": "passed"
             },
             "before": [
@@ -3892,7 +3922,7 @@
         "steps": [
           {
             "result": {
-              "duration": 6548241800,
+              "duration": 7788335100,
               "status": "passed"
             },
             "before": [
@@ -3923,7 +3953,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-09-26T04:40:45.539Z",
+        "start_timestamp": "2020-09-26T16:27:38.144Z",
         "line": 62,
         "name": "Geico login create account check with variable",
         "description": "",
@@ -3931,7 +3961,7 @@
         "after": [
           {
             "result": {
-              "duration": 1137839800,
+              "duration": 742042100,
               "status": "passed"
             },
             "match": {
@@ -3952,12 +3982,13 @@
         "steps": [
           {
             "result": {
-              "duration": 2878849700,
+              "duration": 5121396200,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
+                  "duration": 1237200,
                   "status": "passed"
                 },
                 "match": {
@@ -3966,6 +3997,7 @@
               },
               {
                 "result": {
+                  "duration": 1037400,
                   "status": "passed"
                 },
                 "match": {
@@ -3982,12 +4014,13 @@
           },
           {
             "result": {
-              "duration": 1069313200,
+              "duration": 2083166300,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
+                  "duration": 1055300,
                   "status": "passed"
                 },
                 "match": {
@@ -4026,12 +4059,13 @@
           },
           {
             "result": {
-              "duration": 83775300,
+              "duration": 193102700,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
+                  "duration": 1029100,
                   "status": "passed"
                 },
                 "match": {
@@ -4056,12 +4090,13 @@
           },
           {
             "result": {
-              "duration": 36894700,
+              "duration": 69946800,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
+                  "duration": 994400,
                   "status": "passed"
                 },
                 "match": {
@@ -4070,6 +4105,7 @@
               },
               {
                 "result": {
+                  "duration": 546300,
                   "status": "passed"
                 },
                 "match": {
@@ -4100,7 +4136,7 @@
         "steps": [
           {
             "result": {
-              "duration": 6459684000,
+              "duration": 6771779400,
               "status": "passed"
             },
             "before": [
@@ -4114,7 +4150,6 @@
               },
               {
                 "result": {
-                  "duration": 997500,
                   "status": "passed"
                 },
                 "match": {
@@ -4132,7 +4167,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-09-26T04:40:57.305Z",
+        "start_timestamp": "2020-09-26T16:27:54.164Z",
         "line": 76,
         "name": "Geico login create account check with multiple variable",
         "description": "",
@@ -4140,7 +4175,7 @@
         "after": [
           {
             "result": {
-              "duration": 658635300,
+              "duration": 1127634600,
               "status": "passed"
             },
             "match": {
@@ -4161,12 +4196,13 @@
         "steps": [
           {
             "result": {
-              "duration": 2090255900,
+              "duration": 3210810500,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
+                  "duration": 670500,
                   "status": "passed"
                 },
                 "match": {
@@ -4175,6 +4211,7 @@
               },
               {
                 "result": {
+                  "duration": 342400,
                   "status": "passed"
                 },
                 "match": {
@@ -4191,12 +4228,13 @@
           },
           {
             "result": {
-              "duration": 1072175600,
+              "duration": 1625120400,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
+                  "duration": 996200,
                   "status": "passed"
                 },
                 "match": {
@@ -4205,7 +4243,6 @@
               },
               {
                 "result": {
-                  "duration": 997900,
                   "status": "passed"
                 },
                 "match": {
@@ -4236,13 +4273,13 @@
           },
           {
             "result": {
-              "duration": 112703200,
+              "duration": 513153000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 985900,
+                  "duration": 1033100,
                   "status": "passed"
                 },
                 "match": {
@@ -4251,6 +4288,7 @@
               },
               {
                 "result": {
+                  "duration": 916100,
                   "status": "passed"
                 },
                 "match": {
@@ -4267,13 +4305,12 @@
           },
           {
             "result": {
-              "duration": 37899200,
+              "duration": 172261100,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 1018300,
                   "status": "passed"
                 },
                 "match": {
@@ -4282,7 +4319,6 @@
               },
               {
                 "result": {
-                  "duration": 972400,
                   "status": "passed"
                 },
                 "match": {
@@ -4313,7 +4349,7 @@
         "steps": [
           {
             "result": {
-              "duration": 6526658500,
+              "duration": 7691897700,
               "status": "passed"
             },
             "before": [
@@ -4344,7 +4380,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-09-26T04:41:07.747Z",
+        "start_timestamp": "2020-09-26T16:28:07.601Z",
         "line": 77,
         "name": "Geico login create account check with multiple variable",
         "description": "",
@@ -4352,7 +4388,7 @@
         "after": [
           {
             "result": {
-              "duration": 791520200,
+              "duration": 783822900,
               "status": "passed"
             },
             "match": {
@@ -4373,13 +4409,12 @@
         "steps": [
           {
             "result": {
-              "duration": 1906278800,
+              "duration": 2385945700,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 993400,
                   "status": "passed"
                 },
                 "match": {
@@ -4388,7 +4423,7 @@
               },
               {
                 "result": {
-                  "duration": 1008500,
+                  "duration": 1023400,
                   "status": "passed"
                 },
                 "match": {
@@ -4405,12 +4440,13 @@
           },
           {
             "result": {
-              "duration": 1043645400,
+              "duration": 714981300,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
+                  "duration": 976400,
                   "status": "passed"
                 },
                 "match": {
@@ -4419,7 +4455,7 @@
               },
               {
                 "result": {
-                  "duration": 997100,
+                  "duration": 354200,
                   "status": "passed"
                 },
                 "match": {
@@ -4450,13 +4486,12 @@
           },
           {
             "result": {
-              "duration": 100728900,
+              "duration": 138804200,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 1033400,
                   "status": "passed"
                 },
                 "match": {
@@ -4465,6 +4500,7 @@
               },
               {
                 "result": {
+                  "duration": 998800,
                   "status": "passed"
                 },
                 "match": {
@@ -4481,7 +4517,7 @@
           },
           {
             "result": {
-              "duration": 32913200,
+              "duration": 29581700,
               "status": "passed"
             },
             "before": [
@@ -4525,7 +4561,7 @@
         "steps": [
           {
             "result": {
-              "duration": 6427955200,
+              "duration": 10049559600,
               "status": "passed"
             },
             "before": [
@@ -4539,6 +4575,7 @@
               },
               {
                 "result": {
+                  "duration": 1095800,
                   "status": "passed"
                 },
                 "match": {
@@ -4556,7 +4593,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-09-26T04:41:18.168Z",
+        "start_timestamp": "2020-09-26T16:28:19.374Z",
         "line": 78,
         "name": "Geico login create account check with multiple variable",
         "description": "",
@@ -4564,7 +4601,7 @@
         "after": [
           {
             "result": {
-              "duration": 635028500,
+              "duration": 856967300,
               "status": "passed"
             },
             "match": {
@@ -4585,12 +4622,13 @@
         "steps": [
           {
             "result": {
-              "duration": 1872151700,
+              "duration": 2354846200,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
+                  "duration": 1780300,
                   "status": "passed"
                 },
                 "match": {
@@ -4599,6 +4637,7 @@
               },
               {
                 "result": {
+                  "duration": 152000,
                   "status": "passed"
                 },
                 "match": {
@@ -4615,12 +4654,13 @@
           },
           {
             "result": {
-              "duration": 1049574200,
+              "duration": 671870000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
+                  "duration": 998600,
                   "status": "passed"
                 },
                 "match": {
@@ -4629,6 +4669,7 @@
               },
               {
                 "result": {
+                  "duration": 994800,
                   "status": "passed"
                 },
                 "match": {
@@ -4659,7 +4700,7 @@
           },
           {
             "result": {
-              "duration": 103727600,
+              "duration": 102121300,
               "status": "passed"
             },
             "before": [
@@ -4689,12 +4730,13 @@
           },
           {
             "result": {
-              "duration": 32898000,
+              "duration": 24985300,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
+                  "duration": 1025100,
                   "status": "passed"
                 },
                 "match": {
@@ -4733,13 +4775,13 @@
         "steps": [
           {
             "result": {
-              "duration": 6037435300,
+              "duration": 8003147300,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 994900,
+                  "duration": 1000000,
                   "status": "passed"
                 },
                 "match": {
@@ -4748,6 +4790,7 @@
               },
               {
                 "result": {
+                  "duration": 663400,
                   "status": "passed"
                 },
                 "match": {
@@ -4765,7 +4808,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-09-26T04:41:28.306Z",
+        "start_timestamp": "2020-09-26T16:28:33.458Z",
         "line": 79,
         "name": "Geico login create account check with multiple variable",
         "description": "",
@@ -4773,7 +4816,7 @@
         "after": [
           {
             "result": {
-              "duration": 1278061200,
+              "duration": 709989000,
               "status": "passed"
             },
             "match": {
@@ -4782,6 +4825,7 @@
           },
           {
             "result": {
+              "duration": 905200,
               "status": "passed"
             },
             "match": {
@@ -4794,7 +4838,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1988203000,
+              "duration": 2188570200,
               "status": "passed"
             },
             "before": [
@@ -4808,6 +4852,7 @@
               },
               {
                 "result": {
+                  "duration": 937100,
                   "status": "passed"
                 },
                 "match": {
@@ -4824,7 +4869,7 @@
           },
           {
             "result": {
-              "duration": 1195434100,
+              "duration": 761546200,
               "status": "passed"
             },
             "before": [
@@ -4868,13 +4913,13 @@
           },
           {
             "result": {
-              "duration": 132661000,
+              "duration": 121210300,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 996100,
+                  "duration": 984800,
                   "status": "passed"
                 },
                 "match": {
@@ -4899,13 +4944,12 @@
           },
           {
             "result": {
-              "duration": 68812600,
+              "duration": 28518200,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 983300,
                   "status": "passed"
                 },
                 "match": {
@@ -4944,12 +4988,13 @@
         "steps": [
           {
             "result": {
-              "duration": 6489329600,
+              "duration": 6656592900,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
+                  "duration": 1001000,
                   "status": "passed"
                 },
                 "match": {
@@ -4975,7 +5020,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-09-26T04:41:39.015Z",
+        "start_timestamp": "2020-09-26T16:28:45.295Z",
         "line": 80,
         "name": "Geico login create account check with multiple variable",
         "description": "",
@@ -4983,7 +5028,7 @@
         "after": [
           {
             "result": {
-              "duration": 676932700,
+              "duration": 902067400,
               "status": "passed"
             },
             "match": {
@@ -5004,13 +5049,12 @@
         "steps": [
           {
             "result": {
-              "duration": 1932328800,
+              "duration": 2536288000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 995400,
                   "status": "passed"
                 },
                 "match": {
@@ -5019,6 +5063,7 @@
               },
               {
                 "result": {
+                  "duration": 1000100,
                   "status": "passed"
                 },
                 "match": {
@@ -5035,13 +5080,13 @@
           },
           {
             "result": {
-              "duration": 990799300,
+              "duration": 646862400,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 998400,
+                  "duration": 1063900,
                   "status": "passed"
                 },
                 "match": {
@@ -5050,6 +5095,7 @@
               },
               {
                 "result": {
+                  "duration": 994000,
                   "status": "passed"
                 },
                 "match": {
@@ -5080,13 +5126,12 @@
           },
           {
             "result": {
-              "duration": 116688300,
+              "duration": 117830700,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 999300,
                   "status": "passed"
                 },
                 "match": {
@@ -5095,6 +5140,7 @@
               },
               {
                 "result": {
+                  "duration": 1067300,
                   "status": "passed"
                 },
                 "match": {
@@ -5111,7 +5157,7 @@
           },
           {
             "result": {
-              "duration": 66820500,
+              "duration": 32966500,
               "status": "passed"
             },
             "before": [
@@ -5155,12 +5201,13 @@
         "steps": [
           {
             "result": {
-              "duration": 6267393800,
+              "duration": 8044831800,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
+                  "duration": 997000,
                   "status": "passed"
                 },
                 "match": {
@@ -5169,6 +5216,7 @@
               },
               {
                 "result": {
+                  "duration": 503000,
                   "status": "passed"
                 },
                 "match": {
@@ -5186,7 +5234,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-09-26T04:41:49.298Z",
+        "start_timestamp": "2020-09-26T16:28:56.216Z",
         "line": 81,
         "name": "Geico login create account check with multiple variable",
         "description": "",
@@ -5194,7 +5242,7 @@
         "after": [
           {
             "result": {
-              "duration": 1129070100,
+              "duration": 704208200,
               "status": "passed"
             },
             "match": {
@@ -5215,7 +5263,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2239629300,
+              "duration": 2381339900,
               "status": "passed"
             },
             "before": [
@@ -5229,6 +5277,7 @@
               },
               {
                 "result": {
+                  "duration": 91400,
                   "status": "passed"
                 },
                 "match": {
@@ -5245,7 +5294,7 @@
           },
           {
             "result": {
-              "duration": 874667000,
+              "duration": 782151800,
               "status": "passed"
             },
             "before": [
@@ -5289,13 +5338,12 @@
           },
           {
             "result": {
-              "duration": 115684300,
+              "duration": 120742800,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 1002100,
                   "status": "passed"
                 },
                 "match": {
@@ -5304,6 +5352,7 @@
               },
               {
                 "result": {
+                  "duration": 1033800,
                   "status": "passed"
                 },
                 "match": {
@@ -5320,7 +5369,7 @@
           },
           {
             "result": {
-              "duration": 34904900,
+              "duration": 35210200,
               "status": "passed"
             },
             "before": [
