@@ -19,7 +19,7 @@ Feature: United Airlines home page signIn functionality test
     And I click on join now and use title
     When I entered data in Contact Information field
       | street      | city       | state    | zipCode |
-      | Pike Street | Manhattan  | New York | 10010   |
+      | Pike Street | Manhattan  | New York | 33010   |
     Then I validate "Phone number" appear properly
 
   @SmokeTest
