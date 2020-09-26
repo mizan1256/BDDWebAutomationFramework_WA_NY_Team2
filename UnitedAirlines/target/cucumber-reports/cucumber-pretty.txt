@@ -1,8 +1,95 @@
 
 @SmokeTest
-Scenario: United Airlines Book Button Check                   # src/test/java/features/UnitedAirlinesHome.feature:4
-  Given I am in United Airlines Homepage                      # stepdefinitions.HomePageStepDefinitions.i_am_in_united_airlines_homepage()
-  When I click on Book Button                                 # stepdefinitions.HomePageStepDefinitions.i_click_on_book_button()
-  And I click on Hotels Button                                # stepdefinitions.HomePageStepDefinitions.i_click_on_hotels_button()
-  And I enter "Miami Beach" in where to search box and submit # stepdefinitions.HomePageStepDefinitions.i_enter_in_where_to_search_box_and_submit(java.lang.String)
-  Then I validate Miami Beach landing properly                # stepdefinitions.HomePageStepDefinitions.i_validate_miami_beach_landing_properly()
+Scenario: United Airlines SignIn functionality test        # src/test/java/features/UnitedAirRegistration.feature:9
+  Given I am in United Airlines home page                  # stepdefinitions.UnitedAirStepDefinition.i_am_in_united_airlines_home_page()
+  When I click on signIn button                            # stepdefinitions.UnitedAirFunctionStepDefinition.i_click_on_sign_in_button()
+  And I click on join now and use title                    # stepdefinitions.UnitedAirFunctionStepDefinition.i_click_on_join_now_and_use_title()
+  And I use data in member information field               # stepdefinitions.UnitedAirFunctionStepDefinition.i_use_data_in_member_information_field(io.cucumber.datatable.DataTable)
+  And month and gender field is selected                   # stepdefinitions.UnitedAirFunctionStepDefinition.month_and_gender_field_is_selected()
+      org.openqa.selenium.NoSuchElementException: Cannot locate element with text: 01 - June
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-B8JGMDH', ip: '192.168.8.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
+	at common.WebAPI.selectOptionByVisibleText(WebAPI.java:415)
+	at unitedAirRegistration.UnitedAirRegistrationPage.monthAndGender(UnitedAirRegistrationPage.java:88)
+	at stepdefinitions.UnitedAirFunctionStepDefinition.month_and_gender_field_is_selected(UnitedAirFunctionStepDefinition.java:56)
+	at ✽.month and gender field is selected(file:///C:/Users/esaji/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirRegistration.feature:14)
+
+  Then I validate Contact Information is appeared properly # stepdefinitions.UnitedAirFunctionStepDefinition.i_validate_contact_information_is_appeared_properly()
+
+    Embedding Demo [image/png 88805 bytes]
+
+      org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-B8JGMDH', ip: '192.168.8.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at stepdefinitions.UnitedAirFunctionStepDefinition.tearDown(UnitedAirFunctionStepDefinition.java:24)
+
+
+@SmokeTest
+Scenario: United Airlines contact information test # src/test/java/features/UnitedAirRegistration.feature:18
+  Given I am in United Airlines home page          # stepdefinitions.UnitedAirStepDefinition.i_am_in_united_airlines_home_page()
+  When I click on signIn button                    # stepdefinitions.UnitedAirFunctionStepDefinition.i_click_on_sign_in_button()
+  And I click on join now and use title            # stepdefinitions.UnitedAirFunctionStepDefinition.i_click_on_join_now_and_use_title()
+  When I entered data in Contact Information field # stepdefinitions.UnitedAirFunctionStepDefinition.i_entered_data_in_contact_information_field(io.cucumber.datatable.DataTable)
+  Then I validate "Phone number" appear properly   # stepdefinitions.UnitedAirFunctionStepDefinition.i_validate_appear_properly(java.lang.String)
+
+@SmokeTest
+Scenario: United Airlines contact information test  # src/test/java/features/UnitedAirRegistration.feature:26
+  Given I am in United Airlines home page           # stepdefinitions.UnitedAirStepDefinition.i_am_in_united_airlines_home_page()
+  When I click on signIn button                     # stepdefinitions.UnitedAirFunctionStepDefinition.i_click_on_sign_in_button()
+  And I click on join now and use title             # stepdefinitions.UnitedAirFunctionStepDefinition.i_click_on_join_now_and_use_title()
+  And I entered data in phone number field          # stepdefinitions.UnitedAirFunctionStepDefinition.i_entered_data_in_phone_number_field(io.cucumber.datatable.DataTable)
+  And I click on check box field                    # stepdefinitions.UnitedAirFunctionStepDefinition.i_click_on_check_box_field()
+  Then I verify "Email information" appear properly # stepdefinitions.UnitedAirFunctionStepDefinition.i_verify_appear_properly(java.lang.String)
+
+@SmokeTest
+Scenario: United Airlines contact information test    # src/test/java/features/UnitedAirRegistration.feature:35
+  Given I am in United Airlines home page             # stepdefinitions.UnitedAirStepDefinition.i_am_in_united_airlines_home_page()
+  When I click on signIn button                       # stepdefinitions.UnitedAirFunctionStepDefinition.i_click_on_sign_in_button()
+  And I click on join now and use title               # stepdefinitions.UnitedAirFunctionStepDefinition.i_click_on_join_now_and_use_title()
+  And I entered data in email field                   # stepdefinitions.UnitedAirFunctionStepDefinition.i_entered_data_in_email_field(io.cucumber.datatable.DataTable)
+  And I click on check box and uncheck box            # stepdefinitions.UnitedAirFunctionStepDefinition.i_click_on_check_box_and_uncheck_box()
+  And I entered data in password field                # stepdefinitions.UnitedAirFunctionStepDefinition.i_entered_data_in_password_field(io.cucumber.datatable.DataTable)
+  And I click on Show button                          # stepdefinitions.UnitedAirFunctionStepDefinition.i_click_on_show_button()
+  Then I verify "Security questions" display properly # stepdefinitions.UnitedAirFunctionStepDefinition.i_verify_display_properly(java.lang.String)
+
+@SmokeTest
+Scenario: United Airlines contact information test # src/test/java/features/UnitedAirRegistration.feature:48
+  Given I am in United Airlines home page          # stepdefinitions.UnitedAirStepDefinition.i_am_in_united_airlines_home_page()
+  When I click on signIn button                    # stepdefinitions.UnitedAirFunctionStepDefinition.i_click_on_sign_in_button()
+  And I click on join now and use title            # stepdefinitions.UnitedAirFunctionStepDefinition.i_click_on_join_now_and_use_title()
+  And I entered data in answer field               # stepdefinitions.UnitedAirFunctionStepDefinition.i_entered_data_in_answer_field(io.cucumber.datatable.DataTable)
+      org.openqa.selenium.NoSuchElementException: Cannot locate element with text: What is your favorite type of vacation?
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-B8JGMDH', ip: '192.168.8.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
+	at common.WebAPI.selectOptionByVisibleText(WebAPI.java:415)
+	at unitedAirRegistration.UnitedAirRegistrationPage.questionAndAnswer4(UnitedAirRegistrationPage.java:205)
+	at stepdefinitions.UnitedAirFunctionStepDefinition.i_entered_data_in_answer_field(UnitedAirFunctionStepDefinition.java:136)
+	at ✽.I entered data in answer field(file:///C:/Users/esaji/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirRegistration.feature:50)
+
+  And I click on accept and enroll button          # stepdefinitions.UnitedAirFunctionStepDefinition.i_click_on_accept_and_enroll_button()
+
+    Embedding Demo [image/png 86296 bytes]
+
+      org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-B8JGMDH', ip: '192.168.8.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at stepdefinitions.UnitedAirFunctionStepDefinition.tearDown(UnitedAirFunctionStepDefinition.java:24)
+

@@ -1,0 +1,648 @@
+
+@SmokeTest
+Scenario: Target home page search box functionality test # src/test/java/features/TergetHomePage.feature:7
+  Given I am on targetEcommerce home page                # stepdefinitions.TargetStepDefinition.i_am_on_target_ecommerce_home_page()
+  When I enter Samsung Phones                            # stepdefinitions.TargetStepDefinition.i_enter_samsung_phones()
+  And I click on search button                           # stepdefinitions.TargetStepDefinition.i_click_on_search_button()
+      org.openqa.selenium.InvalidSelectorException: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=85.0.4183.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-B8JGMDH', ip: '192.168.8.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\esaji\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58393}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: a944e26687dbe6ff6a13cf77b7cfbab9
+*** Element info: {Using=css selector, value=//*[@id=\"headerMain\"]/div/form/button[2]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy25.click(Unknown Source)
+	at targethome.TargetHomePage.searchButtonClick(TargetHomePage.java:69)
+	at stepdefinitions.TargetStepDefinition.i_click_on_search_button(TargetStepDefinition.java:51)
+	at ✽.I click on search button(file:///C:/Users/esaji/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TergetHomePage.feature:9)
+
+  Then I validate “Samsung Phone” is appeared properly   # stepdefinitions.TargetStepDefinition.i_validate_samsung_phone_is_appeared_properly()
+
+    Embedding Demo [image/png 223003 bytes]
+
+
+@SmokeTest
+Scenario: Target home page Clearance Tab functionality test # src/test/java/features/TergetHomePage.feature:13
+  Given I am on targetEcommerce home page                   # stepdefinitions.TargetStepDefinition.i_am_on_target_ecommerce_home_page()
+  When I click on clearance tab                             # stepdefinitions.TargetStepDefinition.i_click_on_clearance_tab()
+  And I click on Furniture clearance                        # stepdefinitions.TargetStepDefinition.i_click_on_furniture_clearance()
+  Then I validate “Filter results” is appeared properly     # stepdefinitions.TargetStepDefinition.i_validate_filter_results_is_appeared_properly()
+      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//h2[@class='Heading__StyledHeading-sc-1m9kw5a-0 hdEoFP h-padding-l-none']"}
+  (Session info: chrome=85.0.4183.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-B8JGMDH', ip: '192.168.8.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\esaji\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58458}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: f391ced0d8a9e74a4d1587f30699d317
+*** Element info: {Using=xpath, value=//h2[@class='Heading__StyledHeading-sc-1m9kw5a-0 hdEoFP h-padding-l-none']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy25.getText(Unknown Source)
+	at targethome.TargetHomePage.validateClearanceImage(TargetHomePage.java:94)
+	at stepdefinitions.TargetStepDefinition.i_validate_filter_results_is_appeared_properly(TargetStepDefinition.java:74)
+	at ✽.I validate “Filter results” is appeared properly(file:///C:/Users/esaji/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TergetHomePage.feature:16)
+
+
+    Embedding Demo [image/png 355622 bytes]
+
+
+@SmokeTest
+Scenario: Target home page Registry Tab functionality test # src/test/java/features/TergetHomePage.feature:19
+  Given I am on targetEcommerce home page                  # stepdefinitions.TargetStepDefinition.i_am_on_target_ecommerce_home_page()
+  When I click on registry tab                             # stepdefinitions.TargetStepDefinition.i_click_on_registry_tab()
+      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class='Link-sc-1khjl8b-0 kPdxNk'][contains(text(),'Registry')]"}
+  (Session info: chrome=85.0.4183.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-B8JGMDH', ip: '192.168.8.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\esaji\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58613}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 9e8edad8e4ba8507f40445384dc448c1
+*** Element info: {Using=xpath, value=//a[@class='Link-sc-1khjl8b-0 kPdxNk'][contains(text(),'Registry')]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy25.click(Unknown Source)
+	at targethome.TargetHomePage.appsRegistryTab(TargetHomePage.java:102)
+	at stepdefinitions.TargetStepDefinition.i_click_on_registry_tab(TargetStepDefinition.java:82)
+	at ✽.I click on registry tab(file:///C:/Users/esaji/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TergetHomePage.feature:20)
+
+  And I click on Create a Baby box                         # stepdefinitions.TargetStepDefinition.i_click_on_create_a_baby_box()
+  Then I validate EASY FOR EVERYONE is appeared properly   # stepdefinitions.TargetStepDefinition.i_validate_easy_for_everyone_is_appeared_properly()
+
+    Embedding Demo [image/png 395151 bytes]
+
+
+@SmokeTest
+Scenario: TargetEcommerce Shopping Cart functionality test with valid data # src/test/java/features/TergetHomePage.feature:25
+  Given I am on targetEcommerce home page                                  # stepdefinitions.TargetStepDefinition.i_am_on_target_ecommerce_home_page()
+  When I do necessary steps to Target create Account page                  # stepdefinitions.TargetStepDefinition.i_do_necessary_steps_to_target_create_account_page()
+      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='sc-AxjAm hhuVxr']//div[@class='sc-AxiKw eSbheu']"}
+  (Session info: chrome=85.0.4183.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-B8JGMDH', ip: '192.168.8.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\esaji\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58677}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 96f829739a1fcd6c919a7c05d214339e
+*** Element info: {Using=xpath, value=//span[@class='sc-AxjAm hhuVxr']//div[@class='sc-AxiKw eSbheu']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy25.click(Unknown Source)
+	at targethome.TargetHomePage.shoppingCart(TargetHomePage.java:122)
+	at stepdefinitions.TargetStepDefinition.i_do_necessary_steps_to_target_create_account_page(TargetStepDefinition.java:100)
+	at ✽.I do necessary steps to Target create Account page(file:///C:/Users/esaji/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TergetHomePage.feature:26)
+
+  And I enter invalid credentials                                          # stepdefinitions.TargetStepDefinition.i_enter_invalid_credentials(io.cucumber.datatable.DataTable)
+  And I Click on create account                                            # stepdefinitions.TargetStepDefinition.i_click_on_create_account()
+  Then I validate Keep me signed in message                                # stepdefinitions.TargetStepDefinition.i_validate_keep_me_signed_in_message()
+
+    Embedding Demo [image/png 395143 bytes]
+
+
+@SmokeTest
+Scenario: TargetEcommerce Shopping Cart functionality test with invalid data # src/test/java/features/TergetHomePage.feature:34
+  Given I am on targetEcommerce home page                                    # stepdefinitions.TargetStepDefinition.i_am_on_target_ecommerce_home_page()
+  When I do necessary steps to land sign In page                             # stepdefinitions.TargetStepDefinition.i_do_necessary_steps_to_land_sign_in_page()
+      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='sc-AxjAm hhuVxr']//div[@class='sc-AxiKw eSbheu']"}
+  (Session info: chrome=85.0.4183.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-B8JGMDH', ip: '192.168.8.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\esaji\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58730}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5482de13a74518ae973847349ae9e979
+*** Element info: {Using=xpath, value=//span[@class='sc-AxjAm hhuVxr']//div[@class='sc-AxiKw eSbheu']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy25.click(Unknown Source)
+	at targethome.TargetHomePage.cartSignInNegative(TargetHomePage.java:153)
+	at stepdefinitions.TargetStepDefinition.i_do_necessary_steps_to_land_sign_in_page(TargetStepDefinition.java:122)
+	at ✽.I do necessary steps to land sign In page(file:///C:/Users/esaji/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TergetHomePage.feature:35)
+
+  And I enter invalid email in email field                                   # stepdefinitions.TargetStepDefinition.i_enter_invalid_email_in_email_field()
+  And I enter invalid password in email field                                # stepdefinitions.TargetStepDefinition.i_enter_invalid_password_in_email_field()
+  And I Click on sign In Button                                              # stepdefinitions.TargetStepDefinition.i_click_on_sign_in_button()
+
+    Embedding Demo [image/png 395143 bytes]
+
+
+@SmokeTest
+Scenario: TargetEcommerce Create Account functionality test with valid data # src/test/java/features/TergetHomePage.feature:42
+  Given I am on targetEcommerce home page                                   # stepdefinitions.TargetStepDefinition.i_am_on_target_ecommerce_home_page()
+  When I do necessary steps to land on User info page                       # stepdefinitions.TargetStepDefinition.i_do_necessary_steps_to_land_on_user_info_page()
+      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='styles__AccountName-sc-1kk0q5l-0 gIhNhN']"}
+  (Session info: chrome=85.0.4183.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-B8JGMDH', ip: '192.168.8.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\esaji\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58790}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 70452df7d40f4450c19c42c97b47d402
+*** Element info: {Using=xpath, value=//span[@class='styles__AccountName-sc-1kk0q5l-0 gIhNhN']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy25.click(Unknown Source)
+	at targethome.TargetHomePage.dropDownSignInButton(TargetHomePage.java:177)
+	at stepdefinitions.TargetStepDefinition.i_do_necessary_steps_to_land_on_user_info_page(TargetStepDefinition.java:151)
+	at ✽.I do necessary steps to land on User info page(file:///C:/Users/esaji/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TergetHomePage.feature:43)
+
+  And I enter user credentials                                              # stepdefinitions.TargetStepDefinition.i_enter_user_credentials(io.cucumber.datatable.DataTable)
+  And I Click on create account                                             # stepdefinitions.TargetStepDefinition.i_click_on_create_account()
+  Then I validate signUp message                                            # stepdefinitions.TargetStepDefinition.i_validate_sign_up_message()
+
+    Embedding Demo [image/png 395143 bytes]
+
+
+@SmokeTest
+Scenario Outline: TargetEcommerce signIn functionality test with validate # src/test/java/features/TergetHomePage.feature:57
+  Given I am on targetEcommerce home page                                 # stepdefinitions.TargetStepDefinition.i_am_on_target_ecommerce_home_page()
+  When I do necessary steps to land on User info page                     # stepdefinitions.TargetStepDefinition.i_do_necessary_steps_to_land_on_user_info_page()
+      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='styles__AccountName-sc-1kk0q5l-0 gIhNhN']"}
+  (Session info: chrome=85.0.4183.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-B8JGMDH', ip: '192.168.8.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\esaji\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58850}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 4a54787ce409b3e3ee48ab2b35c44a06
+*** Element info: {Using=xpath, value=//span[@class='styles__AccountName-sc-1kk0q5l-0 gIhNhN']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy25.click(Unknown Source)
+	at targethome.TargetHomePage.dropDownSignInButton(TargetHomePage.java:177)
+	at stepdefinitions.TargetStepDefinition.i_do_necessary_steps_to_land_on_user_info_page(TargetStepDefinition.java:151)
+	at ✽.I do necessary steps to land on User info page(file:///C:/Users/esaji/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TergetHomePage.feature:52)
+
+  And I enter use email "pnt30235_NY@gmail.com"                           # stepdefinitions.TargetStepDefinition.i_enter_use_email(java.lang.String)
+  And I enter user password  "pnt30235ny"                                 # stepdefinitions.TargetStepDefinition.i_enter_user_password(java.lang.String)
+
+    Embedding Demo [image/png 395143 bytes]
+
+
+@SmokeTest
+Scenario Outline: TargetEcommerce signIn functionality test with validate # src/test/java/features/TergetHomePage.feature:58
+  Given I am on targetEcommerce home page                                 # stepdefinitions.TargetStepDefinition.i_am_on_target_ecommerce_home_page()
+  When I do necessary steps to land on User info page                     # stepdefinitions.TargetStepDefinition.i_do_necessary_steps_to_land_on_user_info_page()
+      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='styles__AccountName-sc-1kk0q5l-0 gIhNhN']"}
+  (Session info: chrome=85.0.4183.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-B8JGMDH', ip: '192.168.8.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\esaji\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58910}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 408b9aacb099529b3bebea887df1acf8
+*** Element info: {Using=xpath, value=//span[@class='styles__AccountName-sc-1kk0q5l-0 gIhNhN']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy25.click(Unknown Source)
+	at targethome.TargetHomePage.dropDownSignInButton(TargetHomePage.java:177)
+	at stepdefinitions.TargetStepDefinition.i_do_necessary_steps_to_land_on_user_info_page(TargetStepDefinition.java:151)
+	at ✽.I do necessary steps to land on User info page(file:///C:/Users/esaji/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TergetHomePage.feature:52)
+
+  And I enter use email "pnt30236_NY@gmail.com"                           # stepdefinitions.TargetStepDefinition.i_enter_use_email(java.lang.String)
+  And I enter user password  "pnt30236ny"                                 # stepdefinitions.TargetStepDefinition.i_enter_user_password(java.lang.String)
+
+    Embedding Demo [image/png 395984 bytes]
+
+
+@SmokeTest
+Scenario Outline: TargetEcommerce signIn functionality test with validate # src/test/java/features/TergetHomePage.feature:59
+  Given I am on targetEcommerce home page                                 # stepdefinitions.TargetStepDefinition.i_am_on_target_ecommerce_home_page()
+  When I do necessary steps to land on User info page                     # stepdefinitions.TargetStepDefinition.i_do_necessary_steps_to_land_on_user_info_page()
+      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='styles__AccountName-sc-1kk0q5l-0 gIhNhN']"}
+  (Session info: chrome=85.0.4183.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-B8JGMDH', ip: '192.168.8.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\esaji\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58965}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 30cf166eda0874e2c1346c6d05a36c10
+*** Element info: {Using=xpath, value=//span[@class='styles__AccountName-sc-1kk0q5l-0 gIhNhN']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy25.click(Unknown Source)
+	at targethome.TargetHomePage.dropDownSignInButton(TargetHomePage.java:177)
+	at stepdefinitions.TargetStepDefinition.i_do_necessary_steps_to_land_on_user_info_page(TargetStepDefinition.java:151)
+	at ✽.I do necessary steps to land on User info page(file:///C:/Users/esaji/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TergetHomePage.feature:52)
+
+  And I enter use email "pnt30237_NY@gmail.com"                           # stepdefinitions.TargetStepDefinition.i_enter_use_email(java.lang.String)
+  And I enter user password  "pnt30237ny"                                 # stepdefinitions.TargetStepDefinition.i_enter_user_password(java.lang.String)
+
+    Embedding Demo [image/png 395984 bytes]
+
+
+@SmokeTest
+Scenario Outline: TargetEcommerce signIn functionality test with validate # src/test/java/features/TergetHomePage.feature:60
+  Given I am on targetEcommerce home page                                 # stepdefinitions.TargetStepDefinition.i_am_on_target_ecommerce_home_page()
+  When I do necessary steps to land on User info page                     # stepdefinitions.TargetStepDefinition.i_do_necessary_steps_to_land_on_user_info_page()
+      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='styles__AccountName-sc-1kk0q5l-0 gIhNhN']"}
+  (Session info: chrome=85.0.4183.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-B8JGMDH', ip: '192.168.8.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\esaji\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59024}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 6f195b81d0d14ad4ab27e9bdabdfc813
+*** Element info: {Using=xpath, value=//span[@class='styles__AccountName-sc-1kk0q5l-0 gIhNhN']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy25.click(Unknown Source)
+	at targethome.TargetHomePage.dropDownSignInButton(TargetHomePage.java:177)
+	at stepdefinitions.TargetStepDefinition.i_do_necessary_steps_to_land_on_user_info_page(TargetStepDefinition.java:151)
+	at ✽.I do necessary steps to land on User info page(file:///C:/Users/esaji/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TergetHomePage.feature:52)
+
+  And I enter use email "pnt30238_NY@gmail.com"                           # stepdefinitions.TargetStepDefinition.i_enter_use_email(java.lang.String)
+  And I enter user password  "pnt30238ny"                                 # stepdefinitions.TargetStepDefinition.i_enter_user_password(java.lang.String)
+
+    Embedding Demo [image/png 395984 bytes]
+
+
+@SmokeTest
+Scenario Outline: TargetEcommerce signIn functionality test with validate # src/test/java/features/TergetHomePage.feature:61
+  Given I am on targetEcommerce home page                                 # stepdefinitions.TargetStepDefinition.i_am_on_target_ecommerce_home_page()
+  When I do necessary steps to land on User info page                     # stepdefinitions.TargetStepDefinition.i_do_necessary_steps_to_land_on_user_info_page()
+      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='styles__AccountName-sc-1kk0q5l-0 gIhNhN']"}
+  (Session info: chrome=85.0.4183.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-B8JGMDH', ip: '192.168.8.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\esaji\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59082}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 80812901f0e9359172b2bf6a0097521f
+*** Element info: {Using=xpath, value=//span[@class='styles__AccountName-sc-1kk0q5l-0 gIhNhN']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy25.click(Unknown Source)
+	at targethome.TargetHomePage.dropDownSignInButton(TargetHomePage.java:177)
+	at stepdefinitions.TargetStepDefinition.i_do_necessary_steps_to_land_on_user_info_page(TargetStepDefinition.java:151)
+	at ✽.I do necessary steps to land on User info page(file:///C:/Users/esaji/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TergetHomePage.feature:52)
+
+  And I enter use email "pnt30239_NY@gmail.com"                           # stepdefinitions.TargetStepDefinition.i_enter_use_email(java.lang.String)
+  And I enter user password  "pnt30239ny"                                 # stepdefinitions.TargetStepDefinition.i_enter_user_password(java.lang.String)
+
+    Embedding Demo [image/png 395984 bytes]
+
+
+@SmokeTest
+Scenario Outline: TargetEcommerce SearchBox functionality test with validate using data table # src/test/java/features/TergetHomePage.feature:73
+  Given I am on targetEcommerce home page                                                     # stepdefinitions.TargetStepDefinition.i_am_on_target_ecommerce_home_page()
+  And I enter "Samsung Phones" in searchBox                                                   # stepdefinitions.TargetStepDefinition.i_enter_in_search_box(java.lang.String)
+  When I click searchButton                                                                   # stepdefinitions.TargetStepDefinition.i_click_search_button()
+      org.openqa.selenium.InvalidSelectorException: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=85.0.4183.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-B8JGMDH', ip: '192.168.8.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\esaji\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59139}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: e12b709481513cdb60318a6696526880
+*** Element info: {Using=css selector, value=//*[@id=\"headerMain\"]/div/form/button[2]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy25.click(Unknown Source)
+	at targethome.TargetHomePage.clickOnSearchBtn(TargetHomePage.java:233)
+	at stepdefinitions.TargetStepDefinition.i_click_search_button(TargetStepDefinition.java:198)
+	at ✽.I click searchButton(file:///C:/Users/esaji/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TergetHomePage.feature:67)
+
+  And I validate "\"Samsung Phones\"" is appear properly                                      # stepdefinitions.TargetStepDefinition.i_validate_is_appear_properly(java.lang.String)
+  And I validate page title as "Target : Expect More. Pay Less."                              # stepdefinitions.TargetStepDefinition.i_validate_page_title_as(java.lang.String)
+
+    Embedding Demo [image/png 285982 bytes]
+
+
+@SmokeTest
+Scenario Outline: TargetEcommerce SearchBox functionality test with validate using data table # src/test/java/features/TergetHomePage.feature:74
+  Given I am on targetEcommerce home page                                                     # stepdefinitions.TargetStepDefinition.i_am_on_target_ecommerce_home_page()
+  And I enter "Apple Watches" in searchBox                                                    # stepdefinitions.TargetStepDefinition.i_enter_in_search_box(java.lang.String)
+  When I click searchButton                                                                   # stepdefinitions.TargetStepDefinition.i_click_search_button()
+      org.openqa.selenium.InvalidSelectorException: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=85.0.4183.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-B8JGMDH', ip: '192.168.8.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\esaji\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59193}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 0414ddde21d58ec66d1ee1d7ba278f84
+*** Element info: {Using=css selector, value=//*[@id=\"headerMain\"]/div/form/button[2]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy25.click(Unknown Source)
+	at targethome.TargetHomePage.clickOnSearchBtn(TargetHomePage.java:233)
+	at stepdefinitions.TargetStepDefinition.i_click_search_button(TargetStepDefinition.java:198)
+	at ✽.I click searchButton(file:///C:/Users/esaji/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TergetHomePage.feature:67)
+
+  And I validate "\"Apple Watches\"" is appear properly                                       # stepdefinitions.TargetStepDefinition.i_validate_is_appear_properly(java.lang.String)
+  And I validate page title as "Target : Expect More. Pay Less."                              # stepdefinitions.TargetStepDefinition.i_validate_page_title_as(java.lang.String)
+
+    Embedding Demo [image/png 278718 bytes]
+
+
+@SmokeTest
+Scenario Outline: TargetEcommerce SearchBox functionality test with validate using data table # src/test/java/features/TergetHomePage.feature:75
+  Given I am on targetEcommerce home page                                                     # stepdefinitions.TargetStepDefinition.i_am_on_target_ecommerce_home_page()
+  And I enter "Apple ipads" in searchBox                                                      # stepdefinitions.TargetStepDefinition.i_enter_in_search_box(java.lang.String)
+  When I click searchButton                                                                   # stepdefinitions.TargetStepDefinition.i_click_search_button()
+      org.openqa.selenium.InvalidSelectorException: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=85.0.4183.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-B8JGMDH', ip: '192.168.8.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\esaji\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59247}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: fa22120fd5af9614d5c57cd2d386e034
+*** Element info: {Using=css selector, value=//*[@id=\"headerMain\"]/div/form/button[2]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy25.click(Unknown Source)
+	at targethome.TargetHomePage.clickOnSearchBtn(TargetHomePage.java:233)
+	at stepdefinitions.TargetStepDefinition.i_click_search_button(TargetStepDefinition.java:198)
+	at ✽.I click searchButton(file:///C:/Users/esaji/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TergetHomePage.feature:67)
+
+  And I validate "\"Apple ipads\"" is appear properly                                         # stepdefinitions.TargetStepDefinition.i_validate_is_appear_properly(java.lang.String)
+  And I validate page title as "Target : Expect More. Pay Less."                              # stepdefinitions.TargetStepDefinition.i_validate_page_title_as(java.lang.String)
+
+    Embedding Demo [image/png 279881 bytes]
+
+
+@SmokeTest
+Scenario Outline: TargetEcommerce SearchBox functionality test with validate using data table # src/test/java/features/TergetHomePage.feature:76
+  Given I am on targetEcommerce home page                                                     # stepdefinitions.TargetStepDefinition.i_am_on_target_ecommerce_home_page()
+  And I enter "iphone 11 Pro Max" in searchBox                                                # stepdefinitions.TargetStepDefinition.i_enter_in_search_box(java.lang.String)
+  When I click searchButton                                                                   # stepdefinitions.TargetStepDefinition.i_click_search_button()
+      org.openqa.selenium.InvalidSelectorException: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=85.0.4183.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-B8JGMDH', ip: '192.168.8.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\esaji\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59300}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 9dfd107a4322bedd239bb9e15e7f2f44
+*** Element info: {Using=css selector, value=//*[@id=\"headerMain\"]/div/form/button[2]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy25.click(Unknown Source)
+	at targethome.TargetHomePage.clickOnSearchBtn(TargetHomePage.java:233)
+	at stepdefinitions.TargetStepDefinition.i_click_search_button(TargetStepDefinition.java:198)
+	at ✽.I click searchButton(file:///C:/Users/esaji/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TergetHomePage.feature:67)
+
+  And I validate "\"iphone 11 Pro Max\"" is appear properly                                   # stepdefinitions.TargetStepDefinition.i_validate_is_appear_properly(java.lang.String)
+  And I validate page title as "Target : Expect More. Pay Less."                              # stepdefinitions.TargetStepDefinition.i_validate_page_title_as(java.lang.String)
+
+    Embedding Demo [image/png 223195 bytes]
+
+
+@SmokeTest
+Scenario Outline: TargetEcommerce SearchBox functionality test with validate using data table # src/test/java/features/TergetHomePage.feature:77
+  Given I am on targetEcommerce home page                                                     # stepdefinitions.TargetStepDefinition.i_am_on_target_ecommerce_home_page()
+  And I enter "Samsung Tablets" in searchBox                                                  # stepdefinitions.TargetStepDefinition.i_enter_in_search_box(java.lang.String)
+  When I click searchButton                                                                   # stepdefinitions.TargetStepDefinition.i_click_search_button()
+      org.openqa.selenium.InvalidSelectorException: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=85.0.4183.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-B8JGMDH', ip: '192.168.8.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\esaji\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59352}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: ccf6b94df2498d4f4ec0537aa20ef628
+*** Element info: {Using=css selector, value=//*[@id=\"headerMain\"]/div/form/button[2]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy25.click(Unknown Source)
+	at targethome.TargetHomePage.clickOnSearchBtn(TargetHomePage.java:233)
+	at stepdefinitions.TargetStepDefinition.i_click_search_button(TargetStepDefinition.java:198)
+	at ✽.I click searchButton(file:///C:/Users/esaji/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TargetEcommerce/src/test/java/features/TergetHomePage.feature:67)
+
+  And I validate "\"Samsung Tablets\"" is appear properly                                     # stepdefinitions.TargetStepDefinition.i_validate_is_appear_properly(java.lang.String)
+  And I validate page title as "Target : Expect More. Pay Less."                              # stepdefinitions.TargetStepDefinition.i_validate_page_title_as(java.lang.String)
+
+    Embedding Demo [image/png 279780 bytes]
+

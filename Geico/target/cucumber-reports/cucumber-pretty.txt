@@ -1,8 +1,7 @@
 
 @SmokeTest
-Scenario: search box functionality check # src/test/java/features/GeicoHome.feature:4
-  Given I am on Geico HopePage           # stepdefinitions.HomePageStepDefinition.i_am_on_geico_hope_page()
-  And I click SearchBox                  # stepdefinitions.HomePageStepDefinition.i_click_search_box()
-  Then I Enter Auto in SearchBox         # stepdefinitions.HomePageStepDefinition.i_enter_auto_in_search_box()
-  When I clik search Button              # stepdefinitions.HomePageStepDefinition.i_clik_search_button()
-  Then I verify the page title           # stepdefinitions.HomePageStepDefinition.i_verify_the_page_title()
+Scenario: Gecio Career button Check                             # src/test/java/features/GeicoHome.feature:22
+  Given I am on Geico home page                                 # stepdefinitions.GeicoHomeStepDefinitions.i_am_on_geico_home_page()
+  And I click on Career button                                  # stepdefinitions.GeicoHomeStepDefinitions.i_click_on_career_button()
+  When I Click on Customer Service Button                       # stepdefinitions.GeicoHomeStepDefinitions.i_click_on_customer_service_button()
+  Then I validate Customer Service Careers text appear Properly # stepdefinitions.GeicoHomeStepDefinitions.i_validate_customer_service_careers_text_appear_properly()

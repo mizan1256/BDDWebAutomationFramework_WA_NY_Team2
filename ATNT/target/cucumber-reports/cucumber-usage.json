@@ -1,0 +1,752 @@
+[
+  {
+    "source": "I am in at\u0026t homepage",
+    "steps": [
+      {
+        "name": "I am in at\u0026t homepage",
+        "aggregatedDurations": {
+          "median": 10.213061,
+          "average": 10.31641677
+        },
+        "durations": [
+          {
+            "duration": 11.992902,
+            "location": "file:///C:/Users/esaji/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 11.1309443,
+            "location": "file:///C:/Users/esaji/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 10.5840637,
+            "location": "file:///C:/Users/esaji/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 9.1234551,
+            "location": "file:///C:/Users/esaji/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 10.213061,
+            "location": "file:///C:/Users/esaji/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 10.3885976,
+            "location": "file:///C:/Users/esaji/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 9.8547258,
+            "location": "file:///C:/Users/esaji/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 9.6839505,
+            "location": "file:///C:/Users/esaji/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 10.5939084,
+            "location": "file:///C:/Users/esaji/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 9.9386883,
+            "location": "file:///C:/Users/esaji/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 10.2882676,
+            "location": "file:///C:/Users/esaji/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 9.7121431,
+            "location": "file:///C:/Users/esaji/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 11.5972905,
+            "location": "file:///C:/Users/esaji/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 10.5039916,
+            "location": "file:///C:/Users/esaji/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 9.6921587,
+            "location": "file:///C:/Users/esaji/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/RegistrationPage.feature:4"
+          },
+          {
+            "duration": 10.0207439,
+            "location": "file:///C:/Users/esaji/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/RegistrationPage.feature:4"
+          },
+          {
+            "duration": 10.060193,
+            "location": "file:///C:/Users/esaji/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/RegistrationPage.feature:4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter Samsung Phones in searchBox",
+    "steps": [
+      {
+        "name": "I enter Samsung Phones in searchBox",
+        "aggregatedDurations": {
+          "median": 4.6392909,
+          "average": 4.6392909
+        },
+        "durations": [
+          {
+            "duration": 4.6392909,
+            "location": "file:///C:/Users/esaji/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click searchButton",
+    "steps": [
+      {
+        "name": "I click searchButton",
+        "aggregatedDurations": {
+          "median": 4.87482815,
+          "average": 4.61668336
+        },
+        "durations": [
+          {
+            "duration": 4.3838449,
+            "location": "file:///C:/Users/esaji/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:9"
+          },
+          {
+            "duration": 5.7024825,
+            "location": "file:///C:/Users/esaji/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:42"
+          },
+          {
+            "duration": 5.3658114,
+            "location": "file:///C:/Users/esaji/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:42"
+          },
+          {
+            "duration": 7.7942458,
+            "location": "file:///C:/Users/esaji/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:42"
+          },
+          {
+            "duration": 3.2912706,
+            "location": "file:///C:/Users/esaji/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:42"
+          },
+          {
+            "duration": 2.3927264,
+            "location": "file:///C:/Users/esaji/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:54"
+          },
+          {
+            "duration": 6.2314789,
+            "location": "file:///C:/Users/esaji/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:54"
+          },
+          {
+            "duration": 1.1853677,
+            "location": "file:///C:/Users/esaji/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:54"
+          },
+          {
+            "duration": 1.1870634,
+            "location": "file:///C:/Users/esaji/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:54"
+          },
+          {
+            "duration": 8.632542,
+            "location": "file:///C:/Users/esaji/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:54"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify Samsung Phones is appear properly",
+    "steps": [
+      {
+        "name": "I verify Samsung Phones is appear properly",
+        "aggregatedDurations": {
+          "median": 3.7942841,
+          "average": 3.7942841
+        },
+        "durations": [
+          {
+            "duration": 3.7942841,
+            "location": "file:///C:/Users/esaji/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify page title as Samsung Phones",
+    "steps": [
+      {
+        "name": "I verify page title as Samsung Phones",
+        "aggregatedDurations": {
+          "median": 0.4048063,
+          "average": 0.4048063
+        },
+        "durations": [
+          {
+            "duration": 0.4048063,
+            "location": "file:///C:/Users/esaji/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:11"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click Deals Button",
+    "steps": [
+      {
+        "name": "I click Deals Button",
+        "aggregatedDurations": {
+          "median": 3.6551477,
+          "average": 3.6551477
+        },
+        "durations": [
+          {
+            "duration": 3.6551477,
+            "location": "file:///C:/Users/esaji/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:15"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify Wireless is appear properly",
+    "steps": [
+      {
+        "name": "I verify Wireless is appear properly",
+        "aggregatedDurations": {
+          "median": 0.1426208,
+          "average": 0.1426208
+        },
+        "durations": [
+          {
+            "duration": 0.1426208,
+            "location": "file:///C:/Users/esaji/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:16"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify page title as AT\u0026T Deals on Phones, Wireless Plans, Internet \u0026 TV Services",
+    "steps": [
+      {
+        "name": "I verify page title as AT\u0026T Deals on Phones, Wireless Plans, Internet \u0026 TV Services",
+        "aggregatedDurations": {
+          "median": 0.0159566,
+          "average": 0.0159566
+        },
+        "durations": [
+          {
+            "duration": 0.0159566,
+            "location": "file:///C:/Users/esaji/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:17"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click Wireless Button",
+    "steps": [
+      {
+        "name": "I click Wireless Button",
+        "aggregatedDurations": {
+          "median": 1.6329244,
+          "average": 1.6329244
+        },
+        "durations": [
+          {
+            "duration": 1.6329244,
+            "location": "file:///C:/Users/esaji/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:21"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click internet Button",
+    "steps": [
+      {
+        "name": "I click internet Button",
+        "aggregatedDurations": {
+          "median": 1.9426514,
+          "average": 1.9426514
+        },
+        "durations": [
+          {
+            "duration": 1.9426514,
+            "location": "file:///C:/Users/esaji/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:27"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click TV Button",
+    "steps": [
+      {
+        "name": "I click TV Button",
+        "aggregatedDurations": {
+          "median": 1.9736877,
+          "average": 1.9736877
+        },
+        "durations": [
+          {
+            "duration": 1.9736877,
+            "location": "file:///C:/Users/esaji/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:33"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on shop now button",
+    "steps": [
+      {
+        "name": "I click on shop now button",
+        "aggregatedDurations": {
+          "median": 4.9501673,
+          "average": 4.9501673
+        },
+        "durations": [
+          {
+            "duration": 4.9501673,
+            "location": "file:///C:/Users/esaji/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:34"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify Choose a TV package is appear properly",
+    "steps": [
+      {
+        "name": "I verify Choose a TV package is appear properly",
+        "aggregatedDurations": {
+          "median": 8.0116627,
+          "average": 8.0116627
+        },
+        "durations": [
+          {
+            "duration": 8.0116627,
+            "location": "file:///C:/Users/esaji/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:35"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify page title as Shop AT\u0026T Bundles",
+    "steps": [
+      {
+        "name": "I verify page title as Shop AT\u0026T Bundles",
+        "aggregatedDurations": {
+          "median": 0.0139632,
+          "average": 0.0139632
+        },
+        "durations": [
+          {
+            "duration": 0.0139632,
+            "location": "file:///C:/Users/esaji/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:36"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter {string} in searchBox",
+    "steps": [
+      {
+        "name": "I enter \"AT\u0026T PREPAID\" in searchBox",
+        "aggregatedDurations": {
+          "median": 3.5000697,
+          "average": 3.5000697
+        },
+        "durations": [
+          {
+            "duration": 3.5000697,
+            "location": "file:///C:/Users/esaji/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:41"
+          }
+        ]
+      },
+      {
+        "name": "I enter \"AT\u0026T Deals\" in searchBox",
+        "aggregatedDurations": {
+          "median": 3.3933277,
+          "average": 3.3933277
+        },
+        "durations": [
+          {
+            "duration": 3.3933277,
+            "location": "file:///C:/Users/esaji/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:41"
+          }
+        ]
+      },
+      {
+        "name": "I enter \"TV \u0026 internet bundles\" in searchBox",
+        "aggregatedDurations": {
+          "median": 4.7142217,
+          "average": 4.7142217
+        },
+        "durations": [
+          {
+            "duration": 4.7142217,
+            "location": "file:///C:/Users/esaji/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:41"
+          }
+        ]
+      },
+      {
+        "name": "I enter \"Upgrade a device\" in searchBox",
+        "aggregatedDurations": {
+          "median": 3.565744,
+          "average": 3.565744
+        },
+        "durations": [
+          {
+            "duration": 3.565744,
+            "location": "file:///C:/Users/esaji/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:41"
+          }
+        ]
+      },
+      {
+        "name": "I enter \"Samsung Phones\" in searchBox",
+        "aggregatedDurations": {
+          "median": 4.9183962,
+          "average": 4.9183962
+        },
+        "durations": [
+          {
+            "duration": 4.9183962,
+            "location": "file:///C:/Users/esaji/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:53"
+          }
+        ]
+      },
+      {
+        "name": "I enter \"Apple Watches\" in searchBox",
+        "aggregatedDurations": {
+          "median": 3.1027557,
+          "average": 3.1027557
+        },
+        "durations": [
+          {
+            "duration": 3.1027557,
+            "location": "file:///C:/Users/esaji/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:53"
+          }
+        ]
+      },
+      {
+        "name": "I enter \"Apple ipads\" in searchBox",
+        "aggregatedDurations": {
+          "median": 2.6370337,
+          "average": 2.6370337
+        },
+        "durations": [
+          {
+            "duration": 2.6370337,
+            "location": "file:///C:/Users/esaji/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:53"
+          }
+        ]
+      },
+      {
+        "name": "I enter \"iphone 11 Pro Max\" in searchBox",
+        "aggregatedDurations": {
+          "median": 3.6882935,
+          "average": 3.6882935
+        },
+        "durations": [
+          {
+            "duration": 3.6882935,
+            "location": "file:///C:/Users/esaji/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:53"
+          }
+        ]
+      },
+      {
+        "name": "I enter \"Samsung Tablets\" in searchBox",
+        "aggregatedDurations": {
+          "median": 3.0358627,
+          "average": 3.0358627
+        },
+        "durations": [
+          {
+            "duration": 3.0358627,
+            "location": "file:///C:/Users/esaji/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:53"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify {string} and {string}",
+    "steps": [
+      {
+        "name": "I verify \"\\\"Samsung Phones\\\"\" and \"Results for Samsung Phones - AT\u0026T Search\"",
+        "aggregatedDurations": {
+          "median": 0.678696,
+          "average": 0.678696
+        },
+        "durations": [
+          {
+            "duration": 0.678696,
+            "location": "file:///C:/Users/esaji/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:55"
+          }
+        ]
+      },
+      {
+        "name": "I verify \"\\\"Apple Watches\\\"\" and \"Results for Apple Watches - AT\u0026T Search\"",
+        "aggregatedDurations": {
+          "median": 0.0548447,
+          "average": 0.0548447
+        },
+        "durations": [
+          {
+            "duration": 0.0548447,
+            "location": "file:///C:/Users/esaji/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:55"
+          }
+        ]
+      },
+      {
+        "name": "I verify \"\\\"Apple ipads\\\"\" and \"Results for Apple ipads - AT\u0026T Search\"",
+        "aggregatedDurations": {
+          "median": 3.856812,
+          "average": 3.856812
+        },
+        "durations": [
+          {
+            "duration": 3.856812,
+            "location": "file:///C:/Users/esaji/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:55"
+          }
+        ]
+      },
+      {
+        "name": "I verify \"\\\"iphone 11 Pro Max\\\"\" and \"Results for iphone 11 Pro Max - AT\u0026T Search\"",
+        "aggregatedDurations": {
+          "median": 2.6488433,
+          "average": 2.6488433
+        },
+        "durations": [
+          {
+            "duration": 2.6488433,
+            "location": "file:///C:/Users/esaji/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:55"
+          }
+        ]
+      },
+      {
+        "name": "I verify \"\\\"Samsung Tablets\\\"\" and \"Results for Samsung Tablets - AT\u0026T Search\"",
+        "aggregatedDurations": {
+          "median": 0.4852109,
+          "average": 0.4852109
+        },
+        "durations": [
+          {
+            "duration": 0.4852109,
+            "location": "file:///C:/Users/esaji/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:55"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click the Account dropdown button",
+    "steps": [
+      {
+        "name": "I click the Account dropdown button",
+        "aggregatedDurations": {
+          "median": 0.4412921,
+          "average": 0.508968933
+        },
+        "durations": [
+          {
+            "duration": 0.7046324,
+            "location": "file:///C:/Users/esaji/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/RegistrationPage.feature:8"
+          },
+          {
+            "duration": 0.3809823,
+            "location": "file:///C:/Users/esaji/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/RegistrationPage.feature:18"
+          },
+          {
+            "duration": 0.4412921,
+            "location": "file:///C:/Users/esaji/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/RegistrationPage.feature:29"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click signIn",
+    "steps": [
+      {
+        "name": "I click signIn",
+        "aggregatedDurations": {
+          "median": 6.7579541,
+          "average": 6.7579541
+        },
+        "durations": [
+          {
+            "duration": 6.7579541,
+            "location": "file:///C:/Users/esaji/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/RegistrationPage.feature:9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter admin1234 in user Id box",
+    "steps": [
+      {
+        "name": "I enter admin1234 in user Id box",
+        "aggregatedDurations": {
+          "median": 1.0797511,
+          "average": 1.0797511
+        },
+        "durations": [
+          {
+            "duration": 1.0797511,
+            "location": "file:///C:/Users/esaji/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/RegistrationPage.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter admin1234 in password box",
+    "steps": [
+      {
+        "name": "I enter admin1234 in password box",
+        "aggregatedDurations": {
+          "median": 0.6183467,
+          "average": 0.6183467
+        },
+        "durations": [
+          {
+            "duration": 0.6183467,
+            "location": "file:///C:/Users/esaji/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/RegistrationPage.feature:11"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verified {string} ia appeared properly",
+    "steps": [
+      {
+        "name": "I verified \"Sign In\" ia appeared properly",
+        "aggregatedDurations": {
+          "median": 0.0688182,
+          "average": 0.0688182
+        },
+        "durations": [
+          {
+            "duration": 0.0688182,
+            "location": "file:///C:/Users/esaji/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/RegistrationPage.feature:13"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify page title as Login Screen",
+    "steps": [
+      {
+        "name": "I verify page title as Login Screen",
+        "aggregatedDurations": {
+          "median": 0.0139629,
+          "average": 0.0139629
+        },
+        "durations": [
+          {
+            "duration": 0.0139629,
+            "location": "file:///C:/Users/esaji/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/RegistrationPage.feature:14"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click Pay without signing in",
+    "steps": [
+      {
+        "name": "I click Pay without signing in",
+        "aggregatedDurations": {
+          "median": 3.8685076,
+          "average": 3.8685076
+        },
+        "durations": [
+          {
+            "duration": 3.8685076,
+            "location": "file:///C:/Users/esaji/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/RegistrationPage.feature:19"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter {string} Active AT\u0026T phone number box",
+    "steps": [
+      {
+        "name": "I enter \"7180000000\" Active AT\u0026T phone number box",
+        "aggregatedDurations": {
+          "median": 1.5653912,
+          "average": 1.5653912
+        },
+        "durations": [
+          {
+            "duration": 1.5653912,
+            "location": "file:///C:/Users/esaji/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/RegistrationPage.feature:20"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter {string} Billing ZIP Code",
+    "steps": [
+      {
+        "name": "I enter \"10000\" Billing ZIP Code",
+        "aggregatedDurations": {
+          "median": 0.7016376,
+          "average": 0.7016376
+        },
+        "durations": [
+          {
+            "duration": 0.7016376,
+            "location": "file:///C:/Users/esaji/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/RegistrationPage.feature:21"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click Account overview",
+    "steps": [
+      {
+        "name": "I click Account overview",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/esaji/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/RegistrationPage.feature:30"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click Create one now",
+    "steps": [
+      {
+        "name": "I click Create one now",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/esaji/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/RegistrationPage.feature:31"
+          }
+        ]
+      }
+    ]
+  }
+]

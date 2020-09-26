@@ -6,7 +6,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 
-import java.security.PublicKey;
 
 import static targethome.TargetHomePageElement.*;
 
@@ -73,9 +72,9 @@ public class TargetHomePage extends WebAPI {
     public void validateSearchText() throws InterruptedException {
         Thread.sleep(3000);
         String actualResult=searchText.getText();
-        String expectedResult= "Registry";
+        String expectedResult= "“Samsung Phone”";
         System.out.println("EASY FOR EVERYONE");
-        org.testng.Assert.assertEquals(actualResult,expectedResult,"Search Item not match");
+        Assert.assertEquals(actualResult,expectedResult,"Search Item not match");
     }
 
     /**

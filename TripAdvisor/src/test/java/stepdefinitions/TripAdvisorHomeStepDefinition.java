@@ -1,4 +1,4 @@
-package stepdefinations;
+package stepdefinitions;
 
 import common.WebAPI;
 import io.cucumber.java.After;

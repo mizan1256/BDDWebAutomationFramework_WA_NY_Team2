@@ -1,8 +1,7 @@
 package targethome;
 
-import common.WebAPI;
 
-public class TargetHomePageElement extends WebAPI {
+public class TargetHomePageElement {
 
     public static final String webElementCart = "//span[@class='sc-AxjAm hhuVxr']//div[@class='sc-AxiKw eSbheu']";
     public static final String webElementSignIn= "//*[@id=\"viewport\"]/div[5]/div[1]/div/div/div[4]/div/button";
@@ -26,8 +25,8 @@ public class TargetHomePageElement extends WebAPI {
     public static final String useLogInButton ="//a[@id='switchToLogin']";//button[@id='login']
     public static final String useSignInButton = "//button[@id='login']";
     public static final String webElementSearchBox="//input[@id='search']";
-    public static final String webElementSearchButton="#headerMain > div.SearchInput-eeyb4b-0.laCRwy > form > button.SearchInputButton-sc-1opoijs-0.gpTjzt";
-    public static final String webElementSearchText="//a[@class='Link-sc-1khjl8b-0 kPdxNk'][contains(text(),'Registry')]";
+    public static final String webElementSearchButton="//*[@id=\\\"headerMain\\\"]/div/form/button[2]";
+    public static final String webElementSearchText="//*[@id=\\\"mainContainer\\\"]/div[4]/div[2]/div/div[2]/div[3]/div[1]/div[1]/div[1]/h2";
     public static final String webElementTargetLogo = "//*[name()='path' and contains(@d,'M12 1c6.07')]";
     public static final String disposableMaskText="//a[@class='Link-sc-1khjl8b-0 kPdxNk'][contains(text(),'Registry')]";
     public static final String clothMasks="//div[contains(text(),'Cloth Masks')]";

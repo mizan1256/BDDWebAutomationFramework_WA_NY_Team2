@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="3" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="8" time="203.958">
+    <testcase classname="Trip Advisor Home Page Functionality test" name="Trip Advisor Search box functionality test" time="23.894">
+        <system-out>
+            <![CDATA[Given I am in Trip Advisor home page........................................passed
+When I type Texas i search box..............................................passed
+And I click search button...................................................passed
+And I click Hotels Button...................................................passed
+And I click vacation rentals tab............................................passed
+Then I varify "Texas" is appeared properly..................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Trip Advisor Home Page Functionality test" name="Trip Advisor Search box functionality test 2" time="18.706">
+        <failure message="stale element reference: element is not attached to the page document&#10;  (Session info: chrome=85.0.4183.102)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-B8JGMDH', ip: '192.168.8.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\esaji\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56346}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 0c9e39ffa1477c0777d21d00aa0ee502" type="org.openqa.selenium.StaleElementReferenceException">
+            <![CDATA[Given I am in Trip Advisor home page........................................passed
+When I type Texas i search box..............................................passed
+And I click search button...................................................passed
+And I click Hotels Button...................................................failed
+And I click Restaurants tab.................................................skipped
+And I click Texas Roadhouse.................................................skipped
+And I navigate new windows..................................................skipped
+And I click food picture....................................................skipped
+And I click Gallery button..................................................skipped
+Then I varify food image is appeared properly...............................skipped
+
+StackTrace:
+org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=85.0.4183.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-B8JGMDH', ip: '192.168.8.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\esaji\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56346}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 0c9e39ffa1477c0777d21d00aa0ee502
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy25.click(Unknown Source)
+	at tripadvisorhome.TripAdvisorHomePage.hotelButtonClick(TripAdvisorHomePage.java:114)
+	at stepdefinitions.TripAdvisorHomeStepDefinition.i_click_hotels_button(TripAdvisorHomeStepDefinition.java:56)
+	at ✽.I click Hotels Button(file:///C:/Users/esaji/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TripAdvisor/src/test/java/features/TripAdvisorHome.feature:25)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Trip Advisor Home Page Functionality test" name="Trip Advisor Search box functionality test 3" time="56.924">
+        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;leftRailFilter&quot;]/div/div/div/div/div[4]&quot;}&#10;  (Session info: chrome=85.0.4183.102)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-B8JGMDH', ip: '192.168.8.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\esaji\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56429}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 9b88caee4c948325fba3b1b0bcf6e2a6&#10;*** Element info: {Using=xpath, value=//*[@id=&quot;leftRailFilter&quot;]/div/div/div/div/div[4]}" type="org.openqa.selenium.NoSuchElementException">
+            <![CDATA[Given I am in Trip Advisor home page........................................passed
+When I click TravelForum....................................................passed
+And I click Flights.........................................................passed
+And I enter Where from and To field.........................................passed
+And I enter departure and arrival date......................................passed
+And I enter person field and close person field.............................passed
+And I click find flight button..............................................passed
+Then I varify COVID-19 Policies is appeared properly........................failed
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="leftRailFilter"]/div/div/div/div/div[4]"}
+  (Session info: chrome=85.0.4183.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-B8JGMDH', ip: '192.168.8.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\esaji\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56429}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 9b88caee4c948325fba3b1b0bcf6e2a6
+*** Element info: {Using=xpath, value=//*[@id="leftRailFilter"]/div/div/div/div/div[4]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy25.getText(Unknown Source)
+	at tripadvisorhome.TripAdvisorHomePage.validateTravelForum(TripAdvisorHomePage.java:209)
+	at stepdefinitions.TripAdvisorHomeStepDefinition.i_varify_covid_policies_is_appeared_properly(TripAdvisorHomeStepDefinition.java:134)
+	at ✽.I varify COVID-19 Policies is appeared properly(file:///C:/Users/esaji/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TripAdvisor/src/test/java/features/TripAdvisorHome.feature:41)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Trip Advisor Home Page Functionality test" name="Trip Advisor Search box functionality test 4" time="18.122">
+        <failure message="invalid selector: The result of the xpath expression &quot;//*[@id=&quot;taplc_trip_search_home_flights_0&quot;]/div[2]/div/div[1]/ul/li[2]/div/a/text()&quot; is: [object Text]. It should be an element.&#10;  (Session info: chrome=85.0.4183.102)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-B8JGMDH', ip: '192.168.8.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\esaji\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56547}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 58f822158e4438623190ba3b1538c91f&#10;*** Element info: {Using=xpath, value=//*[@id=&quot;taplc_trip_search_home_flights_0&quot;]/div[2]/div/div[1]/ul/li[2]/div/a/text()}" type="org.openqa.selenium.InvalidSelectorException">
+            <![CDATA[Given I am in Trip Advisor home page........................................passed
+When I click TravelForum and click Flight...................................passed
+And I click One way tab.....................................................failed
+And I enter Where from and To field.........................................skipped
+And I enter departure date..................................................skipped
+And I enter person field and close person field.............................skipped
+And I click find flight button..............................................skipped
+Then I varify COVID-19 Policies is appeared properly........................skipped
+
+StackTrace:
+org.openqa.selenium.InvalidSelectorException: invalid selector: The result of the xpath expression "//*[@id="taplc_trip_search_home_flights_0"]/div[2]/div/div[1]/ul/li[2]/div/a/text()" is: [object Text]. It should be an element.
+  (Session info: chrome=85.0.4183.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-B8JGMDH', ip: '192.168.8.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\esaji\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56547}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 58f822158e4438623190ba3b1538c91f
+*** Element info: {Using=xpath, value=//*[@id="taplc_trip_search_home_flights_0"]/div[2]/div/div[1]/ul/li[2]/div/a/text()}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy25.click(Unknown Source)
+	at tripadvisorhome.TripAdvisorHomePage.oneWayTab(TripAdvisorHomePage.java:224)
+	at stepdefinitions.TripAdvisorHomeStepDefinition.i_click_one_way_tab(TripAdvisorHomeStepDefinition.java:145)
+	at ✽.I click One way tab(file:///C:/Users/esaji/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TripAdvisor/src/test/java/features/TripAdvisorHome.feature:46)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Trip Advisor Home Page Functionality test" name="Trip Advisor Search box functionality test 5" time="17.543">
+        <system-out>
+            <![CDATA[Given I am in Trip Advisor home page........................................passed
+When I click Things to Do...................................................passed
+And I type in searchBox and submit..........................................passed
+Then I varify Dhaka City is appeared properly...............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Trip Advisor Home Page Functionality test" name="Trip Advisor Search box functionality test 6" time="19.953">
+        <system-out>
+            <![CDATA[Given I am in Trip Advisor home page........................................passed
+When I click Things to Do...................................................passed
+And I type in searchBox and submit..........................................passed
+Then I varify Dhaka City is appeared properly...............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Trip Advisor Home Page Functionality test" name="Trip Advisor Search box functionality test 7" time="12.507">
+        <system-out>
+            <![CDATA[Given I am in Trip Advisor home page........................................passed
+When I click trip button....................................................passed
+And I click get start.......................................................passed
+Then I varify reCAPCHA is appeared properly.................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Trip Advisor Home Page Functionality test" name="Trip Advisor Search box functionality test 8" time="35.567">
+        <system-out>
+            <![CDATA[Given I am in Trip Advisor home page........................................passed
+When I click Post...........................................................passed
+And I click Post Photo......................................................passed
+And I click hohel radio button..............................................passed
+And I type hotel name and city name and click search button.................passed
+And select and click radio button...........................................passed
+And I click Post Photos Button and click add photo btn......................passed
+And I click select photo from your computer.................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

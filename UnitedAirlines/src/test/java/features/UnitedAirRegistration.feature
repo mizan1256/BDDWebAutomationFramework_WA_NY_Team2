@@ -10,7 +10,7 @@ Feature: United Airlines home page signIn functionality test
     And I click on join now and use title
     And I use data in member information field
       | firstName | middleName | lastName | date | year |
-      | Mohammad  | Mujahidul  | Islam    | 1   | 1980 |
+      | Mohammad  | Ehsan  | Kabir    | 6   | 1987 |
     And month and gender field is selected
     Then I validate Contact Information is appeared properly
 
@@ -19,7 +19,7 @@ Feature: United Airlines home page signIn functionality test
     And I click on join now and use title
     When I entered data in Contact Information field
       | street      | city       | state    | zipCode |
-      | 8218 street | Ozone Park | New York | 10111   |
+      | 75 street | Ozone Park | New York | 11417   |
     Then I validate "Phone number" appear properly
 
   @SmokeTest
@@ -27,7 +27,7 @@ Feature: United Airlines home page signIn functionality test
     And I click on join now and use title
     And I entered data in phone number field
       | phoneNumber | extenPhone | businessPhone | extenBusinessPhone | airportName |
-      | 7180000000  | 123        | 2120000000    | 10111              | JFK         |
+      | 01677364404  | 123        | 2120000000    | 10111              | JFK         |
     And I click on check box field
     Then I verify "Email information" appear properly
 
@@ -36,7 +36,7 @@ Feature: United Airlines home page signIn functionality test
     And I click on join now and use title
     And I entered data in email field
       | email                 | reEnterEmail          |
-      | pnt30235_NY@gmail.com | pnt30235_NY@gmail.com |
+      | esajib87@gmail.com | eajib87@gmail.com|
     And I click on check box and uncheck box
     And I entered data in password field
       | password     | reEnterPassword |

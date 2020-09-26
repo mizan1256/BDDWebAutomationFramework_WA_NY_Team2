@@ -1,0 +1,191 @@
+
+@SmokeTest
+Scenario: CNN home page burger button functionality test # src/test/java/features/CnnHomePage.feature:8
+  Given I am in CNN home page                            # stepdefinitions.CnnStepDefinition.i_am_in_cnn_home_page()
+  When I click on burger button                          # stepdefinitions.CnnStepDefinition.i_click_on_burger_button()
+  And I enter sports in search box                       # stepdefinitions.CnnStepDefinition.i_enter_sports_in_search_box()
+  And I click on search button                           # stepdefinitions.CnnStepDefinition.i_click_on_search_button()
+  And I click on politics radio button                   # stepdefinitions.CnnStepDefinition.i_click_on_politics_radio_button()
+  Then I validate politics page is appeared properly     # stepdefinitions.CnnStepDefinition.i_validate_politics_page_is_appeared_properly()
+
+@SmokeTest
+Scenario: CNN home page Travel functionality test # src/test/java/features/CnnHomePage.feature:16
+  Given I am in CNN home page                     # stepdefinitions.CnnStepDefinition.i_am_in_cnn_home_page()
+  When I click on travel tab                      # stepdefinitions.CnnStepDefinition.i_click_on_travel_tab()
+  And I click on best beach                       # stepdefinitions.CnnStepDefinition.i_click_on_best_beach()
+  And I click on Map tab                          # stepdefinitions.CnnStepDefinition.i_click_on_map_tab()
+  And I click on radio button                     # stepdefinitions.CnnStepDefinition.i_click_on_radio_button()
+  Then I validate View All is visible             # stepdefinitions.CnnStepDefinition.i_validate_view_all_is_visible()
+
+@SmokeTest
+Scenario: CNN home page Travel functionality test   # src/test/java/features/CnnHomePage.feature:24
+  Given I am in CNN home page                       # stepdefinitions.CnnStepDefinition.i_am_in_cnn_home_page()
+  When I click on edition dropDown button           # stepdefinitions.CnnStepDefinition.i_click_on_edition_drop_down_button()
+  And I click on international                      # stepdefinitions.CnnStepDefinition.i_click_on_international()
+  And I click on all stories                        # stepdefinitions.CnnStepDefinition.i_click_on_all_stories()
+  And I click on Covid-19 symptoms                  # stepdefinitions.CnnStepDefinition.i_click_on_covid_symptoms(java.lang.Integer)
+  Then I validate By Sandee LaMotte, CNN is visible # stepdefinitions.CnnStepDefinition.i_validate_by_sandee_la_motte_cnn_is_visible()
+      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='metadata__byline__author']"}
+  (Session info: chrome=85.0.4183.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-B8JGMDH', ip: '192.168.8.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\esaji\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54705}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5ceae3a8e275bbb8b439b6d6e3497af3
+*** Element info: {Using=xpath, value=//span[@class='metadata__byline__author']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy25.getText(Unknown Source)
+	at cnnhome.CnnHomePage.validateDropDownEditionButton(CnnHomePage.java:127)
+	at stepdefinitions.CnnStepDefinition.i_validate_by_sandee_la_motte_cnn_is_visible(CnnStepDefinition.java:123)
+	at ✽.I validate By Sandee LaMotte, CNN is visible(file:///C:/Users/esaji/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/CNN/src/test/java/features/CnnHomePage.feature:29)
+
+
+    Embedding Demo [image/png 1925494 bytes]
+
+
+@SmokeTest
+Scenario: CNN home page Travel functionality test # src/test/java/features/CnnHomePage.feature:32
+  Given I am in CNN home page                     # stepdefinitions.CnnStepDefinition.i_am_in_cnn_home_page()
+  And I click on Tv Play Button                   # stepdefinitions.CnnStepDefinition.i_click_on_tv_play_button()
+      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".\/\/\*\[\@id\=\"root\"\]\/div\/div\[2\]\/div\[1\]\/div\[1\]\/div\/svg\/path"}
+  (Session info: chrome=85.0.4183.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-B8JGMDH', ip: '192.168.8.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\esaji\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55152}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: f205c83211cd8870bfadeeeeef08bab2
+*** Element info: {Using=class name, value=//*[@id="root"]/div/div[2]/div[1]/div[1]/div/svg/path}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:412)
+	at org.openqa.selenium.By$ByClassName.findElement(By.java:389)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy25.click(Unknown Source)
+	at cnnhome.CnnHomePage.liveTvPlayButton(CnnHomePage.java:139)
+	at stepdefinitions.CnnStepDefinition.i_click_on_tv_play_button(CnnStepDefinition.java:136)
+	at ✽.I click on Tv Play Button(file:///C:/Users/esaji/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/CNN/src/test/java/features/CnnHomePage.feature:34)
+
+  And I click on back to cnn.com                  # stepdefinitions.CnnStepDefinition.i_click_on_back_to_cnn_com()
+  Then I validate Covid-19 is visible             # stepdefinitions.CnnStepDefinition.i_validate_covid_is_visible(java.lang.Integer)
+
+    Embedding Demo [image/png 1216588 bytes]
+
+
+@SmokeTest
+Scenario: CNN home page Travel functionality test # src/test/java/features/CnnHomePage.feature:39
+  Given I am in CNN home page                     # stepdefinitions.CnnStepDefinition.i_am_in_cnn_home_page()
+  When I click on live Tv button                  # stepdefinitions.CnnStepDefinition.i_click_on_live_tv_button()
+  And I click on Tv channel box                   # stepdefinitions.CnnStepDefinition.i_click_on_tv_channel_box()
+  And I click on cnn channel                      # stepdefinitions.CnnStepDefinition.i_click_on_cnn_channel()
+
+@SmokeTest
+Scenario: CNN home page Travel functionality test # src/test/java/features/CnnHomePage.feature:46
+  Given I am in CNN home page                     # stepdefinitions.CnnStepDefinition.i_am_in_cnn_home_page()
+  And I click on Tv channel box                   # stepdefinitions.CnnStepDefinition.i_click_on_tv_channel_box()
+      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@class='Box-sc-1fet97o-0 sc-bRBYWo kyJGDH channels-button']//*[local-name()='svg']"}
+  (Session info: chrome=85.0.4183.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-B8JGMDH', ip: '192.168.8.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\esaji\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55823}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 2c1b43e56b3f1d34277352964f1bc1b1
+*** Element info: {Using=xpath, value=//button[@class='Box-sc-1fet97o-0 sc-bRBYWo kyJGDH channels-button']//*[local-name()='svg']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy25.click(Unknown Source)
+	at cnnhome.CnnHomePage.tvChannelBoxCheck(CnnHomePage.java:155)
+	at stepdefinitions.CnnStepDefinition.i_click_on_tv_channel_box(CnnStepDefinition.java:154)
+	at ✽.I click on Tv channel box(file:///C:/Users/esaji/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/CNN/src/test/java/features/CnnHomePage.feature:48)
+
+  And I click on cnn channel                      # stepdefinitions.CnnStepDefinition.i_click_on_cnn_channel()
+  And I click close button                        # stepdefinitions.CnnStepDefinition.i_click_close_button()
+  Then I validate News Shows is visible           # stepdefinitions.CnnStepDefinition.i_validate_news_shows_is_visible()
+
+    Embedding Demo [image/png 1184368 bytes]
+
+
+@SmokeTest
+Scenario: CNN home page Travel functionality test # src/test/java/features/CnnHomePage.feature:54
+  Given I am in CNN home page                     # stepdefinitions.CnnStepDefinition.i_am_in_cnn_home_page()
+  And I click on Tv channel box                   # stepdefinitions.CnnStepDefinition.i_click_on_tv_channel_box()
+      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@class='Box-sc-1fet97o-0 sc-bRBYWo kyJGDH channels-button']//*[local-name()='svg']"}
+  (Session info: chrome=85.0.4183.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-B8JGMDH', ip: '192.168.8.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\esaji\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56098}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5d82f1bc780073e1b0be9f4bb2369ce6
+*** Element info: {Using=xpath, value=//button[@class='Box-sc-1fet97o-0 sc-bRBYWo kyJGDH channels-button']//*[local-name()='svg']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy25.click(Unknown Source)
+	at cnnhome.CnnHomePage.tvChannelBoxCheck(CnnHomePage.java:155)
+	at stepdefinitions.CnnStepDefinition.i_click_on_tv_channel_box(CnnStepDefinition.java:154)
+	at ✽.I click on Tv channel box(file:///C:/Users/esaji/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/CNN/src/test/java/features/CnnHomePage.feature:55)
+
+  And I click on cnn channel                      # stepdefinitions.CnnStepDefinition.i_click_on_cnn_channel()
+  And I click close button                        # stepdefinitions.CnnStepDefinition.i_click_close_button()
+  And I click linda voice button                  # stepdefinitions.CnnStepDefinition.i_click_linda_voice_button()
+  And I click linda voice play button             # stepdefinitions.CnnStepDefinition.i_click_linda_voice_play_button()
+  Then I validate US is visible                   # stepdefinitions.CnnStepDefinition.i_validate_us_is_visible()
+
+    Embedding Demo [image/png 1217708 bytes]
+

@@ -1,89 +1,71 @@
 [
   {
-    "source": "I am on Geico HopePage",
+    "source": "I am on Geico home page",
     "steps": [
       {
-        "name": "I am on Geico HopePage",
+        "name": "I am on Geico home page",
         "aggregatedDurations": {
-          "median": 8.4880176,
-          "average": 8.4880176
+          "median": 9.6848073,
+          "average": 9.6848073
         },
         "durations": [
           {
-            "duration": 8.4880176,
-            "location": "file:///C:/Users/esaji/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:5"
+            "duration": 9.6848073,
+            "location": "file:///C:/Users/esaji/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:4"
           }
         ]
       }
     ]
   },
   {
-    "source": "I click SearchBox",
+    "source": "I click on Career button",
     "steps": [
       {
-        "name": "I click SearchBox",
+        "name": "I click on Career button",
         "aggregatedDurations": {
-          "median": 0.2139914,
-          "average": 0.2139914
+          "median": 5.5379859,
+          "average": 5.5379859
         },
         "durations": [
           {
-            "duration": 0.2139914,
-            "location": "file:///C:/Users/esaji/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:6"
+            "duration": 5.5379859,
+            "location": "file:///C:/Users/esaji/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:23"
           }
         ]
       }
     ]
   },
   {
-    "source": "I Enter Auto in SearchBox",
+    "source": "I Click on Customer Service Button",
     "steps": [
       {
-        "name": "I Enter Auto in SearchBox",
+        "name": "I Click on Customer Service Button",
         "aggregatedDurations": {
-          "median": 0.7615873,
-          "average": 0.7615873
+          "median": 4.8885419,
+          "average": 4.8885419
         },
         "durations": [
           {
-            "duration": 0.7615873,
-            "location": "file:///C:/Users/esaji/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:7"
+            "duration": 4.8885419,
+            "location": "file:///C:/Users/esaji/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:24"
           }
         ]
       }
     ]
   },
   {
-    "source": "I clik search Button",
+    "source": "I validate Customer Service Careers text appear Properly",
     "steps": [
       {
-        "name": "I clik search Button",
+        "name": "I validate Customer Service Careers text appear Properly",
         "aggregatedDurations": {
-          "median": 0.835133,
-          "average": 0.835133
+          "median": 0.1555856,
+          "average": 0.1555856
         },
         "durations": [
           {
-            "duration": 0.835133,
-            "location": "file:///C:/Users/esaji/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:8"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "I verify the page title",
-    "steps": [
-      {
-        "name": "I verify the page title",
-        "aggregatedDurations": {
-          "median": 0.1037218,
-          "average": 0.1037218
-        },
-        "durations": [
-          {
-            "duration": 0.1037218,
-            "location": "file:///C:/Users/esaji/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:9"
+            "duration": 0.1555856,
+            "location": "file:///C:/Users/esaji/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:25"
           }
         ]
       }
