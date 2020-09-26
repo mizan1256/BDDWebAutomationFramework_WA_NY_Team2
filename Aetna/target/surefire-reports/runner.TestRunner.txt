@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: runner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 179.854 s <<< FAILURE! - in runner.TestRunner
+Aetna HomePage Check.Aetna find a doctor check  Time elapsed: 17.464 s  <<< ERROR!
+io.cucumber.core.exception.CucumberException: 
+Could not invoke step [I validate COVID-{int} Alert is appeared properly] defined at 'stepdefinitions.HomePageStepDefinition.i_validate_covid_alert_is_appeared_properly(java.lang.String)'.
+It appears there was a problem with the step definition.
+The converted arguments types were (java.lang.Integer)
+Caused by: io.cucumber.core.backend.CucumberBackendException: Failed to invoke public void stepdefinitions.HomePageStepDefinition.i_validate_covid_alert_is_appeared_properly(java.lang.String)
+Caused by: java.lang.IllegalArgumentException: argument type mismatch
+
+Aetna HomePage Check.Aetna Shop a plan  test #1  Time elapsed: 31.218 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="textParagraph_191"]"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Armans-MacBook-Pro.local', ip: 'fe80:0:0:0:81a:dac2:801d:6907%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/kc/1437tkvj79j...}, goog:chromeOptions: {debuggerAddress: localhost:56433}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: dd4e180d5dabee6172897437bef87375
+*** Element info: {Using=xpath, value=//*[@id="textParagraph_191"]}
+
