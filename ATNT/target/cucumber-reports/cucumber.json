@@ -1,0 +1,1635 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-09-26T18:35:28.921Z",
+        "line": 24,
+        "name": "ATnt searchBox Functionality check with multiple SearchItem",
+        "description": "",
+        "id": "atnt-homepage-functionality-check;atnt-searchbox-functionality-check-with-multiple-searchitem;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 728520600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.SingInStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.SingInStepDefinitions.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.HomePageStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.HomePageStepDefinitions.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6215361400,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 26925900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinition.HomePageStepDefinitions.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 2991700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinition.SingInStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 18,
+            "name": "I am in ATnt homePage",
+            "match": {
+              "location": "stepdefinition.HomePageStepDefinitions.i_am_in_a_tnt_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3253032700,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 997000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinition.HomePageStepDefinitions.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 993500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinition.SingInStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 19,
+            "name": "I enter \"iphone 7\" in searchBox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"iphone 7\"",
+                  "offset": 8
+                }
+              ],
+              "location": "stepdefinition.HomePageStepDefinitions.i_enter_in_search_box(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6255518000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinition.HomePageStepDefinitions.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinition.SingInStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 20,
+            "name": "I click on search button",
+            "match": {
+              "location": "stepdefinition.HomePageStepDefinitions.i_click_on_search_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 101723200,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 997700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinition.HomePageStepDefinitions.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 996900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinition.SingInStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 21,
+            "name": "I verify \"Results for iphone 7 - AT\u0026T Search\" is appear",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Results for iphone 7 - AT\u0026T Search\"",
+                  "offset": 9
+                }
+              ],
+              "location": "stepdefinition.HomePageStepDefinitions.i_verify_is_appear(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-26T18:35:45.638Z",
+        "line": 25,
+        "name": "ATnt searchBox Functionality check with multiple SearchItem",
+        "description": "",
+        "id": "atnt-homepage-functionality-check;atnt-searchbox-functionality-check-with-multiple-searchitem;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 722916800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.SingInStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.SingInStepDefinitions.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.HomePageStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.HomePageStepDefinitions.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5735304000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinition.HomePageStepDefinitions.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 996900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinition.SingInStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 18,
+            "name": "I am in ATnt homePage",
+            "match": {
+              "location": "stepdefinition.HomePageStepDefinitions.i_am_in_a_tnt_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3216961900,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 998300,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinition.HomePageStepDefinitions.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1117500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinition.SingInStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 19,
+            "name": "I enter \"iphone 11\" in searchBox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"iphone 11\"",
+                  "offset": 8
+                }
+              ],
+              "location": "stepdefinition.HomePageStepDefinitions.i_enter_in_search_box(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4324985100,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinition.HomePageStepDefinitions.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 993500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinition.SingInStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 20,
+            "name": "I click on search button",
+            "match": {
+              "location": "stepdefinition.HomePageStepDefinitions.i_click_on_search_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 134654200,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 995500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinition.HomePageStepDefinitions.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinition.SingInStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 21,
+            "name": "I verify \"Results for iphone 11 - AT\u0026T Search\" is appear",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Results for iphone 11 - AT\u0026T Search\"",
+                  "offset": 9
+                }
+              ],
+              "location": "stepdefinition.HomePageStepDefinitions.i_verify_is_appear(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-26T18:35:59.787Z",
+        "line": 26,
+        "name": "ATnt searchBox Functionality check with multiple SearchItem",
+        "description": "",
+        "id": "atnt-homepage-functionality-check;atnt-searchbox-functionality-check-with-multiple-searchitem;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 712249900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.SingInStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.SingInStepDefinitions.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.HomePageStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.HomePageStepDefinitions.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5583072700,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinition.HomePageStepDefinitions.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinition.SingInStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 18,
+            "name": "I am in ATnt homePage",
+            "match": {
+              "location": "stepdefinition.HomePageStepDefinitions.i_am_in_a_tnt_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3270604000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 997800,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinition.HomePageStepDefinitions.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 998200,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinition.SingInStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 19,
+            "name": "I enter \"iphone 8s plus\" in searchBox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"iphone 8s plus\"",
+                  "offset": 8
+                }
+              ],
+              "location": "stepdefinition.HomePageStepDefinitions.i_enter_in_search_box(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4982101000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1010300,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinition.HomePageStepDefinitions.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinition.SingInStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 20,
+            "name": "I click on search button",
+            "match": {
+              "location": "stepdefinition.HomePageStepDefinitions.i_click_on_search_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 102683600,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 991700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinition.HomePageStepDefinitions.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1032700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinition.SingInStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 21,
+            "name": "I verify \"Results for iphone 8s plus - AT\u0026T Search\" is appear",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Results for iphone 8s plus - AT\u0026T Search\"",
+                  "offset": 9
+                }
+              ],
+              "location": "stepdefinition.HomePageStepDefinitions.i_verify_is_appear(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-26T18:36:14.453Z",
+        "line": 27,
+        "name": "ATnt searchBox Functionality check with multiple SearchItem",
+        "description": "",
+        "id": "atnt-homepage-functionality-check;atnt-searchbox-functionality-check-with-multiple-searchitem;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 742116500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.SingInStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.SingInStepDefinitions.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.HomePageStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 909000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.HomePageStepDefinitions.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5398977600,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinition.HomePageStepDefinitions.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 982400,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinition.SingInStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 18,
+            "name": "I am in ATnt homePage",
+            "match": {
+              "location": "stepdefinition.HomePageStepDefinitions.i_am_in_a_tnt_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3242914800,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinition.HomePageStepDefinitions.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinition.SingInStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 19,
+            "name": "I enter \"iphone 11 pro\" in searchBox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"iphone 11 pro\"",
+                  "offset": 8
+                }
+              ],
+              "location": "stepdefinition.HomePageStepDefinitions.i_enter_in_search_box(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5676394800,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinition.HomePageStepDefinitions.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 962000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinition.SingInStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 20,
+            "name": "I click on search button",
+            "match": {
+              "location": "stepdefinition.HomePageStepDefinitions.i_click_on_search_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 154579300,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 997500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinition.HomePageStepDefinitions.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1993300,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinition.SingInStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 21,
+            "name": "I verify \"Results for iphone 11 pro - AT\u0026T Search\" is appear",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Results for iphone 11 pro - AT\u0026T Search\"",
+                  "offset": 9
+                }
+              ],
+              "location": "stepdefinition.HomePageStepDefinitions.i_verify_is_appear(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "ATnt homePage functionality check",
+    "description": "",
+    "id": "atnt-homepage-functionality-check",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/HomePage.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-09-26T18:36:29.684Z",
+        "line": 13,
+        "name": "ATnt SignIn Functionality Check",
+        "description": "",
+        "id": "atnt-singin-functionality-check;atnt-signin-functionality-check;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 798164500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.SingInStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.SingInStepDefinitions.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.HomePageStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.HomePageStepDefinitions.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5559947200,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 999000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinition.HomePageStepDefinitions.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinition.SingInStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "I am in ATnt homePage",
+            "match": {
+              "location": "stepdefinition.HomePageStepDefinitions.i_am_in_a_tnt_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 187664900,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 998400,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinition.HomePageStepDefinitions.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinition.SingInStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "I click on Account",
+            "match": {
+              "location": "stepdefinition.SingInStepDefinitions.i_click_on_account()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3745006100,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinition.HomePageStepDefinitions.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 997400,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinition.SingInStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "I click on sign in from the dropdownList",
+            "match": {
+              "location": "stepdefinition.SingInStepDefinitions.i_click_on_sign_in_from_the_dropdown_list()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 386631400,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinition.HomePageStepDefinitions.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinition.SingInStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 8,
+            "name": "I enter \"yasmin\" as userId field and \"abc\" as password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"yasmin\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"abc\"",
+                  "offset": 37
+                }
+              ],
+              "location": "stepdefinition.SingInStepDefinitions.i_enter_as_user_id_field_and_as_password_field(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 134136700,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinition.HomePageStepDefinitions.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1003400,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinition.SingInStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 9,
+            "name": "I click on signIn Button",
+            "match": {
+              "location": "stepdefinition.SingInStepDefinitions.i_click_on_sign_in_button()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-26T18:36:40.517Z",
+        "line": 14,
+        "name": "ATnt SignIn Functionality Check",
+        "description": "",
+        "id": "atnt-singin-functionality-check;atnt-signin-functionality-check;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 768077500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.SingInStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.SingInStepDefinitions.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.HomePageStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.HomePageStepDefinitions.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5693784400,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinition.HomePageStepDefinitions.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinition.SingInStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "I am in ATnt homePage",
+            "match": {
+              "location": "stepdefinition.HomePageStepDefinitions.i_am_in_a_tnt_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 219402200,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinition.HomePageStepDefinitions.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinition.SingInStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "I click on Account",
+            "match": {
+              "location": "stepdefinition.SingInStepDefinitions.i_click_on_account()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1429987200,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinition.HomePageStepDefinitions.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 997100,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinition.SingInStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "I click on sign in from the dropdownList",
+            "match": {
+              "location": "stepdefinition.SingInStepDefinitions.i_click_on_sign_in_from_the_dropdown_list()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2759591100,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1031900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinition.HomePageStepDefinitions.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinition.SingInStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 8,
+            "name": "I enter \"yasmin1\" as userId field and \"abcd\" as password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"yasmin1\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"abcd\"",
+                  "offset": 38
+                }
+              ],
+              "location": "stepdefinition.SingInStepDefinitions.i_enter_as_user_id_field_and_as_password_field(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1317634700,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 997300,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinition.HomePageStepDefinitions.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinition.SingInStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 9,
+            "name": "I click on signIn Button",
+            "match": {
+              "location": "stepdefinition.SingInStepDefinitions.i_click_on_sign_in_button()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-26T18:36:52.718Z",
+        "line": 15,
+        "name": "ATnt SignIn Functionality Check",
+        "description": "",
+        "id": "atnt-singin-functionality-check;atnt-signin-functionality-check;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 1116313600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.SingInStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.SingInStepDefinitions.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.HomePageStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.HomePageStepDefinitions.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5445143400,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000200,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinition.HomePageStepDefinitions.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinition.SingInStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "I am in ATnt homePage",
+            "match": {
+              "location": "stepdefinition.HomePageStepDefinitions.i_am_in_a_tnt_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 149632400,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinition.HomePageStepDefinitions.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 997900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinition.SingInStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "I click on Account",
+            "match": {
+              "location": "stepdefinition.SingInStepDefinitions.i_click_on_account()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1277583100,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 994900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinition.HomePageStepDefinitions.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinition.SingInStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "I click on sign in from the dropdownList",
+            "match": {
+              "location": "stepdefinition.SingInStepDefinitions.i_click_on_sign_in_from_the_dropdown_list()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2374208200,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinition.HomePageStepDefinitions.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinition.SingInStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 8,
+            "name": "I enter \"yasmin2\" as userId field and \"abcd1\" as password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"yasmin2\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"abcd1\"",
+                  "offset": 38
+                }
+              ],
+              "location": "stepdefinition.SingInStepDefinitions.i_enter_as_user_id_field_and_as_password_field(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1255169100,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinition.HomePageStepDefinitions.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 997200,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinition.SingInStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 9,
+            "name": "I click on signIn Button",
+            "match": {
+              "location": "stepdefinition.SingInStepDefinitions.i_click_on_sign_in_button()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-26T18:37:04.350Z",
+        "line": 16,
+        "name": "ATnt SignIn Functionality Check",
+        "description": "",
+        "id": "atnt-singin-functionality-check;atnt-signin-functionality-check;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 1112012900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.SingInStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.SingInStepDefinitions.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.HomePageStepDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.HomePageStepDefinitions.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5726911600,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinition.HomePageStepDefinitions.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinition.SingInStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "I am in ATnt homePage",
+            "match": {
+              "location": "stepdefinition.HomePageStepDefinitions.i_am_in_a_tnt_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 169545500,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 996900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinition.HomePageStepDefinitions.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinition.SingInStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "I click on Account",
+            "match": {
+              "location": "stepdefinition.SingInStepDefinitions.i_click_on_account()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3185549600,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 989100,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinition.HomePageStepDefinitions.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinition.SingInStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "I click on sign in from the dropdownList",
+            "match": {
+              "location": "stepdefinition.SingInStepDefinitions.i_click_on_sign_in_from_the_dropdown_list()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 408889500,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinition.HomePageStepDefinitions.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinition.SingInStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 8,
+            "name": "I enter \"yasmin3\" as userId field and \"abcd2\" as password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"yasmin3\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"abcd2\"",
+                  "offset": 38
+                }
+              ],
+              "location": "stepdefinition.SingInStepDefinitions.i_enter_as_user_id_field_and_as_password_field(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1382714100,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinition.HomePageStepDefinitions.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinition.SingInStepDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 9,
+            "name": "I click on signIn Button",
+            "match": {
+              "location": "stepdefinition.SingInStepDefinitions.i_click_on_sign_in_button()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "ATnt SingIn Functionality Check",
+    "description": "",
+    "id": "atnt-singin-functionality-check",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/SignIn.feature",
+    "tags": []
+  }
+]

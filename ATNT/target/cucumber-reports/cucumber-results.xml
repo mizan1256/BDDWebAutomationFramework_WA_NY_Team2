@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="8" time="107.906">
+    <testcase classname="ATnt homePage functionality check" name="ATnt searchBox Functionality check with multiple SearchItem" time="16.698">
+        <system-out>
+            <![CDATA[Given I am in ATnt homePage.................................................passed
+And I enter "iphone 7" in searchBox.........................................passed
+When I click on search button...............................................passed
+Then I verify "Results for iphone 7 - AT&T Search" is appear................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="ATnt homePage functionality check" name="ATnt searchBox Functionality check with multiple SearchItem 2" time="14.143">
+        <system-out>
+            <![CDATA[Given I am in ATnt homePage.................................................passed
+And I enter "iphone 11" in searchBox........................................passed
+When I click on search button...............................................passed
+Then I verify "Results for iphone 11 - AT&T Search" is appear...............passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="ATnt homePage functionality check" name="ATnt searchBox Functionality check with multiple SearchItem 3" time="14.659">
+        <system-out>
+            <![CDATA[Given I am in ATnt homePage.................................................passed
+And I enter "iphone 8s plus" in searchBox...................................passed
+When I click on search button...............................................passed
+Then I verify "Results for iphone 8s plus - AT&T Search" is appear..........passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="ATnt homePage functionality check" name="ATnt searchBox Functionality check with multiple SearchItem 4" time="15.225">
+        <system-out>
+            <![CDATA[Given I am in ATnt homePage.................................................passed
+And I enter "iphone 11 pro" in searchBox....................................passed
+When I click on search button...............................................passed
+Then I verify "Results for iphone 11 pro - AT&T Search" is appear...........passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="ATnt SingIn Functionality Check" name="ATnt SignIn Functionality Check" time="10.825">
+        <system-out>
+            <![CDATA[Given I am in ATnt homePage.................................................passed
+Given I click on Account....................................................passed
+When I click on sign in from the dropdownList...............................passed
+Then I enter "yasmin" as userId field and "abc" as password field...........passed
+And I click on signIn Button................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="ATnt SingIn Functionality Check" name="ATnt SignIn Functionality Check 2" time="12.197">
+        <system-out>
+            <![CDATA[Given I am in ATnt homePage.................................................passed
+Given I click on Account....................................................passed
+When I click on sign in from the dropdownList...............................passed
+Then I enter "yasmin1" as userId field and "abcd" as password field.........passed
+And I click on signIn Button................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="ATnt SingIn Functionality Check" name="ATnt SignIn Functionality Check 3" time="11.625">
+        <system-out>
+            <![CDATA[Given I am in ATnt homePage.................................................passed
+Given I click on Account....................................................passed
+When I click on sign in from the dropdownList...............................passed
+Then I enter "yasmin2" as userId field and "abcd1" as password field........passed
+And I click on signIn Button................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="ATnt SingIn Functionality Check" name="ATnt SignIn Functionality Check 4" time="11.992">
+        <system-out>
+            <![CDATA[Given I am in ATnt homePage.................................................passed
+Given I click on Account....................................................passed
+When I click on sign in from the dropdownList...............................passed
+Then I enter "yasmin3" as userId field and "abcd2" as password field........passed
+And I click on signIn Button................................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

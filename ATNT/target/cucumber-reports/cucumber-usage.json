@@ -1,0 +1,339 @@
+[
+  {
+    "source": "I am in ATnt homePage",
+    "steps": [
+      {
+        "name": "I am in ATnt homePage",
+        "aggregatedDurations": {
+          "median": 5.63842855,
+          "average": 5.669812787
+        },
+        "durations": [
+          {
+            "duration": 6.2153614,
+            "location": "file:///C:/Users/yeasm/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:18"
+          },
+          {
+            "duration": 5.735304,
+            "location": "file:///C:/Users/yeasm/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:18"
+          },
+          {
+            "duration": 5.5830727,
+            "location": "file:///C:/Users/yeasm/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:18"
+          },
+          {
+            "duration": 5.3989776,
+            "location": "file:///C:/Users/yeasm/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:18"
+          },
+          {
+            "duration": 5.5599472,
+            "location": "file:///C:/Users/yeasm/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/SignIn.feature:5"
+          },
+          {
+            "duration": 5.6937844,
+            "location": "file:///C:/Users/yeasm/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/SignIn.feature:5"
+          },
+          {
+            "duration": 5.4451434,
+            "location": "file:///C:/Users/yeasm/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/SignIn.feature:5"
+          },
+          {
+            "duration": 5.7269116,
+            "location": "file:///C:/Users/yeasm/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/SignIn.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter {string} in searchBox",
+    "steps": [
+      {
+        "name": "I enter \"iphone 7\" in searchBox",
+        "aggregatedDurations": {
+          "median": 3.2530327,
+          "average": 3.2530327
+        },
+        "durations": [
+          {
+            "duration": 3.2530327,
+            "location": "file:///C:/Users/yeasm/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:19"
+          }
+        ]
+      },
+      {
+        "name": "I enter \"iphone 11\" in searchBox",
+        "aggregatedDurations": {
+          "median": 3.2169619,
+          "average": 3.2169619
+        },
+        "durations": [
+          {
+            "duration": 3.2169619,
+            "location": "file:///C:/Users/yeasm/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:19"
+          }
+        ]
+      },
+      {
+        "name": "I enter \"iphone 8s plus\" in searchBox",
+        "aggregatedDurations": {
+          "median": 3.270604,
+          "average": 3.270604
+        },
+        "durations": [
+          {
+            "duration": 3.270604,
+            "location": "file:///C:/Users/yeasm/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:19"
+          }
+        ]
+      },
+      {
+        "name": "I enter \"iphone 11 pro\" in searchBox",
+        "aggregatedDurations": {
+          "median": 3.2429148,
+          "average": 3.2429148
+        },
+        "durations": [
+          {
+            "duration": 3.2429148,
+            "location": "file:///C:/Users/yeasm/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:19"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on search button",
+    "steps": [
+      {
+        "name": "I click on search button",
+        "aggregatedDurations": {
+          "median": 5.3292479,
+          "average": 5.309749725
+        },
+        "durations": [
+          {
+            "duration": 6.255518,
+            "location": "file:///C:/Users/yeasm/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:20"
+          },
+          {
+            "duration": 4.3249851,
+            "location": "file:///C:/Users/yeasm/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:20"
+          },
+          {
+            "duration": 4.982101,
+            "location": "file:///C:/Users/yeasm/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:20"
+          },
+          {
+            "duration": 5.6763948,
+            "location": "file:///C:/Users/yeasm/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:20"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify {string} is appear",
+    "steps": [
+      {
+        "name": "I verify \"Results for iphone 7 - AT\u0026T Search\" is appear",
+        "aggregatedDurations": {
+          "median": 0.1017232,
+          "average": 0.1017232
+        },
+        "durations": [
+          {
+            "duration": 0.1017232,
+            "location": "file:///C:/Users/yeasm/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:21"
+          }
+        ]
+      },
+      {
+        "name": "I verify \"Results for iphone 11 - AT\u0026T Search\" is appear",
+        "aggregatedDurations": {
+          "median": 0.1346542,
+          "average": 0.1346542
+        },
+        "durations": [
+          {
+            "duration": 0.1346542,
+            "location": "file:///C:/Users/yeasm/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:21"
+          }
+        ]
+      },
+      {
+        "name": "I verify \"Results for iphone 8s plus - AT\u0026T Search\" is appear",
+        "aggregatedDurations": {
+          "median": 0.1026836,
+          "average": 0.1026836
+        },
+        "durations": [
+          {
+            "duration": 0.1026836,
+            "location": "file:///C:/Users/yeasm/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:21"
+          }
+        ]
+      },
+      {
+        "name": "I verify \"Results for iphone 11 pro - AT\u0026T Search\" is appear",
+        "aggregatedDurations": {
+          "median": 0.1545793,
+          "average": 0.1545793
+        },
+        "durations": [
+          {
+            "duration": 0.1545793,
+            "location": "file:///C:/Users/yeasm/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/HomePage.feature:21"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Account",
+    "steps": [
+      {
+        "name": "I click on Account",
+        "aggregatedDurations": {
+          "median": 0.1786052,
+          "average": 0.18156125
+        },
+        "durations": [
+          {
+            "duration": 0.1876649,
+            "location": "file:///C:/Users/yeasm/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/SignIn.feature:6"
+          },
+          {
+            "duration": 0.2194022,
+            "location": "file:///C:/Users/yeasm/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/SignIn.feature:6"
+          },
+          {
+            "duration": 0.1496324,
+            "location": "file:///C:/Users/yeasm/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/SignIn.feature:6"
+          },
+          {
+            "duration": 0.1695455,
+            "location": "file:///C:/Users/yeasm/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/SignIn.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on sign in from the dropdownList",
+    "steps": [
+      {
+        "name": "I click on sign in from the dropdownList",
+        "aggregatedDurations": {
+          "median": 2.3077684,
+          "average": 2.4095315
+        },
+        "durations": [
+          {
+            "duration": 3.7450061,
+            "location": "file:///C:/Users/yeasm/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/SignIn.feature:7"
+          },
+          {
+            "duration": 1.4299872,
+            "location": "file:///C:/Users/yeasm/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/SignIn.feature:7"
+          },
+          {
+            "duration": 1.2775831,
+            "location": "file:///C:/Users/yeasm/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/SignIn.feature:7"
+          },
+          {
+            "duration": 3.1855496,
+            "location": "file:///C:/Users/yeasm/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/SignIn.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter {string} as userId field and {string} as password field",
+    "steps": [
+      {
+        "name": "I enter \"yasmin\" as userId field and \"abc\" as password field",
+        "aggregatedDurations": {
+          "median": 0.3866314,
+          "average": 0.3866314
+        },
+        "durations": [
+          {
+            "duration": 0.3866314,
+            "location": "file:///C:/Users/yeasm/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/SignIn.feature:8"
+          }
+        ]
+      },
+      {
+        "name": "I enter \"yasmin1\" as userId field and \"abcd\" as password field",
+        "aggregatedDurations": {
+          "median": 2.7595911,
+          "average": 2.7595911
+        },
+        "durations": [
+          {
+            "duration": 2.7595911,
+            "location": "file:///C:/Users/yeasm/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/SignIn.feature:8"
+          }
+        ]
+      },
+      {
+        "name": "I enter \"yasmin2\" as userId field and \"abcd1\" as password field",
+        "aggregatedDurations": {
+          "median": 2.3742082,
+          "average": 2.3742082
+        },
+        "durations": [
+          {
+            "duration": 2.3742082,
+            "location": "file:///C:/Users/yeasm/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/SignIn.feature:8"
+          }
+        ]
+      },
+      {
+        "name": "I enter \"yasmin3\" as userId field and \"abcd2\" as password field",
+        "aggregatedDurations": {
+          "median": 0.4088895,
+          "average": 0.4088895
+        },
+        "durations": [
+          {
+            "duration": 0.4088895,
+            "location": "file:///C:/Users/yeasm/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/SignIn.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on signIn Button",
+    "steps": [
+      {
+        "name": "I click on signIn Button",
+        "aggregatedDurations": {
+          "median": 1.2864019,
+          "average": 1.02241365
+        },
+        "durations": [
+          {
+            "duration": 0.1341367,
+            "location": "file:///C:/Users/yeasm/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/SignIn.feature:9"
+          },
+          {
+            "duration": 1.3176347,
+            "location": "file:///C:/Users/yeasm/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/SignIn.feature:9"
+          },
+          {
+            "duration": 1.2551691,
+            "location": "file:///C:/Users/yeasm/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/SignIn.feature:9"
+          },
+          {
+            "duration": 1.3827141,
+            "location": "file:///C:/Users/yeasm/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/SignIn.feature:9"
+          }
+        ]
+      }
+    ]
+  }
+]

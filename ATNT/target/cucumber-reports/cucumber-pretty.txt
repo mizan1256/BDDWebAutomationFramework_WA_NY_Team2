@@ -1,0 +1,60 @@
+
+@Regression
+Scenario Outline: ATnt searchBox Functionality check with multiple SearchItem # src/test/java/features/HomePage.feature:24
+  Given I am in ATnt homePage                                                 # stepdefinition.HomePageStepDefinitions.i_am_in_a_tnt_home_page()
+  And I enter "iphone 7" in searchBox                                         # stepdefinition.HomePageStepDefinitions.i_enter_in_search_box(java.lang.String)
+  When I click on search button                                               # stepdefinition.HomePageStepDefinitions.i_click_on_search_button()
+  Then I verify "Results for iphone 7 - AT&T Search" is appear                # stepdefinition.HomePageStepDefinitions.i_verify_is_appear(java.lang.String)
+
+@Regression
+Scenario Outline: ATnt searchBox Functionality check with multiple SearchItem # src/test/java/features/HomePage.feature:25
+  Given I am in ATnt homePage                                                 # stepdefinition.HomePageStepDefinitions.i_am_in_a_tnt_home_page()
+  And I enter "iphone 11" in searchBox                                        # stepdefinition.HomePageStepDefinitions.i_enter_in_search_box(java.lang.String)
+  When I click on search button                                               # stepdefinition.HomePageStepDefinitions.i_click_on_search_button()
+  Then I verify "Results for iphone 11 - AT&T Search" is appear               # stepdefinition.HomePageStepDefinitions.i_verify_is_appear(java.lang.String)
+
+@Regression
+Scenario Outline: ATnt searchBox Functionality check with multiple SearchItem # src/test/java/features/HomePage.feature:26
+  Given I am in ATnt homePage                                                 # stepdefinition.HomePageStepDefinitions.i_am_in_a_tnt_home_page()
+  And I enter "iphone 8s plus" in searchBox                                   # stepdefinition.HomePageStepDefinitions.i_enter_in_search_box(java.lang.String)
+  When I click on search button                                               # stepdefinition.HomePageStepDefinitions.i_click_on_search_button()
+  Then I verify "Results for iphone 8s plus - AT&T Search" is appear          # stepdefinition.HomePageStepDefinitions.i_verify_is_appear(java.lang.String)
+
+@Regression
+Scenario Outline: ATnt searchBox Functionality check with multiple SearchItem # src/test/java/features/HomePage.feature:27
+  Given I am in ATnt homePage                                                 # stepdefinition.HomePageStepDefinitions.i_am_in_a_tnt_home_page()
+  And I enter "iphone 11 pro" in searchBox                                    # stepdefinition.HomePageStepDefinitions.i_enter_in_search_box(java.lang.String)
+  When I click on search button                                               # stepdefinition.HomePageStepDefinitions.i_click_on_search_button()
+  Then I verify "Results for iphone 11 pro - AT&T Search" is appear           # stepdefinition.HomePageStepDefinitions.i_verify_is_appear(java.lang.String)
+
+@Regression
+Scenario Outline: ATnt SignIn Functionality Check                   # src/test/java/features/SignIn.feature:13
+  Given I am in ATnt homePage                                       # stepdefinition.HomePageStepDefinitions.i_am_in_a_tnt_home_page()
+  Given I click on Account                                          # stepdefinition.SingInStepDefinitions.i_click_on_account()
+  When I click on sign in from the dropdownList                     # stepdefinition.SingInStepDefinitions.i_click_on_sign_in_from_the_dropdown_list()
+  Then I enter "yasmin" as userId field and "abc" as password field # stepdefinition.SingInStepDefinitions.i_enter_as_user_id_field_and_as_password_field(java.lang.String,java.lang.String)
+  And I click on signIn Button                                      # stepdefinition.SingInStepDefinitions.i_click_on_sign_in_button()
+
+@Regression
+Scenario Outline: ATnt SignIn Functionality Check                     # src/test/java/features/SignIn.feature:14
+  Given I am in ATnt homePage                                         # stepdefinition.HomePageStepDefinitions.i_am_in_a_tnt_home_page()
+  Given I click on Account                                            # stepdefinition.SingInStepDefinitions.i_click_on_account()
+  When I click on sign in from the dropdownList                       # stepdefinition.SingInStepDefinitions.i_click_on_sign_in_from_the_dropdown_list()
+  Then I enter "yasmin1" as userId field and "abcd" as password field # stepdefinition.SingInStepDefinitions.i_enter_as_user_id_field_and_as_password_field(java.lang.String,java.lang.String)
+  And I click on signIn Button                                        # stepdefinition.SingInStepDefinitions.i_click_on_sign_in_button()
+
+@Regression
+Scenario Outline: ATnt SignIn Functionality Check                      # src/test/java/features/SignIn.feature:15
+  Given I am in ATnt homePage                                          # stepdefinition.HomePageStepDefinitions.i_am_in_a_tnt_home_page()
+  Given I click on Account                                             # stepdefinition.SingInStepDefinitions.i_click_on_account()
+  When I click on sign in from the dropdownList                        # stepdefinition.SingInStepDefinitions.i_click_on_sign_in_from_the_dropdown_list()
+  Then I enter "yasmin2" as userId field and "abcd1" as password field # stepdefinition.SingInStepDefinitions.i_enter_as_user_id_field_and_as_password_field(java.lang.String,java.lang.String)
+  And I click on signIn Button                                         # stepdefinition.SingInStepDefinitions.i_click_on_sign_in_button()
+
+@Regression
+Scenario Outline: ATnt SignIn Functionality Check                      # src/test/java/features/SignIn.feature:16
+  Given I am in ATnt homePage                                          # stepdefinition.HomePageStepDefinitions.i_am_in_a_tnt_home_page()
+  Given I click on Account                                             # stepdefinition.SingInStepDefinitions.i_click_on_account()
+  When I click on sign in from the dropdownList                        # stepdefinition.SingInStepDefinitions.i_click_on_sign_in_from_the_dropdown_list()
+  Then I enter "yasmin3" as userId field and "abcd2" as password field # stepdefinition.SingInStepDefinitions.i_enter_as_user_id_field_and_as_password_field(java.lang.String,java.lang.String)
+  And I click on signIn Button                                         # stepdefinition.SingInStepDefinitions.i_click_on_sign_in_button()
