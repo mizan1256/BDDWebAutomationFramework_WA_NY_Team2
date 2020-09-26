@@ -24,25 +24,21 @@ public class AtntHome extends WebAPI {
     @FindBy(how = How.XPATH, using = homePageTVTabButton) public WebElement tvButton;
     @FindBy(how = How.XPATH, using = homePageTVShopNowBox) public WebElement shopNow;
     @FindBy(how = How.XPATH, using = homepageTVButtonText) public WebElement tvText;
-//    @FindBy(how = How.XPATH, using = homePageInternetText)
-//    public WebElement internetText;
-//    @FindBy(how = How.XPATH, using = homePageInternetText)
-//    public WebElement internetText;
-@FindBy(how = How.XPATH, using = "//*[@id=\"testData\"]/div/section/div[1]/div/h1[1]") WebElement samsung;
+
+    @FindBy(how = How.XPATH, using = "//*[@id=\"testData\"]/div/section/div[1]/div/h1[1]") WebElement samsung;
     @FindBy(how = How.XPATH, using = "//*[@id=\"testData\"]/div/section/div[1]/div/h1[1]") WebElement appleWatch;
     @FindBy(how = How.XPATH, using = "//*[@id=\"testData\"]/div/section/div[1]/div/h1[1]") WebElement appleIPad;
     @FindBy(how = How.XPATH, using = "//*[@id=\"testData\"]/div/section/div[1]/div/h1[1]") WebElement iPhonePro;
     @FindBy(how = How.XPATH, using = "//*[@id=\"testData\"]/div/section/div[1]/div/h1[1]") WebElement samsungTablet;
+
     // Table
     @FindBy(how = How.XPATH, using = homePagePrepaidValidateText) public WebElement validateText;
-
     @FindBy(how = How.XPATH, using = searchBoxWebElement) public WebElement searchBox1;
     @FindBy(how = How.XPATH, using = searchBtnWebElement) public WebElement searchBtn;
     @FindBy(how = How.XPATH, using = searchBoxTextWebElement) public WebElement searchText1;
-    /**
-     * Deals Button
-     */
 
+
+//      Deals Button
     public void dealsTabButton() {
         dealsTabButton.click();
     }
@@ -170,9 +166,7 @@ public class AtntHome extends WebAPI {
         Assert.assertEquals("Text do not match",expectedResult,actualResult);
     }
 
-    /**
-     * Atnt negative signIn test
-     */
+//      Atnt negative signIn test
     By user_id=By.xpath("//input[@id='userID']");
     By user_Password=By.xpath("//*[@id=\"password\"]");
     By checkBox=By.xpath("//div[@class='checkbox-skin ng-tns-c33-0']");
@@ -193,11 +187,8 @@ public class AtntHome extends WebAPI {
         Assert.assertEquals("Double check your ID and password, and try again. If you haven't set up your account, tap the 'Create one now' link.",
                 driver.findElement(error_Text).getText());
     }
-    /**
-     * Atnt BurgerButton menu test
-     *
-     */
 
+//      Atnt BurgerButton menu test
     By bur_btn_menu=By.xpath("//*[@id=\"z1-pullMenu-open\"]");
     By wireless_btn=By.xpath("//a[@class='slideout-toggle']//span[@class='auth-pull-left'][contains(text(),'Wireless')]");
     By explore_wireless_btn=By.xpath("//*[@id=\"ge5p-menu-label\"]");

@@ -33,9 +33,13 @@ public class StepDefinitions extends WebAPI {
         tdBankHome = PageFactory.initElements(driver, TDBankHome.class);
     }
 
-    /**
-     * TD bank Credit Card home page display check
-     */
+
+    @Given("I am on TD Bank home page")
+    public void i_am_on_td_bank_home_page() throws IOException {
+        openBrowser("https://www.td.com");
+    }
+
+//      TD bank Credit Card home page display check
     @Given("I click on CreditCard icon")
     public void i_click_on_credit_card_icon() throws InterruptedException {
         tdBankHome.clickOnCreditIcon();
@@ -44,9 +48,8 @@ public class StepDefinitions extends WebAPI {
     public void i_validate_credit_card_home_page_title() {
         tdBankHome.validateCredCardHome();
     }
-    /**
-     * TD bank Credit Card home page display check
-     */
+
+//      TD bank Credit Card home page display check
     @Given("I click on Td Cash Credit Card")
     public void i_click_on_td_cash_credit_card() {
         tdBankHome.clickOnTdCashCreditCard();
@@ -61,9 +64,9 @@ public class StepDefinitions extends WebAPI {
     public void i_validate_td_cash_credit_card_page_title() {
         tdBankHome.validateCashCreditCardTitle();
     }
-    /**
-     * TD First Class Credit Card page check
-     */
+
+//      TD First Class Credit Card page check
+
     @Given("I click on TD First Class Credit Card Button")
     public void i_click_on_td_first_class_credit_card_button() {
         tdBankHome.clickOnTdFirstClassCreditCard();
@@ -79,9 +82,8 @@ public class StepDefinitions extends WebAPI {
         tdBankHome.validateTdFirstClassCreditCardTitle();
     }
 
-    /**
-     * Help me choose button check
-     */
+
+//      Help me choose button check
     @When("I click on Help me Choose Button")
     public void i_click_on_help_me_choose_button() {
         tdBankHome.clickOnHelpMeBtn();
@@ -98,14 +100,6 @@ public class StepDefinitions extends WebAPI {
     }
 
 
-
-
-    @Given("I am on TD Bank home page")
-    public void i_am_on_td_bank_home_page() throws IOException {
-        openBrowser("https://www.td.com");
-
-    }
-
     @When("I mouseHover on LogIn")
     public void i_mouse_hover_on_log_in() {
         tdBankHome.logInIcon();
@@ -121,10 +115,8 @@ public class StepDefinitions extends WebAPI {
         tdBankHome.validateOnlineBankingTxt();
     }
 
-    /**
-     * TD Bank SignUp functionality test
-     */
 
+//      TD Bank SignUp functionality test
     @When("I click on signUp button")
     public void i_click_on_sign_up_button() {
         tdBankHome.clickOnSignInBtn();
@@ -163,9 +155,7 @@ public class StepDefinitions extends WebAPI {
         tdBankHome.validateSignUpPageText("The information you gave doesn't match our records. Please review and make any updates before proceeding.");
     }
 
-    /**
-     * Td bank Login functionality test with invalid credentials
-     */
+//      Td bank Login functionality test with invalid credentials
     @When("I click on logIn button in homePage")
     public void i_click_on_log_in_button_in_home_page() {
         tdBankHome.clickOnTdLogInBtn();
@@ -186,9 +176,7 @@ public class StepDefinitions extends WebAPI {
         tdBankHome.validateLogInText("Economic Impact Payments:  Be sure your bank info is correct and track your payment with the IRS.  Learn more");
     }
 
-    /**
-     * TD Bank product dropDown list check
-     */
+//      TD Bank product dropDown list check
     @When("I click on product")
     public void i_click_on_product() throws InterruptedException {
         tdBankHome.clickOnProductBtn();
@@ -203,10 +191,7 @@ public class StepDefinitions extends WebAPI {
         tdBankHome.clickOnContinueBtn();
     }
 
-
-    /**
-     * TD Bank location searchBox check
-     */
+//      TD Bank location searchBox check
     @Then("I validate checking account page")
     public void i_validate_checking_account_page() {
         tdBankHome.validateProductText("TD Bank Checking Accounts");
@@ -227,9 +212,7 @@ public class StepDefinitions extends WebAPI {
         tdBankHome.validateFindUsValidationText("10 locations near \"Jamaica, NY\"");
     }
 
-    /**
-     * Get Direction Button check
-     */
+//      Get Direction Button check
     @When("I take necessary steps and landed on locations page")
     public void i_take_necessary_steps_and_landed_on_locations_page() throws InterruptedException {
         tdBankHome.landingOnLocationsPage();

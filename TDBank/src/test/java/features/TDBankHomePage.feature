@@ -75,7 +75,7 @@ Feature: TD Bank Credit Card Home Page feature check
   @SmokeTest
   Scenario: TD Bank Find us Box functionality check
     When I click FindUs Icon
-    And I enter "11432" and click on searchIcon
+    And I enter "11208" and click on searchIcon
     Then I validate TD bank locations appeared
 
   @SmokeTest

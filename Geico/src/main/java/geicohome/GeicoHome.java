@@ -32,12 +32,12 @@ public class GeicoHome extends WebAPI {
         @FindBy(how = How.XPATH, using = errorTextPolicyNumberXPathWebElement) public WebElement errorTextPolicyNumber;
 
 
-    @FindBy(how = How.XPATH,using = webElementsGeicoCareerButton) public WebElement geicoCareerButton;
-    @FindBy(id = "cookie-notice-close") WebElement acceptBtn;
-    @FindBy(xpath = "//span[@class='font--bluejay geico-icon icon-live-chat']") WebElement customerServiceBtn;
-    @FindBy(xpath = "//h1[contains(text(),'Customer Service Careers')]") WebElement customerServiceText;
-    @FindBy(how = How.XPATH,using = webElementsGeicoContactUsButton) public WebElement geicoContactUsButton;
-    @FindBy(how = How.XPATH,using = webElementsGeicoPrivacyButton) public WebElement geicoPrivacyButton;
+        @FindBy(how = How.XPATH,using = webElementsGeicoCareerButton) public WebElement geicoCareerButton;
+        @FindBy(id = "cookie-notice-close") WebElement acceptBtn;
+        @FindBy(xpath = "//span[@class='font--bluejay geico-icon icon-live-chat']") WebElement customerServiceBtn;
+        @FindBy(xpath = "//h1[contains(text(),'Customer Service Careers')]") WebElement customerServiceText;
+        @FindBy(how = How.XPATH,using = webElementsGeicoContactUsButton) public WebElement geicoContactUsButton;
+        @FindBy(how = How.XPATH,using = webElementsGeicoPrivacyButton) public WebElement geicoPrivacyButton;
 
 
 
@@ -61,11 +61,8 @@ public class GeicoHome extends WebAPI {
             String actualText = siteSearchText.getText();
             String expectedText = "Site Search";
         }
-//login
-//    public void clickOnLogin() {
-//        login.click();
-//    }
 
+//     login
         public void choosePolicy() {
             policyDropDown();
             accessPolicyHomeOwner.click();

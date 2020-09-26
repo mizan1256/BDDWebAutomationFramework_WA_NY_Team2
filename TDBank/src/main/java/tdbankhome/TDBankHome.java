@@ -111,18 +111,13 @@ public class TDBankHome extends WebAPI {
     }
 
 
-
-
-
     public void logInIcon() {
         Actions action = new Actions(driver);
         action.moveToElement(tdLogInIcon).perform();
     }
 
-    /**
-     * TD Bank Online Banking page is display using navigate().to()  method
-     */
 
+//      TD Bank Online Banking page is display using navigate().to()  method
     public void onlineBanking() {
         onlineBankingBtn.click();
         driver.navigate().to("https://onlinebanking.tdbank.com/#/authentication/login");
@@ -133,18 +128,14 @@ public class TDBankHome extends WebAPI {
         String expectedResult = validateText.getText();
         Assert.assertEquals("Text do not match", actualResult, expectedResult);
     }
-    /**
-     * TD Bank SignUp functionality test
-     */
+
+//      TD Bank SignUp functionality test
     public void clickOnSignInBtn() {
 
         signUpBtn.click();
     }
 
     public void pleaseConfirmCheckBtn() throws InterruptedException {
-//        JavascriptExecutor js=(JavascriptExecutor)driver;
-//        js.executeScript("arguments[0].scrollIntoView();",plsConfirmCheckBtn);
-//        Thread.sleep(5000);
         plsConfirmCheckBtn.click();
     }
 
@@ -201,8 +192,6 @@ public class TDBankHome extends WebAPI {
 
     public void acceptThirdPopUp() {
         thirdPopUpAcceptBtn.click();
-//        Alert alert=driver.switchTo().alert();
-//        alert.accept();
     }
 
     public void enterUserName(String userName) {
@@ -231,9 +220,8 @@ public class TDBankHome extends WebAPI {
         Assert.assertEquals("Search Item not match", actualResult, expectedResult);
     }
 
-    /**
-     * Td bank Login functionality test with invalid credentials
-     */
+
+//      Td bank Login functionality test with invalid credentials
     public void clickOnTdLogInBtn() {
         tdHomePageLogInBtn.click();
     }
@@ -253,9 +241,7 @@ public class TDBankHome extends WebAPI {
         sleepFor(3);
     }
 
-    /**
-     * TD Bank product dropDown list check
-     */
+//      TD Bank product dropDown list check
     public void clickOnProductBtn() throws InterruptedException {
         Actions actions = new Actions(driver);
         actions.moveToElement(productDropDownIcon).perform();
@@ -272,9 +258,7 @@ public class TDBankHome extends WebAPI {
         Assert.assertEquals("Search Item not match", actualResult, expectedResult);
     }
 
-    /**
-     * TD Bank Find us Box functionality check
-     */
+//      TD Bank Find us Box functionality check
     public void clickOnFindUsIcon() {
         findUsIcon.click();
     }

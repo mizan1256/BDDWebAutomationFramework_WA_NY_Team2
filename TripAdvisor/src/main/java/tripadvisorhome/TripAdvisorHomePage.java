@@ -56,9 +56,8 @@ public class TripAdvisorHomePage extends WebAPI {
     @FindBy(xpath = "//div[@class='ui_button primary addPhotoBtn']") WebElement selectComputerPhoto;
 
 
-    /**
-     *  Where to search box check
-     */
+
+//       Where to search box check
     public void WhereToSearchBox() {
         searchBox.sendKeys("Texas");
     }
@@ -78,16 +77,12 @@ public class TripAdvisorHomePage extends WebAPI {
         Assert.assertEquals(expectedResult,actualResult);
     }
 
-    /**
-     *  Vacation Rentals
-     */
+//       Vacation Rentals
     public void vacationRentalsTabCheck() {
         vacationBtn.click();
     }
 
-    /**
-     *  Restaurant
-     */
+//       Restaurant
     public void restaurantTabCheck() {
         restaurantBtn.click();
     }
@@ -121,9 +116,7 @@ public class TripAdvisorHomePage extends WebAPI {
         Thread.sleep(3000);
     }
 
-    /**
-     * Travel Forum
-     */
+//      Travel Forum
     public void travelForumCheck() throws InterruptedException {
         travelForum.click();
         sleepFor(3);
@@ -170,9 +163,8 @@ public class TripAdvisorHomePage extends WebAPI {
         Assert.assertEquals(expectedResult,actualResult);
     }
 
-    /**
-     * One Way Trip
-     */
+
+//      One Way Trip
     public void travelForumAndFlightClick() throws InterruptedException {
         travelForum.click();
         sleepFor(2);
@@ -197,9 +189,8 @@ public class TripAdvisorHomePage extends WebAPI {
 
     }
 
-    /**
-     * Things To Do
-     */
+
+//      Things To Do
     public void thingsToDoCheck() {
         thingsTo.click();
     }
@@ -214,9 +205,7 @@ public class TripAdvisorHomePage extends WebAPI {
         Assert.assertEquals(expectedResult,actualResult);
     }
 
-    /**
-     * Trip Tab
-     */
+//      Trip Tab
     public void tripTabBtn() {
         tripBtn.click();
     }
@@ -229,9 +218,7 @@ public class TripAdvisorHomePage extends WebAPI {
         reCapcha.isDisplayed();
     }
 
-    /**
-     *  Post Tab Button
-     */
+//       Post Tab Button
     public void postTabButton() {
         postBtn.click();
     }

@@ -129,18 +129,14 @@ public class HomePageStepDefinition extends WebAPI {
     public void i_validate_aetna_dental_direct_plan_is_appeared_properly() {
         homePage.validateVisionPlansCheck("Aetna Dental Direct plan");
     }
-    /**
-     * Find an Eye Doctor
-     */
 
+//      Find an Eye Doctor
     @When("I click find an eye doctor")
     public void i_click_find_an_eye_doctor() {
         homePage.findAnEyeDoctorCheck();
     }
-    /**
-     * Supplemental Plans
-     */
 
+//      Supplemental Plans
     @When("I click supplemental plans")
     public void i_click_supplemental_plans() {
         homePage.supplementalPlansCheck();
@@ -150,10 +146,8 @@ public class HomePageStepDefinition extends WebAPI {
     public void i_validate_accident_plans_is_appeared_properly() {
         homePage.validateSupplementalPlansCheck("Accident plans");
     }
-    /**
-     * Pharmacy -  Get pharmacy plan
-     */
 
+//      Pharmacy -  Get pharmacy plan
     @When("I go pharmacy element")
     public void i_go_pharmacy_element() {
         homePage.pharmacyBtnCheck();
@@ -168,10 +162,8 @@ public class HomePageStepDefinition extends WebAPI {
     public void i_validate_aetna_medicare_is_appeared_properly() {
         homePage.validateGetPharmacyPlans("Aetna Medicare:");
     }
-    /**
-     * Find A Pharmacy
-     */
 
+//      Find A Pharmacy
     @And("I click find a pharmacy")
     public void i_click_find_a_pharmacy() {
         homePage.findAPharmacyCheck();
@@ -181,10 +173,8 @@ public class HomePageStepDefinition extends WebAPI {
     public void i_validate_required_selections_is_appeared_properly() {
         homePage.validateFindAPharmacyCheck("*Required Selections");
     }
-    /**
-     * Find Medicine and Costs
-     */
 
+//      Find Medicine and Costs
     @When("I click find medicine and costs")
     public void i_click_find_medicine_and_costs() {
         homePage.findAMedicineAndCostsCheck();

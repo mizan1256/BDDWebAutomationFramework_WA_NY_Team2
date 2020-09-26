@@ -5,7 +5,7 @@ import common.WebAPI;
 
 public class AtntWebElements extends WebAPI {
 
-    public static final String homePageBurgerButtonId = "//a[@id='z1-pullMenu-open']";
+
     public static final String homePageSearchBox = "//*[@id=\"z1-searchfield\"]";
     public static final String homePageSearchButton = "//*[@id=\"searchForm\"]/fieldset/button";
     public static final String homePageSearchText = "//*[@id=\"testData\"]/div/section/div[1]/div/h1[1]";
@@ -22,19 +22,12 @@ public class AtntWebElements extends WebAPI {
     public static final String homePagePrepaidMobilePlans = "//*[@id=\"HEADBAND01\"]/span/a/span";
     public static final String homePagePrepaidText = "//*[@id=\"DYNAMIC_COMPONENT3-container\"]/div[1]/div/sup";
     public static final String homePagePrepaidValidateText = "//*[@id=\"STORYOFFER3story\"]/div/div/div/h2";
-    public static final String validateSamsungPhones = "//*[@id=\"testData\"]/div/section/div[1]/div/h1[1]";
-    public static final String validateAppleWatches = "//*[@id=\"testData\"]/div/section/div[1]/div/h1[1]";
-    public static final String validateAppleIPads = "//*[@id=\"testData\"]/div/section/div[1]/div/h1[1]";
-    public static final String validateIPhone11ProMax = "//*[@id=\"testData\"]/div/section/div[1]/div/h1[1]";
-    public static final String validateSamsungTablets = "//*[@id=\"testData\"]/div/section/div[1]/div/h1[1]";
 
     public static final String accountIconWebElement="//*[@id=\"z1-profile-open\"]/i[2]";
     public static final String signInButtonWebElement="//*[@id=\"profile-unauth\"]/div[2]/div/ul/li[1]/a/span";
     public static final String createButtonWebElement="//*[@id=\"createNow\"]";
     public static final String wirelessRadioButtonWebElement="#wirless";
     public static final String continueButtonWebElement="//button[@class='btn btn-primary-functional btn-medium span3 ng-binding']";
-    public static final String phoneNumberFieldWebElement="//div[@class='form-row padTop10']//div[@class='field-group']";
-    public static final String zipCodeWebElement="//input[@id='zipcode']";
 
     public static final String searchBoxWebElement="//input[@id='z1-searchfield']";
     public static final String searchBtnWebElement="//button[@class='gn-search-btn search-active-mobile search-active']";

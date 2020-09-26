@@ -34,10 +34,7 @@ public class StepDefinitions extends WebAPI {
         }
         cleanUp();
     }
-    //        @After
-    //        public void closeBrowser () {
-    //            cleanUp();
-    //        }
+
 
     @BeforeStep
     public static void getInIt() {
@@ -158,10 +155,7 @@ public class StepDefinitions extends WebAPI {
         atntHome.validateSignUpText("Sorry we could not validate your information.");
     }
 
-    /**
-     * ATnT signIn functionality check with invalid credentials
-     */
-
+//      ATnT signIn functionality check with invalid credentials
     @And("I on signIn page")
     public void i_on_sign_in_page() {
         atntHome.accountIconButton();
@@ -182,20 +176,14 @@ public class StepDefinitions extends WebAPI {
         atntHome.validateSignInPage();
     }
 
-    /**
-     * Att data driven negative signIn test case
-     * @param userName
-     * @param PassWord
-     */
+//      Att data driven negative signIn test case
     @Given("I enter email as {string} and password as {string}")
     public void i_enter_email_as_and_password_as(String userName, String PassWord) {
         atntHome.enterUserId(userName);
         atntHome.enterUserPassword(PassWord);
     }
 
-    /**
-     * Att BurgerButton menu test
-     */
+//      Att BurgerButton menu test
     @When("I click on burgerButton")
     public void i_click_on_burger_button() throws InterruptedException {
         atntHome.clickBurgBtnMenu();
@@ -230,9 +218,7 @@ public class StepDefinitions extends WebAPI {
         atntHome.validateSearchBoxPageTitle();
     }
 
-    /**
-     * Att searchBox functionality test get value from feature file
-     */
+//      Att searchBox functionality test get value from feature file
     @Given("I enter {string} in searchBox")
     public void i_enter_in_search_box(String product) {
         atntHome.setSearchBoxCheckWithParameter(product);
@@ -247,9 +233,7 @@ public class StepDefinitions extends WebAPI {
         atntHome.validateSearchBoxPageTitle();
     }
 
-    /**
-     * Att searchBox functionality check with multiple products
-     */
+//      Att searchBox functionality check with multiple products
     @When("I validate \"Showing results for \"Apple iPhone {int}\".\" is appear properly")
     public void i_validate_showing_results_for_apple_i_phone_is_appear_properly(String validateProduct) {
         atntHome.validateSearchBoxTxt(validateProduct);

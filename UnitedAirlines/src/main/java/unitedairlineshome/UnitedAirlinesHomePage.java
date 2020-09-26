@@ -267,7 +267,7 @@ public class UnitedAirlinesHomePage extends WebAPI {
     }
 
     public void flightNumberAndDateField() {
-        flightNumber.sendKeys("2797");
+        flightNumber.sendKeys("0987");
         dropDownBtn.click();
         selectedDate.click();
     }
@@ -288,11 +288,11 @@ public class UnitedAirlinesHomePage extends WebAPI {
     }
 
     public void ticketNumberField() {
-        ticketNumber.sendKeys("01624136331031");
+        ticketNumber.sendKeys("87651234098715");
     }
 
     public void lastNameField() {
-        lastName.sendKeys("Mujahid");
+        lastName.sendKeys("Arman");
     }
 
     public void searchButtonClick() {
@@ -311,11 +311,11 @@ public class UnitedAirlinesHomePage extends WebAPI {
     }
 
     public void confirmationNumberField() {
-        myTripConfirmation.sendKeys("B2JUWE");
+        myTripConfirmation.sendKeys("Ar21KL");
     }
 
     public void myTripLastNameField() {
-        myTripLastName.sendKeys("Mujahid");
+        myTripLastName.sendKeys("Arman");
     }
 
     public void myTripSearchButtonClick() {
@@ -358,11 +358,11 @@ public class UnitedAirlinesHomePage extends WebAPI {
 
 
     public void enterLastName(){
-        travelerLastName.sendKeys("Reza");
+        travelerLastName.sendKeys("Antor");
     }
 
     public void enterCardNumber(){
-        cardNumber.sendKeys("1234");
+        cardNumber.sendKeys("3214");
     }
 
     public void searchButtonCheck(){

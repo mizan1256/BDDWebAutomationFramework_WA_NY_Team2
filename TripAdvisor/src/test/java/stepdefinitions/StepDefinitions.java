@@ -132,8 +132,8 @@ public class StepDefinitions extends WebAPI {
     public void i_verify_covid_policies_is_appeared_properly(Integer int1) {
         tripAdvisorHomePage.validateTravelForum();
     }
-    //  One Way Trip
 
+    //  One Way Trip
     @And("I click on TravelForum and click on Flight")
     public void i_click_on_travel_forum_and_click_on_flight() throws InterruptedException {
         tripAdvisorHomePage.travelForumAndFlightClick();
@@ -214,6 +214,39 @@ public class StepDefinitions extends WebAPI {
     @When("I click on select photo from your computer.")
     public void i_click_on_select_photo_from_your_computer() throws InterruptedException {
         tripAdvisorHomePage.selectPhotoFromComputer();
+    }
+
+
+
+
+    @Given("I am on TripAdvisor HomePage")
+    public void i_am_on_trip_advisor_home_page() {
+
+    }
+
+    @When("I click on Restaurant Button")
+    public void i_click_on_restaurant_button() {
+
+    }
+
+    @When("I wrote Grass Valley on the search box")
+    public void i_wrote_grass_valley_on_the_search_box() {
+
+    }
+
+    @Then("I click on Grass Valley")
+    public void i_click_on_grass_valley() {
+
+    }
+
+    @Then("I verify Valley is appeared properly")
+    public void i_verify_valley_is_appeared_properly() {
+
+    }
+
+    @Then("I verify page title")
+    public void i_verify_page_title() {
+
     }
 
 }

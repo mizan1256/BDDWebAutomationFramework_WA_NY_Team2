@@ -54,9 +54,9 @@ Feature: Atnt HomePage Functionality Check.
 
     Examples:
       | userName            | Password |
-      | admin@pnt.com       | admin    |
-      | oalKarim@gmail.com  | 15021972 |
-      | mikedavid@gmail.com | 01012010 |
+      | nowwhat@gmail.com   | nowwaht  |
+      | kabir@gmail.com     | kibir123 |
+      | arman@gmail.com     | arman123 |
 
   @SmokeTest
   Scenario: Att menu burgerButton test
