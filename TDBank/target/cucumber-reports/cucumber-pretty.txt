@@ -65,7 +65,7 @@ Scenario: TD Bank product dropDown list check # src/test/java/features/TDBankHom
 Scenario: TD Bank Find us Box functionality check # src/test/java/features/TDBankHomePage.feature:41
   Given I am on TD Bank home page                 # stepdefinitions.TDStepDefinition.i_am_on_td_bank_home_page()
   When I click FindUs Icon                        # stepdefinitions.TDStepDefinition.i_click_find_us_icon()
-  And I enter "11432" and click on searchIcon     # stepdefinitions.TDStepDefinition.i_enter_and_click_on_search_icon(java.lang.String)
+  And I enter "11436" and click on searchIcon     # stepdefinitions.TDStepDefinition.i_enter_and_click_on_search_icon(java.lang.String)
   Then I validate TD bank locations appeared      # stepdefinitions.TDStepDefinition.i_validate_td_bank_locations_appeared()
 
 @SmokeTest

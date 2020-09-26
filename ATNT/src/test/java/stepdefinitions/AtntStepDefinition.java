@@ -25,10 +25,7 @@ public class AtntStepDefinition extends WebAPI {
         }
         cleanUp();
     }
-    //        @After
-    //        public void closeBrowser () {
-    //            cleanUp();
-    //        }
+
 
     @BeforeStep
     public static void getInIt() {

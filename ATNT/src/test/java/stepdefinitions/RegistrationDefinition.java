@@ -31,10 +31,6 @@ public class RegistrationDefinition extends WebAPI {
         cleanUp();
     }
 
-    //    @After
-//    public void closeBrowser(){
-//        cleanUp();
-//    }
     @BeforeStep
     public static void getInit(){
         atntHome= PageFactory.initElements(driver,AtntHome.class);

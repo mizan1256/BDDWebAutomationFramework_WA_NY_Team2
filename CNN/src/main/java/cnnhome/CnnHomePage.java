@@ -217,7 +217,7 @@ public class CnnHomePage extends WebAPI {
     }
     public void validateLiveTvButtonCheck() throws InterruptedException {
         Thread.sleep(3000);
-        String expectedResult="Covid-19";
+        String expectedResult="David Attenborough";
         String actualResult=homeText.getText();
         Assert.assertEquals(expectedResult,actualResult);
     }

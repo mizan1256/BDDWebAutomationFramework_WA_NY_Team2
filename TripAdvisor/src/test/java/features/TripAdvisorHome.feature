@@ -1,6 +1,6 @@
   Feature: TripAdvisor HomePage Functionality check
   Background:
-    Given I am in TripAdvisor homepage
+    Given I am in Trip Advisor home page
     When I click searchButton
   @SmokeTest
   Scenario: TripAdvisor SearchBox Functionality check with valid data

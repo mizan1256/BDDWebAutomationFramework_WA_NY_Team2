@@ -11,13 +11,13 @@
         "steps": [
           {
             "result": {
-              "duration": 7349831100,
+              "duration": 7018168500,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 38896000,
+                  "duration": 25930700,
                   "status": "passed"
                 },
                 "match": {
@@ -26,7 +26,7 @@
               },
               {
                 "result": {
-                  "duration": 7974500,
+                  "duration": 5983300,
                   "status": "passed"
                 },
                 "match": {
@@ -43,13 +43,13 @@
           },
           {
             "result": {
-              "duration": 4155648100,
+              "duration": 3869814300,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 6983300,
+                  "duration": 2004600,
                   "status": "passed"
                 },
                 "match": {
@@ -58,7 +58,7 @@
               },
               {
                 "result": {
-                  "duration": 4981300,
+                  "duration": 4984800,
                   "status": "passed"
                 },
                 "match": {
@@ -76,7 +76,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-09-24T22:51:31.202Z",
+        "start_timestamp": "2020-09-25T22:23:33.681Z",
         "line": 10,
         "name": "TD bank Credit Card home page display check",
         "description": "",
@@ -84,7 +84,7 @@
         "after": [
           {
             "result": {
-              "duration": 816875300,
+              "duration": 709525300,
               "status": "passed"
             },
             "match": {
@@ -105,12 +105,13 @@
         "steps": [
           {
             "result": {
-              "duration": 26928100,
+              "duration": 19911500,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
+                  "duration": 978400,
                   "status": "passed"
                 },
                 "match": {
@@ -119,7 +120,7 @@
               },
               {
                 "result": {
-                  "duration": 4990000,
+                  "duration": 1032000,
                   "status": "passed"
                 },
                 "match": {
@@ -150,7 +151,7 @@
         "steps": [
           {
             "result": {
-              "duration": 7085058600,
+              "duration": 7599981700,
               "status": "passed"
             },
             "before": [
@@ -164,7 +165,6 @@
               },
               {
                 "result": {
-                  "duration": 2002100,
                   "status": "passed"
                 },
                 "match": {
@@ -181,13 +181,13 @@
           },
           {
             "result": {
-              "duration": 5167432700,
+              "duration": 3905390200,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 997100,
+                  "duration": 997300,
                   "status": "passed"
                 },
                 "match": {
@@ -196,7 +196,7 @@
               },
               {
                 "result": {
-                  "duration": 1995600,
+                  "duration": 1001800,
                   "status": "passed"
                 },
                 "match": {
@@ -214,7 +214,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-09-24T22:51:43.763Z",
+        "start_timestamp": "2020-09-25T22:23:45.486Z",
         "line": 14,
         "name": "Td Cash Credit Card home page check",
         "description": "",
@@ -222,7 +222,7 @@
         "after": [
           {
             "result": {
-              "duration": 678531500,
+              "duration": 761344000,
               "status": "passed"
             },
             "match": {
@@ -231,6 +231,7 @@
           },
           {
             "result": {
+              "duration": 959000,
               "status": "passed"
             },
             "match": {
@@ -243,13 +244,13 @@
         "steps": [
           {
             "result": {
-              "duration": 831684800,
+              "duration": 1054313100,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 603700,
+                  "duration": 997200,
                   "status": "passed"
                 },
                 "match": {
@@ -258,7 +259,7 @@
               },
               {
                 "result": {
-                  "duration": 1024000,
+                  "duration": 997600,
                   "status": "passed"
                 },
                 "match": {
@@ -275,13 +276,12 @@
           },
           {
             "result": {
-              "duration": 299003300,
+              "duration": 73804200,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 1982600,
                   "status": "passed"
                 },
                 "match": {
@@ -290,7 +290,7 @@
               },
               {
                 "result": {
-                  "duration": 1001000,
+                  "duration": 997800,
                   "status": "passed"
                 },
                 "match": {
@@ -307,12 +307,13 @@
           },
           {
             "result": {
-              "duration": 7978700,
+              "duration": 5982000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
+                  "duration": 996300,
                   "status": "passed"
                 },
                 "match": {
@@ -321,7 +322,7 @@
               },
               {
                 "result": {
-                  "duration": 996000,
+                  "duration": 1995800,
                   "status": "passed"
                 },
                 "match": {
@@ -352,12 +353,13 @@
         "steps": [
           {
             "result": {
-              "duration": 6711842700,
+              "duration": 7623204700,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
+                  "duration": 2002500,
                   "status": "passed"
                 },
                 "match": {
@@ -366,7 +368,7 @@
               },
               {
                 "result": {
-                  "duration": 1001600,
+                  "duration": 993900,
                   "status": "passed"
                 },
                 "match": {
@@ -383,13 +385,12 @@
           },
           {
             "result": {
-              "duration": 4416135500,
+              "duration": 4007556900,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 998700,
                   "status": "passed"
                 },
                 "match": {
@@ -398,7 +399,7 @@
               },
               {
                 "result": {
-                  "duration": 1990500,
+                  "duration": 990500,
                   "status": "passed"
                 },
                 "match": {
@@ -416,7 +417,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-09-24T22:51:57.865Z",
+        "start_timestamp": "2020-09-25T22:23:58.919Z",
         "line": 20,
         "name": "TD First Class Credit Card page check",
         "description": "",
@@ -424,7 +425,7 @@
         "after": [
           {
             "result": {
-              "duration": 740343400,
+              "duration": 895818100,
               "status": "passed"
             },
             "match": {
@@ -445,12 +446,13 @@
         "steps": [
           {
             "result": {
-              "duration": 1194027400,
+              "duration": 1217424000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
+                  "duration": 561500,
                   "status": "passed"
                 },
                 "match": {
@@ -459,6 +461,7 @@
               },
               {
                 "result": {
+                  "duration": 994300,
                   "status": "passed"
                 },
                 "match": {
@@ -475,13 +478,12 @@
           },
           {
             "result": {
-              "duration": 86767600,
+              "duration": 232465300,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 998900,
                   "status": "passed"
                 },
                 "match": {
@@ -490,7 +492,7 @@
               },
               {
                 "result": {
-                  "duration": 990100,
+                  "duration": 1003200,
                   "status": "passed"
                 },
                 "match": {
@@ -507,13 +509,12 @@
           },
           {
             "result": {
-              "duration": 5983100,
+              "duration": 11004400,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 997900,
                   "status": "passed"
                 },
                 "match": {
@@ -522,6 +523,7 @@
               },
               {
                 "result": {
+                  "duration": 995100,
                   "status": "passed"
                 },
                 "match": {
@@ -552,7 +554,7 @@
         "steps": [
           {
             "result": {
-              "duration": 6720654800,
+              "duration": 7265574900,
               "status": "passed"
             },
             "before": [
@@ -566,7 +568,7 @@
               },
               {
                 "result": {
-                  "duration": 997300,
+                  "duration": 2999800,
                   "status": "passed"
                 },
                 "match": {
@@ -583,13 +585,12 @@
           },
           {
             "result": {
-              "duration": 4174467100,
+              "duration": 3930159800,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 999100,
                   "status": "passed"
                 },
                 "match": {
@@ -615,7 +616,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-09-24T22:52:11.051Z",
+        "start_timestamp": "2020-09-25T22:24:12.950Z",
         "line": 27,
         "name": "Help me choose button check",
         "description": "",
@@ -623,7 +624,7 @@
         "after": [
           {
             "result": {
-              "duration": 1121766000,
+              "duration": 699621100,
               "status": "passed"
             },
             "match": {
@@ -644,13 +645,13 @@
         "steps": [
           {
             "result": {
-              "duration": 1174347100,
+              "duration": 1023070200,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 2981000,
+                  "duration": 1995700,
                   "status": "passed"
                 },
                 "match": {
@@ -659,7 +660,7 @@
               },
               {
                 "result": {
-                  "duration": 993200,
+                  "duration": 997500,
                   "status": "passed"
                 },
                 "match": {
@@ -676,7 +677,7 @@
           },
           {
             "result": {
-              "duration": 1027739400,
+              "duration": 698848500,
               "status": "passed"
             },
             "before": [
@@ -690,7 +691,7 @@
               },
               {
                 "result": {
-                  "duration": 996000,
+                  "duration": 997100,
                   "status": "passed"
                 },
                 "match": {
@@ -707,13 +708,12 @@
           },
           {
             "result": {
-              "duration": 131646000,
+              "duration": 105715800,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 1001200,
                   "status": "passed"
                 },
                 "match": {
@@ -722,7 +722,6 @@
               },
               {
                 "result": {
-                  "duration": 2984700,
                   "status": "passed"
                 },
                 "match": {
@@ -764,7 +763,7 @@
         "steps": [
           {
             "result": {
-              "duration": 6775590300,
+              "duration": 6971047900,
               "status": "passed"
             },
             "before": [
@@ -795,7 +794,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-09-24T22:52:25.428Z",
+        "start_timestamp": "2020-09-25T22:24:26.706Z",
         "line": 6,
         "name": "TD Bank Online Banking check",
         "description": "",
@@ -803,7 +802,7 @@
         "after": [
           {
             "result": {
-              "duration": 735109200,
+              "duration": 739639100,
               "status": "passed"
             },
             "match": {
@@ -812,6 +811,7 @@
           },
           {
             "result": {
+              "duration": 593700,
               "status": "passed"
             },
             "match": {
@@ -824,13 +824,12 @@
         "steps": [
           {
             "result": {
-              "duration": 256308600,
+              "duration": 259878300,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 997200,
                   "status": "passed"
                 },
                 "match": {
@@ -855,7 +854,7 @@
           },
           {
             "result": {
-              "duration": 14333731200,
+              "duration": 18281681200,
               "status": "passed"
             },
             "before": [
@@ -869,7 +868,7 @@
               },
               {
                 "result": {
-                  "duration": 998500,
+                  "duration": 997300,
                   "status": "passed"
                 },
                 "match": {
@@ -886,7 +885,7 @@
           },
           {
             "result": {
-              "duration": 160573800,
+              "duration": 125180800,
               "status": "passed"
             },
             "before": [
@@ -900,7 +899,7 @@
               },
               {
                 "result": {
-                  "duration": 995300,
+                  "duration": 999400,
                   "status": "passed"
                 },
                 "match": {
@@ -931,7 +930,7 @@
         "steps": [
           {
             "result": {
-              "duration": 6797826100,
+              "duration": 6943876100,
               "status": "passed"
             },
             "before": [
@@ -945,7 +944,7 @@
               },
               {
                 "result": {
-                  "duration": 996400,
+                  "duration": 1034600,
                   "status": "passed"
                 },
                 "match": {
@@ -963,7 +962,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-09-24T22:52:47.717Z",
+        "start_timestamp": "2020-09-25T22:24:53.108Z",
         "line": 12,
         "name": "TD Bank signUp",
         "description": "",
@@ -971,7 +970,7 @@
         "after": [
           {
             "result": {
-              "duration": 739363500,
+              "duration": 697231100,
               "status": "passed"
             },
             "match": {
@@ -992,13 +991,13 @@
         "steps": [
           {
             "result": {
-              "duration": 5785229300,
+              "duration": 728782000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 996400,
+                  "duration": 982600,
                   "status": "passed"
                 },
                 "match": {
@@ -1007,7 +1006,7 @@
               },
               {
                 "result": {
-                  "duration": 997400,
+                  "duration": 993700,
                   "status": "passed"
                 },
                 "match": {
@@ -1024,13 +1023,12 @@
           },
           {
             "result": {
-              "duration": 6856767200,
+              "duration": 12977839800,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 995800,
                   "status": "passed"
                 },
                 "match": {
@@ -1039,7 +1037,7 @@
               },
               {
                 "result": {
-                  "duration": 1010700,
+                  "duration": 997000,
                   "status": "passed"
                 },
                 "match": {
@@ -1056,12 +1054,13 @@
           },
           {
             "result": {
-              "duration": 493677600,
+              "duration": 677584700,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
+                  "duration": 995100,
                   "status": "passed"
                 },
                 "match": {
@@ -1070,7 +1069,6 @@
               },
               {
                 "result": {
-                  "duration": 997300,
                   "status": "passed"
                 },
                 "match": {
@@ -1087,13 +1085,12 @@
           },
           {
             "result": {
-              "duration": 3545220200,
+              "duration": 4318495100,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 1013900,
                   "status": "passed"
                 },
                 "match": {
@@ -1102,7 +1099,6 @@
               },
               {
                 "result": {
-                  "duration": 984600,
                   "status": "passed"
                 },
                 "match": {
@@ -1149,7 +1145,7 @@
           },
           {
             "result": {
-              "duration": 222046300,
+              "duration": 199979600,
               "status": "passed"
             },
             "before": [
@@ -1163,7 +1159,6 @@
               },
               {
                 "result": {
-                  "duration": 1000400,
                   "status": "passed"
                 },
                 "match": {
@@ -1180,12 +1175,13 @@
           },
           {
             "result": {
-              "duration": 43880900,
+              "duration": 59835600,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
+                  "duration": 994600,
                   "status": "passed"
                 },
                 "match": {
@@ -1194,6 +1190,7 @@
               },
               {
                 "result": {
+                  "duration": 2988100,
                   "status": "passed"
                 },
                 "match": {
@@ -1224,12 +1221,13 @@
         "steps": [
           {
             "result": {
-              "duration": 6685096800,
+              "duration": 7130511300,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
+                  "duration": 997200,
                   "status": "passed"
                 },
                 "match": {
@@ -1238,7 +1236,6 @@
               },
               {
                 "result": {
-                  "duration": 981700,
                   "status": "passed"
                 },
                 "match": {
@@ -1256,7 +1253,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-09-24T22:53:12.242Z",
+        "start_timestamp": "2020-09-25T22:25:19.742Z",
         "line": 30,
         "name": "TD Bank login functionality check with invalid credentials",
         "description": "",
@@ -1264,7 +1261,7 @@
         "after": [
           {
             "result": {
-              "duration": 787792600,
+              "duration": 808487200,
               "status": "passed"
             },
             "match": {
@@ -1273,6 +1270,7 @@
           },
           {
             "result": {
+              "duration": 821600,
               "status": "passed"
             },
             "match": {
@@ -1285,13 +1283,12 @@
         "steps": [
           {
             "result": {
-              "duration": 5370243100,
+              "duration": 4484132700,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 996100,
                   "status": "passed"
                 },
                 "match": {
@@ -1300,6 +1297,7 @@
               },
               {
                 "result": {
+                  "duration": 992100,
                   "status": "passed"
                 },
                 "match": {
@@ -1316,12 +1314,13 @@
           },
           {
             "result": {
-              "duration": 2333672400,
+              "duration": 2428879200,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
+                  "duration": 998000,
                   "status": "passed"
                 },
                 "match": {
@@ -1330,7 +1329,7 @@
               },
               {
                 "result": {
-                  "duration": 995500,
+                  "duration": 996400,
                   "status": "passed"
                 },
                 "match": {
@@ -1357,7 +1356,7 @@
           },
           {
             "result": {
-              "duration": 749963000,
+              "duration": 949034500,
               "status": "passed"
             },
             "before": [
@@ -1371,7 +1370,7 @@
               },
               {
                 "result": {
-                  "duration": 1032200,
+                  "duration": 999400,
                   "status": "passed"
                 },
                 "match": {
@@ -1388,12 +1387,13 @@
           },
           {
             "result": {
-              "duration": 3106175400,
+              "duration": 3519176400,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
+                  "duration": 1030600,
                   "status": "passed"
                 },
                 "match": {
@@ -1402,6 +1402,7 @@
               },
               {
                 "result": {
+                  "duration": 999700,
                   "status": "passed"
                 },
                 "match": {
@@ -1432,7 +1433,7 @@
         "steps": [
           {
             "result": {
-              "duration": 6645177200,
+              "duration": 7801743500,
               "status": "passed"
             },
             "before": [
@@ -1446,6 +1447,7 @@
               },
               {
                 "result": {
+                  "duration": 996900,
                   "status": "passed"
                 },
                 "match": {
@@ -1463,7 +1465,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-09-24T22:53:31.291Z",
+        "start_timestamp": "2020-09-25T22:25:39.090Z",
         "line": 34,
         "name": "TD Bank product dropDown list check",
         "description": "",
@@ -1471,7 +1473,7 @@
         "after": [
           {
             "result": {
-              "duration": 720116800,
+              "duration": 717484300,
               "status": "passed"
             },
             "match": {
@@ -1492,13 +1494,13 @@
         "steps": [
           {
             "result": {
-              "duration": 293215900,
+              "duration": 199385400,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 986700,
+                  "duration": 1007800,
                   "status": "passed"
                 },
                 "match": {
@@ -1507,7 +1509,6 @@
               },
               {
                 "result": {
-                  "duration": 998400,
                   "status": "passed"
                 },
                 "match": {
@@ -1524,7 +1525,7 @@
           },
           {
             "result": {
-              "duration": 7226969700,
+              "duration": 6940408800,
               "status": "passed"
             },
             "before": [
@@ -1538,6 +1539,7 @@
               },
               {
                 "result": {
+                  "duration": 993200,
                   "status": "passed"
                 },
                 "match": {
@@ -1554,7 +1556,7 @@
           },
           {
             "result": {
-              "duration": 39857200,
+              "duration": 102719800,
               "status": "passed"
             },
             "before": [
@@ -1598,7 +1600,7 @@
         "steps": [
           {
             "result": {
-              "duration": 6844560000,
+              "duration": 7034128700,
               "status": "passed"
             },
             "before": [
@@ -1612,7 +1614,7 @@
               },
               {
                 "result": {
-                  "duration": 995900,
+                  "duration": 1000300,
                   "status": "passed"
                 },
                 "match": {
@@ -1630,7 +1632,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-09-24T22:53:46.245Z",
+        "start_timestamp": "2020-09-25T22:25:54.874Z",
         "line": 41,
         "name": "TD Bank Find us Box functionality check",
         "description": "",
@@ -1638,7 +1640,7 @@
         "after": [
           {
             "result": {
-              "duration": 700121000,
+              "duration": 691610200,
               "status": "passed"
             },
             "match": {
@@ -1659,12 +1661,13 @@
         "steps": [
           {
             "result": {
-              "duration": 1353476500,
+              "duration": 2962548000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
+                  "duration": 990800,
                   "status": "passed"
                 },
                 "match": {
@@ -1673,7 +1676,7 @@
               },
               {
                 "result": {
-                  "duration": 995700,
+                  "duration": 2007900,
                   "status": "passed"
                 },
                 "match": {
@@ -1690,13 +1693,13 @@
           },
           {
             "result": {
-              "duration": 6141065000,
+              "duration": 6281587800,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 996700,
+                  "duration": 998000,
                   "status": "passed"
                 },
                 "match": {
@@ -1713,11 +1716,11 @@
               }
             ],
             "line": 43,
-            "name": "I enter \"11432\" and click on searchIcon",
+            "name": "I enter \"11436\" and click on searchIcon",
             "match": {
               "arguments": [
                 {
-                  "val": "\"11432\"",
+                  "val": "\"11436\"",
                   "offset": 8
                 }
               ],
@@ -1727,7 +1730,7 @@
           },
           {
             "result": {
-              "duration": 3551287800,
+              "duration": 822093600,
               "status": "passed"
             },
             "before": [
@@ -1741,7 +1744,7 @@
               },
               {
                 "result": {
-                  "duration": 995200,
+                  "duration": 997500,
                   "status": "passed"
                 },
                 "match": {
@@ -1772,7 +1775,7 @@
         "steps": [
           {
             "result": {
-              "duration": 6427615300,
+              "duration": 7141475100,
               "status": "passed"
             },
             "before": [
@@ -1803,7 +1806,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-09-24T22:54:04.868Z",
+        "start_timestamp": "2020-09-25T22:26:12.697Z",
         "line": 47,
         "name": "Get Direction Button check",
         "description": "",
@@ -1811,7 +1814,7 @@
         "after": [
           {
             "result": {
-              "duration": 726280400,
+              "duration": 879881100,
               "status": "passed"
             },
             "match": {
@@ -1820,6 +1823,7 @@
           },
           {
             "result": {
+              "duration": 1003300,
               "status": "passed"
             },
             "match": {
@@ -1832,13 +1836,13 @@
         "steps": [
           {
             "result": {
-              "duration": 11649358600,
+              "duration": 7891510000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 998700,
+                  "duration": 998200,
                   "status": "passed"
                 },
                 "match": {
@@ -1847,7 +1851,7 @@
               },
               {
                 "result": {
-                  "duration": 996700,
+                  "duration": 1003000,
                   "status": "passed"
                 },
                 "match": {
@@ -1864,12 +1868,13 @@
           },
           {
             "result": {
-              "duration": 5421989600,
+              "duration": 3919520700,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
+                  "duration": 636000,
                   "status": "passed"
                 },
                 "match": {
@@ -1894,7 +1899,7 @@
           },
           {
             "result": {
-              "duration": 12968400,
+              "duration": 17952500,
               "status": "passed"
             },
             "before": [
@@ -1908,6 +1913,7 @@
               },
               {
                 "result": {
+                  "duration": 996400,
                   "status": "passed"
                 },
                 "match": {

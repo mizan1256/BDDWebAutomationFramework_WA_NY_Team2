@@ -1,102 +1,234 @@
 
 @SmokeTest
 Scenario: Trip Advisor Search box functionality test # src/test/java/features/TripAdvisor.feature:7
-  Given I am in Trip Advisor home page               # null
-  When I type Texas i search box                     # null
-  And I click search button                          # null
-  And I click Hotels Button                          # null
-  Then I varify "Texas" is appeared properly         # null
+  Given I am in Trip Advisor home page               # stepdefinitions.TaHomeStepDefinition.i_am_in_trip_advisor_home_page()
+  When I type Texas i search box                     # stepdefinitions.TaHomeStepDefinition.i_type_texas_i_search_box()
+  And I click search button                          # stepdefinitions.TaHomeStepDefinition.i_click_search_button()
+  And I click Hotels Button                          # stepdefinitions.TaHomeStepDefinition.i_click_hotels_button()
+  Then I varify "Texas" is appeared properly         # stepdefinitions.TaHomeStepDefinition.i_varify_is_appeared_properly(java.lang.String)
 
 @SmokeTest
 Scenario: Trip Advisor Search box functionality test # src/test/java/features/TripAdvisor.feature:14
-  Given I am in Trip Advisor home page               # null
-  When I type Texas i search box                     # null
-  And I click search button                          # null
-  And I click Hotels Button                          # null
-  And I click vacation rentals tab                   # null
-  Then I varify "Texas" is appeared properly         # null
+  Given I am in Trip Advisor home page               # stepdefinitions.TaHomeStepDefinition.i_am_in_trip_advisor_home_page()
+  When I type Texas i search box                     # stepdefinitions.TaHomeStepDefinition.i_type_texas_i_search_box()
+  And I click search button                          # stepdefinitions.TaHomeStepDefinition.i_click_search_button()
+  And I click Hotels Button                          # stepdefinitions.TaHomeStepDefinition.i_click_hotels_button()
+      org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-ESGVGIM', ip: '192.168.81.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\REBAKH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63560}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 07a4abec0db86c5cc27473d8824b47be
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy25.click(Unknown Source)
+	at tripadvisor.TripAdvisor.hotelButtonClick(TripAdvisor.java:108)
+	at stepdefinitions.TaHomeStepDefinition.i_click_hotels_button(TaHomeStepDefinition.java:60)
+	at ✽.I click Hotels Button(file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TripAdvisor/src/test/java/features/TripAdvisor.feature:17)
+
+  And I click vacation rentals tab                   # stepdefinitions.TaHomeStepDefinition.i_click_vacation_rentals_tab()
+  Then I varify "Texas" is appeared properly         # stepdefinitions.TaHomeStepDefinition.i_varify_is_appeared_properly(java.lang.String)
+
+    Embedding Demo1 [image/png 244907 bytes]
+
+      org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-ESGVGIM', ip: '192.168.81.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at stepdefinitions.TaHomeStepDefinition.tearDown(TaHomeStepDefinition.java:24)
+
 
 @SmokeTest
 Scenario: Trip Advisor Search box functionality test # src/test/java/features/TripAdvisor.feature:22
-  Given I am in Trip Advisor home page               # null
-  When I type Texas i search box                     # null
-  And I click search button                          # null
-  And I click Hotels Button                          # null
-  And I click Restaurants tab                        # null
-  And I click Texas Roadhouse                        # null
-  And I navigate new windows                         # null
-  And I click food picture                           # null
-  And I click Gallery button                         # null
-  Then I varify food image is appeared properly      # null
+  Given I am in Trip Advisor home page               # stepdefinitions.TaHomeStepDefinition.i_am_in_trip_advisor_home_page()
+  When I type Texas i search box                     # stepdefinitions.TaHomeStepDefinition.i_type_texas_i_search_box()
+  And I click search button                          # stepdefinitions.TaHomeStepDefinition.i_click_search_button()
+  And I click Hotels Button                          # stepdefinitions.TaHomeStepDefinition.i_click_hotels_button()
+  And I click Restaurants tab                        # stepdefinitions.TaHomeStepDefinition.i_click_restaurants_tab()
+  And I click Texas Roadhouse                        # stepdefinitions.TaHomeStepDefinition.i_click_texas_roadhouse()
+  And I navigate new windows                         # stepdefinitions.TaHomeStepDefinition.i_navigate_new_windows()
+  And I click food picture                           # stepdefinitions.TaHomeStepDefinition.i_click_food_picture()
+  And I click Gallery button                         # stepdefinitions.TaHomeStepDefinition.i_click_gallery_button()
+  Then I varify food image is appeared properly      # stepdefinitions.TaHomeStepDefinition.i_varify_food_image_is_appeared_properly()
 
 @SmokeTest
 Scenario: Trip Advisor Search box functionality test   # src/test/java/features/TripAdvisor.feature:34
-  Given I am in Trip Advisor home page                 # null
-  When I click TravelForum                             # null
-  And I click Flights                                  # null
-  And I enter Where from and To field                  # null
-  And I enter departure and arrival date               # null
-  And I enter person field and close person field      # null
-  And I click find flight button                       # null
-  Then I varify COVID-19 Policies is appeared properly # null
+  Given I am in Trip Advisor home page                 # stepdefinitions.TaHomeStepDefinition.i_am_in_trip_advisor_home_page()
+  When I click TravelForum                             # stepdefinitions.TaHomeStepDefinition.i_click_travel_forum()
+  And I click Flights                                  # stepdefinitions.TaHomeStepDefinition.i_click_flights()
+  And I enter Where from and To field                  # stepdefinitions.TaHomeStepDefinition.i_enter_where_from_and_to_field()
+  And I enter departure and arrival date               # stepdefinitions.TaHomeStepDefinition.i_enter_departure_and_arrival_date()
+  And I enter person field and close person field      # stepdefinitions.TaHomeStepDefinition.i_enter_person_field_and_close_person_field()
+  And I click find flight button                       # stepdefinitions.TaHomeStepDefinition.i_click_find_flight_button()
+  Then I varify COVID-19 Policies is appeared properly # stepdefinitions.TaHomeStepDefinition.i_varify_covid_policies_is_appeared_properly(java.lang.Integer)
+      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="leftRailFilter"]/div/div/div/div/div[4]"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-ESGVGIM', ip: '192.168.81.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\REBAKH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63709}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 593ab8852678f3ecf71107f76779369b
+*** Element info: {Using=xpath, value=//*[@id="leftRailFilter"]/div/div/div/div/div[4]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy25.getText(Unknown Source)
+	at tripadvisor.TripAdvisor.validateTravelForum(TripAdvisor.java:203)
+	at stepdefinitions.TaHomeStepDefinition.i_varify_covid_policies_is_appeared_properly(TaHomeStepDefinition.java:138)
+	at ✽.I varify COVID-19 Policies is appeared properly(file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TripAdvisor/src/test/java/features/TripAdvisor.feature:41)
+
+
+    Embedding Demo1 [image/png 1144499 bytes]
+
+      org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-ESGVGIM', ip: '192.168.81.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at stepdefinitions.TaHomeStepDefinition.tearDown(TaHomeStepDefinition.java:24)
+
 
 @SmokeTest
 Scenario: Trip Advisor Search box functionality test   # src/test/java/features/TripAdvisor.feature:44
-  Given I am in Trip Advisor home page                 # null
-  When I click TravelForum and click Flight            # null
-  And I click One way tab                              # null
-  And I enter Where from and To field                  # null
-  And I enter departure date                           # null
-  And I enter person field and close person field      # null
-  And I click find flight button                       # null
-  Then I varify COVID-19 Policies is appeared properly # null
+  Given I am in Trip Advisor home page                 # stepdefinitions.TaHomeStepDefinition.i_am_in_trip_advisor_home_page()
+  When I click TravelForum and click Flight            # stepdefinitions.TaHomeStepDefinition.i_click_travel_forum_and_click_flight()
+  And I click One way tab                              # stepdefinitions.TaHomeStepDefinition.i_click_one_way_tab()
+      org.openqa.selenium.InvalidSelectorException: invalid selector: The result of the xpath expression "//*[@id="taplc_trip_search_home_flights_0"]/div[2]/div/div[1]/ul/li[2]/div/a/text()" is: [object Text]. It should be an element.
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-ESGVGIM', ip: '192.168.81.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\REBAKH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63879}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: bb85f269f864c4728114e391b7532995
+*** Element info: {Using=xpath, value=//*[@id="taplc_trip_search_home_flights_0"]/div[2]/div/div[1]/ul/li[2]/div/a/text()}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy25.click(Unknown Source)
+	at tripadvisor.TripAdvisor.oneWayTab(TripAdvisor.java:218)
+	at stepdefinitions.TaHomeStepDefinition.i_click_one_way_tab(TaHomeStepDefinition.java:149)
+	at ✽.I click One way tab(file:///C:/Users/REBA%20KHAN/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TripAdvisor/src/test/java/features/TripAdvisor.feature:46)
+
+  And I enter Where from and To field                  # stepdefinitions.TaHomeStepDefinition.i_enter_where_from_and_to_field()
+  And I enter departure date                           # stepdefinitions.TaHomeStepDefinition.i_enter_departure_date()
+  And I enter person field and close person field      # stepdefinitions.TaHomeStepDefinition.i_enter_person_field_and_close_person_field()
+  And I click find flight button                       # stepdefinitions.TaHomeStepDefinition.i_click_find_flight_button()
+  Then I varify COVID-19 Policies is appeared properly # stepdefinitions.TaHomeStepDefinition.i_varify_covid_policies_is_appeared_properly(java.lang.Integer)
+
+    Embedding Demo1 [image/png 1013850 bytes]
+
+      org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-ESGVGIM', ip: '192.168.81.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at stepdefinitions.TaHomeStepDefinition.tearDown(TaHomeStepDefinition.java:24)
+
 
 @SmokeTest
 Scenario: Trip Advisor Search box functionality test # src/test/java/features/TripAdvisor.feature:53
-  Given I am in Trip Advisor home page               # null
-  When I click Things to Do                          # null
-  And I type in searchBox and submit                 # null
-  Then I varify Dhaka City is appeared properly      # null
+  Given I am in Trip Advisor home page               # stepdefinitions.TaHomeStepDefinition.i_am_in_trip_advisor_home_page()
+  When I click Things to Do                          # stepdefinitions.TaHomeStepDefinition.i_click_things_to_do()
+  And I type in searchBox and submit                 # stepdefinitions.TaHomeStepDefinition.i_type_in_search_box_and_submit()
+  Then I varify Dhaka City is appeared properly      # stepdefinitions.TaHomeStepDefinition.i_varify_dhaka_city_is_appeared_properly()
 
 @SmokeTest
 Scenario: Trip Advisor Search box functionality test # src/test/java/features/TripAdvisor.feature:59
-  Given I am in Trip Advisor home page               # null
-  When I click Things to Do                          # null
-  And I type in searchBox and submit                 # null
-  Then I varify Dhaka City is appeared properly      # null
+  Given I am in Trip Advisor home page               # stepdefinitions.TaHomeStepDefinition.i_am_in_trip_advisor_home_page()
+  When I click Things to Do                          # stepdefinitions.TaHomeStepDefinition.i_click_things_to_do()
+  And I type in searchBox and submit                 # stepdefinitions.TaHomeStepDefinition.i_type_in_search_box_and_submit()
+  Then I varify Dhaka City is appeared properly      # stepdefinitions.TaHomeStepDefinition.i_varify_dhaka_city_is_appeared_properly()
 
 @SmokeTest
 Scenario: Trip Advisor Search box functionality test # src/test/java/features/TripAdvisor.feature:72
-  Given I am in Trip Advisor home page               # null
-  When I click trip button                           # null
-  And I click get start                              # null
-  Then I varify reCAPCHA is appeared properly        # null
+  Given I am in Trip Advisor home page               # stepdefinitions.TaHomeStepDefinition.i_am_in_trip_advisor_home_page()
+  When I click trip button                           # stepdefinitions.TaHomeStepDefinition.i_click_trip_button()
+  And I click get start                              # stepdefinitions.TaHomeStepDefinition.i_click_get_start()
+  Then I varify reCAPCHA is appeared properly        # stepdefinitions.TaHomeStepDefinition.i_varify_re_capcha_is_appeared_properly()
 
 @SmokeTest
 Scenario: Trip Advisor Search box functionality test          # src/test/java/features/TripAdvisor.feature:78
-  Given I am in Trip Advisor home page                        # null
-  When I click Post                                           # null
-  And I click Post Photo                                      # null
-  And I click hohel radio button                              # null
-  And I type hotel name and city name and click search button # null
-  And select and click radio button                           # null
-  And I click Post Photos Button and click add photo btn      # null
-  And I click select photo from your computer.                # null
+  Given I am in Trip Advisor home page                        # stepdefinitions.TaHomeStepDefinition.i_am_in_trip_advisor_home_page()
+  When I click Post                                           # stepdefinitions.TaHomeStepDefinition.i_click_post()
+  And I click Post Photo                                      # stepdefinitions.TaHomeStepDefinition.i_click_post_photo()
+  And I click hohel radio button                              # stepdefinitions.TaHomeStepDefinition.i_click_hohel_radio_button()
+  And I type hotel name and city name and click search button # stepdefinitions.TaHomeStepDefinition.i_type_hotel_name_and_city_name_and_click_search_button()
+  And select and click radio button                           # stepdefinitions.TaHomeStepDefinition.select_and_click_radio_button()
+  And I click Post Photos Button and click add photo btn      # stepdefinitions.TaHomeStepDefinition.i_click_post_photos_button_and_click_add_photo_btn()
+  And I click select photo from your computer.                # stepdefinitions.TaHomeStepDefinition.i_click_select_photo_from_your_computer()
 
 @SmokeTest
 Scenario: TripAdvisor SearchBox Functionality check with valid data    # src/test/java/features/TripAdvisorHome.feature:6
-  Given I am in TripAdvisor homepage                                   # null
-  When I click searchButton                                            # null
-  And I enter Cox's Bazar in searchBox                                 # null
-  When I click searchButton                                            # null
-  Then I verify Cox's Bazar is appear properly                         # null
-  And I verify page title as Search results: Cox's Bazar - Tripadvisor # null
+  Given I am in Trip Advisor home page                                 # stepdefinitions.TaHomeStepDefinition.i_am_in_trip_advisor_home_page()
+  When I click searchButton                                            # stepdefinitions.TripAdvisorStepDefinition.i_click_search_button()
+  And I enter Cox's Bazar in searchBox                                 # stepdefinitions.TripAdvisorStepDefinition.i_enter_cox_s_bazar_in_search_box()
+  When I click searchButton                                            # stepdefinitions.TripAdvisorStepDefinition.i_click_search_button()
+  Then I verify Cox's Bazar is appear properly                         # stepdefinitions.TripAdvisorStepDefinition.i_verify_cox_s_bazar_is_appear_properly()
+  And I verify page title as Search results: Cox's Bazar - Tripadvisor # stepdefinitions.TripAdvisorStepDefinition.i_verify_page_title_as_search_results_cox_s_bazar_tripadvisor()
 
 @SmokeTest
 Scenario: TripAdvisor Hotel SearchBox Functionality check with valid data # src/test/java/features/TripAdvisorHome.feature:13
-  Given I am in TripAdvisor homepage                                      # null
-  When I click searchButton                                               # null
-  And I click Hotels Button in homepage                                   # null
-  When I enter on Paris in searchBox                                      # null
-  And I verify Paris hotels is appear properly                            # null
-  When I verify page title                                                # null
+  Given I am in Trip Advisor home page                                    # stepdefinitions.TaHomeStepDefinition.i_am_in_trip_advisor_home_page()
+  When I click searchButton                                               # stepdefinitions.TripAdvisorStepDefinition.i_click_search_button()
+  And I click Hotels Button in homepage                                   # stepdefinitions.TripAdvisorStepDefinition.i_click_hotels_button_in_homepage()
+  When I enter on Paris in searchBox                                      # stepdefinitions.TripAdvisorStepDefinition.i_enter_on_paris_in_search_box()
+  And I verify Paris hotels is appear properly                            # stepdefinitions.TripAdvisorStepDefinition.i_verify_paris_hotels_is_appear_properly()
+  When I verify page title                                                # stepdefinitions.TripAdvisorStepDefinition.i_verify_page_title()
