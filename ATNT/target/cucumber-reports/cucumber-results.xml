@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="7" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="23" time="1,472.762">
+    <testcase classname="Feature: Att HomePage Functionality check" name="Att SearchBox Functionality check with valid data" time="13.557">
+        <system-out>
+            <![CDATA[Given I am in at&t homepage.................................................passed
+And I enter Samsung Phones in searchBox.....................................passed
+When I click searchButton...................................................passed
+Then I verify Samsung Phones is appear properly.............................passed
+And I verify page title as Samsung Phones...................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Feature: Att HomePage Functionality check" name="Att deals button Functionality check with valid data" time="10.42">
+        <system-out>
+            <![CDATA[Given I am in at&t homepage.................................................passed
+When I click Deals Button...................................................passed
+Then I verify Wireless is appear properly...................................passed
+And I verify page title as AT&T Deals on Phones, Wireless Plans, Internet & TV Services.passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Feature: Att HomePage Functionality check" name="Att Wireless button Functionality check with valid data" time="10.863">
+        <system-out>
+            <![CDATA[Given I am in at&t homepage.................................................passed
+When I click Wireless Button................................................passed
+Then I verify LEARN HOW TO is appear properly...............................passed
+And I verify page title as AT&T Wireless – Latest Phones & Best Wireless Plans.passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Feature: Att HomePage Functionality check" name="Att Internet button Functionality check with valid data" time="10.302">
+        <system-out>
+            <![CDATA[Given I am in at&t homepage.................................................passed
+When I click internet Button................................................passed
+Then I verify AT&T INTERNET is appear properly..............................passed
+And I verify page title as AT&T Internet Plans - Home Internet - AT&T® Official Site.passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Feature: Att HomePage Functionality check" name="Att TV button Functionality check with valid data" time="17.655">
+        <system-out>
+            <![CDATA[Given I am in at&t homepage.................................................passed
+When I click TV Button......................................................passed
+And I click on shop now button..............................................passed
+Then I verify Choose a TV package is appear properly........................passed
+And I verify page title as Shop AT&T Bundles................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Feature: Att HomePage Functionality check" name="Atnt SearchBox Functionality check with multiple products" time="13.99">
+        <system-out>
+            <![CDATA[Given I am in at&t homepage.................................................passed
+And I enter "AT&T PREPAID" in searchBox.....................................passed
+When I click searchButton...................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Feature: Att HomePage Functionality check" name="Atnt SearchBox Functionality check with multiple products 2" time="12.675">
+        <system-out>
+            <![CDATA[Given I am in at&t homepage.................................................passed
+And I enter "AT&T Deals" in searchBox.......................................passed
+When I click searchButton...................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Feature: Att HomePage Functionality check" name="Atnt SearchBox Functionality check with multiple products 3" time="12.37">
+        <system-out>
+            <![CDATA[Given I am in at&t homepage.................................................passed
+And I enter "TV & internet bundles" in searchBox............................passed
+When I click searchButton...................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Feature: Att HomePage Functionality check" name="Atnt SearchBox Functionality check with multiple products 4" time="12.576">
+        <system-out>
+            <![CDATA[Given I am in at&t homepage.................................................passed
+And I enter "Upgrade a device" in searchBox.................................passed
+When I click searchButton...................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Feature: Att HomePage Functionality check" name="Atnt SearchBox Functionality check with multiple products 5" time="10.411">
+        <system-out>
+            <![CDATA[Given I am in at&t homepage.................................................passed
+And I enter "Samsung Phones" in searchBox...................................passed
+When I click searchButton...................................................passed
+Then I verify "\"Samsung Phones\"" and "Results for Samsung Phones - AT&T Search".passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Feature: Att HomePage Functionality check" name="Atnt SearchBox Functionality check with multiple products 6" time="12.456">
+        <system-out>
+            <![CDATA[Given I am in at&t homepage.................................................passed
+And I enter "Apple Watches" in searchBox....................................passed
+When I click searchButton...................................................passed
+Then I verify "\"Apple Watches\"" and "Results for Apple Watches - AT&T Search".passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Feature: Att HomePage Functionality check" name="Atnt SearchBox Functionality check with multiple products 7" time="13.253">
+        <system-out>
+            <![CDATA[Given I am in at&t homepage.................................................passed
+And I enter "Apple ipads" in searchBox......................................passed
+When I click searchButton...................................................passed
+Then I verify "\"Apple ipads\"" and "Results for Apple ipads - AT&T Search".passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Feature: Att HomePage Functionality check" name="Atnt SearchBox Functionality check with multiple products 8" time="20.471">
+        <system-out>
+            <![CDATA[Given I am in at&t homepage.................................................passed
+And I enter "iphone 11 Pro Max" in searchBox................................passed
+When I click searchButton...................................................passed
+Then I verify "\"iphone 11 Pro Max\"" and "Results for iphone 11 Pro Max - AT&T Search".passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Feature: Att HomePage Functionality check" name="Atnt SearchBox Functionality check with multiple products 9" time="12.723">
+        <system-out>
+            <![CDATA[Given I am in at&t homepage.................................................passed
+And I enter "Samsung Tablets" in searchBox..................................passed
+When I click searchButton...................................................passed
+Then I verify "\"Samsung Tablets\"" and "Results for Samsung Tablets - AT&T Search".passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Atnt HomePage Account functionality check" name="Atnt HomePage signUp functionality check with invalid data" time="13.879">
+        <system-out>
+            <![CDATA[Given I am in at&t homepage.................................................passed
+And I click the Account dropdown button.....................................passed
+And I click signIn..........................................................passed
+And I enter admin1234 in user Id box........................................passed
+And I enter admin1234 in password box.......................................passed
+Then I verified "Sign In" ia appeared properly..............................passed
+And I verify page title as Login Screen.....................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Atnt HomePage Account functionality check" name="Atnt HomePage signUp functionality check with invalid data 2" time="52.414">
+        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;recaptcha-anchor&quot;]/div[4]&quot;}&#10;  (Session info: chrome=85.0.4183.121)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LAPTOP-6QSDTELI', ip: '192.168.1.185', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\lenis\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54836}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 07b9e2a1b2d94a5f405f72f8f560427f&#10;*** Element info: {Using=xpath, value=//*[@id=&quot;recaptcha-anchor&quot;]/div[4]}" type="org.openqa.selenium.NoSuchElementException">
+            <![CDATA[Given I am in at&t homepage.................................................passed
+And I click the Account dropdown button.....................................passed
+And I click Pay without signing in..........................................passed
+And I enter "7180000000" Active AT&T phone number box.......................passed
+And I enter "10000" Billing ZIP Code........................................passed
+And I click capcha box......................................................failed
+When I click signIn button..................................................skipped
+Then I verified "Sign In" ia appeared properly..............................skipped
+And I verify page title as Login Screen.....................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="recaptcha-anchor"]/div[4]"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-6QSDTELI', ip: '192.168.1.185', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\lenis\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54836}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 07b9e2a1b2d94a5f405f72f8f560427f
+*** Element info: {Using=xpath, value=//*[@id="recaptcha-anchor"]/div[4]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy25.click(Unknown Source)
+	at registration.RegistrationPage.capChaClick(RegistrationPage.java:89)
+	at stepdefinitions.RegistrationStepDefinition.i_click_capcha_box(RegistrationStepDefinition.java:91)
+	at ✽.I click capcha box(file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/RegistrationPage.feature:22)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Atnt HomePage Account functionality check" name="Atnt HomePage signUp functionality check with invalid data 3" time="8.741">
+        <failure message="The scenario has pending or undefined step(s)" type="io.cucumber.java.PendingException">
+            <![CDATA[Given I am in at&t homepage.................................................passed
+And I click the Account dropdown button.....................................passed
+And I click Account overview................................................passed
+And I click Create one now..................................................passed
+And I click Wireless radio button...........................................pending
+And I click continue box....................................................skipped
+And I type phone number in AT&T phone number box............................skipped
+And I type 5 digit zip code in Billing zip code Box.........................skipped
+When I click continue button................................................skipped
+Then I verified "Welcome" ia appeared properly..............................skipped
+And I verify page title as Create or link an ID.............................skipped
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Atnt HomePage Account functionality check" name="Atnt Sign Up Functionality check with invalid credentials" time="342.532">
+        <system-out>
+            <![CDATA[Given I am in at&t homepage.................................................passed
+And I click accountIcon.....................................................passed
+And I click singInButton....................................................passed
+When I click on CreateButton................................................passed
+And I click wireless radioButton and continueButton.........................passed
+Then I enter phoneNumber and zipCode........................................passed
+When I click continueButton.................................................passed
+And I should be get en error message........................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Atnt HomePage Account functionality check" name="Check signIn with invalid credentials" time="214.478">
+        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@id='errorDescArea']&quot;}&#10;  (Session info: chrome=85.0.4183.121)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LAPTOP-6QSDTELI', ip: '192.168.1.185', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\lenis\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55428}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 3cf23f11f0860b080d2c03ba4dc36294&#10;*** Element info: {Using=xpath, value=//div[@id='errorDescArea']}" type="org.openqa.selenium.NoSuchElementException">
+            <![CDATA[Given I am in at&t homepage.................................................passed
+And I on signIn page........................................................passed
+When I enter userName and passWord..........................................passed
+And I click on signIn button................................................passed
+Then I am getting error message.............................................failed
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='errorDescArea']"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-6QSDTELI', ip: '192.168.1.185', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\lenis\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55428}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 3cf23f11f0860b080d2c03ba4dc36294
+*** Element info: {Using=xpath, value=//div[@id='errorDescArea']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at registration.RegistrationPage.validateSignInPage(RegistrationPage.java:139)
+	at stepdefinitions.RegistrationStepDefinition.i_am_getting_error_message(RegistrationStepDefinition.java:200)
+	at ✽.I am getting error message(file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/RegistrationPage.feature:55)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Atnt HomePage Account functionality check" name="Login into att using Data Driven" time="215.044">
+        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@id='errorDescArea']&quot;}&#10;  (Session info: chrome=85.0.4183.121)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LAPTOP-6QSDTELI', ip: '192.168.1.185', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\lenis\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55746}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: c4e0b74d5c5d8c8756e77efd13c3b9a5&#10;*** Element info: {Using=xpath, value=//div[@id='errorDescArea']}" type="org.openqa.selenium.NoSuchElementException">
+            <![CDATA[Given I am in at&t homepage.................................................passed
+And I on signIn page........................................................passed
+And I enter email as "admin@yourstore.com" and password as "admin"..........passed
+And I click on signIn button................................................passed
+Then I am getting error message.............................................failed
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='errorDescArea']"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-6QSDTELI', ip: '192.168.1.185', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\lenis\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55746}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: c4e0b74d5c5d8c8756e77efd13c3b9a5
+*** Element info: {Using=xpath, value=//div[@id='errorDescArea']}
+	at jdk.internal.reflect.GeneratedConstructorAccessor21.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at registration.RegistrationPage.validateSignInPage(RegistrationPage.java:139)
+	at stepdefinitions.RegistrationStepDefinition.i_am_getting_error_message(RegistrationStepDefinition.java:200)
+	at ✽.I am getting error message(file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/RegistrationPage.feature:62)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Atnt HomePage Account functionality check" name="Login into att using Data Driven 2" time="215.484">
+        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@id='errorDescArea']&quot;}&#10;  (Session info: chrome=85.0.4183.121)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LAPTOP-6QSDTELI', ip: '192.168.1.185', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\lenis\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56083}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 4ddd11f09721dddcf31804195d3b8664&#10;*** Element info: {Using=xpath, value=//div[@id='errorDescArea']}" type="org.openqa.selenium.NoSuchElementException">
+            <![CDATA[Given I am in at&t homepage.................................................passed
+And I on signIn page........................................................passed
+And I enter email as "oalfaruque@gmail.com" and password as "15021972"......passed
+And I click on signIn button................................................passed
+Then I am getting error message.............................................failed
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='errorDescArea']"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-6QSDTELI', ip: '192.168.1.185', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\lenis\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56083}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 4ddd11f09721dddcf31804195d3b8664
+*** Element info: {Using=xpath, value=//div[@id='errorDescArea']}
+	at jdk.internal.reflect.GeneratedConstructorAccessor21.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at registration.RegistrationPage.validateSignInPage(RegistrationPage.java:139)
+	at stepdefinitions.RegistrationStepDefinition.i_am_getting_error_message(RegistrationStepDefinition.java:200)
+	at ✽.I am getting error message(file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/RegistrationPage.feature:62)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Atnt HomePage Account functionality check" name="Login into att using Data Driven 3" time="215.386">
+        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@id='errorDescArea']&quot;}&#10;  (Session info: chrome=85.0.4183.121)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LAPTOP-6QSDTELI', ip: '192.168.1.185', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\lenis\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56424}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 2da1161d76ded4df3eb68cca67071c06&#10;*** Element info: {Using=xpath, value=//div[@id='errorDescArea']}" type="org.openqa.selenium.NoSuchElementException">
+            <![CDATA[Given I am in at&t homepage.................................................passed
+And I on signIn page........................................................passed
+And I enter email as "mikemiller@gmail.com" and password as "01012010"......passed
+And I click on signIn button................................................passed
+Then I am getting error message.............................................failed
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='errorDescArea']"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-6QSDTELI', ip: '192.168.1.185', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\lenis\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56424}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 2da1161d76ded4df3eb68cca67071c06
+*** Element info: {Using=xpath, value=//div[@id='errorDescArea']}
+	at jdk.internal.reflect.GeneratedConstructorAccessor21.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at registration.RegistrationPage.validateSignInPage(RegistrationPage.java:139)
+	at stepdefinitions.RegistrationStepDefinition.i_am_getting_error_message(RegistrationStepDefinition.java:200)
+	at ✽.I am getting error message(file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/RegistrationPage.feature:62)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Atnt HomePage Account functionality check" name="Att menu burgerButton test" time="10.453">
+        <failure message="element not interactable: element has zero size&#10;  (Session info: chrome=85.0.4183.121)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LAPTOP-6QSDTELI', ip: '192.168.1.185', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\lenis\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56835}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: f0da888e6c021fa1d0f66402cafa393d" type="org.openqa.selenium.ElementNotInteractableException">
+            <![CDATA[Given I am in at&t homepage.................................................passed
+When I click on burgerButton................................................passed
+And I select wireless and click on Explore Wireless.........................failed
+And I verify page title.....................................................skipped
+
+StackTrace:
+org.openqa.selenium.ElementNotInteractableException: element not interactable: element has zero size
+  (Session info: chrome=85.0.4183.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-6QSDTELI', ip: '192.168.1.185', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\lenis\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56835}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: f0da888e6c021fa1d0f66402cafa393d
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at registration.RegistrationPage.selectWirelessAndExploreBtn(RegistrationPage.java:155)
+	at stepdefinitions.RegistrationStepDefinition.i_select_wireless_and_click_on_explore_wireless(RegistrationStepDefinition.java:224)
+	at ✽.I select wireless and click on Explore Wireless(file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/RegistrationPage.feature:73)
+]]>
+        </failure>
+    </testcase>
+</testsuite>

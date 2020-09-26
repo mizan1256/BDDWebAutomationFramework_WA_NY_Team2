@@ -1,0 +1,140 @@
+
+@SmokeTest
+Scenario: TD bank Credit Card home page display check # src/test/java/features/CreditCard.feature:9
+  Given I am in TD Bank home page                     # stepdefinitions.TDBankHomeStepDefinitions.i_am_in_td_bank_home_page()
+  And I click on CreditCard icon                      # stepdefinitions.CreditCardsStepDefinitions.i_click_on_credit_card_icon()
+  Then I validate Credit Card Home page Title         # stepdefinitions.CreditCardsStepDefinitions.i_validate_credit_card_home_page_title()
+
+@SmokeTest
+Scenario: Td Cash Credit Card home page check    # src/test/java/features/CreditCard.feature:13
+  Given I am in TD Bank home page                # stepdefinitions.TDBankHomeStepDefinitions.i_am_in_td_bank_home_page()
+  And I click on CreditCard icon                 # stepdefinitions.CreditCardsStepDefinitions.i_click_on_credit_card_icon()
+  And I click on Td Cash Credit Card             # stepdefinitions.CreditCardsStepDefinitions.i_click_on_td_cash_credit_card()
+  Then I validate Td Cash Credit Card is display # stepdefinitions.CreditCardsStepDefinitions.i_validate_td_cash_credit_card_is_display()
+  And I validate Td Cash Credit Card page Title  # stepdefinitions.CreditCardsStepDefinitions.i_validate_td_cash_credit_card_page_title()
+
+@SmokeTest
+Scenario: TD First Class Credit Card page check               # src/test/java/features/CreditCard.feature:19
+  Given I am in TD Bank home page                             # stepdefinitions.TDBankHomeStepDefinitions.i_am_in_td_bank_home_page()
+  And I click on CreditCard icon                              # stepdefinitions.CreditCardsStepDefinitions.i_click_on_credit_card_icon()
+  And I click on TD First Class Credit Card Button            # stepdefinitions.CreditCardsStepDefinitions.i_click_on_td_first_class_credit_card_button()
+  Then I validate TD First Class Credit Card Image is display # stepdefinitions.CreditCardsStepDefinitions.i_validate_td_first_class_credit_card_image_is_display()
+  And I validate TD First Class Credit Card page Title        # stepdefinitions.CreditCardsStepDefinitions.i_validate_td_first_class_credit_card_page_title()
+
+@SmokeTest
+Scenario: Help me choose button check   # src/test/java/features/CreditCard.feature:26
+  Given I am in TD Bank home page       # stepdefinitions.TDBankHomeStepDefinitions.i_am_in_td_bank_home_page()
+  And I click on CreditCard icon        # stepdefinitions.CreditCardsStepDefinitions.i_click_on_credit_card_icon()
+  When I click on Help me Choose Button # stepdefinitions.CreditCardsStepDefinitions.i_click_on_help_me_choose_button()
+  And I click on Cash and Next button   # stepdefinitions.CreditCardsStepDefinitions.i_click_on_cash_and_next_button()
+  Then I validate welcome message       # stepdefinitions.CreditCardsStepDefinitions.i_validate_welcome_message()
+
+@SmokeTest
+Scenario: TD Bank Online Banking page is display # src/test/java/features/TDBankHomePage.feature:9
+  Given I am in TD Bank home page                # stepdefinitions.TDBankHomeStepDefinitions.i_am_in_td_bank_home_page()
+  When I mouseHover on LogIn                     # stepdefinitions.TDBankHomeStepDefinitions.i_mouse_hover_on_log_in()
+  And I click on online banking                  # stepdefinitions.TDBankHomeStepDefinitions.i_click_on_online_banking()
+  Then I validate log in page is displayed       # stepdefinitions.TDBankHomeStepDefinitions.i_validate_log_in_page_is_displayed()
+
+@SmokeTest
+Scenario: TD Bank signUp                             # src/test/java/features/TDBankHomePage.feature:15
+  Given I am in TD Bank home page                    # stepdefinitions.TDBankHomeStepDefinitions.i_am_in_td_bank_home_page()
+  When I click on signUp button                      # stepdefinitions.TDBankHomeStepDefinitions.i_click_on_sign_up_button()
+  And I do necessary steps to land on User info page # stepdefinitions.TDBankHomeStepDefinitions.i_do_necessary_steps_to_land_on_user_info_page()
+  And I select account type                          # stepdefinitions.TDBankHomeStepDefinitions.i_select_account_type()
+  And I enter user information                       # stepdefinitions.TDBankHomeStepDefinitions.i_enter_user_information(io.cucumber.datatable.DataTable)
+  And I click on continue button                     # stepdefinitions.TDBankHomeStepDefinitions.i_click_on_continue_button()
+  Then I validate signUp message                     # stepdefinitions.TDBankHomeStepDefinitions.i_validate_sign_up_message()
+
+@SmokeTest
+Scenario Outline: TD Bank login functionality check with invalid credentials # src/test/java/features/TDBankHomePage.feature:33
+  Given I am in TD Bank home page                                            # stepdefinitions.TDBankHomeStepDefinitions.i_am_in_td_bank_home_page()
+  When I click on logIn button in homePage                                   # stepdefinitions.TDBankHomeStepDefinitions.i_click_on_log_in_button_in_home_page()
+  And I enter "pnt30235" and "Pnt@30235"                                     # stepdefinitions.TDBankHomeStepDefinitions.i_enter_and(java.lang.String,java.lang.String)
+  And I click on login                                                       # stepdefinitions.TDBankHomeStepDefinitions.i_click_on_login()
+  Then I validate the error message                                          # stepdefinitions.TDBankHomeStepDefinitions.i_validate_the_error_message()
+
+@SmokeTest
+Scenario: TD Bank product dropDown list check # src/test/java/features/TDBankHomePage.feature:37
+  Given I am in TD Bank home page             # stepdefinitions.TDBankHomeStepDefinitions.i_am_in_td_bank_home_page()
+  When I click on product                     # stepdefinitions.TDBankHomeStepDefinitions.i_click_on_product()
+  And I click on checking                     # stepdefinitions.TDBankHomeStepDefinitions.i_click_on_checking()
+  Then I validate checking account page       # stepdefinitions.TDBankHomeStepDefinitions.i_validate_checking_account_page()
+
+@SmokeTest
+Scenario: TD Bank Find us Box functionality check # src/test/java/features/TDBankHomePage.feature:44
+  Given I am in TD Bank home page                 # stepdefinitions.TDBankHomeStepDefinitions.i_am_in_td_bank_home_page()
+  When I click FindUs Icon                        # stepdefinitions.TDBankHomeStepDefinitions.i_click_find_us_icon()
+  And I enter "11416" and click on searchIcon     # stepdefinitions.TDBankHomeStepDefinitions.i_enter_and_click_on_search_icon(java.lang.String)
+  Then I validate TD bank locations appeared      # stepdefinitions.TDBankHomeStepDefinitions.i_validate_td_bank_locations_appeared()
+      org.junit.ComparisonFailure: Search Item not match expected:<10 locations near "[Ozone Park], NY"> but was:<10 locations near "[Jamaica], NY">
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at tdbankhome.TDBankHome.validateFindUsValidationText(TDBankHome.java:262)
+	at stepdefinitions.TDBankHomeStepDefinitions.i_validate_td_bank_locations_appeared(TDBankHomeStepDefinitions.java:159)
+	at ✽.I validate TD bank locations appeared(file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TDBank/src/test/java/features/TDBankHomePage.feature:47)
+
+
+    Embedding Demo [image/png 299711 bytes]
+
+      org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-6QSDTELI', ip: '192.168.1.185', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at stepdefinitions.CreditCardsStepDefinitions.tearDown(CreditCardsStepDefinitions.java:21)
+
+
+@SmokeTest
+Scenario: Get Direction Button check                       # src/test/java/features/TDBankHomePage.feature:50
+  Given I am in TD Bank home page                          # stepdefinitions.TDBankHomeStepDefinitions.i_am_in_td_bank_home_page()
+  When I take necessary steps and landed on locations page # stepdefinitions.TDBankHomeStepDefinitions.i_take_necessary_steps_and_landed_on_locations_page()
+  And I click on Get Direction Button                      # stepdefinitions.TDBankHomeStepDefinitions.i_click_on_get_direction_button()
+      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="js-yl-USBRANCH40244"]/article/div[11]/div/div/div/a"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-6QSDTELI', ip: '192.168.1.185', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\lenis\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60924}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 278f2bb651efcb2d916385953398866b
+*** Element info: {Using=xpath, value=//*[@id="js-yl-USBRANCH40244"]/article/div[11]/div/div/div/a}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy25.click(Unknown Source)
+	at tdbankhome.TDBankHome.clickOnGetDirection(TDBankHome.java:272)
+	at stepdefinitions.TDBankHomeStepDefinitions.i_click_on_get_direction_button(TDBankHomeStepDefinitions.java:172)
+	at ✽.I click on Get Direction Button(file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TDBank/src/test/java/features/TDBankHomePage.feature:52)
+
+  Then I validate google map page Title                    # stepdefinitions.TDBankHomeStepDefinitions.i_validate_google_map_page_title()
+
+    Embedding Demo [image/png 1089824 bytes]
+
+      org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-6QSDTELI', ip: '192.168.1.185', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at stepdefinitions.CreditCardsStepDefinitions.tearDown(CreditCardsStepDefinitions.java:21)
+

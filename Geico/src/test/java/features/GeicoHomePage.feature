@@ -53,12 +53,12 @@ Feature:Geico homePage functionality check
     Then I verify title
     Examples:
       | userName  | password    |
-      | mtt1213   | abs12344556 |
-      | mttt124  | abs214324   |
-      | mtt124324 | 12424653    |
-      | mtt12424  | 12424653    |
-      | mtt1324   | Ewfg234     |
-      | mtt1325   | 12424fer53  |
+      | mts1213   | pnt12344556 |
+      | mts1248   | pnt214324   |
+      | mts124324 | pnt12424653 |
+      | mts12424  | pnt12424653 |
+      | mts1324   | pnt45782234 |
+      | mts1325   | 12424fer53  |
 
   @SmokeTest
   Scenario: Geico login create account check with variable

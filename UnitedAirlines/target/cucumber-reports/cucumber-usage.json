@@ -1,0 +1,768 @@
+[
+  {
+    "source": "I am in United Airlines home page",
+    "steps": [
+      {
+        "name": "I am in United Airlines home page",
+        "aggregatedDurations": {
+          "median": 9.6454149,
+          "average": 9.7866649
+        },
+        "durations": [
+          {
+            "duration": 11.2253958,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirRegistration.feature:4"
+          },
+          {
+            "duration": 10.3591648,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirRegistration.feature:4"
+          },
+          {
+            "duration": 9.5684915,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirRegistration.feature:4"
+          },
+          {
+            "duration": 9.877567,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirRegistration.feature:4"
+          },
+          {
+            "duration": 9.7109603,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:4"
+          },
+          {
+            "duration": 9.5798695,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:4"
+          },
+          {
+            "duration": 9.7379498,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:4"
+          },
+          {
+            "duration": 9.0118646,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:4"
+          },
+          {
+            "duration": 9.2958484,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:4"
+          },
+          {
+            "duration": 9.4995373,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on signIn button",
+    "steps": [
+      {
+        "name": "I click on signIn button",
+        "aggregatedDurations": {
+          "median": 3.26427205,
+          "average": 3.2732483
+        },
+        "durations": [
+          {
+            "duration": 3.3877621,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirRegistration.feature:5"
+          },
+          {
+            "duration": 3.2075966,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirRegistration.feature:5"
+          },
+          {
+            "duration": 3.176687,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirRegistration.feature:5"
+          },
+          {
+            "duration": 3.3209475,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirRegistration.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on join now and use title",
+    "steps": [
+      {
+        "name": "I click on join now and use title",
+        "aggregatedDurations": {
+          "median": 11.1150935,
+          "average": 11.5136082
+        },
+        "durations": [
+          {
+            "duration": 10.3447322,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirRegistration.feature:10"
+          },
+          {
+            "duration": 13.4795136,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirRegistration.feature:19"
+          },
+          {
+            "duration": 11.2583704,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirRegistration.feature:27"
+          },
+          {
+            "duration": 10.9718166,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirRegistration.feature:36"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I use data in member information field",
+    "steps": [
+      {
+        "name": "I use data in member information field",
+        "aggregatedDurations": {
+          "median": 9.7136158,
+          "average": 9.7136158
+        },
+        "durations": [
+          {
+            "duration": 9.7136158,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirRegistration.feature:11"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "month and gender field is selected",
+    "steps": [
+      {
+        "name": "month and gender field is selected",
+        "aggregatedDurations": {
+          "median": 12.2975032,
+          "average": 12.2975032
+        },
+        "durations": [
+          {
+            "duration": 12.2975032,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirRegistration.feature:14"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I validate Contact Information is appeared properly",
+    "steps": [
+      {
+        "name": "I validate Contact Information is appeared properly",
+        "aggregatedDurations": {
+          "median": 0.0339982,
+          "average": 0.0339982
+        },
+        "durations": [
+          {
+            "duration": 0.0339982,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirRegistration.feature:15"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I entered data in Contact Information field",
+    "steps": [
+      {
+        "name": "I entered data in Contact Information field",
+        "aggregatedDurations": {
+          "median": 13.6438615,
+          "average": 13.6438615
+        },
+        "durations": [
+          {
+            "duration": 13.6438615,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirRegistration.feature:20"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I validate {string} appear properly",
+    "steps": [
+      {
+        "name": "I validate \"Phone number\" appear properly",
+        "aggregatedDurations": {
+          "median": 0.0369484,
+          "average": 0.0369484
+        },
+        "durations": [
+          {
+            "duration": 0.0369484,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirRegistration.feature:23"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I entered data in phone number field",
+    "steps": [
+      {
+        "name": "I entered data in phone number field",
+        "aggregatedDurations": {
+          "median": 4.7912274,
+          "average": 4.7912274
+        },
+        "durations": [
+          {
+            "duration": 4.7912274,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirRegistration.feature:28"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on check box field",
+    "steps": [
+      {
+        "name": "I click on check box field",
+        "aggregatedDurations": {
+          "median": 0.1010011,
+          "average": 0.1010011
+        },
+        "durations": [
+          {
+            "duration": 0.1010011,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirRegistration.feature:31"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify {string} appear properly",
+    "steps": [
+      {
+        "name": "I verify \"Email information\" appear properly",
+        "aggregatedDurations": {
+          "median": 0.0350316,
+          "average": 0.0350316
+        },
+        "durations": [
+          {
+            "duration": 0.0350316,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirRegistration.feature:32"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I entered data in email field",
+    "steps": [
+      {
+        "name": "I entered data in email field",
+        "aggregatedDurations": {
+          "median": 3.4531628,
+          "average": 3.4531628
+        },
+        "durations": [
+          {
+            "duration": 3.4531628,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirRegistration.feature:37"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on check box and uncheck box",
+    "steps": [
+      {
+        "name": "I click on check box and uncheck box",
+        "aggregatedDurations": {
+          "median": 3.1970504,
+          "average": 3.1970504
+        },
+        "durations": [
+          {
+            "duration": 3.1970504,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirRegistration.feature:40"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I entered data in password field",
+    "steps": [
+      {
+        "name": "I entered data in password field",
+        "aggregatedDurations": {
+          "median": 0.2969977,
+          "average": 0.2969977
+        },
+        "durations": [
+          {
+            "duration": 0.2969977,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirRegistration.feature:41"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Show button",
+    "steps": [
+      {
+        "name": "I click on Show button",
+        "aggregatedDurations": {
+          "median": 3.1765109,
+          "average": 3.1765109
+        },
+        "durations": [
+          {
+            "duration": 3.1765109,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirRegistration.feature:44"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on accept and enroll button",
+    "steps": [
+      {
+        "name": "I click on accept and enroll button",
+        "aggregatedDurations": {
+          "median": 0.2524441,
+          "average": 0.2524441
+        },
+        "durations": [
+          {
+            "duration": 0.2524441,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirRegistration.feature:45"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify {string} display properly",
+    "steps": [
+      {
+        "name": "I verify \"Security questions\" display properly",
+        "aggregatedDurations": {
+          "median": 0.093,
+          "average": 0.093
+        },
+        "durations": [
+          {
+            "duration": 0.093,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirRegistration.feature:46"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on flight status tab",
+    "steps": [
+      {
+        "name": "I click on flight status tab",
+        "aggregatedDurations": {
+          "median": 0.197007,
+          "average": 0.197007
+        },
+        "durations": [
+          {
+            "duration": 0.197007,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter city name in from field and To field",
+    "steps": [
+      {
+        "name": "I enter city name in from field and To field",
+        "aggregatedDurations": {
+          "median": 3.3710271,
+          "average": 3.3710271
+        },
+        "durations": [
+          {
+            "duration": 3.3710271,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on CheckIn tab",
+    "steps": [
+      {
+        "name": "I click on CheckIn tab",
+        "aggregatedDurations": {
+          "median": 0.1612387,
+          "average": 0.1612387
+        },
+        "durations": [
+          {
+            "duration": 0.1612387,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:16"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter ticket number in confirmation field",
+    "steps": [
+      {
+        "name": "I enter ticket number in confirmation field",
+        "aggregatedDurations": {
+          "median": 0.2430008,
+          "average": 0.2430008
+        },
+        "durations": [
+          {
+            "duration": 0.2430008,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:17"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter last name in Last name field",
+    "steps": [
+      {
+        "name": "I enter last name in Last name field",
+        "aggregatedDurations": {
+          "median": 0.121726,
+          "average": 0.121726
+        },
+        "durations": [
+          {
+            "duration": 0.121726,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:18"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click search box",
+    "steps": [
+      {
+        "name": "I click search box",
+        "aggregatedDurations": {
+          "median": 0.1160009,
+          "average": 0.1160009
+        },
+        "durations": [
+          {
+            "duration": 0.1160009,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:19"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I validate We couldn\u0027t find a reservation with the provided information. is appeared properly",
+    "steps": [
+      {
+        "name": "I validate We couldn\u0027t find a reservation with the provided information. is appeared properly",
+        "aggregatedDurations": {
+          "median": 9.3215803,
+          "average": 9.3215803
+        },
+        "durations": [
+          {
+            "duration": 9.3215803,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:20"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on My trips tab",
+    "steps": [
+      {
+        "name": "I click on My trips tab",
+        "aggregatedDurations": {
+          "median": 0.2119989,
+          "average": 0.2119989
+        },
+        "durations": [
+          {
+            "duration": 0.2119989,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:24"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter confirmation number in confirmation field",
+    "steps": [
+      {
+        "name": "I enter confirmation number in confirmation field",
+        "aggregatedDurations": {
+          "median": 0.6640001,
+          "average": 0.6640001
+        },
+        "durations": [
+          {
+            "duration": 0.6640001,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:25"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I type last name in Last name field",
+    "steps": [
+      {
+        "name": "I type last name in Last name field",
+        "aggregatedDurations": {
+          "median": 0.2859989,
+          "average": 0.2859989
+        },
+        "durations": [
+          {
+            "duration": 0.2859989,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:26"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click search box tab",
+    "steps": [
+      {
+        "name": "I click search box tab",
+        "aggregatedDurations": {
+          "median": 0.1940007,
+          "average": 0.1940007
+        },
+        "durations": [
+          {
+            "duration": 0.1940007,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:27"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on search button",
+    "steps": [
+      {
+        "name": "I click on search button",
+        "aggregatedDurations": {
+          "median": 0.178,
+          "average": 0.178
+        },
+        "durations": [
+          {
+            "duration": 0.1869991,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:32"
+          },
+          {
+            "duration": 0.1690009,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:39"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on covid-{int} update",
+    "steps": [
+      {
+        "name": "I click on covid-19 update",
+        "aggregatedDurations": {
+          "median": 10.2764599,
+          "average": 10.2764599
+        },
+        "durations": [
+          {
+            "duration": 10.2764599,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:33"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on request a refund",
+    "steps": [
+      {
+        "name": "I click on request a refund",
+        "aggregatedDurations": {
+          "median": 3.5880523,
+          "average": 3.5880523
+        },
+        "durations": [
+          {
+            "duration": 3.5880523,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:34"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I validate Refund policies is appeared properly",
+    "steps": [
+      {
+        "name": "I validate Refund policies is appeared properly",
+        "aggregatedDurations": {
+          "median": 0.044028,
+          "average": 0.044028
+        },
+        "durations": [
+          {
+            "duration": 0.044028,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:35"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on get a flight receipt",
+    "steps": [
+      {
+        "name": "I click on get a flight receipt",
+        "aggregatedDurations": {
+          "median": 15.2260753,
+          "average": 15.2260753
+        },
+        "durations": [
+          {
+            "duration": 15.2260753,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:40"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click searchButton box",
+    "steps": [
+      {
+        "name": "I click searchButton box",
+        "aggregatedDurations": {
+          "median": 0.1021508,
+          "average": 0.1021508
+        },
+        "durations": [
+          {
+            "duration": 0.1021508,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:44"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I validate We couldn\u0027t find your receipt is appeared properly",
+    "steps": [
+      {
+        "name": "I validate We couldn\u0027t find your receipt is appeared properly",
+        "aggregatedDurations": {
+          "median": 0.0340602,
+          "average": 0.0340602
+        },
+        "durations": [
+          {
+            "duration": 0.0340602,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:45"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Book Button",
+    "steps": [
+      {
+        "name": "I click on Book Button",
+        "aggregatedDurations": {
+          "median": 0.1189996,
+          "average": 0.1189996
+        },
+        "durations": [
+          {
+            "duration": 0.1189996,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:50"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Hotels Button",
+    "steps": [
+      {
+        "name": "I click on Hotels Button",
+        "aggregatedDurations": {
+          "median": 0.2429978,
+          "average": 0.2429978
+        },
+        "durations": [
+          {
+            "duration": 0.2429978,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:51"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter {string} in where to search box and submit",
+    "steps": [
+      {
+        "name": "I enter \"Miami Beach\" in where to search box and submit",
+        "aggregatedDurations": {
+          "median": 4.2355012,
+          "average": 4.2355012
+        },
+        "durations": [
+          {
+            "duration": 4.2355012,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:52"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I validate Miami Beach landing properly",
+    "steps": [
+      {
+        "name": "I validate Miami Beach landing properly",
+        "aggregatedDurations": {
+          "median": 3.0380173,
+          "average": 3.0380173
+        },
+        "durations": [
+          {
+            "duration": 3.0380173,
+            "location": "file:///C:/Users/lenis/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:53"
+          }
+        ]
+      }
+    ]
+  }
+]

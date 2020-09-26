@@ -20,9 +20,6 @@ import org.junit.runner.RunWith;
         dryRun = false,
         publish = true,
         tags = "(@SmokeTest or @Regression) and (not @pending)"
-        // tags = " (    @Regression or  @smokeTest    ) and not @pending    "
-        // tags = {"@Regression or  @smokeTest or "}
-        // tags={"@Test1,@Test2"}
 
 )
 
