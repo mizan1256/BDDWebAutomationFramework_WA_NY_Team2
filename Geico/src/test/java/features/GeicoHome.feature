@@ -1,7 +1,7 @@
 Feature:Geico homePage functionality check
 
- Background:I am on Geico homepage
-   Given I am on Geico homepage
+  Background:I am on Geico homepage
+    Given I am on Geico homepage
 
   @Regression
   Scenario: Geico searchBox functionality Check
@@ -13,7 +13,7 @@ Feature:Geico homePage functionality check
   @Regression
   Scenario: Geico searchBox functionality Check
     And I click searchlogo
-    And I enter "motorcycle" in searchBox
+    And I enter "auto" in searchBox
     When I click searchButton
     Then I verify siteSearchText
 
@@ -54,7 +54,7 @@ Feature:Geico homePage functionality check
     Examples:
       | userName  | password    |
       | mtt1213   | abs12344556 |
-      | mttt124  | abs214324   |
+      | mttt124   | abs214324   |
       | mtt124324 | 12424653    |
       | mtt12424  | 12424653    |
       | mtt1324   | Ewfg234     |
@@ -75,7 +75,7 @@ Feature:Geico homePage functionality check
     Then I verify policyNumber on screen
     Examples:
       | policyNumber | dateOfBirth | zipCode |
-      | 1234         | 02141004    | 10045   |
+      | 12345        | 02141004    | 10045   |
       | 124355       | 0319919     | 10422   |
       | 12314        | 03191996    | 10326   |
       | 12315        | 03191296    | 10329   |
@@ -84,7 +84,6 @@ Feature:Geico homePage functionality check
 
   @SmokeTest
   Scenario: Gecio Career button Check
-    Given I am on Geico Homepage
     And   I click on Career button
     When  I Click on Customer Service Button
     Then  I validate Customer Service Careers text appear Properly

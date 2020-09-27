@@ -11,7 +11,7 @@ Scenario: Geico searchBox functionality Check # src/test/java/features/GeicoHome
 Scenario: Geico searchBox functionality Check # src/test/java/features/GeicoHome.feature:14
   Given I am on Geico homepage                # stepdefinitions.GeicoHomeStepDefinitions.i_am_on_geico_homepage()
   And I click searchlogo                      # stepdefinitions.GeicoHomeStepDefinitions.i_click_searchlogo()
-  And I enter "motorcycle" in searchBox       # stepdefinitions.GeicoHomeStepDefinitions.i_enter_in_search_box(java.lang.String)
+  And I enter "auto" in searchBox             # stepdefinitions.GeicoHomeStepDefinitions.i_enter_in_search_box(java.lang.String)
   When I click searchButton                   # stepdefinitions.GeicoHomeStepDefinitions.i_click_search_button()
   Then I verify siteSearchText                # stepdefinitions.GeicoHomeStepDefinitions.i_verify_site_search_text()
 
@@ -153,7 +153,7 @@ Scenario: Geico login create account check with variable  # src/test/java/featur
 Scenario Outline: Geico login create account check with multiple variable # src/test/java/features/GeicoHome.feature:78
   Given I am on Geico homepage                                            # stepdefinitions.GeicoHomeStepDefinitions.i_am_on_geico_homepage()
   And I click on startHere                                                # stepdefinitions.GeicoHomeStepDefinitions.i_click_on_start_here()
-  And I enter "1234", "02141004" and "10045"                              # stepdefinitions.GeicoHomeStepDefinitions.i_enter_and(java.lang.String,java.lang.String,java.lang.String)
+  And I enter "12345", "02141004" and "10045"                             # stepdefinitions.GeicoHomeStepDefinitions.i_enter_and(java.lang.String,java.lang.String,java.lang.String)
   When I click continue                                                   # stepdefinitions.GeicoHomeStepDefinitions.i_click_continue()
   Then I verify policyNumber on screen                                    # stepdefinitions.GeicoHomeStepDefinitions.i_verify_policy_number_on_screen()
 
@@ -196,3 +196,10 @@ Scenario Outline: Geico login create account check with multiple variable # src/
   And I enter "12317", "05191996" and "10327"                             # stepdefinitions.GeicoHomeStepDefinitions.i_enter_and(java.lang.String,java.lang.String,java.lang.String)
   When I click continue                                                   # stepdefinitions.GeicoHomeStepDefinitions.i_click_continue()
   Then I verify policyNumber on screen                                    # stepdefinitions.GeicoHomeStepDefinitions.i_verify_policy_number_on_screen()
+
+@SmokeTest
+Scenario: Gecio Career button Check                             # src/test/java/features/GeicoHome.feature:86
+  Given I am on Geico homepage                                  # stepdefinitions.GeicoHomeStepDefinitions.i_am_on_geico_homepage()
+  And I click on Career button                                  # stepdefinitions.GeicoHomeStepDefinitions.i_click_on_career_button()
+  When I Click on Customer Service Button                       # stepdefinitions.GeicoHomeStepDefinitions.i_click_on_customer_service_button()
+  Then I validate Customer Service Careers text appear Properly # stepdefinitions.GeicoHomeStepDefinitions.i_validate_customer_service_careers_text_appear_properly()

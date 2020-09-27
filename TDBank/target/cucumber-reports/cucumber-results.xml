@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="10" time="144.948">
-    <testcase classname="TD Bank Credit Card Home Page feature check" name="TD bank Credit Card home page display check" time="10.252">
+<testsuite errors="0" failures="3" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="10" time="110.464">
+    <testcase classname="TD Bank Credit Card Home Page feature check" name="TD bank Credit Card home page display check" time="8.65">
         <system-out>
             <![CDATA[Given I am on TD Bank home page.............................................passed
 And I click on CreditCard icon..............................................passed
@@ -8,7 +8,7 @@ Then I validate Credit Card Home page Title.................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="TD Bank Credit Card Home Page feature check" name="Td Cash Credit Card home page check" time="7.635">
+    <testcase classname="TD Bank Credit Card Home Page feature check" name="Td Cash Credit Card home page check" time="9.656">
         <system-out>
             <![CDATA[Given I am on TD Bank home page.............................................passed
 And I click on CreditCard icon..............................................passed
@@ -18,7 +18,7 @@ And I validate Td Cash Credit Card page Title...............................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="TD Bank Credit Card Home Page feature check" name="TD First Class Credit Card page check" time="8.252">
+    <testcase classname="TD Bank Credit Card Home Page feature check" name="TD First Class Credit Card page check" time="9.595">
         <system-out>
             <![CDATA[Given I am on TD Bank home page.............................................passed
 And I click on CreditCard icon..............................................passed
@@ -28,7 +28,7 @@ And I validate TD First Class Credit Card page Title........................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="TD Bank Credit Card Home Page feature check" name="Help me choose button check" time="9.627">
+    <testcase classname="TD Bank Credit Card Home Page feature check" name="Help me choose button check" time="11.611">
         <system-out>
             <![CDATA[Given I am on TD Bank home page.............................................passed
 And I click on CreditCard icon..............................................passed
@@ -38,35 +38,21 @@ Then I validate welcome message.............................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="TD Bank Home Page functionality test" name="TD Bank Online Banking page is display" time="14.318">
-        <system-out>
+    <testcase classname="TD Bank Home Page functionality test" name="TD Bank Online Banking page is display" time="6.985">
+        <failure message="javascript error: Failed to execute 'elementsFromPoint' on 'Document': The provided double value is non-finite.&#10;  (Session info: chrome=85.0.4183.121)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:11cd:59ac:3c9c:dfef%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:60357}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 9d03bf40321a561af712693104f01499" type="org.openqa.selenium.JavascriptException">
             <![CDATA[Given I am on TD Bank home page.............................................passed
-When I mouseHover on LogIn..................................................passed
-And I click on online banking...............................................passed
-Then I validate log in page is displayed....................................passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="TD Bank Home Page functionality test" name="TD Bank signUp" time="38.383">
-        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class='td-infobar-content']//div[1]&quot;}&#10;  (Session info: chrome=85.0.4183.102)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:a9c7:73e3:b299:1374%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:62393}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 93b87236787df510c62296ae07158d9c&#10;*** Element info: {Using=xpath, value=//div[@class='td-infobar-content']//div[1]}" type="org.openqa.selenium.NoSuchElementException">
-            <![CDATA[Given I am on TD Bank home page.............................................passed
-When I click on signUp button...............................................passed
-And I do necessary steps to land on User info page..........................passed
-And I select account type...................................................passed
-And I enter user information................................................passed
-And I click on continue button..............................................passed
-Then I validate signUp message..............................................failed
+When I mouseHover on LogIn..................................................failed
+And I click on online banking...............................................skipped
+Then I validate log in page is displayed....................................skipped
 
 StackTrace:
-org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='td-infobar-content']//div[1]"}
-  (Session info: chrome=85.0.4183.102)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+org.openqa.selenium.JavascriptException: javascript error: Failed to execute 'elementsFromPoint' on 'Document': The provided double value is non-finite.
+  (Session info: chrome=85.0.4183.121)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:a9c7:73e3:b299:1374%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:11cd:59ac:3c9c:dfef%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:62393}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 93b87236787df510c62296ae07158d9c
-*** Element info: {Using=xpath, value=//div[@class='td-infobar-content']//div[1]}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:60357}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 9d03bf40321a561af712693104f01499
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -77,30 +63,98 @@ Session ID: 93b87236787df510c62296ae07158d9c
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy24.getText(Unknown Source)
-	at tdbankhome.TDBankHome.validateSignUpPageText(TDBankHome.java:207)
-	at stepdefinitions.TDBankHomePageStepDefinitions.i_validate_sign_up_message(TDBankHomePageStepDefinitions.java:96)
-	at ✽.I validate signUp message(file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TDBank/src/test/java/features/TDBankHomePage.feature:23)
+	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:618)
+	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:639)
+	at org.openqa.selenium.interactions.Actions.perform(Actions.java:595)
+	at tdbankhome.TDBankHome.logInIcon(TDBankHome.java:96)
+	at stepdefinitions.TDBankHomePageStepDefinitions.i_mouse_hover_on_log_in(TDBankHomePageStepDefinitions.java:44)
+	at ✽.I mouseHover on LogIn(file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TDBank/src/test/java/features/TDBankHomePage.feature:10)
 ]]>
         </failure>
     </testcase>
-    <testcase classname="TD Bank Home Page functionality test" name="TD Bank login functionality check with invalid credentials" time="12.244">
-        <system-out>
+    <testcase classname="TD Bank Home Page functionality test" name="TD Bank signUp" time="7.973">
+        <failure message="element click intercepted: Element &lt;a title=&quot;Sign up for Online Banking&quot; href=&quot;https://onlinebanking.tdbank.com/#/authentication/login/enrollment/signup/selectprofile&quot; class=&quot;td-link-standalone&quot;&gt;...&lt;/a&gt; is not clickable at point (1368, 377). Other element would receive the click: &lt;a href=&quot;https://digitalexpress.tdbank.com/WDDL/login.aspx?ReturnUrl=%2fWDDL%2fDefault.aspx&quot; target=&quot;_blank&quot;&gt;...&lt;/a&gt;&#10;  (Session info: chrome=85.0.4183.121)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:11cd:59ac:3c9c:dfef%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:60511}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 2c005a57ef231272254f65cb541b1587" type="org.openqa.selenium.ElementClickInterceptedException">
             <![CDATA[Given I am on TD Bank home page.............................................passed
-When I click on logIn button in homePage....................................passed
-And I enter "pnt30242" and "Pnt@30242"......................................passed
-And I click on login........................................................passed
-Then I validate the error message...........................................passed
+When I click on signUp button...............................................failed
+And I do necessary steps to land on User info page..........................skipped
+And I select account type...................................................skipped
+And I enter user information................................................skipped
+And I click on continue button..............................................skipped
+Then I validate signUp message..............................................skipped
+
+StackTrace:
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a title="Sign up for Online Banking" href="https://onlinebanking.tdbank.com/#/authentication/login/enrollment/signup/selectprofile" class="td-link-standalone">...</a> is not clickable at point (1368, 377). Other element would receive the click: <a href="https://digitalexpress.tdbank.com/WDDL/login.aspx?ReturnUrl=%2fWDDL%2fDefault.aspx" target="_blank">...</a>
+  (Session info: chrome=85.0.4183.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:11cd:59ac:3c9c:dfef%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:60511}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 2c005a57ef231272254f65cb541b1587
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy24.click(Unknown Source)
+	at tdbankhome.TDBankHome.clickOnSignInBtn(TDBankHome.java:118)
+	at stepdefinitions.TDBankHomePageStepDefinitions.i_click_on_sign_up_button(TDBankHomePageStepDefinitions.java:63)
+	at ✽.I click on signUp button(file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TDBank/src/test/java/features/TDBankHomePage.feature:16)
 ]]>
-        </system-out>
+        </failure>
     </testcase>
-    <testcase classname="TD Bank Home Page functionality test" name="TD Bank product dropDown list check" time="9.676">
+    <testcase classname="TD Bank Home Page functionality test" name="TD Bank login functionality check with invalid credentials" time="6.789">
+        <failure message="element click intercepted: Element &lt;button class=&quot;td-button td-button-secondary td-button-large td-copy-nowrap loginout&quot; onclick=&quot;window.location.href = 'https://onlinebanking.tdbank.com/'&quot; type=&quot;button&quot;&gt;...&lt;/button&gt; is not clickable at point (1208, 380). Other element would receive the click: &lt;a href=&quot;https://digitalexpress.tdbank.com/WDDL/login.aspx?ReturnUrl=%2fWDDL%2fDefault.aspx&quot; target=&quot;_blank&quot;&gt;...&lt;/a&gt;&#10;  (Session info: chrome=85.0.4183.121)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:11cd:59ac:3c9c:dfef%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:60657}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: aff7eac9afaf77ae5eebae6ebbf6406c" type="org.openqa.selenium.ElementClickInterceptedException">
+            <![CDATA[Given I am on TD Bank home page.............................................passed
+When I click on logIn button in homePage....................................failed
+And I enter "pnt30242" and "Pnt@30242"......................................skipped
+And I click on login........................................................skipped
+Then I validate the error message...........................................skipped
+
+StackTrace:
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button class="td-button td-button-secondary td-button-large td-copy-nowrap loginout" onclick="window.location.href = 'https://onlinebanking.tdbank.com/'" type="button">...</button> is not clickable at point (1208, 380). Other element would receive the click: <a href="https://digitalexpress.tdbank.com/WDDL/login.aspx?ReturnUrl=%2fWDDL%2fDefault.aspx" target="_blank">...</a>
+  (Session info: chrome=85.0.4183.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:11cd:59ac:3c9c:dfef%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:60657}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: aff7eac9afaf77ae5eebae6ebbf6406c
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy24.click(Unknown Source)
+	at tdbankhome.TDBankHome.clickOnTdLogInBtn(TDBankHome.java:215)
+	at stepdefinitions.TDBankHomePageStepDefinitions.i_click_on_log_in_button_in_home_page(TDBankHomePageStepDefinitions.java:104)
+	at ✽.I click on logIn button in homePage(file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/TDBank/src/test/java/features/TDBankHomePage.feature:27)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="TD Bank Home Page functionality test" name="TD Bank product dropDown list check" time="11.749">
         <system-out>
             <![CDATA[Given I am on TD Bank home page.............................................passed
 When I click on product.....................................................passed
@@ -109,7 +163,7 @@ Then I validate checking account page.......................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="TD Bank Home Page functionality test" name="TD Bank Find us Box functionality check" time="13.269">
+    <testcase classname="TD Bank Home Page functionality test" name="TD Bank Find us Box functionality check" time="13.884">
         <system-out>
             <![CDATA[Given I am on TD Bank home page.............................................passed
 When I click FindUs Icon....................................................passed
@@ -118,7 +172,7 @@ Then I validate TD bank locations appeared..................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="TD Bank Home Page functionality test" name="Get Direction Button check" time="20.757">
+    <testcase classname="TD Bank Home Page functionality test" name="Get Direction Button check" time="22.66">
         <system-out>
             <![CDATA[Given I am on TD Bank home page.............................................passed
 When I take necessary steps and landed on locations page....................passed

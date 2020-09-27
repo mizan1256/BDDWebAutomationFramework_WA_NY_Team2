@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="5" time="206.06">
-    <testcase classname="United Airlines home page signIn functionality test" name="United Airlines SignIn functionality test" time="45.654">
+<testsuite errors="0" failures="10" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="22" time="682.745">
+    <testcase classname="United Airlines home page signIn functionality test" name="United Airlines SignIn functionality test" time="44.385">
         <system-out>
-            <![CDATA[Given I am in home page.....................................................passed
+            <![CDATA[Given I am in United Air home page..........................................passed
 When I click on signIn button...............................................passed
 And I click on join now and use title.......................................passed
 And I use data in member information field..................................passed
@@ -11,9 +11,9 @@ Then I validate Contact Information is appeared properly....................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="United Airlines home page signIn functionality test" name="United Airlines contact information test" time="37.424">
+    <testcase classname="United Airlines home page signIn functionality test" name="United Airlines contact information test" time="38.144">
         <system-out>
-            <![CDATA[Given I am in home page.....................................................passed
+            <![CDATA[Given I am in United Air home page..........................................passed
 When I click on signIn button...............................................passed
 And I click on join now and use title.......................................passed
 When I entered data in Contact Information field............................passed
@@ -21,9 +21,9 @@ Then I validate "Phone number" appear properly..............................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="United Airlines home page signIn functionality test" name="United Airlines contact information test 2" time="27.244">
+    <testcase classname="United Airlines home page signIn functionality test" name="United Airlines contact information test 2" time="28.173">
         <system-out>
-            <![CDATA[Given I am in home page.....................................................passed
+            <![CDATA[Given I am in United Air home page..........................................passed
 When I click on signIn button...............................................passed
 And I click on join now and use title.......................................passed
 And I entered data in phone number field....................................passed
@@ -32,9 +32,9 @@ Then I verify "Email information" appear properly...........................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="United Airlines home page signIn functionality test" name="United Airlines contact information test 3" time="32.349">
+    <testcase classname="United Airlines home page signIn functionality test" name="United Airlines contact information test 3" time="35.174">
         <system-out>
-            <![CDATA[Given I am in home page.....................................................passed
+            <![CDATA[Given I am in United Air home page..........................................passed
 When I click on signIn button...............................................passed
 And I click on join now and use title.......................................passed
 And I entered data in email field...........................................passed
@@ -46,25 +46,500 @@ Then I verify "Security questions" display properly.........................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="United Airlines home page signIn functionality test" name="United Airlines contact information test 4" time="62.73">
-        <failure message="Cannot locate element with text: What is your favorite type of reading?&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:1835:9fda:291e:379d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.NoSuchElementException">
-            <![CDATA[Given I am in home page.....................................................passed
+    <testcase classname="United Airlines home page signIn functionality test" name="United Airlines contact information test 4" time="90.187">
+        <system-out>
+            <![CDATA[Given I am in United Air home page..........................................passed
 When I click on signIn button...............................................passed
 And I click on join now and use title.......................................passed
-And I entered data in answer field..........................................failed
-And I click on accept and enroll button.....................................skipped
+And I entered data in answer field..........................................passed
+And I click on accept and enroll button.....................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="United Airlines SignUp functionality test" name="United Airlines Flight Status functionality test" time="33.202">
+        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[contains(text(),'Sep 12, 2020')]&quot;}&#10;  (Session info: chrome=85.0.4183.121)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:11cd:59ac:3c9c:dfef%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:63042}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: a87bed8b6a679d895086d7a2b5135b23&#10;*** Element info: {Using=xpath, value=//div[contains(text(),'Sep 12, 2020')]}" type="org.openqa.selenium.NoSuchElementException">
+            <![CDATA[Given I am in United Air home page..........................................passed
+When I click Flight status..................................................passed
+And I enter City in From field and To field.................................passed
+And I enter Flight number and  Date.........................................failed
+Then I click Search Button..................................................skipped
 
 StackTrace:
-org.openqa.selenium.NoSuchElementException: Cannot locate element with text: What is your favorite type of reading?
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(text(),'Sep 12, 2020')]"}
+  (Session info: chrome=85.0.4183.121)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:1835:9fda:291e:379d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
-Driver info: driver.version: unknown
-	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
-	at common.WebAPI.selectOptionByVisibleText(WebAPI.java:419)
-	at unitedAirRegistration.UnitedAirRegistration.questionAndAnswer2(UnitedAirRegistration.java:191)
-	at stepdefinitions.UniAirRegistrationStepDefinitions.i_entered_data_in_answer_field(UniAirRegistrationStepDefinitions.java:134)
-	at ✽.I entered data in answer field(file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirRegistration.feature:50)
+System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:11cd:59ac:3c9c:dfef%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:63042}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: a87bed8b6a679d895086d7a2b5135b23
+*** Element info: {Using=xpath, value=//div[contains(text(),'Sep 12, 2020')]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy25.click(Unknown Source)
+	at unitedairlineshome.UnitedAirlinesHomePage.enterFlightNumber(UnitedAirlinesHomePage.java:104)
+	at stepdefinitions.UnitedAirStepDefinitions.i_enter_flight_number_and_date(UnitedAirStepDefinitions.java:52)
+	at ✽.I enter Flight number and  Date(file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:10)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="United Airlines SignUp functionality test" name="United Airlines Check In functionality test" time="34.885">
+        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[@class='app-components-Checkin-MessageBox-index__content---o_sY']&quot;}&#10;  (Session info: chrome=85.0.4183.121)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:11cd:59ac:3c9c:dfef%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:63105}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 552c671e79bd374c81a524bbe90a9c84&#10;*** Element info: {Using=xpath, value=//span[@class='app-components-Checkin-MessageBox-index__content---o_sY']}" type="org.openqa.selenium.NoSuchElementException">
+            <![CDATA[Given I am in United Air home page..........................................passed
+When I click Check In.......................................................passed
+And I enter ticket Number and Last Name.....................................passed
+Then I click checkIn Search Button..........................................passed
+And I validate Check In page message........................................failed
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='app-components-Checkin-MessageBox-index__content---o_sY']"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:11cd:59ac:3c9c:dfef%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:63105}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 552c671e79bd374c81a524bbe90a9c84
+*** Element info: {Using=xpath, value=//span[@class='app-components-Checkin-MessageBox-index__content---o_sY']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy25.getText(Unknown Source)
+	at unitedairlineshome.UnitedAirlinesHomePage.validateCheckInTxt(UnitedAirlinesHomePage.java:132)
+	at stepdefinitions.UnitedAirStepDefinitions.i_validate_check_in_page_message(UnitedAirStepDefinitions.java:83)
+	at ✽.I validate Check In page message(file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:19)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="United Airlines SignUp functionality test" name="United Airlines Book Button functionality test" time="34.667">
+        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//h1[@class='destination-title']&quot;}&#10;  (Session info: chrome=85.0.4183.121)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:11cd:59ac:3c9c:dfef%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:63168}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 048c5d398836b80baf956f4c85255ef1&#10;*** Element info: {Using=xpath, value=//h1[@class='destination-title']}" type="org.openqa.selenium.NoSuchElementException">
+            <![CDATA[Given I am in United Air home page..........................................passed
+When I click on Book Button.................................................passed
+And I click on Hotels Button................................................passed
+And I enter "Las Vegas, Nevada, United States of America" in searchBox and submit.passed
+Then I validate Landed page properly........................................failed
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//h1[@class='destination-title']"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:11cd:59ac:3c9c:dfef%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:63168}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 048c5d398836b80baf956f4c85255ef1
+*** Element info: {Using=xpath, value=//h1[@class='destination-title']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy25.getText(Unknown Source)
+	at unitedairlineshome.UnitedAirlinesHomePage.validateLandedPageTxt(UnitedAirlinesHomePage.java:153)
+	at stepdefinitions.UnitedAirStepDefinitions.i_validate_landed_page_properly(UnitedAirStepDefinitions.java:106)
+	at ✽.I validate Landed page properly(file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:26)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="United Airlines SignUp functionality test" name="United login functionality Check with variable" time="8.361">
+        <system-out>
+            <![CDATA[Given I am in United Air home page..........................................passed
+And I click on signInOption.................................................passed
+And I enter "mizan1256" and "Pnt@30242".....................................passed
+When I click loginButton....................................................passed
+Then I verify image.........................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="United Airlines SignUp functionality test" name="United login functionality Check with multiple variable" time="11.451">
+        <system-out>
+            <![CDATA[Given I am in United Air home page..........................................passed
+And I click on signInOption.................................................passed
+And I enter "mtt123" and "abs123"...........................................passed
+When I click loginButton....................................................passed
+Then I verify image.........................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="United Airlines SignUp functionality test" name="United login functionality Check with multiple variable 2" time="11.486">
+        <system-out>
+            <![CDATA[Given I am in United Air home page..........................................passed
+And I click on signInOption.................................................passed
+And I enter "mtt124" and "abs124"...........................................passed
+When I click loginButton....................................................passed
+Then I verify image.........................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="United Airlines SignUp functionality test" name="United login functionality Check with multiple variable 3" time="8.077">
+        <system-out>
+            <![CDATA[Given I am in United Air home page..........................................passed
+And I click on signInOption.................................................passed
+And I enter "mtt125" and "abs125"...........................................passed
+When I click loginButton....................................................passed
+Then I verify image.........................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="United Airlines SignUp functionality test" name="United login functionality Check with multiple variable 4" time="8.294">
+        <system-out>
+            <![CDATA[Given I am in United Air home page..........................................passed
+And I click on signInOption.................................................passed
+And I enter "mtt126" and "abs126"...........................................passed
+When I click loginButton....................................................passed
+Then I verify image.........................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="United Airlines SignUp functionality test" name="United login functionality Check with multiple variable 5" time="7.537">
+        <system-out>
+            <![CDATA[Given I am in United Air home page..........................................passed
+And I click on signInOption.................................................passed
+And I enter "mtt126" and "abs127"...........................................passed
+When I click loginButton....................................................passed
+Then I verify image.........................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="United Airlines SignUp functionality test" name="United login functionality Check with multiple variable 6" time="9.714">
+        <system-out>
+            <![CDATA[Given I am in United Air home page..........................................passed
+And I click on signInOption.................................................passed
+And I enter "mtt126" and "abs128"...........................................passed
+When I click loginButton....................................................passed
+Then I verify image.........................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="United Airlines SignUp functionality test" name="United round trip flights functionality Check" time="33.789">
+        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@id='passengersSlidingInputContainer']//div[3]//div[1]//table[1]//tbody[1]//tr[1]//td[5]&quot;}&#10;  (Session info: chrome=85.0.4183.121)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:11cd:59ac:3c9c:dfef%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:63649}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: cc440b366691b060d49e0eec756205d6&#10;*** Element info: {Using=xpath, value=//div[@id='passengersSlidingInputContainer']//div[3]//div[1]//table[1]//tbody[1]//tr[1]//td[5]}" type="org.openqa.selenium.NoSuchElementException">
+            <![CDATA[Given I am in United Air home page..........................................passed
+And I enter location To.....................................................passed
+And I clear enter departDate................................................failed
+And I clear enter returnDate................................................skipped
+When I click findFlights....................................................skipped
+Then I verify SearchFlightsTitle............................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='passengersSlidingInputContainer']//div[3]//div[1]//table[1]//tbody[1]//tr[1]//td[5]"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:11cd:59ac:3c9c:dfef%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:63649}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: cc440b366691b060d49e0eec756205d6
+*** Element info: {Using=xpath, value=//div[@id='passengersSlidingInputContainer']//div[3]//div[1]//table[1]//tbody[1]//tr[1]//td[5]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy25.click(Unknown Source)
+	at unitedairlineshome.UnitedAirlinesHomePage.enterDepartDateToSearchFlight(UnitedAirlinesHomePage.java:230)
+	at stepdefinitions.UnitedAirStepDefinitions.i_clear_enter_depart_date(UnitedAirStepDefinitions.java:170)
+	at ✽.I clear enter departDate(file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:86)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="United Airlines SignUp functionality test" name="United round trip flights functionality Check with multiple flights" time="40.709">
+        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@placeholder='To*']&quot;}&#10;  (Session info: chrome=85.0.4183.121)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:11cd:59ac:3c9c:dfef%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:63719}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 778964bc82af4cc6522922e719c3bcd9&#10;*** Element info: {Using=xpath, value=//input[@placeholder='To*']}" type="org.openqa.selenium.NoSuchElementException">
+            <![CDATA[Given I am in United Air home page..........................................passed
+And I enter destination location "London"*..................................passed
+And I clear enter depart Date departDate....................................failed
+And I clear enter return date returnDate....................................skipped
+When I click findFlights....................................................skipped
+Then I verify SearchFlightsTitle............................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@placeholder='To*']"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:11cd:59ac:3c9c:dfef%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:63719}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 778964bc82af4cc6522922e719c3bcd9
+*** Element info: {Using=xpath, value=//input[@placeholder='To*']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy25.clear(Unknown Source)
+	at unitedairlineshome.UnitedAirlinesHomePage.enterDepartDateToSearchFlight(UnitedAirlinesHomePage.java:229)
+	at stepdefinitions.UnitedAirStepDefinitions.i_clear_enter_depart_date_depart_date(UnitedAirStepDefinitions.java:197)
+	at ✽.I clear enter depart Date departDate(file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:95)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="United Airlines SignUp functionality test" name="United round trip flights functionality Check with variable" time="32.221">
+        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@placeholder='To*']&quot;}&#10;  (Session info: chrome=85.0.4183.121)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:11cd:59ac:3c9c:dfef%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:63779}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: ca46c9cae34ea4a59d053fc0e0344a92&#10;*** Element info: {Using=xpath, value=//input[@placeholder='To*']}" type="org.openqa.selenium.NoSuchElementException">
+            <![CDATA[Given I am in United Air home page..........................................passed
+And I enter destination location "Paris"*...................................failed
+And I clear enter depart Date departDate....................................skipped
+And I clear enter return date returnDate....................................skipped
+When I click findFlights....................................................skipped
+Then I verify SearchFlightsTitle............................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@placeholder='To*']"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:11cd:59ac:3c9c:dfef%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:63779}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: ca46c9cae34ea4a59d053fc0e0344a92
+*** Element info: {Using=xpath, value=//input[@placeholder='To*']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy25.clear(Unknown Source)
+	at unitedairlineshome.UnitedAirlinesHomePage.enterToLocationToSearchFlight(UnitedAirlinesHomePage.java:220)
+	at stepdefinitions.UnitedAirStepDefinitions.i_enter_destination_location(UnitedAirStepDefinitions.java:192)
+	at ✽.I enter destination location "Paris"*(file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:102)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="United Airlines SignUp functionality test" name="United round trip flights functionality Check with variable 2" time="42.193">
+        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@placeholder='To*']&quot;}&#10;  (Session info: chrome=85.0.4183.121)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:11cd:59ac:3c9c:dfef%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:63891}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 22142b7c23846c561d5a1ae8302ee69c&#10;*** Element info: {Using=xpath, value=//input[@placeholder='To*']}" type="org.openqa.selenium.NoSuchElementException">
+            <![CDATA[Given I am in United Air home page..........................................passed
+And I enter destination location "Tokyo"*...................................passed
+And I clear enter depart Date departDate....................................failed
+And I clear enter return date returnDate....................................skipped
+When I click findFlights....................................................skipped
+Then I verify SearchFlightsTitle............................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@placeholder='To*']"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:11cd:59ac:3c9c:dfef%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:63891}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 22142b7c23846c561d5a1ae8302ee69c
+*** Element info: {Using=xpath, value=//input[@placeholder='To*']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy25.clear(Unknown Source)
+	at unitedairlineshome.UnitedAirlinesHomePage.enterDepartDateToSearchFlight(UnitedAirlinesHomePage.java:229)
+	at stepdefinitions.UnitedAirStepDefinitions.i_clear_enter_depart_date_depart_date(UnitedAirStepDefinitions.java:197)
+	at ✽.I clear enter depart Date departDate(file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:103)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="United Airlines SignUp functionality test" name="United round trip flights functionality Check with variable 3" time="47.961">
+        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@id='passengersSlidingInputContainer']//div[3]//div[1]//table[1]//tbody[1]//tr[1]//td[5]&quot;}&#10;  (Session info: chrome=85.0.4183.121)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:11cd:59ac:3c9c:dfef%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:63997}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: f5910be8977e77294f8d8322d7194659&#10;*** Element info: {Using=xpath, value=//div[@id='passengersSlidingInputContainer']//div[3]//div[1]//table[1]//tbody[1]//tr[1]//td[5]}" type="org.openqa.selenium.NoSuchElementException">
+            <![CDATA[Given I am in United Air home page..........................................passed
+And I enter destination location "India"*...................................passed
+And I clear enter depart Date departDate....................................failed
+And I clear enter return date returnDate....................................skipped
+When I click findFlights....................................................skipped
+Then I verify SearchFlightsTitle............................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='passengersSlidingInputContainer']//div[3]//div[1]//table[1]//tbody[1]//tr[1]//td[5]"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:11cd:59ac:3c9c:dfef%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:63997}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: f5910be8977e77294f8d8322d7194659
+*** Element info: {Using=xpath, value=//div[@id='passengersSlidingInputContainer']//div[3]//div[1]//table[1]//tbody[1]//tr[1]//td[5]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy25.click(Unknown Source)
+	at unitedairlineshome.UnitedAirlinesHomePage.enterDepartDateToSearchFlight(UnitedAirlinesHomePage.java:230)
+	at stepdefinitions.UnitedAirStepDefinitions.i_clear_enter_depart_date_depart_date(UnitedAirStepDefinitions.java:197)
+	at ✽.I clear enter depart Date departDate(file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:103)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="United Airlines SignUp functionality test" name="United round trip flights functionality Check with variable 4" time="41.078">
+        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@placeholder='To*']&quot;}&#10;  (Session info: chrome=85.0.4183.121)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:11cd:59ac:3c9c:dfef%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:64058}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 85f4c025c601ce55b11e6a7345a539f6&#10;*** Element info: {Using=xpath, value=//input[@placeholder='To*']}" type="org.openqa.selenium.NoSuchElementException">
+            <![CDATA[Given I am in United Air home page..........................................passed
+And I enter destination location "Pakistan"*................................passed
+And I clear enter depart Date departDate....................................failed
+And I clear enter return date returnDate....................................skipped
+When I click findFlights....................................................skipped
+Then I verify SearchFlightsTitle............................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@placeholder='To*']"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:11cd:59ac:3c9c:dfef%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:64058}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 85f4c025c601ce55b11e6a7345a539f6
+*** Element info: {Using=xpath, value=//input[@placeholder='To*']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy25.clear(Unknown Source)
+	at unitedairlineshome.UnitedAirlinesHomePage.enterDepartDateToSearchFlight(UnitedAirlinesHomePage.java:229)
+	at stepdefinitions.UnitedAirStepDefinitions.i_clear_enter_depart_date_depart_date(UnitedAirStepDefinitions.java:197)
+	at ✽.I clear enter depart Date departDate(file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:103)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="United Airlines SignUp functionality test" name="United round trip flights functionality Check with variable 5" time="40.31">
+        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@placeholder='To*']&quot;}&#10;  (Session info: chrome=85.0.4183.121)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:11cd:59ac:3c9c:dfef%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:64162}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 3e5ce04dceca077dc5d60f49ab1e1a22&#10;*** Element info: {Using=xpath, value=//input[@placeholder='To*']}" type="org.openqa.selenium.NoSuchElementException">
+            <![CDATA[Given I am in United Air home page..........................................passed
+And I enter destination location "London"*..................................passed
+And I clear enter depart Date departDate....................................failed
+And I clear enter return date returnDate....................................skipped
+When I click findFlights....................................................skipped
+Then I verify SearchFlightsTitle............................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@placeholder='To*']"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:11cd:59ac:3c9c:dfef%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:64162}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 3e5ce04dceca077dc5d60f49ab1e1a22
+*** Element info: {Using=xpath, value=//input[@placeholder='To*']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy25.clear(Unknown Source)
+	at unitedairlineshome.UnitedAirlinesHomePage.enterDepartDateToSearchFlight(UnitedAirlinesHomePage.java:229)
+	at stepdefinitions.UnitedAirStepDefinitions.i_clear_enter_depart_date_depart_date(UnitedAirStepDefinitions.java:197)
+	at ✽.I clear enter depart Date departDate(file:///Users/mohammadislam/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:103)
 ]]>
         </failure>
     </testcase>

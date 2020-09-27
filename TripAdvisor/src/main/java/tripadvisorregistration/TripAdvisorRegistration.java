@@ -38,9 +38,11 @@ public class TripAdvisorRegistration extends WebAPI {
     @FindBy(xpath = "//div[contains(text(),'Log in')]")WebElement logInBtn;
     //Action Method
     public void searchBoxCheck(String searchItem){
+
         whereToSearchBox.sendKeys(searchItem);
     }
     public void searchButton(){
+
         whereToSearchBox.submit();
     }
     //Validate Method

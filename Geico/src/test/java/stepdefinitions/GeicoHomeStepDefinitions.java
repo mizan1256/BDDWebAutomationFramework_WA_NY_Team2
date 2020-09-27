@@ -59,14 +59,6 @@ public class GeicoHomeStepDefinitions extends WebAPI {
         geicoHome.typeOnSearchBox(searchItem);
     }
 
-    //login
-
-
-    //    @Given("I click loginLogo")
-//    public void i_click_login_logo() {
-//        geicoHome.clickOnLogin();
-//
-//    }
     @Given("I choose click on the arrow to choose policy")
     public void i_choose_click_on_the_arrow_to_choose_policy() {
         geicoHome.policyDropDown();

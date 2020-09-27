@@ -4,13 +4,13 @@ Scenario: Order pickUp home page check       # src/test/java/features/PickUpAndD
   Given I am on targetEcommerce home page    # stepdefinitions.TargetEcommerceStepDefinitions.i_am_on_target_ecommerce_home_page()
   When I click on pickUp and delivery button # stepdefinitions.PickUpAndDeliveryTest.i_click_on_pick_up_and_delivery_button()
   And I click on Order pickUp button         # stepdefinitions.PickUpAndDeliveryTest.i_click_on_order_pick_up_button()
-      org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div class="Row-uds8za-0 kRWFss">...</div> is not clickable at point (510, 60). Other element would receive the click: <a href="#pickupAndDeliveryMenu" class="Link-sc-1khjl8b-0 dJwaza HeaderMainLink-sc-1tx0dwp-0 jQaVFI h-margin-l-wide" id="pickupAndDelivery" data-menu="pickupAndDelivery" aria-label="pickup and delivery menu" aria-expanded="true">...</a>
+      org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div class="Row-uds8za-0 kRWFss">...</div> is not clickable at point (510, 40). Other element would receive the click: <span class="h-hidden-md-down">...</span>
   (Session info: chrome=85.0.4183.121)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:64f4:6584:30b4:691d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:11cd:59ac:3c9c:dfef%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:61404}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: ef6a678bc5d32d603a203971e70dec19
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:58093}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 4881255a4110915998d7212557872ca4
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -39,7 +39,7 @@ Session ID: ef6a678bc5d32d603a203971e70dec19
 
       org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:64f4:6584:30b4:691d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:11cd:59ac:3c9c:dfef%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
 Driver info: driver.version: RemoteWebDriver
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
@@ -58,10 +58,10 @@ Scenario: Oder pickUp searchBox functionality check                             
   (Session info: chrome=85.0.4183.121)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:64f4:6584:30b4:691d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:11cd:59ac:3c9c:dfef%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:61494}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 0643588e85dd729b38195c032912d6dd
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:58149}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 43b6588b8a66082b2590d67875b52f65
 *** Element info: {Using=xpath, value=//div[contains(text(),'Order Pickup')]}
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -87,11 +87,11 @@ Session ID: 0643588e85dd729b38195c032912d6dd
   And I enter "655473634747" as order number in order searchBox and click searchBox Icon # stepdefinitions.PickUpAndDeliveryTest.i_enter_as_order_number_in_order_search_box_and_click_search_box_icon(java.lang.String)
   Then I validate search result message                                                  # stepdefinitions.PickUpAndDeliveryTest.i_validate_search_result_message()
 
-    Embedding Demo [image/png 1278787 bytes]
+    Embedding Demo [image/png 1270480 bytes]
 
       org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:64f4:6584:30b4:691d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:11cd:59ac:3c9c:dfef%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
 Driver info: driver.version: RemoteWebDriver
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
@@ -106,13 +106,13 @@ Scenario: Same day delivery page check                                    # src/
   Given I am on targetEcommerce home page                                 # stepdefinitions.TargetEcommerceStepDefinitions.i_am_on_target_ecommerce_home_page()
   When I click on pickUp and delivery button                              # stepdefinitions.PickUpAndDeliveryTest.i_click_on_pick_up_and_delivery_button()
   And I click on same day delivery button                                 # stepdefinitions.PickUpAndDeliveryTest.i_click_on_same_day_delivery_button()
-      org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div class="Row-uds8za-0 kRWFss">...</div> is not clickable at point (510, 32). Other element would receive the click: <span class="h-hidden-md-down">...</span>
+      org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div class="Row-uds8za-0 kRWFss">...</div> is not clickable at point (510, 51). Other element would receive the click: <a href="#pickupAndDeliveryMenu" class="Link-sc-1khjl8b-0 dJwaza HeaderMainLink-sc-1tx0dwp-0 jQaVFI h-margin-l-wide" id="pickupAndDelivery" data-menu="pickupAndDelivery" aria-label="pickup and delivery menu" aria-expanded="true">...</a>
   (Session info: chrome=85.0.4183.121)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:64f4:6584:30b4:691d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:11cd:59ac:3c9c:dfef%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:61762}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 75140868cfc490cd0bc05f224c7add2e
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:58247}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: bec14b2dc2eed13469988ff528af2150
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -137,11 +137,11 @@ Session ID: 75140868cfc490cd0bc05f224c7add2e
 
   Then I validate "Get it as soon as 10am" as same day delivery home page # stepdefinitions.PickUpAndDeliveryTest.i_validate_as_same_day_delivery_home_page(java.lang.String)
 
-    Embedding Demo [image/png 932602 bytes]
+    Embedding Demo [image/png 934013 bytes]
 
       org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:64f4:6584:30b4:691d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:11cd:59ac:3c9c:dfef%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
 Driver info: driver.version: RemoteWebDriver
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
@@ -160,10 +160,10 @@ Scenario: Same day delivery signIn functionality check                    # src/
   (Session info: chrome=85.0.4183.121)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:64f4:6584:30b4:691d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:11cd:59ac:3c9c:dfef%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:61906}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 40e56726cb4cf50e0d7089d38bf37387
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:58313}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 2b089d49acd3aa2ce6c1bef110ae7bec
 *** Element info: {Using=xpath, value=//button[@class='Button-bwu3xu-0 bVjgbd']}
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -188,11 +188,11 @@ Session ID: 40e56726cb4cf50e0d7089d38bf37387
 
   And I enter "mizan_1256@yahoo.com" as email and "Tasmi1256" as password # stepdefinitions.PickUpAndDeliveryTest.i_enter_as_email_and_as_password(java.lang.String,java.lang.String)
 
-    Embedding Demo [image/png 598129 bytes]
+    Embedding Demo [image/png 600282 bytes]
 
       org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:64f4:6584:30b4:691d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:11cd:59ac:3c9c:dfef%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
 Driver info: driver.version: RemoteWebDriver
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
@@ -211,10 +211,10 @@ Scenario: Drive Up home page check           # src/test/java/features/PickUpAndD
   (Session info: chrome=85.0.4183.121)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:64f4:6584:30b4:691d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:11cd:59ac:3c9c:dfef%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:62193}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: cb1934c5394ef540265e592fb4f78a28
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:58377}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 0fd4cf45028a508d9248a4e5ed454475
 *** Element info: {Using=xpath, value=//div[@class='Row-uds8za-0 iFzQdH'][contains(text(),'Drive Up')]}
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -239,11 +239,11 @@ Session ID: cb1934c5394ef540265e592fb4f78a28
 
   Then I validate drive up home page Title   # stepdefinitions.PickUpAndDeliveryTest.i_validate_drive_up_home_page_title()
 
-    Embedding Demo [image/png 1270483 bytes]
+    Embedding Demo [image/png 1278846 bytes]
 
       org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:64f4:6584:30b4:691d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:11cd:59ac:3c9c:dfef%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
 Driver info: driver.version: RemoteWebDriver
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
@@ -271,11 +271,11 @@ Scenario: TargetEcommerce SearchBox functionality test with validate # src/test/
 
   And I verify page title as iPhone                                  # stepdefinitions.TargetEcommerceStepDefinitions.i_verify_page_title_as_i_phone()
 
-    Embedding Demo [image/png 644072 bytes]
+    Embedding Demo [image/png 646530 bytes]
 
       org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:64f4:6584:30b4:691d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:11cd:59ac:3c9c:dfef%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
 Driver info: driver.version: RemoteWebDriver
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
@@ -294,10 +294,10 @@ Scenario: TargetEcommerce SearchBox functionality getting value from Scenario # 
   (Session info: chrome=85.0.4183.121)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:64f4:6584:30b4:691d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:11cd:59ac:3c9c:dfef%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:62554}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 66498302668ac0d9e4144bdff0f8e985
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:58552}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 4a20fe25a963fc20458cbad3a9506648
 *** Element info: {Using=xpath, value=//h1[@class='Heading__StyledHeading-sc-1m9kw5a-0 jAsGMN h-margin-b-none']}
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -322,11 +322,11 @@ Session ID: 66498302668ac0d9e4144bdff0f8e985
 
   And I verify page title as iPhone                                           # stepdefinitions.TargetEcommerceStepDefinitions.i_verify_page_title_as_i_phone()
 
-    Embedding Demo [image/png 805344 bytes]
+    Embedding Demo [image/png 795300 bytes]
 
       org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:64f4:6584:30b4:691d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:11cd:59ac:3c9c:dfef%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
 Driver info: driver.version: RemoteWebDriver
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
@@ -345,10 +345,10 @@ Scenario Outline: TargetEcommerce SearchBox functionality test with validate usi
   (Session info: chrome=85.0.4183.121)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:64f4:6584:30b4:691d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:11cd:59ac:3c9c:dfef%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:62738}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 0a7d7b61d98b946a0efdbe56b0daeac7
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:58640}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: ff107791d1863e1baabb3e5be437dc25
 *** Element info: {Using=xpath, value=//button[@class='SearchInputButton-sc-1opoijs-0 gpTjzt' and text()='go']}
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -378,7 +378,7 @@ Session ID: 0a7d7b61d98b946a0efdbe56b0daeac7
 
       org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:64f4:6584:30b4:691d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:11cd:59ac:3c9c:dfef%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
 Driver info: driver.version: RemoteWebDriver
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
@@ -397,10 +397,10 @@ Scenario Outline: TargetEcommerce SearchBox functionality test with validate usi
   (Session info: chrome=85.0.4183.121)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:64f4:6584:30b4:691d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:11cd:59ac:3c9c:dfef%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:62907}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 9a18b3d62f02fd715c69d88eb27be747
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:58709}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: dc3303f6c789573bd1ddfd2fd4179760
 *** Element info: {Using=xpath, value=//button[@class='SearchInputButton-sc-1opoijs-0 gpTjzt' and text()='go']}
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -426,11 +426,11 @@ Session ID: 9a18b3d62f02fd715c69d88eb27be747
   And I validate "“T-shirt for men”" is appear properly                                       # stepdefinitions.TargetEcommerceStepDefinitions.i_validate_is_appear_properly(java.lang.String)
   And I validate page title as "Target : Expect More. Pay Less."                              # stepdefinitions.TargetEcommerceStepDefinitions.i_validate_page_title_as(java.lang.String)
 
-    Embedding Demo [image/png 850241 bytes]
+    Embedding Demo [image/png 850231 bytes]
 
       org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:64f4:6584:30b4:691d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:11cd:59ac:3c9c:dfef%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
 Driver info: driver.version: RemoteWebDriver
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
@@ -449,10 +449,10 @@ Scenario Outline: TargetEcommerce SearchBox functionality test with validate usi
   (Session info: chrome=85.0.4183.121)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:64f4:6584:30b4:691d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:11cd:59ac:3c9c:dfef%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:63090}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 5cc526c0c89af508a312812ee3642e18
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:58775}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5a50f19b783e203af25d4ebfb0bce42c
 *** Element info: {Using=xpath, value=//button[@class='SearchInputButton-sc-1opoijs-0 gpTjzt' and text()='go']}
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -478,11 +478,11 @@ Session ID: 5cc526c0c89af508a312812ee3642e18
   And I validate "“mens jeans”" is appear properly                                            # stepdefinitions.TargetEcommerceStepDefinitions.i_validate_is_appear_properly(java.lang.String)
   And I validate page title as "Target : Expect More. Pay Less."                              # stepdefinitions.TargetEcommerceStepDefinitions.i_validate_page_title_as(java.lang.String)
 
-    Embedding Demo [image/png 804773 bytes]
+    Embedding Demo [image/png 804348 bytes]
 
       org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:64f4:6584:30b4:691d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:11cd:59ac:3c9c:dfef%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
 Driver info: driver.version: RemoteWebDriver
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
@@ -501,10 +501,10 @@ Scenario Outline: TargetEcommerce SearchBox functionality test with validate usi
   (Session info: chrome=85.0.4183.121)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:64f4:6584:30b4:691d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:11cd:59ac:3c9c:dfef%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:63258}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: a2891e80c7436571a3c5f6ff37f86318
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:58839}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 7ed6b85ca1bb39eb27b0124ff3f10ccd
 *** Element info: {Using=xpath, value=//button[@class='SearchInputButton-sc-1opoijs-0 gpTjzt' and text()='go']}
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -530,11 +530,11 @@ Session ID: a2891e80c7436571a3c5f6ff37f86318
   And I validate "“mens watches”" is appear properly                                          # stepdefinitions.TargetEcommerceStepDefinitions.i_validate_is_appear_properly(java.lang.String)
   And I validate page title as "Target : Expect More. Pay Less."                              # stepdefinitions.TargetEcommerceStepDefinitions.i_validate_page_title_as(java.lang.String)
 
-    Embedding Demo [image/png 888046 bytes]
+    Embedding Demo [image/png 887738 bytes]
 
       org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:64f4:6584:30b4:691d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:11cd:59ac:3c9c:dfef%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
 Driver info: driver.version: RemoteWebDriver
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
@@ -552,10 +552,10 @@ Scenario: TargetEcommerce signUp functionality test with validate # src/test/jav
   (Session info: chrome=85.0.4183.121)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:64f4:6584:30b4:691d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:11cd:59ac:3c9c:dfef%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:63426}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 35b3578ab32fcecd23fa76a2637bef00
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:58938}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: b7b136daf527538477498a5c5df799aa
 *** Element info: {Using=xpath, value=//span[@class='sc-AxirZ cWICNE']//div[@class='sc-AxhCb eSwYtm']//*[local-name()='svg']//*[name()='path' and contains(@d,'M14.063 14')]}
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -582,11 +582,11 @@ Session ID: 35b3578ab32fcecd23fa76a2637bef00
   When I click on create account                                  # stepdefinitions.TargetEcommerceStepDefinitions.i_click_on_create_account()
   Then I validate signUp message                                  # stepdefinitions.TargetEcommerceStepDefinitions.i_validate_sign_up_message()
 
-    Embedding Demo [image/png 1280503 bytes]
+    Embedding Demo [image/png 1268793 bytes]
 
       org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:64f4:6584:30b4:691d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:11cd:59ac:3c9c:dfef%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
 Driver info: driver.version: RemoteWebDriver
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
@@ -604,10 +604,10 @@ Scenario Outline: Login into att using Data Driven                   # src/test/
   (Session info: chrome=85.0.4183.121)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:64f4:6584:30b4:691d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:11cd:59ac:3c9c:dfef%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:63600}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: e5912f75c36929705868f510163649af
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:59031}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 896d20b8875f14f5aa2d9e98c3688229
 *** Element info: {Using=xpath, value=//span[@class='sc-AxirZ cWICNE']//div[@class='sc-AxhCb eSwYtm']//*[local-name()='svg']//*[name()='path' and contains(@d,'M14.063 14')]}
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -634,11 +634,11 @@ Session ID: e5912f75c36929705868f510163649af
   And I click on signIn button                                       # stepdefinitions.TargetEcommerceStepDefinitions.i_click_on_sign_in_button()
   Then I should be getting a message                                 # stepdefinitions.TargetEcommerceStepDefinitions.i_should_be_getting_a_message()
 
-    Embedding Demo [image/png 1270549 bytes]
+    Embedding Demo [image/png 1268795 bytes]
 
       org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:64f4:6584:30b4:691d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:11cd:59ac:3c9c:dfef%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
 Driver info: driver.version: RemoteWebDriver
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
@@ -656,10 +656,10 @@ Scenario Outline: Login into att using Data Driven                  # src/test/j
   (Session info: chrome=85.0.4183.121)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:64f4:6584:30b4:691d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:11cd:59ac:3c9c:dfef%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:63766}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: b5b4f3cff22c588f6291110c40dfe3af
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:59093}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 1e1513a6ff63797227811d23da9d1c84
 *** Element info: {Using=xpath, value=//span[@class='sc-AxirZ cWICNE']//div[@class='sc-AxhCb eSwYtm']//*[local-name()='svg']//*[name()='path' and contains(@d,'M14.063 14')]}
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -686,11 +686,11 @@ Session ID: b5b4f3cff22c588f6291110c40dfe3af
   And I click on signIn button                                      # stepdefinitions.TargetEcommerceStepDefinitions.i_click_on_sign_in_button()
   Then I should be getting a message                                # stepdefinitions.TargetEcommerceStepDefinitions.i_should_be_getting_a_message()
 
-    Embedding Demo [image/png 1270549 bytes]
+    Embedding Demo [image/png 1270449 bytes]
 
       org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:64f4:6584:30b4:691d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:11cd:59ac:3c9c:dfef%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
 Driver info: driver.version: RemoteWebDriver
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
@@ -708,10 +708,10 @@ Scenario Outline: Login into att using Data Driven                    # src/test
   (Session info: chrome=85.0.4183.121)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:64f4:6584:30b4:691d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:11cd:59ac:3c9c:dfef%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:63929}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: e3f7edc2961e6ed124e1200a7e48b7f0
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:59195}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 3f925e377de3dccfc31061b2ea15be48
 *** Element info: {Using=xpath, value=//span[@class='sc-AxirZ cWICNE']//div[@class='sc-AxhCb eSwYtm']//*[local-name()='svg']//*[name()='path' and contains(@d,'M14.063 14')]}
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -738,11 +738,11 @@ Session ID: e3f7edc2961e6ed124e1200a7e48b7f0
   And I click on signIn button                                        # stepdefinitions.TargetEcommerceStepDefinitions.i_click_on_sign_in_button()
   Then I should be getting a message                                  # stepdefinitions.TargetEcommerceStepDefinitions.i_should_be_getting_a_message()
 
-    Embedding Demo [image/png 1270549 bytes]
+    Embedding Demo [image/png 1280504 bytes]
 
       org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:64f4:6584:30b4:691d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:11cd:59ac:3c9c:dfef%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
 Driver info: driver.version: RemoteWebDriver
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
@@ -760,10 +760,10 @@ Scenario: Target shoppingCart logo functionality check # src/test/java/features/
   (Session info: chrome=85.0.4183.121)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:64f4:6584:30b4:691d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:11cd:59ac:3c9c:dfef%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:64133}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 4aa52c1a1ec3c5187462bfecfadf68dc
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:59266}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: f154ef4a938e3aac8162c346f79683a4
 *** Element info: {Using=xpath, value=//span[@class='sc-AxjAm hhuVxr']//div[@class='sc-AxiKw eSbheu']}
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -788,11 +788,11 @@ Session ID: 4aa52c1a1ec3c5187462bfecfadf68dc
 
   Then I validate shopping cart page                   # stepdefinitions.TargetEcommerceStepDefinitions.i_validate_shopping_cart_page()
 
-    Embedding Demo [image/png 1280503 bytes]
+    Embedding Demo [image/png 1270374 bytes]
 
       org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:64f4:6584:30b4:691d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:11cd:59ac:3c9c:dfef%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
 Driver info: driver.version: RemoteWebDriver
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
@@ -810,10 +810,10 @@ Scenario: Target Shopping Cart log in functionality check                  # src
   (Session info: chrome=85.0.4183.121)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:64f4:6584:30b4:691d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:11cd:59ac:3c9c:dfef%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:64296}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 20dbd483fdcf72859b69f53ee5688599
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/b7/lgzywp995gd...}, goog:chromeOptions: {debuggerAddress: localhost:59360}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 390aa7ce230510d236fddaeabd8d3df0
 *** Element info: {Using=xpath, value=//span[@class='sc-AxjAm hhuVxr']//div[@class='sc-AxiKw eSbheu']}
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -840,11 +840,11 @@ Session ID: 20dbd483fdcf72859b69f53ee5688599
   And I enter email as "mizan_1256@yahoo.com" and password as "Tasmi@1256" # stepdefinitions.TargetEcommerceStepDefinitions.i_enter_email_as_and_password_as(java.lang.String,java.lang.String)
   Then I validate shopping cart log in page                                # stepdefinitions.TargetEcommerceStepDefinitions.i_validate_shopping_cart_log_in_page()
 
-    Embedding Demo [image/png 1270549 bytes]
+    Embedding Demo [image/png 1278788 bytes]
 
       org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:64f4:6584:30b4:691d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
+System info: host: 'Mizans-MacBook-Pro.local', ip: '2604:2000:6087:cf00:11cd:59ac:3c9c:dfef%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '11.0.7'
 Driver info: driver.version: RemoteWebDriver
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
