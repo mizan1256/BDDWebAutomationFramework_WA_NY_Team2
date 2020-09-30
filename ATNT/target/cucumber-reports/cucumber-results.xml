@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="13" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="19" time="682.121">
+    <testcase classname="Feature: Att HomePage Functionality check" name="Att deals button Functionality check with valid data" time="13.091">
+        <system-out>
+            <![CDATA[Given I am in att homepage..................................................passed
+When I click Deals Button...................................................passed
+Then I verify Wireless is appear properly...................................passed
+And I verify page title as AT&T Deals on Phones, Wireless Plans, Internet & TV Services.passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Feature: Att HomePage Functionality check" name="Att Wireless button Functionality check with valid data" time="13.309">
+        <system-out>
+            <![CDATA[Given I am in att homepage..................................................passed
+When I click Wireless Button................................................passed
+Then I verify LEARN HOW TO is appear properly...............................passed
+And I verify page title as AT&T Wireless – Latest Phones & Best Wireless Plans.passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Feature: Att HomePage Functionality check" name="Att Internet button Functionality check with valid data" time="12.292">
+        <system-out>
+            <![CDATA[Given I am in att homepage..................................................passed
+When I click internet Button................................................passed
+Then I verify AT&T INTERNET is appear properly..............................passed
+And I verify page title as AT&T Internet Plans - Home Internet - AT&T® Official Site.passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Feature: Att HomePage Functionality check" name="Att TV button Functionality check with valid data" time="22.889">
+        <system-out>
+            <![CDATA[Given I am in att homepage..................................................passed
+When I click TV Button......................................................passed
+And I click on shop now button..............................................passed
+Then I verify Choose a TV package is appear properly........................passed
+And I verify page title as Shop AT&T Bundles................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Atnt home page sign up Functionality check" name="Atnt Sign Up Functionality check with invalid credentials" time="90.265">
+        <failure message="invalid selector: An invalid or illegal selector was specified&#10;  (Session info: chrome=85.0.4183.121)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LAPTOP-16QDF0HT', ip: '192.168.1.159', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.4'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\jonho\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61319}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: fbd3eec216a519df47409b26efb365ae&#10;*** Element info: {Using=css selector, value=//*[@id=&quot;z1-profile-open&quot;]/i[2]}" type="org.openqa.selenium.InvalidSelectorException">
+            <![CDATA[Given I am in att homepage..................................................passed
+And I click accountIcon.....................................................failed
+And I click singInButton....................................................skipped
+When I click on CreateButton................................................skipped
+And I click wireless radioButton and continueButton.........................skipped
+Then I enter phoneNumber and zipCode........................................skipped
+When I click continueButton.................................................skipped
+And I should be get en error message........................................skipped
+
+StackTrace:
+org.openqa.selenium.InvalidSelectorException: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-16QDF0HT', ip: '192.168.1.159', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\jonho\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61319}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: fbd3eec216a519df47409b26efb365ae
+*** Element info: {Using=css selector, value=//*[@id="z1-profile-open"]/i[2]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at common.WebAPI.clickOnElement(WebAPI.java:226)
+	at atnthome.AtntHome.accountIconButton(AtntHome.java:11)
+	at stepdefinitions.RegistrationDefinition.i_click_account_icon(RegistrationDefinition.java:51)
+	at ✽.I click accountIcon(file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/AtntRegistration.feature:9)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Atnt home page sign up Functionality check" name="Check signIn with invalid credentials" time="90.262">
+        <failure message="invalid selector: An invalid or illegal selector was specified&#10;  (Session info: chrome=85.0.4183.121)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LAPTOP-16QDF0HT', ip: '192.168.1.159', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.4'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\jonho\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61456}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 7e63e562538966d0998738c2f8a5e807&#10;*** Element info: {Using=css selector, value=//*[@id=&quot;z1-profile-open&quot;]/i[2]}" type="org.openqa.selenium.InvalidSelectorException">
+            <![CDATA[Given I am in att homepage..................................................passed
+And I on signIn page........................................................failed
+When I enter userName and passWord..........................................skipped
+And I click on signIn button................................................skipped
+Then I am getting error message.............................................skipped
+
+StackTrace:
+org.openqa.selenium.InvalidSelectorException: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-16QDF0HT', ip: '192.168.1.159', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\jonho\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61456}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 7e63e562538966d0998738c2f8a5e807
+*** Element info: {Using=css selector, value=//*[@id="z1-profile-open"]/i[2]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at common.WebAPI.clickOnElement(WebAPI.java:226)
+	at atnthome.AtntHome.accountIconButton(AtntHome.java:11)
+	at stepdefinitions.RegistrationDefinition.i_on_sign_in_page(RegistrationDefinition.java:94)
+	at ✽.I on signIn page(file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/AtntRegistration.feature:19)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Atnt home page sign up Functionality check" name="Login into att using Data Driven" time="91.066">
+        <failure message="invalid selector: An invalid or illegal selector was specified&#10;  (Session info: chrome=85.0.4183.121)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LAPTOP-16QDF0HT', ip: '192.168.1.159', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.4'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\jonho\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61575}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 2e059e89e9f8c453eeeb758eb36dcdf8&#10;*** Element info: {Using=css selector, value=//*[@id=&quot;z1-profile-open&quot;]/i[2]}" type="org.openqa.selenium.InvalidSelectorException">
+            <![CDATA[Given I am in att homepage..................................................passed
+And I on signIn page........................................................failed
+And I enter email as "admin@pnt.com" and password as "admin"................skipped
+And I click on signIn button................................................skipped
+Then I am getting error message.............................................skipped
+
+StackTrace:
+org.openqa.selenium.InvalidSelectorException: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-16QDF0HT', ip: '192.168.1.159', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\jonho\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61575}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 2e059e89e9f8c453eeeb758eb36dcdf8
+*** Element info: {Using=css selector, value=//*[@id="z1-profile-open"]/i[2]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at common.WebAPI.clickOnElement(WebAPI.java:226)
+	at atnthome.AtntHome.accountIconButton(AtntHome.java:11)
+	at stepdefinitions.RegistrationDefinition.i_on_sign_in_page(RegistrationDefinition.java:94)
+	at ✽.I on signIn page(file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/AtntRegistration.feature:26)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Atnt home page sign up Functionality check" name="Login into att using Data Driven 2" time="90.646">
+        <failure message="invalid selector: An invalid or illegal selector was specified&#10;  (Session info: chrome=85.0.4183.121)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LAPTOP-16QDF0HT', ip: '192.168.1.159', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.4'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\jonho\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61714}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 7a26ff8668cb56ac65458c78a1d4b355&#10;*** Element info: {Using=css selector, value=//*[@id=&quot;z1-profile-open&quot;]/i[2]}" type="org.openqa.selenium.InvalidSelectorException">
+            <![CDATA[Given I am in att homepage..................................................passed
+And I on signIn page........................................................failed
+And I enter email as "oalKarim@gmail.com" and password as "15021972"........skipped
+And I click on signIn button................................................skipped
+Then I am getting error message.............................................skipped
+
+StackTrace:
+org.openqa.selenium.InvalidSelectorException: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-16QDF0HT', ip: '192.168.1.159', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\jonho\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61714}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 7a26ff8668cb56ac65458c78a1d4b355
+*** Element info: {Using=css selector, value=//*[@id="z1-profile-open"]/i[2]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at common.WebAPI.clickOnElement(WebAPI.java:226)
+	at atnthome.AtntHome.accountIconButton(AtntHome.java:11)
+	at stepdefinitions.RegistrationDefinition.i_on_sign_in_page(RegistrationDefinition.java:94)
+	at ✽.I on signIn page(file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/AtntRegistration.feature:26)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Atnt home page sign up Functionality check" name="Login into att using Data Driven 3" time="92.257">
+        <failure message="invalid selector: An invalid or illegal selector was specified&#10;  (Session info: chrome=85.0.4183.121)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LAPTOP-16QDF0HT', ip: '192.168.1.159', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.4'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\jonho\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61845}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 26ed16403b119fc20fe12df954f9c431&#10;*** Element info: {Using=css selector, value=//*[@id=&quot;z1-profile-open&quot;]/i[2]}" type="org.openqa.selenium.InvalidSelectorException">
+            <![CDATA[Given I am in att homepage..................................................passed
+And I on signIn page........................................................failed
+And I enter email as "mikedavid@gmail.com" and password as "01012010".......skipped
+And I click on signIn button................................................skipped
+Then I am getting error message.............................................skipped
+
+StackTrace:
+org.openqa.selenium.InvalidSelectorException: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-16QDF0HT', ip: '192.168.1.159', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\jonho\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61845}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 26ed16403b119fc20fe12df954f9c431
+*** Element info: {Using=css selector, value=//*[@id="z1-profile-open"]/i[2]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at common.WebAPI.clickOnElement(WebAPI.java:226)
+	at atnthome.AtntHome.accountIconButton(AtntHome.java:11)
+	at stepdefinitions.RegistrationDefinition.i_on_sign_in_page(RegistrationDefinition.java:94)
+	at ✽.I on signIn page(file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/AtntRegistration.feature:26)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Atnt home page sign up Functionality check" name="Att menu burgerButton test" time="11.468">
+        <system-out>
+            <![CDATA[Given I am in att homepage..................................................passed
+When I click on burgerButton................................................passed
+And I select wireless and click on Explore Wireless.........................passed
+And I verify page title.....................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Att search functionality" name="Att searchBox functionality check with valid data" time="9.764">
+        <failure message="Step [I enter Apple iPhone {int} in searchBox] is defined with 0 parameters at 'stepdefinitions.SearchBoxStepDefinition.i_enter_iphone_in_search_box()'.&#10;However, the gherkin step has 1 arguments:&#10; * 11&#10;Step text: I enter Apple iPhone 11 in searchBox" type="io.cucumber.core.exception.CucumberException">
+            <![CDATA[Given I am in att homepage..................................................passed
+And I enter Apple iPhone 11 in searchBox....................................failed
+When I click searchButton...................................................skipped
+Then I verify Apple iPhone 11 is appear properly............................skipped
+And I verify page title as iphone 11........................................skipped
+
+StackTrace:
+io.cucumber.core.exception.CucumberException: Step [I enter Apple iPhone {int} in searchBox] is defined with 0 parameters at 'stepdefinitions.SearchBoxStepDefinition.i_enter_iphone_in_search_box()'.
+However, the gherkin step has 1 arguments:
+ * 11
+Step text: I enter Apple iPhone 11 in searchBox
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.arityMismatch(PickleStepDefinitionMatch.java:83)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:42)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:63)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:49)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:99)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:71)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:199)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:234)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:230)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:58)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Att search functionality" name="Att searchBox functionality check with valid data 2" time="18.316">
+        <system-out>
+            <![CDATA[Given I am in att homepage..................................................passed
+And I enter "Apple iPhone 11" in searchBox..................................passed
+When I click searchButton...................................................passed
+Then I validate "Apple iPhone 11" is appear properly........................passed
+And I validate page title as iphone 11......................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Att search functionality" name="Att searchBox check with multiple value using data driven" time="15.629">
+        <failure message="Could not invoke step [I validate &quot;Showing results for &quot;Apple iPhone {int}&quot;.&quot; is appear properly] defined at 'stepdefinitions.SearchBoxStepDefinition.i_validate_showing_results_for_apple_i_phone_is_appear_properly(java.lang.String)'.&#10;It appears there was a problem with the step definition.&#10;The converted arguments types were (java.lang.Integer)" type="io.cucumber.core.exception.CucumberException">
+            <![CDATA[Given I am in att homepage..................................................passed
+And I enter "Apple iPhone 11" in searchBox..................................passed
+When I click searchButton...................................................passed
+And I validate "Showing results for "Apple iPhone 11"." is appear properly..failed
+And I validate page title as "Results for Apple iPhones 11 - AT&T Search"...skipped
+
+StackTrace:
+io.cucumber.core.exception.CucumberException: Could not invoke step [I validate "Showing results for "Apple iPhone {int}"." is appear properly] defined at 'stepdefinitions.SearchBoxStepDefinition.i_validate_showing_results_for_apple_i_phone_is_appear_properly(java.lang.String)'.
+It appears there was a problem with the step definition.
+The converted arguments types were (java.lang.Integer)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.couldNotInvokeStep(PickleStepDefinitionMatch.java:130)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:65)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:63)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:49)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:99)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:71)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:199)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:234)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:230)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:58)
+Caused by: io.cucumber.core.backend.CucumberBackendException: Failed to invoke public void stepdefinitions.SearchBoxStepDefinition.i_validate_showing_results_for_apple_i_phone_is_appear_properly(java.lang.String)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:68)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	... 30 more
+Caused by: java.lang.IllegalArgumentException: argument type mismatch
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	... 35 more
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Att search functionality" name="Att searchBox check with multiple value using data driven 2" time="16.986">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
+            <![CDATA[Given I am in att homepage..................................................passed
+And I enter "Apple iPhone 10" in searchBox..................................passed
+When I click searchButton...................................................passed
+And I validate "Showing results for "Apple iphone 10"." is appear properly..undefined
+And I validate page title as "Results for Apple iPhones 10 - AT&T Search"...skipped
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Att search functionality" name="Att searchBox check with multiple value using data driven 3" time="17.362">
+        <failure message="Search Item not match expected:&lt;...howing results for &quot;[Samsung Phones]&quot;.&gt; but was:&lt;...howing results for &quot;[Apple iPhone 11]&quot;.&gt;" type="org.junit.ComparisonFailure">
+            <![CDATA[Given I am in att homepage..................................................passed
+And I enter "Samsung Phones" in searchBox...................................passed
+When I click searchButton...................................................passed
+And I validate "\"Samsung Phones\"" is appear properly......................failed
+And I validate page title as "Results for Samsung Phones - AT&T Search".....skipped
+
+StackTrace:
+org.junit.ComparisonFailure: Search Item not match expected:<...howing results for "[Samsung Phones]".> but was:<...howing results for "[Apple iPhone 11]".>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at atntsearchbox.AtntSearchBox.validateSearchBoxTxt(AtntSearchBox.java:33)
+	at stepdefinitions.SearchBoxStepDefinition.i_validate_is_appear_properly(SearchBoxStepDefinition.java:78)
+	at ✽.I validate "\"Samsung Phones\"" is appear properly(file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/SearchBox.feature:25)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Att search functionality" name="Att searchBox check with multiple value using data driven 4" time="18.013">
+        <failure message="Search Item not match expected:&lt;... results for &quot;Apple [Watches]&quot;.&gt; but was:&lt;... results for &quot;Apple [iPhone 11]&quot;.&gt;" type="org.junit.ComparisonFailure">
+            <![CDATA[Given I am in att homepage..................................................passed
+And I enter "Apple Watches" in searchBox....................................passed
+When I click searchButton...................................................passed
+And I validate "\"Apple Watches\"" is appear properly.......................failed
+And I validate page title as "Results for Apple Watches - AT&T Search"......skipped
+
+StackTrace:
+org.junit.ComparisonFailure: Search Item not match expected:<... results for "Apple [Watches]".> but was:<... results for "Apple [iPhone 11]".>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at atntsearchbox.AtntSearchBox.validateSearchBoxTxt(AtntSearchBox.java:33)
+	at stepdefinitions.SearchBoxStepDefinition.i_validate_is_appear_properly(SearchBoxStepDefinition.java:78)
+	at ✽.I validate "\"Apple Watches\"" is appear properly(file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/SearchBox.feature:25)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Att search functionality" name="Att searchBox check with multiple value using data driven 5" time="20.574">
+        <failure message="Search Item not match expected:&lt;...results for &quot;Apple i[pads]&quot;.&gt; but was:&lt;...results for &quot;Apple i[Phone 11]&quot;.&gt;" type="org.junit.ComparisonFailure">
+            <![CDATA[Given I am in att homepage..................................................passed
+And I enter "Apple ipads" in searchBox......................................passed
+When I click searchButton...................................................passed
+And I validate "\"Apple ipads\"" is appear properly.........................failed
+And I validate page title as "Results for Apple ipads - AT&T Search"........skipped
+
+StackTrace:
+org.junit.ComparisonFailure: Search Item not match expected:<...results for "Apple i[pads]".> but was:<...results for "Apple i[Phone 11]".>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at atntsearchbox.AtntSearchBox.validateSearchBoxTxt(AtntSearchBox.java:33)
+	at stepdefinitions.SearchBoxStepDefinition.i_validate_is_appear_properly(SearchBoxStepDefinition.java:78)
+	at ✽.I validate "\"Apple ipads\"" is appear properly(file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/SearchBox.feature:25)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Att search functionality" name="Att searchBox check with multiple value using data driven 6" time="18.849">
+        <failure message="Search Item not match expected:&lt;...howing results for &quot;[iphone 11 Pro Max]&quot;.&gt; but was:&lt;...howing results for &quot;[Apple iPhone 11]&quot;.&gt;" type="org.junit.ComparisonFailure">
+            <![CDATA[Given I am in att homepage..................................................passed
+And I enter "iphone 11 Pro Max" in searchBox................................passed
+When I click searchButton...................................................passed
+And I validate "\"iphone 11 Pro Max\"" is appear properly...................failed
+And I validate page title as "Results for iphone 11 Pro Max - AT&T Search"..skipped
+
+StackTrace:
+org.junit.ComparisonFailure: Search Item not match expected:<...howing results for "[iphone 11 Pro Max]".> but was:<...howing results for "[Apple iPhone 11]".>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at atntsearchbox.AtntSearchBox.validateSearchBoxTxt(AtntSearchBox.java:33)
+	at stepdefinitions.SearchBoxStepDefinition.i_validate_is_appear_properly(SearchBoxStepDefinition.java:78)
+	at ✽.I validate "\"iphone 11 Pro Max\"" is appear properly(file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/SearchBox.feature:25)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Att search functionality" name="Att searchBox check with multiple value using data driven 7" time="18.049">
+        <failure message="Search Item not match expected:&lt;...howing results for &quot;[Samsung Tablets]&quot;.&gt; but was:&lt;...howing results for &quot;[Apple iPhone 11]&quot;.&gt;" type="org.junit.ComparisonFailure">
+            <![CDATA[Given I am in att homepage..................................................passed
+And I enter "Samsung Tablets" in searchBox..................................passed
+When I click searchButton...................................................passed
+And I validate "\"Samsung Tablets\"" is appear properly.....................failed
+And I validate page title as "Results for Samsung Tablets - AT&T Search"....skipped
+
+StackTrace:
+org.junit.ComparisonFailure: Search Item not match expected:<...howing results for "[Samsung Tablets]".> but was:<...howing results for "[Apple iPhone 11]".>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at atntsearchbox.AtntSearchBox.validateSearchBoxTxt(AtntSearchBox.java:33)
+	at stepdefinitions.SearchBoxStepDefinition.i_validate_is_appear_properly(SearchBoxStepDefinition.java:78)
+	at ✽.I validate "\"Samsung Tablets\"" is appear properly(file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/SearchBox.feature:25)
+]]>
+        </failure>
+    </testcase>
+</testsuite>

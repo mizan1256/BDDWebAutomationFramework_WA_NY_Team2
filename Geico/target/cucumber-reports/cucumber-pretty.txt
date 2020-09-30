@@ -1,0 +1,294 @@
+
+@SmokeTest
+Scenario: Gecio Career button Check                             # src/test/java/features/Geico.feature:7
+  Given I am on Geico Homepage                                  # stepdefinitions.GeicoStepDefinition.i_am_on_geico_homepage()
+  And I click on Career button                                  # stepdefinitions.GeicoStepDefinition.i_click_on_career_button()
+  When I Click on Customer Service Button                       # stepdefinitions.GeicoStepDefinition.i_click_on_customer_service_button()
+  Then I validate Customer Service Careers text appear Properly # stepdefinitions.GeicoStepDefinition.i_validate_customer_service_careers_text_appear_properly()
+
+@SmokeTest
+Scenario: Geico searchBox functionality Check # src/test/java/features/GeicoHome.feature:7
+  Given I am on Geico homepage                # stepdefinitions.HomeStepDefinition.i_am_on_geico_homepage()
+  And I click searchlogo                      # stepdefinitions.HomeStepDefinition.i_click_searchlogo()
+  And I enter motorcycle in searchBox         # stepdefinitions.HomeStepDefinition.i_enter_motorcycle_in_search_box()
+  When I click searchButton                   # stepdefinitions.HomeStepDefinition.i_click_search_button()
+  Then I verify siteSearchText                # stepdefinitions.HomeStepDefinition.i_verify_site_search_text()
+
+@SmokeTest
+Scenario: Geico searchBox functionality Check # src/test/java/features/GeicoHome.feature:13
+  Given I am on Geico homepage                # stepdefinitions.HomeStepDefinition.i_am_on_geico_homepage()
+  And I click searchlogo                      # stepdefinitions.HomeStepDefinition.i_click_searchlogo()
+  And I enter "motorcycle" in searchBox       # stepdefinitions.HomeStepDefinition.i_enter_in_search_box(java.lang.String)
+  When I click searchButton                   # stepdefinitions.HomeStepDefinition.i_click_search_button()
+  Then I verify siteSearchText                # stepdefinitions.HomeStepDefinition.i_verify_site_search_text()
+
+@SmokeTest
+Scenario Outline: Geico searchBox functionality Check # src/test/java/features/GeicoHome.feature:27
+  Given I am on Geico homepage                        # stepdefinitions.HomeStepDefinition.i_am_on_geico_homepage()
+  And I click searchlogo                              # stepdefinitions.HomeStepDefinition.i_click_searchlogo()
+  And I enter "Motorcycle Insurance" in searchBox     # stepdefinitions.HomeStepDefinition.i_enter_in_search_box(java.lang.String)
+  When I click searchButton                           # stepdefinitions.HomeStepDefinition.i_click_search_button()
+  Then I verify siteSearchText                        # stepdefinitions.HomeStepDefinition.i_verify_site_search_text()
+
+@SmokeTest
+Scenario Outline: Geico searchBox functionality Check # src/test/java/features/GeicoHome.feature:28
+  Given I am on Geico homepage                        # stepdefinitions.HomeStepDefinition.i_am_on_geico_homepage()
+  And I click searchlogo                              # stepdefinitions.HomeStepDefinition.i_click_searchlogo()
+  And I enter "Car Insurance" in searchBox            # stepdefinitions.HomeStepDefinition.i_enter_in_search_box(java.lang.String)
+  When I click searchButton                           # stepdefinitions.HomeStepDefinition.i_click_search_button()
+  Then I verify siteSearchText                        # stepdefinitions.HomeStepDefinition.i_verify_site_search_text()
+
+@SmokeTest
+Scenario Outline: Geico searchBox functionality Check # src/test/java/features/GeicoHome.feature:29
+  Given I am on Geico homepage                        # stepdefinitions.HomeStepDefinition.i_am_on_geico_homepage()
+  And I click searchlogo                              # stepdefinitions.HomeStepDefinition.i_click_searchlogo()
+  And I enter "Condo Insurance" in searchBox          # stepdefinitions.HomeStepDefinition.i_enter_in_search_box(java.lang.String)
+  When I click searchButton                           # stepdefinitions.HomeStepDefinition.i_click_search_button()
+  Then I verify siteSearchText                        # stepdefinitions.HomeStepDefinition.i_verify_site_search_text()
+
+@SmokeTest
+Scenario Outline: Geico searchBox functionality Check # src/test/java/features/GeicoHome.feature:30
+  Given I am on Geico homepage                        # stepdefinitions.HomeStepDefinition.i_am_on_geico_homepage()
+  And I click searchlogo                              # stepdefinitions.HomeStepDefinition.i_click_searchlogo()
+  And I enter "life Insurance" in searchBox           # stepdefinitions.HomeStepDefinition.i_enter_in_search_box(java.lang.String)
+  When I click searchButton                           # stepdefinitions.HomeStepDefinition.i_click_search_button()
+  Then I verify siteSearchText                        # stepdefinitions.HomeStepDefinition.i_verify_site_search_text()
+
+@SmokeTest
+Scenario Outline: Geico searchBox functionality Check # src/test/java/features/GeicoHome.feature:31
+  Given I am on Geico homepage                        # stepdefinitions.HomeStepDefinition.i_am_on_geico_homepage()
+  And I click searchlogo                              # stepdefinitions.HomeStepDefinition.i_click_searchlogo()
+  And I enter "RV Insurance" in searchBox             # stepdefinitions.HomeStepDefinition.i_enter_in_search_box(java.lang.String)
+  When I click searchButton                           # stepdefinitions.HomeStepDefinition.i_click_search_button()
+  Then I verify siteSearchText                        # stepdefinitions.HomeStepDefinition.i_verify_site_search_text()
+
+@SmokeTest
+Scenario Outline: Geico searchBox functionality Check # src/test/java/features/GeicoHome.feature:32
+  Given I am on Geico homepage                        # stepdefinitions.HomeStepDefinition.i_am_on_geico_homepage()
+  And I click searchlogo                              # stepdefinitions.HomeStepDefinition.i_click_searchlogo()
+  And I enter "Flood Insurance" in searchBox          # stepdefinitions.HomeStepDefinition.i_enter_in_search_box(java.lang.String)
+  When I click searchButton                           # stepdefinitions.HomeStepDefinition.i_click_search_button()
+  Then I verify siteSearchText                        # stepdefinitions.HomeStepDefinition.i_verify_site_search_text()
+
+@SmokeTest
+Scenario Outline: Geico searchBox functionality Check # src/test/java/features/GeicoHome.feature:33
+  Given I am on Geico homepage                        # stepdefinitions.HomeStepDefinition.i_am_on_geico_homepage()
+  And I click searchlogo                              # stepdefinitions.HomeStepDefinition.i_click_searchlogo()
+  And I enter "Boat Insurance" in searchBox           # stepdefinitions.HomeStepDefinition.i_enter_in_search_box(java.lang.String)
+  When I click searchButton                           # stepdefinitions.HomeStepDefinition.i_click_search_button()
+  Then I verify siteSearchText                        # stepdefinitions.HomeStepDefinition.i_verify_site_search_text()
+
+@SmokeTest
+Scenario: Geico login functionality Check          # src/test/java/features/GeicoHome.feature:36
+  Given I am on Geico homepage                     # stepdefinitions.HomeStepDefinition.i_am_on_geico_homepage()
+  And I choose click on the arrow to choose policy # stepdefinitions.HomeStepDefinition.i_choose_click_on_the_arrow_to_choose_policy()
+  And I choose accessPolicy                        # stepdefinitions.HomeStepDefinition.i_choose_access_policy()
+  And I click on LoginOption                       # stepdefinitions.HomeStepDefinition.i_click_on_login_option()
+  And I enter userName and password                # stepdefinitions.HomeStepDefinition.i_enter_user_name_and_password()
+  When I click loginButton                         # stepdefinitions.HomeStepDefinition.i_click_login_button()
+  Then I verify title                              # stepdefinitions.HomeStepDefinition.i_verify_title()
+
+@SmokeTest
+Scenario Outline: Geico login functionality Check  # src/test/java/features/GeicoHome.feature:54
+  Given I am on Geico homepage                     # stepdefinitions.HomeStepDefinition.i_am_on_geico_homepage()
+  And I choose click on the arrow to choose policy # stepdefinitions.HomeStepDefinition.i_choose_click_on_the_arrow_to_choose_policy()
+  And I choose accessPolicy                        # stepdefinitions.HomeStepDefinition.i_choose_access_policy()
+  And I click on LoginOption                       # stepdefinitions.HomeStepDefinition.i_click_on_login_option()
+  And I enter "jfk11" and "1212"                   # stepdefinitions.HomeStepDefinition.i_enter_and(java.lang.String,java.lang.String)
+  When I click loginButton                         # stepdefinitions.HomeStepDefinition.i_click_login_button()
+  Then I verify title                              # stepdefinitions.HomeStepDefinition.i_verify_title()
+
+@SmokeTest
+Scenario Outline: Geico login functionality Check  # src/test/java/features/GeicoHome.feature:55
+  Given I am on Geico homepage                     # stepdefinitions.HomeStepDefinition.i_am_on_geico_homepage()
+  And I choose click on the arrow to choose policy # stepdefinitions.HomeStepDefinition.i_choose_click_on_the_arrow_to_choose_policy()
+  And I choose accessPolicy                        # stepdefinitions.HomeStepDefinition.i_choose_access_policy()
+  And I click on LoginOption                       # stepdefinitions.HomeStepDefinition.i_click_on_login_option()
+  And I enter "dac22" and "1313"                   # stepdefinitions.HomeStepDefinition.i_enter_and(java.lang.String,java.lang.String)
+  When I click loginButton                         # stepdefinitions.HomeStepDefinition.i_click_login_button()
+  Then I verify title                              # stepdefinitions.HomeStepDefinition.i_verify_title()
+
+@SmokeTest
+Scenario Outline: Geico login functionality Check  # src/test/java/features/GeicoHome.feature:56
+  Given I am on Geico homepage                     # stepdefinitions.HomeStepDefinition.i_am_on_geico_homepage()
+  And I choose click on the arrow to choose policy # stepdefinitions.HomeStepDefinition.i_choose_click_on_the_arrow_to_choose_policy()
+  And I choose accessPolicy                        # stepdefinitions.HomeStepDefinition.i_choose_access_policy()
+  And I click on LoginOption                       # stepdefinitions.HomeStepDefinition.i_click_on_login_option()
+  And I enter "lga33" and "1414"                   # stepdefinitions.HomeStepDefinition.i_enter_and(java.lang.String,java.lang.String)
+  When I click loginButton                         # stepdefinitions.HomeStepDefinition.i_click_login_button()
+  Then I verify title                              # stepdefinitions.HomeStepDefinition.i_verify_title()
+
+@SmokeTest
+Scenario Outline: Geico login functionality Check  # src/test/java/features/GeicoHome.feature:57
+  Given I am on Geico homepage                     # stepdefinitions.HomeStepDefinition.i_am_on_geico_homepage()
+  And I choose click on the arrow to choose policy # stepdefinitions.HomeStepDefinition.i_choose_click_on_the_arrow_to_choose_policy()
+  And I choose accessPolicy                        # stepdefinitions.HomeStepDefinition.i_choose_access_policy()
+  And I click on LoginOption                       # stepdefinitions.HomeStepDefinition.i_click_on_login_option()
+  And I enter "dxb44" and "1515"                   # stepdefinitions.HomeStepDefinition.i_enter_and(java.lang.String,java.lang.String)
+  When I click loginButton                         # stepdefinitions.HomeStepDefinition.i_click_login_button()
+  Then I verify title                              # stepdefinitions.HomeStepDefinition.i_verify_title()
+
+@SmokeTest
+Scenario Outline: Geico login functionality Check  # src/test/java/features/GeicoHome.feature:58
+  Given I am on Geico homepage                     # stepdefinitions.HomeStepDefinition.i_am_on_geico_homepage()
+  And I choose click on the arrow to choose policy # stepdefinitions.HomeStepDefinition.i_choose_click_on_the_arrow_to_choose_policy()
+  And I choose accessPolicy                        # stepdefinitions.HomeStepDefinition.i_choose_access_policy()
+  And I click on LoginOption                       # stepdefinitions.HomeStepDefinition.i_click_on_login_option()
+  And I enter "mxp55" and "1616"                   # stepdefinitions.HomeStepDefinition.i_enter_and(java.lang.String,java.lang.String)
+  When I click loginButton                         # stepdefinitions.HomeStepDefinition.i_click_login_button()
+  Then I verify title                              # stepdefinitions.HomeStepDefinition.i_verify_title()
+
+@SmokeTest
+Scenario Outline: Geico login functionality Check  # src/test/java/features/GeicoHome.feature:59
+  Given I am on Geico homepage                     # stepdefinitions.HomeStepDefinition.i_am_on_geico_homepage()
+  And I choose click on the arrow to choose policy # stepdefinitions.HomeStepDefinition.i_choose_click_on_the_arrow_to_choose_policy()
+  And I choose accessPolicy                        # stepdefinitions.HomeStepDefinition.i_choose_access_policy()
+  And I click on LoginOption                       # stepdefinitions.HomeStepDefinition.i_click_on_login_option()
+  And I enter "tlp66" and "1717"                   # stepdefinitions.HomeStepDefinition.i_enter_and(java.lang.String,java.lang.String)
+  When I click loginButton                         # stepdefinitions.HomeStepDefinition.i_click_login_button()
+  Then I verify title                              # stepdefinitions.HomeStepDefinition.i_verify_title()
+
+@SmokeTest
+Scenario: Geico login create account check with variable  # src/test/java/features/GeicoHome.feature:62
+  Given I am on Geico homepage                            # stepdefinitions.HomeStepDefinition.i_am_on_geico_homepage()
+  And I click on startHere                                # stepdefinitions.HomeStepDefinition.i_click_on_start_here()
+  And I enter "policyNumber", "dateOfBirth" and "zipCode" # stepdefinitions.HomeStepDefinition.i_enter_and(java.lang.String,java.lang.String,java.lang.String)
+  When I click continue                                   # stepdefinitions.HomeStepDefinition.i_click_continue()
+  Then I verify errorText on screen                       # stepdefinitions.HomeStepDefinition.i_verify_error_text_on_screen()
+
+@SmokeTest
+Scenario Outline: Geico login create account check with multiple variable # src/test/java/features/GeicoHome.feature:76
+  Given I am on Geico homepage                                            # stepdefinitions.HomeStepDefinition.i_am_on_geico_homepage()
+  And I click on startHere                                                # stepdefinitions.HomeStepDefinition.i_click_on_start_here()
+  And I enter "11111", "02141989" and "10021"                             # stepdefinitions.HomeStepDefinition.i_enter_and(java.lang.String,java.lang.String,java.lang.String)
+  When I click continue                                                   # stepdefinitions.HomeStepDefinition.i_click_continue()
+  Then I verify policyNumber on screen                                    # stepdefinitions.HomeStepDefinition.i_verify_policy_number_on_screen()
+
+@SmokeTest
+Scenario Outline: Geico login create account check with multiple variable # src/test/java/features/GeicoHome.feature:77
+  Given I am on Geico homepage                                            # stepdefinitions.HomeStepDefinition.i_am_on_geico_homepage()
+  And I click on startHere                                                # stepdefinitions.HomeStepDefinition.i_click_on_start_here()
+  And I enter "22222", "02141981" and "13422"                             # stepdefinitions.HomeStepDefinition.i_enter_and(java.lang.String,java.lang.String,java.lang.String)
+  When I click continue                                                   # stepdefinitions.HomeStepDefinition.i_click_continue()
+  Then I verify policyNumber on screen                                    # stepdefinitions.HomeStepDefinition.i_verify_policy_number_on_screen()
+
+@SmokeTest
+Scenario Outline: Geico login create account check with multiple variable # src/test/java/features/GeicoHome.feature:78
+  Given I am on Geico homepage                                            # stepdefinitions.HomeStepDefinition.i_am_on_geico_homepage()
+  And I click on startHere                                                # stepdefinitions.HomeStepDefinition.i_click_on_start_here()
+  And I enter "33333", "02141933" and "10656"                             # stepdefinitions.HomeStepDefinition.i_enter_and(java.lang.String,java.lang.String,java.lang.String)
+  When I click continue                                                   # stepdefinitions.HomeStepDefinition.i_click_continue()
+  Then I verify policyNumber on screen                                    # stepdefinitions.HomeStepDefinition.i_verify_policy_number_on_screen()
+
+@SmokeTest
+Scenario Outline: Geico login create account check with multiple variable # src/test/java/features/GeicoHome.feature:79
+  Given I am on Geico homepage                                            # stepdefinitions.HomeStepDefinition.i_am_on_geico_homepage()
+  And I click on startHere                                                # stepdefinitions.HomeStepDefinition.i_click_on_start_here()
+  And I enter "44444", "045641989" and "14429"                            # stepdefinitions.HomeStepDefinition.i_enter_and(java.lang.String,java.lang.String,java.lang.String)
+  When I click continue                                                   # stepdefinitions.HomeStepDefinition.i_click_continue()
+  Then I verify policyNumber on screen                                    # stepdefinitions.HomeStepDefinition.i_verify_policy_number_on_screen()
+
+@SmokeTest
+Scenario Outline: Geico login create account check with multiple variable # src/test/java/features/GeicoHome.feature:80
+  Given I am on Geico homepage                                            # stepdefinitions.HomeStepDefinition.i_am_on_geico_homepage()
+  And I click on startHere                                                # stepdefinitions.HomeStepDefinition.i_click_on_start_here()
+  And I enter "55555", "12941989" and "10568"                             # stepdefinitions.HomeStepDefinition.i_enter_and(java.lang.String,java.lang.String,java.lang.String)
+  When I click continue                                                   # stepdefinitions.HomeStepDefinition.i_click_continue()
+  Then I verify policyNumber on screen                                    # stepdefinitions.HomeStepDefinition.i_verify_policy_number_on_screen()
+
+@SmokeTest
+Scenario Outline: Geico login create account check with multiple variable # src/test/java/features/GeicoHome.feature:81
+  Given I am on Geico homepage                                            # stepdefinitions.HomeStepDefinition.i_am_on_geico_homepage()
+  And I click on startHere                                                # stepdefinitions.HomeStepDefinition.i_click_on_start_here()
+  And I enter "123666", "200041989" and "10237"                           # stepdefinitions.HomeStepDefinition.i_enter_and(java.lang.String,java.lang.String,java.lang.String)
+  When I click continue                                                   # stepdefinitions.HomeStepDefinition.i_click_continue()
+  Then I verify policyNumber on screen                                    # stepdefinitions.HomeStepDefinition.i_verify_policy_number_on_screen()
+
+@SmokeTest
+Scenario: Geico home page StartQuoteButton Check # src/test/java/features/GeicoHomeBBBB.feature:7
+  Given I am in Geico homepage.                  # stepdefinitions.GeicoBBBHomeStepDefinition.i_am_in_geico_homepage()
+  When I click on Start Quote                    # stepdefinitions.GeicoBBBHomeStepDefinition.i_click_on_start_quote()
+  Then I verify customer information page.       # stepdefinitions.GeicoBBBHomeStepDefinition.i_verify_customer_information_page()
+
+@SmokeTest
+Scenario: Geico Renters Button Check  # src/test/java/features/GeicoHomeBBBB.feature:12
+  Given I am in Geico homepage.       # stepdefinitions.GeicoBBBHomeStepDefinition.i_am_in_geico_homepage()
+  When I click on Start Quote         # stepdefinitions.GeicoBBBHomeStepDefinition.i_click_on_start_quote()
+  And I click on renters              # stepdefinitions.GeicoBBBHomeStepDefinition.i_click_on_renters()
+  Then i verify check mark on renters # stepdefinitions.GeicoBBBHomeStepDefinition.i_verify_check_mark_on_renters()
+      java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at geicohomeB.GeicoHome.validate_ClickOnRenters(GeicoHome.java:38)
+	at stepdefinitions.GeicoBBBHomeStepDefinition.i_verify_check_mark_on_renters(GeicoBBBHomeStepDefinition.java:58)
+	at ✽.i verify check mark on renters(file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHomeBBBB.feature:15)
+
+
+    Embedding Demo [image/png 88811 bytes]
+
+
+@SmokeTest
+Scenario: Geico zip code field Check # src/test/java/features/GeicoHomeBBBB.feature:18
+  Given I am in Geico homepage.      # stepdefinitions.GeicoBBBHomeStepDefinition.i_am_in_geico_homepage()
+  When I click on zip code           # stepdefinitions.GeicoBBBHomeStepDefinition.i_click_on_zip_code()
+  And I type zip code                # stepdefinitions.GeicoBBBHomeStepDefinition.i_type_zip_code()
+      org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=85.0.4183.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-16QDF0HT', ip: '192.168.1.159', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\jonho\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56859}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 069fb391edd849d1376c12a0c2ef6d6f
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy26.clear(Unknown Source)
+	at geicohomeB.GeicoHome.enterZipCode(GeicoHome.java:79)
+	at stepdefinitions.GeicoBBBHomeStepDefinition.i_type_zip_code(GeicoBBBHomeStepDefinition.java:91)
+	at ✽.I type zip code(file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHomeBBBB.feature:20)
+
+  And I hit enter on keyboard        # stepdefinitions.GeicoBBBHomeStepDefinition.i_hit_enter_on_keyboard()
+  Then i verify zip code result page # stepdefinitions.GeicoBBBHomeStepDefinition.i_verify_zip_code_result_page()
+
+    Embedding Demo [image/png 315507 bytes]
+
+
+@SmokeTest
+Scenario: Geico location Icon Check     # src/test/java/features/GeicoHomeBBBB.feature:25
+  Given I am in Geico homepage.         # stepdefinitions.GeicoBBBHomeStepDefinition.i_am_in_geico_homepage()
+  When I click on Icon logo             # stepdefinitions.GeicoBBBHomeStepDefinition.i_click_on_icon_logo()
+  Then I type zip code                  # stepdefinitions.GeicoBBBHomeStepDefinition.i_type_zip_code()
+  And I click on Update button          # stepdefinitions.GeicoBBBHomeStepDefinition.i_click_on_update_button()
+  Then i verify updated location result # stepdefinitions.GeicoBBBHomeStepDefinition.i_verify_updated_location_result()
+
+@SmokeTest
+Scenario: Geico location Icon Check with invalid data # src/test/java/features/GeicoHomeBBBB.feature:32
+  Given I am in Geico homepage.                       # stepdefinitions.GeicoBBBHomeStepDefinition.i_am_in_geico_homepage()
+  When I click on Icon logo                           # stepdefinitions.GeicoBBBHomeStepDefinition.i_click_on_icon_logo()
+  Then I type invalid zip code                        # stepdefinitions.GeicoBBBHomeStepDefinition.i_type_invalid_zip_code()
+  And I click on Update button                        # stepdefinitions.GeicoBBBHomeStepDefinition.i_click_on_update_button()
+  Then i verify error message                         # stepdefinitions.GeicoBBBHomeStepDefinition.i_verify_error_message()
+      org.junit.ComparisonFailure: no match found expected:<[Sorry, we couldn't find that ZIP code. Please try again.]> but was:<[]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at geicohomeB.GeicoHome.validate_ClickOnIconInvalid(GeicoHome.java:97)
+	at stepdefinitions.GeicoBBBHomeStepDefinition.i_verify_error_message(GeicoBBBHomeStepDefinition.java:112)
+	at ✽.i verify error message(file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHomeBBBB.feature:36)
+
+
+    Embedding Demo [image/png 303113 bytes]
+

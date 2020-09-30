@@ -587,4 +587,8 @@ public class WebAPI {
     }
 
 
+    public static void selectDateByJS1(WebDriver driver, WebElement element, String dateValue, String returnValue){
+        JavascriptExecutor js=((JavascriptExecutor)driver);
+        js.executeScript("arguments[0].setAttribute('value','"+dateValue+"','"+returnValue+"');",element);
+    }
 }

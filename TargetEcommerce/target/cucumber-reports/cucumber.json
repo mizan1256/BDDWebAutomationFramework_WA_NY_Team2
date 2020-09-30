@@ -1,0 +1,639 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "I am on targetEcommerce home page",
+            "match": {},
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-26T07:07:52.269Z",
+        "line": 55,
+        "name": "Login into att using Data Driven",
+        "description": "",
+        "id": "targetecommerce-home-page-functionality-test;login-into-att-using-data-driven;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 48,
+            "name": "I am on signIn page",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 49,
+            "name": "I enter email as \"admin@yourstore.com\" and password as \"admin\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 50,
+            "name": "I click on signIn button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 998300,
+              "status": "skipped"
+            },
+            "line": 51,
+            "name": "I should be getting a message",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "I am on targetEcommerce home page",
+            "match": {},
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-26T07:07:52.451Z",
+        "line": 56,
+        "name": "Login into att using Data Driven",
+        "description": "",
+        "id": "targetecommerce-home-page-functionality-test;login-into-att-using-data-driven;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 999400,
+              "status": "skipped"
+            },
+            "line": 48,
+            "name": "I am on signIn page",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4000900,
+              "status": "skipped"
+            },
+            "line": 49,
+            "name": "I enter email as \"mizan@gmail.com\" and password as \"15021972\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000700,
+              "status": "skipped"
+            },
+            "line": 50,
+            "name": "I click on signIn button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 51,
+            "name": "I should be getting a message",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "I am on targetEcommerce home page",
+            "match": {},
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-26T07:07:52.486Z",
+        "line": 57,
+        "name": "Login into att using Data Driven",
+        "description": "",
+        "id": "targetecommerce-home-page-functionality-test;login-into-att-using-data-driven;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 48,
+            "name": "I am on signIn page",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 998800,
+              "status": "skipped"
+            },
+            "line": 49,
+            "name": "I enter email as \"mohammd@gmail.com\" and password as \"01012010\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000400,
+              "status": "skipped"
+            },
+            "line": 50,
+            "name": "I click on signIn button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 51,
+            "name": "I should be getting a message",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "I am on targetEcommerce home page",
+            "match": {},
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-26T07:07:52.509Z",
+        "line": 60,
+        "name": "Target shoppingCart logo functionality check",
+        "description": "",
+        "id": "targetecommerce-home-page-functionality-test;target-shoppingcart-logo-functionality-check",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1001500,
+              "status": "skipped"
+            },
+            "line": 61,
+            "name": "I click on shopping cart Icon",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 62,
+            "name": "I validate shopping cart page",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "I am on targetEcommerce home page",
+            "match": {},
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-26T07:07:52.538Z",
+        "line": 65,
+        "name": "Target Shopping Cart log in functionality check",
+        "description": "",
+        "id": "targetecommerce-home-page-functionality-test;target-shopping-cart-log-in-functionality-check",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 66,
+            "name": "I click on shopping cart Icon",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 67,
+            "name": "I click on shopping cart signIn button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 68,
+            "name": "I enter email as \"mizan_1256@yahoo.com\" and password as \"Tasmi@1256\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 999600,
+              "status": "skipped"
+            },
+            "line": 69,
+            "name": "I validate shopping cart log in page",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "TargetEcommerce Home page Functionality test",
+    "description": "",
+    "id": "targetecommerce-home-page-functionality-test",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/Home.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "I click on pickUp and delivery button",
+            "match": {},
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-26T07:07:52.562Z",
+        "line": 9,
+        "name": "Order pickUp home page check",
+        "description": "",
+        "id": "targetecommerce-pickup-and-delivery-functionality-check;order-pickup-home-page-check",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1006800,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "I click on Order pickUp button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 999900,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "I validate order pickUp home page",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "I click on pickUp and delivery button",
+            "match": {},
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-26T07:07:52.583Z",
+        "line": 14,
+        "name": "Oder pickUp searchBox functionality check",
+        "description": "",
+        "id": "targetecommerce-pickup-and-delivery-functionality-check;oder-pickup-searchbox-functionality-check",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "I do necessary steps to land on oder pickUp home page",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 998700,
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "I enter \"655473634747\" as order number in order searchBox and click searchBox Icon",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000500,
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "I validate search result message",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "I click on pickUp and delivery button",
+            "match": {},
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-26T07:07:52.603Z",
+        "line": 20,
+        "name": "Same day delivery page check",
+        "description": "",
+        "id": "targetecommerce-pickup-and-delivery-functionality-check;same-day-delivery-page-check",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1004300,
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "I click on same day delivery button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "I validate \"Get it as soon as 10am\" as same day delivery home page",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "I click on pickUp and delivery button",
+            "match": {},
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-26T07:07:52.624Z",
+        "line": 25,
+        "name": "Same day delivery signIn functionality check",
+        "description": "",
+        "id": "targetecommerce-pickup-and-delivery-functionality-check;same-day-delivery-signin-functionality-check",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "I do necessary steps to land on signIn page",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "I enter \"mizan_1256@yahoo.com\" as email and \"Tasmi1256\" as password",
+            "match": {},
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "I click on pickUp and delivery button",
+            "match": {},
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-26T07:07:52.634Z",
+        "line": 31,
+        "name": "Drive Up home page check",
+        "description": "",
+        "id": "targetecommerce-pickup-and-delivery-functionality-check;drive-up-home-page-check",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 998700,
+              "status": "skipped"
+            },
+            "line": 32,
+            "name": "I click on drive up button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 33,
+            "name": "I validate drive up home page Title",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "TargetEcommerce PickUp And Delivery functionality check",
+    "description": "",
+    "id": "targetecommerce-pickup-and-delivery-functionality-check",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/TargetPickUp.feature",
+    "tags": []
+  }
+]

@@ -8,9 +8,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = {"src/test/java/features"}, //the path of the feature files
         glue = "stepdefinitions", //the path of the step definition files
-// plugin = {"html:target/cucumber-html-report.html", "json:target/cucumber.json", "pretty:target/cucumber-pretty.txt",
-// "usage:target/cucumber-usage.json", "junit:target/cucumber-results.xml"},
-        plugin = {"pretty",
+     plugin = {"pretty",
                 "json:target/cucumber-reports/cucumber.json",
                 "html:target/cucumber-reports/index.html",
                 "pretty:target/cucumber-reports/cucumber-pretty.txt",
@@ -21,9 +19,6 @@ import org.junit.runner.RunWith;
         dryRun = false,
         publish = true,
         tags = "(@SmokeTest or Regression) and (not @pending)"
-// tags = " ( @Regression or @smokeTest ) and not @pending "
-// tags = {"@Regression or @smokeTest or "}
-// tags={"@Test1,@Test2"}
 
 )
 

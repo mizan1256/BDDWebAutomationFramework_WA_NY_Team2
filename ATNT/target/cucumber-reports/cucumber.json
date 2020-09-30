@@ -1,0 +1,4341 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 10147685700,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 41007000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.AtntStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 3001600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.RegistrationDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 2000100,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.SearchBoxStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "I am in att homepage",
+            "match": {
+              "location": "stepdefinitions.RegistrationDefinition.i_am_in_att_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-26T07:15:05.556Z",
+        "line": 7,
+        "name": "Att deals button Functionality check with valid data",
+        "description": "",
+        "id": "feature:-att-homepage-functionality-check;att-deals-button-functionality-check-with-valid-data",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2223252200,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.AtntStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.RegistrationDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 999600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.SearchBoxStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 8,
+            "name": "I click Deals Button",
+            "match": {
+              "location": "stepdefinitions.AtntStepDefinition.i_click_deals_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 240018300,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 3001000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.AtntStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1001300,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.RegistrationDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.SearchBoxStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 9,
+            "name": "I verify Wireless is appear properly",
+            "match": {
+              "location": "stepdefinitions.AtntStepDefinition.i_verify_wireless_is_appear_properly()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 310025300,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.AtntStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.RegistrationDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 998600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.SearchBoxStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 10,
+            "name": "I verify page title as AT\u0026T Deals on Phones, Wireless Plans, Internet \u0026 TV Services",
+            "match": {
+              "location": "stepdefinitions.AtntStepDefinition.i_verify_page_title_as_at_t_deals_on_phones_wireless_plans_internet_tv_services()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8750732900,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1001900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.AtntStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.RegistrationDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.SearchBoxStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "I am in att homepage",
+            "match": {
+              "location": "stepdefinitions.RegistrationDefinition.i_am_in_att_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-26T07:15:18.686Z",
+        "line": 13,
+        "name": "Att Wireless button Functionality check with valid data",
+        "description": "",
+        "id": "feature:-att-homepage-functionality-check;att-wireless-button-functionality-check-with-valid-data",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3940276000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 999600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.AtntStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.RegistrationDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1001900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.SearchBoxStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 14,
+            "name": "I click Wireless Button",
+            "match": {
+              "location": "stepdefinitions.AtntStepDefinition.i_click_wireless_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 526588000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2001100,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.AtntStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.RegistrationDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.SearchBoxStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 15,
+            "name": "I verify LEARN HOW TO is appear properly",
+            "match": {
+              "location": "stepdefinitions.AtntStepDefinition.i_verify_learn_how_to_is_appear_properly()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 74013500,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1999400,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.AtntStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1001300,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.RegistrationDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.SearchBoxStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 16,
+            "name": "I verify page title as AT\u0026T Wireless – Latest Phones \u0026 Best Wireless Plans",
+            "match": {
+              "location": "stepdefinitions.AtntStepDefinition.i_verify_page_title_as_at_t_wireless_latest_phones_best_wireless_plans()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8980294000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 988900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.AtntStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.RegistrationDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1000700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.SearchBoxStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "I am in att homepage",
+            "match": {
+              "location": "stepdefinitions.RegistrationDefinition.i_am_in_att_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-26T07:15:32.026Z",
+        "line": 19,
+        "name": "Att Internet button Functionality check with valid data",
+        "description": "",
+        "id": "feature:-att-homepage-functionality-check;att-internet-button-functionality-check-with-valid-data",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2704233400,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2999100,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.AtntStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.RegistrationDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.SearchBoxStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 20,
+            "name": "I click internet Button",
+            "match": {
+              "location": "stepdefinitions.AtntStepDefinition.i_click_internet_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 557045700,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 999800,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.AtntStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.RegistrationDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 999500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.SearchBoxStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 21,
+            "name": "I verify AT\u0026T INTERNET is appear properly",
+            "match": {
+              "location": "stepdefinitions.AtntStepDefinition.i_verify_at_t_internet_is_appear_properly()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 27001200,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2000700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.AtntStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1000800,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.RegistrationDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.SearchBoxStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 22,
+            "name": "I verify page title as AT\u0026T Internet Plans - Home Internet - AT\u0026T® Official Site",
+            "match": {
+              "location": "stepdefinitions.AtntStepDefinition.i_verify_page_title_as_at_t_internet_plans_home_internet_at_t_official_site()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 9346611900,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 999200,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.AtntStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1000100,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.RegistrationDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.SearchBoxStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "I am in att homepage",
+            "match": {
+              "location": "stepdefinitions.RegistrationDefinition.i_am_in_att_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-26T07:15:44.353Z",
+        "line": 25,
+        "name": "Att TV button Functionality check with valid data",
+        "description": "",
+        "id": "feature:-att-homepage-functionality-check;att-tv-button-functionality-check-with-valid-data",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5270237200,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1222000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.AtntStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 779800,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.RegistrationDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.SearchBoxStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 26,
+            "name": "I click TV Button",
+            "match": {
+              "location": "stepdefinitions.AtntStepDefinition.i_click_tv_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2975101100,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1001300,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.AtntStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.RegistrationDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.SearchBoxStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 27,
+            "name": "I click on shop now button",
+            "match": {
+              "location": "stepdefinitions.AtntStepDefinition.i_click_on_shop_now_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5264409800,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1878600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.AtntStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1000700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.RegistrationDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 997600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.SearchBoxStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 28,
+            "name": "I verify Choose a TV package is appear properly",
+            "match": {
+              "location": "stepdefinitions.AtntStepDefinition.i_verify_choose_a_tv_package_is_appear_properly()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7989900,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 986300,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.AtntStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.RegistrationDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.SearchBoxStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 29,
+            "name": "I verify page title as Shop AT\u0026T Bundles",
+            "match": {
+              "location": "stepdefinitions.AtntStepDefinition.i_verify_page_title_as_shop_at_t_bundles()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "Feature: Att HomePage Functionality check",
+    "description": "",
+    "id": "feature:-att-homepage-functionality-check",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/Atnt.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 9328278900,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 984000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.AtntStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.RegistrationDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.SearchBoxStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "I am in att homepage",
+            "match": {
+              "location": "stepdefinitions.RegistrationDefinition.i_am_in_att_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-26T07:16:07.257Z",
+        "line": 8,
+        "name": "Atnt Sign Up Functionality check with invalid credentials",
+        "description": "",
+        "id": "atnt-home-page-sign-up-functionality-check;atnt-sign-up-functionality-check-with-invalid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.InvalidSelectorException: invalid selector: An invalid or illegal selector was specified\n  (Session info: chrome\u003d85.0.4183.121)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-16QDF0HT\u0027, ip: \u0027192.168.1.159\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.4\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\\Users\\jonho\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61319}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: fbd3eec216a519df47409b26efb365ae\n*** Element info: {Using\u003dcss selector, value\u003d//*[@id\u003d\"z1-profile-open\"]/i[2]}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)\r\n\tat org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat common.WebAPI.clickOnElement(WebAPI.java:226)\r\n\tat atnthome.AtntHome.accountIconButton(AtntHome.java:11)\r\n\tat stepdefinitions.RegistrationDefinition.i_click_account_icon(RegistrationDefinition.java:51)\r\n\tat ✽.I click accountIcon(file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/AtntRegistration.feature:9)\r\n",
+              "duration": 80914600800,
+              "status": "failed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 999700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.AtntStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.RegistrationDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.SearchBoxStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 9,
+            "name": "I click accountIcon",
+            "match": {
+              "location": "stepdefinitions.RegistrationDefinition.i_click_account_icon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepdefinitions.AtntStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepdefinitions.RegistrationDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepdefinitions.SearchBoxStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 10,
+            "name": "I click singInButton",
+            "match": {
+              "location": "stepdefinitions.RegistrationDefinition.i_click_sing_in_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepdefinitions.AtntStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepdefinitions.RegistrationDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepdefinitions.SearchBoxStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 11,
+            "name": "I click on CreateButton",
+            "match": {
+              "location": "stepdefinitions.RegistrationDefinition.i_click_on_create_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepdefinitions.AtntStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepdefinitions.RegistrationDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepdefinitions.SearchBoxStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 12,
+            "name": "I click wireless radioButton and continueButton",
+            "match": {
+              "location": "stepdefinitions.RegistrationDefinition.i_click_wireless_radio_button_and_continue_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepdefinitions.AtntStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepdefinitions.RegistrationDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepdefinitions.SearchBoxStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 13,
+            "name": "I enter phoneNumber and zipCode",
+            "match": {
+              "location": "stepdefinitions.RegistrationDefinition.i_enter_phone_number_and_zip_code()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepdefinitions.AtntStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepdefinitions.RegistrationDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepdefinitions.SearchBoxStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 14,
+            "name": "I click continueButton",
+            "match": {
+              "location": "stepdefinitions.RegistrationDefinition.i_click_continue_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 999400,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepdefinitions.AtntStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepdefinitions.RegistrationDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepdefinitions.SearchBoxStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 15,
+            "name": "I should be get en error message",
+            "match": {
+              "location": "stepdefinitions.RegistrationDefinition.i_should_be_get_en_error_message()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 9693922400,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1006000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.AtntStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.RegistrationDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.SearchBoxStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "I am in att homepage",
+            "match": {
+              "location": "stepdefinitions.RegistrationDefinition.i_am_in_att_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-26T07:17:37.546Z",
+        "line": 18,
+        "name": "Check signIn with invalid credentials",
+        "description": "",
+        "id": "atnt-home-page-sign-up-functionality-check;check-signin-with-invalid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.InvalidSelectorException: invalid selector: An invalid or illegal selector was specified\n  (Session info: chrome\u003d85.0.4183.121)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-16QDF0HT\u0027, ip: \u0027192.168.1.159\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.4\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\\Users\\jonho\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61456}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 7e63e562538966d0998738c2f8a5e807\n*** Element info: {Using\u003dcss selector, value\u003d//*[@id\u003d\"z1-profile-open\"]/i[2]}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)\r\n\tat org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat common.WebAPI.clickOnElement(WebAPI.java:226)\r\n\tat atnthome.AtntHome.accountIconButton(AtntHome.java:11)\r\n\tat stepdefinitions.RegistrationDefinition.i_on_sign_in_page(RegistrationDefinition.java:94)\r\n\tat ✽.I on signIn page(file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/AtntRegistration.feature:19)\r\n",
+              "duration": 80556883400,
+              "status": "failed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 999700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.AtntStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 999900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.RegistrationDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1123800,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.SearchBoxStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 19,
+            "name": "I on signIn page",
+            "match": {
+              "location": "stepdefinitions.RegistrationDefinition.i_on_sign_in_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepdefinitions.AtntStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepdefinitions.RegistrationDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepdefinitions.SearchBoxStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 20,
+            "name": "I enter userName and passWord",
+            "match": {
+              "location": "stepdefinitions.RegistrationDefinition.i_enter_user_name_and_pass_word()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepdefinitions.AtntStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepdefinitions.RegistrationDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepdefinitions.SearchBoxStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 21,
+            "name": "I click on signIn button",
+            "match": {
+              "location": "stepdefinitions.RegistrationDefinition.i_click_on_sign_in_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepdefinitions.AtntStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepdefinitions.RegistrationDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepdefinitions.SearchBoxStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 22,
+            "name": "I am getting error message",
+            "match": {
+              "location": "stepdefinitions.RegistrationDefinition.i_am_getting_error_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 9656131300,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1012100,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.AtntStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.RegistrationDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 997300,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.SearchBoxStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "I am in att homepage",
+            "match": {
+              "location": "stepdefinitions.RegistrationDefinition.i_am_in_att_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-26T07:19:07.843Z",
+        "line": 33,
+        "name": "Login into att using Data Driven",
+        "description": "",
+        "id": "atnt-home-page-sign-up-functionality-check;login-into-att-using-data-driven;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.InvalidSelectorException: invalid selector: An invalid or illegal selector was specified\n  (Session info: chrome\u003d85.0.4183.121)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-16QDF0HT\u0027, ip: \u0027192.168.1.159\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.4\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\\Users\\jonho\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61575}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 2e059e89e9f8c453eeeb758eb36dcdf8\n*** Element info: {Using\u003dcss selector, value\u003d//*[@id\u003d\"z1-profile-open\"]/i[2]}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)\r\n\tat org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat common.WebAPI.clickOnElement(WebAPI.java:226)\r\n\tat atnthome.AtntHome.accountIconButton(AtntHome.java:11)\r\n\tat stepdefinitions.RegistrationDefinition.i_on_sign_in_page(RegistrationDefinition.java:94)\r\n\tat ✽.I on signIn page(file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/AtntRegistration.feature:26)\r\n",
+              "duration": 81395899800,
+              "status": "failed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.AtntStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.RegistrationDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.SearchBoxStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 26,
+            "name": "I on signIn page",
+            "match": {
+              "location": "stepdefinitions.RegistrationDefinition.i_on_sign_in_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepdefinitions.AtntStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepdefinitions.RegistrationDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepdefinitions.SearchBoxStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 27,
+            "name": "I enter email as \"admin@pnt.com\" and password as \"admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin@pnt.com\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"admin\"",
+                  "offset": 49
+                }
+              ],
+              "location": "stepdefinitions.RegistrationDefinition.i_enter_email_as_and_password_as(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 998800,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000600,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepdefinitions.AtntStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepdefinitions.RegistrationDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepdefinitions.SearchBoxStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 28,
+            "name": "I click on signIn button",
+            "match": {
+              "location": "stepdefinitions.RegistrationDefinition.i_click_on_sign_in_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepdefinitions.AtntStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepdefinitions.RegistrationDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepdefinitions.SearchBoxStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 29,
+            "name": "I am getting error message",
+            "match": {
+              "location": "stepdefinitions.RegistrationDefinition.i_am_getting_error_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 9010103800,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 999300,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.AtntStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.RegistrationDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.SearchBoxStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "I am in att homepage",
+            "match": {
+              "location": "stepdefinitions.RegistrationDefinition.i_am_in_att_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-26T07:20:38.941Z",
+        "line": 34,
+        "name": "Login into att using Data Driven",
+        "description": "",
+        "id": "atnt-home-page-sign-up-functionality-check;login-into-att-using-data-driven;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.InvalidSelectorException: invalid selector: An invalid or illegal selector was specified\n  (Session info: chrome\u003d85.0.4183.121)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-16QDF0HT\u0027, ip: \u0027192.168.1.159\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.4\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\\Users\\jonho\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61714}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 7a26ff8668cb56ac65458c78a1d4b355\n*** Element info: {Using\u003dcss selector, value\u003d//*[@id\u003d\"z1-profile-open\"]/i[2]}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)\r\n\tat org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat common.WebAPI.clickOnElement(WebAPI.java:226)\r\n\tat atnthome.AtntHome.accountIconButton(AtntHome.java:11)\r\n\tat stepdefinitions.RegistrationDefinition.i_on_sign_in_page(RegistrationDefinition.java:94)\r\n\tat ✽.I on signIn page(file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/AtntRegistration.feature:26)\r\n",
+              "duration": 81621808200,
+              "status": "failed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 999700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.AtntStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.RegistrationDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.SearchBoxStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 26,
+            "name": "I on signIn page",
+            "match": {
+              "location": "stepdefinitions.RegistrationDefinition.i_on_sign_in_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepdefinitions.AtntStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepdefinitions.RegistrationDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepdefinitions.SearchBoxStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 27,
+            "name": "I enter email as \"oalKarim@gmail.com\" and password as \"15021972\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"oalKarim@gmail.com\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"15021972\"",
+                  "offset": 54
+                }
+              ],
+              "location": "stepdefinitions.RegistrationDefinition.i_enter_email_as_and_password_as(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepdefinitions.AtntStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepdefinitions.RegistrationDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepdefinitions.SearchBoxStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 28,
+            "name": "I click on signIn button",
+            "match": {
+              "location": "stepdefinitions.RegistrationDefinition.i_click_on_sign_in_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepdefinitions.AtntStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepdefinitions.RegistrationDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1010300,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepdefinitions.SearchBoxStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 29,
+            "name": "I am getting error message",
+            "match": {
+              "location": "stepdefinitions.RegistrationDefinition.i_am_getting_error_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 10859447800,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.AtntStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1001000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.RegistrationDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.SearchBoxStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "I am in att homepage",
+            "match": {
+              "location": "stepdefinitions.RegistrationDefinition.i_am_in_att_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-26T07:22:09.610Z",
+        "line": 35,
+        "name": "Login into att using Data Driven",
+        "description": "",
+        "id": "atnt-home-page-sign-up-functionality-check;login-into-att-using-data-driven;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.InvalidSelectorException: invalid selector: An invalid or illegal selector was specified\n  (Session info: chrome\u003d85.0.4183.121)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-16QDF0HT\u0027, ip: \u0027192.168.1.159\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.4\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\\Users\\jonho\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61845}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 26ed16403b119fc20fe12df954f9c431\n*** Element info: {Using\u003dcss selector, value\u003d//*[@id\u003d\"z1-profile-open\"]/i[2]}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)\r\n\tat org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat common.WebAPI.clickOnElement(WebAPI.java:226)\r\n\tat atnthome.AtntHome.accountIconButton(AtntHome.java:11)\r\n\tat stepdefinitions.RegistrationDefinition.i_on_sign_in_page(RegistrationDefinition.java:94)\r\n\tat ✽.I on signIn page(file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/AtntRegistration.feature:26)\r\n",
+              "duration": 81386560300,
+              "status": "failed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.AtntStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.RegistrationDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.SearchBoxStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 26,
+            "name": "I on signIn page",
+            "match": {
+              "location": "stepdefinitions.RegistrationDefinition.i_on_sign_in_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepdefinitions.AtntStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepdefinitions.RegistrationDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepdefinitions.SearchBoxStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 27,
+            "name": "I enter email as \"mikedavid@gmail.com\" and password as \"01012010\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mikedavid@gmail.com\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"01012010\"",
+                  "offset": 55
+                }
+              ],
+              "location": "stepdefinitions.RegistrationDefinition.i_enter_email_as_and_password_as(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepdefinitions.AtntStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepdefinitions.RegistrationDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepdefinitions.SearchBoxStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 28,
+            "name": "I click on signIn button",
+            "match": {
+              "location": "stepdefinitions.RegistrationDefinition.i_click_on_sign_in_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepdefinitions.AtntStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepdefinitions.RegistrationDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepdefinitions.SearchBoxStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 29,
+            "name": "I am getting error message",
+            "match": {
+              "location": "stepdefinitions.RegistrationDefinition.i_am_getting_error_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 9889423900,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.AtntStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.RegistrationDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.SearchBoxStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "I am in att homepage",
+            "match": {
+              "location": "stepdefinitions.RegistrationDefinition.i_am_in_att_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-26T07:23:41.875Z",
+        "line": 38,
+        "name": "Att menu burgerButton test",
+        "description": "",
+        "id": "atnt-home-page-sign-up-functionality-check;att-menu-burgerbutton-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 847071500,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1997800,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.AtntStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.RegistrationDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.SearchBoxStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 39,
+            "name": "I click on burgerButton",
+            "match": {
+              "location": "stepdefinitions.RegistrationDefinition.i_click_on_burger_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 684054300,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.AtntStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.RegistrationDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.SearchBoxStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 40,
+            "name": "I select wireless and click on Explore Wireless",
+            "match": {
+              "location": "stepdefinitions.RegistrationDefinition.i_select_wireless_and_click_on_explore_wireless()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 35003600,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1001000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.AtntStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.RegistrationDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.SearchBoxStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 41,
+            "name": "I verify page title",
+            "match": {
+              "location": "stepdefinitions.RegistrationDefinition.i_verify_page_title()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "Atnt home page sign up Functionality check",
+    "description": "",
+    "id": "atnt-home-page-sign-up-functionality-check",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/AtntRegistration.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 9742769100,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1003500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.AtntStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.RegistrationDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 999000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.SearchBoxStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "I am in att homepage",
+            "match": {
+              "location": "stepdefinitions.RegistrationDefinition.i_am_in_att_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-26T07:23:53.370Z",
+        "line": 8,
+        "name": "Att searchBox functionality check with valid data",
+        "description": "",
+        "id": "att-search-functionality;att-searchbox-functionality-check-with-valid-data",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "io.cucumber.core.exception.CucumberException: Step [I enter Apple iPhone {int} in searchBox] is defined with 0 parameters at \u0027stepdefinitions.SearchBoxStepDefinition.i_enter_iphone_in_search_box()\u0027.\nHowever, the gherkin step has 1 arguments:\n * 11\nStep text: I enter Apple iPhone 11 in searchBox\r\n\tat io.cucumber.core.runner.PickleStepDefinitionMatch.arityMismatch(PickleStepDefinitionMatch.java:83)\r\n\tat io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:42)\r\n\tat io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)\r\n\tat io.cucumber.core.runner.TestStep.run(TestStep.java:63)\r\n\tat io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:49)\r\n\tat io.cucumber.core.runner.TestCase.run(TestCase.java:99)\r\n\tat io.cucumber.core.runner.Runner.runPickle(Runner.java:71)\r\n\tat io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:199)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:234)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\r\n\tat com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)\r\n\tat com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)\r\n\tat com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:230)\r\n\tat com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:58)\r\n",
+              "status": "failed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.AtntStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.RegistrationDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1000100,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.SearchBoxStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 9,
+            "name": "I enter Apple iPhone 11 in searchBox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "11",
+                  "offset": 21
+                }
+              ],
+              "location": "stepdefinitions.SearchBoxStepDefinition.i_enter_iphone_in_search_box()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000200,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepdefinitions.AtntStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepdefinitions.RegistrationDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepdefinitions.SearchBoxStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 10,
+            "name": "I click searchButton",
+            "match": {
+              "location": "stepdefinitions.SearchBoxStepDefinition.i_click_search_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepdefinitions.AtntStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepdefinitions.RegistrationDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepdefinitions.SearchBoxStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 11,
+            "name": "I verify Apple iPhone 11 is appear properly",
+            "match": {
+              "arguments": [
+                {
+                  "val": "11",
+                  "offset": 22
+                }
+              ],
+              "location": "stepdefinitions.SearchBoxStepDefinition.i_verify_apple_i_phone_is_appear_properly(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepdefinitions.AtntStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 999800,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepdefinitions.RegistrationDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepdefinitions.SearchBoxStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 12,
+            "name": "I verify page title as iphone 11",
+            "match": {
+              "arguments": [
+                {
+                  "val": "11",
+                  "offset": 30
+                }
+              ],
+              "location": "stepdefinitions.SearchBoxStepDefinition.i_verify_page_title_as_iphone(java.lang.Integer)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 9333950400,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.AtntStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 997900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.RegistrationDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.SearchBoxStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "I am in att homepage",
+            "match": {
+              "location": "stepdefinitions.RegistrationDefinition.i_am_in_att_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-26T07:24:03.153Z",
+        "line": 15,
+        "name": "Att searchBox functionality check with valid data",
+        "description": "",
+        "id": "att-search-functionality;att-searchbox-functionality-check-with-valid-data",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 947077000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.AtntStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.RegistrationDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.SearchBoxStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 16,
+            "name": "I enter \"Apple iPhone 11\" in searchBox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Apple iPhone 11\"",
+                  "offset": 8
+                }
+              ],
+              "location": "stepdefinitions.SearchBoxStepDefinition.i_enter_in_search_box(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6659396000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.AtntStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 996200,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.RegistrationDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.SearchBoxStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 17,
+            "name": "I click searchButton",
+            "match": {
+              "location": "stepdefinitions.SearchBoxStepDefinition.i_click_search_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 245014100,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1007200,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.AtntStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 996400,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.RegistrationDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 997600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.SearchBoxStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 18,
+            "name": "I validate \"Apple iPhone 11\" is appear properly",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Apple iPhone 11\"",
+                  "offset": 11
+                }
+              ],
+              "location": "stepdefinitions.SearchBoxStepDefinition.i_validate_is_appear_properly(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1115626400,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.AtntStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 920900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.RegistrationDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.SearchBoxStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 19,
+            "name": "I validate page title as iphone 11",
+            "match": {
+              "arguments": [
+                {
+                  "val": "11",
+                  "offset": 32
+                }
+              ],
+              "location": "stepdefinitions.SearchBoxStepDefinition.i_validate_page_title_as_iphone(java.lang.Integer)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 11042057800,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1006700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.AtntStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 992100,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.RegistrationDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.SearchBoxStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "I am in att homepage",
+            "match": {
+              "location": "stepdefinitions.RegistrationDefinition.i_am_in_att_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-26T07:24:21.481Z",
+        "line": 30,
+        "name": "Att searchBox check with multiple value using data driven",
+        "description": "",
+        "id": "att-search-functionality;att-searchbox-check-with-multiple-value-using-data-driven;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 994082500,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 975000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.AtntStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.RegistrationDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.SearchBoxStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 23,
+            "name": "I enter \"Apple iPhone 11\" in searchBox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Apple iPhone 11\"",
+                  "offset": 8
+                }
+              ],
+              "location": "stepdefinitions.SearchBoxStepDefinition.i_enter_in_search_box(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3569127600,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 999600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.AtntStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.RegistrationDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 998100,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.SearchBoxStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 24,
+            "name": "I click searchButton",
+            "match": {
+              "location": "stepdefinitions.SearchBoxStepDefinition.i_click_search_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "io.cucumber.core.exception.CucumberException: Could not invoke step [I validate \"Showing results for \"Apple iPhone {int}\".\" is appear properly] defined at \u0027stepdefinitions.SearchBoxStepDefinition.i_validate_showing_results_for_apple_i_phone_is_appear_properly(java.lang.String)\u0027.\nIt appears there was a problem with the step definition.\nThe converted arguments types were (java.lang.Integer)\r\n\tat io.cucumber.core.runner.PickleStepDefinitionMatch.couldNotInvokeStep(PickleStepDefinitionMatch.java:130)\r\n\tat io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:65)\r\n\tat io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)\r\n\tat io.cucumber.core.runner.TestStep.run(TestStep.java:63)\r\n\tat io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:49)\r\n\tat io.cucumber.core.runner.TestCase.run(TestCase.java:99)\r\n\tat io.cucumber.core.runner.Runner.runPickle(Runner.java:71)\r\n\tat io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:199)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:234)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\r\n\tat com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)\r\n\tat com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)\r\n\tat com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:230)\r\n\tat com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:58)\r\nCaused by: io.cucumber.core.backend.CucumberBackendException: Failed to invoke public void stepdefinitions.SearchBoxStepDefinition.i_validate_showing_results_for_apple_i_phone_is_appear_properly(java.lang.String)\r\n\tat io.cucumber.java.Invoker.doInvoke(Invoker.java:68)\r\n\tat io.cucumber.java.Invoker.invoke(Invoker.java:24)\r\n\tat io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)\r\n\tat io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)\r\n\tat io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)\r\n\tat io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)\r\n\t... 30 more\r\nCaused by: java.lang.IllegalArgumentException: argument type mismatch\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\r\n\tat io.cucumber.java.Invoker.doInvoke(Invoker.java:66)\r\n\t... 35 more\r\n",
+              "duration": 3003200,
+              "status": "failed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 3000900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.AtntStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.RegistrationDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 999400,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.SearchBoxStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 25,
+            "name": "I validate \"Showing results for \"Apple iPhone 11\".\" is appear properly",
+            "match": {
+              "arguments": [
+                {
+                  "val": "11",
+                  "offset": 46
+                }
+              ],
+              "location": "stepdefinitions.SearchBoxStepDefinition.i_validate_showing_results_for_apple_i_phone_is_appear_properly(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepdefinitions.AtntStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepdefinitions.RegistrationDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepdefinitions.SearchBoxStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 26,
+            "name": "I validate page title as \"Results for Apple iPhones 11 - AT\u0026T Search\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Results for Apple iPhones 11 - AT\u0026T Search\"",
+                  "offset": 25
+                }
+              ],
+              "location": "stepdefinitions.SearchBoxStepDefinition.i_validate_page_title_as(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 9358730600,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1001200,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.AtntStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.RegistrationDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.SearchBoxStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "I am in att homepage",
+            "match": {
+              "location": "stepdefinitions.RegistrationDefinition.i_am_in_att_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-26T07:24:37.217Z",
+        "line": 31,
+        "name": "Att searchBox check with multiple value using data driven",
+        "description": "",
+        "id": "att-search-functionality;att-searchbox-check-with-multiple-value-using-data-driven;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 973570400,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.AtntStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.RegistrationDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.SearchBoxStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 23,
+            "name": "I enter \"Apple iPhone 10\" in searchBox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Apple iPhone 10\"",
+                  "offset": 8
+                }
+              ],
+              "location": "stepdefinitions.SearchBoxStepDefinition.i_enter_in_search_box(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6642364000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1001100,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.AtntStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.RegistrationDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.SearchBoxStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 24,
+            "name": "I click searchButton",
+            "match": {
+              "location": "stepdefinitions.SearchBoxStepDefinition.i_click_search_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.AtntStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.RegistrationDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.SearchBoxStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 25,
+            "name": "I validate \"Showing results for \"Apple iphone 10\".\" is appear properly",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepdefinitions.AtntStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepdefinitions.RegistrationDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 998600,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepdefinitions.SearchBoxStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 26,
+            "name": "I validate page title as \"Results for Apple iPhones 10 - AT\u0026T Search\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Results for Apple iPhones 10 - AT\u0026T Search\"",
+                  "offset": 25
+                }
+              ],
+              "location": "stepdefinitions.SearchBoxStepDefinition.i_validate_page_title_as(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 10228676500,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.AtntStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.RegistrationDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.SearchBoxStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "I am in att homepage",
+            "match": {
+              "location": "stepdefinitions.RegistrationDefinition.i_am_in_att_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-26T07:24:54.218Z",
+        "line": 32,
+        "name": "Att searchBox check with multiple value using data driven",
+        "description": "",
+        "id": "att-search-functionality;att-searchbox-check-with-multiple-value-using-data-driven;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1010114400,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1002700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.AtntStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.RegistrationDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.SearchBoxStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 23,
+            "name": "I enter \"Samsung Phones\" in searchBox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Samsung Phones\"",
+                  "offset": 8
+                }
+              ],
+              "location": "stepdefinitions.SearchBoxStepDefinition.i_enter_in_search_box(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5796913400,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.AtntStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 929800,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.RegistrationDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.SearchBoxStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 24,
+            "name": "I click searchButton",
+            "match": {
+              "location": "stepdefinitions.SearchBoxStepDefinition.i_click_search_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.junit.ComparisonFailure: Search Item not match expected:\u003c...howing results for \"[Samsung Phones]\".\u003e but was:\u003c...howing results for \"[Apple iPhone 11]\".\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat atntsearchbox.AtntSearchBox.validateSearchBoxTxt(AtntSearchBox.java:33)\r\n\tat stepdefinitions.SearchBoxStepDefinition.i_validate_is_appear_properly(SearchBoxStepDefinition.java:78)\r\n\tat ✽.I validate \"\\\"Samsung Phones\\\"\" is appear properly(file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/SearchBox.feature:25)\r\n",
+              "duration": 308977400,
+              "status": "failed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.AtntStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1050000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.RegistrationDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.SearchBoxStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 25,
+            "name": "I validate \"\\\"Samsung Phones\\\"\" is appear properly",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\\\"Samsung Phones\\\"\"",
+                  "offset": 11
+                }
+              ],
+              "location": "stepdefinitions.SearchBoxStepDefinition.i_validate_is_appear_properly(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepdefinitions.AtntStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepdefinitions.RegistrationDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepdefinitions.SearchBoxStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 26,
+            "name": "I validate page title as \"Results for Samsung Phones - AT\u0026T Search\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Results for Samsung Phones - AT\u0026T Search\"",
+                  "offset": 25
+                }
+              ],
+              "location": "stepdefinitions.SearchBoxStepDefinition.i_validate_page_title_as(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 9861083000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.AtntStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.RegistrationDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1003400,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.SearchBoxStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "I am in att homepage",
+            "match": {
+              "location": "stepdefinitions.RegistrationDefinition.i_am_in_att_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-26T07:25:11.593Z",
+        "line": 33,
+        "name": "Att searchBox check with multiple value using data driven",
+        "description": "",
+        "id": "att-search-functionality;att-searchbox-check-with-multiple-value-using-data-driven;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1158095200,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 997300,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.AtntStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.RegistrationDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 999700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.SearchBoxStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 23,
+            "name": "I enter \"Apple Watches\" in searchBox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Apple Watches\"",
+                  "offset": 8
+                }
+              ],
+              "location": "stepdefinitions.SearchBoxStepDefinition.i_enter_in_search_box(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6339524400,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.AtntStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.RegistrationDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1001700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.SearchBoxStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 24,
+            "name": "I click searchButton",
+            "match": {
+              "location": "stepdefinitions.SearchBoxStepDefinition.i_click_search_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.junit.ComparisonFailure: Search Item not match expected:\u003c... results for \"Apple [Watches]\".\u003e but was:\u003c... results for \"Apple [iPhone 11]\".\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat atntsearchbox.AtntSearchBox.validateSearchBoxTxt(AtntSearchBox.java:33)\r\n\tat stepdefinitions.SearchBoxStepDefinition.i_validate_is_appear_properly(SearchBoxStepDefinition.java:78)\r\n\tat ✽.I validate \"\\\"Apple Watches\\\"\" is appear properly(file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/SearchBox.feature:25)\r\n",
+              "duration": 642317800,
+              "status": "failed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.AtntStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.RegistrationDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.SearchBoxStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 25,
+            "name": "I validate \"\\\"Apple Watches\\\"\" is appear properly",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\\\"Apple Watches\\\"\"",
+                  "offset": 11
+                }
+              ],
+              "location": "stepdefinitions.SearchBoxStepDefinition.i_validate_is_appear_properly(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepdefinitions.AtntStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepdefinitions.RegistrationDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepdefinitions.SearchBoxStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 26,
+            "name": "I validate page title as \"Results for Apple Watches - AT\u0026T Search\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Results for Apple Watches - AT\u0026T Search\"",
+                  "offset": 25
+                }
+              ],
+              "location": "stepdefinitions.SearchBoxStepDefinition.i_validate_page_title_as(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 9912056200,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2000200,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.AtntStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.RegistrationDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1001200,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.SearchBoxStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "I am in att homepage",
+            "match": {
+              "location": "stepdefinitions.RegistrationDefinition.i_am_in_att_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-26T07:25:29.621Z",
+        "line": 34,
+        "name": "Att searchBox check with multiple value using data driven",
+        "description": "",
+        "id": "att-search-functionality;att-searchbox-check-with-multiple-value-using-data-driven;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1154615900,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.AtntStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.RegistrationDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.SearchBoxStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 23,
+            "name": "I enter \"Apple ipads\" in searchBox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Apple ipads\"",
+                  "offset": 8
+                }
+              ],
+              "location": "stepdefinitions.SearchBoxStepDefinition.i_enter_in_search_box(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8714221300,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1001500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.AtntStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.RegistrationDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.SearchBoxStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 24,
+            "name": "I click searchButton",
+            "match": {
+              "location": "stepdefinitions.SearchBoxStepDefinition.i_click_search_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.junit.ComparisonFailure: Search Item not match expected:\u003c...results for \"Apple i[pads]\".\u003e but was:\u003c...results for \"Apple i[Phone 11]\".\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat atntsearchbox.AtntSearchBox.validateSearchBoxTxt(AtntSearchBox.java:33)\r\n\tat stepdefinitions.SearchBoxStepDefinition.i_validate_is_appear_properly(SearchBoxStepDefinition.java:78)\r\n\tat ✽.I validate \"\\\"Apple ipads\\\"\" is appear properly(file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/SearchBox.feature:25)\r\n",
+              "duration": 775064200,
+              "status": "failed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.AtntStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.RegistrationDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.SearchBoxStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 25,
+            "name": "I validate \"\\\"Apple ipads\\\"\" is appear properly",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\\\"Apple ipads\\\"\"",
+                  "offset": 11
+                }
+              ],
+              "location": "stepdefinitions.SearchBoxStepDefinition.i_validate_is_appear_properly(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1004100,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 999800,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepdefinitions.AtntStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepdefinitions.RegistrationDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepdefinitions.SearchBoxStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 26,
+            "name": "I validate page title as \"Results for Apple ipads - AT\u0026T Search\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Results for Apple ipads - AT\u0026T Search\"",
+                  "offset": 25
+                }
+              ],
+              "location": "stepdefinitions.SearchBoxStepDefinition.i_validate_page_title_as(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 9815809400,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1957100,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.AtntStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.RegistrationDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.SearchBoxStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "I am in att homepage",
+            "match": {
+              "location": "stepdefinitions.RegistrationDefinition.i_am_in_att_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-26T07:25:50.218Z",
+        "line": 35,
+        "name": "Att searchBox check with multiple value using data driven",
+        "description": "",
+        "id": "att-search-functionality;att-searchbox-check-with-multiple-value-using-data-driven;;7",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1019081400,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.AtntStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.RegistrationDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.SearchBoxStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 23,
+            "name": "I enter \"iphone 11 Pro Max\" in searchBox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"iphone 11 Pro Max\"",
+                  "offset": 8
+                }
+              ],
+              "location": "stepdefinitions.SearchBoxStepDefinition.i_enter_in_search_box(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7734402800,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.AtntStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.RegistrationDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.SearchBoxStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 24,
+            "name": "I click searchButton",
+            "match": {
+              "location": "stepdefinitions.SearchBoxStepDefinition.i_click_search_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.junit.ComparisonFailure: Search Item not match expected:\u003c...howing results for \"[iphone 11 Pro Max]\".\u003e but was:\u003c...howing results for \"[Apple iPhone 11]\".\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat atntsearchbox.AtntSearchBox.validateSearchBoxTxt(AtntSearchBox.java:33)\r\n\tat stepdefinitions.SearchBoxStepDefinition.i_validate_is_appear_properly(SearchBoxStepDefinition.java:78)\r\n\tat ✽.I validate \"\\\"iphone 11 Pro Max\\\"\" is appear properly(file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/SearchBox.feature:25)\r\n",
+              "duration": 267027700,
+              "status": "failed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.AtntStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.RegistrationDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.SearchBoxStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 25,
+            "name": "I validate \"\\\"iphone 11 Pro Max\\\"\" is appear properly",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\\\"iphone 11 Pro Max\\\"\"",
+                  "offset": 11
+                }
+              ],
+              "location": "stepdefinitions.SearchBoxStepDefinition.i_validate_is_appear_properly(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepdefinitions.AtntStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepdefinitions.RegistrationDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepdefinitions.SearchBoxStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 26,
+            "name": "I validate page title as \"Results for iphone 11 Pro Max - AT\u0026T Search\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Results for iphone 11 Pro Max - AT\u0026T Search\"",
+                  "offset": 25
+                }
+              ],
+              "location": "stepdefinitions.SearchBoxStepDefinition.i_validate_page_title_as(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 10466435900,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.AtntStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.RegistrationDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.SearchBoxStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "I am in att homepage",
+            "match": {
+              "location": "stepdefinitions.RegistrationDefinition.i_am_in_att_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-26T07:26:09.080Z",
+        "line": 36,
+        "name": "Att searchBox check with multiple value using data driven",
+        "description": "",
+        "id": "att-search-functionality;att-searchbox-check-with-multiple-value-using-data-driven;;8",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 972030000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.AtntStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.RegistrationDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.SearchBoxStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 23,
+            "name": "I enter \"Samsung Tablets\" in searchBox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Samsung Tablets\"",
+                  "offset": 8
+                }
+              ],
+              "location": "stepdefinitions.SearchBoxStepDefinition.i_enter_in_search_box(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6334086600,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.AtntStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.RegistrationDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1003800,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.SearchBoxStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 24,
+            "name": "I click searchButton",
+            "match": {
+              "location": "stepdefinitions.SearchBoxStepDefinition.i_click_search_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.junit.ComparisonFailure: Search Item not match expected:\u003c...howing results for \"[Samsung Tablets]\".\u003e but was:\u003c...howing results for \"[Apple iPhone 11]\".\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat atntsearchbox.AtntSearchBox.validateSearchBoxTxt(AtntSearchBox.java:33)\r\n\tat stepdefinitions.SearchBoxStepDefinition.i_validate_is_appear_properly(SearchBoxStepDefinition.java:78)\r\n\tat ✽.I validate \"\\\"Samsung Tablets\\\"\" is appear properly(file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/ATNT/src/test/java/features/SearchBox.feature:25)\r\n",
+              "duration": 265022100,
+              "status": "failed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 998400,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.AtntStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1002700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.RegistrationDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 997100,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepdefinitions.SearchBoxStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 25,
+            "name": "I validate \"\\\"Samsung Tablets\\\"\" is appear properly",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\\\"Samsung Tablets\\\"\"",
+                  "offset": 11
+                }
+              ],
+              "location": "stepdefinitions.SearchBoxStepDefinition.i_validate_is_appear_properly(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepdefinitions.AtntStepDefinition.getInIt()"
+                }
+              },
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepdefinitions.RegistrationDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepdefinitions.SearchBoxStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 26,
+            "name": "I validate page title as \"Results for Samsung Tablets - AT\u0026T Search\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Results for Samsung Tablets - AT\u0026T Search\"",
+                  "offset": 25
+                }
+              ],
+              "location": "stepdefinitions.SearchBoxStepDefinition.i_validate_page_title_as(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "Att search functionality",
+    "description": "",
+    "id": "att-search-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/SearchBox.feature",
+    "tags": []
+  }
+]

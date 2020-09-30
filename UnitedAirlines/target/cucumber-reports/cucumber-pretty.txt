@@ -1,0 +1,212 @@
+
+@SmokeTest
+Scenario: United Airlines SignIn functionality test        # src/test/java/features/UnitedAirRegistration.feature:9
+  Given I am on United Airlines home page                  # stepdefinitions.UAHomeStepDefinition.i_am_on_united_airlines_home_page()
+  When I click on signIn button                            # stepdefinitions.UnitedAirStepDefinition.i_click_on_sign_in_button()
+  And I click on join now and use title                    # stepdefinitions.UnitedAirStepDefinition.i_click_on_join_now_and_use_title()
+  And I use data in member information field               # stepdefinitions.UnitedAirStepDefinition.i_use_data_in_member_information_field(io.cucumber.datatable.DataTable)
+  And month and gender field is selected                   # stepdefinitions.UnitedAirStepDefinition.month_and_gender_field_is_selected()
+  Then I validate Contact Information is appeared properly # stepdefinitions.UnitedAirStepDefinition.i_validate_contact_information_is_appeared_properly()
+
+@SmokeTest
+Scenario: United Airlines contact information test # src/test/java/features/UnitedAirRegistration.feature:18
+  Given I am on United Airlines home page          # stepdefinitions.UAHomeStepDefinition.i_am_on_united_airlines_home_page()
+  When I click on signIn button                    # stepdefinitions.UnitedAirStepDefinition.i_click_on_sign_in_button()
+  And I click on join now and use title            # stepdefinitions.UnitedAirStepDefinition.i_click_on_join_now_and_use_title()
+  When I entered data in Contact Information field # stepdefinitions.UnitedAirStepDefinition.i_entered_data_in_contact_information_field(io.cucumber.datatable.DataTable)
+  Then I validate "Phone number" appear properly   # stepdefinitions.UnitedAirStepDefinition.i_validate_appear_properly(java.lang.String)
+
+@SmokeTest
+Scenario: United Airlines contact information test  # src/test/java/features/UnitedAirRegistration.feature:26
+  Given I am on United Airlines home page           # stepdefinitions.UAHomeStepDefinition.i_am_on_united_airlines_home_page()
+  When I click on signIn button                     # stepdefinitions.UnitedAirStepDefinition.i_click_on_sign_in_button()
+  And I click on join now and use title             # stepdefinitions.UnitedAirStepDefinition.i_click_on_join_now_and_use_title()
+  And I entered data in phone number field          # stepdefinitions.UnitedAirStepDefinition.i_entered_data_in_phone_number_field(io.cucumber.datatable.DataTable)
+  And I click on check box field                    # stepdefinitions.UnitedAirStepDefinition.i_click_on_check_box_field()
+  Then I verify "Email information" appear properly # stepdefinitions.UnitedAirStepDefinition.i_verify_appear_properly(java.lang.String)
+
+@SmokeTest
+Scenario: United Airlines contact information test    # src/test/java/features/UnitedAirRegistration.feature:35
+  Given I am on United Airlines home page             # stepdefinitions.UAHomeStepDefinition.i_am_on_united_airlines_home_page()
+  When I click on signIn button                       # stepdefinitions.UnitedAirStepDefinition.i_click_on_sign_in_button()
+  And I click on join now and use title               # stepdefinitions.UnitedAirStepDefinition.i_click_on_join_now_and_use_title()
+  And I entered data in email field                   # stepdefinitions.UnitedAirStepDefinition.i_entered_data_in_email_field(io.cucumber.datatable.DataTable)
+  And I click on check box and uncheck box            # stepdefinitions.UnitedAirStepDefinition.i_click_on_check_box_and_uncheck_box()
+  And I entered data in password field                # stepdefinitions.UnitedAirStepDefinition.i_entered_data_in_password_field(io.cucumber.datatable.DataTable)
+  And I click on Show button                          # stepdefinitions.UnitedAirStepDefinition.i_click_on_show_button()
+  Then I verify "Security questions" display properly # stepdefinitions.UnitedAirStepDefinition.i_verify_display_properly(java.lang.String)
+
+@SmokeTest
+Scenario: United Airlines contact information test # src/test/java/features/UnitedAirRegistration.feature:48
+  Given I am on United Airlines home page          # stepdefinitions.UAHomeStepDefinition.i_am_on_united_airlines_home_page()
+  When I click on signIn button                    # stepdefinitions.UnitedAirStepDefinition.i_click_on_sign_in_button()
+  And I click on join now and use title            # stepdefinitions.UnitedAirStepDefinition.i_click_on_join_now_and_use_title()
+  And I entered data in answer field               # stepdefinitions.UnitedAirStepDefinition.i_entered_data_in_answer_field(io.cucumber.datatable.DataTable)
+      org.openqa.selenium.NoSuchElementException: Cannot locate element with text: What is your favorite sport?
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-16QDF0HT', ip: '192.168.1.159', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.4'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
+	at common.WebAPI.selectOptionByVisibleText(WebAPI.java:416)
+	at unitedairregistration.UnitedAirRegistrationPage.questionAndAnswer1(UnitedAirRegistrationPage.java:185)
+	at stepdefinitions.UnitedAirStepDefinition.i_entered_data_in_answer_field(UnitedAirStepDefinition.java:134)
+	at ✽.I entered data in answer field(file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirRegistration.feature:50)
+
+  And I click on accept and enroll button          # stepdefinitions.UnitedAirStepDefinition.i_click_on_accept_and_enroll_button()
+
+    Embedding Demo [image/png 131651 bytes]
+
+
+@SmokeTest
+Scenario: UnitedAirlines Book a hotel functionality check # src/test/java/features/UnitedAirlinesHome.feature:5
+  Given I am on United Airlines home page                 # stepdefinitions.UAHomeStepDefinition.i_am_on_united_airlines_home_page()
+  When I click on Book button                             # stepdefinitions.UAHomeStepDefinition.i_click_on_book_button()
+  And I click on Hotels button                            # stepdefinitions.UAHomeStepDefinition.i_click_on_hotels_button()
+  And I entered "Miami Beach" on searchBox & submit.      # stepdefinitions.UAHomeStepDefinition.i_entered_on_search_box_submit(java.lang.String)
+  Then I verify  Miami Beach landing page                 # stepdefinitions.UAHomeStepDefinition.i_verify_miami_beach_landing_page()
+  Given I am on United homepage                           # null
+
+@SmokeTest
+Scenario: United login functionality Check # src/test/java/features/UnitedAirlinesHome.feature:15
+  Given I am on United Airlines home page  # stepdefinitions.UAHomeStepDefinition.i_am_on_united_airlines_home_page()
+  And I click on signInOption              # stepdefinitions.UAHomeStepDefinition.i_click_on_sign_in_option()
+  And I enter userName and password        # stepdefinitions.UAHomeStepDefinition.i_enter_user_name_and_password()
+  When I click loginButton                 # stepdefinitions.UAHomeStepDefinition.i_click_login_button()
+  Then I verify image                      # stepdefinitions.UAHomeStepDefinition.i_verify_image()
+
+@SmokeTest
+Scenario: United login functionality Check with variable # src/test/java/features/UnitedAirlinesHome.feature:23
+  Given I am on United Airlines home page                # stepdefinitions.UAHomeStepDefinition.i_am_on_united_airlines_home_page()
+  And I click on signInOption                            # stepdefinitions.UAHomeStepDefinition.i_click_on_sign_in_option()
+  And I enter "userName" and "password"                  # stepdefinitions.UAHomeStepDefinition.i_enter_and(java.lang.String,java.lang.String)
+  When I click loginButton                               # stepdefinitions.UAHomeStepDefinition.i_click_login_button()
+  Then I verify image                                    # stepdefinitions.UAHomeStepDefinition.i_verify_image()
+
+@SmokeTest
+Scenario Outline: United login functionality Check with multiple variable # src/test/java/features/UnitedAirlinesHome.feature:38
+  Given I am on United Airlines home page                                 # stepdefinitions.UAHomeStepDefinition.i_am_on_united_airlines_home_page()
+  And I click on signInOption                                             # stepdefinitions.UAHomeStepDefinition.i_click_on_sign_in_option()
+  And I enter "jhosn01" and "abc123"                                      # stepdefinitions.UAHomeStepDefinition.i_enter_and(java.lang.String,java.lang.String)
+  When I click loginButton                                                # stepdefinitions.UAHomeStepDefinition.i_click_login_button()
+  Then I verify image                                                     # stepdefinitions.UAHomeStepDefinition.i_verify_image()
+
+@SmokeTest
+Scenario Outline: United login functionality Check with multiple variable # src/test/java/features/UnitedAirlinesHome.feature:39
+  Given I am on United Airlines home page                                 # stepdefinitions.UAHomeStepDefinition.i_am_on_united_airlines_home_page()
+  And I click on signInOption                                             # stepdefinitions.UAHomeStepDefinition.i_click_on_sign_in_option()
+  And I enter "jhosn12" and "def124"                                      # stepdefinitions.UAHomeStepDefinition.i_enter_and(java.lang.String,java.lang.String)
+  When I click loginButton                                                # stepdefinitions.UAHomeStepDefinition.i_click_login_button()
+  Then I verify image                                                     # stepdefinitions.UAHomeStepDefinition.i_verify_image()
+
+@SmokeTest
+Scenario Outline: United login functionality Check with multiple variable # src/test/java/features/UnitedAirlinesHome.feature:40
+  Given I am on United Airlines home page                                 # stepdefinitions.UAHomeStepDefinition.i_am_on_united_airlines_home_page()
+  And I click on signInOption                                             # stepdefinitions.UAHomeStepDefinition.i_click_on_sign_in_option()
+  And I enter "jhosn03" and "ght125"                                      # stepdefinitions.UAHomeStepDefinition.i_enter_and(java.lang.String,java.lang.String)
+  When I click loginButton                                                # stepdefinitions.UAHomeStepDefinition.i_click_login_button()
+  Then I verify image                                                     # stepdefinitions.UAHomeStepDefinition.i_verify_image()
+
+@SmokeTest
+Scenario Outline: United login functionality Check with multiple variable # src/test/java/features/UnitedAirlinesHome.feature:41
+  Given I am on United Airlines home page                                 # stepdefinitions.UAHomeStepDefinition.i_am_on_united_airlines_home_page()
+  And I click on signInOption                                             # stepdefinitions.UAHomeStepDefinition.i_click_on_sign_in_option()
+  And I enter "jhosn04" and "fjk126"                                      # stepdefinitions.UAHomeStepDefinition.i_enter_and(java.lang.String,java.lang.String)
+  When I click loginButton                                                # stepdefinitions.UAHomeStepDefinition.i_click_login_button()
+  Then I verify image                                                     # stepdefinitions.UAHomeStepDefinition.i_verify_image()
+
+@SmokeTest
+Scenario Outline: United login functionality Check with multiple variable # src/test/java/features/UnitedAirlinesHome.feature:42
+  Given I am on United Airlines home page                                 # stepdefinitions.UAHomeStepDefinition.i_am_on_united_airlines_home_page()
+  And I click on signInOption                                             # stepdefinitions.UAHomeStepDefinition.i_click_on_sign_in_option()
+  And I enter "jhosn05" and "dac127"                                      # stepdefinitions.UAHomeStepDefinition.i_enter_and(java.lang.String,java.lang.String)
+  When I click loginButton                                                # stepdefinitions.UAHomeStepDefinition.i_click_login_button()
+  Then I verify image                                                     # stepdefinitions.UAHomeStepDefinition.i_verify_image()
+
+@SmokeTest
+Scenario Outline: United login functionality Check with multiple variable # src/test/java/features/UnitedAirlinesHome.feature:43
+  Given I am on United Airlines home page                                 # stepdefinitions.UAHomeStepDefinition.i_am_on_united_airlines_home_page()
+  And I click on signInOption                                             # stepdefinitions.UAHomeStepDefinition.i_click_on_sign_in_option()
+  And I enter "jhosn07" and "ert123"                                      # stepdefinitions.UAHomeStepDefinition.i_enter_and(java.lang.String,java.lang.String)
+  When I click loginButton                                                # stepdefinitions.UAHomeStepDefinition.i_click_login_button()
+  Then I verify image                                                     # stepdefinitions.UAHomeStepDefinition.i_verify_image()
+
+@SmokeTest
+Scenario: United search functionality Check with variable # src/test/java/features/UnitedAirlinesHome.feature:46
+  Given I am on United Airlines home page                 # stepdefinitions.UAHomeStepDefinition.i_am_on_united_airlines_home_page()
+  And i click on the searchLogo                           # stepdefinitions.UAHomeStepDefinition.i_click_on_the_search_logo()
+  And I enter "airlines" in the searchBox                 # stepdefinitions.UAHomeStepDefinition.i_enter_in_the_search_box(java.lang.String)
+  When I click searchButton                               # stepdefinitions.UAHomeStepDefinition.i_click_search_button()
+  Then I verify searchText                                # stepdefinitions.UAHomeStepDefinition.i_verify_search_text()
+
+@SmokeTest
+Scenario Outline: United search functionality Check with variable # src/test/java/features/UnitedAirlinesHome.feature:61
+  Given I am on United Airlines home page                         # stepdefinitions.UAHomeStepDefinition.i_am_on_united_airlines_home_page()
+  And i click on the searchLogo                                   # stepdefinitions.UAHomeStepDefinition.i_click_on_the_search_logo()
+  And I enter "airlines" in the searchBox                         # stepdefinitions.UAHomeStepDefinition.i_enter_in_the_search_box(java.lang.String)
+  When I click searchButton                                       # stepdefinitions.UAHomeStepDefinition.i_click_search_button()
+  Then I verify searchText                                        # stepdefinitions.UAHomeStepDefinition.i_verify_search_text()
+
+@SmokeTest
+Scenario Outline: United search functionality Check with variable # src/test/java/features/UnitedAirlinesHome.feature:62
+  Given I am on United Airlines home page                         # stepdefinitions.UAHomeStepDefinition.i_am_on_united_airlines_home_page()
+  And i click on the searchLogo                                   # stepdefinitions.UAHomeStepDefinition.i_click_on_the_search_logo()
+  And I enter "flights" in the searchBox                          # stepdefinitions.UAHomeStepDefinition.i_enter_in_the_search_box(java.lang.String)
+  When I click searchButton                                       # stepdefinitions.UAHomeStepDefinition.i_click_search_button()
+  Then I verify searchText                                        # stepdefinitions.UAHomeStepDefinition.i_verify_search_text()
+
+@SmokeTest
+Scenario Outline: United search functionality Check with variable # src/test/java/features/UnitedAirlinesHome.feature:63
+  Given I am on United Airlines home page                         # stepdefinitions.UAHomeStepDefinition.i_am_on_united_airlines_home_page()
+  And i click on the searchLogo                                   # stepdefinitions.UAHomeStepDefinition.i_click_on_the_search_logo()
+  And I enter "airline partner" in the searchBox                  # stepdefinitions.UAHomeStepDefinition.i_enter_in_the_search_box(java.lang.String)
+  When I click searchButton                                       # stepdefinitions.UAHomeStepDefinition.i_click_search_button()
+  Then I verify searchText                                        # stepdefinitions.UAHomeStepDefinition.i_verify_search_text()
+
+@SmokeTest
+Scenario Outline: United search functionality Check with variable # src/test/java/features/UnitedAirlinesHome.feature:64
+  Given I am on United Airlines home page                         # stepdefinitions.UAHomeStepDefinition.i_am_on_united_airlines_home_page()
+  And i click on the searchLogo                                   # stepdefinitions.UAHomeStepDefinition.i_click_on_the_search_logo()
+  And I enter "flight delays" in the searchBox                    # stepdefinitions.UAHomeStepDefinition.i_enter_in_the_search_box(java.lang.String)
+  When I click searchButton                                       # stepdefinitions.UAHomeStepDefinition.i_click_search_button()
+  Then I verify searchText                                        # stepdefinitions.UAHomeStepDefinition.i_verify_search_text()
+
+@SmokeTest
+Scenario: United round trip flights functionality Check # src/test/java/features/UnitedAirlinesHome.feature:69
+  Given I am on United Airlines home page               # stepdefinitions.UAHomeStepDefinition.i_am_on_united_airlines_home_page()
+  And I enter location To*                              # stepdefinitions.UAHomeStepDefinition.i_enter_location_to()
+      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#\/\/input\[\@placeholder\=\'To\*\'\]"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-16QDF0HT', ip: '192.168.1.159', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\jonho\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55202}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 6919097066da9941492893e22aea27c2
+*** Element info: {Using=id, value=//input[@placeholder='To*']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at common.WebAPI.clearField(WebAPI.java:279)
+	at unitedairlineshome.UnitedAirlinesHomePage.enterToLocationToSearchFlight(UnitedAirlinesHomePage.java:140)
+	at stepdefinitions.UAHomeStepDefinition.i_enter_location_to(UAHomeStepDefinition.java:114)
+	at ✽.I enter location To*(file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/UnitedAirlines/src/test/java/features/UnitedAirlinesHome.feature:71)
+
+  And I clear enter departDate                          # stepdefinitions.UAHomeStepDefinition.i_clear_enter_depart_date()
+  And I clear enter returnDate                          # stepdefinitions.UAHomeStepDefinition.i_clear_enter_return_date()
+  When I click findFlights                              # stepdefinitions.UAHomeStepDefinition.i_click_find_flights()
+  Then I verify SearchFlightsTitle                      # stepdefinitions.UAHomeStepDefinition.i_verify_search_flights_title()
+
+    Embedding Demo [image/png 1220338 bytes]
+

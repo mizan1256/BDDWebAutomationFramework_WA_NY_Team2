@@ -1,0 +1,414 @@
+[
+  {
+    "source": "I am in CNN home page",
+    "steps": [
+      {
+        "name": "I am in CNN home page",
+        "aggregatedDurations": {
+          "median": 9.3206309,
+          "average": 9.624310157
+        },
+        "durations": [
+          {
+            "duration": 9.6569296,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/CNN/src/test/java/features/CnnHomePage.feature:4"
+          },
+          {
+            "duration": 10.6824466,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/CNN/src/test/java/features/CnnHomePage.feature:4"
+          },
+          {
+            "duration": 11.1703134,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/CNN/src/test/java/features/CnnHomePage.feature:4"
+          },
+          {
+            "duration": 9.3206309,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/CNN/src/test/java/features/CnnHomePage.feature:4"
+          },
+          {
+            "duration": 8.7139999,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/CNN/src/test/java/features/CnnHomePage.feature:4"
+          },
+          {
+            "duration": 8.909548,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/CNN/src/test/java/features/CnnHomePage.feature:4"
+          },
+          {
+            "duration": 8.9163027,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/CNN/src/test/java/features/CnnHomePage.feature:4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on burger button",
+    "steps": [
+      {
+        "name": "I click on burger button",
+        "aggregatedDurations": {
+          "median": 0.5906453,
+          "average": 0.5906453
+        },
+        "durations": [
+          {
+            "duration": 0.5906453,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/CNN/src/test/java/features/CnnHomePage.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter sports in search box",
+    "steps": [
+      {
+        "name": "I enter sports in search box",
+        "aggregatedDurations": {
+          "median": 0.7330685,
+          "average": 0.7330685
+        },
+        "durations": [
+          {
+            "duration": 0.7330685,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/CNN/src/test/java/features/CnnHomePage.feature:9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on search button",
+    "steps": [
+      {
+        "name": "I click on search button",
+        "aggregatedDurations": {
+          "median": 0.0980165,
+          "average": 0.0980165
+        },
+        "durations": [
+          {
+            "duration": 0.0980165,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/CNN/src/test/java/features/CnnHomePage.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on politics radio button",
+    "steps": [
+      {
+        "name": "I click on politics radio button",
+        "aggregatedDurations": {
+          "median": 6.1446762,
+          "average": 6.1446762
+        },
+        "durations": [
+          {
+            "duration": 6.1446762,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/CNN/src/test/java/features/CnnHomePage.feature:11"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I validate politics page is appeared properly",
+    "steps": [
+      {
+        "name": "I validate politics page is appeared properly",
+        "aggregatedDurations": {
+          "median": 0.0420129,
+          "average": 0.0420129
+        },
+        "durations": [
+          {
+            "duration": 0.0420129,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/CNN/src/test/java/features/CnnHomePage.feature:12"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on travel tab",
+    "steps": [
+      {
+        "name": "I click on travel tab",
+        "aggregatedDurations": {
+          "median": 4.5240653,
+          "average": 4.5240653
+        },
+        "durations": [
+          {
+            "duration": 4.5240653,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/CNN/src/test/java/features/CnnHomePage.feature:16"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on best beach",
+    "steps": [
+      {
+        "name": "I click on best beach",
+        "aggregatedDurations": {
+          "median": 9.1677744,
+          "average": 9.1677744
+        },
+        "durations": [
+          {
+            "duration": 9.1677744,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/CNN/src/test/java/features/CnnHomePage.feature:17"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Map tab",
+    "steps": [
+      {
+        "name": "I click on Map tab",
+        "aggregatedDurations": {
+          "median": 0.6730481,
+          "average": 0.6730481
+        },
+        "durations": [
+          {
+            "duration": 0.6730481,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/CNN/src/test/java/features/CnnHomePage.feature:18"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on radio button",
+    "steps": [
+      {
+        "name": "I click on radio button",
+        "aggregatedDurations": {
+          "median": 0.2360188,
+          "average": 0.2360188
+        },
+        "durations": [
+          {
+            "duration": 0.2360188,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/CNN/src/test/java/features/CnnHomePage.feature:19"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I validate View All is visible",
+    "steps": [
+      {
+        "name": "I validate View All is visible",
+        "aggregatedDurations": {
+          "median": 0.0895144,
+          "average": 0.0895144
+        },
+        "durations": [
+          {
+            "duration": 0.0895144,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/CNN/src/test/java/features/CnnHomePage.feature:20"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on edition dropDown button",
+    "steps": [
+      {
+        "name": "I click on edition dropDown button",
+        "aggregatedDurations": {
+          "median": 0.2915584,
+          "average": 0.2915584
+        },
+        "durations": [
+          {
+            "duration": 0.2915584,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/CNN/src/test/java/features/CnnHomePage.feature:24"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on international",
+    "steps": [
+      {
+        "name": "I click on international",
+        "aggregatedDurations": {
+          "median": 1.6053928,
+          "average": 1.6053928
+        },
+        "durations": [
+          {
+            "duration": 1.6053928,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/CNN/src/test/java/features/CnnHomePage.feature:25"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on all stories",
+    "steps": [
+      {
+        "name": "I click on all stories",
+        "aggregatedDurations": {
+          "median": 3.7398013,
+          "average": 3.7398013
+        },
+        "durations": [
+          {
+            "duration": 3.7398013,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/CNN/src/test/java/features/CnnHomePage.feature:26"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Covid-{int} symptoms",
+    "steps": [
+      {
+        "name": "I click on Covid-19 symptoms",
+        "aggregatedDurations": {
+          "median": 2.4912913,
+          "average": 2.4912913
+        },
+        "durations": [
+          {
+            "duration": 2.4912913,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/CNN/src/test/java/features/CnnHomePage.feature:27"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I validate By Sandee LaMotte, CNN is visible",
+    "steps": [
+      {
+        "name": "I validate By Sandee LaMotte, CNN is visible",
+        "aggregatedDurations": {
+          "median": 2.3207908,
+          "average": 2.3207908
+        },
+        "durations": [
+          {
+            "duration": 2.3207908,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/CNN/src/test/java/features/CnnHomePage.feature:28"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on live Tv button",
+    "steps": [
+      {
+        "name": "I click on live Tv button",
+        "aggregatedDurations": {
+          "median": 5.3560724,
+          "average": 5.349927425
+        },
+        "durations": [
+          {
+            "duration": 5.4552829,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/CNN/src/test/java/features/CnnHomePage.feature:32"
+          },
+          {
+            "duration": 5.309228,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/CNN/src/test/java/features/CnnHomePage.feature:39"
+          },
+          {
+            "duration": 5.232282,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/CNN/src/test/java/features/CnnHomePage.feature:46"
+          },
+          {
+            "duration": 5.4029168,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/CNN/src/test/java/features/CnnHomePage.feature:54"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on back to cnn.com",
+    "steps": [
+      {
+        "name": "I click on back to cnn.com",
+        "aggregatedDurations": {
+          "median": 1.2335929,
+          "average": 1.2335929
+        },
+        "durations": [
+          {
+            "duration": 1.2335929,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/CNN/src/test/java/features/CnnHomePage.feature:34"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Tv channel box",
+    "steps": [
+      {
+        "name": "I click on Tv channel box",
+        "aggregatedDurations": {
+          "median": 3.1415883,
+          "average": 3.142313066
+        },
+        "durations": [
+          {
+            "duration": 3.160646,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/CNN/src/test/java/features/CnnHomePage.feature:40"
+          },
+          {
+            "duration": 3.1415883,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/CNN/src/test/java/features/CnnHomePage.feature:47"
+          },
+          {
+            "duration": 3.1247049,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/CNN/src/test/java/features/CnnHomePage.feature:55"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on cnn channel",
+    "steps": [
+      {
+        "name": "I click on cnn channel",
+        "aggregatedDurations": {
+          "median": 3.1374405,
+          "average": 3.173172
+        },
+        "durations": [
+          {
+            "duration": 3.2519264,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/CNN/src/test/java/features/CnnHomePage.feature:41"
+          },
+          {
+            "duration": 3.1301491,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/CNN/src/test/java/features/CnnHomePage.feature:48"
+          },
+          {
+            "duration": 3.1374405,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/CNN/src/test/java/features/CnnHomePage.feature:56"
+          }
+        ]
+      }
+    ]
+  }
+]

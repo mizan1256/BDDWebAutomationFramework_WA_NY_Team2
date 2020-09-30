@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="5" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="9" time="235.546">
+    <testcase classname="CNN home page functionality test" name="CNN home page burger button functionality test" time="18.241">
+        <system-out>
+            <![CDATA[Given I am in CNN home page.................................................passed
+When I click on burger button...............................................passed
+And I enter sports in search box............................................passed
+And I click on search button................................................passed
+And I click on politics radio button........................................passed
+Then I validate politics page is appeared properly..........................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="CNN home page functionality test" name="CNN home page Travel functionality test" time="26.336">
+        <system-out>
+            <![CDATA[Given I am in CNN home page.................................................passed
+When I click on travel tab..................................................passed
+And I click on best beach...................................................passed
+And I click on Map tab......................................................passed
+And I click on radio button.................................................passed
+Then I validate View All is visible.........................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="CNN home page functionality test" name="CNN home page Travel functionality test 2" time="22.417">
+        <system-out>
+            <![CDATA[Given I am in CNN home page.................................................passed
+When I click on edition dropDown button.....................................passed
+And I click on international................................................passed
+And I click on all stories..................................................passed
+And I click on Covid-19 symptoms............................................passed
+Then I validate By Sandee LaMotte, CNN is visible...........................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="CNN home page functionality test" name="CNN home page Travel functionality test 3" time="20.831">
+        <failure message="expected [David Attenborough] but found [Covid-19]" type="java.lang.AssertionError">
+            <![CDATA[Given I am in CNN home page.................................................passed
+When I click on live Tv button..............................................passed
+And I click on back to cnn.com..............................................passed
+Then I validate Covid-19 is visible.........................................failed
+
+StackTrace:
+java.lang.AssertionError: expected [David Attenborough] but found [Covid-19]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at org.testng.Assert.assertEquals(Assert.java:585)
+	at cnnhome.CnnHomePage.validateLiveTvButtonCheck(CnnHomePage.java:204)
+	at stepdefinitions.CnnHomeStepDefinition.i_validate_covid_is_visible(CnnHomeStepDefinition.java:142)
+	at ✽.I validate Covid-19 is visible(file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/CNN/src/test/java/features/CnnHomePage.feature:35)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="CNN home page functionality test" name="CNN home page Travel functionality test 4" time="21.412">
+        <system-out>
+            <![CDATA[Given I am in CNN home page.................................................passed
+When I click on live Tv button..............................................passed
+And I click on Tv channel box...............................................passed
+And I click on cnn channel..................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="CNN home page functionality test" name="CNN home page Travel functionality test 5" time="62.655">
+        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class='close']&quot;}&#10;  (Session info: chrome=85.0.4183.121)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LAPTOP-16QDF0HT', ip: '192.168.1.159', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.4'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\jonho\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59111}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: a32776ade43db3c45075f6e33beb23ff&#10;*** Element info: {Using=xpath, value=//div[@class='close']}" type="org.openqa.selenium.NoSuchElementException">
+            <![CDATA[Given I am in CNN home page.................................................passed
+When I click on live Tv button..............................................passed
+And I click on Tv channel box...............................................passed
+And I click on cnn channel..................................................passed
+And I click close button....................................................failed
+Then I validate News Shows is visible.......................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='close']"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-16QDF0HT', ip: '192.168.1.159', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\jonho\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59111}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: a32776ade43db3c45075f6e33beb23ff
+*** Element info: {Using=xpath, value=//div[@class='close']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy26.click(Unknown Source)
+	at cnnhome.CnnHomePage.channelCloseOption(CnnHomePage.java:231)
+	at stepdefinitions.CnnHomeStepDefinition.i_click_close_button(CnnHomeStepDefinition.java:168)
+	at ✽.I click close button(file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/CNN/src/test/java/features/CnnHomePage.feature:49)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="CNN home page functionality test" name="CNN home page Travel functionality test 6" time="62.882">
+        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class='close']&quot;}&#10;  (Session info: chrome=85.0.4183.121)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LAPTOP-16QDF0HT', ip: '192.168.1.159', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.4'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\jonho\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59386}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 403a22398cb9828faf54e496b0f4c3db&#10;*** Element info: {Using=xpath, value=//div[@class='close']}" type="org.openqa.selenium.NoSuchElementException">
+            <![CDATA[Given I am in CNN home page.................................................passed
+When I click on live Tv button..............................................passed
+And I click on Tv channel box...............................................passed
+And I click on cnn channel..................................................passed
+And I click close button....................................................failed
+And I click linda voice button..............................................skipped
+And I click linda voice play button.........................................skipped
+Then I validate US is visible...............................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='close']"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-16QDF0HT', ip: '192.168.1.159', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\jonho\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59386}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 403a22398cb9828faf54e496b0f4c3db
+*** Element info: {Using=xpath, value=//div[@class='close']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy26.click(Unknown Source)
+	at cnnhome.CnnHomePage.channelCloseOption(CnnHomePage.java:231)
+	at stepdefinitions.CnnHomeStepDefinition.i_click_close_button(CnnHomeStepDefinition.java:168)
+	at ✽.I click close button(file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/CNN/src/test/java/features/CnnHomePage.feature:57)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="CNN Home Page Functionality Check" name="Cnn SignUp functionality cheek" time="0.022">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
+            <![CDATA[Given I am in Cnn home page.................................................undefined
+When I do all necessary steps to land on Registration page..................skipped
+And I enter user info.......................................................skipped
+And I click on registration button..........................................skipped
+Then I validate welcome message.............................................skipped
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="CNN Home Page Functionality Check" name="Cnn SignIn functionality cheek" time="0.006">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
+            <![CDATA[Given I am in Cnn home page.................................................undefined
+When I click on SingInIcon..................................................skipped
+And I enter "jonhossn@gmail.com" and "dhaka1219"............................skipped
+Then I validate landed page title...........................................skipped
+]]>
+        </failure>
+    </testcase>
+</testsuite>

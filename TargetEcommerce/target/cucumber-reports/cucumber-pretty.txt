@@ -1,0 +1,69 @@
+
+@SmokeTest
+Scenario Outline: Login into att using Data Driven                   # src/test/java/features/Home.feature:55
+  Given I am on targetEcommerce home page                            # null
+  And I am on signIn page                                            # null
+  And I enter email as "admin@yourstore.com" and password as "admin" # null
+  And I click on signIn button                                       # null
+  Then I should be getting a message                                 # null
+
+@SmokeTest
+Scenario Outline: Login into att using Data Driven                  # src/test/java/features/Home.feature:56
+  Given I am on targetEcommerce home page                           # null
+  And I am on signIn page                                           # null
+  And I enter email as "mizan@gmail.com" and password as "15021972" # null
+  And I click on signIn button                                      # null
+  Then I should be getting a message                                # null
+
+@SmokeTest
+Scenario Outline: Login into att using Data Driven                    # src/test/java/features/Home.feature:57
+  Given I am on targetEcommerce home page                             # null
+  And I am on signIn page                                             # null
+  And I enter email as "mohammd@gmail.com" and password as "01012010" # null
+  And I click on signIn button                                        # null
+  Then I should be getting a message                                  # null
+
+@SmokeTest
+Scenario: Target shoppingCart logo functionality check # src/test/java/features/Home.feature:60
+  Given I am on targetEcommerce home page              # null
+  And I click on shopping cart Icon                    # null
+  Then I validate shopping cart page                   # null
+
+@SmokeTest
+Scenario: Target Shopping Cart log in functionality check                  # src/test/java/features/Home.feature:65
+  Given I am on targetEcommerce home page                                  # null
+  When I click on shopping cart Icon                                       # null
+  And I click on shopping cart signIn button                               # null
+  And I enter email as "mizan_1256@yahoo.com" and password as "Tasmi@1256" # null
+  Then I validate shopping cart log in page                                # null
+
+@SmokeTest
+Scenario: Order pickUp home page check       # src/test/java/features/TargetPickUp.feature:9
+  When I click on pickUp and delivery button # null
+  And I click on Order pickUp button         # null
+  Then I validate order pickUp home page     # null
+
+@SmokeTest
+Scenario: Oder pickUp searchBox functionality check                                      # src/test/java/features/TargetPickUp.feature:14
+  When I click on pickUp and delivery button                                             # null
+  When I do necessary steps to land on oder pickUp home page                             # null
+  And I enter "655473634747" as order number in order searchBox and click searchBox Icon # null
+  Then I validate search result message                                                  # null
+
+@SmokeTest
+Scenario: Same day delivery page check                                    # src/test/java/features/TargetPickUp.feature:20
+  When I click on pickUp and delivery button                              # null
+  And I click on same day delivery button                                 # null
+  Then I validate "Get it as soon as 10am" as same day delivery home page # null
+
+@SmokeTest
+Scenario: Same day delivery signIn functionality check                    # src/test/java/features/TargetPickUp.feature:25
+  When I click on pickUp and delivery button                              # null
+  And I do necessary steps to land on signIn page                         # null
+  And I enter "mizan_1256@yahoo.com" as email and "Tasmi1256" as password # null
+
+@SmokeTest
+Scenario: Drive Up home page check           # src/test/java/features/TargetPickUp.feature:31
+  When I click on pickUp and delivery button # null
+  And I click on drive up button             # null
+  Then I validate drive up home page Title   # null

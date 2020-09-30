@@ -1,0 +1,1212 @@
+[
+  {
+    "source": "I am on Geico Homepage",
+    "steps": [
+      {
+        "name": "I am on Geico Homepage",
+        "aggregatedDurations": {
+          "median": 9.7519792,
+          "average": 9.7519792
+        },
+        "durations": [
+          {
+            "duration": 9.7519792,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/Geico.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Career button",
+    "steps": [
+      {
+        "name": "I click on Career button",
+        "aggregatedDurations": {
+          "median": 3.0549557,
+          "average": 3.0549557
+        },
+        "durations": [
+          {
+            "duration": 3.0549557,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/Geico.feature:9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I Click on Customer Service Button",
+    "steps": [
+      {
+        "name": "I Click on Customer Service Button",
+        "aggregatedDurations": {
+          "median": 4.1895178,
+          "average": 4.1895178
+        },
+        "durations": [
+          {
+            "duration": 4.1895178,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/Geico.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I validate Customer Service Careers text appear Properly",
+    "steps": [
+      {
+        "name": "I validate Customer Service Careers text appear Properly",
+        "aggregatedDurations": {
+          "median": 0.1411073,
+          "average": 0.1411073
+        },
+        "durations": [
+          {
+            "duration": 0.1411073,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/Geico.feature:11"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I am on Geico homepage",
+    "steps": [
+      {
+        "name": "I am on Geico homepage",
+        "aggregatedDurations": {
+          "median": 7.2108457,
+          "average": 7.143009073
+        },
+        "durations": [
+          {
+            "duration": 6.6951891,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:4"
+          },
+          {
+            "duration": 6.4883507,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:4"
+          },
+          {
+            "duration": 6.3513574,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:4"
+          },
+          {
+            "duration": 6.6279612,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:4"
+          },
+          {
+            "duration": 6.4212525,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:4"
+          },
+          {
+            "duration": 6.4349896,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:4"
+          },
+          {
+            "duration": 7.5335795,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:4"
+          },
+          {
+            "duration": 7.5399694,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:4"
+          },
+          {
+            "duration": 7.0811574,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:4"
+          },
+          {
+            "duration": 7.0761001,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:4"
+          },
+          {
+            "duration": 7.3849036,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:4"
+          },
+          {
+            "duration": 7.2961062,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:4"
+          },
+          {
+            "duration": 7.8650418,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:4"
+          },
+          {
+            "duration": 7.1537073,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:4"
+          },
+          {
+            "duration": 7.2108457,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:4"
+          },
+          {
+            "duration": 7.2845665,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:4"
+          },
+          {
+            "duration": 7.2766577,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:4"
+          },
+          {
+            "duration": 7.1023657,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:4"
+          },
+          {
+            "duration": 7.699254,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:4"
+          },
+          {
+            "duration": 7.3496489,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:4"
+          },
+          {
+            "duration": 7.0826543,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:4"
+          },
+          {
+            "duration": 7.6992674,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:4"
+          },
+          {
+            "duration": 7.6342827,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click searchlogo",
+    "steps": [
+      {
+        "name": "I click searchlogo",
+        "aggregatedDurations": {
+          "median": 0.1280079,
+          "average": 0.1539208
+        },
+        "durations": [
+          {
+            "duration": 0.1219977,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:8"
+          },
+          {
+            "duration": 0.1200123,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:14"
+          },
+          {
+            "duration": 0.120022,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:21"
+          },
+          {
+            "duration": 0.1170107,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:21"
+          },
+          {
+            "duration": 0.1690133,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:21"
+          },
+          {
+            "duration": 0.1280079,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:21"
+          },
+          {
+            "duration": 0.2080198,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:21"
+          },
+          {
+            "duration": 0.224332,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:21"
+          },
+          {
+            "duration": 0.1768715,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:21"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter motorcycle in searchBox",
+    "steps": [
+      {
+        "name": "I enter motorcycle in searchBox",
+        "aggregatedDurations": {
+          "median": 0.2750466,
+          "average": 0.2750466
+        },
+        "durations": [
+          {
+            "duration": 0.2750466,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click searchButton",
+    "steps": [
+      {
+        "name": "I click searchButton",
+        "aggregatedDurations": {
+          "median": 1.8313955,
+          "average": 1.771183455
+        },
+        "durations": [
+          {
+            "duration": 1.635376,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:10"
+          },
+          {
+            "duration": 1.950422,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:16"
+          },
+          {
+            "duration": 2.208196,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:23"
+          },
+          {
+            "duration": 1.1060909,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:23"
+          },
+          {
+            "duration": 1.2425377,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:23"
+          },
+          {
+            "duration": 2.1812123,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:23"
+          },
+          {
+            "duration": 2.1112806,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:23"
+          },
+          {
+            "duration": 1.8313955,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:23"
+          },
+          {
+            "duration": 1.6741401,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:23"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify siteSearchText",
+    "steps": [
+      {
+        "name": "I verify siteSearchText",
+        "aggregatedDurations": {
+          "median": 0.1570117,
+          "average": 0.172959188
+        },
+        "durations": [
+          {
+            "duration": 0.0390048,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:11"
+          },
+          {
+            "duration": 0.0550022,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:17"
+          },
+          {
+            "duration": 0.0539921,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:24"
+          },
+          {
+            "duration": 0.0610178,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:24"
+          },
+          {
+            "duration": 0.2710131,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:24"
+          },
+          {
+            "duration": 0.188529,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:24"
+          },
+          {
+            "duration": 0.4090378,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:24"
+          },
+          {
+            "duration": 0.3220242,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:24"
+          },
+          {
+            "duration": 0.1570117,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:24"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter {string} in searchBox",
+    "steps": [
+      {
+        "name": "I enter \"motorcycle\" in searchBox",
+        "aggregatedDurations": {
+          "median": 0.270779,
+          "average": 0.270779
+        },
+        "durations": [
+          {
+            "duration": 0.270779,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:15"
+          }
+        ]
+      },
+      {
+        "name": "I enter \"Motorcycle Insurance\" in searchBox",
+        "aggregatedDurations": {
+          "median": 0.2580219,
+          "average": 0.2580219
+        },
+        "durations": [
+          {
+            "duration": 0.2580219,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:22"
+          }
+        ]
+      },
+      {
+        "name": "I enter \"Car Insurance\" in searchBox",
+        "aggregatedDurations": {
+          "median": 0.2455593,
+          "average": 0.2455593
+        },
+        "durations": [
+          {
+            "duration": 0.2455593,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:22"
+          }
+        ]
+      },
+      {
+        "name": "I enter \"Condo Insurance\" in searchBox",
+        "aggregatedDurations": {
+          "median": 0.2300171,
+          "average": 0.2300171
+        },
+        "durations": [
+          {
+            "duration": 0.2300171,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:22"
+          }
+        ]
+      },
+      {
+        "name": "I enter \"life Insurance\" in searchBox",
+        "aggregatedDurations": {
+          "median": 0.2550204,
+          "average": 0.2550204
+        },
+        "durations": [
+          {
+            "duration": 0.2550204,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:22"
+          }
+        ]
+      },
+      {
+        "name": "I enter \"RV Insurance\" in searchBox",
+        "aggregatedDurations": {
+          "median": 0.3412252,
+          "average": 0.3412252
+        },
+        "durations": [
+          {
+            "duration": 0.3412252,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:22"
+          }
+        ]
+      },
+      {
+        "name": "I enter \"Flood Insurance\" in searchBox",
+        "aggregatedDurations": {
+          "median": 0.3380264,
+          "average": 0.3380264
+        },
+        "durations": [
+          {
+            "duration": 0.3380264,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:22"
+          }
+        ]
+      },
+      {
+        "name": "I enter \"Boat Insurance\" in searchBox",
+        "aggregatedDurations": {
+          "median": 0.3540251,
+          "average": 0.3540251
+        },
+        "durations": [
+          {
+            "duration": 0.3540251,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:22"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I choose click on the arrow to choose policy",
+    "steps": [
+      {
+        "name": "I choose click on the arrow to choose policy",
+        "aggregatedDurations": {
+          "median": 0.2400305,
+          "average": 0.2553762
+        },
+        "durations": [
+          {
+            "duration": 0.3030198,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:37"
+          },
+          {
+            "duration": 0.2739586,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:46"
+          },
+          {
+            "duration": 0.3715445,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:46"
+          },
+          {
+            "duration": 0.2010491,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:46"
+          },
+          {
+            "duration": 0.1630109,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:46"
+          },
+          {
+            "duration": 0.23502,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:46"
+          },
+          {
+            "duration": 0.2400305,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:46"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I choose accessPolicy",
+    "steps": [
+      {
+        "name": "I choose accessPolicy",
+        "aggregatedDurations": {
+          "median": 0.330025,
+          "average": 0.349755157
+        },
+        "durations": [
+          {
+            "duration": 0.580052,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:38"
+          },
+          {
+            "duration": 0.291023,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:47"
+          },
+          {
+            "duration": 0.3240235,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:47"
+          },
+          {
+            "duration": 0.330025,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:47"
+          },
+          {
+            "duration": 0.3395748,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:47"
+          },
+          {
+            "duration": 0.3510554,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:47"
+          },
+          {
+            "duration": 0.2325324,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:47"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on LoginOption",
+    "steps": [
+      {
+        "name": "I click on LoginOption",
+        "aggregatedDurations": {
+          "median": 4.3321451,
+          "average": 4.399432885
+        },
+        "durations": [
+          {
+            "duration": 4.3321451,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:39"
+          },
+          {
+            "duration": 4.5799767,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:48"
+          },
+          {
+            "duration": 3.9580313,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:48"
+          },
+          {
+            "duration": 4.1986231,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:48"
+          },
+          {
+            "duration": 4.1345376,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:48"
+          },
+          {
+            "duration": 5.1406186,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:48"
+          },
+          {
+            "duration": 4.4520978,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:48"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter userName and password",
+    "steps": [
+      {
+        "name": "I enter userName and password",
+        "aggregatedDurations": {
+          "median": 0.702093,
+          "average": 0.702093
+        },
+        "durations": [
+          {
+            "duration": 0.702093,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:40"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click loginButton",
+    "steps": [
+      {
+        "name": "I click loginButton",
+        "aggregatedDurations": {
+          "median": 0.9446402,
+          "average": 1.007126742
+        },
+        "durations": [
+          {
+            "duration": 1.2151006,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:41"
+          },
+          {
+            "duration": 1.1595052,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:50"
+          },
+          {
+            "duration": 0.9021215,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:50"
+          },
+          {
+            "duration": 0.9213125,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:50"
+          },
+          {
+            "duration": 0.9140774,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:50"
+          },
+          {
+            "duration": 0.9931298,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:50"
+          },
+          {
+            "duration": 0.9446402,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:50"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify title",
+    "steps": [
+      {
+        "name": "I verify title",
+        "aggregatedDurations": {
+          "median": 0.1840098,
+          "average": 0.173440557
+        },
+        "durations": [
+          {
+            "duration": 0.155008,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:42"
+          },
+          {
+            "duration": 0.193012,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:51"
+          },
+          {
+            "duration": 0.1840098,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:51"
+          },
+          {
+            "duration": 0.1560039,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:51"
+          },
+          {
+            "duration": 0.1880312,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:51"
+          },
+          {
+            "duration": 0.186012,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:51"
+          },
+          {
+            "duration": 0.152007,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:51"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter {string} and {string}",
+    "steps": [
+      {
+        "name": "I enter \"jfk11\" and \"1212\"",
+        "aggregatedDurations": {
+          "median": 0.6100539,
+          "average": 0.6100539
+        },
+        "durations": [
+          {
+            "duration": 0.6100539,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:49"
+          }
+        ]
+      },
+      {
+        "name": "I enter \"dac22\" and \"1313\"",
+        "aggregatedDurations": {
+          "median": 0.8640923,
+          "average": 0.8640923
+        },
+        "durations": [
+          {
+            "duration": 0.8640923,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:49"
+          }
+        ]
+      },
+      {
+        "name": "I enter \"lga33\" and \"1414\"",
+        "aggregatedDurations": {
+          "median": 0.6110473,
+          "average": 0.6110473
+        },
+        "durations": [
+          {
+            "duration": 0.6110473,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:49"
+          }
+        ]
+      },
+      {
+        "name": "I enter \"dxb44\" and \"1515\"",
+        "aggregatedDurations": {
+          "median": 0.9670775,
+          "average": 0.9670775
+        },
+        "durations": [
+          {
+            "duration": 0.9670775,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:49"
+          }
+        ]
+      },
+      {
+        "name": "I enter \"mxp55\" and \"1616\"",
+        "aggregatedDurations": {
+          "median": 0.5420397,
+          "average": 0.5420397
+        },
+        "durations": [
+          {
+            "duration": 0.5420397,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:49"
+          }
+        ]
+      },
+      {
+        "name": "I enter \"tlp66\" and \"1717\"",
+        "aggregatedDurations": {
+          "median": 0.6986202,
+          "average": 0.6986202
+        },
+        "durations": [
+          {
+            "duration": 0.6986202,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:49"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on startHere",
+    "steps": [
+      {
+        "name": "I click on startHere",
+        "aggregatedDurations": {
+          "median": 4.2874649,
+          "average": 4.381751742
+        },
+        "durations": [
+          {
+            "duration": 5.4187826,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:63"
+          },
+          {
+            "duration": 4.0628748,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:70"
+          },
+          {
+            "duration": 4.3952644,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:70"
+          },
+          {
+            "duration": 4.3042156,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:70"
+          },
+          {
+            "duration": 4.0714447,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:70"
+          },
+          {
+            "duration": 4.2874649,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:70"
+          },
+          {
+            "duration": 4.1322152,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:70"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter {string}, {string} and {string}",
+    "steps": [
+      {
+        "name": "I enter \"policyNumber\", \"dateOfBirth\" and \"zipCode\"",
+        "aggregatedDurations": {
+          "median": 1.1652862,
+          "average": 1.1652862
+        },
+        "durations": [
+          {
+            "duration": 1.1652862,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:64"
+          }
+        ]
+      },
+      {
+        "name": "I enter \"11111\", \"02141989\" and \"10021\"",
+        "aggregatedDurations": {
+          "median": 1.5177213,
+          "average": 1.5177213
+        },
+        "durations": [
+          {
+            "duration": 1.5177213,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:71"
+          }
+        ]
+      },
+      {
+        "name": "I enter \"22222\", \"02141981\" and \"13422\"",
+        "aggregatedDurations": {
+          "median": 0.8823753,
+          "average": 0.8823753
+        },
+        "durations": [
+          {
+            "duration": 0.8823753,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:71"
+          }
+        ]
+      },
+      {
+        "name": "I enter \"33333\", \"02141933\" and \"10656\"",
+        "aggregatedDurations": {
+          "median": 1.0854866,
+          "average": 1.0854866
+        },
+        "durations": [
+          {
+            "duration": 1.0854866,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:71"
+          }
+        ]
+      },
+      {
+        "name": "I enter \"44444\", \"045641989\" and \"14429\"",
+        "aggregatedDurations": {
+          "median": 1.2625186,
+          "average": 1.2625186
+        },
+        "durations": [
+          {
+            "duration": 1.2625186,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:71"
+          }
+        ]
+      },
+      {
+        "name": "I enter \"55555\", \"12941989\" and \"10568\"",
+        "aggregatedDurations": {
+          "median": 1.105094,
+          "average": 1.105094
+        },
+        "durations": [
+          {
+            "duration": 1.105094,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:71"
+          }
+        ]
+      },
+      {
+        "name": "I enter \"123666\", \"200041989\" and \"10237\"",
+        "aggregatedDurations": {
+          "median": 1.1646751,
+          "average": 1.1646751
+        },
+        "durations": [
+          {
+            "duration": 1.1646751,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:71"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click continue",
+    "steps": [
+      {
+        "name": "I click continue",
+        "aggregatedDurations": {
+          "median": 0.1670137,
+          "average": 0.210200357
+        },
+        "durations": [
+          {
+            "duration": 0.3519115,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:65"
+          },
+          {
+            "duration": 0.1580304,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:72"
+          },
+          {
+            "duration": 0.1603845,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:72"
+          },
+          {
+            "duration": 0.1570126,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:72"
+          },
+          {
+            "duration": 0.2980397,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:72"
+          },
+          {
+            "duration": 0.1790101,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:72"
+          },
+          {
+            "duration": 0.1670137,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:72"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify errorText on screen",
+    "steps": [
+      {
+        "name": "I verify errorText on screen",
+        "aggregatedDurations": {
+          "median": 0.0820036,
+          "average": 0.0820036
+        },
+        "durations": [
+          {
+            "duration": 0.0820036,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:66"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify policyNumber on screen",
+    "steps": [
+      {
+        "name": "I verify policyNumber on screen",
+        "aggregatedDurations": {
+          "median": 0.1710093,
+          "average": 0.175616083
+        },
+        "durations": [
+          {
+            "duration": 0.1160155,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:73"
+          },
+          {
+            "duration": 0.1890239,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:73"
+          },
+          {
+            "duration": 0.1150103,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:73"
+          },
+          {
+            "duration": 0.1529947,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:73"
+          },
+          {
+            "duration": 0.2896432,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:73"
+          },
+          {
+            "duration": 0.1910089,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHome.feature:73"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I am in Geico homepage.",
+    "steps": [
+      {
+        "name": "I am in Geico homepage.",
+        "aggregatedDurations": {
+          "median": 7.7654242,
+          "average": 7.78500484
+        },
+        "durations": [
+          {
+            "duration": 7.4815755,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHomeBBBB.feature:4"
+          },
+          {
+            "duration": 7.9624433,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHomeBBBB.feature:4"
+          },
+          {
+            "duration": 7.441152,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHomeBBBB.feature:4"
+          },
+          {
+            "duration": 8.2744292,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHomeBBBB.feature:4"
+          },
+          {
+            "duration": 7.7654242,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHomeBBBB.feature:4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Start Quote",
+    "steps": [
+      {
+        "name": "I click on Start Quote",
+        "aggregatedDurations": {
+          "median": 0.9836785,
+          "average": 0.9836785
+        },
+        "durations": [
+          {
+            "duration": 1.0490967,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHomeBBBB.feature:8"
+          },
+          {
+            "duration": 0.9182603,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHomeBBBB.feature:13"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify customer information page.",
+    "steps": [
+      {
+        "name": "I verify customer information page.",
+        "aggregatedDurations": {
+          "median": 3.5328876,
+          "average": 3.5328876
+        },
+        "durations": [
+          {
+            "duration": 3.5328876,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHomeBBBB.feature:9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on renters",
+    "steps": [
+      {
+        "name": "I click on renters",
+        "aggregatedDurations": {
+          "median": 3.5570633,
+          "average": 3.5570633
+        },
+        "durations": [
+          {
+            "duration": 3.5570633,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHomeBBBB.feature:14"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on zip code",
+    "steps": [
+      {
+        "name": "I click on zip code",
+        "aggregatedDurations": {
+          "median": 0.5454681,
+          "average": 0.5454681
+        },
+        "durations": [
+          {
+            "duration": 0.5454681,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHomeBBBB.feature:19"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Icon logo",
+    "steps": [
+      {
+        "name": "I click on Icon logo",
+        "aggregatedDurations": {
+          "median": 0.42600965,
+          "average": 0.42600965
+        },
+        "durations": [
+          {
+            "duration": 0.5110457,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHomeBBBB.feature:26"
+          },
+          {
+            "duration": 0.3409736,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHomeBBBB.feature:33"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I type zip code",
+    "steps": [
+      {
+        "name": "I type zip code",
+        "aggregatedDurations": {
+          "median": 0.3132997,
+          "average": 0.3132997
+        },
+        "durations": [
+          {
+            "duration": 0.3132997,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHomeBBBB.feature:27"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Update button",
+    "steps": [
+      {
+        "name": "I click on Update button",
+        "aggregatedDurations": {
+          "median": 0.1895573,
+          "average": 0.1895573
+        },
+        "durations": [
+          {
+            "duration": 0.1445286,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHomeBBBB.feature:28"
+          },
+          {
+            "duration": 0.234586,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHomeBBBB.feature:35"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "i verify updated location result",
+    "steps": [
+      {
+        "name": "i verify updated location result",
+        "aggregatedDurations": {
+          "median": 0.1470149,
+          "average": 0.1470149
+        },
+        "durations": [
+          {
+            "duration": 0.1470149,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHomeBBBB.feature:29"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I type invalid zip code",
+    "steps": [
+      {
+        "name": "I type invalid zip code",
+        "aggregatedDurations": {
+          "median": 0.4503336,
+          "average": 0.4503336
+        },
+        "durations": [
+          {
+            "duration": 0.4503336,
+            "location": "file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHomeBBBB.feature:34"
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="10" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="10" time="0.725">
+    <testcase classname="TargetEcommerce Home page Functionality test" name="Login into att using Data Driven" time="0.151">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
+            <![CDATA[Given I am on targetEcommerce home page.....................................undefined
+And I am on signIn page.....................................................skipped
+And I enter email as "admin@yourstore.com" and password as "admin"..........skipped
+And I click on signIn button................................................skipped
+Then I should be getting a message..........................................skipped
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="TargetEcommerce Home page Functionality test" name="Login into att using Data Driven 2" time="0.016">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
+            <![CDATA[Given I am on targetEcommerce home page.....................................undefined
+And I am on signIn page.....................................................skipped
+And I enter email as "mizan@gmail.com" and password as "15021972"...........skipped
+And I click on signIn button................................................skipped
+Then I should be getting a message..........................................skipped
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="TargetEcommerce Home page Functionality test" name="Login into att using Data Driven 3" time="0.01">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
+            <![CDATA[Given I am on targetEcommerce home page.....................................undefined
+And I am on signIn page.....................................................skipped
+And I enter email as "mohammd@gmail.com" and password as "01012010".........skipped
+And I click on signIn button................................................skipped
+Then I should be getting a message..........................................skipped
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="TargetEcommerce Home page Functionality test" name="Target shoppingCart logo functionality check" time="0.016">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
+            <![CDATA[Given I am on targetEcommerce home page.....................................undefined
+And I click on shopping cart Icon...........................................skipped
+Then I validate shopping cart page..........................................skipped
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="TargetEcommerce Home page Functionality test" name="Target Shopping Cart log in functionality check" time="0.008">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
+            <![CDATA[Given I am on targetEcommerce home page.....................................undefined
+When I click on shopping cart Icon..........................................skipped
+And I click on shopping cart signIn button..................................skipped
+And I enter email as "mizan_1256@yahoo.com" and password as "Tasmi@1256"....skipped
+Then I validate shopping cart log in page...................................skipped
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="TargetEcommerce PickUp And Delivery functionality check" name="Order pickUp home page check" time="0.012">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
+            <![CDATA[When I click on pickUp and delivery button..................................undefined
+And I click on Order pickUp button..........................................skipped
+Then I validate order pickUp home page......................................skipped
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="TargetEcommerce PickUp And Delivery functionality check" name="Oder pickUp searchBox functionality check" time="0.009">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
+            <![CDATA[When I click on pickUp and delivery button..................................undefined
+When I do necessary steps to land on oder pickUp home page..................skipped
+And I enter "655473634747" as order number in order searchBox and click searchBox Icon.skipped
+Then I validate search result message.......................................skipped
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="TargetEcommerce PickUp And Delivery functionality check" name="Same day delivery page check" time="0.01">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
+            <![CDATA[When I click on pickUp and delivery button..................................undefined
+And I click on same day delivery button.....................................skipped
+Then I validate "Get it as soon as 10am" as same day delivery home page.....skipped
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="TargetEcommerce PickUp And Delivery functionality check" name="Same day delivery signIn functionality check" time="0.004">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
+            <![CDATA[When I click on pickUp and delivery button..................................undefined
+And I do necessary steps to land on signIn page.............................skipped
+And I enter "mizan_1256@yahoo.com" as email and "Tasmi1256" as password.....skipped
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="TargetEcommerce PickUp And Delivery functionality check" name="Drive Up home page check" time="0.006">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
+            <![CDATA[When I click on pickUp and delivery button..................................undefined
+And I click on drive up button..............................................skipped
+Then I validate drive up home page Title....................................skipped
+]]>
+        </failure>
+    </testcase>
+</testsuite>

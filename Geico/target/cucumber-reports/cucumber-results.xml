@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="3" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="29" time="416.19">
+    <testcase classname="Gecico LandPage Functionality Check" name="Gecio Career button Check" time="18.285">
+        <system-out>
+            <![CDATA[Given I am on Geico Homepage................................................passed
+And I click on Career button................................................passed
+When I Click on Customer Service Button.....................................passed
+Then I validate Customer Service Careers text appear Properly...............passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Geico homePage functionality check" name="Geico searchBox functionality Check" time="9.673">
+        <system-out>
+            <![CDATA[Given I am on Geico homepage................................................passed
+And I click searchlogo......................................................passed
+And I enter motorcycle in searchBox.........................................passed
+When I click searchButton...................................................passed
+Then I verify siteSearchText................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Geico homePage functionality check" name="Geico searchBox functionality Check 2" time="9.745">
+        <system-out>
+            <![CDATA[Given I am on Geico homepage................................................passed
+And I click searchlogo......................................................passed
+And I enter "motorcycle" in searchBox.......................................passed
+When I click searchButton...................................................passed
+Then I verify siteSearchText................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Geico homePage functionality check" name="Geico searchBox functionality Check 3" time="9.849">
+        <system-out>
+            <![CDATA[Given I am on Geico homepage................................................passed
+And I click searchlogo......................................................passed
+And I enter "Motorcycle Insurance" in searchBox.............................passed
+When I click searchButton...................................................passed
+Then I verify siteSearchText................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Geico homePage functionality check" name="Geico searchBox functionality Check 4" time="9.017">
+        <system-out>
+            <![CDATA[Given I am on Geico homepage................................................passed
+And I click searchlogo......................................................passed
+And I enter "Car Insurance" in searchBox....................................passed
+When I click searchButton...................................................passed
+Then I verify siteSearchText................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Geico homePage functionality check" name="Geico searchBox functionality Check 5" time="9.194">
+        <system-out>
+            <![CDATA[Given I am on Geico homepage................................................passed
+And I click searchlogo......................................................passed
+And I enter "Condo Insurance" in searchBox..................................passed
+When I click searchButton...................................................passed
+Then I verify siteSearchText................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Geico homePage functionality check" name="Geico searchBox functionality Check 6" time="10.279">
+        <system-out>
+            <![CDATA[Given I am on Geico homepage................................................passed
+And I click searchlogo......................................................passed
+And I enter "life Insurance" in searchBox...................................passed
+When I click searchButton...................................................passed
+Then I verify siteSearchText................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Geico homePage functionality check" name="Geico searchBox functionality Check 7" time="11.754">
+        <system-out>
+            <![CDATA[Given I am on Geico homepage................................................passed
+And I click searchlogo......................................................passed
+And I enter "RV Insurance" in searchBox.....................................passed
+When I click searchButton...................................................passed
+Then I verify siteSearchText................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Geico homePage functionality check" name="Geico searchBox functionality Check 8" time="11.324">
+        <system-out>
+            <![CDATA[Given I am on Geico homepage................................................passed
+And I click searchlogo......................................................passed
+And I enter "Flood Insurance" in searchBox..................................passed
+When I click searchButton...................................................passed
+Then I verify siteSearchText................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Geico homePage functionality check" name="Geico searchBox functionality Check 9" time="10.463">
+        <system-out>
+            <![CDATA[Given I am on Geico homepage................................................passed
+And I click searchlogo......................................................passed
+And I enter "Boat Insurance" in searchBox...................................passed
+When I click searchButton...................................................passed
+Then I verify siteSearchText................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Geico homePage functionality check" name="Geico login functionality Check" time="15.384">
+        <system-out>
+            <![CDATA[Given I am on Geico homepage................................................passed
+And I choose click on the arrow to choose policy............................passed
+And I choose accessPolicy...................................................passed
+And I click on LoginOption..................................................passed
+And I enter userName and password...........................................passed
+When I click loginButton....................................................passed
+Then I verify title.........................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Geico homePage functionality check" name="Geico login functionality Check 2" time="15.502">
+        <system-out>
+            <![CDATA[Given I am on Geico homepage................................................passed
+And I choose click on the arrow to choose policy............................passed
+And I choose accessPolicy...................................................passed
+And I click on LoginOption..................................................passed
+And I enter "jfk11" and "1212"..............................................passed
+When I click loginButton....................................................passed
+Then I verify title.........................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Geico homePage functionality check" name="Geico login functionality Check 3" time="14.932">
+        <system-out>
+            <![CDATA[Given I am on Geico homepage................................................passed
+And I choose click on the arrow to choose policy............................passed
+And I choose accessPolicy...................................................passed
+And I click on LoginOption..................................................passed
+And I enter "dac22" and "1313"..............................................passed
+When I click loginButton....................................................passed
+Then I verify title.........................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Geico homePage functionality check" name="Geico login functionality Check 4" time="15.311">
+        <system-out>
+            <![CDATA[Given I am on Geico homepage................................................passed
+And I choose click on the arrow to choose policy............................passed
+And I choose accessPolicy...................................................passed
+And I click on LoginOption..................................................passed
+And I enter "lga33" and "1414"..............................................passed
+When I click loginButton....................................................passed
+Then I verify title.........................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Geico homePage functionality check" name="Geico login functionality Check 5" time="14.878">
+        <system-out>
+            <![CDATA[Given I am on Geico homepage................................................passed
+And I choose click on the arrow to choose policy............................passed
+And I choose accessPolicy...................................................passed
+And I click on LoginOption..................................................passed
+And I enter "dxb44" and "1515"..............................................passed
+When I click loginButton....................................................passed
+Then I verify title.........................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Geico homePage functionality check" name="Geico login functionality Check 6" time="15.629">
+        <system-out>
+            <![CDATA[Given I am on Geico homepage................................................passed
+And I choose click on the arrow to choose policy............................passed
+And I choose accessPolicy...................................................passed
+And I click on LoginOption..................................................passed
+And I enter "mxp55" and "1616"..............................................passed
+When I click loginButton....................................................passed
+Then I verify title.........................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Geico homePage functionality check" name="Geico login functionality Check 7" time="15.034">
+        <system-out>
+            <![CDATA[Given I am on Geico homepage................................................passed
+And I choose click on the arrow to choose policy............................passed
+And I choose accessPolicy...................................................passed
+And I click on LoginOption..................................................passed
+And I enter "tlp66" and "1717"..............................................passed
+When I click loginButton....................................................passed
+Then I verify title.........................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Geico homePage functionality check" name="Geico login create account check with variable" time="15.259">
+        <system-out>
+            <![CDATA[Given I am on Geico homepage................................................passed
+And I click on startHere....................................................passed
+And I enter "policyNumber", "dateOfBirth" and "zipCode".....................passed
+When I click continue.......................................................passed
+Then I verify errorText on screen...........................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Geico homePage functionality check" name="Geico login create account check with multiple variable" time="13.936">
+        <system-out>
+            <![CDATA[Given I am on Geico homepage................................................passed
+And I click on startHere....................................................passed
+And I enter "11111", "02141989" and "10021".................................passed
+When I click continue.......................................................passed
+Then I verify policyNumber on screen........................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Geico homePage functionality check" name="Geico login create account check with multiple variable 2" time="14.332">
+        <system-out>
+            <![CDATA[Given I am on Geico homepage................................................passed
+And I click on startHere....................................................passed
+And I enter "22222", "02141981" and "13422".................................passed
+When I click continue.......................................................passed
+Then I verify policyNumber on screen........................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Geico homePage functionality check" name="Geico login create account check with multiple variable 3" time="14.02">
+        <system-out>
+            <![CDATA[Given I am on Geico homepage................................................passed
+And I click on startHere....................................................passed
+And I enter "33333", "02141933" and "10656".................................passed
+When I click continue.......................................................passed
+Then I verify policyNumber on screen........................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Geico homePage functionality check" name="Geico login create account check with multiple variable 4" time="13.879">
+        <system-out>
+            <![CDATA[Given I am on Geico homepage................................................passed
+And I click on startHere....................................................passed
+And I enter "44444", "045641989" and "14429"................................passed
+When I click continue.......................................................passed
+Then I verify policyNumber on screen........................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Geico homePage functionality check" name="Geico login create account check with multiple variable 5" time="14.547">
+        <system-out>
+            <![CDATA[Given I am on Geico homepage................................................passed
+And I click on startHere....................................................passed
+And I enter "55555", "12941989" and "10568".................................passed
+When I click continue.......................................................passed
+Then I verify policyNumber on screen........................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Geico homePage functionality check" name="Geico login create account check with multiple variable 6" time="14.371">
+        <system-out>
+            <![CDATA[Given I am on Geico homepage................................................passed
+And I click on startHere....................................................passed
+And I enter "123666", "200041989" and "10237"...............................passed
+When I click continue.......................................................passed
+Then I verify policyNumber on screen........................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Geico home page functionality check" name="Geico home page StartQuoteButton Check" time="13.091">
+        <system-out>
+            <![CDATA[Given I am in Geico homepage................................................passed
+When I click on Start Quote.................................................passed
+Then I verify customer information page.....................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Geico home page functionality check" name="Geico Renters Button Check" time="14.268">
+        <failure message="" type="java.lang.AssertionError">
+            <![CDATA[Given I am in Geico homepage................................................passed
+When I click on Start Quote.................................................passed
+And I click on renters......................................................passed
+Then i verify check mark on renters.........................................failed
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at geicohomeB.GeicoHome.validate_ClickOnRenters(GeicoHome.java:38)
+	at stepdefinitions.GeicoBBBHomeStepDefinition.i_verify_check_mark_on_renters(GeicoBBBHomeStepDefinition.java:58)
+	at ✽.i verify check mark on renters(file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHomeBBBB.feature:15)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Geico home page functionality check" name="Geico zip code field Check" time="49.881">
+        <failure message="element not interactable&#10;  (Session info: chrome=85.0.4183.121)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LAPTOP-16QDF0HT', ip: '192.168.1.159', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.4'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\jonho\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56859}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 069fb391edd849d1376c12a0c2ef6d6f" type="org.openqa.selenium.ElementNotInteractableException">
+            <![CDATA[Given I am in Geico homepage................................................passed
+When I click on zip code....................................................passed
+And I type zip code.........................................................failed
+And I hit enter on keyboard.................................................skipped
+Then i verify zip code result page..........................................skipped
+
+StackTrace:
+org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=85.0.4183.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-16QDF0HT', ip: '192.168.1.159', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\jonho\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56859}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 069fb391edd849d1376c12a0c2ef6d6f
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy26.clear(Unknown Source)
+	at geicohomeB.GeicoHome.enterZipCode(GeicoHome.java:79)
+	at stepdefinitions.GeicoBBBHomeStepDefinition.i_type_zip_code(GeicoBBBHomeStepDefinition.java:91)
+	at ✽.I type zip code(file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHomeBBBB.feature:20)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Geico home page functionality check" name="Geico location Icon Check" time="10.405">
+        <system-out>
+            <![CDATA[Given I am in Geico homepage................................................passed
+When I click on Icon logo...................................................passed
+Then I type zip code........................................................passed
+And I click on Update button................................................passed
+Then i verify updated location result.......................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Geico home page functionality check" name="Geico location Icon Check with invalid data" time="10.554">
+        <failure message="no match found expected:&lt;[Sorry, we couldn't find that ZIP code. Please try again.]&gt; but was:&lt;[]&gt;" type="org.junit.ComparisonFailure">
+            <![CDATA[Given I am in Geico homepage................................................passed
+When I click on Icon logo...................................................passed
+Then I type invalid zip code................................................passed
+And I click on Update button................................................passed
+Then i verify error message.................................................failed
+
+StackTrace:
+org.junit.ComparisonFailure: no match found expected:<[Sorry, we couldn't find that ZIP code. Please try again.]> but was:<[]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at geicohomeB.GeicoHome.validate_ClickOnIconInvalid(GeicoHome.java:97)
+	at stepdefinitions.GeicoBBBHomeStepDefinition.i_verify_error_message(GeicoBBBHomeStepDefinition.java:112)
+	at ✽.i verify error message(file:///C:/Users/jonho/IdeaProjects/BDDWebAutomationFramework_WA_NY_Team2/Geico/src/test/java/features/GeicoHomeBBBB.feature:36)
+]]>
+        </failure>
+    </testcase>
+</testsuite>

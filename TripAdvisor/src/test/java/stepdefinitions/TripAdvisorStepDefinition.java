@@ -3,11 +3,14 @@ package stepdefinitions;
 import common.WebAPI;
 import io.cucumber.java.After;
 import io.cucumber.java.BeforeStep;
+import io.cucumber.java.Scenario;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.support.PageFactory;
 import tripadvisorhome.TripAdvisorHomePage;
 
@@ -15,17 +18,21 @@ import java.io.IOException;
 
 public class TripAdvisorStepDefinition extends WebAPI {
 
-    static TripAdvisorHomePage tripAdvisorHomePage;
-    //cucumber hook
-    @After
-    public void closeBrowser(){
+    static TripAdvisorHomePage homePage;
 
+    @After // class project
+    public void tearDown(Scenario scenario) {
+        if (scenario.isFailed()) {
+            // Take a screenshot...
+            final byte[] screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
+            scenario.attach(screenshot, "image/png", "Demo"); // ... and embed it in the report.
+        }
         cleanUp();
     }
     @BeforeStep
     public static void getInIt(){
 
-        tripAdvisorHomePage= PageFactory.initElements(driver,TripAdvisorHomePage.class);
+        homePage= PageFactory.initElements(driver,TripAdvisorHomePage.class);
     }
 
     @Given("I am in TripAdvisor homepage")
@@ -35,19 +42,19 @@ public class TripAdvisorStepDefinition extends WebAPI {
 
     @And("I enter Cox's Bazar in searchBox")
     public void i_enter_cox_s_bazar_in_search_box() throws InterruptedException {
-        tripAdvisorHomePage.searchBoxCheck("Cox's Bazar");
+        homePage.searchBoxCheck("Cox's Bazar");
 
     }
 
     @When("I click searchButton")
     public void i_click_search_button() {
-        tripAdvisorHomePage.searchButtonClick();
+        homePage.searchButtonClick();
 
     }
 
     @Then("I verify Cox's Bazar is appear properly")
     public void i_verify_cox_s_bazar_is_appear_properly() throws InterruptedException {
-        tripAdvisorHomePage.searchButtonCheck("Cox's Bazar");
+        homePage.searchButtonCheck("Cox's Bazar");
 
     }
 
@@ -60,47 +67,62 @@ public class TripAdvisorStepDefinition extends WebAPI {
 
     @When("I click on Post")
     public void i_click_on_post() {
-        tripAdvisorHomePage.clickOnPost();
+        homePage.clickOnPost();
     }
 
     @And("I click Write a Review")
     public void i_click_write_a_review() {
-      tripAdvisorHomePage.clickOnWriteAReview();
+      homePage.clickOnWriteAReview();
     }
 
     @Then("I verify Review page")
     public void i_verify_review_page() {
-      tripAdvisorHomePage.validate_ClickOnWriteAReview();
+      homePage.validate_ClickOnWriteAReview();
     }
 
     @When("I click on Alerts")
     public void i_click_on_alerts() {
-        // Write code here that turns the phrase above into concrete actions
-        throw new io.cucumber.java.PendingException();
+       homePage.clickOnAlerts();
     }
 
     @And("I enter email address")
-    public void i_enter_email_address() {
-        // Write code here that turns the phrase above into concrete actions
-        throw new io.cucumber.java.PendingException();
+    public void i_enter_email_address(String email) {
+       homePage.enterEmail(email);
     }
 
     @And("I enter password")
-    public void i_enter_password() {
-        // Write code here that turns the phrase above into concrete actions
-        throw new io.cucumber.java.PendingException();
+    public void i_enter_password(String password) {
+    homePage.enterPassword(password);
     }
 
     @Then("i click on join")
     public void i_click_on_join() {
-        // Write code here that turns the phrase above into concrete actions
-        throw new io.cucumber.java.PendingException();
+        homePage.clickOnJoin();
     }
 
     @Then("i verify alerts page")
     public void i_verify_alerts_page() {
-        // Write code here that turns the phrase above into concrete actions
-        throw new io.cucumber.java.PendingException();
+       homePage.validate_ClickOnAlerts();
+    }
+//////////////////////////////////////////
+
+    @When("I click on SignIn")
+    public void i_click_on_sign_in() {
+        homePage.clickOnSignIn();
     }
 
+    @Then("I click on continue with email")
+    public void i_click_on_continue_with_email() {
+        homePage.clickOnContinueWithEmail();
+    }
+
+    @And("i enter password")
+    public void i_enter_password() {
+        homePage.enterPassword();
+    }
+
+    @Then("i verify error message")
+    public void i_verify_error_message() {
+       homePage.validate_ClickOnSignIn();
+    }
 }

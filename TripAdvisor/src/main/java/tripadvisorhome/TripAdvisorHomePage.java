@@ -9,6 +9,7 @@ import org.openqa.selenium.support.How;
 import static tripadvisorhome.TripAdvisorWebElements.*;
 
 public class TripAdvisorHomePage  extends WebAPI {
+    ////////////// bdd 1
     @FindBy(how = How.XPATH, using = tripAdvisorSearchBox)
     public WebElement searchBox;
     @FindBy(how = How.XPATH, using = searchButtonText)
@@ -25,7 +26,7 @@ public class TripAdvisorHomePage  extends WebAPI {
         String actualResult=searchButton.getText();
         Assert.assertEquals("text message- no match",expectedResult,actualResult);
     }
-    //bdd 3
+    ///////////////bdd 2
     @FindBy(how=How.XPATH, using=ExpectedWriteAReviewTextXp)
     WebElement expectedWriteReview;
     @FindBy(how=How.XPATH, using=writeAReviewText)
@@ -44,7 +45,7 @@ public class TripAdvisorHomePage  extends WebAPI {
         String expectedResult="Write a review - Tripadvisor";
         Assert.assertEquals("No match found", actualResult,expectedResult);
     }
-    //bdd.4
+    /////////////////bdd.3
     @FindBy(how=How.XPATH, using=alertsText)
     WebElement alerts;
     @FindBy(how=How.XPATH, using=continueWithEmailButton)
@@ -63,8 +64,8 @@ public class TripAdvisorHomePage  extends WebAPI {
         alerts.click();
         continueWithEmail.click();
     }
-    public void enterEmail(){
-        email.sendKeys("jonhossn@gmail.com");
+    public void enterEmail(String email){
+        this.email.sendKeys("jonhossn@gmail.com");
     }
     public void enterPassword(){
         password.sendKeys("Dhaka1219");
@@ -78,5 +79,46 @@ public class TripAdvisorHomePage  extends WebAPI {
         Assert.assertEquals("No match found", actualResult, expectedResult);
 
     }
+    /////////////////////////bddd 4
+//"Either your email or password was incorrect. Please try again or click the "Forgot password?" link below.";
+    @FindBy(how=How.XPATH, using=signInButton)
+    WebElement signIn;
+    @FindBy(how=How.XPATH, using=continueWithEml)
+    WebElement continueWith;
+    @FindBy(how=How.XPATH, using=emailAddressField)
+    WebElement email1;
+    @FindBy(how=How.XPATH, using=passwordField)
+    WebElement password1;
+    @FindBy(how=How.XPATH, using=joinButton1)
+    WebElement join1;
+    @FindBy(how=How.XPATH, using=expectedErrorMessage)
+    WebElement errorMessage;
+
+    public void clickOnSignIn(){
+    signIn.click();
+    }
+    public void clickOnContinueWithEmail(){
+        continueWith.click();
+    }
+    public void enterEmailAddress(String emailAddress){
+        email1.clear();
+        email1.sendKeys(emailAddress);
+    }
+    public void enterPassword(String password){
+        password1.clear();
+        password1.sendKeys(password);
+    }
+    public void clickOnJoin(){
+    join1.click();
+    }
+    public void validate_ClickOnSignIn() {
+        String actualResult = "Either your email or password was incorrect. Please try again or click the \"Forgot password?\" link below.";
+        String expectedResult = errorMessage.getText();
+        Assert.assertEquals("No match found", actualResult, expectedResult);
+
+    }
+
+
+
 
 }
